@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,23 +45,20 @@ msgstr "프로필"
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:25
 msgid ""
-"A video profile is a collection of common video settings (*size, frame rate, "
-"aspect ratio*). Profiles are used during editing, previewing, and exporting "
-"to provide a quick way to switch between common combinations of these "
+"A video profile is a collection of common video settings (*size, frame rate,"
+" aspect ratio*). Profiles are used during editing, previewing, and exporting"
+" to provide a quick way to switch between common combinations of these "
 "settings."
 msgstr ""
-"비디오 프로필은 일반적인 비디오 설정(*크기, 프레임 속도, 종횡비*)의 모음입니"
-"다. 프로필은 편집, 미리보기 및 내보내기 중에 이러한 설정의 일반적인 조합 간"
-"에 빠르게 전환할 수 있도록 사용됩니다."
+"비디오 프로필은 일반적인 비디오 설정(*크기, 프레임 속도, 종횡비*)의 모음입니다. 프로필은 편집, 미리보기 및 내보내기 중에 이러한 "
+"설정의 일반적인 조합 간에 빠르게 전환할 수 있도록 사용됩니다."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:29
 msgid ""
-"If you often use the same profile, you can set a default profile: :guilabel:"
-"`Edit→Preferences→Preview`."
-msgstr ""
-"자주 사용하는 프로필이 있다면 기본 프로필로 설정할 수 있습니다: :guilabel:`편"
-"집→환경설정→미리보기`."
+"If you often use the same profile, you can set a default profile: "
+":guilabel:`Edit→Preferences→Preview`."
+msgstr "자주 사용하는 프로필이 있다면 기본 프로필로 설정할 수 있습니다: :guilabel:`편집→환경설정→미리보기`."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:33
@@ -75,14 +72,12 @@ msgid ""
 "default project profile is ``HD 720p 30fps``. It is best practice to always "
 "switch to your target profile before you begin editing. For example, if you "
 "are targeting 1080p 30fps, switch to that profile before you begin editing "
-"your project. For a full list of included profiles see :ref:"
-"`profile_list_ref`."
+"your project. For a full list of included profiles see "
+":ref:`profile_list_ref`."
 msgstr ""
-"프로젝트 프로필은 프로젝트를 미리보고 편집할 때 사용됩니다. 기본 프로젝트 프"
-"로필은 ``HD 720p 30fps`` 입니다. 편집을 시작하기 전에 항상 목표 프로필로 전환"
-"하는 것이 좋습니다. 예를 들어, 1080p 30fps를 목표로 한다면 프로젝트 편집을 시"
-"작하기 전에 해당 프로필로 전환하세요. 포함된 프로필 전체 목록은 :ref:"
-"`profile_list_ref` 를 참조하세요."
+"프로젝트 프로필은 프로젝트를 미리보고 편집할 때 사용됩니다. 기본 프로젝트 프로필은 ``HD 720p 30fps`` 입니다. 편집을 "
+"시작하기 전에 항상 목표 프로필로 전환하는 것이 좋습니다. 예를 들어, 1080p 30fps를 목표로 한다면 프로젝트 편집을 시작하기 "
+"전에 해당 프로필로 전환하세요. 포함된 프로필 전체 목록은 :ref:`profile_list_ref` 를 참조하세요."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:40
@@ -91,46 +86,48 @@ msgid ""
 "your **Project Files**, and select the :guilabel:`Choose Profile` option "
 "(see :ref:`file_menu_ref`)."
 msgstr ""
-"**팁:** 프로필을 빠르게 선택하려면 **프로젝트 파일** 에서 아무 파일이나 마우"
-"스 오른쪽 버튼으로 클릭하고 :guilabel:`프로필 선택` 옵션을 선택하세요 (자세"
-"한 내용은 :ref:`file_menu_ref` 를 참조)."
+"**팁:** 프로필을 빠르게 선택하려면 **프로젝트 파일** 에서 아무 파일이나 마우스 오른쪽 버튼으로 클릭하고 "
+":guilabel:`프로필 선택` 옵션을 선택하세요 (자세한 내용은 :ref:`file_menu_ref` 를 참조)."
 
 # Translated with gpt-4.1-mini
-#: ../profiles.rst:46 ../profiles.rst:59 ../profiles.rst:86 ../profiles.rst:119
+#: ../profiles.rst:46 ../profiles.rst:59 ../profiles.rst:86
+#: ../profiles.rst:119
 msgid "#"
 msgstr "#"
 
 # Translated with gpt-4.1-mini
-#: ../profiles.rst:46 ../profiles.rst:59 ../profiles.rst:86 ../profiles.rst:119
+#: ../profiles.rst:46 ../profiles.rst:59 ../profiles.rst:86
+#: ../profiles.rst:119
 msgid "Name"
 msgstr "이름"
 
 # Translated with gpt-4.1-mini
-#: ../profiles.rst:46 ../profiles.rst:59 ../profiles.rst:86 ../profiles.rst:119
-#: ../profiles.rst:152 ../profiles.rst:187 ../profiles.rst:211
-#: ../profiles.rst:235 ../profiles.rst:259 ../profiles.rst:276
-#: ../profiles.rst:300 ../profiles.rst:324 ../profiles.rst:348
-#: ../profiles.rst:372 ../profiles.rst:396 ../profiles.rst:420
-#: ../profiles.rst:444 ../profiles.rst:468 ../profiles.rst:492
-#: ../profiles.rst:516 ../profiles.rst:536 ../profiles.rst:560
-#: ../profiles.rst:584 ../profiles.rst:608 ../profiles.rst:632
-#: ../profiles.rst:656 ../profiles.rst:680 ../profiles.rst:704
-#: ../profiles.rst:728 ../profiles.rst:757 ../profiles.rst:781
-#: ../profiles.rst:805 ../profiles.rst:829 ../profiles.rst:853
-#: ../profiles.rst:877 ../profiles.rst:901 ../profiles.rst:925
-#: ../profiles.rst:949 ../profiles.rst:973 ../profiles.rst:1000
-#: ../profiles.rst:1020 ../profiles.rst:1044 ../profiles.rst:1068
-#: ../profiles.rst:1097 ../profiles.rst:1124 ../profiles.rst:1155
-#: ../profiles.rst:1179 ../profiles.rst:1203 ../profiles.rst:1234
-#: ../profiles.rst:1259 ../profiles.rst:1292 ../profiles.rst:1316
-#: ../profiles.rst:1355 ../profiles.rst:1386 ../profiles.rst:1417
-#: ../profiles.rst:1448 ../profiles.rst:1492 ../profiles.rst:1519
-#: ../profiles.rst:1544
+#: ../profiles.rst:46 ../profiles.rst:59 ../profiles.rst:86
+#: ../profiles.rst:119 ../profiles.rst:152 ../profiles.rst:187
+#: ../profiles.rst:211 ../profiles.rst:235 ../profiles.rst:259
+#: ../profiles.rst:276 ../profiles.rst:300 ../profiles.rst:324
+#: ../profiles.rst:348 ../profiles.rst:372 ../profiles.rst:396
+#: ../profiles.rst:420 ../profiles.rst:444 ../profiles.rst:468
+#: ../profiles.rst:492 ../profiles.rst:516 ../profiles.rst:536
+#: ../profiles.rst:560 ../profiles.rst:584 ../profiles.rst:608
+#: ../profiles.rst:632 ../profiles.rst:656 ../profiles.rst:680
+#: ../profiles.rst:704 ../profiles.rst:728 ../profiles.rst:757
+#: ../profiles.rst:781 ../profiles.rst:805 ../profiles.rst:829
+#: ../profiles.rst:853 ../profiles.rst:877 ../profiles.rst:901
+#: ../profiles.rst:925 ../profiles.rst:949 ../profiles.rst:973
+#: ../profiles.rst:1000 ../profiles.rst:1020 ../profiles.rst:1044
+#: ../profiles.rst:1068 ../profiles.rst:1097 ../profiles.rst:1124
+#: ../profiles.rst:1155 ../profiles.rst:1179 ../profiles.rst:1203
+#: ../profiles.rst:1234 ../profiles.rst:1259 ../profiles.rst:1292
+#: ../profiles.rst:1316 ../profiles.rst:1355 ../profiles.rst:1386
+#: ../profiles.rst:1417 ../profiles.rst:1448 ../profiles.rst:1492
+#: ../profiles.rst:1519 ../profiles.rst:1544
 msgid "Description"
 msgstr "설명"
 
 # Translated with gpt-4.1-mini
-#: ../profiles.rst:48 ../profiles.rst:61 ../profiles.rst:88 ../profiles.rst:121
+#: ../profiles.rst:48 ../profiles.rst:61 ../profiles.rst:88
+#: ../profiles.rst:121
 msgid "1"
 msgstr "1"
 
@@ -145,25 +142,25 @@ msgid "The title bar of OpenShot displays the current profile"
 msgstr "OpenShot의 타이틀 바는 현재 프로필을 표시합니다"
 
 # Translated with gpt-4.1-mini
-#: ../profiles.rst:49 ../profiles.rst:62 ../profiles.rst:89 ../profiles.rst:122
-#: ../profiles.rst:192 ../profiles.rst:216 ../profiles.rst:240
-#: ../profiles.rst:281 ../profiles.rst:305 ../profiles.rst:329
-#: ../profiles.rst:353 ../profiles.rst:377 ../profiles.rst:401
-#: ../profiles.rst:425 ../profiles.rst:449 ../profiles.rst:473
-#: ../profiles.rst:497 ../profiles.rst:520 ../profiles.rst:541
-#: ../profiles.rst:565 ../profiles.rst:589 ../profiles.rst:613
-#: ../profiles.rst:637 ../profiles.rst:661 ../profiles.rst:685
-#: ../profiles.rst:709 ../profiles.rst:733 ../profiles.rst:762
-#: ../profiles.rst:786 ../profiles.rst:810 ../profiles.rst:834
-#: ../profiles.rst:858 ../profiles.rst:882 ../profiles.rst:906
-#: ../profiles.rst:930 ../profiles.rst:954 ../profiles.rst:978
-#: ../profiles.rst:1005 ../profiles.rst:1025 ../profiles.rst:1049
-#: ../profiles.rst:1073 ../profiles.rst:1102 ../profiles.rst:1129
-#: ../profiles.rst:1160 ../profiles.rst:1184 ../profiles.rst:1208
-#: ../profiles.rst:1239 ../profiles.rst:1264 ../profiles.rst:1297
-#: ../profiles.rst:1321 ../profiles.rst:1360 ../profiles.rst:1391
-#: ../profiles.rst:1422 ../profiles.rst:1453 ../profiles.rst:1497
-#: ../profiles.rst:1524 ../profiles.rst:1549
+#: ../profiles.rst:49 ../profiles.rst:62 ../profiles.rst:89
+#: ../profiles.rst:122 ../profiles.rst:192 ../profiles.rst:216
+#: ../profiles.rst:240 ../profiles.rst:281 ../profiles.rst:305
+#: ../profiles.rst:329 ../profiles.rst:353 ../profiles.rst:377
+#: ../profiles.rst:401 ../profiles.rst:425 ../profiles.rst:449
+#: ../profiles.rst:473 ../profiles.rst:497 ../profiles.rst:520
+#: ../profiles.rst:541 ../profiles.rst:565 ../profiles.rst:589
+#: ../profiles.rst:613 ../profiles.rst:637 ../profiles.rst:661
+#: ../profiles.rst:685 ../profiles.rst:709 ../profiles.rst:733
+#: ../profiles.rst:762 ../profiles.rst:786 ../profiles.rst:810
+#: ../profiles.rst:834 ../profiles.rst:858 ../profiles.rst:882
+#: ../profiles.rst:906 ../profiles.rst:930 ../profiles.rst:954
+#: ../profiles.rst:978 ../profiles.rst:1005 ../profiles.rst:1025
+#: ../profiles.rst:1049 ../profiles.rst:1073 ../profiles.rst:1102
+#: ../profiles.rst:1129 ../profiles.rst:1160 ../profiles.rst:1184
+#: ../profiles.rst:1208 ../profiles.rst:1239 ../profiles.rst:1264
+#: ../profiles.rst:1297 ../profiles.rst:1321 ../profiles.rst:1360
+#: ../profiles.rst:1391 ../profiles.rst:1422 ../profiles.rst:1453
+#: ../profiles.rst:1497 ../profiles.rst:1524 ../profiles.rst:1549
 msgid "2"
 msgstr "2"
 
@@ -207,9 +204,7 @@ msgstr "필터 / 검색"
 msgid ""
 "Filter the available profiles by typing a few characters (i.e. FHD, 720p, "
 "16:9, etc...)"
-msgstr ""
-"몇 글자를 입력하여 사용 가능한 프로필을 필터링하세요 (예: FHD, 720p, 16:9 "
-"등...)"
+msgstr "몇 글자를 입력하여 사용 가능한 프로필을 필터링하세요 (예: FHD, 720p, 16:9 등...)"
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:62
@@ -221,9 +216,7 @@ msgstr "선택된 프로필"
 msgid ""
 "Click on the desired profile, and then the :guilabel:`OK` button. You can "
 "also double click a profile to select it."
-msgstr ""
-"원하는 프로필을 클릭한 후 :guilabel:`확인` 버튼을 누르세요. 프로필을 더블 클"
-"릭하여 선택할 수도 있습니다."
+msgstr "원하는 프로필을 클릭한 후 :guilabel:`확인` 버튼을 누르세요. 프로필을 더블 클릭하여 선택할 수도 있습니다."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:63
@@ -263,15 +256,14 @@ msgstr "컨텍스트 메뉴"
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:65
 msgid ""
-"Right click on any row to :guilabel:`Set as Default Profile` or :guilabel:"
-"`Duplicate` a profile. Duplicated and custom profiles also include an :"
-"guilabel:`Edit` and :guilabel:`Delete` option. **Note**: *The current "
+"Right click on any row to :guilabel:`Set as Default Profile` or "
+":guilabel:`Duplicate` a profile. Duplicated and custom profiles also include"
+" an :guilabel:`Edit` and :guilabel:`Delete` option. **Note**: *The current "
 "profile can not be deleted*."
 msgstr ""
-"어떤 행에서든 우클릭하여 :guilabel:`기본 프로필로 설정` 또는 :guilabel:`복제`"
-"할 수 있습니다. 복제된 프로필과 사용자 정의 프로필에는 :guilabel:`편집` 및 :"
-"guilabel:`삭제` 옵션도 포함됩니다. **참고**: *현재 프로필은 삭제할 수 없습니"
-"다*."
+"어떤 행에서든 우클릭하여 :guilabel:`기본 프로필로 설정` 또는 :guilabel:`복제`할 수 있습니다. 복제된 프로필과 사용자"
+" 정의 프로필에는 :guilabel:`편집` 및 :guilabel:`삭제` 옵션도 포함됩니다. **참고**: *현재 프로필은 삭제할 수 "
+"없습니다*."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:71
@@ -288,21 +280,19 @@ msgid ""
 "rate, aspect ratio, and pixel ratio of the custom profile. **NOTE**: *It is "
 "important that each custom profile has a unique profile name*."
 msgstr ""
-"사용자 정의 프로필을 만들려면 OpenShot에서 아무 프로필이나 우클릭하고 :"
-"guilabel:`복제`를 선택하여 프로필 편집기를 엽니다. 사용자 정의 프로필에는 추"
-"가로 :guilabel:`편집` 및 :guilabel:`삭제` 옵션이 포함되어 있어 더 세부적으로 "
-"조정할 수 있습니다. 사용자 정의 프로필의 설명, 해상도, 프레임 속도, 종횡비, "
-"픽셀 비율을 편집할 수 있습니다. **참고**: *각 사용자 정의 프로필은 고유한 프"
-"로필 이름을 가져야 합니다*."
+"사용자 정의 프로필을 만들려면 OpenShot에서 아무 프로필이나 우클릭하고 :guilabel:`복제`를 선택하여 프로필 편집기를 "
+"엽니다. 사용자 정의 프로필에는 추가로 :guilabel:`편집` 및 :guilabel:`삭제` 옵션이 포함되어 있어 더 세부적으로 "
+"조정할 수 있습니다. 사용자 정의 프로필의 설명, 해상도, 프레임 속도, 종횡비, 픽셀 비율을 편집할 수 있습니다. **참고**: *각 "
+"사용자 정의 프로필은 고유한 프로필 이름을 가져야 합니다*."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:78
 msgid ""
-"The custom profiles are saved in the ``~/.openshot_qt/profiles/`` or ``C:"
-"\\Users\\USERNAME\\.openshot_qt\\profiles`` folder."
+"The custom profiles are saved in the ``~/.openshot_qt/profiles/`` or "
+"``C:\\Users\\USERNAME\\.openshot_qt\\profiles`` folder."
 msgstr ""
-"사용자 정의 프로필은 ``~/.openshot_qt/profiles/`` 또는 ``C:"
-"\\Users\\USERNAME\\.openshot_qt\\profiles`` 폴더에 저장됩니다."
+"사용자 정의 프로필은 ``~/.openshot_qt/profiles/`` 또는 "
+"``C:\\Users\\USERNAME\\.openshot_qt\\profiles`` 폴더에 저장됩니다."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:88
@@ -368,8 +358,8 @@ msgstr "**종횡비**"
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:93
 msgid ""
-"The display aspect ratio of the video (automatically calculated from width/"
-"height and pixel ratio)."
+"The display aspect ratio of the video (automatically calculated from "
+"width/height and pixel ratio)."
 msgstr "비디오의 표시 종횡비(가로/세로 및 픽셀 비율에서 자동 계산됨)입니다."
 
 # Translated with gpt-4.1-mini
@@ -387,9 +377,7 @@ msgstr "**픽셀 비율**"
 msgid ""
 "The aspect ratio of each pixel in the video. A ratio of 1:1 means square "
 "pixels (default)."
-msgstr ""
-"비디오 내 각 픽셀의 종횡비입니다. 1:1 비율은 정사각형 픽셀(기본값)을 의미합니"
-"다."
+msgstr "비디오 내 각 픽셀의 종횡비입니다. 1:1 비율은 정사각형 픽셀(기본값)을 의미합니다."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:95
@@ -414,10 +402,10 @@ msgstr "프로필 변환"
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:100
 msgid ""
-"When switching profiles (or exporting to a different profile), OpenShot will "
-"do it's best to convert all clip, transition, and keyframe data to the new "
-"framerate (FPS). Certain properties, such as `position`, `start`, `end`, and "
-"`keyframes` will be updated to match the new framerate precision. For "
+"When switching profiles (or exporting to a different profile), OpenShot will"
+" do it's best to convert all clip, transition, and keyframe data to the new "
+"framerate (FPS). Certain properties, such as `position`, `start`, `end`, and"
+" `keyframes` will be updated to match the new framerate precision. For "
 "example, if moving from 30 FPS to 25 FPS, these properties will be changed "
 "from increments of 1/30 seconds to increments of 1/25 seconds. In order to "
 "preserve the overall timing accuracy of the timeline, OpenShot will match "
@@ -427,25 +415,22 @@ msgid ""
 "seamless conversion for most video projects (with no noticeable black gaps "
 "between clips)."
 msgstr ""
-"프로필을 전환하거나 다른 프로필로 내보낼 때, OpenShot은 모든 클립, 전환, 키프"
-"레임 데이터를 새로운 프레임 속도(FPS)에 맞게 최대한 변환합니다. `position`, "
-"`start`, `end`, `keyframes`와 같은 특정 속성은 새로운 프레임 속도 정밀도에 맞"
-"게 업데이트됩니다. 예를 들어 30 FPS에서 25 FPS로 이동할 경우, 이 속성들은 "
-"1/30초 단위에서 1/25초 단위로 변경됩니다. 타임라인의 전체 타이밍 정확도를 유"
-"지하기 위해 OpenShot은 `position`과 `start` 트림을 최대한 일치시키고, 반올림"
-"이나 정밀도 변경으로 인한 1~3프레임 크기의 작은 간격은 `end` 트림을 조정하여 "
-"자동으로 해결합니다. 대부분의 비디오 프로젝트에서 클립 사이에 눈에 띄는 검은 "
-"간격 없이 원활한 변환이 이루어질 것입니다."
+"프로필을 전환하거나 다른 프로필로 내보낼 때, OpenShot은 모든 클립, 전환, 키프레임 데이터를 새로운 프레임 속도(FPS)에 맞게"
+" 최대한 변환합니다. `position`, `start`, `end`, `keyframes`와 같은 특정 속성은 새로운 프레임 속도 "
+"정밀도에 맞게 업데이트됩니다. 예를 들어 30 FPS에서 25 FPS로 이동할 경우, 이 속성들은 1/30초 단위에서 1/25초 단위로 "
+"변경됩니다. 타임라인의 전체 타이밍 정확도를 유지하기 위해 OpenShot은 `position`과 `start` 트림을 최대한 "
+"일치시키고, 반올림이나 정밀도 변경으로 인한 1~3프레임 크기의 작은 간격은 `end` 트림을 조정하여 자동으로 해결합니다. 대부분의 "
+"비디오 프로젝트에서 클립 사이에 눈에 띄는 검은 간격 없이 원활한 변환이 이루어질 것입니다."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:108
 msgid ""
 "However, the destructive nature of this conversion is why we recommend "
-"always editing in your target profile, or at least your target FPS, in order "
-"to avoid converting between profiles as much as possible."
+"always editing in your target profile, or at least your target FPS, in order"
+" to avoid converting between profiles as much as possible."
 msgstr ""
-"하지만 이 변환이 파괴적일 수 있으므로, 가능한 한 프로필 간 변환을 피하기 위"
-"해 항상 목표 프로필 또는 최소한 목표 FPS로 편집할 것을 권장합니다."
+"하지만 이 변환이 파괴적일 수 있으므로, 가능한 한 프로필 간 변환을 피하기 위해 항상 목표 프로필 또는 최소한 목표 FPS로 편집할 "
+"것을 권장합니다."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:112
@@ -457,18 +442,14 @@ msgstr "내보내기 프로필"
 msgid ""
 "The export profile always defaults to your current project profile, but can "
 "be changed to target different profiles."
-msgstr ""
-"내보내기 프로필은 항상 현재 프로젝트 프로필을 기본값으로 하지만, 다른 프로필"
-"로 변경할 수 있습니다."
+msgstr "내보내기 프로필은 항상 현재 프로젝트 프로필을 기본값으로 하지만, 다른 프로필로 변경할 수 있습니다."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:121
 msgid ""
 "Select an export profile from a dropdown. This list is sorted from largest "
 "resolution at the top, smallest resolution at the bottom."
-msgstr ""
-"드롭다운에서 내보내기 프로필을 선택하세요. 이 목록은 해상도가 큰 순서대로 위"
-"에서 아래로 정렬되어 있습니다."
+msgstr "드롭다운에서 내보내기 프로필을 선택하세요. 이 목록은 해상도가 큰 순서대로 위에서 아래로 정렬되어 있습니다."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:122
@@ -480,9 +461,7 @@ msgstr "프로필 검색"
 msgid ""
 "Open Profile dialog to filter and search for an export profile, which can "
 "sometimes be much quicker to find a specific profile."
-msgstr ""
-"내보내기 프로필을 필터링하고 검색할 수 있는 프로필 대화상자를 열어 특정 프로"
-"필을 더 빠르게 찾을 수 있습니다."
+msgstr "내보내기 프로필을 필터링하고 검색할 수 있는 프로필 대화상자를 열어 특정 프로필을 더 빠르게 찾을 수 있습니다."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:126
@@ -494,30 +473,26 @@ msgstr "사용자 정의 프로필"
 msgid ""
 "Although OpenShot has more than 400 profiles (:ref:`profile_list_ref`) "
 "included by default, you can also create your own custom profiles. Create a "
-"new text file in the ``~/.openshot_qt/profiles/`` or ``C:\\Users\\USERNAME\\."
-"openshot_qt\\profiles`` folder."
+"new text file in the ``~/.openshot_qt/profiles/`` or "
+"``C:\\Users\\USERNAME\\.openshot_qt\\profiles`` folder."
 msgstr ""
-"OpenShot에는 기본적으로 400개 이상의 프로필(:ref:`profile_list_ref`)이 포함되"
-"어 있지만, 직접 사용자 정의 프로필을 만들 수도 있습니다. ``~/.openshot_qt/"
-"profiles/`` 또는 ``C:\\Users\\USERNAME\\.openshot_qt\\profiles`` 폴더에 새 텍"
-"스트 파일을 만드세요."
+"OpenShot에는 기본적으로 400개 이상의 프로필(:ref:`profile_list_ref`)이 포함되어 있지만, 직접 사용자 정의 "
+"프로필을 만들 수도 있습니다. ``~/.openshot_qt/profiles/`` 또는 "
+"``C:\\Users\\USERNAME\\.openshot_qt\\profiles`` 폴더에 새 텍스트 파일을 만드세요."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:131
 msgid ""
 "NOTE: See :ref:`profiles_editor_ref` for an alternative method of "
 "duplicating an existing profile."
-msgstr ""
-"참고: 기존 프로필을 복제하는 다른 방법은 :ref:`profiles_editor_ref` 를 참조하"
-"세요."
+msgstr "참고: 기존 프로필을 복제하는 다른 방법은 :ref:`profiles_editor_ref` 를 참조하세요."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:133
 msgid ""
 "Use the following text as your template (*i.e. copy and paste this into the "
 "new file*):"
-msgstr ""
-"다음 텍스트를 템플릿으로 사용하세요 (*즉, 새 파일에 복사하여 붙여넣기*):"
+msgstr "다음 텍스트를 템플릿으로 사용하세요 (*즉, 새 파일에 복사하여 붙여넣기*):"
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:152
@@ -532,8 +507,8 @@ msgstr "설명"
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:154
 msgid ""
-"The friendly name of the profile (this is what OpenShot displays in the user "
-"interface)"
+"The friendly name of the profile (this is what OpenShot displays in the user"
+" interface)"
 msgstr "프로필의 친숙한 이름 (OpenShot 사용자 인터페이스에 표시되는 이름)"
 
 # Translated with gpt-4.1-mini
@@ -546,9 +521,7 @@ msgstr "프레임 속도 분자"
 msgid ""
 "The frame rate numerator. All frame rates are expressed as fractions. For "
 "example, ``30 FPS == 30/1``."
-msgstr ""
-"프레임 속도 분자. 모든 프레임 속도는 분수로 표현됩니다. 예를 들어, ``30 FPS "
-"== 30/1``."
+msgstr "프레임 속도 분자. 모든 프레임 속도는 분수로 표현됩니다. 예를 들어, ``30 FPS == 30/1``."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:156
@@ -560,9 +533,7 @@ msgstr "프레임 속도 분모"
 msgid ""
 "The frame rate denominator. All frame rates are expressed as fractions. For "
 "example, ``29.97 FPS == 30,000/1001``."
-msgstr ""
-"프레임 속도 분모. 모든 프레임 속도는 분수로 표현됩니다. 예를 들어, ``29.97 "
-"FPS == 30,000/1001``."
+msgstr "프레임 속도 분모. 모든 프레임 속도는 분수로 표현됩니다. 예를 들어, ``29.97 FPS == 30,000/1001``."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:157
@@ -574,9 +545,7 @@ msgstr "가로 해상도"
 msgid ""
 "The number of horizontal pixels in the image. By reversing the values for "
 "`width` and `height`, you can create a vertical profile."
-msgstr ""
-"이미지의 가로 픽셀 수입니다. `width`와 `height` 값을 바꾸면 세로 프로필을 만"
-"들 수 있습니다."
+msgstr "이미지의 가로 픽셀 수입니다. `width`와 `height` 값을 바꾸면 세로 프로필을 만들 수 있습니다."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:158
@@ -600,8 +569,7 @@ msgid ""
 "```(0 or 1)``` If 1, both even and odd rows of pixels are used. If 0, only "
 "odd or even rows of pixels are used."
 msgstr ""
-"``` (0 또는 1)``` 1이면 짝수 및 홀수 행의 픽셀을 모두 사용합니다. 0이면 홀수 "
-"또는 짝수 행의 픽셀만 사용합니다."
+"``` (0 또는 1)``` 1이면 짝수 및 홀수 행의 픽셀을 모두 사용합니다. 0이면 홀수 또는 짝수 행의 픽셀만 사용합니다."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:160
@@ -615,8 +583,8 @@ msgid ""
 "ratio would represent a square pixel, ``2:1`` ratio would represent a "
 "``2x1`` rectangle pixel shape, etc..."
 msgstr ""
-"**SAR** (샘플/픽셀 형태 종횡비)의 분자입니다. ``1:1`` 비율은 정사각형 픽셀"
-"을, ``2:1`` 비율은 ``2x1`` 직사각형 픽셀 형태를 나타냅니다."
+"**SAR** (샘플/픽셀 형태 종횡비)의 분자입니다. ``1:1`` 비율은 정사각형 픽셀을, ``2:1`` 비율은 ``2x1`` "
+"직사각형 픽셀 형태를 나타냅니다."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:161
@@ -642,9 +610,8 @@ msgid ""
 "screen, reduced to the smallest fraction possible (common ratios are 16:9 "
 "for wide formats, 4:3 for legacy television formats)."
 msgstr ""
-"**DAR** (화면 종횡비)의 분자입니다. ``(가로/세로) X (샘플 종횡비)``로 계산됩"
-"니다. 화면에 표시되는 최종 이미지 비율이며, 가능한 가장 작은 분수로 축소됩니"
-"다 (일반적인 비율은 와이드 포맷의 16:9, 구형 텔레비전 포맷의 4:3입니다)."
+"**DAR** (화면 종횡비)의 분자입니다. ``(가로/세로) X (샘플 종횡비)``로 계산됩니다. 화면에 표시되는 최종 이미지 "
+"비율이며, 가능한 가장 작은 분수로 축소됩니다 (일반적인 비율은 와이드 포맷의 16:9, 구형 텔레비전 포맷의 4:3입니다)."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:163
@@ -661,8 +628,7 @@ msgstr "**DAR** (화면 종횡비)의 분모입니다."
 msgid ""
 "Once you restart OpenShot, you will see your custom profile appear in the "
 "list of Profiles."
-msgstr ""
-"OpenShot을 다시 시작하면 사용자 지정 프로필이 프로필 목록에 표시됩니다."
+msgstr "OpenShot을 다시 시작하면 사용자 지정 프로필이 프로필 목록에 표시됩니다."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:171
@@ -676,14 +642,13 @@ msgid ""
 "profiles and their associated video export settings (``video codec``, "
 "``audio codec``, ``audio channels``, ``audio sample rate``, etc...), which "
 "target specific output formats, websites, and devices. The **default export "
-"preset** used by OpenShot is ``MP4 (h.264 + AAC)``, see :ref:"
-"`profiles_mp4_h264_ref`."
+"preset** used by OpenShot is ``MP4 (h.264 + AAC)``, see "
+":ref:`profiles_mp4_h264_ref`."
 msgstr ""
-"OpenShot은 여러 **내보내기 프리셋** 을 포함하며, 이는 일반 프로필 목록과 관련"
-"된 비디오 내보내기 설정(``비디오 코덱``, ``오디오 코덱``, ``오디오 채널``, ``"
-"오디오 샘플 레이트`` 등)을 결합하여 특정 출력 형식, 웹사이트 및 장치를 대상으"
-"로 합니다. OpenShot에서 사용하는 **기본 내보내기 프리셋** 은 ``MP4 (h.264 + "
-"AAC)`` 입니다. 자세한 내용은 :ref:`profiles_mp4_h264_ref` 를 참조하세요."
+"OpenShot은 여러 **내보내기 프리셋** 을 포함하며, 이는 일반 프로필 목록과 관련된 비디오 내보내기 설정(``비디오 코덱``, "
+"``오디오 코덱``, ``오디오 채널``, ``오디오 샘플 레이트`` 등)을 결합하여 특정 출력 형식, 웹사이트 및 장치를 대상으로 "
+"합니다. OpenShot에서 사용하는 **기본 내보내기 프리셋** 은 ``MP4 (h.264 + AAC)`` 입니다. 자세한 내용은 "
+":ref:`profiles_mp4_h264_ref` 를 참조하세요."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:178
@@ -1450,8 +1415,8 @@ msgid ""
 "compatible with most media players (such as VLC) and websites (such as "
 "YouTube, Vimeo, Facebook)."
 msgstr ""
-"이것은 OpenShot에서 사용하는 기본 내보내기 프리셋입니다. 이 형식은 대부분의 "
-"미디어 플레이어(VLC 등)와 웹사이트(YouTube, Vimeo, Facebook 등)와 호환됩니다."
+"이것은 OpenShot에서 사용하는 기본 내보내기 프리셋입니다. 이 형식은 대부분의 미디어 플레이어(VLC 등)와 "
+"웹사이트(YouTube, Vimeo, Facebook 등)와 호환됩니다."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:775
@@ -1650,10 +1615,9 @@ msgstr "NTSC SD 와이드스크린 아나모픽 480i 29.97 fps"
 msgid "Web"
 msgstr "웹"
 
-# Translated with gpt-4.1-mini
 #: ../profiles.rst:1091
-msgid "Flickr-HD"
-msgstr "Flickr-HD"
+msgid "Flickr"
+msgstr "Flickr"
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:0 ../profiles.rst:1662
@@ -1736,7 +1700,7 @@ msgid "1.7 Mb/s"
 msgstr "1.7 Mb/s"
 
 # Translated with gpt-4.1-mini
-#: ../profiles.rst:1228
+#: ../profiles.rst:1228 ../profiles.rst:1253
 msgid "Vimeo"
 msgstr "Vimeo"
 
@@ -1744,11 +1708,6 @@ msgstr "Vimeo"
 #: ../profiles.rst:0
 msgid "NTSC SD Wide FWVGA 480p 29.97 fps"
 msgstr "NTSC SD 와이드 FWVGA 480p 29.97 fps"
-
-# Translated with gpt-4.1-mini
-#: ../profiles.rst:1253
-msgid "Vimeo-HD"
-msgstr "Vimeo-HD"
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:1267
@@ -1785,10 +1744,9 @@ msgstr "HD 720p 24 fps"
 msgid "Wikipedia"
 msgstr "위키피디아"
 
-# Translated with gpt-4.1-mini
 #: ../profiles.rst:1310
-msgid "YouTube HD"
-msgstr "YouTube HD"
+msgid "YouTube"
+msgstr "YouTube"
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:1325
@@ -1840,10 +1798,9 @@ msgstr "FHD 세로 1080p 59.94 fps"
 msgid "FHD Vertical 1080p 60 fps"
 msgstr "FHD 세로 1080p 60 fps"
 
-# Translated with gpt-4.1-mini
 #: ../profiles.rst:1349
-msgid "YouTube HD (2K)"
-msgstr "YouTube HD (2K)"
+msgid "YouTube (2K)"
+msgstr "YouTube (2K)"
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:1363
@@ -1900,10 +1857,9 @@ msgstr "2.5K WQHD 1440p 59.94 fps"
 msgid "2.5K WQHD 1440p 60 fps"
 msgstr "2.5K WQHD 1440p 60 fps"
 
-# Translated with gpt-4.1-mini
 #: ../profiles.rst:1380
-msgid "YouTube HD (4K)"
-msgstr "YouTube HD (4K)"
+msgid "YouTube (4K)"
+msgstr "YouTube (4K)"
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:1394
@@ -1960,10 +1916,9 @@ msgstr "4K UHD 2160p 59.94 fps"
 msgid "4K UHD 2160p 60 fps"
 msgstr "4K UHD 2160p 60 fps"
 
-# Translated with gpt-4.1-mini
 #: ../profiles.rst:1411
-msgid "YouTube HD (8K)"
-msgstr "YouTube HD (8K)"
+msgid "YouTube (8K)"
+msgstr "YouTube (8K)"
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:1425
@@ -2143,22 +2098,20 @@ msgstr "프로필 목록"
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:1567
 msgid ""
-"OpenShot includes over 400 built-in video profiles. These profiles match the "
-"most common video project sizes and frame rates used around the world. It is "
-"recommended to edit your project using the same profile as you intend to "
+"OpenShot includes over 400 built-in video profiles. These profiles match the"
+" most common video project sizes and frame rates used around the world. It "
+"is recommended to edit your project using the same profile as you intend to "
 "export. You can also edit your project with different profiles which match "
 "your target aspect ratio, for example: all ``16:9`` profiles are generally "
 "compatible with each other. Sometimes it can be useful to edit a project in "
 "a lower resolution profile, and export in a higher resolution profile. A "
 "full list of profiles is provided below."
 msgstr ""
-"OpenShot에는 400개 이상의 내장 비디오 프로필이 포함되어 있습니다. 이 프로필들"
-"은 전 세계에서 가장 일반적으로 사용되는 비디오 프로젝트 크기와 프레임 속도에 "
-"맞춰져 있습니다. 내보내려는 프로필과 동일한 프로필을 사용하여 프로젝트를 편집"
-"하는 것이 권장됩니다. 또한 대상 종횡비에 맞는 다른 프로필로 프로젝트를 편집"
-"할 수도 있습니다. 예를 들어, 모든 ``16:9`` 프로필은 일반적으로 서로 호환됩니"
-"다. 때로는 낮은 해상도 프로필로 프로젝트를 편집하고 높은 해상도 프로필로 내보"
-"내는 것이 유용할 수 있습니다. 전체 프로필 목록은 아래에 제공됩니다."
+"OpenShot에는 400개 이상의 내장 비디오 프로필이 포함되어 있습니다. 이 프로필들은 전 세계에서 가장 일반적으로 사용되는 비디오 "
+"프로젝트 크기와 프레임 속도에 맞춰져 있습니다. 내보내려는 프로필과 동일한 프로필을 사용하여 프로젝트를 편집하는 것이 권장됩니다. 또한 "
+"대상 종횡비에 맞는 다른 프로필로 프로젝트를 편집할 수도 있습니다. 예를 들어, 모든 ``16:9`` 프로필은 일반적으로 서로 "
+"호환됩니다. 때로는 낮은 해상도 프로필로 프로젝트를 편집하고 높은 해상도 프로필로 내보내는 것이 유용할 수 있습니다. 전체 프로필 목록은"
+" 아래에 제공됩니다."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:1576
@@ -2170,8 +2123,7 @@ msgstr "프로필 정의"
 msgid ""
 "**Profile Name**: Short, friendly name for a video profile (e.g., FHD 1080p "
 "30 fps)"
-msgstr ""
-"**프로필 이름**: 비디오 프로필의 짧고 친근한 이름 (예: FHD 1080p 30 fps)"
+msgstr "**프로필 이름**: 비디오 프로필의 짧고 친근한 이름 (예: FHD 1080p 30 fps)"
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:1579
@@ -2188,13 +2140,12 @@ msgstr "**DAR**: 디스플레이 종횡비 (예: 1920:1080은 16:9가 됨)"
 msgid ""
 "**SAR**: Sample Aspect Ratio (e.g., 1:1 square pixel, 2:1 horizontal "
 "rectangular pixel). The SAR directly affects the display aspect ratio. For "
-"instance, a 4:3 video can be displayed as 16:9 using rectangular pixels. Non-"
-"square pixels adjust the final display width."
+"instance, a 4:3 video can be displayed as 16:9 using rectangular pixels. "
+"Non-square pixels adjust the final display width."
 msgstr ""
-"**SAR**: 샘플 종횡비 (예: 1:1 정사각형 픽셀, 2:1 수평 직사각형 픽셀). SAR은 "
-"디스플레이 종횡비에 직접 영향을 미칩니다. 예를 들어, 4:3 비디오는 직사각형 픽"
-"셀을 사용하여 16:9로 표시할 수 있습니다. 비정사각형 픽셀은 최종 디스플레이 너"
-"비를 조정합니다."
+"**SAR**: 샘플 종횡비 (예: 1:1 정사각형 픽셀, 2:1 수평 직사각형 픽셀). SAR은 디스플레이 종횡비에 직접 영향을 "
+"미칩니다. 예를 들어, 4:3 비디오는 직사각형 픽셀을 사용하여 16:9로 표시할 수 있습니다. 비정사각형 픽셀은 최종 디스플레이 너비를"
+" 조정합니다."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:1582
@@ -2210,9 +2161,7 @@ msgstr "**SAR 조정 너비**: SAR을 고려한 최종 디스플레이 너비"
 #: ../profiles.rst:1584
 msgid ""
 "**Interlaced**: Alternating odd and even lines, used in analog broadcasting"
-msgstr ""
-"**인터레이스**: 홀수와 짝수 라인이 교대로 나타나는 방식, 아날로그 방송에 사용"
-"됨"
+msgstr "**인터레이스**: 홀수와 짝수 라인이 교대로 나타나는 방식, 아날로그 방송에 사용됨"
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:1585
@@ -2224,9 +2173,7 @@ msgstr "**NTSC**: 미국의 아날로그 TV 시스템 (보통 29.97 fps)"
 msgid ""
 "**PAL**: Analog TV system in Europe, Australia, and much of the world "
 "(usually 25 fps)"
-msgstr ""
-"**PAL**: 유럽, 호주 및 전 세계 대부분에서 사용하는 아날로그 TV 시스템 (보통 "
-"25 fps)"
+msgstr "**PAL**: 유럽, 호주 및 전 세계 대부분에서 사용하는 아날로그 TV 시스템 (보통 25 fps)"
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:1587
@@ -5262,3 +5209,27 @@ msgstr "NTSC SD SQ CIF 96p 25 fps"
 #: ../profiles.rst:2021
 msgid "NTSC SD SQ CIF 96p 15 fps"
 msgstr "NTSC SD SQ CIF 96p 15 fps"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Flickr-HD"
+#~ msgstr "Flickr-HD"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Vimeo-HD"
+#~ msgstr "Vimeo-HD"
+
+# Translated with gpt-4.1-mini
+#~ msgid "YouTube HD"
+#~ msgstr "YouTube HD"
+
+# Translated with gpt-4.1-mini
+#~ msgid "YouTube HD (2K)"
+#~ msgstr "YouTube HD (2K)"
+
+# Translated with gpt-4.1-mini
+#~ msgid "YouTube HD (4K)"
+#~ msgstr "YouTube HD (4K)"
+
+# Translated with gpt-4.1-mini
+#~ msgid "YouTube HD (8K)"
+#~ msgstr "YouTube HD (8K)"

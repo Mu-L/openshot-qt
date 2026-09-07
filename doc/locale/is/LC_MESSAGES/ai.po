@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-02 17:20-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,16 +26,17 @@ msgstr "Háþróað gervigreind: ComfyUI"
 # Translated with gpt-4.1-mini
 #: ../ai.rst:25
 msgid ""
-"OpenShot can connect to a local `ComfyUI <https://github.com/comfyanonymous/"
-"ComfyUI>`_ server and run AI workflows from the Project Files and Timeline "
-"context menus. This page explains what these tools are, what hardware they "
-"require, and where the built-in workflow templates live."
+"OpenShot can connect to a local `ComfyUI "
+"<https://github.com/comfyanonymous/ComfyUI>`_ server and run AI workflows "
+"from the Project Files and Timeline context menus. This page explains what "
+"these tools are, what hardware they require, and where the built-in workflow"
+" templates live."
 msgstr ""
-"OpenShot getur tengst staðbundnum `ComfyUI <https://github.com/"
-"comfyanonymous/ComfyUI>`_ netþjóni og keyrt gervigreind verkflæði úr "
-"verkefnaskrám og tímalínu samhengisvalmyndum. Þessi síða útskýrir hver þessi "
-"verkfæri eru, hvaða vélbúnað þau þurfa og hvar innbyggðu verkflæðissniðmátin "
-"búa."
+"OpenShot getur tengst staðbundnum `ComfyUI "
+"<https://github.com/comfyanonymous/ComfyUI>`_ netþjóni og keyrt gervigreind "
+"verkflæði úr verkefnaskrám og tímalínu samhengisvalmyndum. Þessi síða "
+"útskýrir hver þessi verkfæri eru, hvaða vélbúnað þau þurfa og hvar innbyggðu"
+" verkflæðissniðmátin búa."
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:30
@@ -61,8 +62,8 @@ msgid ""
 "You must run a local `ComfyUI <https://github.com/comfyanonymous/ComfyUI>`_ "
 "server."
 msgstr ""
-"Þú verður að keyra staðbundinn `ComfyUI <https://github.com/comfyanonymous/"
-"ComfyUI>`_ þjón."
+"Þú verður að keyra staðbundinn `ComfyUI "
+"<https://github.com/comfyanonymous/ComfyUI>`_ þjón."
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:34
@@ -179,8 +180,8 @@ msgstr ""
 
 #: ../ai.rst:63
 msgid ""
-"Start ComfyUI, then open :guilabel:`Edit->Preferences->Advanced` and set :"
-"guilabel:`ComfyUI URL`."
+"Start ComfyUI, then open :guilabel:`Edit->Preferences->Advanced` and set "
+":guilabel:`ComfyUI URL`."
 msgstr ""
 "Byrjaðu ComfyUI, opnaðu síðan :guilabel:`Edit->Preferences->Advanced` og "
 "stilltu :guilabel:`ComfyUI URL`."
@@ -195,22 +196,23 @@ msgstr ""
 # Translated with gpt-4.1-mini
 #: ../ai.rst:66
 msgid ""
-"For a full step-by-step server setup guide, see the OpenShot wiki: `ComfyUI: "
-"Advanced AI Setup Guide <https://github.com/OpenShot/openshot-qt/wiki/"
-"ComfyUI:-Advanced-AI-Setup-Guide>`_."
+"For a full step-by-step server setup guide, see the OpenShot wiki: `ComfyUI:"
+" Advanced AI Setup Guide <https://github.com/OpenShot/openshot-"
+"qt/wiki/ComfyUI:-Advanced-AI-Setup-Guide>`_."
 msgstr ""
 "Fyrir fulla skref-fyrir-skref netþjóns uppsetningarleiðbeiningu, sjá "
-"OpenShot wiki: `ComfyUI: Advanced AI Setup Guide <https://github.com/"
-"OpenShot/openshot-qt/wiki/ComfyUI:-Advanced-AI-Setup-Guide>`_."
+"OpenShot wiki: `ComfyUI: Advanced AI Setup Guide "
+"<https://github.com/OpenShot/openshot-qt/wiki/ComfyUI:-Advanced-AI-Setup-"
+"Guide>`_."
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:69
 msgid ""
-"For full ComfyUI installation details, see the official repository: `ComfyUI "
-"on GitHub <https://github.com/comfyanonymous/ComfyUI>`_."
+"For full ComfyUI installation details, see the official repository: `ComfyUI"
+" on GitHub <https://github.com/comfyanonymous/ComfyUI>`_."
 msgstr ""
-"Fyrir fullar upplýsingar um uppsetningu ComfyUI, skoðaðu opinbera geymsluna: "
-"`ComfyUI on GitHub <https://github.com/comfyanonymous/ComfyUI>`_."
+"Fyrir fullar upplýsingar um uppsetningu ComfyUI, skoðaðu opinbera geymsluna:"
+" `ComfyUI on GitHub <https://github.com/comfyanonymous/ComfyUI>`_."
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:73
@@ -220,11 +222,11 @@ msgstr "Nauðsynlegir sérsniðnir hnútar"
 # Translated with gpt-4.1-mini
 #: ../ai.rst:75
 msgid ""
-"`comfyui_controlnet_aux <https://github.com/Fannovel16/"
-"comfyui_controlnet_aux>`_"
+"`comfyui_controlnet_aux "
+"<https://github.com/Fannovel16/comfyui_controlnet_aux>`_"
 msgstr ""
-"`comfyui_controlnet_aux <https://github.com/Fannovel16/"
-"comfyui_controlnet_aux>`_"
+"`comfyui_controlnet_aux "
+"<https://github.com/Fannovel16/comfyui_controlnet_aux>`_"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:76
@@ -357,14 +359,16 @@ msgstr "``ComfyUI/models/text_encoders/t5-base.safetensors``"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:102
-msgid "``ComfyUI/models/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors``"
+msgid ""
+"``ComfyUI/models/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors``"
 msgstr ""
 "``ComfyUI/models/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors``"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:103
 msgid "``ComfyUI/models/TTS/Ace-Step1.5/acestep-v15-turbo/silence_latent.pt``"
-msgstr "``ComfyUI/models/TTS/Ace-Step1.5/acestep-v15-turbo/silence_latent.pt``"
+msgstr ""
+"``ComfyUI/models/TTS/Ace-Step1.5/acestep-v15-turbo/silence_latent.pt``"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:104
@@ -384,11 +388,11 @@ msgstr "``ComfyUI/models/vae/wan2.2_vae.safetensors``"
 # Translated with gpt-4.1-mini
 #: ../ai.rst:107
 msgid ""
-"``ComfyUI/models/VLM/transnetv2-pytorch-weights/transnetv2-pytorch-weights."
-"pth``"
+"``ComfyUI/models/VLM/transnetv2-pytorch-weights/transnetv2-pytorch-"
+"weights.pth``"
 msgstr ""
-"``ComfyUI/models/VLM/transnetv2-pytorch-weights/transnetv2-pytorch-weights."
-"pth``"
+"``ComfyUI/models/VLM/transnetv2-pytorch-weights/transnetv2-pytorch-"
+"weights.pth``"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:110
@@ -444,8 +448,8 @@ msgstr ""
 #: ../ai.rst:134
 msgid ""
 "If ComfyUI is unavailable, OpenShot disables the AI menus. Configure the "
-"server URL in :guilabel:`Edit->Preferences->Advanced`, then use the :"
-"guilabel:`Check` button to test connectivity."
+"server URL in :guilabel:`Edit->Preferences->Advanced`, then use the "
+":guilabel:`Check` button to test connectivity."
 msgstr ""
 "Ef ComfyUI er ekki tiltækt slekkur OpenShot á gervigreindarvalmyndum. "
 "Stilltu vefslóð netþjónsins í :guilabel:`Breyta->Preferences->Advanced`, "
@@ -496,8 +500,8 @@ msgstr "Endurræstu OpenShot, eða opnaðu verkefnið aftur ef þörf krefur."
 # Translated with gpt-4.1-mini
 #: ../ai.rst:151
 msgid ""
-"OpenShot will automatically load the workflow and show it in the appropriate "
-"AI menu. When you trigger it from OpenShot, the selected source file is "
+"OpenShot will automatically load the workflow and show it in the appropriate"
+" AI menu. When you trigger it from OpenShot, the selected source file is "
 "passed into the workflow, and the output from the workflow's final output "
 "node is imported back into :guilabel:`Project Files`."
 msgstr ""
@@ -512,8 +516,8 @@ msgid ""
 "OpenShot also writes a ``.openshot_qt/comfyui/debug.json`` payload for "
 "advanced users who want to inspect the exact request sent to ComfyUI."
 msgstr ""
-"OpenShot skrifar einnig ``.openshot_qt/comfyui/debug.json`` gagnapakka fyrir "
-"háþróaða notendur sem vilja skoða nákvæma beiðni sem send er til ComfyUI."
+"OpenShot skrifar einnig ``.openshot_qt/comfyui/debug.json`` gagnapakka fyrir"
+" háþróaða notendur sem vilja skoða nákvæma beiðni sem send er til ComfyUI."
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:160
@@ -595,31 +599,32 @@ msgstr "Gefðu eftirfylgnipunkta/ferninga fyrir eftirfylgnisvinnuflæði."
 msgid ""
 "Start the job with :guilabel:`Generate` or close with :guilabel:`Cancel`."
 msgstr ""
-"Byrjaðu verkefnið með :guilabel:`Mynda` eða lokaðu með :guilabel:`Hætta við`."
+"Byrjaðu verkefnið með :guilabel:`Mynda` eða lokaðu með :guilabel:`Hætta "
+"við`."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:184
+#: ../ai.rst:186
 msgid "Tracking (Mask, Blur, Highlight)"
 msgstr "Eftirfylgni (Gríma, Óskýrt, Áhersla)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:186
+#: ../ai.rst:188
 msgid ""
-"Tracking workflows (:guilabel:`Blur...`, :guilabel:`Highlight...`, :guilabel:"
-"`Mask...`) use a region screen where you mark what to include and what to "
-"ignore."
+"Tracking workflows (:guilabel:`Blur...`, :guilabel:`Highlight...`, "
+":guilabel:`Mask...`) use a region screen where you mark what to include and "
+"what to ignore."
 msgstr ""
-"Eftirfylgnisvinnuflæði (:guilabel:`Óskýrt...`, :guilabel:`Áhersla...`, :"
-"guilabel:`Gríma...`) nota svæðisskjá þar sem þú merkir hvað á að taka með og "
-"hvað á að hunsa."
+"Eftirfylgnisvinnuflæði (:guilabel:`Óskýrt...`, :guilabel:`Áhersla...`, "
+":guilabel:`Gríma...`) nota svæðisskjá þar sem þú merkir hvað á að taka með "
+"og hvað á að hunsa."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:193
+#: ../ai.rst:195
 msgid "Why this matters"
 msgstr "Af hverju þetta skiptir máli"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:195
+#: ../ai.rst:197
 msgid ""
 "Tracking helps your effect stay attached to a moving subject over time. For "
 "example, you can blur a face, highlight a player, or generate a clean mask "
@@ -630,183 +635,188 @@ msgstr ""
 "hreina grímu sem fylgir sama hlut yfir margar rammar."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:200
+#: ../ai.rst:202
 msgid "Tracking Icons"
 msgstr "Eftirfylgnitákn"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:206
+#: ../ai.rst:208
 msgid "Icon / Marker"
 msgstr "Tákn / Merki"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:207
+#: ../ai.rst:209
 msgid "Meaning"
 msgstr "Merking"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:208
+#: ../ai.rst:210
 msgid "Blue dot"
 msgstr "Blár punktur"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:209
+#: ../ai.rst:211
 msgid "Positive tracking coordinate (foreground/subject seed point)."
 msgstr "Jákvætt eftirfylgnistaðsetning (fyrirgrunns-/viðfangspunktur)."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:210
+#: ../ai.rst:212
 msgid "Red dot"
 msgstr "Rauður punktur"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:211
+#: ../ai.rst:213
 msgid "Negative tracking coordinate (background/exclusion seed point)."
 msgstr "Neikvætt eftirfylgnistaðsetning (bakgrunns-/útilokunarpunktur)."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:212
+#: ../ai.rst:214
 msgid "Blue rectangle"
 msgstr "Blár ferningur"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:213
+#: ../ai.rst:215
 msgid "Positive region seed (broad subject hint)."
 msgstr "Jákvætt svæðisfræ (víðtækur vísbending um viðfang)."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:214
+#: ../ai.rst:216
 msgid "Red rectangle"
 msgstr "Rauður ferningur"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:215
+#: ../ai.rst:217
 msgid "Negative region seed (broad exclusion hint)."
 msgstr "Neikvætt svæðisfræ (víðtæk útilokunarvísbending)."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:216
+#: ../ai.rst:218
 msgid "Delete icon"
 msgstr "Eyða tákni"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:217
+#: ../ai.rst:219
 msgid "Clear all current tracking seeds (points/rectangles) and start over."
 msgstr ""
 "Hreinsa öll núverandi eftirfylgnisfræ (punkta/ferninga) og byrja upp á nýtt."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:220
+#: ../ai.rst:222
 msgid "How Tracking Works"
 msgstr "Hvernig eftirfylgni virkar"
 
-# Translated with gpt-4.1-mini
-#: ../ai.rst:222
+#: ../ai.rst:224
 msgid ""
-"OpenShot sends your positive and negative markers as seed coordinates to the "
-"tracking model, which builds a mask for the subject and then follows it over "
-"time. Better seeds usually produce cleaner masks and less drift. [sam2]_"
+"OpenShot sends your positive and negative markers as seed coordinates to the"
+" tracking model, which builds a mask for the subject and then follows it "
+"over time. Better seeds usually produce cleaner masks and less drift. This "
+"workflow uses `SAM2 (Segment Anything Model 2) "
+"<https://github.com/facebookresearch/sam2>`_."
 msgstr ""
-"OpenShot sendir jákvæðu og neikvæðu merkimiðana þína sem fræhnit til "
-"eftirfylgnilíkansins, sem byggir grímu fyrir viðfangið og fylgir því svo með "
-"tímanum. Betri fræ gefa yfirleitt hreinni grímur og minni skekkju. [sam2]_"
+"OpenShot sendir jákvæð og neikvæð merki þín sem fræhnit til "
+"eftirfylgnilíkansins, sem býr til grímu fyrir viðfangsefnið og fylgir því "
+"síðan með tímanum. Betri fræ venjulega framleiða hreinni grímur og minni "
+"skekkju. Þessi vinnuflæði notar `SAM2 (Segment Anything Model 2) "
+"<https://github.com/facebookresearch/sam2>`_."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:227
+#: ../ai.rst:230
 msgid "How to use it"
 msgstr "Hvernig á að nota það"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:229
+#: ../ai.rst:232
 msgid "Pick a frame where the subject is clearly visible."
 msgstr "Veldu ramma þar sem viðfangið sést skýrt."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:230
+#: ../ai.rst:233
 msgid "Start with one blue dot on the subject."
 msgstr "Byrjaðu með einn bláan punkt á viðfanginu."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:231
+#: ../ai.rst:234
 msgid "Add red dots on nearby background only if needed."
 msgstr "Bættu við rauðum punktum á nálægan bakgrunn aðeins ef þörf er á."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:232
+#: ../ai.rst:235
 msgid "Add rectangles when you need faster broad selection."
 msgstr "Bættu við ferningum þegar þú þarft hraðari víðtæka val."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:233
+#: ../ai.rst:236
 msgid "Repeat on additional frames when motion/shape changes."
 msgstr "Endurtaktu á fleiri ramma þegar hreyfing/lögun breytist."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:235
+#: ../ai.rst:238
 msgid "Adjusting over time (frame slider):"
 msgstr "Stilling með tímanum (rammasleði):"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:237
+#: ../ai.rst:240
 msgid "Move the frame slider to different moments in the clip."
 msgstr "Færðu rammaskrunann á mismunandi augnablik í klippunni."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:238
-msgid "Add or adjust dots/rectangles on frames where tracking starts to drift."
+#: ../ai.rst:241
+msgid ""
+"Add or adjust dots/rectangles on frames where tracking starts to drift."
 msgstr ""
 "Bættu við eða stilltu punkta/ferninga á ramma þar sem eftirfylgni byrjar að "
 "víkja."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:239
+#: ../ai.rst:242
 msgid ""
-"Use additional seed points only where needed, especially on occlusions, fast "
-"motion, or major shape changes."
+"Use additional seed points only where needed, especially on occlusions, fast"
+" motion, or major shape changes."
 msgstr ""
 "Notaðu viðbótar fræpunkta aðeins þar sem þörf er, sérstaklega við skugga, "
 "hraða hreyfingu eða miklar lögunarbreytingar."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:241
+#: ../ai.rst:244
 msgid "**Mask Preview Output (from this tracking process):**"
 msgstr "**Forskoðun á grímuúttaki (frá þessari eftirfylgnivinnslu):**"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:246
+#: ../ai.rst:249
 msgid "Best Practices"
 msgstr "Bestu vinnubrögð"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:248
+#: ../ai.rst:251
 msgid "Use a short test clip first."
 msgstr "Notaðu fyrst stutta prófunarklippu."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:249
+#: ../ai.rst:252
 msgid "Start simple: a single blue dot is often enough."
 msgstr "Byrjaðu einfalt: einn blár punktur er oft nægur."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:250
+#: ../ai.rst:253
 msgid "Add more points only where tracking fails."
 msgstr "Bættu við fleiri punktum aðeins þar sem eftirfylgni bilar."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:251
+#: ../ai.rst:254
 msgid ""
-"If needed, add a more nuanced set of positive/negative points and rectangles."
+"If needed, add a more nuanced set of positive/negative points and "
+"rectangles."
 msgstr ""
 "Ef þörf krefur, bættu við nákvæmari sett af jákvæðum/neikvæðum punktum og "
 "ferningum."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:252
+#: ../ai.rst:255
 msgid "Keep positive and negative points separated clearly."
 msgstr "Haltu jákvæðum og neikvæðum punktum skýrt aðskildum."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:253
+#: ../ai.rst:256
 msgid ""
 "If tracking becomes messy, use the Delete icon and restart with cleaner "
 "seeds."
@@ -815,21 +825,12 @@ msgstr ""
 "hreinni fræjum."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:255
-msgid ""
-"*SAM2 (Segment Anything Model 2) project:* `facebookresearch/sam2 <https://"
-"github.com/facebookresearch/sam2>`_"
-msgstr ""
-"*SAM2 (Segment Anything Model 2) verkefnið:* `facebookresearch/sam2 <https://"
-"github.com/facebookresearch/sam2>`_"
-
-# Translated with gpt-4.1-mini
-#: ../ai.rst:258
+#: ../ai.rst:259
 msgid "Job Queue, Progress, and Cancel"
 msgstr "Verkbiðröð, Framvinda og Hætta við"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:260
+#: ../ai.rst:261
 msgid ""
 "After you click :guilabel:`Generate`, the request is queued and runs in "
 "OpenShot's AI job queue."
@@ -838,17 +839,17 @@ msgstr ""
 "keyrð í AI-verkbiðröð OpenShot."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:263
+#: ../ai.rst:264
 msgid ""
 "Progress is shown in :guilabel:`Project Files` (badges and status text)."
 msgstr "Framvinda er sýnd í :guilabel:`Project Files` (merki og stöðutexti)."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:264
+#: ../ai.rst:265
 msgid "Completed outputs are imported back into :guilabel:`Project Files`."
 msgstr "Lokið úttak er flutt aftur inn í :guilabel:`Project Files`."
 
-#: ../ai.rst:265
+#: ../ai.rst:266
 msgid ""
 "Active jobs can be canceled by right-clicking the generated project file "
 "with the progress bar and choosing :guilabel:`Cancel Job`."
@@ -857,17 +858,17 @@ msgstr ""
 "verkefnaskrána með framvindustikunni og velja :guilabel:`Cancel Job`."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:266
+#: ../ai.rst:267
 msgid "Outputs are written under ``.openshot_qt/comfyui-output/``."
 msgstr "Úttak eru skrifuð undir ``.openshot_qt/comfyui-output/``."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:269
+#: ../ai.rst:270
 msgid "Built-in JSON Workflows"
 msgstr "Innbyggð JSON vinnuflæði"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:271
+#: ../ai.rst:272
 msgid ""
 "The sections below map directly to built-in JSON templates in ``comfyui/``. "
 "Each subsection describes why you might use it, how to run it, and key "
@@ -878,59 +879,59 @@ msgstr ""
 "á að keyra það og helstu upplýsingar."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:275
+#: ../ai.rst:276
 msgid "Create with AI"
 msgstr "Búa til með AI"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:278
+#: ../ai.rst:279
 msgid "Image... (``txt2img-basic``)"
 msgstr "Mynd... (``txt2img-basic``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:280
+#: ../ai.rst:281
 msgid "Why: Generate still images from a text prompt."
 msgstr "Af hverju: Búa til kyrrmyndir úr texta."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:281
+#: ../ai.rst:282
 msgid ""
 "How: Choose :guilabel:`Create with AI` -> :guilabel:`Image...`, enter a "
 "prompt, then generate."
 msgstr ""
-"Hvernig: Veldu :guilabel:`Create with AI` -> :guilabel:`Image...`, sláðu inn "
-"texta og búðu til."
+"Hvernig: Veldu :guilabel:`Create with AI` -> :guilabel:`Image...`, sláðu inn"
+" texta og búðu til."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:282
+#: ../ai.rst:283
 msgid ""
-"Details: Uses ``comfyui/txt2img-basic.json`` with ``sd_xl_base_1.0."
-"safetensors``."
+"Details: Uses ``comfyui/txt2img-basic.json`` with "
+"``sd_xl_base_1.0.safetensors``."
 msgstr ""
-"Upplýsingar: Notar ``comfyui/txt2img-basic.json`` með ``sd_xl_base_1.0."
-"safetensors``."
+"Upplýsingar: Notar ``comfyui/txt2img-basic.json`` með "
+"``sd_xl_base_1.0.safetensors``."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:285
+#: ../ai.rst:286
 msgid "Video... (``txt2video-svd``)"
 msgstr "Myndband... (``txt2video-svd``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:287
+#: ../ai.rst:288
 msgid "Why: Generate short video clips from text."
 msgstr "Af hverju: Búa til stutt myndbandsbrot úr texta."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:288
+#: ../ai.rst:289
 msgid ""
 "How: Choose :guilabel:`Create with AI` -> :guilabel:`Video...`, enter a "
 "prompt, then generate."
 msgstr ""
-"Hvernig: Veldu :guilabel:`Create with AI` -> :guilabel:`Video...`, sláðu inn "
-"texta og búðu til."
+"Hvernig: Veldu :guilabel:`Create with AI` -> :guilabel:`Video...`, sláðu inn"
+" texta og búðu til."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:289
+#: ../ai.rst:290
 msgid ""
 "Details: Uses ``comfyui/txt2video-svd.json`` with WAN video generation "
 "models."
@@ -938,26 +939,26 @@ msgstr ""
 "Upplýsingar: Notar ``comfyui/txt2video-svd.json`` með WAN-myndbandsgerðum."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:292
+#: ../ai.rst:293
 msgid "Sound... (``txt2audio-stable-open``)"
 msgstr "Hljóð... (``txt2audio-stable-open``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:294
+#: ../ai.rst:295
 msgid "Why: Generate non-musical audio from text prompts."
 msgstr "Af hverju: Búa til tónlaust hljóð úr texta."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:295
+#: ../ai.rst:296
 msgid ""
 "How: Choose :guilabel:`Create with AI` -> :guilabel:`Sound...`, enter a "
 "prompt, then generate."
 msgstr ""
-"Hvernig: Veldu :guilabel:`Create with AI` -> :guilabel:`Sound...`, sláðu inn "
-"texta og búðu til."
+"Hvernig: Veldu :guilabel:`Create with AI` -> :guilabel:`Sound...`, sláðu inn"
+" texta og búðu til."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:296
+#: ../ai.rst:297
 msgid ""
 "Details: Uses ``comfyui/txt2audio-stable-open.json`` with Stable Audio Open "
 "models."
@@ -966,26 +967,26 @@ msgstr ""
 "Open módelum."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:299
+#: ../ai.rst:300
 msgid "Music... (``txt2music-ace-step``)"
 msgstr "Tónlist... (``txt2music-ace-step``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:301
+#: ../ai.rst:302
 msgid "Why: Generate music from style/tags (and optional lyrics)."
 msgstr "Af hverju: Búa til tónlist úr stíl/merkjum (og valfrjálsum texta)."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:302
+#: ../ai.rst:303
 msgid ""
-"How: Choose :guilabel:`Create with AI` -> :guilabel:`Music...`, enter prompt "
-"text, then generate."
+"How: Choose :guilabel:`Create with AI` -> :guilabel:`Music...`, enter prompt"
+" text, then generate."
 msgstr ""
-"Hvernig: Veldu :guilabel:`Create with AI` -> :guilabel:`Music...`, sláðu inn "
-"texta og búðu til."
+"Hvernig: Veldu :guilabel:`Create with AI` -> :guilabel:`Music...`, sláðu inn"
+" texta og búðu til."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:303
+#: ../ai.rst:304
 msgid ""
 "Details: Uses ``comfyui/txt2music-ace-step.json`` with an Ace-Step 1.5 "
 "checkpoint."
@@ -994,24 +995,105 @@ msgstr ""
 "eftirlitsstöð."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:306
+#: ../ai.rst:307
 msgid "Enhance with AI"
 msgstr "Bæta með AI"
 
+#: ../ai.rst:310
+msgid "Noise -> Reduce (``audio-noise-reduce``)"
+msgstr "Hávaði -> Minnka (``audio-noise-reduce``)"
+
+#: ../ai.rst:312
+msgid ""
+"Why: Lightly reduce steady background noise while keeping more of the "
+"original ambience."
+msgstr ""
+"Af hverju: Minnka léttilega stöðugan bakgrunnshávaða á meðan haldið er meira"
+" af upprunalegu umhverfi."
+
+#: ../ai.rst:313
+msgid ""
+"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Noise` -> "
+":guilabel:`Reduce` on an audio file, then generate."
+msgstr ""
+"Hvernig: Veldu :guilabel:`Bæta með AI` -> :guilabel:`Hávaði` -> "
+":guilabel:`Minnka` á hljóðskrá, og síðan búa til."
+
+#: ../ai.rst:314
+msgid ""
+"Details: Uses ``comfyui/audio-noise-reduce.json`` with "
+"``OpenShotDeepFilterNetDenoiseAudio``."
+msgstr ""
+"Upplýsingar: Notar ``comfyui/audio-noise-reduce.json`` með "
+"``OpenShotDeepFilterNetDenoiseAudio``."
+
+#: ../ai.rst:317
+msgid "Noise -> Remove (``audio-noise-remove``)"
+msgstr "Hávaði -> Fjarlægja (``audio-noise-remove``)"
+
+#: ../ai.rst:319
+msgid "Why: Aggressively remove background noise from noisy recordings."
+msgstr ""
+"Af hverju: Fjarlægja harkalega bakgrunnshávaða úr hávaðasömum upptökum."
+
+#: ../ai.rst:320
+msgid ""
+"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Noise` -> "
+":guilabel:`Remove` on an audio file, then generate."
+msgstr ""
+"Hvernig: Veldu :guilabel:`Bæta með AI` -> :guilabel:`Hávaði` -> "
+":guilabel:`Fjarlægja` á hljóðskrá, og síðan búa til."
+
+#: ../ai.rst:321
+msgid ""
+"Details: Uses ``comfyui/audio-noise-remove.json`` with "
+"``OpenShotDeepFilterNetDenoiseAudio``."
+msgstr ""
+"Upplýsingar: Notar ``comfyui/audio-noise-remove.json`` með "
+"``OpenShotDeepFilterNetDenoiseAudio``."
+
+#: ../ai.rst:324
+msgid "Clarity -> Speech (``audio-clarity-speech``)"
+msgstr "Skýrleiki -> Tal (``audio-clarity-speech``)"
+
+#: ../ai.rst:326
+msgid ""
+"Why: Improve clarity for speech recordings that sound dull, noisy, "
+"bandwidth-limited, or low fidelity."
+msgstr ""
+"Af hverju: Bæta skýrleika fyrir talupptökur sem hljóma daufar, hávaðasamar, "
+"með takmarkaðri bandbreidd eða lága trúverðugleika."
+
+#: ../ai.rst:327
+msgid ""
+"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Clarity` -> "
+":guilabel:`Speech` on an audio file, then generate."
+msgstr ""
+"Hvernig: Veldu :guilabel:`Bæta með AI` -> :guilabel:`Skýrleiki` -> "
+":guilabel:`Tal` á hljóðskrá, og síðan búa til."
+
+#: ../ai.rst:328
+msgid ""
+"Details: Uses ``comfyui/audio-clarity-speech.json`` with "
+"``OpenShotLavaSRSpeechClarity``."
+msgstr ""
+"Upplýsingar: Notar ``comfyui/audio-clarity-speech.json`` með "
+"``OpenShotLavaSRSpeechClarity``."
+
 # Translated with gpt-4.1-mini
-#: ../ai.rst:309
+#: ../ai.rst:331
 msgid "Change Image Style... (``img2img-basic``)"
 msgstr "Breyta myndastíl... (``img2img-basic``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:311
+#: ../ai.rst:333
 msgid "Why: Restyle an existing image while keeping the source composition."
 msgstr ""
 "Af hverju: Endurstíla núverandi mynd án þess að breyta upphaflegri "
 "samsetningu."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:312
+#: ../ai.rst:334
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on an image, enter a style prompt, "
 "then generate."
@@ -1020,36 +1102,36 @@ msgstr ""
 "búðu til."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:313
+#: ../ai.rst:335
 msgid ""
-"Details: Uses ``comfyui/img2img-basic.json`` with ``sd_xl_base_1.0."
-"safetensors``."
+"Details: Uses ``comfyui/img2img-basic.json`` with "
+"``sd_xl_base_1.0.safetensors``."
 msgstr ""
-"Upplýsingar: Notar ``comfyui/img2img-basic.json`` með ``sd_xl_base_1.0."
-"safetensors``."
+"Upplýsingar: Notar ``comfyui/img2img-basic.json`` með "
+"``sd_xl_base_1.0.safetensors``."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:316
+#: ../ai.rst:338
 msgid "Depth (``image-extract-depth``)"
 msgstr "Dýpt (``image-extract-depth``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:318
+#: ../ai.rst:340
 msgid "Why: Export a grayscale depth-map image from a source image."
 msgstr ""
 "Af hverju: Flytja út gráskalalitaða dýptarkortamynd úr upprunalegri mynd."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:319
+#: ../ai.rst:341
 msgid ""
-"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:"
-"`Depth` on an image, then generate."
+"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Depth` on an image, then generate."
 msgstr ""
-"Hvernig: Veldu :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :"
-"guilabel:`Depth` á mynd, og búðu svo til."
+"Hvernig: Veldu :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Depth` á mynd, og búðu svo til."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:320
+#: ../ai.rst:342
 msgid ""
 "Details: Uses ``comfyui/image-extract-depth.json`` with "
 "``DepthAnythingV2Preprocessor``."
@@ -1058,26 +1140,26 @@ msgstr ""
 "``DepthAnythingV2Preprocessor``."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:323
+#: ../ai.rst:345
 msgid "Lines (``image-extract-lines``)"
 msgstr "Línur (``image-extract-lines``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:325
+#: ../ai.rst:347
 msgid "Why: Export a line-map image from a source image."
 msgstr "Af hverju: Flytja út línukortamynd úr upprunalegri mynd."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:326
+#: ../ai.rst:348
 msgid ""
-"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:"
-"`Lines` on an image, then generate."
+"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Lines` on an image, then generate."
 msgstr ""
-"Hvernig: Veldu :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :"
-"guilabel:`Lines` á mynd, og búðu svo til."
+"Hvernig: Veldu :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Lines` á mynd, og búðu svo til."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:327
+#: ../ai.rst:349
 msgid ""
 "Details: Uses ``comfyui/image-extract-lines.json`` with "
 "``LineArtPreprocessor``."
@@ -1086,17 +1168,17 @@ msgstr ""
 "``LineArtPreprocessor``."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:330
+#: ../ai.rst:352
 msgid "Image to Video... (``img2video-wan``)"
 msgstr "Mynd í myndband... (``img2video-wan``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:332
+#: ../ai.rst:354
 msgid "Why: Turn a still image into a generated video shot."
 msgstr "Af hverju: Breyta kyrrmynd í myndbandsbrot."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:333
+#: ../ai.rst:355
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on an image, provide prompt "
 "guidance, then generate."
@@ -1105,7 +1187,7 @@ msgstr ""
 "búðu til."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:334
+#: ../ai.rst:356
 msgid ""
 "Details: Uses ``comfyui/img2video-wan.json`` with WAN 2.2 image-to-video "
 "models."
@@ -1114,17 +1196,17 @@ msgstr ""
 "myndband módeli."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:337
+#: ../ai.rst:359
 msgid "Change Video Style... (``video2video-basic``)"
 msgstr "Breyta myndbandsstíl... (``video2video-basic``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:339
+#: ../ai.rst:361
 msgid "Why: Apply a new visual style to a source video."
 msgstr "Af hverju: Beita nýjum sjónrænum stíl á upphaflegt myndband."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:340
+#: ../ai.rst:362
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on a video, enter a style prompt, "
 "pick a reference image in the :guilabel:`Reference` tab, then generate."
@@ -1134,7 +1216,7 @@ msgstr ""
 "og búðu svo til."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:341
+#: ../ai.rst:363
 msgid ""
 "Details: Uses ``comfyui/video2video-basic.json`` with WAN VACE video-to-"
 "video nodes, a required reference image, blended "
@@ -1142,35 +1224,35 @@ msgid ""
 "``wan2.1_vace_1.3B_fp16.safetensors``, ``wan_2.1_vae.safetensors``, and "
 "``umt5_xxl_fp8_e4m3fn_scaled.safetensors`` models."
 msgstr ""
-"Upplýsingar: Notar ``comfyui/video2video-basic.json`` með WAN VACE myndbands-"
-"til-myndbands hnútum, nauðsynlegri viðmiðunarmynd, blandaðri "
+"Upplýsingar: Notar ``comfyui/video2video-basic.json`` með WAN VACE "
+"myndbands-til-myndbands hnútum, nauðsynlegri viðmiðunarmynd, blandaðri "
 "``DepthAnythingV2Preprocessor`` dýpt ásamt Canny brúnarstýringu, og módelið "
 "``wan2.1_vace_1.3B_fp16.safetensors``, ``wan_2.1_vae.safetensors``, og "
 "``umt5_xxl_fp8_e4m3fn_scaled.safetensors``."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:344
+#: ../ai.rst:366
 msgid "Depth (``video-extract-depth``)"
 msgstr "Dýpt (``video-extract-depth``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:346
+#: ../ai.rst:368
 msgid "Why: Export a grayscale depth-map version of a source video."
 msgstr ""
 "Af hverju: Flytja út gráskalalitaða dýptarkort útgáfu af upprunalegu "
 "myndbandi."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:347
+#: ../ai.rst:369
 msgid ""
-"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:"
-"`Depth` on a video, then generate."
+"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Depth` on a video, then generate."
 msgstr ""
-"Hvernig: Veldu :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :"
-"guilabel:`Depth` á myndbandi, og búðu svo til."
+"Hvernig: Veldu :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Depth` á myndbandi, og búðu svo til."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:348
+#: ../ai.rst:370
 msgid ""
 "Details: Uses ``comfyui/video-extract-depth.json`` with "
 "``DepthAnythingV2Preprocessor`` and preserves the source frame rate."
@@ -1179,26 +1261,26 @@ msgstr ""
 "``DepthAnythingV2Preprocessor`` og varðveitir upprunalegan rammahraða."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:351
+#: ../ai.rst:373
 msgid "Lines (``video-extract-lines``)"
 msgstr "Línur (``video-extract-lines``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:353
+#: ../ai.rst:375
 msgid "Why: Export a line-map version of a source video."
 msgstr "Af hverju: Flytja út línukort útgáfu af upprunalegu myndbandi."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:354
+#: ../ai.rst:376
 msgid ""
-"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:"
-"`Lines` on a video, then generate."
+"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Lines` on a video, then generate."
 msgstr ""
-"Hvernig: Veldu :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :"
-"guilabel:`Lines` á myndbandi, og búðu svo til."
+"Hvernig: Veldu :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Lines` á myndbandi, og búðu svo til."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:355
+#: ../ai.rst:377
 msgid ""
 "Details: Uses ``comfyui/video-extract-lines.json`` with "
 "``LineArtPreprocessor`` and preserves the source frame rate."
@@ -1207,26 +1289,26 @@ msgstr ""
 "``LineArtPreprocessor`` og varðveitir upprunalegan rammahraða."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:358
+#: ../ai.rst:380
 msgid "Increase Resolution (image) (``upscale-realesrgan-x4``)"
 msgstr "Auka upplausn (mynd) (``upscale-realesrgan-x4``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:360
+#: ../ai.rst:382
 msgid "Why: Upscale low-resolution images."
 msgstr "Af hverju: Stækka myndir með lága upplausn."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:361
+#: ../ai.rst:383
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on an image, select increase "
 "resolution, then generate."
 msgstr ""
-"Hvernig: Veldu :guilabel:`Enhance with AI` á mynd, veldu að auka upplausn og "
-"búðu til."
+"Hvernig: Veldu :guilabel:`Enhance with AI` á mynd, veldu að auka upplausn og"
+" búðu til."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:362
+#: ../ai.rst:384
 msgid ""
 "Details: Uses ``comfyui/upscale-realesrgan-x4.json`` with "
 "``RealESRGAN_x4plus.safetensors``."
@@ -1235,17 +1317,17 @@ msgstr ""
 "``RealESRGAN_x4plus.safetensors``."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:365
+#: ../ai.rst:387
 msgid "Increase Resolution (video) (``video-upscale-gan``)"
 msgstr "Auka upplausn (myndband) (``video-upscale-gan``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:367
+#: ../ai.rst:389
 msgid "Why: Upscale video frames for higher apparent detail."
 msgstr "Af hverju: Stækka myndbandsramma fyrir meiri smáatriði."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:368
+#: ../ai.rst:390
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on a video, select increase "
 "resolution, then generate."
@@ -1254,35 +1336,35 @@ msgstr ""
 "upplausn og búðu til."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:369
+#: ../ai.rst:391
 msgid ""
-"Details: Uses ``comfyui/video-upscale-gan.json`` with ``RealESRGAN_x4plus."
-"safetensors``."
+"Details: Uses ``comfyui/video-upscale-gan.json`` with "
+"``RealESRGAN_x4plus.safetensors``."
 msgstr ""
 "Upplýsingar: Notar ``comfyui/video-upscale-gan.json`` með "
 "``RealESRGAN_x4plus.safetensors``."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:372
+#: ../ai.rst:394
 msgid "Smooth Motion (2x Frame Rate) (``video-frame-interpolation-rife2x``)"
 msgstr "Mjúk hreyfing (2x rammatíðni) (``video-frame-interpolation-rife2x``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:374
+#: ../ai.rst:396
 msgid "Why: Increase frame rate for smoother perceived motion."
 msgstr "Af hverju: Auka rammatíðni fyrir mjúkari hreyfingu."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:375
+#: ../ai.rst:397
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on a video, select smooth motion, "
 "then generate."
 msgstr ""
-"Hvernig: Veldu :guilabel:`Enhance with AI` á myndband, veldu mjúka hreyfingu "
-"og búðu til."
+"Hvernig: Veldu :guilabel:`Enhance with AI` á myndband, veldu mjúka hreyfingu"
+" og búðu til."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:376
+#: ../ai.rst:398
 msgid ""
 "Details: Uses ``comfyui/video-frame-interpolation-rife2x.json`` with "
 "``rife47.pth``."
@@ -1291,19 +1373,20 @@ msgstr ""
 "``rife47.pth``."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:379
+#: ../ai.rst:401
 msgid "Split into Scenes (``video-segment-scenes-transnet``)"
 msgstr "Skipta í senur (``video-segment-scenes-transnet``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:381
+#: ../ai.rst:403
 msgid ""
 "Why: Automatically detect scene changes and split long clips into segments."
 msgstr ""
-"Af hverju: Sjálfvirkt greina senubreytingar og skipta löngum klippum í hluta."
+"Af hverju: Sjálfvirkt greina senubreytingar og skipta löngum klippum í "
+"hluta."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:382
+#: ../ai.rst:404
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on a video, select scene splitting, "
 "then generate."
@@ -1312,25 +1395,26 @@ msgstr ""
 "og búðu til."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:383
+#: ../ai.rst:405
 msgid ""
-"Details: Uses ``comfyui/video-segment-scenes-transnet.json`` with TransNetV2."
+"Details: Uses ``comfyui/video-segment-scenes-transnet.json`` with "
+"TransNetV2."
 msgstr ""
 "Upplýsingar: Notar ``comfyui/video-segment-scenes-transnet.json`` með "
 "TransNetV2."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:386
+#: ../ai.rst:408
 msgid "Add Captions from Speech (``video-whisper-srt``)"
 msgstr "Bæta við textum úr tali (``video-whisper-srt``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:388
+#: ../ai.rst:410
 msgid "Why: Transcribe speech into subtitle/caption files."
 msgstr "Af hverju: Skrifa tal yfir í texta/undirtextaskrár."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:389
+#: ../ai.rst:411
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on a video, select captions, then "
 "generate."
@@ -1338,19 +1422,19 @@ msgstr ""
 "Hvernig: Veldu :guilabel:`Bæta við AI` á myndbandi, veldu texta og búðu til."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:390
+#: ../ai.rst:412
 msgid ""
 "Details: Uses ``comfyui/video-whisper-srt.json`` and creates SRT output."
 msgstr ""
 "Upplýsingar: Notar ``comfyui/video-whisper-srt.json`` og býr til SRT úttak."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:393
+#: ../ai.rst:415
 msgid "Tracking Workflows (SAM2)"
 msgstr "Eftirlitsvinnuflæði (SAM2)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:395
+#: ../ai.rst:417
 msgid ""
 "These workflows use the same region/tracking input flow and are grouped in "
 "the tracking context menu."
@@ -1359,22 +1443,22 @@ msgstr ""
 "eftirlitsvalmyndinni."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:399
+#: ../ai.rst:421
 msgid "Blur... (image) (``image-blur-anything-sam2``)"
 msgstr "Dimmka... (mynd) (``image-blur-anything-sam2``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:401
+#: ../ai.rst:423
 msgid "Why: Blur selected subject areas in a still image."
 msgstr "Af hverju: Dimmka valin efni á kyrrmynd."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:402 ../ai.rst:409 ../ai.rst:416
+#: ../ai.rst:424 ../ai.rst:431 ../ai.rst:438
 msgid "How: Select points/rectangles for the subject, then generate."
 msgstr "Hvernig: Veldu punkta/ferninga fyrir efnið og búðu til."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:403
+#: ../ai.rst:425
 msgid ""
 "Details: Uses ``comfyui/image-blur-anything-sam2.json`` with SAM2 image "
 "segmentation."
@@ -1383,36 +1467,36 @@ msgstr ""
 "myndskiptingu."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:406
+#: ../ai.rst:428
 msgid "Highlight... (image) (``image-highlight-anything-sam2``)"
 msgstr "Lýsa upp... (mynd) (``image-highlight-anything-sam2``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:408
+#: ../ai.rst:430
 msgid "Why: Emphasize selected subject areas in a still image."
 msgstr "Af hverju: Leggja áherslu á valin efni á kyrrmynd."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:410
+#: ../ai.rst:432
 msgid ""
-"Details: Uses ``comfyui/image-highlight-anything-sam2.json`` with SAM2 image "
-"segmentation."
+"Details: Uses ``comfyui/image-highlight-anything-sam2.json`` with SAM2 image"
+" segmentation."
 msgstr ""
 "Upplýsingar: Notar ``comfyui/image-highlight-anything-sam2.json`` með SAM2 "
 "myndskiptingu."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:413
+#: ../ai.rst:435
 msgid "Mask... (image) (``image-mask-anything-sam2``)"
 msgstr "Gríma... (mynd) (``image-mask-anything-sam2``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:415
+#: ../ai.rst:437
 msgid "Why: Generate an image mask for selected subject areas."
 msgstr "Af hverju: Búa til myndagrímu fyrir valin efni."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:417
+#: ../ai.rst:439
 msgid ""
 "Details: Uses ``comfyui/image-mask-anything-sam2.json`` with SAM2 image "
 "segmentation."
@@ -1421,22 +1505,22 @@ msgstr ""
 "myndskiptingu."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:420
+#: ../ai.rst:442
 msgid "Blur... (video) (``video-blur-anything-sam2``)"
 msgstr "Dimmka... (myndband) (``video-blur-anything-sam2``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:422
+#: ../ai.rst:444
 msgid "Why: Track and blur a moving subject in video."
 msgstr "Af hverju: Fylgja og dimmka hreyfandi efni í myndbandi."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:423 ../ai.rst:430 ../ai.rst:437
+#: ../ai.rst:445 ../ai.rst:452 ../ai.rst:459
 msgid "How: Mark subject/background in the region screen, then generate."
 msgstr "Hvernig: Merktu efni/bakgrunn á svæðisskjánum og búðu til."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:424
+#: ../ai.rst:446
 msgid ""
 "Details: Uses ``comfyui/video-blur-anything-sam2.json`` with SAM2 video "
 "tracking."
@@ -1445,36 +1529,36 @@ msgstr ""
 "myndbandsrakningu."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:427
+#: ../ai.rst:449
 msgid "Highlight... (video) (``video-highlight-anything-sam2``)"
 msgstr "Lýsa upp... (myndband) (``video-highlight-anything-sam2``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:429
+#: ../ai.rst:451
 msgid "Why: Track and highlight a moving subject in video."
 msgstr "Af hverju: Fylgja og lýsa upp hreyfandi efni í myndbandi."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:431
+#: ../ai.rst:453
 msgid ""
-"Details: Uses ``comfyui/video-highlight-anything-sam2.json`` with SAM2 video "
-"tracking."
+"Details: Uses ``comfyui/video-highlight-anything-sam2.json`` with SAM2 video"
+" tracking."
 msgstr ""
 "Upplýsingar: Notar ``comfyui/video-highlight-anything-sam2.json`` með SAM2 "
 "myndbandsrakningu."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:434
+#: ../ai.rst:456
 msgid "Mask... (video) (``video-mask-anything-sam2``)"
 msgstr "Gríma... (myndband) (``video-mask-anything-sam2``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:436
+#: ../ai.rst:458
 msgid "Why: Generate an animated mask that follows a moving subject."
 msgstr "Af hverju: Búa til hreyfimyndagrímu sem fylgir hreyfandi efni."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:438
+#: ../ai.rst:460
 msgid ""
 "Details: Uses ``comfyui/video-mask-anything-sam2.json`` with SAM2 video "
 "tracking."
@@ -1483,82 +1567,101 @@ msgstr ""
 "myndbandsrakningu."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:441
+#: ../ai.rst:463
 msgid "Starting Points for New Users"
 msgstr "Byrjunarstaðir fyrir nýja notendur"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:443
+#: ../ai.rst:465
 msgid "If you are new to these tools, start with:"
 msgstr "Ef þú ert nýr með þessi verkfæri, byrjaðu á:"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:445
+#: ../ai.rst:467
 msgid ":guilabel:`Create with AI` -> :guilabel:`Image`"
 msgstr ":guilabel:`Búa til með AI` -> :guilabel:`Mynd`"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:446
+#: ../ai.rst:468
 msgid ":guilabel:`Enhance with AI` -> :guilabel:`Increase Resolution`"
 msgstr ":guilabel:`Bæta með AI` -> :guilabel:`Auka upplausn`"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:447
+#: ../ai.rst:469
 msgid ":guilabel:`Enhance with AI` -> :guilabel:`Smooth Motion`"
 msgstr ":guilabel:`Bæta með AI` -> :guilabel:`Mjúk hreyfing`"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:448
+#: ../ai.rst:470
 msgid ":guilabel:`Enhance with AI` -> :guilabel:`Split into Scenes`"
 msgstr ":guilabel:`Bæta með AI` -> :guilabel:`Skipta í senur`"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:449
+#: ../ai.rst:471
 msgid ":guilabel:`Enhance with AI` -> :guilabel:`Add Captions`"
 msgstr ":guilabel:`Bæta með AI` -> :guilabel:`Bæta við textum`"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:452
+#: ../ai.rst:474
 msgid "Troubleshooting"
 msgstr "Villuleit"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:454
+#: ../ai.rst:476
 msgid "If AI menus do not appear or jobs fail immediately:"
 msgstr "Ef AI valmyndir birtast ekki eða verkefni mistakast strax:"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:456
+#: ../ai.rst:478
 msgid "Verify ComfyUI is running and reachable at the configured URL."
 msgstr "Staðfestu að ComfyUI sé í gangi og aðgengilegt á stillta slóð."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:457
+#: ../ai.rst:479
 msgid "Confirm required models exist in your ComfyUI environment."
 msgstr "Staðfestu að nauðsynlegar gerðir séu til í ComfyUI umhverfinu þínu."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:458
+#: ../ai.rst:480
 msgid ""
 "Confirm custom node packages are installed for the workflow you selected."
 msgstr ""
 "Staðfestu að sérsniðnar hnútapakkar séu uppsettir fyrir valið vinnuflæði."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:459
+#: ../ai.rst:481
 msgid "Reduce batch/chunk sizes for long clips."
 msgstr "Minnkaðu hóp-/bútastærðir fyrir löng klipp."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:460
+#: ../ai.rst:482
 msgid "Re-test with a short clip or still image first."
 msgstr "Prófaðu aftur með stuttri klippu eða kyrrmynd fyrst."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:462
+#: ../ai.rst:484
 msgid ""
-"For general performance and cache tuning, see :ref:`preferences_ref` and :"
-"ref:`playback_ref`."
+"For general performance and cache tuning, see :ref:`preferences_ref` and "
+":ref:`playback_ref`."
 msgstr ""
-"Fyrir almennar frammistöðu- og skyndiminni stillingar, sjá :ref:"
-"`preferences_ref` og :ref:`playback_ref`."
+"Fyrir almennar frammistöðu- og skyndiminni stillingar, sjá "
+":ref:`preferences_ref` og :ref:`playback_ref`."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "OpenShot sends your positive and negative markers as seed coordinates to the"
+#~ " tracking model, which builds a mask for the subject and then follows it "
+#~ "over time. Better seeds usually produce cleaner masks and less drift. "
+#~ "[sam2]_"
+#~ msgstr ""
+#~ "OpenShot sendir jákvæðu og neikvæðu merkimiðana þína sem fræhnit til "
+#~ "eftirfylgnilíkansins, sem byggir grímu fyrir viðfangið og fylgir því svo með"
+#~ " tímanum. Betri fræ gefa yfirleitt hreinni grímur og minni skekkju. [sam2]_"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "*SAM2 (Segment Anything Model 2) project:* `facebookresearch/sam2 "
+#~ "<https://github.com/facebookresearch/sam2>`_"
+#~ msgstr ""
+#~ "*SAM2 (Segment Anything Model 2) verkefnið:* `facebookresearch/sam2 "
+#~ "<https://github.com/facebookresearch/sam2>`_"

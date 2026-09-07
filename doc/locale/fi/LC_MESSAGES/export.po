@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,8 +34,8 @@ msgid ""
 msgstr ""
 "Vienti muuntaa OpenShot-projektisi (leikkeet, tehosteet, animaatiot, "
 "otsikot) yhdeksi video-ulostulotiedostoksi (käyttäen prosessia nimeltä "
-"``videoenkoodaus``). Oletusasetuksia käyttämällä viety video on yhteensopiva "
-"useimpien mediasoittimien (kuten VLC) ja verkkosivustojen (kuten YouTube, "
+"``videoenkoodaus``). Oletusasetuksia käyttämällä viety video on yhteensopiva"
+" useimpien mediasoittimien (kuten VLC) ja verkkosivustojen (kuten YouTube, "
 "Vimeo, Facebook) kanssa ja luo ``MP4 (h.264 + AAC)`` -muotoisen "
 "videotiedoston. Katso :ref:`profiles_mp4_h264_ref`."
 
@@ -45,13 +45,14 @@ msgid ""
 "Click on the :guilabel:`Export Video` icon at the top of the screen (or use "
 "the :guilabel:`File→Export Video` menu). The default values will work fine, "
 "so just click the :guilabel:`Export Video` button to render your new video. "
-"You can also create your own custom export profiles, see :ref:`profiles_ref`."
+"You can also create your own custom export profiles, see "
+":ref:`profiles_ref`."
 msgstr ""
 "Napsauta näytön yläreunassa olevaa :guilabel:`Vie video` -kuvaketta (tai "
-"käytä :guilabel:`Tiedosto→Vie video` -valikkoa). Oletusarvot toimivat hyvin, "
-"joten napsauta vain :guilabel:`Vie video` -painiketta luodaksesi uuden "
-"videosi. Voit myös luoda omia mukautettuja vientiprofiileja, katso :ref:"
-"`profiles_ref`."
+"käytä :guilabel:`Tiedosto→Vie video` -valikkoa). Oletusarvot toimivat hyvin,"
+" joten napsauta vain :guilabel:`Vie video` -painiketta luodaksesi uuden "
+"videosi. Voit myös luoda omia mukautettuja vientiprofiileja, katso "
+":ref:`profiles_ref`."
 
 # Translated with gpt-4.1-mini
 #: ../export.rst:33
@@ -67,8 +68,8 @@ msgid ""
 "default export view."
 msgstr ""
 "Vaikka videon koodaus on hyvin monimutkaista, sisältäen kymmeniä toisiinsa "
-"liittyviä asetuksia ja vaihtoehtoja, OpenShot tekee siitä helppoa järkevillä "
-"oletusasetuksilla, ja suurin osa tästä monimutkaisuudesta on piilotettu "
+"liittyviä asetuksia ja vaihtoehtoja, OpenShot tekee siitä helppoa järkevillä"
+" oletusasetuksilla, ja suurin osa tästä monimutkaisuudesta on piilotettu "
 "`Simple`-välilehden taakse, joka on oletusarvoinen vientinäkymä."
 
 # Translated with gpt-4.1-mini
@@ -97,7 +98,7 @@ msgstr ""
 "ryhmiteltyinä kategorioittain, esimerkiksi: **Web**)"
 
 # Translated with gpt-4.1-mini
-#: ../export.rst:48
+#: ../export.rst:48 ../export.rst:168
 msgid "Target"
 msgstr "Kohde"
 
@@ -108,11 +109,11 @@ msgid ""
 "formats, codecs, and quality settings, see :ref:`preset_list_ref`)"
 msgstr ""
 "Kohteeseen liittyvät esiasetukset nykyisen profiilin mukaan (yleisten "
-"formaattien, koodekkien ja laatuasetusten kokoelmia, katso :ref:"
-"`preset_list_ref`)"
+"formaattien, koodekkien ja laatuasetusten kokoelmia, katso "
+":ref:`preset_list_ref`)"
 
 # Translated with gpt-4.1-mini
-#: ../export.rst:49
+#: ../export.rst:49 ../export.rst:169
 msgid "Video Profile"
 msgstr "Videoprofiili"
 
@@ -138,8 +139,8 @@ msgid ""
 "Quality settings (low, med, high), which relate to various video and audio "
 "bitrates."
 msgstr ""
-"Laatuasetukset (matala, keski, korkea), jotka liittyvät erilaisiin video- ja "
-"äänivirtaamiin."
+"Laatuasetukset (matala, keski, korkea), jotka liittyvät erilaisiin video- ja"
+" äänivirtaamiin."
 
 # Translated with gpt-4.1-mini
 #: ../export.rst:54
@@ -242,15 +243,15 @@ msgstr ""
 # Translated with gpt-4.1-mini
 #: ../export.rst:81
 msgid ""
-"A video profile is a collection of common video settings (*size, frame rate, "
-"aspect ratio*). Profiles are used during editing, previewing, and exporting "
-"to provide a quick way to switch between common combinations of these "
-"settings. The :guilabel:`Export Dialog` will **default** to the same profile "
-"used by the project."
+"A video profile is a collection of common video settings (*size, frame rate,"
+" aspect ratio*). Profiles are used during editing, previewing, and exporting"
+" to provide a quick way to switch between common combinations of these "
+"settings. The :guilabel:`Export Dialog` will **default** to the same profile"
+" used by the project."
 msgstr ""
 "Videoprofiili on kokoelma yleisiä videoasetuksia (*koko, kuvataajuus, "
-"kuvasuhde*). Profiileja käytetään muokkauksen, esikatselun ja viennin aikana "
-"tarjoten nopean tavan vaihtaa näiden asetusten yleisten yhdistelmien "
+"kuvasuhde*). Profiileja käytetään muokkauksen, esikatselun ja viennin aikana"
+" tarjoten nopean tavan vaihtaa näiden asetusten yleisten yhdistelmien "
 "välillä. :guilabel:`Vienti-valintaikkuna` käyttää **oletuksena** samaa "
 "profiilia kuin projekti."
 
@@ -265,10 +266,10 @@ msgid ""
 "OpenShot.*"
 msgstr ""
 "*HUOM: On tärkeää valita **Profiili**, jonka **kuvasuhde** on sama kuin "
-"projektin muokkauksessa. Jos viet eri **kuvasuhteella**, kuva saattaa venyä, "
-"rajautua, saada mustat palkit tai muuten aiheuttaa ongelman, joka muuttaa "
-"vietyä videota ja saa sen näyttämään erilaiselta kuin OpenShotin :guilabel:"
-"`Esikatselu`.*"
+"projektin muokkauksessa. Jos viet eri **kuvasuhteella**, kuva saattaa venyä,"
+" rajautua, saada mustat palkit tai muuten aiheuttaa ongelman, joka muuttaa "
+"vietyä videota ja saa sen näyttämään erilaiselta kuin OpenShotin "
+":guilabel:`Esikatselu`.*"
 
 # Translated with gpt-4.1-mini
 #: ../export.rst:96
@@ -396,8 +397,8 @@ msgid ""
 "00002.png."
 msgstr ""
 "Merkkijonon muoto, joka edustaa tulostiedoston nimeä kuvasarjassa. "
-"Esimerkiksi %05d.png täyttää numeron viidellä numerolla: 00001.png, 00002."
-"png."
+"Esimerkiksi %05d.png täyttää numeron viidellä numerolla: 00001.png, "
+"00002.png."
 
 # Translated with gpt-4.1-mini
 #: ../export.rst:123
@@ -443,8 +444,8 @@ msgstr "Bitnopeus / Laatu"
 # Translated with gpt-4.1-mini
 #: ../export.rst:135
 msgid ""
-"The bitrate to use for video encoding. Accepts the following formats: ``5 Mb/"
-"s``, ``96 kb/s``, ``23 crf``, etc..."
+"The bitrate to use for video encoding. Accepts the following formats: ``5 "
+"Mb/s``, ``96 kb/s``, ``23 crf``, etc..."
 msgstr ""
 "Videon koodauksessa käytettävä bittinopeus. Hyväksyy seuraavat muodot: ``5 "
 "Mb/s``, ``96 kb/s``, ``23 crf`` jne."
@@ -494,8 +495,8 @@ msgstr "Kanava-asettelu"
 # Translated with gpt-4.1-mini
 #: ../export.rst:151
 msgid ""
-"The number and layout of audio channels (``Stereo``, ``Mono``, ``Surround``, "
-"etc...)"
+"The number and layout of audio channels (``Stereo``, ``Mono``, ``Surround``,"
+" etc...)"
 msgstr ""
 "Äänikanavien määrä ja asettelu (``Stereo``, ``Mono``, ``Surround`` jne.)"
 
@@ -507,3 +508,254 @@ msgid ""
 msgstr ""
 "Äänen koodauksessa käytettävä bittinopeus. Hyväksyy seuraavat muodot: ``96 "
 "kb/s``, ``128 kb/s``, ``192 kb/s`` jne."
+
+#: ../export.rst:158
+msgid "Social Media Quick Reference"
+msgstr "Sosiaalisen median pikaopas"
+
+#: ../export.rst:160
+msgid ""
+"The table below shows the recommended :guilabel:`Target` and "
+":guilabel:`Video Profile` settings for common social media platforms. Select"
+" these in the **Simple** tab of the Export dialog."
+msgstr ""
+"Alla oleva taulukko näyttää suositellut :guilabel:`Kohde`- ja "
+":guilabel:`Video Profiili` -asetukset yleisille sosiaalisen median "
+"alustoille. Valitse nämä **Yksinkertainen**-välilehdeltä Vie-"
+"valintaikkunassa."
+
+#: ../export.rst:167
+msgid "Platform"
+msgstr "Alusta"
+
+#: ../export.rst:170
+msgid "Notes"
+msgstr "Huomautukset"
+
+#: ../export.rst:171
+msgid "YouTube (landscape)"
+msgstr "YouTube (vaakasuuntainen)"
+
+#: ../export.rst:172
+msgid "``YouTube``"
+msgstr "``YouTube``"
+
+#: ../export.rst:173 ../export.rst:189 ../export.rst:197 ../export.rst:201
+#: ../export.rst:205 ../export.rst:209
+msgid "``FHD 1080p 30 fps``"
+msgstr "``FHD 1080p 30 fps``"
+
+#: ../export.rst:174
+msgid "Use ``YouTube (4K)`` for 4K"
+msgstr "Käytä ``YouTube (4K)`` 4K:lle"
+
+#: ../export.rst:175
+msgid "YouTube Shorts (vertical)"
+msgstr "YouTube Shorts (pysty)"
+
+#: ../export.rst:176
+msgid "``YouTube Shorts``"
+msgstr "``YouTube Shorts``"
+
+#: ../export.rst:177 ../export.rst:181 ../export.rst:185 ../export.rst:193
+msgid "``FHD Vertical 1080p 30 fps``"
+msgstr "``FHD pystysuora 1080p 30 fps``"
+
+#: ../export.rst:178 ../export.rst:182 ../export.rst:186 ../export.rst:194
+msgid "Up to 60 fps"
+msgstr "Jopa 60 fps"
+
+#: ../export.rst:179
+msgid "TikTok (vertical)"
+msgstr "TikTok (pysty)"
+
+#: ../export.rst:180
+msgid "``TikTok``"
+msgstr "``TikTok``"
+
+#: ../export.rst:183
+msgid "Instagram Reels (vertical)"
+msgstr "Instagram Reels (pysty)"
+
+#: ../export.rst:184
+msgid "``Instagram Reels``"
+msgstr "``Instagram Reels``"
+
+#: ../export.rst:187
+msgid "Instagram (landscape/square)"
+msgstr "Instagram (vaakasuuntainen/neliö)"
+
+#: ../export.rst:188
+msgid "``Instagram``"
+msgstr "``Instagram``"
+
+#: ../export.rst:190
+msgid "Square (1:1) also available"
+msgstr "Neliö (1:1) myös saatavilla"
+
+#: ../export.rst:191
+msgid "Snapchat (vertical)"
+msgstr "Snapchat (pysty)"
+
+#: ../export.rst:192
+msgid "``Snapchat``"
+msgstr "``Snapchat``"
+
+#: ../export.rst:195
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../export.rst:196
+msgid "``Facebook``"
+msgstr "``Facebook``"
+
+#: ../export.rst:198
+msgid "Square and vertical also available"
+msgstr "Neliö- ja pystysuuntainen myös saatavilla"
+
+#: ../export.rst:199
+msgid "LinkedIn (landscape)"
+msgstr "LinkedIn (vaakasuuntainen)"
+
+#: ../export.rst:200
+msgid "``LinkedIn``"
+msgstr "``LinkedIn``"
+
+#: ../export.rst:202
+msgid "Square and 4:5 portrait also available"
+msgstr "Neliö ja 4:5 muotokuva myös saatavilla"
+
+#: ../export.rst:203
+msgid "Twitter / X"
+msgstr "Twitter / X"
+
+#: ../export.rst:204
+msgid "``Twitter / X``"
+msgstr "``Twitter / X``"
+
+#: ../export.rst:206
+msgid "Vertical also available"
+msgstr "Pystysuuntainen myös saatavilla"
+
+#: ../export.rst:207
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: ../export.rst:208
+msgid "``Vimeo``"
+msgstr "``Vimeo``"
+
+#: ../export.rst:210
+msgid "Use High quality setting"
+msgstr "Käytä korkealaatuista asetusta"
+
+#: ../export.rst:215
+msgid "Hardware-Accelerated Export"
+msgstr "Laitteistokiihdytetty vienti"
+
+#: ../export.rst:217
+msgid ""
+"OpenShot supports GPU-accelerated video encoding on supported hardware, "
+"dramatically reducing export times. Hardware-accelerated targets are shown "
+"with a badge in the :guilabel:`Target` dropdown. Select the appropriate "
+"target for your hardware:"
+msgstr ""
+"OpenShot tukee GPU-kiihdytettyä videon koodausta tuetuilla laitteilla, mikä "
+"lyhentää vientiaikoja merkittävästi. Laitteistokiihdytetyt kohteet näkyvät "
+"tunnuksella :guilabel:`Kohde`-valikossa. Valitse laitteistollesi sopiva "
+"kohde:"
+
+#: ../export.rst:225
+msgid "Target (Export Dialog)"
+msgstr "Kohde (Vienti-ikkuna)"
+
+#: ../export.rst:225
+msgid "Badge"
+msgstr "Tunnus"
+
+#: ../export.rst:225
+msgid "Requires"
+msgstr "Vaatii"
+
+#: ../export.rst:227
+msgid "``MP4 (h.264 nv)``"
+msgstr "``MP4 (h.264 nv)``"
+
+#: ../export.rst:227
+msgid "NVENC"
+msgstr "NVENC"
+
+#: ../export.rst:227
+msgid "NVIDIA GPU (Kepler or newer)"
+msgstr "NVIDIA GPU (Kepler tai uudempi)"
+
+#: ../export.rst:228
+msgid "``MP4 (h.264 va)``"
+msgstr "``MP4 (h.264 va)``"
+
+#: ../export.rst:228 ../export.rst:232
+msgid "VA-API"
+msgstr "VA-API"
+
+#: ../export.rst:228
+msgid "Linux with AMD or Intel GPU (VAAPI driver)"
+msgstr "Linux AMD- tai Intel-GPU:lla (VAAPI-ajuri)"
+
+#: ../export.rst:229
+msgid "``MP4 (h.264 qsv)``"
+msgstr "``MP4 (h.264 qsv)``"
+
+#: ../export.rst:229
+msgid "QSV"
+msgstr "QSV"
+
+#: ../export.rst:229
+msgid "Intel GPU with Quick Sync Video"
+msgstr "Intel GPU Quick Sync Video -tuella"
+
+#: ../export.rst:230
+msgid "``MP4 (h.264 videotoolbox)``"
+msgstr "``MP4 (h.264 videotoolbox)``"
+
+#: ../export.rst:230
+msgid "VideoToolbox"
+msgstr "VideoToolbox"
+
+#: ../export.rst:230
+msgid "macOS with Apple or Intel GPU"
+msgstr "macOS Apple- tai Intel-GPU:lla"
+
+#: ../export.rst:231
+msgid "``MP4 (h.264 dx)``"
+msgstr "``MP4 (h.264 dx)``"
+
+#: ../export.rst:231
+msgid "DirectX"
+msgstr "DirectX"
+
+#: ../export.rst:231
+msgid "Windows with DirectX-compatible GPU"
+msgstr "Windows DirectX-yhteensopivalla GPU:lla"
+
+#: ../export.rst:232
+msgid "``MP4 (HEVC va)``"
+msgstr "``MP4 (HEVC va)``"
+
+#: ../export.rst:232
+msgid "Linux VA-API — produces smaller HEVC files"
+msgstr "Linux VA-API — tuottaa pienempiä HEVC-tiedostoja"
+
+#: ../export.rst:235
+msgid ""
+"MKV variants (``MKV (h.264 nv)``, ``MKV (h.264 va)``, etc.) are also "
+"available for each accelerator. If none of these targets appear or export "
+"fails, your system either lacks the required driver or the hardware encoder "
+"is not supported — fall back to the standard ``MP4 (h.264 + AAC)`` target, "
+"which uses the CPU-based ``libx264`` encoder and works on all systems."
+msgstr ""
+"MKV-versiot (``MKV (h.264 nv)``, ``MKV (h.264 va)``, jne.) ovat myös "
+"saatavilla jokaiselle kiihdyttimelle. Jos mikään näistä kohteista ei näy tai"
+" vienti epäonnistuu, järjestelmästäsi puuttuu vaadittu ajuri tai "
+"laitteistokooderia ei tueta — palaa oletuskohteeseen ``MP4 (h.264 + AAC)``, "
+"joka käyttää CPU-pohjaista ``libx264``-kooderia ja toimii kaikilla "
+"järjestelmillä."

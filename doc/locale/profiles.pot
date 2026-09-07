@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenShot Video Editor 3.5\n"
+"Project-Id-Version: OpenShot Video Editor 4.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2199,7 +2199,7 @@ msgid "Web"
 msgstr ""
 
 #: ../profiles.rst:1091
-msgid "Flickr-HD"
+msgid "Flickr"
 msgstr ""
 
 #: ../profiles.rst:0
@@ -2276,15 +2276,12 @@ msgid "1.7 Mb/s"
 msgstr ""
 
 #: ../profiles.rst:1228
+#: ../profiles.rst:1253
 msgid "Vimeo"
 msgstr ""
 
 #: ../profiles.rst:0
 msgid "NTSC SD Wide FWVGA 480p 29.97 fps"
-msgstr ""
-
-#: ../profiles.rst:1253
-msgid "Vimeo-HD"
 msgstr ""
 
 #: ../profiles.rst:1267
@@ -2321,7 +2318,7 @@ msgid "Wikipedia"
 msgstr ""
 
 #: ../profiles.rst:1310
-msgid "YouTube HD"
+msgid "YouTube"
 msgstr ""
 
 #: ../profiles.rst:1325
@@ -2374,7 +2371,7 @@ msgid "FHD Vertical 1080p 60 fps"
 msgstr ""
 
 #: ../profiles.rst:1349
-msgid "YouTube HD (2K)"
+msgid "YouTube (2K)"
 msgstr ""
 
 #: ../profiles.rst:1363
@@ -2430,7 +2427,7 @@ msgid "2.5K WQHD 1440p 60 fps"
 msgstr ""
 
 #: ../profiles.rst:1380
-msgid "YouTube HD (4K)"
+msgid "YouTube (4K)"
 msgstr ""
 
 #: ../profiles.rst:1394
@@ -2486,7 +2483,7 @@ msgid "4K UHD 2160p 60 fps"
 msgstr ""
 
 #: ../profiles.rst:1411
-msgid "YouTube HD (8K)"
+msgid "YouTube (8K)"
 msgstr ""
 
 #: ../profiles.rst:1425

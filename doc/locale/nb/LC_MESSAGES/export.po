@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,13 +45,14 @@ msgid ""
 "Click on the :guilabel:`Export Video` icon at the top of the screen (or use "
 "the :guilabel:`File→Export Video` menu). The default values will work fine, "
 "so just click the :guilabel:`Export Video` button to render your new video. "
-"You can also create your own custom export profiles, see :ref:`profiles_ref`."
+"You can also create your own custom export profiles, see "
+":ref:`profiles_ref`."
 msgstr ""
 "Klikk på ikonet :guilabel:`Eksporter video` øverst på skjermen (eller bruk "
 "menyen :guilabel:`Fil→Eksporter video`). Standardverdiene fungerer fint, så "
 "bare klikk på knappen :guilabel:`Eksporter video` for å gjengi din nye "
-"video. Du kan også lage dine egne tilpassede eksportprofiler, se :ref:"
-"`profiles_ref`."
+"video. Du kan også lage dine egne tilpassede eksportprofiler, se "
+":ref:`profiles_ref`."
 
 # Translated with gpt-4.1-mini
 #: ../export.rst:33
@@ -97,7 +98,7 @@ msgstr ""
 "videoprofiler gruppert etter kategori, for eksempel: **Web**)"
 
 # Translated with gpt-4.1-mini
-#: ../export.rst:48
+#: ../export.rst:48 ../export.rst:168
 msgid "Target"
 msgstr "Mål"
 
@@ -107,11 +108,11 @@ msgid ""
 "Target presets related to the current profile (collections of common "
 "formats, codecs, and quality settings, see :ref:`preset_list_ref`)"
 msgstr ""
-"Målforhåndsinnstillinger relatert til gjeldende profil (samlinger av vanlige "
-"formater, kodeker og kvalitetsinnstillinger, se :ref:`preset_list_ref`)"
+"Målforhåndsinnstillinger relatert til gjeldende profil (samlinger av vanlige"
+" formater, kodeker og kvalitetsinnstillinger, se :ref:`preset_list_ref`)"
 
 # Translated with gpt-4.1-mini
-#: ../export.rst:49
+#: ../export.rst:49 ../export.rst:169
 msgid "Video Profile"
 msgstr "Videoprofil"
 
@@ -153,8 +154,8 @@ msgid ""
 "bitrates, different codecs, or limiting the range of frames exported, this "
 "is the tab for you."
 msgstr ""
-"De fleste brukere vil aldri trenge å bytte til fanen `Avansert`, men hvis du "
-"trenger å tilpasse noen av videoenkodingsinnstillingene, for eksempel "
+"De fleste brukere vil aldri trenge å bytte til fanen `Avansert`, men hvis du"
+" trenger å tilpasse noen av videoenkodingsinnstillingene, for eksempel "
 "egendefinerte bitrater, forskjellige kodeker eller begrense området av "
 "eksporterte bilder, er dette fanen for deg."
 
@@ -179,7 +180,8 @@ msgid ""
 "Export both `video & audio`, `only audio`, `only video`, or an `image "
 "sequence`"
 msgstr ""
-"Eksporter både `video og lyd`, `kun lyd`, `kun video` eller en `bildesekvens`"
+"Eksporter både `video og lyd`, `kun lyd`, `kun video` eller en "
+"`bildesekvens`"
 
 # Translated with gpt-4.1-mini
 #: ../export.rst:72
@@ -216,8 +218,8 @@ msgid ""
 "This checkbox will toggle the **Start Frame** between `0.0` and the `start` "
 "of the first clip/transition position."
 msgstr ""
-"Denne avkrysningsboksen vil veksle **Startbilde** mellom `0.0` og `start` av "
-"den første klipp-/overgangsposisjonen."
+"Denne avkrysningsboksen vil veksle **Startbilde** mellom `0.0` og `start` av"
+" den første klipp-/overgangsposisjonen."
 
 # Translated with gpt-4.1-mini
 #: ../export.rst:75
@@ -242,11 +244,11 @@ msgstr ""
 # Translated with gpt-4.1-mini
 #: ../export.rst:81
 msgid ""
-"A video profile is a collection of common video settings (*size, frame rate, "
-"aspect ratio*). Profiles are used during editing, previewing, and exporting "
-"to provide a quick way to switch between common combinations of these "
-"settings. The :guilabel:`Export Dialog` will **default** to the same profile "
-"used by the project."
+"A video profile is a collection of common video settings (*size, frame rate,"
+" aspect ratio*). Profiles are used during editing, previewing, and exporting"
+" to provide a quick way to switch between common combinations of these "
+"settings. The :guilabel:`Export Dialog` will **default** to the same profile"
+" used by the project."
 msgstr ""
 "En videoprofil er en samling av vanlige videoinnstillinger (*størrelse, "
 "bildefrekvens, sideforhold*). Profiler brukes under redigering, "
@@ -264,12 +266,12 @@ msgid ""
 "video, making it appear differently than the :guilabel:`Preview` inside "
 "OpenShot.*"
 msgstr ""
-"*MERK: Det er viktig å velge en **Profil** med samme **sideforhold** som ble "
-"brukt under redigering av prosjektet ditt. Hvis du eksporterer med et "
+"*MERK: Det er viktig å velge en **Profil** med samme **sideforhold** som ble"
+" brukt under redigering av prosjektet ditt. Hvis du eksporterer med et "
 "**annet sideforhold**, kan det strekke bildet, beskjære bildet, legge til "
 "svarte kanter eller på annen måte introdusere et problem som endrer den "
-"eksporterte videoen, slik at den ser annerledes ut enn :guilabel:"
-"`Forhåndsvisningen` i OpenShot.*"
+"eksporterte videoen, slik at den ser annerledes ut enn "
+":guilabel:`Forhåndsvisningen` i OpenShot.*"
 
 # Translated with gpt-4.1-mini
 #: ../export.rst:96
@@ -396,8 +398,8 @@ msgid ""
 "images. For example, %05d.png would pad a number with 5 digits: 00001.png, "
 "00002.png."
 msgstr ""
-"Strengformatet som representerer utdatafilnavnet i en sekvens av bilder. For "
-"eksempel vil %05d.png fylle et tall med 5 sifre: 00001.png, 00002.png."
+"Strengformatet som representerer utdatafilnavnet i en sekvens av bilder. For"
+" eksempel vil %05d.png fylle et tall med 5 sifre: 00001.png, 00002.png."
 
 # Translated with gpt-4.1-mini
 #: ../export.rst:123
@@ -444,8 +446,8 @@ msgstr "Bitrate / Kvalitet"
 # Translated with gpt-4.1-mini
 #: ../export.rst:135
 msgid ""
-"The bitrate to use for video encoding. Accepts the following formats: ``5 Mb/"
-"s``, ``96 kb/s``, ``23 crf``, etc..."
+"The bitrate to use for video encoding. Accepts the following formats: ``5 "
+"Mb/s``, ``96 kb/s``, ``23 crf``, etc..."
 msgstr ""
 "Bitraten som skal brukes for videoenkoding. Aksepterer følgende formater: "
 "``5 Mb/s``, ``96 kb/s``, ``23 crf``, osv..."
@@ -495,8 +497,8 @@ msgstr "Kanaloppsett"
 # Translated with gpt-4.1-mini
 #: ../export.rst:151
 msgid ""
-"The number and layout of audio channels (``Stereo``, ``Mono``, ``Surround``, "
-"etc...)"
+"The number and layout of audio channels (``Stereo``, ``Mono``, ``Surround``,"
+" etc...)"
 msgstr ""
 "Antall og oppsett av lydkanaler (``Stereo``, ``Mono``, ``Surround``, osv...)"
 
@@ -506,5 +508,255 @@ msgid ""
 "The bitrate to use for audio encoding. Accepts the following formats: ``96 "
 "kb/s``, ``128 kb/s``, ``192 kb/s``, etc..."
 msgstr ""
-"Bitraten som skal brukes for lydenkoding. Aksepterer følgende formater: ``96 "
-"kb/s``, ``128 kb/s``, ``192 kb/s``, osv..."
+"Bitraten som skal brukes for lydenkoding. Aksepterer følgende formater: ``96"
+" kb/s``, ``128 kb/s``, ``192 kb/s``, osv..."
+
+#: ../export.rst:158
+msgid "Social Media Quick Reference"
+msgstr "Rask referanse for sosiale medier"
+
+#: ../export.rst:160
+msgid ""
+"The table below shows the recommended :guilabel:`Target` and "
+":guilabel:`Video Profile` settings for common social media platforms. Select"
+" these in the **Simple** tab of the Export dialog."
+msgstr ""
+"Tabellen nedenfor viser anbefalte :guilabel:`Mål` og "
+":guilabel:`Videoprofil`-innstillinger for vanlige sosiale medieplattformer. "
+"Velg disse i **Enkel**-fanen i eksportdialogen."
+
+#: ../export.rst:167
+msgid "Platform"
+msgstr "Plattform"
+
+#: ../export.rst:170
+msgid "Notes"
+msgstr "Notater"
+
+#: ../export.rst:171
+msgid "YouTube (landscape)"
+msgstr "YouTube (liggende)"
+
+#: ../export.rst:172
+msgid "``YouTube``"
+msgstr "``YouTube``"
+
+#: ../export.rst:173 ../export.rst:189 ../export.rst:197 ../export.rst:201
+#: ../export.rst:205 ../export.rst:209
+msgid "``FHD 1080p 30 fps``"
+msgstr "``FHD 1080p 30 fps``"
+
+#: ../export.rst:174
+msgid "Use ``YouTube (4K)`` for 4K"
+msgstr "Bruk ``YouTube (4K)`` for 4K"
+
+#: ../export.rst:175
+msgid "YouTube Shorts (vertical)"
+msgstr "YouTube Shorts (stående)"
+
+#: ../export.rst:176
+msgid "``YouTube Shorts``"
+msgstr "``YouTube Shorts``"
+
+#: ../export.rst:177 ../export.rst:181 ../export.rst:185 ../export.rst:193
+msgid "``FHD Vertical 1080p 30 fps``"
+msgstr "``FHD Vertikal 1080p 30 fps``"
+
+#: ../export.rst:178 ../export.rst:182 ../export.rst:186 ../export.rst:194
+msgid "Up to 60 fps"
+msgstr "Opptil 60 fps"
+
+#: ../export.rst:179
+msgid "TikTok (vertical)"
+msgstr "TikTok (stående)"
+
+#: ../export.rst:180
+msgid "``TikTok``"
+msgstr "``TikTok``"
+
+#: ../export.rst:183
+msgid "Instagram Reels (vertical)"
+msgstr "Instagram Reels (stående)"
+
+#: ../export.rst:184
+msgid "``Instagram Reels``"
+msgstr "``Instagram Reels``"
+
+#: ../export.rst:187
+msgid "Instagram (landscape/square)"
+msgstr "Instagram (liggende/firkantet)"
+
+#: ../export.rst:188
+msgid "``Instagram``"
+msgstr "``Instagram``"
+
+#: ../export.rst:190
+msgid "Square (1:1) also available"
+msgstr "Firkantet (1:1) også tilgjengelig"
+
+#: ../export.rst:191
+msgid "Snapchat (vertical)"
+msgstr "Snapchat (stående)"
+
+#: ../export.rst:192
+msgid "``Snapchat``"
+msgstr "``Snapchat``"
+
+#: ../export.rst:195
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../export.rst:196
+msgid "``Facebook``"
+msgstr "``Facebook``"
+
+#: ../export.rst:198
+msgid "Square and vertical also available"
+msgstr "Firkantet og stående også tilgjengelig"
+
+#: ../export.rst:199
+msgid "LinkedIn (landscape)"
+msgstr "LinkedIn (liggende)"
+
+#: ../export.rst:200
+msgid "``LinkedIn``"
+msgstr "``LinkedIn``"
+
+#: ../export.rst:202
+msgid "Square and 4:5 portrait also available"
+msgstr "Firkantet og 4:5 portrett også tilgjengelig"
+
+#: ../export.rst:203
+msgid "Twitter / X"
+msgstr "Twitter / X"
+
+#: ../export.rst:204
+msgid "``Twitter / X``"
+msgstr "``Twitter / X``"
+
+#: ../export.rst:206
+msgid "Vertical also available"
+msgstr "Stående også tilgjengelig"
+
+#: ../export.rst:207
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: ../export.rst:208
+msgid "``Vimeo``"
+msgstr "``Vimeo``"
+
+#: ../export.rst:210
+msgid "Use High quality setting"
+msgstr "Bruk høy kvalitetsinnstilling"
+
+#: ../export.rst:215
+msgid "Hardware-Accelerated Export"
+msgstr "Maskinvareakselerert eksport"
+
+#: ../export.rst:217
+msgid ""
+"OpenShot supports GPU-accelerated video encoding on supported hardware, "
+"dramatically reducing export times. Hardware-accelerated targets are shown "
+"with a badge in the :guilabel:`Target` dropdown. Select the appropriate "
+"target for your hardware:"
+msgstr ""
+"OpenShot støtter GPU-akselerert videoenkoding på støttet maskinvare, noe som"
+" dramatisk reduserer eksporttiden. Maskinvareakselererte mål vises med et "
+"merke i :guilabel:`Mål`-nedtrekksmenyen. Velg riktig mål for maskinvaren "
+"din:"
+
+#: ../export.rst:225
+msgid "Target (Export Dialog)"
+msgstr "Mål (eksportdialog)"
+
+#: ../export.rst:225
+msgid "Badge"
+msgstr "Merke"
+
+#: ../export.rst:225
+msgid "Requires"
+msgstr "Krever"
+
+#: ../export.rst:227
+msgid "``MP4 (h.264 nv)``"
+msgstr "``MP4 (h.264 nv)``"
+
+#: ../export.rst:227
+msgid "NVENC"
+msgstr "NVENC"
+
+#: ../export.rst:227
+msgid "NVIDIA GPU (Kepler or newer)"
+msgstr "NVIDIA GPU (Kepler eller nyere)"
+
+#: ../export.rst:228
+msgid "``MP4 (h.264 va)``"
+msgstr "``MP4 (h.264 va)``"
+
+#: ../export.rst:228 ../export.rst:232
+msgid "VA-API"
+msgstr "VA-API"
+
+#: ../export.rst:228
+msgid "Linux with AMD or Intel GPU (VAAPI driver)"
+msgstr "Linux med AMD- eller Intel-GPU (VAAPI-driver)"
+
+#: ../export.rst:229
+msgid "``MP4 (h.264 qsv)``"
+msgstr "``MP4 (h.264 qsv)``"
+
+#: ../export.rst:229
+msgid "QSV"
+msgstr "QSV"
+
+#: ../export.rst:229
+msgid "Intel GPU with Quick Sync Video"
+msgstr "Intel GPU med Quick Sync Video"
+
+#: ../export.rst:230
+msgid "``MP4 (h.264 videotoolbox)``"
+msgstr "``MP4 (h.264 videotoolbox)``"
+
+#: ../export.rst:230
+msgid "VideoToolbox"
+msgstr "VideoToolbox"
+
+#: ../export.rst:230
+msgid "macOS with Apple or Intel GPU"
+msgstr "macOS med Apple- eller Intel-GPU"
+
+#: ../export.rst:231
+msgid "``MP4 (h.264 dx)``"
+msgstr "``MP4 (h.264 dx)``"
+
+#: ../export.rst:231
+msgid "DirectX"
+msgstr "DirectX"
+
+#: ../export.rst:231
+msgid "Windows with DirectX-compatible GPU"
+msgstr "Windows med DirectX-kompatibel GPU"
+
+#: ../export.rst:232
+msgid "``MP4 (HEVC va)``"
+msgstr "``MP4 (HEVC va)``"
+
+#: ../export.rst:232
+msgid "Linux VA-API — produces smaller HEVC files"
+msgstr "Linux VA-API — produserer mindre HEVC-filer"
+
+#: ../export.rst:235
+msgid ""
+"MKV variants (``MKV (h.264 nv)``, ``MKV (h.264 va)``, etc.) are also "
+"available for each accelerator. If none of these targets appear or export "
+"fails, your system either lacks the required driver or the hardware encoder "
+"is not supported — fall back to the standard ``MP4 (h.264 + AAC)`` target, "
+"which uses the CPU-based ``libx264`` encoder and works on all systems."
+msgstr ""
+"MKV-varianter (``MKV (h.264 nv)``, ``MKV (h.264 va)``, osv.) er også "
+"tilgjengelige for hver akselerator. Hvis ingen av disse målene vises eller "
+"eksporten feiler, mangler systemet ditt enten nødvendig driver eller "
+"maskinvarekoder støttes ikke — gå tilbake til standardmålet ``MP4 (h.264 + "
+"AAC)``, som bruker CPU-basert ``libx264``-koder og fungerer på alle "
+"systemer."

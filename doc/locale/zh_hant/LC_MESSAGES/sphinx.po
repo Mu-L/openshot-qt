@@ -20,7 +20,7 @@ msgstr ""
 # Translated with gpt-4.1-mini
 #: ../_templates/footer.html:19
 msgid "&copy; <a href=\"%(path)s\">Copyright</a> %(copyright)s."
-msgstr "&copy; <a href=\\\"%(path)s\\\">版權所有</a> %(copyright)s。"
+msgstr "&copy; <a href=\"%(path)s\">版權所有</a> %(copyright)s。"
 
 # Translated with gpt-4.1-mini
 #: ../_templates/footer.html:21
@@ -29,7 +29,7 @@ msgid ""
 "href=\"http://www.openshot.org/\">www.openshot.org</a>."
 msgstr ""
 "&copy; 版權所有 %(copyright)s - <a data-iframe-height "
-"href=\\\"http://www.openshot.org/\\\">www.openshot.org</a>。"
+"href=\"http://www.openshot.org/\">www.openshot.org</a>。"
 
 # Translated with gpt-4.1-mini
 #: ../_templates/footer.html:26
@@ -42,9 +42,9 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"        <span class=\\\"build\\\">\n"
+"        <span class=\"build\">\n"
 "          建置\n"
-"          <a href=\\\"%(build_url)s\\\">%(build_id)s</a>。\n"
+"          <a href=\"%(build_url)s\">%(build_id)s</a>。\n"
 "        </span>\n"
 "      "
 
@@ -58,7 +58,7 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"        <span class=\\\"commit\\\">\n"
+"        <span class=\"commit\">\n"
 "          修訂 <code>%(commit)s</code>。\n"
 "        </span>\n"
 "      "
@@ -75,6 +75,6 @@ msgid ""
 "href=\"https://github.com/snide/sphinx_rtd_theme\">theme</a> provided by <a "
 "href=\"https://readthedocs.org\">Read the Docs</a>"
 msgstr ""
-"使用 <a href=\\\"http://sphinx-doc.org/\\\">Sphinx</a> 建置，主題由 <a "
-"href=\\\"https://readthedocs.org\\\">Read the Docs</a> 提供，並採用 <a "
-"href=\\\"https://github.com/snide/sphinx_rtd_theme\\\">theme</a>"
+"使用 <a href=\"http://sphinx-doc.org/\">Sphinx</a> 建置，主題由 <a "
+"href=\"https://readthedocs.org\">Read the Docs</a> 提供，並採用 <a "
+"href=\"https://github.com/snide/sphinx_rtd_theme\">theme</a>"

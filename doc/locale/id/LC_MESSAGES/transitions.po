@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,22 +22,23 @@ msgstr ""
 msgid "Transitions"
 msgstr "Transisi"
 
-# Translated with gpt-4.1-mini
 #: ../transitions.rst:25
 msgid ""
-"A transition is used to gradually fade (or wipe) between two clip images. In "
-"OpenShot, transitions are represented by blue, rounded rectangles on the "
-"timeline. They are automatically created when you overlap two clips, and can "
-"be added manually by dragging one onto the timeline from the **Transitions** "
-"panel. A transition must be placed on top of a clip (overlapping it), with "
-"the most common location being the beginning or end of a clip."
+"A transition is used to gradually fade (also called a **cross dissolve** or "
+"**crossfade**) or wipe between two clip images. In OpenShot, transitions are"
+" represented by blue, rounded rectangles on the timeline. They are "
+"automatically created when you overlap two clips, and can be added manually "
+"by dragging one onto the timeline from the **Transitions** panel. A "
+"transition must be placed on top of a clip (overlapping it), with the most "
+"common location being the beginning or end of a clip."
 msgstr ""
-"Transisi digunakan untuk secara bertahap memudar (atau menghapus) antara dua "
-"gambar klip. Di OpenShot, transisi diwakili oleh persegi panjang biru dengan "
-"sudut membulat di timeline. Transisi dibuat secara otomatis saat Anda "
-"menumpuk dua klip, dan dapat ditambahkan secara manual dengan menyeretnya ke "
-"timeline dari panel **Transisi**. Transisi harus ditempatkan di atas klip "
-"(menumpuknya), dengan lokasi paling umum di awal atau akhir klip."
+"Transisi digunakan untuk memudar secara bertahap (juga disebut **cross "
+"dissolve** atau **crossfade**) atau menghapus antar dua gambar klip. Di "
+"OpenShot, transisi diwakili oleh persegi panjang biru dengan sudut membulat "
+"di timeline. Mereka dibuat secara otomatis saat Anda menumpuk dua klip, dan "
+"dapat ditambahkan secara manual dengan menyeretnya ke timeline dari panel "
+"**Transitions**. Transisi harus ditempatkan di atas klip (menumpukinya), "
+"dengan lokasi paling umum adalah di awal atau akhir klip."
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:31
@@ -127,18 +128,19 @@ msgstr "Arah"
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:49
 msgid ""
-"Transitions adjust the alpha/transparency of the overlapping clip image (i."
-"e. the clip under the transition), and can either fade from opaque to "
+"Transitions adjust the alpha/transparency of the overlapping clip image "
+"(i.e. the clip under the transition), and can either fade from opaque to "
 "transparent, or transparent to opaque (does not affect the audio). Right "
 "click and choose :guilabel:`Reverse Transition` to change the direction of "
 "the fade. You can also manually adjust the **Brightness** curve, animating "
 "the visual fade in any way you wish."
 msgstr ""
-"Transisi mengatur alfa/transparansi gambar klip yang menumpuk (yaitu klip di "
-"bawah transisi), dan dapat memudar dari buram ke transparan, atau transparan "
-"ke buram (tidak memengaruhi audio). Klik kanan dan pilih :guilabel:`Balik "
-"Transisi` untuk mengubah arah pudar. Anda juga dapat menyesuaikan kurva "
-"**Kecerahan** secara manual, menganimasikan pudar visual sesuai keinginan."
+"Transisi mengatur alfa/transparansi gambar klip yang menumpuk (yaitu klip di"
+" bawah transisi), dan dapat memudar dari buram ke transparan, atau "
+"transparan ke buram (tidak memengaruhi audio). Klik kanan dan pilih "
+":guilabel:`Balik Transisi` untuk mengubah arah pudar. Anda juga dapat "
+"menyesuaikan kurva **Kecerahan** secara manual, menganimasikan pudar visual "
+"sesuai keinginan."
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:56
@@ -148,16 +150,16 @@ msgstr "Transparansi"
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:57
 msgid ""
-"If transitions are used on images or videos that contain transparency (*i.e. "
-"alpha channel*) this will result in the original clip disappearing abruptly "
-"(or popping out of existence), since OpenShot's transition system expects "
+"If transitions are used on images or videos that contain transparency (*i.e."
+" alpha channel*) this will result in the original clip disappearing abruptly"
+" (or popping out of existence), since OpenShot's transition system expects "
 "the 2nd clip to fully cover up the first clip. For example, if the 2nd clip "
-"does not fully cover the first clip, a transition might not be the best tool "
-"to use. Instead, you should consider adjusting the ``alpha`` property of the "
-"first clip to make it fade out where needed, see :ref:`clip_properties_ref` "
-"or :ref:`clip_presets_ref`. Alternatively, you can combine a transition and "
-"``alpha`` fade when using transparent clips to more smoothly fade between "
-"then."
+"does not fully cover the first clip, a transition might not be the best tool"
+" to use. Instead, you should consider adjusting the ``alpha`` property of "
+"the first clip to make it fade out where needed, see "
+":ref:`clip_properties_ref` or :ref:`clip_presets_ref`. Alternatively, you "
+"can combine a transition and ``alpha`` fade when using transparent clips to "
+"more smoothly fade between then."
 msgstr ""
 "Jika transisi digunakan pada gambar atau video yang mengandung transparansi "
 "(*yaitu saluran alfa*), ini akan menyebabkan klip asli menghilang secara "
@@ -165,9 +167,9 @@ msgstr ""
 "klip ke-2 menutupi klip pertama sepenuhnya. Misalnya, jika klip ke-2 tidak "
 "menutupi klip pertama sepenuhnya, transisi mungkin bukan alat terbaik untuk "
 "digunakan. Sebagai gantinya, Anda harus mempertimbangkan menyesuaikan "
-"properti ``alpha`` klip pertama agar memudar di area yang diperlukan, lihat :"
-"ref:`clip_properties_ref` atau :ref:`clip_presets_ref`. Alternatifnya, Anda "
-"dapat menggabungkan transisi dan pudar ``alpha`` saat menggunakan klip "
+"properti ``alpha`` klip pertama agar memudar di area yang diperlukan, lihat "
+":ref:`clip_properties_ref` atau :ref:`clip_presets_ref`. Alternatifnya, Anda"
+" dapat menggabungkan transisi dan pudar ``alpha`` saat menggunakan klip "
 "transparan untuk memudar lebih halus di antara keduanya."
 
 # Translated with gpt-4.1-mini
@@ -189,8 +191,8 @@ msgstr ""
 "dan akhir sebuah transisi (dikenal juga sebagai memotong atau memangkas). "
 "Metode paling umum adalah dengan menarik tepi kiri (atau kanan) transisi. "
 "Untuk panduan lengkap tentang pemisahan dan semua pintasan keyboard yang "
-"tersedia, lihat bagian :ref:`clips_cutting_slicing_ref` dan :ref:"
-"`keyboard_shortcut_ref`."
+"tersedia, lihat bagian :ref:`clips_cutting_slicing_ref` dan "
+":ref:`keyboard_shortcut_ref`."
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:71
@@ -201,8 +203,8 @@ msgstr "Masker"
 #: ../transitions.rst:72
 msgid ""
 "In video editing, masks are powerful tools that allow you to selectively "
-"display specific areas of a video clip. Similar to masking in image editing, "
-"video masks define a region where changes will be applied while leaving "
+"display specific areas of a video clip. Similar to masking in image editing,"
+" video masks define a region where changes will be applied while leaving "
 "other parts of the video unaffected."
 msgstr ""
 "Dalam penyuntingan video, masker adalah alat kuat yang memungkinkan Anda "
@@ -238,8 +240,8 @@ msgstr ""
 "seiring waktu. Ini memungkinkan efek dinamis seperti menampilkan elemen "
 "tersembunyi atau bertransisi antara keadaan visual yang berbeda. Di "
 "OpenShot, Anda dapat mengubah transisi menjadi masker dengan menyesuaikan "
-"kurva key-frame :guilabel:`Kecerahan`. Menjaga nilai kecerahan statis (tidak "
-"berubah) akan mempertahankan lokasi masker tetap. Gabungkan ini dengan "
+"kurva key-frame :guilabel:`Kecerahan`. Menjaga nilai kecerahan statis (tidak"
+" berubah) akan mempertahankan lokasi masker tetap. Gabungkan ini dengan "
 "gambar transisi khusus, atau bahkan urutan gambar khusus, untuk membuat "
 "masker animasi yang kompleks."
 
@@ -256,8 +258,8 @@ msgid ""
 "something that is easily recognizable, and restart OpenShot. Your custom "
 "transition/mask will now show up in the list of transitions."
 msgstr ""
-"Gambar skala abu-abu apa pun dapat digunakan sebagai transisi (atau masker), "
-"dengan menambahkannya ke folder ``~/.openshot_qt/transitions/`` Anda. "
+"Gambar skala abu-abu apa pun dapat digunakan sebagai transisi (atau masker),"
+" dengan menambahkannya ke folder ``~/.openshot_qt/transitions/`` Anda. "
 "Pastikan memberi nama file yang mudah dikenali, lalu mulai ulang OpenShot. "
 "Transisi/masker kustom Anda sekarang akan muncul dalam daftar transisi."
 
@@ -272,9 +274,9 @@ msgid ""
 "Below is a list of transition properties which can be edited, and in most "
 "cases, animated over time. To view a transition's properties, right click "
 "and choose :guilabel:`Properties`. The property editor will appear, where "
-"you can change these properties. NOTE: Pay close attention to where the play-"
-"head (i.e. red playback line) is. Key frames are automatically created at "
-"the current playback position, to help create animations."
+"you can change these properties. NOTE: Pay close attention to where the "
+"play-head (i.e. red playback line) is. Key frames are automatically created "
+"at the current playback position, to help create animations."
 msgstr ""
 "Berikut adalah daftar properti transisi yang dapat diedit, dan dalam banyak "
 "kasus, dianimasikan seiring waktu. Untuk melihat properti transisi, klik "
@@ -286,8 +288,8 @@ msgstr ""
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:98
 msgid ""
-"NOTE: Transitions do not affect audio, so if you are intending to fade in/"
-"out the audio volume of a clip, you must adjust the ``volume`` clip "
+"NOTE: Transitions do not affect audio, so if you are intending to fade "
+"in/out the audio volume of a clip, you must adjust the ``volume`` clip "
 "property. See :ref:`clip_properties_ref`."
 msgstr ""
 "CATATAN: Transisi tidak memengaruhi audio, jadi jika Anda bermaksud memudar "
@@ -317,11 +319,11 @@ msgstr "Key-frame"
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:107
 msgid ""
-"Curve representing the brightness of the transition image, which affects the "
-"fade/wipe (-1 to 1)"
+"Curve representing the brightness of the transition image, which affects the"
+" fade/wipe (-1 to 1)"
 msgstr ""
-"Kurva yang mewakili kecerahan gambar transisi, yang memengaruhi efek pudar/"
-"geser (-1 hingga 1)"
+"Kurva yang mewakili kecerahan gambar transisi, yang memengaruhi efek "
+"pudar/geser (-1 hingga 1)"
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:108
@@ -334,17 +336,17 @@ msgid ""
 "Curve representing the contrast of the transition image, which affects the "
 "softness/hardness of the fade/wipe (0 to 20)"
 msgstr ""
-"Kurva yang mewakili kontras gambar transisi, yang memengaruhi kelembutan/"
-"kekerasan efek pudar/geser (0 hingga 20)"
+"Kurva yang mewakili kontras gambar transisi, yang memengaruhi "
+"kelembutan/kekerasan efek pudar/geser (0 hingga 20)"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:109 ../transitions.rst:120
+#: ../transitions.rst:109 ../transitions.rst:124
 msgid "Duration"
 msgstr "Durasi"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:109 ../transitions.rst:110 ../transitions.rst:113
-#: ../transitions.rst:115
+#: ../transitions.rst:109 ../transitions.rst:110 ../transitions.rst:117
+#: ../transitions.rst:119
 msgid "Float"
 msgstr "Float"
 
@@ -354,7 +356,7 @@ msgid "The length of the transition (in seconds). Read-only property."
 msgstr "Panjang transisi (dalam detik). Properti hanya-baca."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:110 ../transitions.rst:128
+#: ../transitions.rst:110 ../transitions.rst:132
 msgid "End"
 msgstr "Akhir"
 
@@ -364,12 +366,12 @@ msgid "The end trimming position of the transition (in seconds)."
 msgstr "Posisi pemotongan akhir transisi (dalam detik)."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:111 ../transitions.rst:136
+#: ../transitions.rst:111 ../transitions.rst:140
 msgid "ID"
 msgstr "ID"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:111 ../transitions.rst:112
+#: ../transitions.rst:111 ../transitions.rst:116
 msgid "String"
 msgstr "String"
 
@@ -382,13 +384,70 @@ msgstr ""
 "GUID (pengidentifikasi unik global) yang dihasilkan secara acak dan "
 "diberikan ke setiap transisi. Properti hanya-baca."
 
-# Translated with gpt-4.1-mini
 #: ../transitions.rst:112
+msgid "Mask: Invert"
+msgstr "Masker: Balik"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:112 ../transitions.rst:113 ../transitions.rst:118
+msgid "Bool"
+msgstr "Bool"
+
+#: ../transitions.rst:112
+msgid ""
+"Invert the mask source so light areas become dark and dark areas become "
+"light."
+msgstr ""
+"Balik sumber masker sehingga area terang menjadi gelap dan area gelap "
+"menjadi terang."
+
+#: ../transitions.rst:113
+msgid "Mask: Loop"
+msgstr "Masker: Ulang"
+
+#: ../transitions.rst:113
+msgid ""
+"Loop an animated mask source when the transition is longer than the source."
+msgstr ""
+"Ulang sumber masker animasi ketika transisi lebih panjang dari sumbernya."
+
+#: ../transitions.rst:114
+msgid "Mask: Source"
+msgstr "Masker: Sumber"
+
+#: ../transitions.rst:114
+msgid "Reader"
+msgstr "Pembaca"
+
+#: ../transitions.rst:114
+msgid ""
+"The image, image sequence, or video used as the transition's grayscale mask "
+"source."
+msgstr ""
+"Gambar, urutan gambar, atau video yang digunakan sebagai sumber masker skala"
+" abu-abu untuk transisi."
+
+#: ../transitions.rst:115
+msgid "Mask: Time Mode"
+msgstr "Masker: Mode Waktu"
+
+#: ../transitions.rst:115
+msgid "Enum"
+msgstr "Enum"
+
+#: ../transitions.rst:115
+msgid "Controls how OpenShot maps transition time to an animated mask source."
+msgstr ""
+"Mengontrol bagaimana OpenShot memetakan waktu transisi ke sumber masker "
+"animasi."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:116
 msgid "Parent"
 msgstr "Induk"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:112
+#: ../transitions.rst:116
 msgid ""
 "The parent object to this transition, which makes many of these keyframe "
 "values initialize to the parent value."
@@ -397,70 +456,65 @@ msgstr ""
 "diinisialisasi ke nilai induk."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:113
+#: ../transitions.rst:117
 msgid "Position"
 msgstr "Posisi"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:113
+#: ../transitions.rst:117
 msgid "The position of the transition on the timeline (in seconds)."
 msgstr "Posisi transisi pada timeline (dalam detik)."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:114
+#: ../transitions.rst:118
 msgid "Replace Image"
 msgstr "Ganti Gambar"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:114
-msgid "Bool"
-msgstr "Bool"
-
-# Translated with gpt-4.1-mini
-#: ../transitions.rst:114
+#: ../transitions.rst:118
 msgid ""
 "For debugging a problem, this property displays the transition image "
 "(instead of becoming a transparency)."
 msgstr ""
-"Untuk debugging masalah, properti ini menampilkan gambar transisi (alih-alih "
-"menjadi transparansi)."
+"Untuk debugging masalah, properti ini menampilkan gambar transisi (alih-alih"
+" menjadi transparansi)."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:115
+#: ../transitions.rst:119
 msgid "Start"
 msgstr "Mulai"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:115
+#: ../transitions.rst:119
 msgid "The start trimming position of the transition (in seconds)."
 msgstr "Posisi pemotongan awal transisi (dalam detik)."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:116 ../transitions.rst:144
+#: ../transitions.rst:120 ../transitions.rst:158
 msgid "Track"
 msgstr "Track"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:116
+#: ../transitions.rst:120
 msgid "Int"
 msgstr "Int"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:116
+#: ../transitions.rst:120
 msgid ""
 "The layer which holds the transition (higher tracks are rendered on top of "
 "lower tracks)."
 msgstr ""
-"Lapisan yang memuat transisi (track yang lebih tinggi dirender di atas track "
-"yang lebih rendah)."
+"Lapisan yang memuat transisi (track yang lebih tinggi dirender di atas track"
+" yang lebih rendah)."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:121
+#: ../transitions.rst:125
 msgid ""
 "The :guilabel:`Duration` property is a float value indicating the length of "
 "the transition in seconds. This is a Read-only property. This is calculated "
-"by: End - Start. To modify duration, you must edit the :guilabel:`Start` and/"
-"or :guilabel:`End` transition properties."
+"by: End - Start. To modify duration, you must edit the :guilabel:`Start` "
+"and/or :guilabel:`End` transition properties."
 msgstr ""
 "Properti :guilabel:`Durasi` adalah nilai float yang menunjukkan panjang "
 "transisi dalam detik. Ini adalah properti hanya-baca. Nilainya dihitung "
@@ -468,7 +522,7 @@ msgstr ""
 "transisi :guilabel:`Mulai` dan/atau :guilabel:`Akhir`."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:124
+#: ../transitions.rst:128
 msgid ""
 "**Usage Example:** Inspect the duration of a transition to ensure it fits a "
 "specific time slot in the project."
@@ -477,7 +531,7 @@ msgstr ""
 "dengan slot waktu tertentu dalam proyek."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:125
+#: ../transitions.rst:129
 msgid ""
 "**Tip:** Consider using the \"Duration\" property for transitions that need "
 "to match specific time intervals, such as dialogue or scenes."
@@ -486,12 +540,12 @@ msgstr ""
 "perlu sesuai dengan interval waktu tertentu, seperti dialog atau adegan."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:129
+#: ../transitions.rst:133
 msgid ""
 "The :guilabel:`End` property defines the trimming point at the end of the "
-"transition in seconds, allowing you to control how much of the transition is "
-"visible in the timeline. Changing this property will impact the :guilabel:"
-"`Duration` transition property."
+"transition in seconds, allowing you to control how much of the transition is"
+" visible in the timeline. Changing this property will impact the "
+":guilabel:`Duration` transition property."
 msgstr ""
 "Properti :guilabel:`Akhir` menentukan titik pemotongan di akhir transisi "
 "dalam detik, memungkinkan Anda mengontrol seberapa banyak transisi yang "
@@ -499,29 +553,29 @@ msgstr ""
 "transisi :guilabel:`Durasi`."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:132
+#: ../transitions.rst:136
 msgid ""
 "**Usage Example:** Trimming the end of a transition to align with another "
 "clip or trimming off unwanted sections of the transition."
 msgstr ""
-"**Contoh Penggunaan:** Memotong akhir transisi agar sejajar dengan klip lain "
-"atau memotong bagian transisi yang tidak diinginkan."
-
-# Translated with gpt-4.1-mini
-#: ../transitions.rst:133
-msgid ""
-"**Tip:** Combine the \"Start\" and \"End\" properties to precisely control "
-"the visible portion of the transition."
-msgstr ""
-"**Tips:** Gabungkan properti \"Mulai\" dan \"Akhir\" untuk mengontrol dengan "
-"tepat bagian transisi yang terlihat."
+"**Contoh Penggunaan:** Memotong akhir transisi agar sejajar dengan klip lain"
+" atau memotong bagian transisi yang tidak diinginkan."
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:137
 msgid ""
-"The :guilabel:`ID` property holds a randomly generated GUID (Globally Unique "
-"Identifier) assigned to each transition, ensuring its uniqueness. This is a "
-"Read-only property, and assigned by OpenShot when a transition is created."
+"**Tip:** Combine the \"Start\" and \"End\" properties to precisely control "
+"the visible portion of the transition."
+msgstr ""
+"**Tips:** Gabungkan properti \"Mulai\" dan \"Akhir\" untuk mengontrol dengan"
+" tepat bagian transisi yang terlihat."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:141
+msgid ""
+"The :guilabel:`ID` property holds a randomly generated GUID (Globally Unique"
+" Identifier) assigned to each transition, ensuring its uniqueness. This is a"
+" Read-only property, and assigned by OpenShot when a transition is created."
 msgstr ""
 "Properti :guilabel:`ID` memuat GUID (Pengidentifikasi Unik Global) yang "
 "dihasilkan secara acak dan diberikan ke setiap transisi, memastikan "
@@ -529,25 +583,60 @@ msgstr ""
 "saat transisi dibuat."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:140
+#: ../transitions.rst:144
 msgid ""
-"**Usage Example:** Referencing specific transitions within custom scripts or "
-"automation tasks."
+"**Usage Example:** Referencing specific transitions within custom scripts or"
+" automation tasks."
 msgstr ""
 "**Contoh Penggunaan:** Merujuk transisi tertentu dalam skrip kustom atau "
 "tugas otomatisasi."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:141
+#: ../transitions.rst:145
 msgid ""
-"**Tip:** While typically managed behind the scenes, understanding transition "
-"IDs can aid in advanced project customization."
+"**Tip:** While typically managed behind the scenes, understanding transition"
+" IDs can aid in advanced project customization."
 msgstr ""
-"**Tips:** Meskipun biasanya dikelola di belakang layar, memahami ID transisi "
-"dapat membantu dalam kustomisasi proyek tingkat lanjut."
+"**Tips:** Meskipun biasanya dikelola di belakang layar, memahami ID transisi"
+" dapat membantu dalam kustomisasi proyek tingkat lanjut."
+
+#: ../transitions.rst:148
+msgid "Mask Properties"
+msgstr "Properti Masker"
+
+#: ../transitions.rst:149
+msgid ""
+"The :guilabel:`Mask: Source`, :guilabel:`Mask: Time Mode`, :guilabel:`Mask: "
+"Loop`, and :guilabel:`Mask: Invert` properties control the grayscale mask "
+"used by a transition. Static masks use a single image. Animated masks can "
+"use video or image sequences, with time mapping and looping options "
+"determining which source frame is used at each point in the transition."
+msgstr ""
+"Properti :guilabel:`Mask: Source`, :guilabel:`Mask: Time Mode`, "
+":guilabel:`Mask: Loop`, dan :guilabel:`Mask: Invert` mengontrol masker skala"
+" abu-abu yang digunakan oleh sebuah transisi. Masker statis menggunakan satu"
+" gambar. Masker animasi dapat menggunakan video atau urutan gambar, dengan "
+"opsi pemetaan waktu dan pengulangan yang menentukan frame sumber mana yang "
+"digunakan pada setiap titik dalam transisi."
+
+#: ../transitions.rst:154
+msgid ""
+"**Usage Example:** Use :guilabel:`Mask: Invert` when the visible and hidden "
+"areas of a custom mask are reversed."
+msgstr ""
+"**Contoh Penggunaan:** Gunakan :guilabel:`Mask: Invert` ketika area yang "
+"terlihat dan tersembunyi dari masker kustom dibalik."
+
+#: ../transitions.rst:155
+msgid ""
+"**Tip:** When using an animated mask, trim the mask source carefully before "
+"enabling loop behavior."
+msgstr ""
+"**Tips:** Saat menggunakan masker animasi, potong sumber masker dengan hati-"
+"hati sebelum mengaktifkan perilaku pengulangan."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:145
+#: ../transitions.rst:159
 msgid ""
 "The :guilabel:`Track` property is an integer indicating the layer on which "
 "the transition is placed. Transitions on higher tracks are rendered above "
@@ -558,7 +647,7 @@ msgstr ""
 "di atas yang pada track lebih rendah."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:148
+#: ../transitions.rst:162
 msgid ""
 "**Usage Example:** Arranging transitions in different layers for creating "
 "visual depth and complexity."
@@ -567,10 +656,27 @@ msgstr ""
 "menciptakan kedalaman dan kompleksitas visual."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:149
+#: ../transitions.rst:163
 msgid ""
 "**Tip:** Use higher tracks for elements that need to appear above others, "
 "like text overlays or graphics."
 msgstr ""
 "**Tips:** Gunakan track yang lebih tinggi untuk elemen yang perlu muncul di "
 "atas elemen lain, seperti overlay teks atau grafik."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "A transition is used to gradually fade (or wipe) between two clip images. In"
+#~ " OpenShot, transitions are represented by blue, rounded rectangles on the "
+#~ "timeline. They are automatically created when you overlap two clips, and can"
+#~ " be added manually by dragging one onto the timeline from the "
+#~ "**Transitions** panel. A transition must be placed on top of a clip "
+#~ "(overlapping it), with the most common location being the beginning or end "
+#~ "of a clip."
+#~ msgstr ""
+#~ "Transisi digunakan untuk secara bertahap memudar (atau menghapus) antara dua"
+#~ " gambar klip. Di OpenShot, transisi diwakili oleh persegi panjang biru "
+#~ "dengan sudut membulat di timeline. Transisi dibuat secara otomatis saat Anda"
+#~ " menumpuk dua klip, dan dapat ditambahkan secara manual dengan menyeretnya "
+#~ "ke timeline dari panel **Transisi**. Transisi harus ditempatkan di atas klip"
+#~ " (menumpuknya), dengan lokasi paling umum di awal atau akhir klip."

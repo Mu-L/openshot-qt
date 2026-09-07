@@ -9,13 +9,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
 
@@ -24,38 +24,31 @@ msgstr ""
 msgid "Text & Titles"
 msgstr "テキストとタイトル"
 
-# Translated with gpt-4.1-mini
 #: ../titles.rst:25
 msgid ""
-"Adding text and titles is an important aspect of video editing, and OpenShot "
-"comes with an easy-to-use Title Editor. Use the Title menu (located in the "
-"main menu of OpenShot) to launch the Title Editor. You can also use the "
-"keyboard shortcut :kbd:`Ctrl+T`."
+"Adding text overlays, lower thirds, and titles is an important aspect of "
+"video editing, and OpenShot comes with an easy-to-use Title Editor. Use the "
+"Title menu (located in the main menu of OpenShot) to launch the Title "
+"Editor. You can also use the keyboard shortcut :kbd:`Ctrl+T`."
 msgstr ""
-"テキストとタイトルの追加はビデオ編集の重要な要素であり、OpenShotには使いやす"
-"いタイトルエディターが付属しています。タイトルエディターを起動するには、"
-"OpenShotのメインメニューにあるタイトルメニューを使用してください。キーボード"
-"ショートカット :kbd:`Ctrl+T` も使用できます。"
+"テキストオーバーレイ、ローワーサード、タイトルの追加はビデオ編集の重要な要素であり、OpenShot "
+"には使いやすいタイトルエディターが付属しています。タイトルメニュー（OpenShot "
+"のメインメニューにあります）を使ってタイトルエディターを起動してください。また、キーボードショートカット :kbd:`Ctrl+T` も使用できます。"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:29
 msgid ""
-"Titles are simply vector image files with transparent backgrounds (``*."
-"svg``). OpenShot comes with many easy-to-use templates, but you can also "
-"create your own or import new templates into OpenShot. These templates allow "
-"you to quickly change the text, font, size, color, and background color. You "
-"can also launch an advanced, external SVG editor for further customizations "
-"(if needed). Once the title is added to your project, drag and drop the "
-"title on a Track above a video clip. The transparent background will allow "
-"the video below to appear behind the text."
+"Titles are simply vector image files with transparent backgrounds "
+"(``*.svg``). OpenShot comes with many easy-to-use templates, but you can "
+"also create your own or import new templates into OpenShot. These templates "
+"allow you to quickly change the text, font, size, color, and background "
+"color. You can also launch an advanced, external SVG editor for further "
+"customizations (if needed). Once the title is added to your project, drag "
+"and drop the title on a Track above a video clip. The transparent background"
+" will allow the video below to appear behind the text."
 msgstr ""
-"タイトルは透明な背景を持つベクター画像ファイル（``*.svg`` ）です。OpenShotに"
-"は多くの使いやすいテンプレートが付属していますが、自分で作成したり新しいテン"
-"プレートをOpenShotにインポートすることもできます。これらのテンプレートを使う"
-"と、テキスト、フォント、サイズ、色、背景色を素早く変更できます。必要に応じ"
-"て、高度な外部SVGエディターを起動してさらにカスタマイズすることも可能です。タ"
-"イトルをプロジェクトに追加したら、ビデオクリップの上のトラックにドラッグ＆ド"
-"ロップしてください。透明な背景により、テキストの背後にビデオが表示されます。"
+"タイトルは透明な背景を持つベクター画像ファイル（``*.svg`` "
+"）です。OpenShotには多くの使いやすいテンプレートが付属していますが、自分で作成したり新しいテンプレートをOpenShotにインポートすることもできます。これらのテンプレートを使うと、テキスト、フォント、サイズ、色、背景色を素早く変更できます。必要に応じて、高度な外部SVGエディターを起動してさらにカスタマイズすることも可能です。タイトルをプロジェクトに追加したら、ビデオクリップの上のトラックにドラッグ＆ドロップしてください。透明な背景により、テキストの背後にビデオが表示されます。"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:36
@@ -122,9 +115,7 @@ msgstr "タイトルのプロパティ"
 msgid ""
 "Change the text, font, size, colors, or edit in an advanced, external SVG "
 "image editor (such as Inkscape)"
-msgstr ""
-"テキスト、フォント、サイズ、色を変更するか、高度な外部SVG画像エディター"
-"（Inkscapeなど）で編集"
+msgstr "テキスト、フォント、サイズ、色を変更するか、高度な外部SVG画像エディター（Inkscapeなど）で編集"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:49 ../titles.rst:190
@@ -153,9 +144,7 @@ msgid ""
 "enhance your video projects. Below is a table listing the available titles "
 "and their descriptions:"
 msgstr ""
-"OpenShotには、ビデオプロジェクトを強化するために使用できるさまざまなベクター"
-"タイトルテンプレートが含まれています。以下は利用可能なタイトルとその説明の一"
-"覧表です："
+"OpenShotには、ビデオプロジェクトを強化するために使用できるさまざまなベクタータイトルテンプレートが含まれています。以下は利用可能なタイトルとその説明の一覧表です："
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:62
@@ -272,9 +261,7 @@ msgstr "クリエイティブ・コモンズ 2"
 #: ../titles.rst:85
 msgid ""
 "Another Creative Commons design with different styling plus website text."
-msgstr ""
-"異なるスタイルとウェブサイトテキストを含む別のクリエイティブ・コモンズデザイ"
-"ン。"
+msgstr "異なるスタイルとウェブサイトテキストを含む別のクリエイティブ・コモンズデザイン。"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:86
@@ -416,9 +403,9 @@ msgstr "グレーボックス 1"
 # Translated with gpt-4.1-mini
 #: ../titles.rst:113
 msgid ""
-"A simple gray box for highlighting text (one line of text, top-left aligned)."
-msgstr ""
-"テキストを強調するためのシンプルなグレーボックス（1行テキスト、左上揃え）。"
+"A simple gray box for highlighting text (one line of text, top-left "
+"aligned)."
+msgstr "テキストを強調するためのシンプルなグレーボックス（1行テキスト、左上揃え）。"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:114
@@ -428,9 +415,9 @@ msgstr "グレーボックス 2"
 # Translated with gpt-4.1-mini
 #: ../titles.rst:115
 msgid ""
-"A simple gray box for highlighting text (two lins of text, top-left aligned)."
-msgstr ""
-"テキストを強調するためのシンプルなグレーボックス（2行テキスト、左上揃え）。"
+"A simple gray box for highlighting text (two lins of text, top-left "
+"aligned)."
+msgstr "テキストを強調するためのシンプルなグレーボックス（2行テキスト、左上揃え）。"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:116
@@ -442,9 +429,7 @@ msgstr "グレーボックス 3"
 msgid ""
 "A simple gray box for highlighting text (one line of text, bottom-right "
 "aligned)."
-msgstr ""
-"テキストを強調表示するためのシンプルなグレーのボックス（一行のテキスト、右下"
-"揃え）。"
+msgstr "テキストを強調表示するためのシンプルなグレーのボックス（一行のテキスト、右下揃え）。"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:118
@@ -456,9 +441,7 @@ msgstr "グレーボックス 4"
 msgid ""
 "A simple gray box for highlighting text (two lines of text, bottom-right "
 "aligned)."
-msgstr ""
-"テキストを強調表示するためのシンプルなグレーのボックス（二行のテキスト、右下"
-"揃え）。"
+msgstr "テキストを強調表示するためのシンプルなグレーのボックス（二行のテキスト、右下揃え）。"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:120
@@ -694,19 +677,18 @@ msgstr "カスタムタイトルテンプレート"
 # Translated with gpt-4.1-mini
 #: ../titles.rst:168
 msgid ""
-"OpenShot can use any vector SVG image file as a custom title template in "
-"the :guilabel:`Title Editor` dialog. Just add an SVG image file to your ``~/."
-"openshot_qt/title_templates/`` folder, and it will appear the next time you "
-"launch the :guilabel:`Title Editor` dialog. You can also right click on any "
-"SVG files in your **Project Files** panel, and choose **Edit Title** or "
-"**Duplicate Title**."
+"OpenShot can use any vector SVG image file as a custom title template in the"
+" :guilabel:`Title Editor` dialog. Just add an SVG image file to your "
+"``~/.openshot_qt/title_templates/`` folder, and it will appear the next time"
+" you launch the :guilabel:`Title Editor` dialog. You can also right click on"
+" any SVG files in your **Project Files** panel, and choose **Edit Title** or"
+" **Duplicate Title**."
 msgstr ""
-"OpenShotは、:guilabel:`Title Editor` ダイアログで任意のベクターSVG画像ファイ"
-"ルをカスタムタイトルテンプレートとして使用できます。SVG画像ファイルを``~/."
-"openshot_qt/title_templates/`` フォルダーに追加すると、次回:guilabel:`Title "
-"Editor` ダイアログを起動したときに表示されます。また、**Project Files** パネ"
-"ル内の任意のSVGファイルを右クリックして、**Edit Title** または**Duplicate "
-"Title** を選択することもできます。"
+"OpenShotは、:guilabel:`Title Editor` "
+"ダイアログで任意のベクターSVG画像ファイルをカスタムタイトルテンプレートとして使用できます。SVG画像ファイルを``~/.openshot_qt/title_templates/``"
+" フォルダーに追加すると、次回:guilabel:`Title Editor` ダイアログを起動したときに表示されます。また、**Project "
+"Files** パネル内の任意のSVGファイルを右クリックして、**Edit Title** または**Duplicate Title** "
+"を選択することもできます。"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:172
@@ -714,8 +696,8 @@ msgid ""
 "Note: These SVG templates are only used by the :guilabel:`Title Editor` "
 "dialog, and not :guilabel:`Animated Title` dialog."
 msgstr ""
-"注意：これらのSVGテンプレートは:guilabel:`Title Editor` ダイアログでのみ使用"
-"され、:guilabel:`Animated Title` ダイアログでは使用されません。"
+"注意：これらのSVGテンプレートは:guilabel:`Title Editor` ダイアログでのみ使用され、:guilabel:`Animated "
+"Title` ダイアログでは使用されません。"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:177
@@ -731,11 +713,11 @@ msgid ""
 "**Ctrl+B**. Note: Blender must be installed and configured before this "
 "feature will work in OpenShot. See :ref:`blender_install_ref`."
 msgstr ""
-"3Dアニメーションタイトルの追加も、**Animated Title** ダイアログを使えば簡単で"
-"す。OpenShotのメインメニューにあるタイトルメニューからAnimated Titleエディ"
-"ターを起動できます。キーボードショートカット **Ctrl+B** も使用可能です。注"
-"意：この機能を使うにはBlenderがインストールされ、設定されている必要がありま"
-"す。詳細は :ref:`blender_install_ref` を参照してください。"
+"3Dアニメーションタイトルの追加も、**Animated Title** "
+"ダイアログを使えば簡単です。OpenShotのメインメニューにあるタイトルメニューからAnimated "
+"Titleエディターを起動できます。キーボードショートカット **Ctrl+B** "
+"も使用可能です。注意：この機能を使うにはBlenderがインストールされ、設定されている必要があります。詳細は "
+":ref:`blender_install_ref` を参照してください。"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:187
@@ -765,13 +747,11 @@ msgstr "3Dアニメーションテンプレート"
 # Translated with gpt-4.1-mini
 #: ../titles.rst:196
 msgid ""
-"OpenShot includes a variety of 3D animated templates that can be used to add "
-"dynamic and engaging elements to your video projects. Below is a table "
+"OpenShot includes a variety of 3D animated templates that can be used to add"
+" dynamic and engaging elements to your video projects. Below is a table "
 "listing the available templates and their descriptions:"
 msgstr ""
-"OpenShotには、動画プロジェクトに動的で魅力的な要素を追加できるさまざまな3Dア"
-"ニメーションテンプレートが含まれています。以下は利用可能なテンプレートとその"
-"説明の一覧表です："
+"OpenShotには、動画プロジェクトに動的で魅力的な要素を追加できるさまざまな3Dアニメーションテンプレートが含まれています。以下は利用可能なテンプレートとその説明の一覧表です："
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:203
@@ -797,9 +777,7 @@ msgstr "ブラー"
 #: ../titles.rst:208
 msgid ""
 "A template that blurs text in and out, providing a smooth transition effect."
-msgstr ""
-"テキストをぼかして表示・非表示にする、滑らかなトランジション効果のテンプレー"
-"ト。"
+msgstr "テキストをぼかして表示・非表示にする、滑らかなトランジション効果のテンプレート。"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:209
@@ -820,8 +798,8 @@ msgstr "溶解テキスト"
 # Translated with gpt-4.1-mini
 #: ../titles.rst:212
 msgid ""
-"A dissolve effect that turns any text into particles which get blown away by "
-"the wind."
+"A dissolve effect that turns any text into particles which get blown away by"
+" the wind."
 msgstr "テキストを粒子に分解し、風で吹き飛ばす溶解効果。"
 
 # Translated with gpt-4.1-mini
@@ -925,8 +903,7 @@ msgstr "写真フレーム（4枚の写真）"
 msgid ""
 "A template featuring four picture frames, suitable for showcasing images or "
 "video clips."
-msgstr ""
-"画像やビデオクリップの表示に適した4つの写真フレームを特徴とするテンプレート。"
+msgstr "画像やビデオクリップの表示に適した4つの写真フレームを特徴とするテンプレート。"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:233
@@ -978,8 +955,7 @@ msgstr "ワイヤーフレームテキスト"
 # Translated with gpt-4.1-mini
 #: ../titles.rst:242
 msgid "An animation with wireframe text, adding a technical or digital look."
-msgstr ""
-"技術的またはデジタルな外観を加えるワイヤーフレームテキストのアニメーション。"
+msgstr "技術的またはデジタルな外観を加えるワイヤーフレームテキストのアニメーション。"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:243
@@ -1005,10 +981,8 @@ msgid ""
 "must first export the text from these programs into a compatible image "
 "format that contains a **transparent background** and **alpha** channel."
 msgstr ""
-"Blender、Inkscape、Krita、Gimpなど、多くのプログラムでテキストやタイトルを作"
-"成できます。OpenShotにテキストをインポートする前に、これらのプログラムから**"
-"透明な背景** と**アルファ** チャンネルを含む互換性のある画像形式でテキストを"
-"エクスポートする必要があります。"
+"Blender、Inkscape、Krita、Gimpなど、多くのプログラムでテキストやタイトルを作成できます。OpenShotにテキストをインポートする前に、これらのプログラムから**透明な背景**"
+" と**アルファ** チャンネルを含む互換性のある画像形式でテキストをエクスポートする必要があります。"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:253
@@ -1021,21 +995,19 @@ msgid ""
 "to allow the text to not cover up videos and images on the timeline below "
 "them."
 msgstr ""
-"``SVG`` 形式はベクターグラフィックス（曲線、形状、テキスト効果、パス）に最適"
-"ですが、OpenShotと100％互換性があるとは限りません。したがって、透明な背景とア"
-"ルファチャンネルを含めることができる優れたウェブベースの画像形式である"
-"``PNG`` 形式の使用を推奨します。透明な背景とアルファチャンネルは、テキストが"
-"下のタイムライン上のビデオや画像を覆わないようにするためにOpenShotで必要で"
-"す。"
+"``SVG`` "
+"形式はベクターグラフィックス（曲線、形状、テキスト効果、パス）に最適ですが、OpenShotと100％互換性があるとは限りません。したがって、透明な背景とアルファチャンネルを含めることができる優れたウェブベースの画像形式である``PNG``"
+" "
+"形式の使用を推奨します。透明な背景とアルファチャンネルは、テキストが下のタイムライン上のビデオや画像を覆わないようにするためにOpenShotで必要です。"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:258
 msgid ""
-"For information on importing animated sequences into OpenShot, please see :"
-"ref:`animation_image_seq_ref`."
+"For information on importing animated sequences into OpenShot, please see "
+":ref:`animation_image_seq_ref`."
 msgstr ""
-"OpenShotへのアニメーションシーケンスのインポートに関する情報は、:ref:"
-"`animation_image_seq_ref` を参照してください。"
+"OpenShotへのアニメーションシーケンスのインポートに関する情報は、:ref:`animation_image_seq_ref` "
+"を参照してください。"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:261
@@ -1046,15 +1018,15 @@ msgstr "Inkscapeのインストール"
 #: ../titles.rst:263
 msgid ""
 "The :guilabel:`Advanced Editor` feature in the :guilabel:`Title Editor` "
-"dialog requires the latest version of Inkscape (https://inkscape.org/"
-"release/) be installed and the OpenShot **Preferences** updated with the "
-"correct path to the Inkscape executable. See the :ref:"
-"`preferences_general_ref` tab in Preferences."
+"dialog requires the latest version of Inkscape "
+"(https://inkscape.org/release/) be installed and the OpenShot "
+"**Preferences** updated with the correct path to the Inkscape executable. "
+"See the :ref:`preferences_general_ref` tab in Preferences."
 msgstr ""
-":guilabel:`Title Editor` ダイアログの :guilabel:`Advanced Editor` 機能には、"
-"最新バージョンのInkscape (https://inkscape.org/release/) のインストールと、"
-"OpenShotの**設定** でInkscape実行ファイルへの正しいパスの更新が必要です。設定"
-"の :ref:`preferences_general_ref` タブを参照してください。"
+":guilabel:`Title Editor` ダイアログの :guilabel:`Advanced Editor` "
+"機能には、最新バージョンのInkscape (https://inkscape.org/release/) "
+"のインストールと、OpenShotの**設定** でInkscape実行ファイルへの正しいパスの更新が必要です。設定の "
+":ref:`preferences_general_ref` タブを参照してください。"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:270
@@ -1067,16 +1039,15 @@ msgid ""
 "The :guilabel:`Animated Title` feature in OpenShot requires the latest "
 "version of Blender (https://www.blender.org/download/) be installed and the "
 "OpenShot **Preferences** updated with the correct path to the Blender "
-"executable. See the :ref:`preferences_general_ref` tab in Preferences. NOTE: "
-"The minimum supported version of Blender is 5.0+. Older versions of Blender "
-"are not compatible with OpenShot Video Editor."
+"executable. See the :ref:`preferences_general_ref` tab in Preferences. NOTE:"
+" The minimum supported version of Blender is 5.0+. Older versions of Blender"
+" are not compatible with OpenShot Video Editor."
 msgstr ""
 "OpenShotの :guilabel:`Animated Title` 機能には、最新バージョンのBlender "
-"(https://www.blender.org/download/) のインストールと、OpenShotの**設定** で"
-"Blender実行ファイルへの正しいパスの更新が必要です。設定の :ref:"
-"`preferences_general_ref` タブを参照してください。注意：Blenderの最低サポート"
-"バージョンは5.0以上です。古いバージョンのBlenderはOpenShot Video Editorと互換"
-"性がありません。"
+"(https://www.blender.org/download/) のインストールと、OpenShotの**設定** "
+"でBlender実行ファイルへの正しいパスの更新が必要です。設定の :ref:`preferences_general_ref` "
+"タブを参照してください。注意：Blenderの最低サポートバージョンは5.0以上です。古いバージョンのBlenderはOpenShot Video "
+"Editorと互換性がありません。"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:278
@@ -1085,6 +1056,16 @@ msgid ""
 "Inkscape Guide <https://github.com/OpenShot/openshot-qt/wiki/Blender-and-"
 "Inkscape-Guide>`_."
 msgstr ""
-"これらの依存関係のインストール方法の詳細なガイドについては、`Blender & "
-"Inkscape Guide <https://github.com/OpenShot/openshot-qt/wiki/Blender-and-"
-"Inkscape-Guide>`_ を参照してください。"
+"これらの依存関係のインストール方法の詳細なガイドについては、`Blender & Inkscape Guide "
+"<https://github.com/OpenShot/openshot-qt/wiki/Blender-and-Inkscape-Guide>`_ "
+"を参照してください。"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Adding text and titles is an important aspect of video editing, and OpenShot"
+#~ " comes with an easy-to-use Title Editor. Use the Title menu (located in the "
+#~ "main menu of OpenShot) to launch the Title Editor. You can also use the "
+#~ "keyboard shortcut :kbd:`Ctrl+T`."
+#~ msgstr ""
+#~ "テキストとタイトルの追加はビデオ編集の重要な要素であり、OpenShotには使いやすいタイトルエディターが付属しています。タイトルエディターを起動するには、OpenShotのメインメニューにあるタイトルメニューを使用してください。キーボードショートカット"
+#~ " :kbd:`Ctrl+T` も使用できます。"

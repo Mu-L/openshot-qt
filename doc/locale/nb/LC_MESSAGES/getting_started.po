@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,8 +43,8 @@ msgid ""
 msgstr ""
 "I bunn og grunn handler videoredigering om å ta opptak, klippe det opp, "
 "fjerne delene du ikke vil ha, og beholde de delene du ønsker. Tidligere var "
-"redigering å skjære opp filmruller og sette dem sammen igjen. Heldigvis gjør "
-"programvare hele prosessen mye mer håndterbar."
+"redigering å skjære opp filmruller og sette dem sammen igjen. Heldigvis gjør"
+" programvare hele prosessen mye mer håndterbar."
 
 # Translated with gpt-4.1-mini
 #: ../getting_started.rst:32
@@ -79,8 +79,8 @@ msgstr "Datamaskin"
 # Translated with gpt-4.1-mini
 #: ../getting_started.rst:42
 msgid ""
-"Video editing does not require an expensive machine, especially if you are a "
-"beginner. However, it would be best if you had a more recent monitor and "
+"Video editing does not require an expensive machine, especially if you are a"
+" beginner. However, it would be best if you had a more recent monitor and "
 "graphics card. If you have an older computer, check your system "
 "specifications against OpenShot's :ref:`min_system_req_ref` to make sure it "
 "works for video editing. Unfortunately, many older computers are not fast "
@@ -89,10 +89,10 @@ msgid ""
 msgstr ""
 "Videoredigering krever ikke en dyr maskin, spesielt ikke hvis du er "
 "nybegynner. Det er imidlertid best å ha en nyere skjerm og grafikkort. Hvis "
-"du har en eldre datamaskin, sjekk systemspesifikasjonene dine mot OpenShots :"
-"ref:`min_system_req_ref` for å sikre at den fungerer for videoredigering. "
-"Dessverre er mange eldre datamaskiner ikke raske nok for videoredigering, og "
-"du bør oppgradere hele systemet hvis mulig."
+"du har en eldre datamaskin, sjekk systemspesifikasjonene dine mot OpenShots "
+":ref:`min_system_req_ref` for å sikre at den fungerer for videoredigering. "
+"Dessverre er mange eldre datamaskiner ikke raske nok for videoredigering, og"
+" du bør oppgradere hele systemet hvis mulig."
 
 # Translated with gpt-4.1-mini
 #: ../getting_started.rst:50
@@ -108,17 +108,17 @@ msgid ""
 "storage. If your computer's internal storage device cannot store all the "
 "clips, the solution is to buy an external drive."
 msgstr ""
-"Før du begynner på et videoprosjekt, sørg for at det er nok lagringsplass på "
-"datamaskinen til å lagre alle nødvendige klipp. For eksempel tar en time med "
-"1080i-video, som fra et mini-DV-kamera, nesten 11 GB lagringsplass. Hvis "
-"datamaskinens interne lagringsenhet ikke kan lagre alle klippene, er "
+"Før du begynner på et videoprosjekt, sørg for at det er nok lagringsplass på"
+" datamaskinen til å lagre alle nødvendige klipp. For eksempel tar en time "
+"med 1080i-video, som fra et mini-DV-kamera, nesten 11 GB lagringsplass. Hvis"
+" datamaskinens interne lagringsenhet ikke kan lagre alle klippene, er "
 "løsningen å kjøpe en ekstern disk."
 
 # Translated with gpt-4.1-mini
 #: ../getting_started.rst:57
 msgid ""
-"It would help if you had several cables, usually Firewire or USB, to connect "
-"your computer, external hard drive, and a camera. Different computers and "
+"It would help if you had several cables, usually Firewire or USB, to connect"
+" your computer, external hard drive, and a camera. Different computers and "
 "cameras accept other connectors, so check your manuals before buying "
 "anything."
 msgstr ""
@@ -168,30 +168,35 @@ msgstr ""
 msgid "Keep Shooting"
 msgstr "Fortsett å filme"
 
-# Translated with gpt-4.1-mini
 #: ../getting_started.rst:78
 msgid ""
 "Record more video and audio than you think you will need for your project. "
 "Include video that enhances the scene, sets a mood, or tells a story. You "
 "can use the extra video for smooth transitions in your project. If your "
-"project requires voice overs or narration, we suggest using an external "
-"application to record your microphone (since OpenShot does not include any "
-"recording capabilities yet)."
+"project requires voice overs, narration, screen capture, or webcam footage, "
+"you can use :guilabel:`View->Recording View` to open OpenShot's recording "
+"tools. For more details, including microphone, system audio, screen, and "
+"webcam options, see :ref:`recording_ref`. For more specialized capture "
+"workflows, you can still record with an external application and import the "
+"finished media into OpenShot."
 msgstr ""
-"Ta opp mer video og lyd enn du tror du trenger til prosjektet ditt. Inkluder "
-"video som forbedrer scenen, setter stemning eller forteller en historie. Du "
-"kan bruke ekstra video til jevne overganger i prosjektet ditt. Hvis "
-"prosjektet ditt krever voiceover eller fortelling, anbefaler vi å bruke et "
-"eksternt program for å ta opp mikrofonen din (siden OpenShot ennå ikke har "
-"opptaksfunksjoner)."
+"Ta opp mer video og lyd enn du tror du trenger for prosjektet ditt. Inkluder"
+" video som forbedrer scenen, setter en stemning eller forteller en historie."
+" Du kan bruke ekstra video for jevne overganger i prosjektet ditt. Hvis "
+"prosjektet ditt krever stemmeopptak, fortelling, skjermopptak eller "
+"webkameraopptak, kan du bruke :guilabel:`Visning->Opptaksvisning` for å åpne"
+" OpenShots opptaksverktøy. For flere detaljer, inkludert mikrofon-, "
+"systemlyd-, skjerm- og webkameraalternativer, se :ref:`recording_ref`. For "
+"mer spesialiserte opptaksarbeidsflyter kan du fortsatt ta opp med et "
+"eksternt program og importere det ferdige mediet til OpenShot."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:85
+#: ../getting_started.rst:88
 msgid "Organize Your Project Files"
 msgstr "Organiser prosjektfilene dine"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:86
+#: ../getting_started.rst:89
 msgid ""
 "Composition is the key to success, whether you are running Linux, on a Mac, "
 "or a Windows machine. Be sure to label video files, audio files, and even "
@@ -203,17 +208,17 @@ msgstr ""
 "Komposisjon er nøkkelen til suksess, enten du bruker Linux, Mac eller "
 "Windows. Sørg for å merke videofiler, lydfiler og til og med stillbilder "
 "tydelig, og hold alle klippene dine på samme enhet og i samme mappe for "
-"enkel tilgang. OpenShot prøver å holde oversikt over klippene dine, men hvis "
-"du flytter dem etter at prosjektet er lagret, kan du miste hele prosjektet. "
-"Å organisere før du begynner å redigere kan være svært fordelaktig."
+"enkel tilgang. OpenShot prøver å holde oversikt over klippene dine, men hvis"
+" du flytter dem etter at prosjektet er lagret, kan du miste hele prosjektet."
+" Å organisere før du begynner å redigere kan være svært fordelaktig."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:95
+#: ../getting_started.rst:98
 msgid "Watch Everything"
 msgstr "Se alt"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:96
+#: ../getting_started.rst:99
 msgid ""
 "Watching everything is the first step in the editing process. Writer and "
 "filmmaker David Andrew Stoler says there is gold in the most unlikely of "
@@ -226,30 +231,31 @@ msgstr ""
 "skuespillerne, kommer etter klippet.»"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:102
+#: ../getting_started.rst:105
 msgid "Edit for a Story"
 msgstr "Rediger for en historie"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:103
+#: ../getting_started.rst:106
 msgid ""
 "Remember that as you edit, you are telling a story. Editing is so much more "
-"than merely cutting footage and adding effects. It is an opportunity to take "
-"your audience on a journey. Whether you are editing a complex narrative film "
-"or only putting together a personal video, you tell a more in-depth story."
+"than merely cutting footage and adding effects. It is an opportunity to take"
+" your audience on a journey. Whether you are editing a complex narrative "
+"film or only putting together a personal video, you tell a more in-depth "
+"story."
 msgstr ""
 "Husk at når du redigerer, forteller du en historie. Redigering er mye mer "
 "enn bare å klippe opptak og legge til effekter. Det er en mulighet til å ta "
-"publikum med på en reise. Enten du redigerer en kompleks narrativ film eller "
-"bare setter sammen en personlig video, forteller du en dypere historie."
+"publikum med på en reise. Enten du redigerer en kompleks narrativ film eller"
+" bare setter sammen en personlig video, forteller du en dypere historie."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:110
+#: ../getting_started.rst:113
 msgid "Keyboard Shortcuts"
 msgstr "Tastatursnarveier"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:111
+#: ../getting_started.rst:114
 msgid ""
 "One of the easiest ways to tell the difference between and professional "
 "video editor and a novice is to simply look at how much they use the "
@@ -262,12 +268,12 @@ msgstr ""
 "prosjektets lengde."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:117
+#: ../getting_started.rst:120
 msgid "Learn the Lingo"
 msgstr "Lær sjargongen"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:118
+#: ../getting_started.rst:121
 msgid ""
 "Video editing is not just a hobby or a profession; it is an industry. And "
 "just like any industry, there is a ton of jargon to learn. Practically "
@@ -282,34 +288,34 @@ msgstr ""
 "kommunisere bedre med andre videoredigerere eller kunder."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:126
+#: ../getting_started.rst:129
 msgid "Assemble, Then Make a Rough Cut"
 msgstr "Sett sammen, og lag deretter et grovklipp"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:127
+#: ../getting_started.rst:130
 msgid ""
 "Drag and drop all your video footage into a timeline and make sure your "
-"frame size and frame rates are consistent. Begin a new timeline and drag-and-"
-"drop the best clips into what becomes your assembly cut. Remember to save "
-"your work frequently, and notate the date and time of each version."
+"frame size and frame rates are consistent. Begin a new timeline and drag-"
+"and-drop the best clips into what becomes your assembly cut. Remember to "
+"save your work frequently, and notate the date and time of each version."
 msgstr ""
 "Dra og slipp alt videomaterialet ditt inn i en tidslinje, og sørg for at "
-"bildeforhold og bildefrekvenser er konsistente. Start en ny tidslinje og dra "
-"de beste klippene inn i det som blir din sammensatte klipp. Husk å lagre "
+"bildeforhold og bildefrekvenser er konsistente. Start en ny tidslinje og dra"
+" de beste klippene inn i det som blir din sammensatte klipp. Husk å lagre "
 "arbeidet ditt ofte, og noter dato og klokkeslett for hver versjon."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:133
+#: ../getting_started.rst:136
 msgid "Refine Your Video"
 msgstr "Forbedre videoen din"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:134
+#: ../getting_started.rst:137
 msgid ""
 "In this phase, your rough cut begins to resemble a cohesive project. Adjust "
-"the sound and color, make sure the dialog is audible, and add music, titles, "
-"or graphics in this phase. Color correction is the process of setting your "
+"the sound and color, make sure the dialog is audible, and add music, titles,"
+" or graphics in this phase. Color correction is the process of setting your "
 "footage to a color baseline. No matter how great your subject looks on set, "
 "you will almost always need to do some basic post-processing for a "
 "consistent video."
@@ -322,32 +328,32 @@ msgstr ""
 "etterbehandling for en konsistent video."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:142
+#: ../getting_started.rst:145
 msgid "Refine Some More"
 msgstr "Forbedre litt mer"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:143
+#: ../getting_started.rst:146
 msgid ""
 "A slow scene can set the mood and add tension or it can bore an audience. A "
-"fast scene can add adrenaline to your audience’s systems or it can give them "
-"headaches. Some editors cut their projects several different ways before "
+"fast scene can add adrenaline to your audience’s systems or it can give them"
+" headaches. Some editors cut their projects several different ways before "
 "they find the right pace. Do not let cutting your project several times "
 "discourage you."
 msgstr ""
-"En langsom scene kan sette stemningen og skape spenning, eller den kan kjede "
-"publikum. En rask scene kan tilføre publikum adrenalin, eller den kan gi dem "
-"hodepine. Noen redigerere klipper prosjektene sine på flere forskjellige "
-"måter før de finner riktig tempo. Ikke la det å klippe prosjektet flere "
+"En langsom scene kan sette stemningen og skape spenning, eller den kan kjede"
+" publikum. En rask scene kan tilføre publikum adrenalin, eller den kan gi "
+"dem hodepine. Noen redigerere klipper prosjektene sine på flere forskjellige"
+" måter før de finner riktig tempo. Ikke la det å klippe prosjektet flere "
 "ganger demotivere deg."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:150
+#: ../getting_started.rst:153
 msgid "Exporting"
 msgstr "Eksportering"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:151
+#: ../getting_started.rst:154
 msgid ""
 "People view most of their projects on phones, tablets, or computers, so it "
 "is essential to know how to export for the web. The goal when exporting a "
@@ -362,83 +368,83 @@ msgstr ""
 "filstørrelsen på den ferdige videoen din:"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:157
+#: ../getting_started.rst:160
 msgid "Codec"
 msgstr "Kodek"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:158
+#: ../getting_started.rst:161
 msgid ""
 "A codec determines the type of file format (MP4, AVI, MOV). The more "
 "compression performed by the codec, the smaller your video’s size. Videos "
 "that are smaller in file size tend to be lower in visual quality."
 msgstr ""
 "En kodek bestemmer typen filformat (MP4, AVI, MOV). Jo mer komprimering "
-"kodeken utfører, desto mindre blir videoens filstørrelse. Videoer med mindre "
-"filstørrelse har ofte lavere visuell kvalitet."
+"kodeken utfører, desto mindre blir videoens filstørrelse. Videoer med mindre"
+" filstørrelse har ofte lavere visuell kvalitet."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:163
+#: ../getting_started.rst:166
 msgid "Resolution"
 msgstr "Oppløsning"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:164
+#: ../getting_started.rst:167
 msgid ""
 "Resolution refers to the number of horizontal and vertical pixels (dots on "
 "display) your video contains. For example, a 4K UHD (2160P) video has four "
 "times the resolution of FHD (1080P) video. A higher resolution means more "
 "information to store so that you will have larger file sizes."
 msgstr ""
-"Oppløsning refererer til antall horisontale og vertikale piksler (punkter på "
-"skjermen) videoen din inneholder. For eksempel har en 4K UHD (2160P) video "
+"Oppløsning refererer til antall horisontale og vertikale piksler (punkter på"
+" skjermen) videoen din inneholder. For eksempel har en 4K UHD (2160P) video "
 "fire ganger oppløsningen til en FHD (1080P) video. Høyere oppløsning betyr "
 "mer informasjon å lagre, noe som gir større filstørrelser."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:170
+#: ../getting_started.rst:173
 msgid "Bit Rate"
 msgstr "Bitrate"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:171
+#: ../getting_started.rst:174
 msgid ""
-"The Bit Rate is the measure of the speed of data processing of your video. A "
-"higher bit rate means higher-quality video and larger files. OpenShot allows "
-"you to manually set the Bit Rate / Quality in the Advanced tab of the Export "
-"Video window."
+"The Bit Rate is the measure of the speed of data processing of your video. A"
+" higher bit rate means higher-quality video and larger files. OpenShot "
+"allows you to manually set the Bit Rate / Quality in the Advanced tab of the"
+" Export Video window."
 msgstr ""
 "Bitrate er målet på hastigheten for databehandling av videoen din. Høyere "
 "bitrate betyr video av høyere kvalitet og større filer. OpenShot lar deg "
 "manuelt sette bitrate/kvalitet i Avansert-fanen i Eksporter video-vinduet."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:177
+#: ../getting_started.rst:180
 msgid "Frame Rate"
 msgstr "Bildefrekvens"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:178
+#: ../getting_started.rst:181
 msgid ""
 "The frequency (in Hz) at which consecutive images, called frames, appear on "
 "the display is the Frame Rate. Typically, you export your video in the film "
 "standard (24fps) or the TV broadcast standard of 30fps (or 25fps in PAL). "
-"While there is not much wiggle room here, you should note that if you decide "
-"to export your video in 48fps, 50fps, or 60fps, your file size doubles."
+"While there is not much wiggle room here, you should note that if you decide"
+" to export your video in 48fps, 50fps, or 60fps, your file size doubles."
 msgstr ""
-"Frekvensen (i Hz) som påfølgende bilder, kalt bilderammer, vises på skjermen "
-"kalles bildefrekvens. Vanligvis eksporterer du videoen din i filmstandarden "
-"(24fps) eller TV-sendingstandarden på 30fps (eller 25fps i PAL). Selv om det "
-"ikke er mye slingringsmonn her, bør du merke deg at hvis du velger å "
+"Frekvensen (i Hz) som påfølgende bilder, kalt bilderammer, vises på skjermen"
+" kalles bildefrekvens. Vanligvis eksporterer du videoen din i filmstandarden"
+" (24fps) eller TV-sendingstandarden på 30fps (eller 25fps i PAL). Selv om "
+"det ikke er mye slingringsmonn her, bør du merke deg at hvis du velger å "
 "eksportere videoen din i 48fps, 50fps eller 60fps, dobles filstørrelsen."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:185
+#: ../getting_started.rst:188
 msgid "Conclusion"
 msgstr "Konklusjon"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:186
+#: ../getting_started.rst:189
 msgid ""
 "In conclusion, video editing is an accessible skill that can elevate your "
 "video content even if you're not a professional videographer. With the "
@@ -447,9 +453,9 @@ msgid ""
 "way to becoming a skilled video editor, remember to focus on storytelling, "
 "efficient organization, and refining your project's details. From selecting "
 "the right computer to mastering keyboard shortcuts and understanding "
-"technical aspects like codecs and resolutions, your journey in video editing "
-"can lead to polished and impactful results. As you venture into the world of "
-"video editing, keep in mind that practice, patience, and a commitment to "
+"technical aspects like codecs and resolutions, your journey in video editing"
+" can lead to polished and impactful results. As you venture into the world "
+"of video editing, keep in mind that practice, patience, and a commitment to "
 "learning are key to achieving excellence in this creative endeavor."
 msgstr ""
 "Avslutningsvis er videoredigering en tilgjengelig ferdighet som kan løfte "
@@ -464,3 +470,19 @@ msgstr ""
 "deg ut i videoredigeringens verden, husk at øvelse, tålmodighet og en "
 "forpliktelse til læring er nøkkelen til å oppnå fortreffelighet i denne "
 "kreative prosessen."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Record more video and audio than you think you will need for your project. "
+#~ "Include video that enhances the scene, sets a mood, or tells a story. You "
+#~ "can use the extra video for smooth transitions in your project. If your "
+#~ "project requires voice overs or narration, we suggest using an external "
+#~ "application to record your microphone (since OpenShot does not include any "
+#~ "recording capabilities yet)."
+#~ msgstr ""
+#~ "Ta opp mer video og lyd enn du tror du trenger til prosjektet ditt. Inkluder"
+#~ " video som forbedrer scenen, setter stemning eller forteller en historie. Du"
+#~ " kan bruke ekstra video til jevne overganger i prosjektet ditt. Hvis "
+#~ "prosjektet ditt krever voiceover eller fortelling, anbefaler vi å bruke et "
+#~ "eksternt program for å ta opp mikrofonen din (siden OpenShot ennå ikke har "
+#~ "opptaksfunksjoner)."

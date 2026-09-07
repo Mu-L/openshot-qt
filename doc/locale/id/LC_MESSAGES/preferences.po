@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-05 17:20-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,27 +28,28 @@ msgstr "Preferensi"
 #: ../preferences.rst:25
 msgid ""
 "The Preferences window contains many important settings and configuration "
-"options for OpenShot. They can be found in the top menu under :guilabel:"
-"`Edit→Preferences`. Many settings will require OpenShot to be restarted "
-"after your changes are applied."
+"options for OpenShot. They can be found in the top menu under "
+":guilabel:`Edit→Preferences`. Many settings will require OpenShot to be "
+"restarted after your changes are applied."
 msgstr ""
 "Jendela Preferensi berisi banyak pengaturan dan opsi konfigurasi penting "
-"untuk OpenShot. Mereka dapat ditemukan di menu atas di bawah :guilabel:"
-"`Edit→Preferences`. Banyak pengaturan akan memerlukan OpenShot untuk dimulai "
-"ulang setelah perubahan Anda diterapkan."
+"untuk OpenShot. Mereka dapat ditemukan di menu atas di bawah "
+":guilabel:`Edit→Preferences`. Banyak pengaturan akan memerlukan OpenShot "
+"untuk dimulai ulang setelah perubahan Anda diterapkan."
 
 # Translated with gpt-4.1-mini
 #: ../preferences.rst:29
 msgid ""
 "NOTE: Some features such as `Animated Titles` and `external SVG editing` "
-"require setting the paths for **Blender** and **Inkscape** under the General "
-"tab. And if you notice audio playback issues, such as audio drift, you may "
+"require setting the paths for **Blender** and **Inkscape** under the General"
+" tab. And if you notice audio playback issues, such as audio drift, you may "
 "need to adjust the audio settings under the Preview tab."
 msgstr ""
-"CATATAN: Beberapa fitur seperti `Animated Titles` dan `external SVG editing` "
-"memerlukan pengaturan jalur untuk **Blender** dan **Inkscape** di bawah tab "
-"General. Dan jika Anda memperhatikan masalah pemutaran audio, seperti audio "
-"drift, Anda mungkin perlu menyesuaikan pengaturan audio di bawah tab Preview."
+"CATATAN: Beberapa fitur seperti `Animated Titles` dan `external SVG editing`"
+" memerlukan pengaturan jalur untuk **Blender** dan **Inkscape** di bawah tab"
+" General. Dan jika Anda memperhatikan masalah pemutaran audio, seperti audio"
+" drift, Anda mungkin perlu menyesuaikan pengaturan audio di bawah tab "
+"Preview."
 
 # Translated with gpt-4.1-mini
 #: ../preferences.rst:36
@@ -65,23 +66,23 @@ msgstr ""
 "berlaku untuk OpenShot secara keseluruhan."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:46 ../preferences.rst:110 ../preferences.rst:133
-#: ../preferences.rst:158 ../preferences.rst:205 ../preferences.rst:235
-#: ../preferences.rst:291 ../preferences.rst:321
+#: ../preferences.rst:46 ../preferences.rst:109 ../preferences.rst:132
+#: ../preferences.rst:157 ../preferences.rst:204 ../preferences.rst:234
+#: ../preferences.rst:290 ../preferences.rst:320
 msgid "Setting"
 msgstr "Pengaturan"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:47 ../preferences.rst:50 ../preferences.rst:110
-#: ../preferences.rst:133 ../preferences.rst:135 ../preferences.rst:158
-#: ../preferences.rst:322
+#: ../preferences.rst:47 ../preferences.rst:50 ../preferences.rst:109
+#: ../preferences.rst:132 ../preferences.rst:134 ../preferences.rst:157
+#: ../preferences.rst:321
 msgid "Default"
 msgstr "Default"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:48 ../preferences.rst:110 ../preferences.rst:133
-#: ../preferences.rst:205 ../preferences.rst:236 ../preferences.rst:291
-#: ../preferences.rst:302 ../preferences.rst:323
+#: ../preferences.rst:48 ../preferences.rst:109 ../preferences.rst:132
+#: ../preferences.rst:204 ../preferences.rst:235 ../preferences.rst:290
+#: ../preferences.rst:301 ../preferences.rst:322
 msgid "Description"
 msgstr "Deskripsi"
 
@@ -185,8 +186,8 @@ msgstr "Tema"
 # Translated with gpt-4.1-mini
 #: ../preferences.rst:70
 msgid ""
-"OpenShot comes with 3 standard themes, which change the look and feel of the "
-"program."
+"OpenShot comes with 3 standard themes, which change the look and feel of the"
+" program."
 msgstr ""
 "OpenShot hadir dengan 3 tema standar, yang mengubah tampilan dan nuansa "
 "program."
@@ -198,26 +199,26 @@ msgid ""
 "**Cosmic Dusk:** [Default Theme] A bluish theme with a more modern UI "
 "design, enhancing the visual aesthetics of the editor. This theme features "
 "shades of blue and purple, giving the interface a contemporary and dynamic "
-"feel. It combines modern aesthetics with functionality, offering a fresh and "
-"visually appealing workspace for video editing."
+"feel. It combines modern aesthetics with functionality, offering a fresh and"
+" visually appealing workspace for video editing."
 msgstr ""
 "**Cosmic Dusk:** Tema kebiruan dengan desain UI yang lebih modern, "
 "meningkatkan estetika visual editor. Tema ini menampilkan nuansa biru dan "
 "ungu, memberikan antarmuka nuansa kontemporer dan dinamis. Menggabungkan "
-"estetika modern dengan fungsionalitas, menawarkan ruang kerja yang segar dan "
-"menarik secara visual untuk pengeditan video."
+"estetika modern dengan fungsionalitas, menawarkan ruang kerja yang segar dan"
+" menarik secara visual untuk pengeditan video."
 
 # Translated with gpt-4.1-mini
 #: ../preferences.rst:73
 msgid ""
-"**Humanity Dark:** A dark theme with dark gray tones, providing a modern and "
-"sleek look. This theme is designed for users who prefer working in low-light "
-"conditions or who enjoy a more subdued and professional appearance. The dark "
-"gray background reduces glare and eye strain, making it suitable for "
-"extended editing sessions."
+"**Humanity Dark:** A dark theme with dark gray tones, providing a modern and"
+" sleek look. This theme is designed for users who prefer working in low-"
+"light conditions or who enjoy a more subdued and professional appearance. "
+"The dark gray background reduces glare and eye strain, making it suitable "
+"for extended editing sessions."
 msgstr ""
-"**Humanity Dark:** Tema gelap dengan nada abu-abu gelap, memberikan tampilan "
-"modern dan ramping. Tema ini dirancang untuk pengguna yang lebih suka "
+"**Humanity Dark:** Tema gelap dengan nada abu-abu gelap, memberikan tampilan"
+" modern dan ramping. Tema ini dirancang untuk pengguna yang lebih suka "
 "bekerja dalam kondisi cahaya rendah atau yang menikmati penampilan yang "
 "lebih tenang dan profesional. Latar belakang abu-abu gelap mengurangi silau "
 "dan ketegangan mata, membuatnya cocok untuk sesi pengeditan yang panjang."
@@ -227,8 +228,8 @@ msgstr ""
 msgid ""
 "**Retro:** A light theme that offers a classic and clean appearance. This "
 "theme uses light gray and white tones, making it ideal for users who prefer "
-"a bright and high-contrast interface. It provides a traditional look that is "
-"easy on the eyes, especially in well-lit environments."
+"a bright and high-contrast interface. It provides a traditional look that is"
+" easy on the eyes, especially in well-lit environments."
 msgstr ""
 "**Retro:** Tema terang yang menawarkan tampilan klasik dan bersih. Tema ini "
 "menggunakan nada abu-abu muda dan putih, membuatnya ideal untuk pengguna "
@@ -244,16 +245,17 @@ msgstr "Mengembalikan ke Default"
 #: ../preferences.rst:80
 msgid ""
 "In OpenShot, each preferences category (or tab) in the Preferences window "
-"has a **Restore Defaults** button that allows you to easily reset the values "
-"for that specific category. This feature is particularly useful if you want "
-"to reset only certain parts of your preferences, like keyboard shortcuts, "
+"has a **Restore Defaults** button that allows you to easily reset the values"
+" for that specific category. This feature is particularly useful if you want"
+" to reset only certain parts of your preferences, like keyboard shortcuts, "
 "without affecting the rest of your custom settings."
 msgstr ""
 "Di OpenShot, setiap kategori preferensi (atau tab) di jendela Preferensi "
 "memiliki tombol **Restore Defaults** yang memungkinkan Anda dengan mudah "
 "mengatur ulang nilai untuk kategori tertentu tersebut. Fitur ini sangat "
-"berguna jika Anda ingin mengatur ulang hanya bagian tertentu dari preferensi "
-"Anda, seperti pintasan keyboard, tanpa memengaruhi pengaturan kustom lainnya."
+"berguna jika Anda ingin mengatur ulang hanya bagian tertentu dari preferensi"
+" Anda, seperti pintasan keyboard, tanpa memengaruhi pengaturan kustom "
+"lainnya."
 
 # Translated with gpt-4.1-mini
 #: ../preferences.rst:84
@@ -261,8 +263,8 @@ msgid ""
 "**Where to Find the Restore Defaults Button:** Each category or tab in the "
 "Preferences window has a **Restore Defaults** button located in the bottom "
 "left corner of the screen. The name of the button updates based on the "
-"category you’re viewing. For example, if you're in the \"Keyboard\" tab, the "
-"button will say **Restore Defaults: Keyboard**."
+"category you’re viewing. For example, if you're in the \"Keyboard\" tab, the"
+" button will say **Restore Defaults: Keyboard**."
 msgstr ""
 "**Lokasi Tombol Restore Defaults:** Setiap kategori atau tab di jendela "
 "Preferensi memiliki tombol **Restore Defaults** yang terletak di sudut kiri "
@@ -300,57 +302,66 @@ msgstr ""
 msgid "Timeline"
 msgstr "Garis Waktu"
 
-# Translated with gpt-4.1-mini
 #: ../preferences.rst:103
 msgid ""
-"The Timeline tab controls default timeline behavior, clip/transition "
-"insertion defaults, and whether to use the new timeline backend or the "
-"legacy web-based timeline."
+"The Timeline tab controls default timeline behavior and clip/transition "
+"insertion defaults."
 msgstr ""
-"Tab Garis Waktu mengontrol perilaku garis waktu default, pengaturan sisip "
-"klip/transisi, dan apakah menggunakan backend garis waktu baru atau garis "
-"waktu berbasis web warisan."
+"Tab Timeline mengontrol perilaku timeline default dan pengaturan default "
+"penyisipan klip/transisi."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:112
+#: ../preferences.rst:111
 msgid "Thumbnail Style"
 msgstr "Gaya Thumbnail"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:112
+#: ../preferences.rst:111
 msgid "Entire Clip"
 msgstr "Seluruh Klip"
 
-# Translated with gpt-4.1-mini
-#: ../preferences.rst:112
-msgid "Thumbnail density for the new timeline backend"
-msgstr "Kepadatan thumbnail untuk backend garis waktu baru"
+#: ../preferences.rst:111
+msgid "Thumbnail density for the timeline"
+msgstr "Kepadatan thumbnail untuk timeline"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:113
+#: ../preferences.rst:112
 msgid "Image Length (seconds)"
 msgstr "Durasi Gambar (detik)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:113 ../preferences.rst:114
+#: ../preferences.rst:112 ../preferences.rst:113
 msgid "10.00"
 msgstr "10.00"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:113
+#: ../preferences.rst:112
 msgid "Default duration for still images added to the timeline"
 msgstr "Durasi default untuk gambar diam yang ditambahkan ke garis waktu"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:114
+#: ../preferences.rst:113
 #, fuzzy
 msgid "Transition Length (seconds)"
 msgstr "Durasi Gambar (detik)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:114
+#: ../preferences.rst:113
 msgid "Default duration for newly added transitions"
 msgstr "Durasi default untuk transisi yang baru ditambahkan"
+
+#: ../preferences.rst:114
+msgid "Waveform Samples (per second)"
+msgstr "Sampel Gelombang (per detik)"
+
+#: ../preferences.rst:114
+msgid "200"
+msgstr "200"
+
+#: ../preferences.rst:114
+msgid "Detail stored for new peak/RMS timeline waveforms (20–400)"
+msgstr ""
+"Detail yang disimpan untuk gelombang puncak/RMS timeline baru (20–400)"
 
 # Translated with gpt-4.1-mini
 #: ../preferences.rst:115
@@ -358,8 +369,8 @@ msgid "Auto-Transition (overlap clips)"
 msgstr "Transisi Otomatis (tumpang tindih klip)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:115 ../preferences.rst:160 ../preferences.rst:334
-#: ../preferences.rst:340
+#: ../preferences.rst:115 ../preferences.rst:159 ../preferences.rst:333
+#: ../preferences.rst:339
 msgid "Enabled"
 msgstr "Diaktifkan"
 
@@ -369,28 +380,12 @@ msgid "Automatically create transitions when clips overlap"
 msgstr "Buat transisi secara otomatis saat klip tumpang tindih"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:116
-msgid "Enable Legacy Timeline (web-based)"
-msgstr "Aktifkan Garis Waktu Warisan (berbasis web)"
-
-# Translated with gpt-4.1-mini
-#: ../preferences.rst:116 ../preferences.rst:331 ../preferences.rst:337
-#, fuzzy
-msgid "Disabled"
-msgstr "Diaktifkan"
-
-# Translated with gpt-4.1-mini
-#: ../preferences.rst:116
-msgid "Use the legacy web timeline (WebEngine/WebKit auto-select)"
-msgstr "Gunakan garis waktu web warisan (WebEngine/WebKit pilih otomatis)"
-
-# Translated with gpt-4.1-mini
-#: ../preferences.rst:122
+#: ../preferences.rst:121
 msgid "Preview"
 msgstr "Pratinjau"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:126
+#: ../preferences.rst:125
 msgid ""
 "The Preview tab of the Preferences window controls real-time preview audio "
 "behavior, including device selection, sample rate, channels, buffering, "
@@ -401,122 +396,122 @@ msgstr ""
 "volume pemutaran, dan perilaku pratinjau yang dioptimalkan."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:135
+#: ../preferences.rst:134
 msgid "Playback Audio Device"
 msgstr "Perangkat Audio Pemutaran"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:135
+#: ../preferences.rst:134
 msgid "Audio output device used during preview playback"
 msgstr "Perangkat keluaran audio yang digunakan selama pemutaran pratinjau"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:136
+#: ../preferences.rst:135
 msgid "Default Audio Sample Rate"
 msgstr "Laju Sampel Audio Default"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:136
+#: ../preferences.rst:135
 #, fuzzy
 msgid "48000"
 msgstr "44100"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:136
+#: ../preferences.rst:135
 #, fuzzy
 msgid "Default preview sample rate"
 msgstr "Laju Sampel Audio Default"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:137
+#: ../preferences.rst:136
 msgid "Default Audio Channels"
 msgstr "Saluran Audio Default"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:137
+#: ../preferences.rst:136
 msgid "Stereo (2 Channel)"
 msgstr "Stereo (2 Saluran)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:137
+#: ../preferences.rst:136
 msgid "Default preview channel layout"
 msgstr "Tata letak saluran pratinjau default"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:138
+#: ../preferences.rst:137
 msgid "Playback Audio Buffer Size"
 msgstr "Ukuran Buffer Audio Pemutaran"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:138
+#: ../preferences.rst:137
 msgid "512"
 msgstr "512"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:138
+#: ../preferences.rst:137
 msgid "Audio samples buffered before playback begins (128 to 4096)"
 msgstr ""
 "Sampel audio yang di-buffer sebelum pemutaran dimulai (128 hingga 4096)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:139
+#: ../preferences.rst:138
 msgid "Volume"
 msgstr "Volume"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:139
+#: ../preferences.rst:138
 msgid "75"
 msgstr "75"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:139
+#: ../preferences.rst:138
 msgid "Preview playback volume percentage"
 msgstr "Persentase volume pemutaran pratinjau"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:140
+#: ../preferences.rst:139
 msgid "Concurrent Optimize Jobs"
 msgstr "Pekerjaan Optimasi Bersamaan"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:140
+#: ../preferences.rst:139
 msgid "2"
 msgstr "2"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:140
+#: ../preferences.rst:139
 msgid "Number of video files OpenShot can optimize at the same time"
 msgstr "Jumlah file video yang dapat dioptimalkan OpenShot secara bersamaan"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:141
+#: ../preferences.rst:140
 msgid "Optimized Preview Resolution"
 msgstr "Resolusi Pratinjau yang Dioptimalkan"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:141
+#: ../preferences.rst:140
 msgid "1280x720"
 msgstr "1280x720"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:141
+#: ../preferences.rst:140
 msgid "Maximum resolution used when creating optimized preview files"
 msgstr ""
 "Resolusi maksimum yang digunakan saat membuat file pratinjau yang "
 "dioptimalkan"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:142
+#: ../preferences.rst:141
 msgid "Thumbnail Preload Rate / second"
 msgstr "Laju Pra-muat Thumbnail / detik"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:142
+#: ../preferences.rst:141
 msgid "4"
 msgstr "4"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:142
+#: ../preferences.rst:141
 msgid ""
 "How many thumbnail preview frames per second are pre-generated while "
 "optimizing video"
@@ -525,12 +520,12 @@ msgstr ""
 "mengoptimalkan video"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:146
+#: ../preferences.rst:145
 msgid "Autosave"
 msgstr "Simpan Otomatis"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:150
+#: ../preferences.rst:149
 msgid ""
 "Autosave is a feature in OpenShot which automatically saves the current "
 "changes to your project after a specific number of minutes, helping to "
@@ -543,91 +538,92 @@ msgstr ""
 "freeze, atau kesalahan pengguna."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:160
+#: ../preferences.rst:159
 msgid "Enable Autosave"
 msgstr "Aktifkan Simpan Otomatis"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:161
+#: ../preferences.rst:160
 msgid "Autosave Interval (minutes)"
 msgstr "Interval Simpan Otomatis (menit)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:161
+#: ../preferences.rst:160
 msgid "3"
 msgstr "3"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:162
+#: ../preferences.rst:161
 msgid "History Limit (# of undo/redo)"
 msgstr "Batas Riwayat (# undo/redo)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:162
+#: ../preferences.rst:161
 msgid "15"
 msgstr "15"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:163
+#: ../preferences.rst:162
 msgid "Recovery Limit (# of project copies)"
 msgstr "Batas Pemulihan (# salinan proyek)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:163
+#: ../preferences.rst:162
 msgid "30"
 msgstr "30"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:167
+#: ../preferences.rst:166
 msgid "Recovery"
 msgstr "Pemulihan"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:169
+#: ../preferences.rst:168
 msgid ""
 "**Before each save**, a compressed ``*.zip`` copy of the current project is "
 "saved in the recovery folder, to further reduce the risk of data loss. The "
-"recovery folder is located at ``~/.openshot_qt/recovery/`` or ``C:"
-"\\Users\\USERNAME\\.openshot_qt\\recovery``."
+"recovery folder is located at ``~/.openshot_qt/recovery/`` or "
+"``C:\\Users\\USERNAME\\.openshot_qt\\recovery``."
 msgstr ""
-"**Sebelum setiap penyimpanan**, salinan proyek saat ini yang dikompresi ``*."
-"zip`` disimpan di folder pemulihan, untuk lebih mengurangi risiko kehilangan "
-"data. Folder pemulihan terletak di ``~/.openshot_qt/recovery/`` atau ``C:"
-"\\Users\\USERNAME\\.openshot_qt\\recovery``."
+"**Sebelum setiap penyimpanan**, salinan proyek saat ini yang dikompresi "
+"``*.zip`` disimpan di folder pemulihan, untuk lebih mengurangi risiko "
+"kehilangan data. Folder pemulihan terletak di ``~/.openshot_qt/recovery/`` "
+"atau ``C:\\Users\\USERNAME\\.openshot_qt\\recovery``."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:173
+#: ../preferences.rst:172
 msgid ""
-"To recover a corrupt or broken ``*.osp`` project file, use the :guilabel:"
-"`File->Recovery` menu on the main window after opening your project. If "
-"available, a list of matching project versions from the recovery folder are "
-"listed in chronological order (most recent one at the top). This will "
-"automatically rename your current project file to ``{project-name}-{time}-"
-"backup.osp``, and replace it with the recovery project file. You can repeat "
-"this process until you find the correct recovery project. NOTE: If for some "
-"unexpected reason the recovery process fails, you can always rename the \"-"
-"backup.osp\" file to the original project file name to restore it."
+"To recover a corrupt or broken ``*.osp`` project file, use the "
+":guilabel:`File->Recovery` menu on the main window after opening your "
+"project. If available, a list of matching project versions from the recovery"
+" folder are listed in chronological order (most recent one at the top). This"
+" will automatically rename your current project file to ``{project-"
+"name}-{time}-backup.osp``, and replace it with the recovery project file. "
+"You can repeat this process until you find the correct recovery project. "
+"NOTE: If for some unexpected reason the recovery process fails, you can "
+"always rename the \"-backup.osp\" file to the original project file name to "
+"restore it."
 msgstr ""
-"Untuk memulihkan file proyek ``*.osp`` yang rusak atau korup, gunakan menu :"
-"guilabel:`File->Recovery` di jendela utama setelah membuka proyek Anda. Jika "
-"tersedia, daftar versi proyek yang cocok dari folder pemulihan akan "
+"Untuk memulihkan file proyek ``*.osp`` yang rusak atau korup, gunakan menu "
+":guilabel:`File->Recovery` di jendela utama setelah membuka proyek Anda. "
+"Jika tersedia, daftar versi proyek yang cocok dari folder pemulihan akan "
 "ditampilkan dalam urutan kronologis (yang terbaru di atas). Ini akan secara "
-"otomatis mengganti nama file proyek Anda saat ini menjadi ``{project-name}-"
-"{time}-backup.osp``, dan menggantinya dengan file proyek pemulihan. Anda "
-"dapat mengulangi proses ini sampai menemukan proyek pemulihan yang benar. "
-"CATATAN: Jika karena alasan tak terduga proses pemulihan gagal, Anda selalu "
-"dapat mengganti nama file \"-backup.osp\" menjadi nama file proyek asli "
-"untuk mengembalikannya."
+"otomatis mengganti nama file proyek Anda saat ini menjadi ``{project-"
+"name}-{time}-backup.osp``, dan menggantinya dengan file proyek pemulihan. "
+"Anda dapat mengulangi proses ini sampai menemukan proyek pemulihan yang "
+"benar. CATATAN: Jika karena alasan tak terduga proses pemulihan gagal, Anda "
+"selalu dapat mengganti nama file \"-backup.osp\" menjadi nama file proyek "
+"asli untuk mengembalikannya."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:181
+#: ../preferences.rst:180
 msgid ""
 "To **manually** recover a corrupt or broken ``*.osp`` project file, please "
 "find the most recent copy in the recovery folder, and copy/paste the file "
 "into your original project folder location (i.e. the folder that contains "
 "your broken project). If the recovery file has been zipped (``*.zip``), you "
-"must first extract the ``*.osp``, and then copy it into your project folder. "
-"Recovery files are named ``{time}-{project-name}``. You can also use the "
+"must first extract the ``*.osp``, and then copy it into your project folder."
+" Recovery files are named ``{time}-{project-name}``. You can also use the "
 "**Date Modified** on the file to select the version you are interested in "
 "recovering."
 msgstr ""
@@ -637,41 +633,41 @@ msgstr ""
 "rusak Anda). Jika file pemulihan dikompresi (``*.zip``), Anda harus "
 "mengekstrak ``*.osp`` terlebih dahulu, lalu menyalinnya ke folder proyek "
 "Anda. File pemulihan dinamai ``{time}-{project-name}``. Anda juga dapat "
-"menggunakan **Tanggal Diubah** pada file untuk memilih versi yang ingin Anda "
-"pulihkan."
+"menggunakan **Tanggal Diubah** pada file untuk memilih versi yang ingin Anda"
+" pulihkan."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:191
+#: ../preferences.rst:190
 msgid "Cache"
 msgstr "Cache"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:195
+#: ../preferences.rst:194
 msgid ""
-"Cache settings can be adjusted to make real-time playback faster or less CPU "
-"intensive. The cache is used to store image and audio data for each frame of "
-"video requested. The more frames that are cached, the smoother the real-time "
-"playback will be. However, the more that needs to be cached requires more "
-"CPU to generate the cache. There is a balance, and the default settings "
-"provide a generally sane set of cache values, which should allow most "
+"Cache settings can be adjusted to make real-time playback faster or less CPU"
+" intensive. The cache is used to store image and audio data for each frame "
+"of video requested. The more frames that are cached, the smoother the real-"
+"time playback will be. However, the more that needs to be cached requires "
+"more CPU to generate the cache. There is a balance, and the default settings"
+" provide a generally sane set of cache values, which should allow most "
 "computers to playback video and audio smoothly. See :ref:`playback_ref`."
 msgstr ""
-"Pengaturan cache dapat disesuaikan untuk membuat pemutaran waktu nyata lebih "
-"cepat atau menggunakan CPU lebih sedikit. Cache digunakan untuk menyimpan "
+"Pengaturan cache dapat disesuaikan untuk membuat pemutaran waktu nyata lebih"
+" cepat atau menggunakan CPU lebih sedikit. Cache digunakan untuk menyimpan "
 "data gambar dan audio untuk setiap frame video yang diminta. Semakin banyak "
 "frame yang di-cache, semakin lancar pemutaran waktu nyata. Namun, semakin "
 "banyak yang harus di-cache membutuhkan lebih banyak CPU untuk menghasilkan "
-"cache. Ada keseimbangan, dan pengaturan default menyediakan nilai cache yang "
-"umumnya masuk akal, yang seharusnya memungkinkan sebagian besar komputer "
+"cache. Ada keseimbangan, dan pengaturan default menyediakan nilai cache yang"
+" umumnya masuk akal, yang seharusnya memungkinkan sebagian besar komputer "
 "memutar video dan audio dengan lancar. Lihat :ref:`playback_ref`."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:207
+#: ../preferences.rst:206
 msgid "Cache Mode"
 msgstr "Mode Cache"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:207
+#: ../preferences.rst:206
 msgid ""
 "Choose between Memory or Disk caching (memory caching is preferred). Disk "
 "caching writes image data to the hard disk for later retrieving, and works "
@@ -682,12 +678,12 @@ msgstr ""
 "bekerja paling baik dengan SSD."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:208
+#: ../preferences.rst:207
 msgid "Cache Limit (MB)"
 msgstr "Batas Cache (MB)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:208
+#: ../preferences.rst:207
 msgid ""
 "How many MB are set aside for cache related data. Larger numbers are not "
 "always better, since it takes more CPU to generate more frames to fill the "
@@ -698,22 +694,22 @@ msgstr ""
 "menghasilkan lebih banyak frame untuk mengisi cache."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:209
+#: ../preferences.rst:208
 msgid "Image Format (Disk Only)"
 msgstr "Format Gambar (Hanya Disk)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:209
+#: ../preferences.rst:208
 msgid "Image format to store disk cache image data"
 msgstr "Format gambar untuk menyimpan data gambar cache disk"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:210
+#: ../preferences.rst:209
 msgid "Scale Factor (Disk Only)"
 msgstr "Faktor Skala (Hanya Disk)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:210
+#: ../preferences.rst:209
 msgid ""
 "Percentage (0.1 to 1.0) to reduce the size of disk based image files stored "
 "in the disk cache. Smaller numbers make writing and reading cached image "
@@ -724,12 +720,12 @@ msgstr ""
 "penulisan dan pembacaan file gambar cache lebih cepat."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:211
+#: ../preferences.rst:210
 msgid "Image Quality (Disk Only)"
 msgstr "Kualitas Gambar (Hanya Disk)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:211
+#: ../preferences.rst:210
 msgid ""
 "Quality of the image files used in disk cache. The higher compression can "
 "cause more slowness, but results in smaller file sizes."
@@ -739,12 +735,12 @@ msgstr ""
 "yang lebih kecil."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:212
+#: ../preferences.rst:211
 msgid "Cache Pre-roll: Min Frames:"
 msgstr "Cache Pre-roll: Frame Minimum:"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:212
+#: ../preferences.rst:211
 msgid ""
 "Minimum # of frames that must be cached before playback begins. The larger "
 "the #, the larger the wait before playback begins."
@@ -753,28 +749,29 @@ msgstr ""
 "besar jumlahnya, semakin lama waktu tunggu sebelum pemutaran dimulai."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:213
+#: ../preferences.rst:212
 msgid "Cache Pre-roll: Max Frames:"
 msgstr "Cache Pre-roll: Frame Maksimum:"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:213
+#: ../preferences.rst:212
 msgid ""
 "Maximum # of frames that can be cached during playback (in front of the "
 "playhead). The larger the #, the more CPU is required to cache ahead - vs "
 "display the already cached frames."
 msgstr ""
 "Jumlah maksimum frame yang dapat di-cache selama pemutaran (di depan "
-"playhead). Semakin besar jumlahnya, semakin banyak CPU yang dibutuhkan untuk "
-"melakukan cache ke depan dibandingkan menampilkan frame yang sudah di-cache."
+"playhead). Semakin besar jumlahnya, semakin banyak CPU yang dibutuhkan untuk"
+" melakukan cache ke depan dibandingkan menampilkan frame yang sudah di-"
+"cache."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:214
+#: ../preferences.rst:213
 msgid "Cache Ahead (Percent):"
 msgstr "Cache ke Depan (Persen):"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:214
+#: ../preferences.rst:213
 msgid ""
 "Between 0.0 and 1.0. This represents how much % we cache ahead of the "
 "playhead. For example, 0.5 would cache 50% behind and 50% ahead of the "
@@ -785,41 +782,41 @@ msgstr ""
 "playhead. 0,8 akan meng-cache 20% di belakang dan 80% di depan playhead."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:215
+#: ../preferences.rst:214
 msgid "Cache Max Frames:"
 msgstr "Maksimum Frame Cache:"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:215
+#: ../preferences.rst:214
 #, fuzzy
 msgid ""
 "This is an override on the total allowed frames that can be cached by our "
 "caching thread. It defaults to 900 frames, but even if you give a huge "
 "amount of RAM to OpenShot's cache size, this will override the max # of "
 "frames cached. The reason is... sometimes when the preview window is very "
-"small, and the cache size is set very high, OpenShot might calculate that we "
-"can cache 30,000 frames, or something silly which will take a huge amount of "
-"CPU, lagging the system. This setting is designed to clamp the upper limit "
-"of the cache to something reasonable... even on systems that give OpenShot "
-"huge amounts of RAM to work with."
+"small, and the cache size is set very high, OpenShot might calculate that we"
+" can cache 30,000 frames, or something silly which will take a huge amount "
+"of CPU, lagging the system. This setting is designed to clamp the upper "
+"limit of the cache to something reasonable... even on systems that give "
+"OpenShot huge amounts of RAM to work with."
 msgstr ""
 "Ini adalah pengaturan override untuk jumlah total frame yang dapat di-cache "
 "oleh thread cache kami. Defaultnya adalah 600 frame, tetapi meskipun Anda "
 "memberikan jumlah RAM yang besar untuk ukuran cache OpenShot, ini akan "
 "mengesampingkan jumlah maksimum frame yang di-cache. Alasannya... terkadang "
-"ketika jendela pratinjau sangat kecil dan ukuran cache diatur sangat tinggi, "
-"OpenShot mungkin menghitung bahwa kita dapat meng-cache 30.000 frame, atau "
+"ketika jendela pratinjau sangat kecil dan ukuran cache diatur sangat tinggi,"
+" OpenShot mungkin menghitung bahwa kita dapat meng-cache 30.000 frame, atau "
 "sesuatu yang tidak masuk akal yang akan memakan banyak CPU dan membuat "
 "sistem melambat. Pengaturan ini dirancang untuk membatasi batas atas cache "
 "ke sesuatu yang wajar... bahkan pada sistem yang memberikan OpenShot jumlah "
 "RAM yang besar untuk digunakan."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:218
+#: ../preferences.rst:217
 msgid ""
 "OpenShot's default cache settings now target a balanced preview experience: "
-"roughly **50% behind / 50% ahead** of the playhead, **768 MB** cache memory, "
-"and **900** max frames. In practice, this improves scrubbing and seek "
+"roughly **50% behind / 50% ahead** of the playhead, **768 MB** cache memory,"
+" and **900** max frames. In practice, this improves scrubbing and seek "
 "behavior while reducing stale preview frames on slower systems."
 msgstr ""
 "Pengaturan cache default OpenShot sekarang menargetkan pengalaman pratinjau "
@@ -829,90 +826,91 @@ msgstr ""
 "pratinjau usang pada sistem yang lebih lambat."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:224
+#: ../preferences.rst:223
 msgid "Performance"
 msgstr "Performa"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:227
+#: ../preferences.rst:226
 msgid ""
 "Please keep in mind that GPU hardware acceleration is experimental at the "
 "moment. OpenShot supports both decoding and encoding acceleration. For more "
-"information take a look at our `Github HW-ACCEL Doc <https://github.com/"
-"OpenShot/libopenshot/blob/develop/doc/HW-ACCEL.md>`_. NOTE: On systems with "
-"older graphics cards, hardware acceleration may not always be faster than "
-"CPU encoding."
+"information take a look at our `Github HW-ACCEL Doc "
+"<https://github.com/OpenShot/libopenshot/blob/develop/doc/HW-ACCEL.md>`_. "
+"NOTE: On systems with older graphics cards, hardware acceleration may not "
+"always be faster than CPU encoding."
 msgstr ""
 "Harap diingat bahwa akselerasi perangkat keras GPU saat ini masih "
 "eksperimental. OpenShot mendukung akselerasi decoding dan encoding. Untuk "
-"informasi lebih lanjut, lihat `Dokumen HW-ACCEL Github <https://github.com/"
-"OpenShot/libopenshot/blob/develop/doc/HW-ACCEL.md>`_. CATATAN: Pada sistem "
-"dengan kartu grafis lama, akselerasi perangkat keras mungkin tidak selalu "
-"lebih cepat daripada encoding CPU."
+"informasi lebih lanjut, lihat `Dokumen HW-ACCEL Github "
+"<https://github.com/OpenShot/libopenshot/blob/develop/doc/HW-ACCEL.md>`_. "
+"CATATAN: Pada sistem dengan kartu grafis lama, akselerasi perangkat keras "
+"mungkin tidak selalu lebih cepat daripada encoding CPU."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:237
+#: ../preferences.rst:236
 msgid "Hardware Decoder Mode"
 msgstr "Mode Dekoder Perangkat Keras"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:238
+#: ../preferences.rst:237
 msgid ""
 "Select the hardware decoding backend to use. Use :guilabel:`Test` to verify "
 "the selected decoder mode."
 msgstr ""
-"Pilih backend decoding perangkat keras yang akan digunakan. Gunakan :"
-"guilabel:`Test` untuk memverifikasi mode dekoder yang dipilih."
+"Pilih backend decoding perangkat keras yang akan digunakan. Gunakan "
+":guilabel:`Test` untuk memverifikasi mode dekoder yang dipilih."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:239
+#: ../preferences.rst:238
 msgid "Hardware Decoder Graphics Card"
 msgstr "Kartu Grafis Dekoder Perangkat Keras"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:240
+#: ../preferences.rst:239
 msgid "Choose which GPU device is used for hardware decoding."
 msgstr "Pilih perangkat GPU yang digunakan untuk decoding perangkat keras."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:241
+#: ../preferences.rst:240
 msgid "Hardware Encoder Graphics Card"
 msgstr "Kartu Grafis Encoder Perangkat Keras"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:242
+#: ../preferences.rst:241
 msgid "Choose which GPU device is used for hardware encoding."
 msgstr "Pilih perangkat GPU yang digunakan untuk encoding perangkat keras."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:243
+#: ../preferences.rst:242
 msgid "OMP Threads"
 msgstr "Thread OMP"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:244
+#: ../preferences.rst:243
 msgid ""
 "Number of OpenMP worker threads used by performance-sensitive processing."
 msgstr ""
-"Jumlah thread pekerja OpenMP yang digunakan oleh pemrosesan sensitif kinerja."
+"Jumlah thread pekerja OpenMP yang digunakan oleh pemrosesan sensitif "
+"kinerja."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:245
+#: ../preferences.rst:244
 msgid "FFmpeg Threads"
 msgstr "Thread FFmpeg"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:246
+#: ../preferences.rst:245
 msgid "Number of FFmpeg threads used for decoding/encoding."
 msgstr "Jumlah thread FFmpeg yang digunakan untuk decoding/encoding."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:247
+#: ../preferences.rst:246
 msgid "Hardware Decoder Max Width (0 = Default)"
 msgstr "Lebar Maksimum Dekoder Perangkat Keras (0 = Default)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:248
+#: ../preferences.rst:247
 msgid ""
 "Optional maximum width for hardware decoding. Use ``0`` for no explicit "
 "limit."
@@ -921,40 +919,40 @@ msgstr ""
 "tanpa batasan eksplisit."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:249
+#: ../preferences.rst:248
 msgid "Hardware Decoder Max Height (0 = Default)"
 msgstr "Tinggi Maksimum Dekoder Perangkat Keras (0 = Default)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:250
+#: ../preferences.rst:249
 msgid ""
 "Optional maximum height for hardware decoding. Use ``0`` for no explicit "
 "limit."
 msgstr ""
-"Tinggi maksimum opsional untuk decoding perangkat keras. Gunakan ``0`` untuk "
-"tanpa batasan eksplisit."
+"Tinggi maksimum opsional untuk decoding perangkat keras. Gunakan ``0`` untuk"
+" tanpa batasan eksplisit."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:251
+#: ../preferences.rst:250
 msgid "Use Blender GPU rendering for Animated Titles"
 msgstr "Gunakan rendering GPU Blender untuk Judul Animasi"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:252
+#: ../preferences.rst:251
 msgid "Enable GPU rendering for Blender-based animated titles."
 msgstr "Aktifkan rendering GPU untuk judul animasi berbasis Blender."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:257
+#: ../preferences.rst:256
 msgid "Keyboard"
 msgstr "Keyboard"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:260
+#: ../preferences.rst:259
 msgid ""
-"This section allows you to view and customize hotkeys for various actions in "
-"the application. Here, you can assign and manage multiple shortcuts for the "
-"same action and restore default shortcuts if needed."
+"This section allows you to view and customize hotkeys for various actions in"
+" the application. Here, you can assign and manage multiple shortcuts for the"
+" same action and restore default shortcuts if needed."
 msgstr ""
 "Bagian ini memungkinkan Anda melihat dan menyesuaikan hotkey untuk berbagai "
 "aksi dalam aplikasi. Di sini, Anda dapat menetapkan dan mengelola beberapa "
@@ -962,20 +960,20 @@ msgstr ""
 "diperlukan."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:263
+#: ../preferences.rst:262
 msgid ""
-"**Assign Multiple Shortcuts**: You can assign multiple keyboard shortcuts to "
-"the same action by separating them with a pipe (``|``) delimiter. This "
+"**Assign Multiple Shortcuts**: You can assign multiple keyboard shortcuts to"
+" the same action by separating them with a pipe (``|``) delimiter. This "
 "flexibility allows you to configure as many shortcuts as you need for each "
 "action."
 msgstr ""
 "**Tetapkan Beberapa Pintasan**: Anda dapat menetapkan beberapa pintasan "
 "keyboard untuk aksi yang sama dengan memisahkannya menggunakan tanda pipa "
-"(``|``). Fleksibilitas ini memungkinkan Anda mengonfigurasi sebanyak mungkin "
-"pintasan yang Anda butuhkan untuk setiap aksi."
+"(``|``). Fleksibilitas ini memungkinkan Anda mengonfigurasi sebanyak mungkin"
+" pintasan yang Anda butuhkan untuk setiap aksi."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:266
+#: ../preferences.rst:265
 msgid ""
 "**Immediate Application**: No restart is required after adjusting keyboard "
 "shortcuts. Changes are applied immediately, so you can start using your "
@@ -986,7 +984,7 @@ msgstr ""
 "menggunakan pintasan yang diperbarui."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:269
+#: ../preferences.rst:268
 msgid ""
 "**Restore Default Shortcuts**: If needed, you can reset all keyboard "
 "shortcuts to their default settings by clicking on the :guilabel:`Restore "
@@ -994,23 +992,23 @@ msgid ""
 "Preferences screen."
 msgstr ""
 "**Kembalikan Pintasan Default**: Jika diperlukan, Anda dapat mengatur ulang "
-"semua pintasan keyboard ke pengaturan default dengan mengklik tombol :"
-"guilabel:`Restore Defaults: Keyboard` yang terletak di sudut kiri bawah "
+"semua pintasan keyboard ke pengaturan default dengan mengklik tombol "
+":guilabel:`Restore Defaults: Keyboard` yang terletak di sudut kiri bawah "
 "layar Preferensi."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:272
+#: ../preferences.rst:271
 msgid ""
 "**Unique Shortcuts**: Each keyboard shortcut must be unique. If there are "
 "any duplicate shortcuts, they will be highlighted in **red** and will not "
 "function until the conflict is resolved."
 msgstr ""
 "**Pintasan Unik**: Setiap pintasan keyboard harus unik. Jika ada pintasan "
-"yang duplikat, akan ditandai dengan warna **merah** dan tidak akan berfungsi "
-"sampai konflik diselesaikan."
+"yang duplikat, akan ditandai dengan warna **merah** dan tidak akan berfungsi"
+" sampai konflik diselesaikan."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:276
+#: ../preferences.rst:275
 msgid ""
 "For more detailed information on how to use and customize keyboard "
 "shortcuts, see :ref:`keyboard_shortcut_ref`."
@@ -1019,12 +1017,12 @@ msgstr ""
 "pintasan keyboard, lihat :ref:`keyboard_shortcut_ref`."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:279
+#: ../preferences.rst:278
 msgid "Location"
 msgstr "Lokasi"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:283
+#: ../preferences.rst:282
 msgid ""
 "Default file path locations for saving/opening projects, importing files, "
 "and exporting videos can be configured here. This can save you time by "
@@ -1037,47 +1035,47 @@ msgstr ""
 "sesuai (opsi dijelaskan di bawah)."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:293
+#: ../preferences.rst:292
 msgid "File Import"
 msgstr "Impor File"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:293
+#: ../preferences.rst:292
 msgid "Default folder to choose when importing a file"
 msgstr "Folder default yang dipilih saat mengimpor file"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:294
+#: ../preferences.rst:293
 msgid "Save or Open Project"
 msgstr "Simpan atau Buka Proyek"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:294
+#: ../preferences.rst:293
 msgid "Default folder to choose when saving or opening a project file"
 msgstr "Folder default yang dipilih saat menyimpan atau membuka file proyek"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:295
+#: ../preferences.rst:294
 msgid "Video Export"
 msgstr "Ekspor Video"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:295
+#: ../preferences.rst:294
 msgid "Default folder to choose when exporting a video"
 msgstr "Folder default yang dipilih saat mengekspor video"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:302
+#: ../preferences.rst:301
 msgid "Values"
 msgstr "Nilai"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:304
+#: ../preferences.rst:303
 msgid "**Recent Folder**"
 msgstr "**Folder Terbaru**"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:304
+#: ../preferences.rst:303
 msgid ""
 "The last folder used for this same operation. Project folders, Import "
 "folders, and Export folders are tracked separately."
@@ -1086,139 +1084,145 @@ msgstr ""
 "folder impor, dan folder ekspor dilacak secara terpisah."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:305
+#: ../preferences.rst:304
 msgid "**Project Folder**"
 msgstr "**Folder Proyek**"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:305
+#: ../preferences.rst:304
 msgid ""
-"The current project folder (or the user's home folder, if the project is not "
-"yet saved)"
+"The current project folder (or the user's home folder, if the project is not"
+" yet saved)"
 msgstr ""
 "Folder proyek saat ini (atau folder home pengguna, jika proyek belum "
 "disimpan)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:311
+#: ../preferences.rst:310
 msgid "Advanced"
 msgstr "Lanjutan"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:315
+#: ../preferences.rst:314
 msgid "The Advanced tab includes ComfyUI integration and debugging options."
 msgstr "Tab Lanjutan mencakup integrasi ComfyUI dan opsi debugging."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:324
+#: ../preferences.rst:323
 msgid "Comfy UI URL"
 msgstr "URL Comfy UI"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:325
+#: ../preferences.rst:324
 msgid "``http://127.0.0.1:8188``"
 msgstr "``http://127.0.0.1:8188``"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:326
+#: ../preferences.rst:325
 msgid "URL of your local or remote ComfyUI server"
 msgstr "URL server ComfyUI lokal atau jarak jauh Anda"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:327
+#: ../preferences.rst:326
 msgid "Debug Mode (Port)"
 msgstr "Mode Debug (Port)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:328
+#: ../preferences.rst:327
 msgid "5556"
 msgstr "5556"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:329
+#: ../preferences.rst:328
 msgid "Port used by debug logging features"
 msgstr "Port yang digunakan oleh fitur pencatatan debug"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:330
+#: ../preferences.rst:329
 msgid "Debug Mode (Verbose)"
 msgstr "Mode Debug (Verbose)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:332
+#: ../preferences.rst:330 ../preferences.rst:336
+#, fuzzy
+msgid "Disabled"
+msgstr "Diaktifkan"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:331
 msgid "Enable verbose debugging output"
 msgstr "Aktifkan keluaran debugging verbose"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:333
+#: ../preferences.rst:332
 msgid "Send Anonymous Metrics and Errors"
 msgstr "Kirim Metrik dan Kesalahan Anonim"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:335
+#: ../preferences.rst:334
 msgid "Send anonymous telemetry and error reports"
 msgstr "Kirim telemetri dan laporan kesalahan anonim"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:336
+#: ../preferences.rst:335
 msgid "Show Playback Performance (FPS)"
 msgstr "Tampilkan Performa Pemutaran (FPS)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:338
+#: ../preferences.rst:337
 msgid "Display live FPS in preview playback"
 msgstr "Tampilkan FPS langsung saat pemutaran pratinjau"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:339
+#: ../preferences.rst:338
 msgid "Show Export Dialog when Finished"
 msgstr "Tampilkan Dialog Ekspor saat Selesai"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:341
+#: ../preferences.rst:340
 msgid "Display the Export Video window when export completes"
 msgstr "Tampilkan jendela Ekspor Video saat ekspor selesai"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:343
+#: ../preferences.rst:342
 msgid ""
 "The ComfyUI **Check** button updates an inline status icon: green checkmark "
 "for success, red icon for failure. If OpenShot cannot reach this server, AI "
 "context menu options are hidden. See :ref:`ai_ref` for setup details, "
 "requirements, and workflow options."
 msgstr ""
-"Tombol **Check** ComfyUI memperbarui ikon status inline: tanda centang hijau "
-"untuk sukses, ikon merah untuk gagal. Jika OpenShot tidak dapat mengakses "
+"Tombol **Check** ComfyUI memperbarui ikon status inline: tanda centang hijau"
+" untuk sukses, ikon merah untuk gagal. Jika OpenShot tidak dapat mengakses "
 "server ini, opsi menu konteks AI disembunyikan. Lihat :ref:`ai_ref` untuk "
 "detail pengaturan, persyaratan, dan opsi alur kerja."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:350
+#: ../preferences.rst:349
 msgid "Reset (Default Values)"
 msgstr "Reset (Nilai Default)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:352
+#: ../preferences.rst:351
 msgid ""
 "To reset **all** preferences to their default values, please delete the "
 "``openshot.settings`` file and re-launch OpenShot. The settings file can be "
-"located at this path: ``~/.openshot_qt/openshot.settings`` or ``C:"
-"\\Users\\USERNAME\\.openshot_qt\\openshot.settings``. When OpenShot is re-"
-"launched, it will create the missing ``openshot.settings`` file with default "
-"values."
+"located at this path: ``~/.openshot_qt/openshot.settings`` or "
+"``C:\\Users\\USERNAME\\.openshot_qt\\openshot.settings``. When OpenShot is "
+"re-launched, it will create the missing ``openshot.settings`` file with "
+"default values."
 msgstr ""
 "Untuk mengatur ulang **semua** preferensi ke nilai default, silakan hapus "
 "file ``openshot.settings`` dan jalankan kembali OpenShot. File pengaturan "
-"dapat ditemukan di jalur ini: ``~/.openshot_qt/openshot.settings`` atau ``C:"
-"\\Users\\USERNAME\\.openshot_qt\\openshot.settings``. Saat OpenShot "
+"dapat ditemukan di jalur ini: ``~/.openshot_qt/openshot.settings`` atau "
+"``C:\\Users\\USERNAME\\.openshot_qt\\openshot.settings``. Saat OpenShot "
 "dijalankan kembali, ia akan membuat file ``openshot.settings`` yang hilang "
 "dengan nilai default."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:357
+#: ../preferences.rst:356
 msgid ""
-"Optionally, you can delete the entire ``.openshot_qt/`` folder and re-launch "
-"OpenShot. However, please make a **backup** of any customized folders: "
+"Optionally, you can delete the entire ``.openshot_qt/`` folder and re-launch"
+" OpenShot. However, please make a **backup** of any customized folders: "
 "**emojis, presets, profiles, recovery, title_templates, transitions, or "
 "yolo**. For example, your ``/recovery/`` sub-folder contains backup copies "
 "of all your existing projects (``*.osp`` files)."
@@ -1230,12 +1234,12 @@ msgstr ""
 "salinan cadangan dari semua proyek yang ada (file ``*.osp``)."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:362
+#: ../preferences.rst:361
 msgid ""
 "Deleting the ``.openshot_qt/`` folder is the quickest method to restore "
 "OpenShot preferences and settings to their Default values (i.e. also called "
-"a `clean install`). When OpenShot is re-launched, it will create any missing "
-"folders (i.e. ``.openshot_qt/``) and settings files. See our `step-by-step "
+"a `clean install`). When OpenShot is re-launched, it will create any missing"
+" folders (i.e. ``.openshot_qt/``) and settings files. See our `step-by-step "
 "guide <https://github.com/OpenShot/openshot-qt/wiki/Clean-Installation-of-"
 "OpenShot>`_ for more information about **clean installs** of OpenShot."
 msgstr ""
@@ -1243,6 +1247,29 @@ msgstr ""
 "mengembalikan preferensi dan pengaturan OpenShot ke nilai Default mereka "
 "(yaitu juga disebut `instalasi bersih`). Ketika OpenShot diluncurkan "
 "kembali, ia akan membuat folder yang hilang (yaitu ``.openshot_qt/``) dan "
-"file pengaturan. Lihat `panduan langkah demi langkah <https://github.com/"
-"OpenShot/openshot-qt/wiki/Clean-Installation-of-OpenShot>`_ kami untuk "
-"informasi lebih lanjut tentang **instalasi bersih** OpenShot."
+"file pengaturan. Lihat `panduan langkah demi langkah "
+"<https://github.com/OpenShot/openshot-qt/wiki/Clean-Installation-of-"
+"OpenShot>`_ kami untuk informasi lebih lanjut tentang **instalasi bersih** "
+"OpenShot."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The Timeline tab controls default timeline behavior, clip/transition "
+#~ "insertion defaults, and whether to use the new timeline backend or the "
+#~ "legacy web-based timeline."
+#~ msgstr ""
+#~ "Tab Garis Waktu mengontrol perilaku garis waktu default, pengaturan sisip "
+#~ "klip/transisi, dan apakah menggunakan backend garis waktu baru atau garis "
+#~ "waktu berbasis web warisan."
+
+# Translated with gpt-4.1-mini
+#~ msgid "Thumbnail density for the new timeline backend"
+#~ msgstr "Kepadatan thumbnail untuk backend garis waktu baru"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Enable Legacy Timeline (web-based)"
+#~ msgstr "Aktifkan Garis Waktu Warisan (berbasis web)"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Use the legacy web timeline (WebEngine/WebKit auto-select)"
+#~ msgstr "Gunakan garis waktu web warisan (WebEngine/WebKit pilih otomatis)"

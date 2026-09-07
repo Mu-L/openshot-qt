@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenShot Video Editor 3.5\n"
+"Project-Id-Version: OpenShot Video Editor 4.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,6 +60,7 @@ msgid "Common presets (combinations of presets and video profiles grouped by cat
 msgstr ""
 
 #: ../export.rst:48
+#: ../export.rst:168
 msgid "Target"
 msgstr ""
 
@@ -68,6 +69,7 @@ msgid "Target presets related to the current profile (collections of common form
 msgstr ""
 
 #: ../export.rst:49
+#: ../export.rst:169
 msgid "Video Profile"
 msgstr ""
 
@@ -294,4 +296,240 @@ msgstr ""
 
 #: ../export.rst:152
 msgid "The bitrate to use for audio encoding. Accepts the following formats: ``96 kb/s``, ``128 kb/s``, ``192 kb/s``, etc..."
+msgstr ""
+
+#: ../export.rst:158
+msgid "Social Media Quick Reference"
+msgstr ""
+
+#: ../export.rst:160
+msgid "The table below shows the recommended :guilabel:`Target` and :guilabel:`Video Profile` settings for common social media platforms. Select these in the **Simple** tab of the Export dialog."
+msgstr ""
+
+#: ../export.rst:167
+msgid "Platform"
+msgstr ""
+
+#: ../export.rst:170
+msgid "Notes"
+msgstr ""
+
+#: ../export.rst:171
+msgid "YouTube (landscape)"
+msgstr ""
+
+#: ../export.rst:172
+msgid "``YouTube``"
+msgstr ""
+
+#: ../export.rst:173
+#: ../export.rst:189
+#: ../export.rst:197
+#: ../export.rst:201
+#: ../export.rst:205
+#: ../export.rst:209
+msgid "``FHD 1080p 30 fps``"
+msgstr ""
+
+#: ../export.rst:174
+msgid "Use ``YouTube (4K)`` for 4K"
+msgstr ""
+
+#: ../export.rst:175
+msgid "YouTube Shorts (vertical)"
+msgstr ""
+
+#: ../export.rst:176
+msgid "``YouTube Shorts``"
+msgstr ""
+
+#: ../export.rst:177
+#: ../export.rst:181
+#: ../export.rst:185
+#: ../export.rst:193
+msgid "``FHD Vertical 1080p 30 fps``"
+msgstr ""
+
+#: ../export.rst:178
+#: ../export.rst:182
+#: ../export.rst:186
+#: ../export.rst:194
+msgid "Up to 60 fps"
+msgstr ""
+
+#: ../export.rst:179
+msgid "TikTok (vertical)"
+msgstr ""
+
+#: ../export.rst:180
+msgid "``TikTok``"
+msgstr ""
+
+#: ../export.rst:183
+msgid "Instagram Reels (vertical)"
+msgstr ""
+
+#: ../export.rst:184
+msgid "``Instagram Reels``"
+msgstr ""
+
+#: ../export.rst:187
+msgid "Instagram (landscape/square)"
+msgstr ""
+
+#: ../export.rst:188
+msgid "``Instagram``"
+msgstr ""
+
+#: ../export.rst:190
+msgid "Square (1:1) also available"
+msgstr ""
+
+#: ../export.rst:191
+msgid "Snapchat (vertical)"
+msgstr ""
+
+#: ../export.rst:192
+msgid "``Snapchat``"
+msgstr ""
+
+#: ../export.rst:195
+msgid "Facebook"
+msgstr ""
+
+#: ../export.rst:196
+msgid "``Facebook``"
+msgstr ""
+
+#: ../export.rst:198
+msgid "Square and vertical also available"
+msgstr ""
+
+#: ../export.rst:199
+msgid "LinkedIn (landscape)"
+msgstr ""
+
+#: ../export.rst:200
+msgid "``LinkedIn``"
+msgstr ""
+
+#: ../export.rst:202
+msgid "Square and 4:5 portrait also available"
+msgstr ""
+
+#: ../export.rst:203
+msgid "Twitter / X"
+msgstr ""
+
+#: ../export.rst:204
+msgid "``Twitter / X``"
+msgstr ""
+
+#: ../export.rst:206
+msgid "Vertical also available"
+msgstr ""
+
+#: ../export.rst:207
+msgid "Vimeo"
+msgstr ""
+
+#: ../export.rst:208
+msgid "``Vimeo``"
+msgstr ""
+
+#: ../export.rst:210
+msgid "Use High quality setting"
+msgstr ""
+
+#: ../export.rst:215
+msgid "Hardware-Accelerated Export"
+msgstr ""
+
+#: ../export.rst:217
+msgid "OpenShot supports GPU-accelerated video encoding on supported hardware, dramatically reducing export times. Hardware-accelerated targets are shown with a badge in the :guilabel:`Target` dropdown. Select the appropriate target for your hardware:"
+msgstr ""
+
+#: ../export.rst:225
+msgid "Target (Export Dialog)"
+msgstr ""
+
+#: ../export.rst:225
+msgid "Badge"
+msgstr ""
+
+#: ../export.rst:225
+msgid "Requires"
+msgstr ""
+
+#: ../export.rst:227
+msgid "``MP4 (h.264 nv)``"
+msgstr ""
+
+#: ../export.rst:227
+msgid "NVENC"
+msgstr ""
+
+#: ../export.rst:227
+msgid "NVIDIA GPU (Kepler or newer)"
+msgstr ""
+
+#: ../export.rst:228
+msgid "``MP4 (h.264 va)``"
+msgstr ""
+
+#: ../export.rst:228
+#: ../export.rst:232
+msgid "VA-API"
+msgstr ""
+
+#: ../export.rst:228
+msgid "Linux with AMD or Intel GPU (VAAPI driver)"
+msgstr ""
+
+#: ../export.rst:229
+msgid "``MP4 (h.264 qsv)``"
+msgstr ""
+
+#: ../export.rst:229
+msgid "QSV"
+msgstr ""
+
+#: ../export.rst:229
+msgid "Intel GPU with Quick Sync Video"
+msgstr ""
+
+#: ../export.rst:230
+msgid "``MP4 (h.264 videotoolbox)``"
+msgstr ""
+
+#: ../export.rst:230
+msgid "VideoToolbox"
+msgstr ""
+
+#: ../export.rst:230
+msgid "macOS with Apple or Intel GPU"
+msgstr ""
+
+#: ../export.rst:231
+msgid "``MP4 (h.264 dx)``"
+msgstr ""
+
+#: ../export.rst:231
+msgid "DirectX"
+msgstr ""
+
+#: ../export.rst:231
+msgid "Windows with DirectX-compatible GPU"
+msgstr ""
+
+#: ../export.rst:232
+msgid "``MP4 (HEVC va)``"
+msgstr ""
+
+#: ../export.rst:232
+msgid "Linux VA-API — produces smaller HEVC files"
+msgstr ""
+
+#: ../export.rst:235
+msgid "MKV variants (``MKV (h.264 nv)``, ``MKV (h.264 va)``, etc.) are also available for each accelerator. If none of these targets appear or export fails, your system either lacks the required driver or the hardware encoder is not supported — fall back to the standard ``MP4 (h.264 + AAC)`` target, which uses the CPU-based ``libx264`` encoder and works on all systems."
 msgstr ""

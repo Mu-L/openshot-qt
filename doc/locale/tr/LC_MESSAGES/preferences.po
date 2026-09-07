@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-05 17:20-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,9 +28,9 @@ msgstr "Tercihler"
 #: ../preferences.rst:25
 msgid ""
 "The Preferences window contains many important settings and configuration "
-"options for OpenShot. They can be found in the top menu under :guilabel:"
-"`Edit→Preferences`. Many settings will require OpenShot to be restarted "
-"after your changes are applied."
+"options for OpenShot. They can be found in the top menu under "
+":guilabel:`Edit→Preferences`. Many settings will require OpenShot to be "
+"restarted after your changes are applied."
 msgstr ""
 "Tercihler penceresi, OpenShot için birçok önemli ayar ve yapılandırma "
 "seçeneği içerir. Bunlar üst menüde :guilabel:`Düzenle→Tercihler` altında "
@@ -41,8 +41,8 @@ msgstr ""
 #: ../preferences.rst:29
 msgid ""
 "NOTE: Some features such as `Animated Titles` and `external SVG editing` "
-"require setting the paths for **Blender** and **Inkscape** under the General "
-"tab. And if you notice audio playback issues, such as audio drift, you may "
+"require setting the paths for **Blender** and **Inkscape** under the General"
+" tab. And if you notice audio playback issues, such as audio drift, you may "
 "need to adjust the audio settings under the Preview tab."
 msgstr ""
 "NOT: `Animasyonlu Başlıklar` ve `harici SVG düzenleme` gibi bazı özellikler "
@@ -65,23 +65,23 @@ msgstr ""
 "ayarları değiştirmenizi sağlar."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:46 ../preferences.rst:110 ../preferences.rst:133
-#: ../preferences.rst:158 ../preferences.rst:205 ../preferences.rst:235
-#: ../preferences.rst:291 ../preferences.rst:321
+#: ../preferences.rst:46 ../preferences.rst:109 ../preferences.rst:132
+#: ../preferences.rst:157 ../preferences.rst:204 ../preferences.rst:234
+#: ../preferences.rst:290 ../preferences.rst:320
 msgid "Setting"
 msgstr "Ayar"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:47 ../preferences.rst:50 ../preferences.rst:110
-#: ../preferences.rst:133 ../preferences.rst:135 ../preferences.rst:158
-#: ../preferences.rst:322
+#: ../preferences.rst:47 ../preferences.rst:50 ../preferences.rst:109
+#: ../preferences.rst:132 ../preferences.rst:134 ../preferences.rst:157
+#: ../preferences.rst:321
 msgid "Default"
 msgstr "Varsayılan"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:48 ../preferences.rst:110 ../preferences.rst:133
-#: ../preferences.rst:205 ../preferences.rst:236 ../preferences.rst:291
-#: ../preferences.rst:302 ../preferences.rst:323
+#: ../preferences.rst:48 ../preferences.rst:109 ../preferences.rst:132
+#: ../preferences.rst:204 ../preferences.rst:235 ../preferences.rst:290
+#: ../preferences.rst:301 ../preferences.rst:322
 msgid "Description"
 msgstr "Açıklama"
 
@@ -185,8 +185,8 @@ msgstr "Temalar"
 # Translated with gpt-4.1-mini
 #: ../preferences.rst:70
 msgid ""
-"OpenShot comes with 3 standard themes, which change the look and feel of the "
-"program."
+"OpenShot comes with 3 standard themes, which change the look and feel of the"
+" program."
 msgstr ""
 "OpenShot, programın görünümünü ve hissini değiştiren 3 standart tema ile "
 "gelir."
@@ -198,8 +198,8 @@ msgid ""
 "**Cosmic Dusk:** [Default Theme] A bluish theme with a more modern UI "
 "design, enhancing the visual aesthetics of the editor. This theme features "
 "shades of blue and purple, giving the interface a contemporary and dynamic "
-"feel. It combines modern aesthetics with functionality, offering a fresh and "
-"visually appealing workspace for video editing."
+"feel. It combines modern aesthetics with functionality, offering a fresh and"
+" visually appealing workspace for video editing."
 msgstr ""
 "**Cosmic Dusk:** Daha modern bir kullanıcı arayüzü tasarımına sahip mavimsi "
 "bir tema, editörün görsel estetiğini artırır. Bu tema, arayüze çağdaş ve "
@@ -210,11 +210,11 @@ msgstr ""
 # Translated with gpt-4.1-mini
 #: ../preferences.rst:73
 msgid ""
-"**Humanity Dark:** A dark theme with dark gray tones, providing a modern and "
-"sleek look. This theme is designed for users who prefer working in low-light "
-"conditions or who enjoy a more subdued and professional appearance. The dark "
-"gray background reduces glare and eye strain, making it suitable for "
-"extended editing sessions."
+"**Humanity Dark:** A dark theme with dark gray tones, providing a modern and"
+" sleek look. This theme is designed for users who prefer working in low-"
+"light conditions or who enjoy a more subdued and professional appearance. "
+"The dark gray background reduces glare and eye strain, making it suitable "
+"for extended editing sessions."
 msgstr ""
 "**Humanity Dark:** Koyu gri tonlara sahip koyu bir tema, modern ve şık bir "
 "görünüm sağlar. Bu tema, düşük ışık koşullarında çalışmayı tercih eden veya "
@@ -227,8 +227,8 @@ msgstr ""
 msgid ""
 "**Retro:** A light theme that offers a classic and clean appearance. This "
 "theme uses light gray and white tones, making it ideal for users who prefer "
-"a bright and high-contrast interface. It provides a traditional look that is "
-"easy on the eyes, especially in well-lit environments."
+"a bright and high-contrast interface. It provides a traditional look that is"
+" easy on the eyes, especially in well-lit environments."
 msgstr ""
 "**Retro:** Klasik ve temiz bir görünüm sunan açık bir tema. Bu tema, parlak "
 "ve yüksek kontrastlı bir arayüzü tercih eden kullanıcılar için ideal olan "
@@ -244,15 +244,15 @@ msgstr "Varsayılanları Geri Yükleme"
 #: ../preferences.rst:80
 msgid ""
 "In OpenShot, each preferences category (or tab) in the Preferences window "
-"has a **Restore Defaults** button that allows you to easily reset the values "
-"for that specific category. This feature is particularly useful if you want "
-"to reset only certain parts of your preferences, like keyboard shortcuts, "
+"has a **Restore Defaults** button that allows you to easily reset the values"
+" for that specific category. This feature is particularly useful if you want"
+" to reset only certain parts of your preferences, like keyboard shortcuts, "
 "without affecting the rest of your custom settings."
 msgstr ""
 "OpenShot'ta, Tercihler penceresindeki her tercih kategorisi (veya sekmesi) "
 "için, o kategoriye ait değerleri kolayca sıfırlamanızı sağlayan bir "
-"**Varsayılanları Geri Yükle** düğmesi vardır. Bu özellik, klavye kısayolları "
-"gibi sadece belirli tercihlerinizi sıfırlamak istediğinizde, diğer özel "
+"**Varsayılanları Geri Yükle** düğmesi vardır. Bu özellik, klavye kısayolları"
+" gibi sadece belirli tercihlerinizi sıfırlamak istediğinizde, diğer özel "
 "ayarlarınızı etkilemeden kullanışlıdır."
 
 # Translated with gpt-4.1-mini
@@ -261,13 +261,13 @@ msgid ""
 "**Where to Find the Restore Defaults Button:** Each category or tab in the "
 "Preferences window has a **Restore Defaults** button located in the bottom "
 "left corner of the screen. The name of the button updates based on the "
-"category you’re viewing. For example, if you're in the \"Keyboard\" tab, the "
-"button will say **Restore Defaults: Keyboard**."
+"category you’re viewing. For example, if you're in the \"Keyboard\" tab, the"
+" button will say **Restore Defaults: Keyboard**."
 msgstr ""
 "**Varsayılanları Geri Yükle Düğmesi Nerede Bulunur:** Tercihler "
 "penceresindeki her kategori veya sekmenin, ekranın sol alt köşesinde bir "
-"**Varsayılanları Geri Yükle** düğmesi vardır. Düğmenin adı, görüntülediğiniz "
-"kategoriye göre güncellenir. Örneğin, \"Klavye\" sekmesindeyseniz, düğme "
+"**Varsayılanları Geri Yükle** düğmesi vardır. Düğmenin adı, görüntülediğiniz"
+" kategoriye göre güncellenir. Örneğin, \"Klavye\" sekmesindeyseniz, düğme "
 "**Varsayılanları Geri Yükle: Klavye** olarak görünür."
 
 # Translated with gpt-4.1-mini
@@ -278,8 +278,8 @@ msgid ""
 "easy to reset certain preferences without affecting others."
 msgstr ""
 "**Nasıl Çalışır:** Sadece şu anda seçili olan kategorideki ayarlar "
-"varsayılan değerlerine geri yüklenir. Bu seçici geri yükleme, diğer ayarları "
-"etkilemeden belirli tercihleri sıfırlamayı kolaylaştırır."
+"varsayılan değerlerine geri yüklenir. Bu seçici geri yükleme, diğer ayarları"
+" etkilemeden belirli tercihleri sıfırlamayı kolaylaştırır."
 
 # Translated with gpt-4.1-mini
 #: ../preferences.rst:93
@@ -300,57 +300,66 @@ msgstr ""
 msgid "Timeline"
 msgstr "Zaman Çizelgesi"
 
-# Translated with gpt-4.1-mini
 #: ../preferences.rst:103
 msgid ""
-"The Timeline tab controls default timeline behavior, clip/transition "
-"insertion defaults, and whether to use the new timeline backend or the "
-"legacy web-based timeline."
+"The Timeline tab controls default timeline behavior and clip/transition "
+"insertion defaults."
 msgstr ""
-"Zaman Çizelgesi sekmesi, varsayılan zaman çizelgesi davranışını, klip/geçiş "
-"ekleme varsayılanlarını ve yeni zaman çizelgesi altyapısının mı yoksa eski "
-"web tabanlı zaman çizelgesinin mi kullanılacağını kontrol eder."
+"Zaman Çizelgesi sekmesi, varsayılan zaman çizelgesi davranışını ve "
+"klip/geçiş ekleme varsayılanlarını kontrol eder."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:112
+#: ../preferences.rst:111
 msgid "Thumbnail Style"
 msgstr "Küçük Resim Stili"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:112
+#: ../preferences.rst:111
 msgid "Entire Clip"
 msgstr "Tüm Klip"
 
-# Translated with gpt-4.1-mini
-#: ../preferences.rst:112
-msgid "Thumbnail density for the new timeline backend"
-msgstr "Yeni zaman çizelgesi altyapısı için küçük resim yoğunluğu"
+#: ../preferences.rst:111
+msgid "Thumbnail density for the timeline"
+msgstr "Zaman çizelgesi için küçük resim yoğunluğu"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:113
+#: ../preferences.rst:112
 msgid "Image Length (seconds)"
 msgstr "Resim Süresi (saniye)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:113 ../preferences.rst:114
+#: ../preferences.rst:112 ../preferences.rst:113
 msgid "10.00"
 msgstr "10,00"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:113
+#: ../preferences.rst:112
 msgid "Default duration for still images added to the timeline"
 msgstr "Zaman çizelgesine eklenen durağan görüntüler için varsayılan süre"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:114
+#: ../preferences.rst:113
 #, fuzzy
 msgid "Transition Length (seconds)"
 msgstr "Resim Süresi (saniye)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:114
+#: ../preferences.rst:113
 msgid "Default duration for newly added transitions"
 msgstr "Yeni eklenen geçişler için varsayılan süre"
+
+#: ../preferences.rst:114
+msgid "Waveform Samples (per second)"
+msgstr "Dalga Formu Örnekleri (saniye başına)"
+
+#: ../preferences.rst:114
+msgid "200"
+msgstr "200"
+
+#: ../preferences.rst:114
+msgid "Detail stored for new peak/RMS timeline waveforms (20–400)"
+msgstr ""
+"Yeni tepe/RMS zaman çizelgesi dalga formları için saklanan detay (20–400)"
 
 # Translated with gpt-4.1-mini
 #: ../preferences.rst:115
@@ -358,8 +367,8 @@ msgid "Auto-Transition (overlap clips)"
 msgstr "Otomatik Geçiş (klipleri üst üste bindir)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:115 ../preferences.rst:160 ../preferences.rst:334
-#: ../preferences.rst:340
+#: ../preferences.rst:115 ../preferences.rst:159 ../preferences.rst:333
+#: ../preferences.rst:339
 msgid "Enabled"
 msgstr "Etkin"
 
@@ -369,28 +378,12 @@ msgid "Automatically create transitions when clips overlap"
 msgstr "Klipler üst üste bindiğinde otomatik olarak geçiş oluştur"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:116
-msgid "Enable Legacy Timeline (web-based)"
-msgstr "Eski Zaman Çizelgesini Etkinleştir (web tabanlı)"
-
-# Translated with gpt-4.1-mini
-#: ../preferences.rst:116 ../preferences.rst:331 ../preferences.rst:337
-#, fuzzy
-msgid "Disabled"
-msgstr "Etkin"
-
-# Translated with gpt-4.1-mini
-#: ../preferences.rst:116
-msgid "Use the legacy web timeline (WebEngine/WebKit auto-select)"
-msgstr "Eski web zaman çizelgesini kullan (WebEngine/WebKit otomatik seçimi)"
-
-# Translated with gpt-4.1-mini
-#: ../preferences.rst:122
+#: ../preferences.rst:121
 msgid "Preview"
 msgstr "Önizleme"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:126
+#: ../preferences.rst:125
 msgid ""
 "The Preview tab of the Preferences window controls real-time preview audio "
 "behavior, including device selection, sample rate, channels, buffering, "
@@ -401,135 +394,136 @@ msgstr ""
 "dahil olmak üzere gerçek zamanlı önizleme ses davranışını kontrol eder."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:135
+#: ../preferences.rst:134
 msgid "Playback Audio Device"
 msgstr "Oynatma Ses Cihazı"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:135
+#: ../preferences.rst:134
 msgid "Audio output device used during preview playback"
 msgstr "Önizleme oynatımı sırasında kullanılan ses çıkış cihazı"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:136
+#: ../preferences.rst:135
 msgid "Default Audio Sample Rate"
 msgstr "Varsayılan Ses Örnekleme Hızı"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:136
+#: ../preferences.rst:135
 #, fuzzy
 msgid "48000"
 msgstr "44100"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:136
+#: ../preferences.rst:135
 #, fuzzy
 msgid "Default preview sample rate"
 msgstr "Varsayılan Ses Örnekleme Hızı"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:137
+#: ../preferences.rst:136
 msgid "Default Audio Channels"
 msgstr "Varsayılan Ses Kanalları"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:137
+#: ../preferences.rst:136
 msgid "Stereo (2 Channel)"
 msgstr "Stereo (2 Kanal)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:137
+#: ../preferences.rst:136
 msgid "Default preview channel layout"
 msgstr "Varsayılan önizleme kanal düzeni"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:138
+#: ../preferences.rst:137
 msgid "Playback Audio Buffer Size"
 msgstr "Oynatma Ses Arabellek Boyutu"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:138
+#: ../preferences.rst:137
 msgid "512"
 msgstr "512"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:138
+#: ../preferences.rst:137
 msgid "Audio samples buffered before playback begins (128 to 4096)"
-msgstr "Oynatma başlamadan önce tamponlanan ses örnekleri (128 ile 4096 arası)"
+msgstr ""
+"Oynatma başlamadan önce tamponlanan ses örnekleri (128 ile 4096 arası)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:139
+#: ../preferences.rst:138
 msgid "Volume"
 msgstr "Ses Seviyesi"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:139
+#: ../preferences.rst:138
 msgid "75"
 msgstr "75"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:139
+#: ../preferences.rst:138
 msgid "Preview playback volume percentage"
 msgstr "Önizleme oynatma ses düzeyi yüzdesi"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:140
+#: ../preferences.rst:139
 msgid "Concurrent Optimize Jobs"
 msgstr "Eşzamanlı Optimize İşleri"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:140
+#: ../preferences.rst:139
 msgid "2"
 msgstr "2"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:140
+#: ../preferences.rst:139
 msgid "Number of video files OpenShot can optimize at the same time"
 msgstr "OpenShot'un aynı anda optimize edebileceği video dosyası sayısı"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:141
+#: ../preferences.rst:140
 msgid "Optimized Preview Resolution"
 msgstr "Optimize Edilmiş Önizleme Çözünürlüğü"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:141
+#: ../preferences.rst:140
 msgid "1280x720"
 msgstr "1280x720"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:141
+#: ../preferences.rst:140
 msgid "Maximum resolution used when creating optimized preview files"
 msgstr ""
 "Optimize edilmiş önizleme dosyaları oluşturulurken kullanılan maksimum "
 "çözünürlük"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:142
+#: ../preferences.rst:141
 msgid "Thumbnail Preload Rate / second"
 msgstr "Küçük Resim Ön Yükleme Hızı / saniye"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:142
+#: ../preferences.rst:141
 msgid "4"
 msgstr "4"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:142
+#: ../preferences.rst:141
 msgid ""
 "How many thumbnail preview frames per second are pre-generated while "
 "optimizing video"
 msgstr ""
-"Video optimize edilirken saniyede kaç küçük resim önizleme karesinin önceden "
-"oluşturulduğu"
+"Video optimize edilirken saniyede kaç küçük resim önizleme karesinin önceden"
+" oluşturulduğu"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:146
+#: ../preferences.rst:145
 msgid "Autosave"
 msgstr "Otomatik Kaydetme"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:150
+#: ../preferences.rst:149
 msgid ""
 "Autosave is a feature in OpenShot which automatically saves the current "
 "changes to your project after a specific number of minutes, helping to "
@@ -542,70 +536,71 @@ msgstr ""
 "etkisini azaltmaya yardımcı olur."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:160
+#: ../preferences.rst:159
 msgid "Enable Autosave"
 msgstr "Otomatik Kaydetmeyi Etkinleştir"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:161
+#: ../preferences.rst:160
 msgid "Autosave Interval (minutes)"
 msgstr "Otomatik Kaydetme Aralığı (dakika)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:161
+#: ../preferences.rst:160
 msgid "3"
 msgstr "3"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:162
+#: ../preferences.rst:161
 msgid "History Limit (# of undo/redo)"
 msgstr "Geçmiş Sınırı (geri al/yinele sayısı)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:162
+#: ../preferences.rst:161
 msgid "15"
 msgstr "15"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:163
+#: ../preferences.rst:162
 msgid "Recovery Limit (# of project copies)"
 msgstr "Kurtarma Sınırı (proje kopyası sayısı)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:163
+#: ../preferences.rst:162
 msgid "30"
 msgstr "30"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:167
+#: ../preferences.rst:166
 msgid "Recovery"
 msgstr "Kurtarma"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:169
+#: ../preferences.rst:168
 msgid ""
 "**Before each save**, a compressed ``*.zip`` copy of the current project is "
 "saved in the recovery folder, to further reduce the risk of data loss. The "
-"recovery folder is located at ``~/.openshot_qt/recovery/`` or ``C:"
-"\\Users\\USERNAME\\.openshot_qt\\recovery``."
+"recovery folder is located at ``~/.openshot_qt/recovery/`` or "
+"``C:\\Users\\USERNAME\\.openshot_qt\\recovery``."
 msgstr ""
 "**Her kaydetmeden önce**, veri kaybı riskini daha da azaltmak için mevcut "
 "projenin sıkıştırılmış ``*.zip`` kopyası kurtarma klasörüne kaydedilir. "
-"Kurtarma klasörü ``~/.openshot_qt/recovery/`` veya ``C:\\Users\\USERNAME\\."
-"openshot_qt\\recovery`` konumundadır."
+"Kurtarma klasörü ``~/.openshot_qt/recovery/`` veya "
+"``C:\\Users\\USERNAME\\.openshot_qt\\recovery`` konumundadır."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:173
+#: ../preferences.rst:172
 msgid ""
-"To recover a corrupt or broken ``*.osp`` project file, use the :guilabel:"
-"`File->Recovery` menu on the main window after opening your project. If "
-"available, a list of matching project versions from the recovery folder are "
-"listed in chronological order (most recent one at the top). This will "
-"automatically rename your current project file to ``{project-name}-{time}-"
-"backup.osp``, and replace it with the recovery project file. You can repeat "
-"this process until you find the correct recovery project. NOTE: If for some "
-"unexpected reason the recovery process fails, you can always rename the \"-"
-"backup.osp\" file to the original project file name to restore it."
+"To recover a corrupt or broken ``*.osp`` project file, use the "
+":guilabel:`File->Recovery` menu on the main window after opening your "
+"project. If available, a list of matching project versions from the recovery"
+" folder are listed in chronological order (most recent one at the top). This"
+" will automatically rename your current project file to ``{project-"
+"name}-{time}-backup.osp``, and replace it with the recovery project file. "
+"You can repeat this process until you find the correct recovery project. "
+"NOTE: If for some unexpected reason the recovery process fails, you can "
+"always rename the \"-backup.osp\" file to the original project file name to "
+"restore it."
 msgstr ""
 "Bozuk veya hasarlı bir ``*.osp`` proje dosyasını kurtarmak için, projenizi "
 "açtıktan sonra ana penceredeki :guilabel:`Dosya->Kurtarma` menüsünü "
@@ -619,20 +614,20 @@ msgstr ""
 "yükleyebilirsiniz."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:181
+#: ../preferences.rst:180
 msgid ""
 "To **manually** recover a corrupt or broken ``*.osp`` project file, please "
 "find the most recent copy in the recovery folder, and copy/paste the file "
 "into your original project folder location (i.e. the folder that contains "
 "your broken project). If the recovery file has been zipped (``*.zip``), you "
-"must first extract the ``*.osp``, and then copy it into your project folder. "
-"Recovery files are named ``{time}-{project-name}``. You can also use the "
+"must first extract the ``*.osp``, and then copy it into your project folder."
+" Recovery files are named ``{time}-{project-name}``. You can also use the "
 "**Date Modified** on the file to select the version you are interested in "
 "recovering."
 msgstr ""
-"Bozuk veya hasarlı bir ``*.osp`` proje dosyasını **manuel olarak** kurtarmak "
-"için, lütfen kurtarma klasöründeki en son kopyayı bulun ve dosyayı orijinal "
-"proje klasörünüzün konumuna (yani bozuk projenizin bulunduğu klasöre) "
+"Bozuk veya hasarlı bir ``*.osp`` proje dosyasını **manuel olarak** kurtarmak"
+" için, lütfen kurtarma klasöründeki en son kopyayı bulun ve dosyayı orijinal"
+" proje klasörünüzün konumuna (yani bozuk projenizin bulunduğu klasöre) "
 "kopyalayıp yapıştırın. Kurtarma dosyası sıkıştırılmışsa (``*.zip``), önce "
 "``*.osp`` dosyasını çıkarmanız ve ardından proje klasörünüze kopyalamanız "
 "gerekir. Kurtarma dosyaları ``{time}-{project-name}`` olarak adlandırılır. "
@@ -640,19 +635,19 @@ msgstr ""
 "Tarihi** ni kullanabilirsiniz."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:191
+#: ../preferences.rst:190
 msgid "Cache"
 msgstr "Önbellek"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:195
+#: ../preferences.rst:194
 msgid ""
-"Cache settings can be adjusted to make real-time playback faster or less CPU "
-"intensive. The cache is used to store image and audio data for each frame of "
-"video requested. The more frames that are cached, the smoother the real-time "
-"playback will be. However, the more that needs to be cached requires more "
-"CPU to generate the cache. There is a balance, and the default settings "
-"provide a generally sane set of cache values, which should allow most "
+"Cache settings can be adjusted to make real-time playback faster or less CPU"
+" intensive. The cache is used to store image and audio data for each frame "
+"of video requested. The more frames that are cached, the smoother the real-"
+"time playback will be. However, the more that needs to be cached requires "
+"more CPU to generate the cache. There is a balance, and the default settings"
+" provide a generally sane set of cache values, which should allow most "
 "computers to playback video and audio smoothly. See :ref:`playback_ref`."
 msgstr ""
 "Önbellek ayarları, gerçek zamanlı oynatmayı daha hızlı veya daha az CPU "
@@ -665,28 +660,28 @@ msgstr ""
 "Bkz. :ref:`playback_ref`."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:207
+#: ../preferences.rst:206
 msgid "Cache Mode"
 msgstr "Önbellek Modu"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:207
+#: ../preferences.rst:206
 msgid ""
 "Choose between Memory or Disk caching (memory caching is preferred). Disk "
 "caching writes image data to the hard disk for later retrieving, and works "
 "best with an SSD."
 msgstr ""
 "Bellek veya Disk önbellekleme arasında seçim yapın (bellek önbellekleme "
-"tercih edilir). Disk önbellekleme, görüntü verilerini daha sonra almak üzere "
-"sabit diske yazar ve SSD ile en iyi şekilde çalışır."
+"tercih edilir). Disk önbellekleme, görüntü verilerini daha sonra almak üzere"
+" sabit diske yazar ve SSD ile en iyi şekilde çalışır."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:208
+#: ../preferences.rst:207
 msgid "Cache Limit (MB)"
 msgstr "Önbellek Sınırı (MB)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:208
+#: ../preferences.rst:207
 msgid ""
 "How many MB are set aside for cache related data. Larger numbers are not "
 "always better, since it takes more CPU to generate more frames to fill the "
@@ -697,22 +692,22 @@ msgstr ""
 "oluşturmak daha fazla CPU gerektirir."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:209
+#: ../preferences.rst:208
 msgid "Image Format (Disk Only)"
 msgstr "Görüntü Formatı (Sadece Disk)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:209
+#: ../preferences.rst:208
 msgid "Image format to store disk cache image data"
 msgstr "Disk önbellek görüntü verilerini depolamak için görüntü formatı"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:210
+#: ../preferences.rst:209
 msgid "Scale Factor (Disk Only)"
 msgstr "Ölçek Faktörü (Sadece Disk)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:210
+#: ../preferences.rst:209
 msgid ""
 "Percentage (0.1 to 1.0) to reduce the size of disk based image files stored "
 "in the disk cache. Smaller numbers make writing and reading cached image "
@@ -723,12 +718,12 @@ msgstr ""
 "alınan görüntü dosyalarının yazılmasını ve okunmasını hızlandırır."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:211
+#: ../preferences.rst:210
 msgid "Image Quality (Disk Only)"
 msgstr "Görüntü Kalitesi (Sadece Disk)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:211
+#: ../preferences.rst:210
 msgid ""
 "Quality of the image files used in disk cache. The higher compression can "
 "cause more slowness, but results in smaller file sizes."
@@ -738,26 +733,26 @@ msgstr ""
 "boyutları sağlar."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:212
+#: ../preferences.rst:211
 msgid "Cache Pre-roll: Min Frames:"
 msgstr "Önbellek Ön Hazırlık: Minimum Kare Sayısı:"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:212
+#: ../preferences.rst:211
 msgid ""
 "Minimum # of frames that must be cached before playback begins. The larger "
 "the #, the larger the wait before playback begins."
 msgstr ""
-"Oynatma başlamadan önce önbelleğe alınması gereken minimum kare sayısı. Sayı "
-"ne kadar büyükse, oynatma başlamadan önce bekleme süresi o kadar uzun olur."
+"Oynatma başlamadan önce önbelleğe alınması gereken minimum kare sayısı. Sayı"
+" ne kadar büyükse, oynatma başlamadan önce bekleme süresi o kadar uzun olur."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:213
+#: ../preferences.rst:212
 msgid "Cache Pre-roll: Max Frames:"
 msgstr "Önbellek Ön Hazırlık: Maksimum Kare Sayısı:"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:213
+#: ../preferences.rst:212
 msgid ""
 "Maximum # of frames that can be cached during playback (in front of the "
 "playhead). The larger the #, the more CPU is required to cache ahead - vs "
@@ -768,40 +763,40 @@ msgstr ""
 "CPU gerekir - önceden önbelleğe alınmış kareleri göstermek yerine."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:214
+#: ../preferences.rst:213
 msgid "Cache Ahead (Percent):"
 msgstr "Önbelleğe Alma İleri (Yüzde):"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:214
+#: ../preferences.rst:213
 msgid ""
 "Between 0.0 and 1.0. This represents how much % we cache ahead of the "
 "playhead. For example, 0.5 would cache 50% behind and 50% ahead of the "
 "playhead. 0.8 would cache 20% behind and 80% ahead of the playhead."
 msgstr ""
-"0.0 ile 1.0 arasında. Bu, oynatma kafasının ne kadarını önbelleğe aldığımızı "
-"yüzde olarak gösterir. Örneğin, 0.5 oynatma kafasının %50'sini geride ve "
+"0.0 ile 1.0 arasında. Bu, oynatma kafasının ne kadarını önbelleğe aldığımızı"
+" yüzde olarak gösterir. Örneğin, 0.5 oynatma kafasının %50'sini geride ve "
 "%50'sini ileride önbelleğe alır. 0.8 ise %20'sini geride ve %80'ini ileride "
 "önbelleğe alır."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:215
+#: ../preferences.rst:214
 msgid "Cache Max Frames:"
 msgstr "Önbellek Maksimum Kareler:"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:215
+#: ../preferences.rst:214
 #, fuzzy
 msgid ""
 "This is an override on the total allowed frames that can be cached by our "
 "caching thread. It defaults to 900 frames, but even if you give a huge "
 "amount of RAM to OpenShot's cache size, this will override the max # of "
 "frames cached. The reason is... sometimes when the preview window is very "
-"small, and the cache size is set very high, OpenShot might calculate that we "
-"can cache 30,000 frames, or something silly which will take a huge amount of "
-"CPU, lagging the system. This setting is designed to clamp the upper limit "
-"of the cache to something reasonable... even on systems that give OpenShot "
-"huge amounts of RAM to work with."
+"small, and the cache size is set very high, OpenShot might calculate that we"
+" can cache 30,000 frames, or something silly which will take a huge amount "
+"of CPU, lagging the system. This setting is designed to clamp the upper "
+"limit of the cache to something reasonable... even on systems that give "
+"OpenShot huge amounts of RAM to work with."
 msgstr ""
 "Bu, önbellek iş parçacığımızın önbelleğe alabileceği toplam izin verilen "
 "kare sayısını geçersiz kılar. Varsayılan olarak 600 kare olarak "
@@ -810,51 +805,51 @@ msgstr ""
 "bazen önizleme penceresi çok küçük olduğunda ve önbellek boyutu çok yüksek "
 "ayarlandığında, OpenShot 30.000 kare önbelleğe alabileceğimizi "
 "hesaplayabilir ki bu çok fazla CPU kullanır ve sistemi yavaşlatır. Bu ayar, "
-"önbelleğin üst sınırını makul bir seviyeye sabitlemek için tasarlanmıştır... "
-"OpenShot'a çok fazla RAM veren sistemlerde bile."
+"önbelleğin üst sınırını makul bir seviyeye sabitlemek için tasarlanmıştır..."
+" OpenShot'a çok fazla RAM veren sistemlerde bile."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:218
+#: ../preferences.rst:217
 msgid ""
 "OpenShot's default cache settings now target a balanced preview experience: "
-"roughly **50% behind / 50% ahead** of the playhead, **768 MB** cache memory, "
-"and **900** max frames. In practice, this improves scrubbing and seek "
+"roughly **50% behind / 50% ahead** of the playhead, **768 MB** cache memory,"
+" and **900** max frames. In practice, this improves scrubbing and seek "
 "behavior while reducing stale preview frames on slower systems."
 msgstr ""
-"OpenShot'un varsayılan önbellek ayarları artık dengeli bir önizleme deneyimi "
-"hedefliyor: oynatma konumunun yaklaşık **%50 gerisi / %50 önü**, **768 MB** "
-"önbellek belleği ve **900** maksimum kare. Pratikte, bu, yavaş sistemlerde "
+"OpenShot'un varsayılan önbellek ayarları artık dengeli bir önizleme deneyimi"
+" hedefliyor: oynatma konumunun yaklaşık **%50 gerisi / %50 önü**, **768 MB**"
+" önbellek belleği ve **900** maksimum kare. Pratikte, bu, yavaş sistemlerde "
 "eski önizleme karelerini azaltırken tarama ve arama davranışını iyileştirir."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:224
+#: ../preferences.rst:223
 msgid "Performance"
 msgstr "Performans"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:227
+#: ../preferences.rst:226
 msgid ""
 "Please keep in mind that GPU hardware acceleration is experimental at the "
 "moment. OpenShot supports both decoding and encoding acceleration. For more "
-"information take a look at our `Github HW-ACCEL Doc <https://github.com/"
-"OpenShot/libopenshot/blob/develop/doc/HW-ACCEL.md>`_. NOTE: On systems with "
-"older graphics cards, hardware acceleration may not always be faster than "
-"CPU encoding."
+"information take a look at our `Github HW-ACCEL Doc "
+"<https://github.com/OpenShot/libopenshot/blob/develop/doc/HW-ACCEL.md>`_. "
+"NOTE: On systems with older graphics cards, hardware acceleration may not "
+"always be faster than CPU encoding."
 msgstr ""
 "Lütfen GPU donanım hızlandırmasının şu anda deneysel olduğunu unutmayın. "
 "OpenShot hem kod çözme hem de kodlama hızlandırmasını destekler. Daha fazla "
-"bilgi için `Github HW-ACCEL Dokümanımıza <https://github.com/OpenShot/"
-"libopenshot/blob/develop/doc/HW-ACCEL.md>`_ göz atabilirsiniz. NOT: Eski "
-"grafik kartlarına sahip sistemlerde, donanım hızlandırması her zaman CPU "
-"kodlamasından daha hızlı olmayabilir."
+"bilgi için `Github HW-ACCEL Dokümanımıza "
+"<https://github.com/OpenShot/libopenshot/blob/develop/doc/HW-ACCEL.md>`_ göz"
+" atabilirsiniz. NOT: Eski grafik kartlarına sahip sistemlerde, donanım "
+"hızlandırması her zaman CPU kodlamasından daha hızlı olmayabilir."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:237
+#: ../preferences.rst:236
 msgid "Hardware Decoder Mode"
 msgstr "Donanım Kod Çözücü Modu"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:238
+#: ../preferences.rst:237
 msgid ""
 "Select the hardware decoding backend to use. Use :guilabel:`Test` to verify "
 "the selected decoder mode."
@@ -863,54 +858,54 @@ msgstr ""
 "doğrulamak için :guilabel:`Test` kullanın."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:239
+#: ../preferences.rst:238
 msgid "Hardware Decoder Graphics Card"
 msgstr "Donanım Kod Çözücü Grafik Kartı"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:240
+#: ../preferences.rst:239
 msgid "Choose which GPU device is used for hardware decoding."
 msgstr "Donanım kod çözme için hangi GPU cihazının kullanılacağını seçin."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:241
+#: ../preferences.rst:240
 msgid "Hardware Encoder Graphics Card"
 msgstr "Donanım Kodlayıcı Grafik Kartı"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:242
+#: ../preferences.rst:241
 msgid "Choose which GPU device is used for hardware encoding."
 msgstr "Donanım kodlama için hangi GPU cihazının kullanılacağını seçin."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:243
+#: ../preferences.rst:242
 msgid "OMP Threads"
 msgstr "OMP İş Parçacıkları"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:244
+#: ../preferences.rst:243
 msgid ""
 "Number of OpenMP worker threads used by performance-sensitive processing."
 msgstr ""
 "Performansa duyarlı işlemede kullanılan OpenMP işçi iş parçacığı sayısı."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:245
+#: ../preferences.rst:244
 msgid "FFmpeg Threads"
 msgstr "FFmpeg İş Parçacıkları"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:246
+#: ../preferences.rst:245
 msgid "Number of FFmpeg threads used for decoding/encoding."
 msgstr "Kod çözme/kodlama için kullanılan FFmpeg iş parçacığı sayısı."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:247
+#: ../preferences.rst:246
 msgid "Hardware Decoder Max Width (0 = Default)"
 msgstr "Donanım Kod Çözücü Maksimum Genişlik (0 = Varsayılan)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:248
+#: ../preferences.rst:247
 msgid ""
 "Optional maximum width for hardware decoding. Use ``0`` for no explicit "
 "limit."
@@ -919,12 +914,12 @@ msgstr ""
 "``0`` kullanın."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:249
+#: ../preferences.rst:248
 msgid "Hardware Decoder Max Height (0 = Default)"
 msgstr "Donanım Kod Çözücü Maksimum Yükseklik (0 = Varsayılan)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:250
+#: ../preferences.rst:249
 msgid ""
 "Optional maximum height for hardware decoding. Use ``0`` for no explicit "
 "limit."
@@ -933,26 +928,27 @@ msgstr ""
 "``0`` kullanın."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:251
+#: ../preferences.rst:250
 msgid "Use Blender GPU rendering for Animated Titles"
 msgstr "Animasyonlu Başlıklar için Blender GPU render'ını kullan"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:252
+#: ../preferences.rst:251
 msgid "Enable GPU rendering for Blender-based animated titles."
-msgstr "Blender tabanlı animasyonlu başlıklar için GPU render'ını etkinleştir."
+msgstr ""
+"Blender tabanlı animasyonlu başlıklar için GPU render'ını etkinleştir."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:257
+#: ../preferences.rst:256
 msgid "Keyboard"
 msgstr "Klavye"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:260
+#: ../preferences.rst:259
 msgid ""
-"This section allows you to view and customize hotkeys for various actions in "
-"the application. Here, you can assign and manage multiple shortcuts for the "
-"same action and restore default shortcuts if needed."
+"This section allows you to view and customize hotkeys for various actions in"
+" the application. Here, you can assign and manage multiple shortcuts for the"
+" same action and restore default shortcuts if needed."
 msgstr ""
 "Bu bölüm, uygulamadaki çeşitli işlemler için kısayolları görüntülemenize ve "
 "özelleştirmenize olanak tanır. Burada, aynı işlem için birden fazla kısayol "
@@ -960,30 +956,30 @@ msgstr ""
 "yükleyebilirsiniz."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:263
+#: ../preferences.rst:262
 msgid ""
-"**Assign Multiple Shortcuts**: You can assign multiple keyboard shortcuts to "
-"the same action by separating them with a pipe (``|``) delimiter. This "
+"**Assign Multiple Shortcuts**: You can assign multiple keyboard shortcuts to"
+" the same action by separating them with a pipe (``|``) delimiter. This "
 "flexibility allows you to configure as many shortcuts as you need for each "
 "action."
 msgstr ""
-"**Birden Fazla Kısayol Atama**: Aynı işlem için birden fazla klavye kısayolu "
-"atayabilirsiniz; bunları boru (``|``) ayırıcı ile ayırarak. Bu esneklik, her "
-"işlem için ihtiyacınız kadar kısayol yapılandırmanıza olanak tanır."
+"**Birden Fazla Kısayol Atama**: Aynı işlem için birden fazla klavye kısayolu"
+" atayabilirsiniz; bunları boru (``|``) ayırıcı ile ayırarak. Bu esneklik, "
+"her işlem için ihtiyacınız kadar kısayol yapılandırmanıza olanak tanır."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:266
+#: ../preferences.rst:265
 msgid ""
 "**Immediate Application**: No restart is required after adjusting keyboard "
 "shortcuts. Changes are applied immediately, so you can start using your "
 "updated shortcuts right away."
 msgstr ""
 "**Anında Uygulama**: Klavye kısayollarını ayarladıktan sonra yeniden "
-"başlatmaya gerek yoktur. Değişiklikler hemen uygulanır, böylece güncellenmiş "
-"kısayollarınızı hemen kullanmaya başlayabilirsiniz."
+"başlatmaya gerek yoktur. Değişiklikler hemen uygulanır, böylece güncellenmiş"
+" kısayollarınızı hemen kullanmaya başlayabilirsiniz."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:269
+#: ../preferences.rst:268
 msgid ""
 "**Restore Default Shortcuts**: If needed, you can reset all keyboard "
 "shortcuts to their default settings by clicking on the :guilabel:`Restore "
@@ -996,7 +992,7 @@ msgstr ""
 "sıfırlayabilirsiniz."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:272
+#: ../preferences.rst:271
 msgid ""
 "**Unique Shortcuts**: Each keyboard shortcut must be unique. If there are "
 "any duplicate shortcuts, they will be highlighted in **red** and will not "
@@ -1007,7 +1003,7 @@ msgstr ""
 "kadar çalışmaz."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:276
+#: ../preferences.rst:275
 msgid ""
 "For more detailed information on how to use and customize keyboard "
 "shortcuts, see :ref:`keyboard_shortcut_ref`."
@@ -1016,12 +1012,12 @@ msgstr ""
 "daha ayrıntılı bilgi için bkz. :ref:`keyboard_shortcut_ref`."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:279
+#: ../preferences.rst:278
 msgid "Location"
 msgstr "Konum"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:283
+#: ../preferences.rst:282
 msgid ""
 "Default file path locations for saving/opening projects, importing files, "
 "and exporting videos can be configured here. This can save you time by "
@@ -1029,52 +1025,53 @@ msgid ""
 "folder (options described below)."
 msgstr ""
 "Projeleri kaydetme/açma, dosya içe aktarma ve video dışa aktarma için "
-"varsayılan dosya yolu konumları burada yapılandırılabilir. Bu, açma/kaydetme "
-"dosya diyaloglarını en uygun başlangıç klasörüne varsayılan olarak "
+"varsayılan dosya yolu konumları burada yapılandırılabilir. Bu, açma/kaydetme"
+" dosya diyaloglarını en uygun başlangıç klasörüne varsayılan olarak "
 "ayarlayarak size zaman kazandırabilir (aşağıda açıklanan seçenekler)."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:293
+#: ../preferences.rst:292
 msgid "File Import"
 msgstr "Dosya İçe Aktarma"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:293
+#: ../preferences.rst:292
 msgid "Default folder to choose when importing a file"
 msgstr "Dosya içe aktarılırken seçilecek varsayılan klasör"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:294
+#: ../preferences.rst:293
 msgid "Save or Open Project"
 msgstr "Projeyi Kaydet veya Aç"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:294
+#: ../preferences.rst:293
 msgid "Default folder to choose when saving or opening a project file"
-msgstr "Proje dosyası kaydedilirken veya açılırken seçilecek varsayılan klasör"
+msgstr ""
+"Proje dosyası kaydedilirken veya açılırken seçilecek varsayılan klasör"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:295
+#: ../preferences.rst:294
 msgid "Video Export"
 msgstr "Video Dışa Aktarma"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:295
+#: ../preferences.rst:294
 msgid "Default folder to choose when exporting a video"
 msgstr "Video dışa aktarılırken seçilecek varsayılan klasör"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:302
+#: ../preferences.rst:301
 msgid "Values"
 msgstr "Değerler"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:304
+#: ../preferences.rst:303
 msgid "**Recent Folder**"
 msgstr "**Son Klasör**"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:304
+#: ../preferences.rst:303
 msgid ""
 "The last folder used for this same operation. Project folders, Import "
 "folders, and Export folders are tracked separately."
@@ -1083,102 +1080,108 @@ msgstr ""
 "klasörleri ve Dışa Aktarma klasörleri ayrı ayrı takip edilir."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:305
+#: ../preferences.rst:304
 msgid "**Project Folder**"
 msgstr "**Proje Klasörü**"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:305
+#: ../preferences.rst:304
 msgid ""
-"The current project folder (or the user's home folder, if the project is not "
-"yet saved)"
+"The current project folder (or the user's home folder, if the project is not"
+" yet saved)"
 msgstr ""
 "Mevcut proje klasörü (veya proje henüz kaydedilmemişse kullanıcının ana "
 "klasörü)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:311
+#: ../preferences.rst:310
 msgid "Advanced"
 msgstr "Gelişmiş"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:315
+#: ../preferences.rst:314
 msgid "The Advanced tab includes ComfyUI integration and debugging options."
 msgstr ""
 "Gelişmiş sekmesi ComfyUI entegrasyonu ve hata ayıklama seçeneklerini içerir."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:324
+#: ../preferences.rst:323
 msgid "Comfy UI URL"
 msgstr "Comfy UI URL'si"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:325
+#: ../preferences.rst:324
 msgid "``http://127.0.0.1:8188``"
 msgstr "``http://127.0.0.1:8188``"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:326
+#: ../preferences.rst:325
 msgid "URL of your local or remote ComfyUI server"
 msgstr "Yerel veya uzak ComfyUI sunucunuzun URL'si"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:327
+#: ../preferences.rst:326
 msgid "Debug Mode (Port)"
 msgstr "Hata Ayıklama Modu (Port)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:328
+#: ../preferences.rst:327
 msgid "5556"
 msgstr "5556"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:329
+#: ../preferences.rst:328
 msgid "Port used by debug logging features"
 msgstr "Hata ayıklama günlükleme özellikleri tarafından kullanılan port"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:330
+#: ../preferences.rst:329
 msgid "Debug Mode (Verbose)"
 msgstr "Hata Ayıklama Modu (Ayrıntılı)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:332
+#: ../preferences.rst:330 ../preferences.rst:336
+#, fuzzy
+msgid "Disabled"
+msgstr "Etkin"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:331
 msgid "Enable verbose debugging output"
 msgstr "Ayrıntılı hata ayıklama çıktısını etkinleştir"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:333
+#: ../preferences.rst:332
 msgid "Send Anonymous Metrics and Errors"
 msgstr "Anonim Ölçümler ve Hatalar Gönder"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:335
+#: ../preferences.rst:334
 msgid "Send anonymous telemetry and error reports"
 msgstr "Anonim telemetri ve hata raporları gönder"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:336
+#: ../preferences.rst:335
 msgid "Show Playback Performance (FPS)"
 msgstr "Oynatma Performansını Göster (FPS)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:338
+#: ../preferences.rst:337
 msgid "Display live FPS in preview playback"
 msgstr "Önizleme oynatımında canlı FPS göster"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:339
+#: ../preferences.rst:338
 msgid "Show Export Dialog when Finished"
 msgstr "İhracat Diyaloğunu İşlem Sonunda Göster"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:341
+#: ../preferences.rst:340
 msgid "Display the Export Video window when export completes"
 msgstr "Dışa aktarma tamamlandığında Video Dışa Aktarma penceresini göster"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:343
+#: ../preferences.rst:342
 msgid ""
 "The ComfyUI **Check** button updates an inline status icon: green checkmark "
 "for success, red icon for failure. If OpenShot cannot reach this server, AI "
@@ -1192,32 +1195,32 @@ msgstr ""
 "bölümüne bakın."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:350
+#: ../preferences.rst:349
 msgid "Reset (Default Values)"
 msgstr "Sıfırla (Varsayılan Değerler)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:352
+#: ../preferences.rst:351
 msgid ""
 "To reset **all** preferences to their default values, please delete the "
 "``openshot.settings`` file and re-launch OpenShot. The settings file can be "
-"located at this path: ``~/.openshot_qt/openshot.settings`` or ``C:"
-"\\Users\\USERNAME\\.openshot_qt\\openshot.settings``. When OpenShot is re-"
-"launched, it will create the missing ``openshot.settings`` file with default "
-"values."
+"located at this path: ``~/.openshot_qt/openshot.settings`` or "
+"``C:\\Users\\USERNAME\\.openshot_qt\\openshot.settings``. When OpenShot is "
+"re-launched, it will create the missing ``openshot.settings`` file with "
+"default values."
 msgstr ""
-"**Tüm** tercihleri varsayılan değerlerine sıfırlamak için lütfen ``openshot."
-"settings`` dosyasını silin ve OpenShot'ı yeniden başlatın. Ayar dosyası şu "
-"yollarda bulunabilir: ``~/.openshot_qt/openshot.settings`` veya ``C:"
-"\\Users\\KULLANICIADI\\.openshot_qt\\openshot.settings``. OpenShot yeniden "
-"başlatıldığında, eksik olan ``openshot.settings`` dosyasını varsayılan "
-"değerlerle oluşturacaktır."
+"**Tüm** tercihleri varsayılan değerlerine sıfırlamak için lütfen "
+"``openshot.settings`` dosyasını silin ve OpenShot'ı yeniden başlatın. Ayar "
+"dosyası şu yollarda bulunabilir: ``~/.openshot_qt/openshot.settings`` veya "
+"``C:\\Users\\KULLANICIADI\\.openshot_qt\\openshot.settings``. OpenShot "
+"yeniden başlatıldığında, eksik olan ``openshot.settings`` dosyasını "
+"varsayılan değerlerle oluşturacaktır."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:357
+#: ../preferences.rst:356
 msgid ""
-"Optionally, you can delete the entire ``.openshot_qt/`` folder and re-launch "
-"OpenShot. However, please make a **backup** of any customized folders: "
+"Optionally, you can delete the entire ``.openshot_qt/`` folder and re-launch"
+" OpenShot. However, please make a **backup** of any customized folders: "
 "**emojis, presets, profiles, recovery, title_templates, transitions, or "
 "yolo**. For example, your ``/recovery/`` sub-folder contains backup copies "
 "of all your existing projects (``*.osp`` files)."
@@ -1229,12 +1232,12 @@ msgstr ""
 "mevcut tüm projelerinizin (``*.osp`` dosyaları) yedek kopyalarını içerir."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:362
+#: ../preferences.rst:361
 msgid ""
 "Deleting the ``.openshot_qt/`` folder is the quickest method to restore "
 "OpenShot preferences and settings to their Default values (i.e. also called "
-"a `clean install`). When OpenShot is re-launched, it will create any missing "
-"folders (i.e. ``.openshot_qt/``) and settings files. See our `step-by-step "
+"a `clean install`). When OpenShot is re-launched, it will create any missing"
+" folders (i.e. ``.openshot_qt/``) and settings files. See our `step-by-step "
 "guide <https://github.com/OpenShot/openshot-qt/wiki/Clean-Installation-of-"
 "OpenShot>`_ for more information about **clean installs** of OpenShot."
 msgstr ""
@@ -1245,3 +1248,25 @@ msgstr ""
 "OpenShot'un **temiz kurulumları** hakkında daha fazla bilgi için `adım adım "
 "kılavuzumuza <https://github.com/OpenShot/openshot-qt/wiki/Clean-"
 "Installation-of-OpenShot>`_ bakınız."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The Timeline tab controls default timeline behavior, clip/transition "
+#~ "insertion defaults, and whether to use the new timeline backend or the "
+#~ "legacy web-based timeline."
+#~ msgstr ""
+#~ "Zaman Çizelgesi sekmesi, varsayılan zaman çizelgesi davranışını, klip/geçiş "
+#~ "ekleme varsayılanlarını ve yeni zaman çizelgesi altyapısının mı yoksa eski "
+#~ "web tabanlı zaman çizelgesinin mi kullanılacağını kontrol eder."
+
+# Translated with gpt-4.1-mini
+#~ msgid "Thumbnail density for the new timeline backend"
+#~ msgstr "Yeni zaman çizelgesi altyapısı için küçük resim yoğunluğu"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Enable Legacy Timeline (web-based)"
+#~ msgstr "Eski Zaman Çizelgesini Etkinleştir (web tabanlı)"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Use the legacy web timeline (WebEngine/WebKit auto-select)"
+#~ msgstr "Eski web zaman çizelgesini kullan (WebEngine/WebKit otomatik seçimi)"

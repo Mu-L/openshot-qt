@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-02 17:20-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,16 +33,16 @@ msgid ""
 "moments on the left, later moments on the right."
 msgstr ""
 "Хронологія — це місце, де збирається ваше відео. Тут ви розташовуєте кліпи, "
-"обрізаєте їх, накладаєте візуальні шари та приймаєте рішення щодо часу. Якщо "
-"ви новачок у монтажі, уявіть хронологію як просту історію зліва направо: "
+"обрізаєте їх, накладаєте візуальні шари та приймаєте рішення щодо часу. Якщо"
+" ви новачок у монтажі, уявіть хронологію як просту історію зліва направо: "
 "ранні моменти зліва, пізні — справа."
 
 # Translated with gpt-4.1-mini
 #: ../timeline.rst:32
 msgid ""
 "If you are just getting started, read :ref:`quick_tutorial_ref` first, then "
-"come back here for more detail. For a labeled breakdown of toolbar controls, "
-"see :ref:`timeline_toolbar_ref`."
+"come back here for more detail. For a labeled breakdown of toolbar controls,"
+" see :ref:`timeline_toolbar_ref`."
 msgstr ""
 "Якщо ви тільки починаєте, спочатку прочитайте :ref:`quick_tutorial_ref`, а "
 "потім поверніться сюди для детальнішої інформації. Для позначеного розбору "
@@ -137,52 +137,79 @@ msgstr ""
 msgid "For a full glossary, see :ref:`glossary_ref`."
 msgstr "Повний глосарій дивіться у :ref:`glossary_ref`."
 
-# Translated with gpt-4.1-mini
 #: ../timeline.rst:58
+msgid "Current Timecode"
+msgstr "Поточний таймкод"
+
+#: ../timeline.rst:60
+msgid ""
+"The current timecode appears at the left side of the timeline ruler and "
+"shows the playhead's exact position. Click the timecode, enter a new value, "
+"and press :kbd:`Enter` to move the playhead to that frame."
+msgstr ""
+"Поточний таймкод відображається зліва на лінійці часової шкали і показує "
+"точне положення індикатора відтворення. Натисніть на таймкод, введіть нове "
+"значення та натисніть :kbd:`Enter`, щоб перемістити індикатор на цей кадр."
+
+#: ../timeline.rst:64
+msgid ""
+"Clear the field or enter ``0`` to jump to the start of the timeline. Press "
+":kbd:`Up` or :kbd:`Down` to step the selected timecode segment; hold "
+":kbd:`Shift` to step by 10. When the frame segment is selected, hold "
+":kbd:`Ctrl` to step by one second. Press :kbd:`Esc` to cancel."
+msgstr ""
+"Очистіть поле або введіть ``0``, щоб перейти на початок часової шкали. "
+"Натисніть :kbd:`Up` або :kbd:`Down`, щоб крокувати вибраним сегментом "
+"таймкоду; утримуйте :kbd:`Shift`, щоб крокувати по 10. Коли вибрано сегмент "
+"кадру, утримуйте :kbd:`Ctrl`, щоб крокувати на одну секунду. Натисніть "
+":kbd:`Esc`, щоб скасувати."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:70
 msgid "Common Timeline Tasks"
 msgstr "Поширені завдання з хронологією"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:60
+#: ../timeline.rst:72
 msgid "Most editing sessions follow a similar flow:"
 msgstr "Більшість сесій монтажу проходять за схожим сценарієм:"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:62
+#: ../timeline.rst:74
 msgid "Add media to the project using :ref:`import_files_ref`."
 msgstr "Додайте медіафайли до проєкту за допомогою :ref:`import_files_ref`."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:63
+#: ../timeline.rst:75
 msgid "Drag files from the project panel onto timeline tracks."
 msgstr "Перетягніть файли з панелі проєкту на доріжки хронології."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:64
+#: ../timeline.rst:76
 msgid "Trim clip edges to remove extra content."
 msgstr "Обріжте краї кліпів, щоб видалити зайвий вміст."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:65
+#: ../timeline.rst:77
 msgid "Move clips into order and stack tracks to build your scene."
 msgstr "Впорядкуйте кліпи та накладайте доріжки, щоб створити вашу сцену."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:66
+#: ../timeline.rst:78
 msgid ""
-"Add transitions and effects where needed (:ref:`transitions_ref`, :ref:"
-"`effects_ref`)."
+"Add transitions and effects where needed (:ref:`transitions_ref`, "
+":ref:`effects_ref`)."
 msgstr ""
-"Додайте переходи та ефекти там, де потрібно (:ref:`transitions_ref`, :ref:"
-"`effects_ref`)."
+"Додайте переходи та ефекти там, де потрібно (:ref:`transitions_ref`, "
+":ref:`effects_ref`)."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:67
+#: ../timeline.rst:79
 msgid "Preview and adjust timing (:ref:`playback_ref`)."
 msgstr "Переглядайте та коригуйте час відтворення (:ref:`playback_ref`)."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:69
+#: ../timeline.rst:81
 msgid ""
 "Clip trimming, slicing, and clip context menu actions are covered in detail "
 "in :ref:`clips_ref`."
@@ -191,27 +218,27 @@ msgstr ""
 "описані в :ref:`clips_ref`."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:72
+#: ../timeline.rst:84
 msgid "Selecting Clips and Transitions"
 msgstr "Вибір кліпів і переходів"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:74
+#: ../timeline.rst:86
 msgid "Selection is one of the most important timeline skills:"
 msgstr "Вибір — одна з найважливіших навичок роботи з хронологією:"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:76
+#: ../timeline.rst:88
 msgid "Click an item to select it."
 msgstr "Клацніть на елемент, щоб вибрати його."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:77
+#: ../timeline.rst:89
 msgid ":kbd:`Ctrl+Click` adds or removes items from selection."
 msgstr ":kbd:`Ctrl+Click` додає або видаляє елементи з вибору."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:78
+#: ../timeline.rst:90
 msgid ""
 ":kbd:`Shift+Click` selects a range between your anchor item and the clicked "
 "item."
@@ -220,12 +247,12 @@ msgstr ""
 "елементом."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:79
+#: ../timeline.rst:91
 msgid ":kbd:`Ctrl+Shift+Click` adds that range to your current selection."
 msgstr ":kbd:`Ctrl+Shift+Click` додає цей діапазон до поточного вибору."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:80
+#: ../timeline.rst:92
 msgid ""
 ":kbd:`Alt+Click` ripple-selects from the clicked item to the end of the "
 "track."
@@ -233,23 +260,23 @@ msgstr ""
 ":kbd:`Alt+Click` вибирає хвилею від клацнутого елемента до кінця доріжки."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:81
+#: ../timeline.rst:93
 msgid "Drag an empty-area selection box to select multiple items."
 msgstr ""
 "Перетягніть рамку вибору по порожній області, щоб вибрати кілька елементів."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:83
+#: ../timeline.rst:95
 msgid "See :ref:`clips_ref` for the full list and examples."
 msgstr "Повний список і приклади дивіться у :ref:`clips_ref`."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:86
+#: ../timeline.rst:98
 msgid "Timeline Toolbar and Zoom"
 msgstr "Панель інструментів хронології та масштабування"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:88
+#: ../timeline.rst:100
 msgid ""
 "The timeline toolbar helps with common navigation and editing actions "
 "(snapping, retime, razor, markers, centering, and zoom)."
@@ -259,62 +286,62 @@ msgstr ""
 "масштабування)."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:91
+#: ../timeline.rst:103
 msgid ""
 "Tip: If timeline editing feels crowded, zoom in with the timeline slider to "
 "make small clip adjustments easier."
 msgstr ""
-"Порада: якщо редагування на хронології здається тісним, збільшіть масштаб за "
-"допомогою повзунка, щоб легше було робити дрібні коригування кліпів."
+"Порада: якщо редагування на хронології здається тісним, збільшіть масштаб за"
+" допомогою повзунка, щоб легше було робити дрібні коригування кліпів."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:94
+#: ../timeline.rst:106
 msgid ""
-"You can also zoom the timeline with :kbd:`Ctrl+Scroll Wheel`. On the QWidget "
-"timeline, hold :kbd:`Ctrl` and drag with the middle mouse button for smooth "
-"zooming."
+"You can also zoom the timeline with :kbd:`Ctrl+Scroll Wheel`. On the QWidget"
+" timeline, hold :kbd:`Ctrl` and drag with the middle mouse button for smooth"
+" zooming."
 msgstr ""
 "Ви також можете масштабувати часову шкалу за допомогою :kbd:`Ctrl+Колесо "
 "прокрутки`. На часовій шкалі QWidget утримуйте :kbd:`Ctrl` і перетягуйте "
 "середньою кнопкою миші для плавного масштабування."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:99
+#: ../timeline.rst:111
 msgid "Tracks, Locking, and Inserting"
 msgstr "Доріжки, блокування та вставка"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:101
+#: ../timeline.rst:113
 msgid "Tracks help organize your edit. A common setup is:"
 msgstr "Доріжки допомагають організувати монтаж. Звичайна структура така:"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:103
+#: ../timeline.rst:115
 msgid "Top tracks: titles, overlays, logos, picture-in-picture"
 msgstr "Верхні доріжки: заголовки, накладки, логотипи, картинка в картинці"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:104
+#: ../timeline.rst:116
 msgid "Middle tracks: main video content"
 msgstr "Середні доріжки: основний відеоконтент"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:105
+#: ../timeline.rst:117
 msgid "Lower tracks: music and sound effects"
 msgstr "Нижні доріжки: музика та звукові ефекти"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:107
+#: ../timeline.rst:119
 msgid ""
-"You can lock tracks to protect them from accidental edits and use insert/"
-"ripple editing when you need later clips to move automatically."
+"You can lock tracks to protect them from accidental edits and use "
+"insert/ripple editing when you need later clips to move automatically."
 msgstr ""
 "Ви можете блокувати доріжки, щоб захистити їх від випадкових змін, і "
 "використовувати вставку/хвильове редагування, коли потрібно, щоб пізніші "
 "кліпи рухалися автоматично."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:110
+#: ../timeline.rst:122
 msgid ""
 "For track layout basics, see :ref:`tracks_ref`. For detailed clip editing "
 "behavior, see :ref:`clips_cutting_slicing_ref`."
@@ -323,12 +350,12 @@ msgstr ""
 "редагування кліпів — у :ref:`clips_cutting_slicing_ref`."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:114
+#: ../timeline.rst:126
 msgid "Keyframes in the Timeline"
 msgstr "Ключові кадри в хронології"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:116
+#: ../timeline.rst:128
 msgid ""
 "Keyframes let you change values over time, such as position, scale, "
 "rotation, opacity, and effect settings."
@@ -337,7 +364,7 @@ msgstr ""
 "масштаб, обертання, прозорість і налаштування ефектів."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:119
+#: ../timeline.rst:131
 msgid ""
 "In the timeline keyframe panel, each row represents one animated property. "
 "You can:"
@@ -346,62 +373,64 @@ msgstr ""
 "властивість. Ви можете:"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:121
+#: ../timeline.rst:133
 msgid "Add a keyframe row for a property"
 msgstr "Додати рядок ключових кадрів для властивості"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:122
+#: ../timeline.rst:134
 msgid "Insert new keyframes along the row"
 msgstr "Вставляти нові ключові кадри вздовж рядка"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:123
+#: ../timeline.rst:135
 msgid "Move keyframes to change timing"
 msgstr "Переміщувати ключові кадри для зміни часу"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:124
+#: ../timeline.rst:136
 msgid "Change interpolation to control motion style"
 msgstr "Змінювати інтерполяцію для керування стилем руху"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:126
-msgid "For keyframe concepts and animation examples, see :ref:`animation_ref`."
+#: ../timeline.rst:138
+msgid ""
+"For keyframe concepts and animation examples, see :ref:`animation_ref`."
 msgstr ""
-"Про концепції ключових кадрів і приклади анімації дивіться у :ref:"
-"`animation_ref`."
+"Про концепції ключових кадрів і приклади анімації дивіться у "
+":ref:`animation_ref`."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:129
+#: ../timeline.rst:141
 msgid "Next Steps"
 msgstr "Наступні кроки"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:131
+#: ../timeline.rst:143
 msgid ""
 "After you are comfortable with timeline basics, these sections are the best "
 "next reads:"
 msgstr ""
-"Після того, як ви освоїте основи хронології, найкращими наступними розділами "
-"для читання будуть:"
+"Після того, як ви освоїте основи хронології, найкращими наступними розділами"
+" для читання будуть:"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:133
+#: ../timeline.rst:145
 msgid ":ref:`clips_ref` for trimming, slicing, and clip properties"
 msgstr ":ref:`clips_ref` для обрізання, розрізання та властивостей кліпів"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:134
+#: ../timeline.rst:146
 msgid ":ref:`effects_ref` for video/audio effects"
 msgstr ":ref:`effects_ref` для відео- та аудіоефектів"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:135
+#: ../timeline.rst:147
 msgid ":ref:`animation_ref` for keyframe animation workflows"
-msgstr ":ref:`animation_ref` для робочих процесів анімації з ключовими кадрами"
+msgstr ""
+":ref:`animation_ref` для робочих процесів анімації з ключовими кадрами"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:136
+#: ../timeline.rst:148
 msgid ":doc:`export` for creating your final video file"
 msgstr ":doc:`export` для створення вашого фінального відеофайлу"

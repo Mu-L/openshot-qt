@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-22 12:37-0600\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,7 +87,7 @@ msgid ""
 msgstr "常用预设（按类别分组的预设和视频配置文件组合，例如：**网络** ）"
 
 # Translated with gpt-4.1-mini
-#: ../export.rst:48
+#: ../export.rst:48 ../export.rst:168
 msgid "Target"
 msgstr "目标"
 
@@ -99,7 +99,7 @@ msgid ""
 msgstr "与当前配置文件相关的目标预设（常见格式、编码器和质量设置的集合，详见 :ref:`preset_list_ref` ）"
 
 # Translated with gpt-4.1-mini
-#: ../export.rst:49
+#: ../export.rst:49 ../export.rst:169
 msgid "Video Profile"
 msgstr "视频配置文件"
 
@@ -450,3 +450,247 @@ msgid ""
 "The bitrate to use for audio encoding. Accepts the following formats: ``96 "
 "kb/s``, ``128 kb/s``, ``192 kb/s``, etc..."
 msgstr "音频编码使用的比特率。支持以下格式：``96 kb/s`` 、``128 kb/s`` 、``192 kb/s`` 等。"
+
+#: ../export.rst:158
+msgid "Social Media Quick Reference"
+msgstr "社交媒体快速参考"
+
+#: ../export.rst:160
+msgid ""
+"The table below shows the recommended :guilabel:`Target` and "
+":guilabel:`Video Profile` settings for common social media platforms. Select"
+" these in the **Simple** tab of the Export dialog."
+msgstr ""
+"下表显示了常见社交媒体平台推荐的 :guilabel:`目标` 和 :guilabel:`视频配置` 设置。请在导出对话框的 **简单** "
+"选项卡中选择这些设置。"
+
+#: ../export.rst:167
+msgid "Platform"
+msgstr "平台"
+
+#: ../export.rst:170
+msgid "Notes"
+msgstr "备注"
+
+#: ../export.rst:171
+msgid "YouTube (landscape)"
+msgstr "YouTube（横屏）"
+
+#: ../export.rst:172
+msgid "``YouTube``"
+msgstr "``YouTube``"
+
+#: ../export.rst:173 ../export.rst:189 ../export.rst:197 ../export.rst:201
+#: ../export.rst:205 ../export.rst:209
+msgid "``FHD 1080p 30 fps``"
+msgstr "``FHD 1080p 30 fps``"
+
+#: ../export.rst:174
+msgid "Use ``YouTube (4K)`` for 4K"
+msgstr "4K 视频请使用 ``YouTube (4K)``"
+
+#: ../export.rst:175
+msgid "YouTube Shorts (vertical)"
+msgstr "YouTube Shorts（竖屏）"
+
+#: ../export.rst:176
+msgid "``YouTube Shorts``"
+msgstr "``YouTube Shorts``"
+
+#: ../export.rst:177 ../export.rst:181 ../export.rst:185 ../export.rst:193
+msgid "``FHD Vertical 1080p 30 fps``"
+msgstr "``FHD 竖屏 1080p 30 fps``"
+
+#: ../export.rst:178 ../export.rst:182 ../export.rst:186 ../export.rst:194
+msgid "Up to 60 fps"
+msgstr "最高 60 fps"
+
+#: ../export.rst:179
+msgid "TikTok (vertical)"
+msgstr "TikTok（竖屏）"
+
+#: ../export.rst:180
+msgid "``TikTok``"
+msgstr "``TikTok``"
+
+#: ../export.rst:183
+msgid "Instagram Reels (vertical)"
+msgstr "Instagram Reels（竖屏）"
+
+#: ../export.rst:184
+msgid "``Instagram Reels``"
+msgstr "``Instagram Reels``"
+
+#: ../export.rst:187
+msgid "Instagram (landscape/square)"
+msgstr "Instagram（横屏/方形）"
+
+#: ../export.rst:188
+msgid "``Instagram``"
+msgstr "``Instagram``"
+
+#: ../export.rst:190
+msgid "Square (1:1) also available"
+msgstr "也支持方形（1:1）"
+
+#: ../export.rst:191
+msgid "Snapchat (vertical)"
+msgstr "Snapchat（竖屏）"
+
+#: ../export.rst:192
+msgid "``Snapchat``"
+msgstr "``Snapchat``"
+
+#: ../export.rst:195
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../export.rst:196
+msgid "``Facebook``"
+msgstr "``Facebook``"
+
+#: ../export.rst:198
+msgid "Square and vertical also available"
+msgstr "也支持方形和竖屏"
+
+#: ../export.rst:199
+msgid "LinkedIn (landscape)"
+msgstr "LinkedIn（横屏）"
+
+#: ../export.rst:200
+msgid "``LinkedIn``"
+msgstr "``LinkedIn``"
+
+#: ../export.rst:202
+msgid "Square and 4:5 portrait also available"
+msgstr "也支持方形和 4:5 竖屏"
+
+#: ../export.rst:203
+msgid "Twitter / X"
+msgstr "Twitter / X"
+
+#: ../export.rst:204
+msgid "``Twitter / X``"
+msgstr "``Twitter / X``"
+
+#: ../export.rst:206
+msgid "Vertical also available"
+msgstr "也支持竖屏"
+
+#: ../export.rst:207
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: ../export.rst:208
+msgid "``Vimeo``"
+msgstr "``Vimeo``"
+
+#: ../export.rst:210
+msgid "Use High quality setting"
+msgstr "使用高质量设置"
+
+#: ../export.rst:215
+msgid "Hardware-Accelerated Export"
+msgstr "硬件加速导出"
+
+#: ../export.rst:217
+msgid ""
+"OpenShot supports GPU-accelerated video encoding on supported hardware, "
+"dramatically reducing export times. Hardware-accelerated targets are shown "
+"with a badge in the :guilabel:`Target` dropdown. Select the appropriate "
+"target for your hardware:"
+msgstr ""
+"OpenShot 支持在兼容硬件上使用 GPU 加速视频编码，大幅缩短导出时间。硬件加速目标会在 :guilabel:`目标` "
+"下拉菜单中显示徽章。请选择适合您硬件的目标："
+
+#: ../export.rst:225
+msgid "Target (Export Dialog)"
+msgstr "目标（导出对话框）"
+
+#: ../export.rst:225
+msgid "Badge"
+msgstr "徽章"
+
+#: ../export.rst:225
+msgid "Requires"
+msgstr "要求"
+
+#: ../export.rst:227
+msgid "``MP4 (h.264 nv)``"
+msgstr "``MP4 (h.264 nv)``"
+
+#: ../export.rst:227
+msgid "NVENC"
+msgstr "NVENC"
+
+#: ../export.rst:227
+msgid "NVIDIA GPU (Kepler or newer)"
+msgstr "NVIDIA GPU（Kepler 或更新）"
+
+#: ../export.rst:228
+msgid "``MP4 (h.264 va)``"
+msgstr "``MP4 (h.264 va)``"
+
+#: ../export.rst:228 ../export.rst:232
+msgid "VA-API"
+msgstr "VA-API"
+
+#: ../export.rst:228
+msgid "Linux with AMD or Intel GPU (VAAPI driver)"
+msgstr "搭载 AMD 或 Intel GPU 的 Linux（VAAPI 驱动）"
+
+#: ../export.rst:229
+msgid "``MP4 (h.264 qsv)``"
+msgstr "``MP4 (h.264 qsv)``"
+
+#: ../export.rst:229
+msgid "QSV"
+msgstr "QSV"
+
+#: ../export.rst:229
+msgid "Intel GPU with Quick Sync Video"
+msgstr "搭载 Quick Sync Video 的 Intel GPU"
+
+#: ../export.rst:230
+msgid "``MP4 (h.264 videotoolbox)``"
+msgstr "``MP4 (h.264 videotoolbox)``"
+
+#: ../export.rst:230
+msgid "VideoToolbox"
+msgstr "VideoToolbox"
+
+#: ../export.rst:230
+msgid "macOS with Apple or Intel GPU"
+msgstr "搭载 Apple 或 Intel GPU 的 macOS"
+
+#: ../export.rst:231
+msgid "``MP4 (h.264 dx)``"
+msgstr "``MP4 (h.264 dx)``"
+
+#: ../export.rst:231
+msgid "DirectX"
+msgstr "DirectX"
+
+#: ../export.rst:231
+msgid "Windows with DirectX-compatible GPU"
+msgstr "搭载兼容 DirectX GPU 的 Windows"
+
+#: ../export.rst:232
+msgid "``MP4 (HEVC va)``"
+msgstr "``MP4 (HEVC va)``"
+
+#: ../export.rst:232
+msgid "Linux VA-API — produces smaller HEVC files"
+msgstr "Linux VA-API — 生成更小的 HEVC 文件"
+
+#: ../export.rst:235
+msgid ""
+"MKV variants (``MKV (h.264 nv)``, ``MKV (h.264 va)``, etc.) are also "
+"available for each accelerator. If none of these targets appear or export "
+"fails, your system either lacks the required driver or the hardware encoder "
+"is not supported — fall back to the standard ``MP4 (h.264 + AAC)`` target, "
+"which uses the CPU-based ``libx264`` encoder and works on all systems."
+msgstr ""
+"每种加速器也提供 MKV 变体（如 ``MKV (h.264 nv)``, ``MKV (h.264 va)`` "
+"等）。如果这些目标都未显示或导出失败，说明您的系统缺少所需驱动或硬件编码器不受支持——请改用标准的 ``MP4 (h.264 + AAC)`` "
+"目标，该目标使用基于 CPU 的 ``libx264`` 编码器，适用于所有系统。"

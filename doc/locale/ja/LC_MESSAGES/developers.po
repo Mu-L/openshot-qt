@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-22 12:37-0600\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -128,8 +128,47 @@ msgstr ""
 " PPA <https://www.openshot.org/ppa/>`_ "
 "を利用することです。PPAは非公式のUbuntuリポジトリで、当社のソフトウェアパッケージをダウンロードおよびインストールできます。"
 
+#: ../developers.rst:112
+msgid ""
+"OpenShot supports PyQt5, PyQt6, and PySide6. libopenshot must be built "
+"against the correct Qt version for the binding you are using (Qt5: PyQt5, "
+"Qt6: PyQt6 or PySide6)."
+msgstr ""
+"OpenShot は PyQt5、PyQt6、および PySide6 をサポートしています。libopenshot "
+"は、使用しているバインディングに対応した正しい Qt バージョン（Qt5: PyQt5、Qt6: PyQt6 または "
+"PySide6）でビルドする必要があります。"
+
+#: ../developers.rst:116
+msgid "For PySide6 (Qt6) bindings, install these packages:"
+msgstr "PySide6 (Qt6) バインディングの場合、これらのパッケージをインストールしてください:"
+
+#: ../developers.rst:129
+msgid "For PyQt6, install these packages:"
+msgstr "PyQt6 の場合、これらのパッケージをインストールしてください:"
+
+#: ../developers.rst:139
+msgid ""
+"The PyQt6 runtime must provide ``QtCore``, ``QtGui``, ``QtWidgets``, "
+"``QtSvg``, ``QtStateMachine``, and ``uic``. Some distributions split these "
+"modules into separate packages. In particular, Ubuntu 24.04's "
+"``python3-pyqt6`` package does not include ``QtStateMachine``. On that "
+"release, use the PySide6 packages above or install the complete PyQt6 wheel "
+"in a Python virtual environment:"
+msgstr ""
+"PyQt6 ランタイムは ``QtCore``, ``QtGui``, ``QtWidgets``, ``QtSvg``, "
+"``QtStateMachine``, および ``uic`` "
+"を提供する必要があります。いくつかのディストリビューションでは、これらのモジュールが別々のパッケージに分割されています。特に、Ubuntu 24.04 "
+"の ``python3-pyqt6`` パッケージには ``QtStateMachine`` が含まれていません。そのリリースでは、上記の "
+"PySide6 パッケージを使用するか、Python 仮想環境に完全な PyQt6 ホイールをインストールしてください:"
+
+#: ../developers.rst:151
+msgid ""
+"Verify the selected Qt binding and its required modules before launching "
+"OpenShot:"
+msgstr "OpenShot を起動する前に、選択した Qt バインディングとその必要なモジュールを確認してください:"
+
 # Translated with gpt-4.1-mini
-#: ../developers.rst:109
+#: ../developers.rst:159
 msgid ""
 "At this point, you should have all 3 OpenShot components source code cloned "
 "into local folders, the OpenShot daily PPA installed, and all of the "
@@ -140,12 +179,12 @@ msgstr ""
 "PPAがインストールされ、必要な開発および実行時依存関係がすべてインストールされているはずです。これは素晴らしいスタートであり、コードのコンパイルを始める準備が整いました！"
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:114
+#: ../developers.rst:164
 msgid "libopenshot-audio (Build Instructions)"
 msgstr "libopenshot-audio（ビルド手順）"
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:115
+#: ../developers.rst:165
 msgid ""
 "This library is required for audio playback and audio effects. It is based "
 "on the JUCE audio framework. Here are the commands to build it:"
@@ -153,7 +192,7 @@ msgstr ""
 "このライブラリはオーディオ再生とオーディオエフェクトに必要です。JUCEオーディオフレームワークに基づいています。ビルドするためのコマンドは以下の通りです："
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:128
+#: ../developers.rst:178
 msgid ""
 "Essentially, we are switching to the ``libopenshot-audio/build`` folder, "
 "then running ``cmake ..`` on the parent folder. This finds dependencies and "
@@ -171,12 +210,12 @@ msgstr ""
 "の実行には管理者権限が必要です。"
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:136
+#: ../developers.rst:186
 msgid "libopenshot (Build Instructions)"
 msgstr "libopenshot（ビルド手順）"
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:137
+#: ../developers.rst:187
 msgid ""
 "This library is required for video decoding, encoding, animation, and just "
 "about everything else. It does all the heavy lifting of video editing and "
@@ -185,7 +224,7 @@ msgstr ""
 "このライブラリはビデオのデコード、エンコード、アニメーション、その他ほぼすべてに必要です。ビデオ編集と再生の重い処理をすべて行います。ビルドするためのコマンドは以下の通りです："
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:149
+#: ../developers.rst:199
 msgid ""
 "Essentially, we are switching to the ``libopenshot/build`` folder, then "
 "running ``cmake ..`` on the parent folder. This finds dependencies and "
@@ -200,7 +239,7 @@ msgstr ""
 "の場所を指定しているため、システムのバージョン（存在する場合）ではなくそのバージョンが使用されます。"
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:156
+#: ../developers.rst:206
 msgid ""
 "We don't install our ``libopenshot`` after building, because we don't need "
 "to. For testing purposes, we can tell OpenShot to use ``libopenshot`` right "
@@ -210,12 +249,12 @@ msgstr ""
 "ディレクトリから直接``libopenshot`` を使うよう指示できます。"
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:160
+#: ../developers.rst:210
 msgid "Language Bindings"
 msgstr "言語バインディング"
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:161
+#: ../developers.rst:211
 msgid ""
 "The ``libopenshot`` API is available in several languages through SWIG "
 "bindings.  Python is used by the OpenShot user interface, and we also "
@@ -230,12 +269,12 @@ msgstr ""
 "の実験的サポートも含まれています。これらすべてのバインディングは同じC++コードベースにマッピングされているため、お好みの環境からビデオ編集が可能です。"
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:167
+#: ../developers.rst:217
 msgid "openshot-qt (Launch Instructions)"
 msgstr "openshot-qt（起動手順）"
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:168
+#: ../developers.rst:218
 msgid ""
 "This is our main PyQt Python application. Because it is written in Python, "
 "it does not require any compiling to run. To launch OpenShot from the source"
@@ -247,7 +286,7 @@ msgstr ""
 " と``libopenshot`` ライブラリを使ってソースコードからOpenShotを起動するには、以下のコマンドを使用してください："
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:179
+#: ../developers.rst:229
 msgid ""
 "This should launch the OpenShot user interface. Any changes you have made to"
 " the source code files (``*.py`` Python files, ``*.ui`` PyQt UI files, "
@@ -260,7 +299,7 @@ msgstr ""
 "ライブラリが必要であり、上記の手順で何か問題があった場合、OpenShotは起動しない可能性があります。"
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:185
+#: ../developers.rst:235
 msgid ""
 "If OpenShot launches at this point, congratulations! You now have a working "
 "local version of OpenShot, which is running off your local source code. Try "
@@ -270,12 +309,12 @@ msgstr ""
 "この時点でOpenShotが起動したら、おめでとうございます！これでローカルのソースコードから動作するOpenShotのローカル版が完成しました。ソースコードにいくつか変更を加えてOpenShotを再起動してみてください…変更が反映されているはずです！"
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:191
+#: ../developers.rst:241
 msgid "GitHub Issues"
 msgstr "GitHubの課題"
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:192
+#: ../developers.rst:242
 msgid ""
 "Now that you have successfully compiled and launched OpenShot Video Editor "
 "from source code, be sure to check out our list of bug reports on GitHub: "
@@ -288,12 +327,12 @@ msgstr ""
 "<https://forms.gle/CRqkS5tLMJE1V36V8>`_ にご記入いただき、ご自身を紹介していただくことも推奨します！"
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:198
+#: ../developers.rst:248
 msgid "Share your Changes"
 msgstr "変更を共有する"
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:199
+#: ../developers.rst:249
 msgid ""
 "Once you have fixed a bug or added an amazing new feature, be sure to share "
 "it with the OpenShot team. Ideally, we can merge this into our main source "

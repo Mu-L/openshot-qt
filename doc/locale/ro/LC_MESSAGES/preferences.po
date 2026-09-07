@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-05 17:20-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,21 +28,21 @@ msgstr "Preferințe"
 #: ../preferences.rst:25
 msgid ""
 "The Preferences window contains many important settings and configuration "
-"options for OpenShot. They can be found in the top menu under :guilabel:"
-"`Edit→Preferences`. Many settings will require OpenShot to be restarted "
-"after your changes are applied."
+"options for OpenShot. They can be found in the top menu under "
+":guilabel:`Edit→Preferences`. Many settings will require OpenShot to be "
+"restarted after your changes are applied."
 msgstr ""
 "Fereastra Preferințe conține multe setări și opțiuni importante de "
-"configurare pentru OpenShot. Le puteți găsi în meniul de sus, sub :guilabel:"
-"`Editare→Preferințe`. Multe setări necesită repornirea OpenShot după "
-"aplicarea modificărilor."
+"configurare pentru OpenShot. Le puteți găsi în meniul de sus, sub "
+":guilabel:`Editare→Preferințe`. Multe setări necesită repornirea OpenShot "
+"după aplicarea modificărilor."
 
 # Translated with gpt-4.1-mini
 #: ../preferences.rst:29
 msgid ""
 "NOTE: Some features such as `Animated Titles` and `external SVG editing` "
-"require setting the paths for **Blender** and **Inkscape** under the General "
-"tab. And if you notice audio playback issues, such as audio drift, you may "
+"require setting the paths for **Blender** and **Inkscape** under the General"
+" tab. And if you notice audio playback issues, such as audio drift, you may "
 "need to adjust the audio settings under the Preview tab."
 msgstr ""
 "NOTĂ: Unele funcții, cum ar fi `Titluri animate` și `editarea externă SVG`, "
@@ -61,27 +61,27 @@ msgid ""
 "The General tab of the Preferences window allows you to modify the settings "
 "that apply to OpenShot as a whole."
 msgstr ""
-"Fila General din fereastra Preferințe vă permite să modificați setările care "
-"se aplică întregului OpenShot."
+"Fila General din fereastra Preferințe vă permite să modificați setările care"
+" se aplică întregului OpenShot."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:46 ../preferences.rst:110 ../preferences.rst:133
-#: ../preferences.rst:158 ../preferences.rst:205 ../preferences.rst:235
-#: ../preferences.rst:291 ../preferences.rst:321
+#: ../preferences.rst:46 ../preferences.rst:109 ../preferences.rst:132
+#: ../preferences.rst:157 ../preferences.rst:204 ../preferences.rst:234
+#: ../preferences.rst:290 ../preferences.rst:320
 msgid "Setting"
 msgstr "Setare"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:47 ../preferences.rst:50 ../preferences.rst:110
-#: ../preferences.rst:133 ../preferences.rst:135 ../preferences.rst:158
-#: ../preferences.rst:322
+#: ../preferences.rst:47 ../preferences.rst:50 ../preferences.rst:109
+#: ../preferences.rst:132 ../preferences.rst:134 ../preferences.rst:157
+#: ../preferences.rst:321
 msgid "Default"
 msgstr "Implicit"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:48 ../preferences.rst:110 ../preferences.rst:133
-#: ../preferences.rst:205 ../preferences.rst:236 ../preferences.rst:291
-#: ../preferences.rst:302 ../preferences.rst:323
+#: ../preferences.rst:48 ../preferences.rst:109 ../preferences.rst:132
+#: ../preferences.rst:204 ../preferences.rst:235 ../preferences.rst:290
+#: ../preferences.rst:301 ../preferences.rst:322
 msgid "Description"
 msgstr "Descriere"
 
@@ -186,8 +186,8 @@ msgstr "Teme"
 # Translated with gpt-4.1-mini
 #: ../preferences.rst:70
 msgid ""
-"OpenShot comes with 3 standard themes, which change the look and feel of the "
-"program."
+"OpenShot comes with 3 standard themes, which change the look and feel of the"
+" program."
 msgstr ""
 "OpenShot vine cu 3 teme standard, care schimbă aspectul și senzația "
 "programului."
@@ -199,37 +199,37 @@ msgid ""
 "**Cosmic Dusk:** [Default Theme] A bluish theme with a more modern UI "
 "design, enhancing the visual aesthetics of the editor. This theme features "
 "shades of blue and purple, giving the interface a contemporary and dynamic "
-"feel. It combines modern aesthetics with functionality, offering a fresh and "
-"visually appealing workspace for video editing."
+"feel. It combines modern aesthetics with functionality, offering a fresh and"
+" visually appealing workspace for video editing."
 msgstr ""
-"**Cosmic Dusk:** O temă cu nuanțe albăstrui și un design UI mai modern, care "
-"îmbunătățește estetica vizuală a editorului. Această temă include tonuri de "
-"albastru și violet, oferind interfeței un aspect contemporan și dinamic. "
+"**Cosmic Dusk:** O temă cu nuanțe albăstrui și un design UI mai modern, care"
+" îmbunătățește estetica vizuală a editorului. Această temă include tonuri de"
+" albastru și violet, oferind interfeței un aspect contemporan și dinamic. "
 "Combină estetica modernă cu funcționalitatea, oferind un spațiu de lucru "
 "proaspăt și atractiv pentru editarea video."
 
 # Translated with gpt-4.1-mini
 #: ../preferences.rst:73
 msgid ""
-"**Humanity Dark:** A dark theme with dark gray tones, providing a modern and "
-"sleek look. This theme is designed for users who prefer working in low-light "
-"conditions or who enjoy a more subdued and professional appearance. The dark "
-"gray background reduces glare and eye strain, making it suitable for "
-"extended editing sessions."
+"**Humanity Dark:** A dark theme with dark gray tones, providing a modern and"
+" sleek look. This theme is designed for users who prefer working in low-"
+"light conditions or who enjoy a more subdued and professional appearance. "
+"The dark gray background reduces glare and eye strain, making it suitable "
+"for extended editing sessions."
 msgstr ""
 "**Humanity Dark:** O temă întunecată cu tonuri de gri închis, oferind un "
 "aspect modern și elegant. Această temă este concepută pentru utilizatorii "
 "care preferă să lucreze în condiții de lumină scăzută sau care apreciază un "
-"aspect mai discret și profesional. Fundalul gri închis reduce strălucirea și "
-"oboseala ochilor, fiind potrivit pentru sesiuni prelungite de editare."
+"aspect mai discret și profesional. Fundalul gri închis reduce strălucirea și"
+" oboseala ochilor, fiind potrivit pentru sesiuni prelungite de editare."
 
 # Translated with gpt-4.1-mini
 #: ../preferences.rst:74
 msgid ""
 "**Retro:** A light theme that offers a classic and clean appearance. This "
 "theme uses light gray and white tones, making it ideal for users who prefer "
-"a bright and high-contrast interface. It provides a traditional look that is "
-"easy on the eyes, especially in well-lit environments."
+"a bright and high-contrast interface. It provides a traditional look that is"
+" easy on the eyes, especially in well-lit environments."
 msgstr ""
 "**Retro:** O temă deschisă care oferă un aspect clasic și curat. Această "
 "temă folosește tonuri de gri deschis și alb, fiind ideală pentru "
@@ -246,15 +246,15 @@ msgstr "Restabilirea setărilor implicite"
 #: ../preferences.rst:80
 msgid ""
 "In OpenShot, each preferences category (or tab) in the Preferences window "
-"has a **Restore Defaults** button that allows you to easily reset the values "
-"for that specific category. This feature is particularly useful if you want "
-"to reset only certain parts of your preferences, like keyboard shortcuts, "
+"has a **Restore Defaults** button that allows you to easily reset the values"
+" for that specific category. This feature is particularly useful if you want"
+" to reset only certain parts of your preferences, like keyboard shortcuts, "
 "without affecting the rest of your custom settings."
 msgstr ""
 "În OpenShot, fiecare categorie de preferințe (sau filă) din fereastra "
 "Preferințe are un buton **Restabilește implicit** care vă permite să "
-"resetați ușor valorile pentru acea categorie specifică. Această funcție este "
-"deosebit de utilă dacă doriți să resetați doar anumite părți ale "
+"resetați ușor valorile pentru acea categorie specifică. Această funcție este"
+" deosebit de utilă dacă doriți să resetați doar anumite părți ale "
 "preferințelor, cum ar fi scurtăturile de tastatură, fără a afecta restul "
 "setărilor personalizate."
 
@@ -264,14 +264,14 @@ msgid ""
 "**Where to Find the Restore Defaults Button:** Each category or tab in the "
 "Preferences window has a **Restore Defaults** button located in the bottom "
 "left corner of the screen. The name of the button updates based on the "
-"category you’re viewing. For example, if you're in the \"Keyboard\" tab, the "
-"button will say **Restore Defaults: Keyboard**."
+"category you’re viewing. For example, if you're in the \"Keyboard\" tab, the"
+" button will say **Restore Defaults: Keyboard**."
 msgstr ""
 "**Unde găsiți butonul Restabilește implicit:** Fiecare categorie sau filă "
 "din fereastra Preferințe are un buton **Restabilește implicit** situat în "
 "colțul din stânga jos al ecranului. Numele butonului se actualizează în "
-"funcție de categoria pe care o vizualizați. De exemplu, dacă sunteți în fila "
-"„Tastatură”, butonul va afișa **Restabilește implicit: Tastatură**."
+"funcție de categoria pe care o vizualizați. De exemplu, dacă sunteți în fila"
+" „Tastatură”, butonul va afișa **Restabilește implicit: Tastatură**."
 
 # Translated with gpt-4.1-mini
 #: ../preferences.rst:89
@@ -303,57 +303,67 @@ msgstr ""
 msgid "Timeline"
 msgstr "Cronologie"
 
-# Translated with gpt-4.1-mini
 #: ../preferences.rst:103
 msgid ""
-"The Timeline tab controls default timeline behavior, clip/transition "
-"insertion defaults, and whether to use the new timeline backend or the "
-"legacy web-based timeline."
+"The Timeline tab controls default timeline behavior and clip/transition "
+"insertion defaults."
 msgstr ""
-"Fila Cronologie controlează comportamentul implicit al cronologiei, valorile "
-"implicite pentru inserarea clipurilor/tranzițiilor și dacă se utilizează "
-"noul backend al cronologiei sau cronologia web veche."
+"Fila Cronologică controlează comportamentul implicit al acesteia și valorile"
+" implicite pentru inserarea clipurilor/tranzițiilor."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:112
+#: ../preferences.rst:111
 msgid "Thumbnail Style"
 msgstr "Stil miniatură"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:112
+#: ../preferences.rst:111
 msgid "Entire Clip"
 msgstr "Întregul clip"
 
-# Translated with gpt-4.1-mini
-#: ../preferences.rst:112
-msgid "Thumbnail density for the new timeline backend"
-msgstr "Densitatea miniaturilor pentru noul backend al cronologiei"
+#: ../preferences.rst:111
+msgid "Thumbnail density for the timeline"
+msgstr "Densitatea miniaturilor pentru fila cronologică"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:113
+#: ../preferences.rst:112
 msgid "Image Length (seconds)"
 msgstr "Durata imaginii (secunde)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:113 ../preferences.rst:114
+#: ../preferences.rst:112 ../preferences.rst:113
 msgid "10.00"
 msgstr "10.00"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:113
+#: ../preferences.rst:112
 msgid "Default duration for still images added to the timeline"
 msgstr "Durata implicită pentru imaginile statice adăugate în cronologie"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:114
+#: ../preferences.rst:113
 #, fuzzy
 msgid "Transition Length (seconds)"
 msgstr "Durata imaginii (secunde)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:114
+#: ../preferences.rst:113
 msgid "Default duration for newly added transitions"
 msgstr "Durata implicită pentru tranzițiile nou adăugate"
+
+#: ../preferences.rst:114
+msgid "Waveform Samples (per second)"
+msgstr "Eșantioane de formă de undă (pe secundă)"
+
+#: ../preferences.rst:114
+msgid "200"
+msgstr "200"
+
+#: ../preferences.rst:114
+msgid "Detail stored for new peak/RMS timeline waveforms (20–400)"
+msgstr ""
+"Detaliu stocat pentru noile forme de undă peak/RMS din fila cronologică "
+"(20–400)"
 
 # Translated with gpt-4.1-mini
 #: ../preferences.rst:115
@@ -361,8 +371,8 @@ msgid "Auto-Transition (overlap clips)"
 msgstr "Tranziție automată (suprapunere clipuri)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:115 ../preferences.rst:160 ../preferences.rst:334
-#: ../preferences.rst:340
+#: ../preferences.rst:115 ../preferences.rst:159 ../preferences.rst:333
+#: ../preferences.rst:339
 msgid "Enabled"
 msgstr "Activat"
 
@@ -372,28 +382,12 @@ msgid "Automatically create transitions when clips overlap"
 msgstr "Creează automat tranziții când clipurile se suprapun"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:116
-msgid "Enable Legacy Timeline (web-based)"
-msgstr "Activează cronologia veche (bazată pe web)"
-
-# Translated with gpt-4.1-mini
-#: ../preferences.rst:116 ../preferences.rst:331 ../preferences.rst:337
-#, fuzzy
-msgid "Disabled"
-msgstr "Activat"
-
-# Translated with gpt-4.1-mini
-#: ../preferences.rst:116
-msgid "Use the legacy web timeline (WebEngine/WebKit auto-select)"
-msgstr "Folosește cronologia web veche (selectare automată WebEngine/WebKit)"
-
-# Translated with gpt-4.1-mini
-#: ../preferences.rst:122
+#: ../preferences.rst:121
 msgid "Preview"
 msgstr "Previzualizare"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:126
+#: ../preferences.rst:125
 msgid ""
 "The Preview tab of the Preferences window controls real-time preview audio "
 "behavior, including device selection, sample rate, channels, buffering, "
@@ -405,122 +399,124 @@ msgstr ""
 "comportamentul previzualizării optimizate."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:135
+#: ../preferences.rst:134
 msgid "Playback Audio Device"
 msgstr "Dispozitiv audio pentru redare"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:135
+#: ../preferences.rst:134
 msgid "Audio output device used during preview playback"
-msgstr "Dispozitivul de ieșire audio folosit în timpul redării previzualizării"
+msgstr ""
+"Dispozitivul de ieșire audio folosit în timpul redării previzualizării"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:136
+#: ../preferences.rst:135
 msgid "Default Audio Sample Rate"
 msgstr "Rata de eșantionare audio implicită"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:136
+#: ../preferences.rst:135
 #, fuzzy
 msgid "48000"
 msgstr "44100"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:136
+#: ../preferences.rst:135
 #, fuzzy
 msgid "Default preview sample rate"
 msgstr "Rata de eșantionare audio implicită"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:137
+#: ../preferences.rst:136
 msgid "Default Audio Channels"
 msgstr "Canale audio implicite"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:137
+#: ../preferences.rst:136
 msgid "Stereo (2 Channel)"
 msgstr "Stereo (2 canale)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:137
+#: ../preferences.rst:136
 msgid "Default preview channel layout"
 msgstr "Configurația implicită a canalelor pentru previzualizare"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:138
+#: ../preferences.rst:137
 msgid "Playback Audio Buffer Size"
 msgstr "Dimensiunea buffer-ului audio pentru redare"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:138
+#: ../preferences.rst:137
 msgid "512"
 msgstr "512"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:138
+#: ../preferences.rst:137
 msgid "Audio samples buffered before playback begins (128 to 4096)"
 msgstr ""
-"Eșantioane audio stocate în buffer înainte de începerea redării (128 până la "
-"4096)"
+"Eșantioane audio stocate în buffer înainte de începerea redării (128 până la"
+" 4096)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:139
+#: ../preferences.rst:138
 msgid "Volume"
 msgstr "Volum"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:139
+#: ../preferences.rst:138
 msgid "75"
 msgstr "75"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:139
+#: ../preferences.rst:138
 msgid "Preview playback volume percentage"
 msgstr "Procentajul volumului de redare a previzualizării"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:140
+#: ../preferences.rst:139
 msgid "Concurrent Optimize Jobs"
 msgstr "Joburi de optimizare concurente"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:140
+#: ../preferences.rst:139
 msgid "2"
 msgstr "2"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:140
+#: ../preferences.rst:139
 msgid "Number of video files OpenShot can optimize at the same time"
 msgstr "Numărul de fișiere video pe care OpenShot le poate optimiza simultan"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:141
+#: ../preferences.rst:140
 msgid "Optimized Preview Resolution"
 msgstr "Rezoluție previzualizare optimizată"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:141
+#: ../preferences.rst:140
 msgid "1280x720"
 msgstr "1280x720"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:141
+#: ../preferences.rst:140
 msgid "Maximum resolution used when creating optimized preview files"
 msgstr ""
-"Rezoluția maximă utilizată la crearea fișierelor de previzualizare optimizate"
+"Rezoluția maximă utilizată la crearea fișierelor de previzualizare "
+"optimizate"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:142
+#: ../preferences.rst:141
 msgid "Thumbnail Preload Rate / second"
 msgstr "Rată de preîncărcare a miniaturilor / secundă"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:142
+#: ../preferences.rst:141
 msgid "4"
 msgstr "4"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:142
+#: ../preferences.rst:141
 msgid ""
 "How many thumbnail preview frames per second are pre-generated while "
 "optimizing video"
@@ -529,12 +525,12 @@ msgstr ""
 "timpul optimizării video"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:146
+#: ../preferences.rst:145
 msgid "Autosave"
 msgstr "Salvare automată"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:150
+#: ../preferences.rst:149
 msgid ""
 "Autosave is a feature in OpenShot which automatically saves the current "
 "changes to your project after a specific number of minutes, helping to "
@@ -542,122 +538,124 @@ msgid ""
 "error."
 msgstr ""
 "Salvarea automată este o funcție în OpenShot care salvează automat "
-"modificările curente ale proiectului după un anumit număr de minute, ajutând "
-"la reducerea riscului sau impactului pierderii datelor în caz de blocare, "
+"modificările curente ale proiectului după un anumit număr de minute, ajutând"
+" la reducerea riscului sau impactului pierderii datelor în caz de blocare, "
 "înghețare sau eroare a utilizatorului."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:160
+#: ../preferences.rst:159
 msgid "Enable Autosave"
 msgstr "Activează salvarea automată"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:161
+#: ../preferences.rst:160
 msgid "Autosave Interval (minutes)"
 msgstr "Interval salvare automată (minute)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:161
+#: ../preferences.rst:160
 msgid "3"
 msgstr "3"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:162
+#: ../preferences.rst:161
 msgid "History Limit (# of undo/redo)"
 msgstr "Limită istoric (număr de anulări/refaceri)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:162
+#: ../preferences.rst:161
 msgid "15"
 msgstr "15"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:163
+#: ../preferences.rst:162
 msgid "Recovery Limit (# of project copies)"
 msgstr "Limită recuperare (număr de copii ale proiectului)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:163
+#: ../preferences.rst:162
 msgid "30"
 msgstr "30"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:167
+#: ../preferences.rst:166
 msgid "Recovery"
 msgstr "Recuperare"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:169
+#: ../preferences.rst:168
 msgid ""
 "**Before each save**, a compressed ``*.zip`` copy of the current project is "
 "saved in the recovery folder, to further reduce the risk of data loss. The "
-"recovery folder is located at ``~/.openshot_qt/recovery/`` or ``C:"
-"\\Users\\USERNAME\\.openshot_qt\\recovery``."
+"recovery folder is located at ``~/.openshot_qt/recovery/`` or "
+"``C:\\Users\\USERNAME\\.openshot_qt\\recovery``."
 msgstr ""
 "**Înainte de fiecare salvare**, o copie comprimată ``*.zip`` a proiectului "
 "curent este salvată în folderul de recuperare, pentru a reduce și mai mult "
-"riscul pierderii datelor. Folderul de recuperare se află la ``~/.openshot_qt/"
-"recovery/`` sau ``C:\\Users\\USERNAME\\.openshot_qt\\recovery``."
+"riscul pierderii datelor. Folderul de recuperare se află la "
+"``~/.openshot_qt/recovery/`` sau "
+"``C:\\Users\\USERNAME\\.openshot_qt\\recovery``."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:173
+#: ../preferences.rst:172
 msgid ""
-"To recover a corrupt or broken ``*.osp`` project file, use the :guilabel:"
-"`File->Recovery` menu on the main window after opening your project. If "
-"available, a list of matching project versions from the recovery folder are "
-"listed in chronological order (most recent one at the top). This will "
-"automatically rename your current project file to ``{project-name}-{time}-"
-"backup.osp``, and replace it with the recovery project file. You can repeat "
-"this process until you find the correct recovery project. NOTE: If for some "
-"unexpected reason the recovery process fails, you can always rename the \"-"
-"backup.osp\" file to the original project file name to restore it."
+"To recover a corrupt or broken ``*.osp`` project file, use the "
+":guilabel:`File->Recovery` menu on the main window after opening your "
+"project. If available, a list of matching project versions from the recovery"
+" folder are listed in chronological order (most recent one at the top). This"
+" will automatically rename your current project file to ``{project-"
+"name}-{time}-backup.osp``, and replace it with the recovery project file. "
+"You can repeat this process until you find the correct recovery project. "
+"NOTE: If for some unexpected reason the recovery process fails, you can "
+"always rename the \"-backup.osp\" file to the original project file name to "
+"restore it."
 msgstr ""
 "Pentru a recupera un fișier de proiect ``*.osp`` corupt sau deteriorat, "
-"folosiți meniul :guilabel:`Fișier->Recuperare` din fereastra principală după "
-"ce deschideți proiectul. Dacă este disponibil, o listă cu versiunile "
+"folosiți meniul :guilabel:`Fișier->Recuperare` din fereastra principală după"
+" ce deschideți proiectul. Dacă este disponibil, o listă cu versiunile "
 "proiectului din folderul de recuperare este afișată în ordine cronologică "
 "(cea mai recentă în partea de sus). Acest proces va redenumi automat "
-"fișierul proiectului curent în ``{project-name}-{time}-backup.osp`` și îl va "
-"înlocui cu fișierul de recuperare. Puteți repeta acest proces până găsiți "
+"fișierul proiectului curent în ``{project-name}-{time}-backup.osp`` și îl va"
+" înlocui cu fișierul de recuperare. Puteți repeta acest proces până găsiți "
 "proiectul corect de recuperare. NOTĂ: Dacă dintr-un motiv neașteptat "
-"procesul de recuperare eșuează, puteți oricând să redenumiți fișierul \"-"
-"backup.osp\" în numele original al proiectului pentru a-l restaura."
+"procesul de recuperare eșuează, puteți oricând să redenumiți fișierul "
+"\"-backup.osp\" în numele original al proiectului pentru a-l restaura."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:181
+#: ../preferences.rst:180
 msgid ""
 "To **manually** recover a corrupt or broken ``*.osp`` project file, please "
 "find the most recent copy in the recovery folder, and copy/paste the file "
 "into your original project folder location (i.e. the folder that contains "
 "your broken project). If the recovery file has been zipped (``*.zip``), you "
-"must first extract the ``*.osp``, and then copy it into your project folder. "
-"Recovery files are named ``{time}-{project-name}``. You can also use the "
+"must first extract the ``*.osp``, and then copy it into your project folder."
+" Recovery files are named ``{time}-{project-name}``. You can also use the "
 "**Date Modified** on the file to select the version you are interested in "
 "recovering."
 msgstr ""
 "Pentru a recupera **manual** un fișier de proiect ``*.osp`` corupt sau "
 "deteriorat, găsiți cea mai recentă copie în folderul de recuperare și "
-"copiați/lipiți fișierul în locația originală a folderului proiectului (adică "
-"folderul care conține proiectul deteriorat). Dacă fișierul de recuperare "
+"copiați/lipiți fișierul în locația originală a folderului proiectului (adică"
+" folderul care conține proiectul deteriorat). Dacă fișierul de recuperare "
 "este arhivat (``*.zip``), trebuie mai întâi să extrageți ``*.osp``, apoi să "
 "îl copiați în folderul proiectului. Fișierele de recuperare sunt denumite "
-"``{time}-{project-name}``. De asemenea, puteți folosi **Data modificării** a "
-"fișierului pentru a selecta versiunea pe care doriți să o recuperați."
+"``{time}-{project-name}``. De asemenea, puteți folosi **Data modificării** a"
+" fișierului pentru a selecta versiunea pe care doriți să o recuperați."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:191
+#: ../preferences.rst:190
 msgid "Cache"
 msgstr "Cache"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:195
+#: ../preferences.rst:194
 msgid ""
-"Cache settings can be adjusted to make real-time playback faster or less CPU "
-"intensive. The cache is used to store image and audio data for each frame of "
-"video requested. The more frames that are cached, the smoother the real-time "
-"playback will be. However, the more that needs to be cached requires more "
-"CPU to generate the cache. There is a balance, and the default settings "
-"provide a generally sane set of cache values, which should allow most "
+"Cache settings can be adjusted to make real-time playback faster or less CPU"
+" intensive. The cache is used to store image and audio data for each frame "
+"of video requested. The more frames that are cached, the smoother the real-"
+"time playback will be. However, the more that needs to be cached requires "
+"more CPU to generate the cache. There is a balance, and the default settings"
+" provide a generally sane set of cache values, which should allow most "
 "computers to playback video and audio smoothly. See :ref:`playback_ref`."
 msgstr ""
 "Setările cache-ului pot fi ajustate pentru a face redarea în timp real mai "
@@ -671,12 +669,12 @@ msgstr ""
 "fluent. Vezi :ref:`playback_ref`."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:207
+#: ../preferences.rst:206
 msgid "Cache Mode"
 msgstr "Mod Cache"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:207
+#: ../preferences.rst:206
 msgid ""
 "Choose between Memory or Disk caching (memory caching is preferred). Disk "
 "caching writes image data to the hard disk for later retrieving, and works "
@@ -687,12 +685,12 @@ msgstr ""
 "recuperare ulterioară și funcționează cel mai bine cu un SSD."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:208
+#: ../preferences.rst:207
 msgid "Cache Limit (MB)"
 msgstr "Limită Cache (MB)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:208
+#: ../preferences.rst:207
 msgid ""
 "How many MB are set aside for cache related data. Larger numbers are not "
 "always better, since it takes more CPU to generate more frames to fill the "
@@ -703,22 +701,22 @@ msgstr ""
 "genera mai multe cadre pentru a umple cache-ul."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:209
+#: ../preferences.rst:208
 msgid "Image Format (Disk Only)"
 msgstr "Format imagine (doar pe disc)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:209
+#: ../preferences.rst:208
 msgid "Image format to store disk cache image data"
 msgstr "Formatul imaginii pentru stocarea datelor cache pe disc"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:210
+#: ../preferences.rst:209
 msgid "Scale Factor (Disk Only)"
 msgstr "Factor de scalare (doar pe disc)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:210
+#: ../preferences.rst:209
 msgid ""
 "Percentage (0.1 to 1.0) to reduce the size of disk based image files stored "
 "in the disk cache. Smaller numbers make writing and reading cached image "
@@ -729,12 +727,12 @@ msgstr ""
 "citirea fișierelor cache mai rapidă."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:211
+#: ../preferences.rst:210
 msgid "Image Quality (Disk Only)"
 msgstr "Calitatea imaginii (doar pe disc)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:211
+#: ../preferences.rst:210
 msgid ""
 "Quality of the image files used in disk cache. The higher compression can "
 "cause more slowness, but results in smaller file sizes."
@@ -743,12 +741,12 @@ msgstr ""
 "mare poate cauza încetiniri, dar rezultă în fișiere de dimensiuni mai mici."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:212
+#: ../preferences.rst:211
 msgid "Cache Pre-roll: Min Frames:"
 msgstr "Pre-roll Cache: Cadre minime:"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:212
+#: ../preferences.rst:211
 msgid ""
 "Minimum # of frames that must be cached before playback begins. The larger "
 "the #, the larger the wait before playback begins."
@@ -758,12 +756,12 @@ msgstr ""
 "este mai lungă."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:213
+#: ../preferences.rst:212
 msgid "Cache Pre-roll: Max Frames:"
 msgstr "Pre-redare Cache: Cadre Maxime:"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:213
+#: ../preferences.rst:212
 msgid ""
 "Maximum # of frames that can be cached during playback (in front of the "
 "playhead). The larger the #, the more CPU is required to cache ahead - vs "
@@ -775,12 +773,12 @@ msgstr ""
 "cadrelor deja stocate în cache."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:214
+#: ../preferences.rst:213
 msgid "Cache Ahead (Percent):"
 msgstr "Stocare în cache înainte (procent):"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:214
+#: ../preferences.rst:213
 msgid ""
 "Between 0.0 and 1.0. This represents how much % we cache ahead of the "
 "playhead. For example, 0.5 would cache 50% behind and 50% ahead of the "
@@ -792,41 +790,41 @@ msgstr ""
 "spate și 80% înaintea indicatorului de redare."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:215
+#: ../preferences.rst:214
 msgid "Cache Max Frames:"
 msgstr "Număr maxim de cadre în cache:"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:215
+#: ../preferences.rst:214
 #, fuzzy
 msgid ""
 "This is an override on the total allowed frames that can be cached by our "
 "caching thread. It defaults to 900 frames, but even if you give a huge "
 "amount of RAM to OpenShot's cache size, this will override the max # of "
 "frames cached. The reason is... sometimes when the preview window is very "
-"small, and the cache size is set very high, OpenShot might calculate that we "
-"can cache 30,000 frames, or something silly which will take a huge amount of "
-"CPU, lagging the system. This setting is designed to clamp the upper limit "
-"of the cache to something reasonable... even on systems that give OpenShot "
-"huge amounts of RAM to work with."
+"small, and the cache size is set very high, OpenShot might calculate that we"
+" can cache 30,000 frames, or something silly which will take a huge amount "
+"of CPU, lagging the system. This setting is designed to clamp the upper "
+"limit of the cache to something reasonable... even on systems that give "
+"OpenShot huge amounts of RAM to work with."
 msgstr ""
 "Aceasta este o suprascriere a numărului total permis de cadre care pot fi "
 "stocate în cache de către firul nostru de cache. Implicit este setat la 600 "
 "de cadre, dar chiar dacă aloci o cantitate mare de RAM pentru dimensiunea "
-"cache-ului OpenShot, aceasta va suprascrie numărul maxim de cadre stocate în "
-"cache. Motivul este... uneori, când fereastra de previzualizare este foarte "
-"mică și dimensiunea cache-ului este setată foarte mare, OpenShot poate "
+"cache-ului OpenShot, aceasta va suprascrie numărul maxim de cadre stocate în"
+" cache. Motivul este... uneori, când fereastra de previzualizare este foarte"
+" mică și dimensiunea cache-ului este setată foarte mare, OpenShot poate "
 "calcula că putem stoca în cache 30.000 de cadre sau ceva absurd, ceea ce va "
 "consuma o cantitate mare de CPU, încetinind sistemul. Această setare este "
 "concepută pentru a limita limita superioară a cache-ului la ceva "
 "rezonabil... chiar și pe sisteme care oferă OpenShot cantități mari de RAM."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:218
+#: ../preferences.rst:217
 msgid ""
 "OpenShot's default cache settings now target a balanced preview experience: "
-"roughly **50% behind / 50% ahead** of the playhead, **768 MB** cache memory, "
-"and **900** max frames. In practice, this improves scrubbing and seek "
+"roughly **50% behind / 50% ahead** of the playhead, **768 MB** cache memory,"
+" and **900** max frames. In practice, this improves scrubbing and seek "
 "behavior while reducing stale preview frames on slower systems."
 msgstr ""
 "Setările implicite ale cache-ului OpenShot vizează acum o experiență "
@@ -836,68 +834,68 @@ msgstr ""
 "învechite în previzualizare pe sisteme mai lente."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:224
+#: ../preferences.rst:223
 msgid "Performance"
 msgstr "Performanță"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:227
+#: ../preferences.rst:226
 msgid ""
 "Please keep in mind that GPU hardware acceleration is experimental at the "
 "moment. OpenShot supports both decoding and encoding acceleration. For more "
-"information take a look at our `Github HW-ACCEL Doc <https://github.com/"
-"OpenShot/libopenshot/blob/develop/doc/HW-ACCEL.md>`_. NOTE: On systems with "
-"older graphics cards, hardware acceleration may not always be faster than "
-"CPU encoding."
+"information take a look at our `Github HW-ACCEL Doc "
+"<https://github.com/OpenShot/libopenshot/blob/develop/doc/HW-ACCEL.md>`_. "
+"NOTE: On systems with older graphics cards, hardware acceleration may not "
+"always be faster than CPU encoding."
 msgstr ""
 "Te rugăm să reții că accelerarea hardware GPU este momentan experimentală. "
 "OpenShot suportă atât accelerarea decodării, cât și a codării. Pentru mai "
 "multe informații, consultă documentația noastră `Github HW-ACCEL Doc "
 "<https://github.com/OpenShot/libopenshot/blob/develop/doc/HW-ACCEL.md>`_. "
-"NOTĂ: Pe sistemele cu plăci grafice mai vechi, accelerarea hardware poate să "
-"nu fie întotdeauna mai rapidă decât codarea CPU."
+"NOTĂ: Pe sistemele cu plăci grafice mai vechi, accelerarea hardware poate să"
+" nu fie întotdeauna mai rapidă decât codarea CPU."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:237
+#: ../preferences.rst:236
 msgid "Hardware Decoder Mode"
 msgstr "Mod decodor hardware"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:238
+#: ../preferences.rst:237
 msgid ""
 "Select the hardware decoding backend to use. Use :guilabel:`Test` to verify "
 "the selected decoder mode."
 msgstr ""
-"Selectați backend-ul de decodare hardware de utilizat. Folosiți :guilabel:"
-"`Test` pentru a verifica modul decodor selectat."
+"Selectați backend-ul de decodare hardware de utilizat. Folosiți "
+":guilabel:`Test` pentru a verifica modul decodor selectat."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:239
+#: ../preferences.rst:238
 msgid "Hardware Decoder Graphics Card"
 msgstr "Placă grafică pentru decodor hardware"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:240
+#: ../preferences.rst:239
 msgid "Choose which GPU device is used for hardware decoding."
 msgstr "Alegeți ce dispozitiv GPU este folosit pentru decodarea hardware."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:241
+#: ../preferences.rst:240
 msgid "Hardware Encoder Graphics Card"
 msgstr "Placă grafică pentru encoder hardware"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:242
+#: ../preferences.rst:241
 msgid "Choose which GPU device is used for hardware encoding."
 msgstr "Alegeți ce dispozitiv GPU este folosit pentru encodarea hardware."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:243
+#: ../preferences.rst:242
 msgid "OMP Threads"
 msgstr "Fire OMP"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:244
+#: ../preferences.rst:243
 msgid ""
 "Number of OpenMP worker threads used by performance-sensitive processing."
 msgstr ""
@@ -905,22 +903,22 @@ msgstr ""
 "performanță."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:245
+#: ../preferences.rst:244
 msgid "FFmpeg Threads"
 msgstr "Fire FFmpeg"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:246
+#: ../preferences.rst:245
 msgid "Number of FFmpeg threads used for decoding/encoding."
 msgstr "Numărul de fire FFmpeg utilizate pentru decodare/encodare."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:247
+#: ../preferences.rst:246
 msgid "Hardware Decoder Max Width (0 = Default)"
 msgstr "Lățimea maximă a decodorului hardware (0 = implicit)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:248
+#: ../preferences.rst:247
 msgid ""
 "Optional maximum width for hardware decoding. Use ``0`` for no explicit "
 "limit."
@@ -929,12 +927,12 @@ msgstr ""
 "fără limită explicită."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:249
+#: ../preferences.rst:248
 msgid "Hardware Decoder Max Height (0 = Default)"
 msgstr "Înălțimea maximă a decodorului hardware (0 = implicit)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:250
+#: ../preferences.rst:249
 msgid ""
 "Optional maximum height for hardware decoding. Use ``0`` for no explicit "
 "limit."
@@ -943,37 +941,37 @@ msgstr ""
 "fără limită explicită."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:251
+#: ../preferences.rst:250
 msgid "Use Blender GPU rendering for Animated Titles"
 msgstr "Folosește redarea GPU Blender pentru titluri animate"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:252
+#: ../preferences.rst:251
 msgid "Enable GPU rendering for Blender-based animated titles."
 msgstr "Activează redarea GPU pentru titlurile animate bazate pe Blender."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:257
+#: ../preferences.rst:256
 msgid "Keyboard"
 msgstr "Tastatură"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:260
+#: ../preferences.rst:259
 msgid ""
-"This section allows you to view and customize hotkeys for various actions in "
-"the application. Here, you can assign and manage multiple shortcuts for the "
-"same action and restore default shortcuts if needed."
+"This section allows you to view and customize hotkeys for various actions in"
+" the application. Here, you can assign and manage multiple shortcuts for the"
+" same action and restore default shortcuts if needed."
 msgstr ""
-"Această secțiune îți permite să vizualizezi și să personalizezi scurtăturile "
-"de tastatură pentru diverse acțiuni din aplicație. Aici poți atribui și "
+"Această secțiune îți permite să vizualizezi și să personalizezi scurtăturile"
+" de tastatură pentru diverse acțiuni din aplicație. Aici poți atribui și "
 "gestiona mai multe scurtături pentru aceeași acțiune și poți restaura "
 "scurtăturile implicite dacă este necesar."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:263
+#: ../preferences.rst:262
 msgid ""
-"**Assign Multiple Shortcuts**: You can assign multiple keyboard shortcuts to "
-"the same action by separating them with a pipe (``|``) delimiter. This "
+"**Assign Multiple Shortcuts**: You can assign multiple keyboard shortcuts to"
+" the same action by separating them with a pipe (``|``) delimiter. This "
 "flexibility allows you to configure as many shortcuts as you need for each "
 "action."
 msgstr ""
@@ -983,18 +981,18 @@ msgstr ""
 "pentru fiecare acțiune."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:266
+#: ../preferences.rst:265
 msgid ""
 "**Immediate Application**: No restart is required after adjusting keyboard "
 "shortcuts. Changes are applied immediately, so you can start using your "
 "updated shortcuts right away."
 msgstr ""
 "**Aplicare imediată**: Nu este necesară repornirea după ajustarea "
-"scurtăturilor de tastatură. Modificările sunt aplicate imediat, astfel încât "
-"poți începe să folosești scurtăturile actualizate imediat."
+"scurtăturilor de tastatură. Modificările sunt aplicate imediat, astfel încât"
+" poți începe să folosești scurtăturile actualizate imediat."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:269
+#: ../preferences.rst:268
 msgid ""
 "**Restore Default Shortcuts**: If needed, you can reset all keyboard "
 "shortcuts to their default settings by clicking on the :guilabel:`Restore "
@@ -1002,12 +1000,12 @@ msgid ""
 "Preferences screen."
 msgstr ""
 "**Restabilește scurtăturile implicite**: Dacă este necesar, poți reseta "
-"toate scurtăturile de tastatură la setările implicite făcând clic pe "
-"butonul :guilabel:`Restore Defaults: Keyboard` situat în colțul din stânga "
-"jos al ecranului Preferințe."
+"toate scurtăturile de tastatură la setările implicite făcând clic pe butonul"
+" :guilabel:`Restore Defaults: Keyboard` situat în colțul din stânga jos al "
+"ecranului Preferințe."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:272
+#: ../preferences.rst:271
 msgid ""
 "**Unique Shortcuts**: Each keyboard shortcut must be unique. If there are "
 "any duplicate shortcuts, they will be highlighted in **red** and will not "
@@ -1018,7 +1016,7 @@ msgstr ""
 "nu vor funcționa până când conflictul nu este rezolvat."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:276
+#: ../preferences.rst:275
 msgid ""
 "For more detailed information on how to use and customize keyboard "
 "shortcuts, see :ref:`keyboard_shortcut_ref`."
@@ -1027,12 +1025,12 @@ msgstr ""
 "scurtăturile de tastatură, vezi :ref:`keyboard_shortcut_ref`."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:279
+#: ../preferences.rst:278
 msgid "Location"
 msgstr "Locație"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:283
+#: ../preferences.rst:282
 msgid ""
 "Default file path locations for saving/opening projects, importing files, "
 "and exporting videos can be configured here. This can save you time by "
@@ -1046,48 +1044,48 @@ msgstr ""
 "descrise mai jos)."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:293
+#: ../preferences.rst:292
 msgid "File Import"
 msgstr "Import fișier"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:293
+#: ../preferences.rst:292
 msgid "Default folder to choose when importing a file"
 msgstr "Folderul implicit de ales la importul unui fișier"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:294
+#: ../preferences.rst:293
 msgid "Save or Open Project"
 msgstr "Salvează sau deschide proiectul"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:294
+#: ../preferences.rst:293
 msgid "Default folder to choose when saving or opening a project file"
 msgstr ""
 "Folderul implicit de ales la salvarea sau deschiderea unui fișier de proiect"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:295
+#: ../preferences.rst:294
 msgid "Video Export"
 msgstr "Export video"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:295
+#: ../preferences.rst:294
 msgid "Default folder to choose when exporting a video"
 msgstr "Folderul implicit de ales la exportul unui videoclip"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:302
+#: ../preferences.rst:301
 msgid "Values"
 msgstr "Valori"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:304
+#: ../preferences.rst:303
 msgid "**Recent Folder**"
 msgstr "**Folder recent**"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:304
+#: ../preferences.rst:303
 msgid ""
 "The last folder used for this same operation. Project folders, Import "
 "folders, and Export folders are tracked separately."
@@ -1096,101 +1094,107 @@ msgstr ""
 "import și export sunt urmărite separat."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:305
+#: ../preferences.rst:304
 msgid "**Project Folder**"
 msgstr "**Folder proiect**"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:305
+#: ../preferences.rst:304
 msgid ""
-"The current project folder (or the user's home folder, if the project is not "
-"yet saved)"
+"The current project folder (or the user's home folder, if the project is not"
+" yet saved)"
 msgstr ""
 "Folderul proiectului curent (sau folderul personal al utilizatorului, dacă "
 "proiectul nu a fost încă salvat)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:311
+#: ../preferences.rst:310
 msgid "Advanced"
 msgstr "Avansat"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:315
+#: ../preferences.rst:314
 msgid "The Advanced tab includes ComfyUI integration and debugging options."
 msgstr "Fila Avansat include integrarea ComfyUI și opțiuni de depanare."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:324
+#: ../preferences.rst:323
 msgid "Comfy UI URL"
 msgstr "URL Comfy UI"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:325
+#: ../preferences.rst:324
 msgid "``http://127.0.0.1:8188``"
 msgstr "``http://127.0.0.1:8188``"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:326
+#: ../preferences.rst:325
 msgid "URL of your local or remote ComfyUI server"
 msgstr "URL-ul serverului ComfyUI local sau la distanță"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:327
+#: ../preferences.rst:326
 msgid "Debug Mode (Port)"
 msgstr "Mod depanare (Port)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:328
+#: ../preferences.rst:327
 msgid "5556"
 msgstr "5556"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:329
+#: ../preferences.rst:328
 msgid "Port used by debug logging features"
 msgstr "Port folosit de funcțiile de jurnalizare pentru depanare"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:330
+#: ../preferences.rst:329
 msgid "Debug Mode (Verbose)"
 msgstr "Mod depanare (Detaliat)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:332
+#: ../preferences.rst:330 ../preferences.rst:336
+#, fuzzy
+msgid "Disabled"
+msgstr "Activat"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:331
 msgid "Enable verbose debugging output"
 msgstr "Activează ieșirea detaliată pentru depanare"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:333
+#: ../preferences.rst:332
 msgid "Send Anonymous Metrics and Errors"
 msgstr "Trimite metrici și erori anonime"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:335
+#: ../preferences.rst:334
 msgid "Send anonymous telemetry and error reports"
 msgstr "Trimite telemetrie și rapoarte de erori anonime"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:336
+#: ../preferences.rst:335
 msgid "Show Playback Performance (FPS)"
 msgstr "Afișează performanța redării (FPS)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:338
+#: ../preferences.rst:337
 msgid "Display live FPS in preview playback"
 msgstr "Afișează FPS în timp real în redarea previzualizării"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:339
+#: ../preferences.rst:338
 msgid "Show Export Dialog when Finished"
 msgstr "Afișează dialogul de export la finalizare"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:341
+#: ../preferences.rst:340
 msgid "Display the Export Video window when export completes"
 msgstr "Afișează fereastra Export Video când exportul se finalizează"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:343
+#: ../preferences.rst:342
 msgid ""
 "The ComfyUI **Check** button updates an inline status icon: green checkmark "
 "for success, red icon for failure. If OpenShot cannot reach this server, AI "
@@ -1204,50 +1208,50 @@ msgstr ""
 "opțiuni de flux de lucru."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:350
+#: ../preferences.rst:349
 msgid "Reset (Default Values)"
 msgstr "Resetare (valori implicite)"
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:352
+#: ../preferences.rst:351
 msgid ""
 "To reset **all** preferences to their default values, please delete the "
 "``openshot.settings`` file and re-launch OpenShot. The settings file can be "
-"located at this path: ``~/.openshot_qt/openshot.settings`` or ``C:"
-"\\Users\\USERNAME\\.openshot_qt\\openshot.settings``. When OpenShot is re-"
-"launched, it will create the missing ``openshot.settings`` file with default "
-"values."
+"located at this path: ``~/.openshot_qt/openshot.settings`` or "
+"``C:\\Users\\USERNAME\\.openshot_qt\\openshot.settings``. When OpenShot is "
+"re-launched, it will create the missing ``openshot.settings`` file with "
+"default values."
 msgstr ""
 "Pentru a reseta **toate** preferințele la valorile implicite, te rugăm să "
-"ștergi fișierul ``openshot.settings`` și să repornești OpenShot. Fișierul de "
-"setări poate fi găsit la această cale: ``~/.openshot_qt/openshot.settings`` "
-"sau ``C:\\Users\\USERNAME\\.openshot_qt\\openshot.settings``. Când OpenShot "
-"este repornit, va crea fișierul lipsă ``openshot.settings`` cu valorile "
+"ștergi fișierul ``openshot.settings`` și să repornești OpenShot. Fișierul de"
+" setări poate fi găsit la această cale: ``~/.openshot_qt/openshot.settings``"
+" sau ``C:\\Users\\USERNAME\\.openshot_qt\\openshot.settings``. Când OpenShot"
+" este repornit, va crea fișierul lipsă ``openshot.settings`` cu valorile "
 "implicite."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:357
+#: ../preferences.rst:356
 msgid ""
-"Optionally, you can delete the entire ``.openshot_qt/`` folder and re-launch "
-"OpenShot. However, please make a **backup** of any customized folders: "
+"Optionally, you can delete the entire ``.openshot_qt/`` folder and re-launch"
+" OpenShot. However, please make a **backup** of any customized folders: "
 "**emojis, presets, profiles, recovery, title_templates, transitions, or "
 "yolo**. For example, your ``/recovery/`` sub-folder contains backup copies "
 "of all your existing projects (``*.osp`` files)."
 msgstr ""
-"Opțional, poți șterge întregul folder ``.openshot_qt/`` și reporni OpenShot. "
-"Totuși, te rugăm să faci o **copie de siguranță** a oricăror foldere "
+"Opțional, poți șterge întregul folder ``.openshot_qt/`` și reporni OpenShot."
+" Totuși, te rugăm să faci o **copie de siguranță** a oricăror foldere "
 "personalizate: **emojis, presets, profiles, recovery, title_templates, "
 "transitions sau yolo**. De exemplu, subfolderul tău ``/recovery/`` conține "
-"copii de siguranță ale tuturor proiectelor tale existente (fișiere ``*."
-"osp``)."
+"copii de siguranță ale tuturor proiectelor tale existente (fișiere "
+"``*.osp``)."
 
 # Translated with gpt-4.1-mini
-#: ../preferences.rst:362
+#: ../preferences.rst:361
 msgid ""
 "Deleting the ``.openshot_qt/`` folder is the quickest method to restore "
 "OpenShot preferences and settings to their Default values (i.e. also called "
-"a `clean install`). When OpenShot is re-launched, it will create any missing "
-"folders (i.e. ``.openshot_qt/``) and settings files. See our `step-by-step "
+"a `clean install`). When OpenShot is re-launched, it will create any missing"
+" folders (i.e. ``.openshot_qt/``) and settings files. See our `step-by-step "
 "guide <https://github.com/OpenShot/openshot-qt/wiki/Clean-Installation-of-"
 "OpenShot>`_ for more information about **clean installs** of OpenShot."
 msgstr ""
@@ -1255,6 +1259,28 @@ msgstr ""
 "restaura preferințele și setările OpenShot la valorile implicite (numită și "
 "`instalare curată`). Când OpenShot este redeschis, va crea orice foldere "
 "lipsă (de exemplu, ``.openshot_qt/``) și fișiere de setări. Consultați "
-"ghidul nostru `pas cu pas <https://github.com/OpenShot/openshot-qt/wiki/"
-"Clean-Installation-of-OpenShot>`_ pentru mai multe informații despre "
-"**instalările curate** ale OpenShot."
+"ghidul nostru `pas cu pas <https://github.com/OpenShot/openshot-"
+"qt/wiki/Clean-Installation-of-OpenShot>`_ pentru mai multe informații despre"
+" **instalările curate** ale OpenShot."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The Timeline tab controls default timeline behavior, clip/transition "
+#~ "insertion defaults, and whether to use the new timeline backend or the "
+#~ "legacy web-based timeline."
+#~ msgstr ""
+#~ "Fila Cronologie controlează comportamentul implicit al cronologiei, valorile"
+#~ " implicite pentru inserarea clipurilor/tranzițiilor și dacă se utilizează "
+#~ "noul backend al cronologiei sau cronologia web veche."
+
+# Translated with gpt-4.1-mini
+#~ msgid "Thumbnail density for the new timeline backend"
+#~ msgstr "Densitatea miniaturilor pentru noul backend al cronologiei"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Enable Legacy Timeline (web-based)"
+#~ msgstr "Activează cronologia veche (bazată pe web)"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Use the legacy web timeline (WebEngine/WebKit auto-select)"
+#~ msgstr "Folosește cronologia web veche (selectare automată WebEngine/WebKit)"

@@ -9,13 +9,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_hans\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
 
@@ -24,35 +24,31 @@ msgstr ""
 msgid "Text & Titles"
 msgstr "文本与标题"
 
-# Translated with gpt-4.1-mini
 #: ../titles.rst:25
 msgid ""
-"Adding text and titles is an important aspect of video editing, and OpenShot "
-"comes with an easy-to-use Title Editor. Use the Title menu (located in the "
-"main menu of OpenShot) to launch the Title Editor. You can also use the "
-"keyboard shortcut :kbd:`Ctrl+T`."
+"Adding text overlays, lower thirds, and titles is an important aspect of "
+"video editing, and OpenShot comes with an easy-to-use Title Editor. Use the "
+"Title menu (located in the main menu of OpenShot) to launch the Title "
+"Editor. You can also use the keyboard shortcut :kbd:`Ctrl+T`."
 msgstr ""
-"添加文本和标题是视频编辑的重要方面，OpenShot 配备了易于使用的标题编辑器。使用"
-"标题菜单（位于 OpenShot 主菜单中）启动标题编辑器。您也可以使用快捷键 :kbd:"
-"`Ctrl+T` 。"
+"添加文字覆盖、下三分之一和标题是视频编辑的重要方面，OpenShot 配备了易于使用的标题编辑器。使用标题菜单（位于 OpenShot "
+"主菜单中）启动标题编辑器。您也可以使用快捷键 :kbd:`Ctrl+T`。"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:29
 msgid ""
-"Titles are simply vector image files with transparent backgrounds (``*."
-"svg``). OpenShot comes with many easy-to-use templates, but you can also "
-"create your own or import new templates into OpenShot. These templates allow "
-"you to quickly change the text, font, size, color, and background color. You "
-"can also launch an advanced, external SVG editor for further customizations "
-"(if needed). Once the title is added to your project, drag and drop the "
-"title on a Track above a video clip. The transparent background will allow "
-"the video below to appear behind the text."
+"Titles are simply vector image files with transparent backgrounds "
+"(``*.svg``). OpenShot comes with many easy-to-use templates, but you can "
+"also create your own or import new templates into OpenShot. These templates "
+"allow you to quickly change the text, font, size, color, and background "
+"color. You can also launch an advanced, external SVG editor for further "
+"customizations (if needed). Once the title is added to your project, drag "
+"and drop the title on a Track above a video clip. The transparent background"
+" will allow the video below to appear behind the text."
 msgstr ""
-"标题只是带有透明背景的矢量图像文件（``*.svg`` ）。OpenShot 提供了许多易用的模"
-"板，您也可以创建自己的模板或导入新的模板到 OpenShot。这些模板允许您快速更改文"
-"本、字体、大小、颜色和背景颜色。您还可以启动高级的外部 SVG 编辑器进行进一步自"
-"定义（如有需要）。标题添加到项目后，将其拖放到视频剪辑上方的轨道上。透明背景"
-"允许视频在文本后显示。"
+"标题只是带有透明背景的矢量图像文件（``*.svg`` ）。OpenShot 提供了许多易用的模板，您也可以创建自己的模板或导入新的模板到 "
+"OpenShot。这些模板允许您快速更改文本、字体、大小、颜色和背景颜色。您还可以启动高级的外部 SVG "
+"编辑器进行进一步自定义（如有需要）。标题添加到项目后，将其拖放到视频剪辑上方的轨道上。透明背景允许视频在文本后显示。"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:36
@@ -119,8 +115,7 @@ msgstr "标题属性"
 msgid ""
 "Change the text, font, size, colors, or edit in an advanced, external SVG "
 "image editor (such as Inkscape)"
-msgstr ""
-"更改文本、字体、大小、颜色，或在高级外部 SVG 图像编辑器（如 Inkscape）中编辑"
+msgstr "更改文本、字体、大小、颜色，或在高级外部 SVG 图像编辑器（如 Inkscape）中编辑"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:49 ../titles.rst:190
@@ -148,9 +143,7 @@ msgid ""
 "OpenShot includes a variety of vector title templates that can be used to "
 "enhance your video projects. Below is a table listing the available titles "
 "and their descriptions:"
-msgstr ""
-"OpenShot 包含多种矢量标题模板，可用于增强您的视频项目。以下是可用标题及其描述"
-"的列表："
+msgstr "OpenShot 包含多种矢量标题模板，可用于增强您的视频项目。以下是可用标题及其描述的列表："
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:62
@@ -409,7 +402,8 @@ msgstr "灰色框 1"
 # Translated with gpt-4.1-mini
 #: ../titles.rst:113
 msgid ""
-"A simple gray box for highlighting text (one line of text, top-left aligned)."
+"A simple gray box for highlighting text (one line of text, top-left "
+"aligned)."
 msgstr "一个简单的灰色框，用于突出显示文本（一行文本，左上对齐）。"
 
 # Translated with gpt-4.1-mini
@@ -420,7 +414,8 @@ msgstr "灰色框 2"
 # Translated with gpt-4.1-mini
 #: ../titles.rst:115
 msgid ""
-"A simple gray box for highlighting text (two lins of text, top-left aligned)."
+"A simple gray box for highlighting text (two lins of text, top-left "
+"aligned)."
 msgstr "一个简单的灰色框，用于突出显示文本（两行文本，左上对齐）。"
 
 # Translated with gpt-4.1-mini
@@ -681,27 +676,23 @@ msgstr "自定义标题模板"
 # Translated with gpt-4.1-mini
 #: ../titles.rst:168
 msgid ""
-"OpenShot can use any vector SVG image file as a custom title template in "
-"the :guilabel:`Title Editor` dialog. Just add an SVG image file to your ``~/."
-"openshot_qt/title_templates/`` folder, and it will appear the next time you "
-"launch the :guilabel:`Title Editor` dialog. You can also right click on any "
-"SVG files in your **Project Files** panel, and choose **Edit Title** or "
-"**Duplicate Title**."
+"OpenShot can use any vector SVG image file as a custom title template in the"
+" :guilabel:`Title Editor` dialog. Just add an SVG image file to your "
+"``~/.openshot_qt/title_templates/`` folder, and it will appear the next time"
+" you launch the :guilabel:`Title Editor` dialog. You can also right click on"
+" any SVG files in your **Project Files** panel, and choose **Edit Title** or"
+" **Duplicate Title**."
 msgstr ""
-"OpenShot 可以在 :guilabel:`标题编辑器` 对话框中使用任何矢量 SVG 图像文件作为"
-"自定义标题模板。只需将 SVG 图像文件添加到您的 ``~/.openshot_qt/"
-"title_templates/`` 文件夹，下次启动 :guilabel:` 标题编辑器` 对话框时即可看"
-"到。您也可以在 **项目文件** 面板中右键点击任何 SVG 文件，选择 **编辑标题** "
-"或 **复制标题** 。"
+"OpenShot 可以在 :guilabel:`标题编辑器` 对话框中使用任何矢量 SVG 图像文件作为自定义标题模板。只需将 SVG "
+"图像文件添加到您的 ``~/.openshot_qt/title_templates/`` 文件夹，下次启动 :guilabel:` 标题编辑器` "
+"对话框时即可看到。您也可以在 **项目文件** 面板中右键点击任何 SVG 文件，选择 **编辑标题** 或 **复制标题** 。"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:172
 msgid ""
 "Note: These SVG templates are only used by the :guilabel:`Title Editor` "
 "dialog, and not :guilabel:`Animated Title` dialog."
-msgstr ""
-"注意：这些 SVG 模板仅供 :guilabel:`标题编辑器` 对话框使用，不适用于 :"
-"guilabel:` 动画标题` 对话框。"
+msgstr "注意：这些 SVG 模板仅供 :guilabel:`标题编辑器` 对话框使用，不适用于 :guilabel:` 动画标题` 对话框。"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:177
@@ -717,9 +708,8 @@ msgid ""
 "**Ctrl+B**. Note: Blender must be installed and configured before this "
 "feature will work in OpenShot. See :ref:`blender_install_ref`."
 msgstr ""
-"添加 3D 动画标题同样简单，使用我们的 **动画标题** 对话框即可。通过 OpenShot "
-"主菜单中的标题菜单启动动画标题编辑器，也可以使用快捷键 **Ctrl+B** 。注意：此"
-"功能需先安装并配置 Blender，详情见 :ref:`blender_install_ref` 。"
+"添加 3D 动画标题同样简单，使用我们的 **动画标题** 对话框即可。通过 OpenShot 主菜单中的标题菜单启动动画标题编辑器，也可以使用快捷键 "
+"**Ctrl+B** 。注意：此功能需先安装并配置 Blender，详情见 :ref:`blender_install_ref` 。"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:187
@@ -749,12 +739,10 @@ msgstr "3D 动画模板"
 # Translated with gpt-4.1-mini
 #: ../titles.rst:196
 msgid ""
-"OpenShot includes a variety of 3D animated templates that can be used to add "
-"dynamic and engaging elements to your video projects. Below is a table "
+"OpenShot includes a variety of 3D animated templates that can be used to add"
+" dynamic and engaging elements to your video projects. Below is a table "
 "listing the available templates and their descriptions:"
-msgstr ""
-"OpenShot 包含多种 3D 动画模板，可用于为您的视频项目添加动态且吸引人的元素。以"
-"下是可用模板及其描述的列表："
+msgstr "OpenShot 包含多种 3D 动画模板，可用于为您的视频项目添加动态且吸引人的元素。以下是可用模板及其描述的列表："
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:203
@@ -801,8 +789,8 @@ msgstr "溶解文本"
 # Translated with gpt-4.1-mini
 #: ../titles.rst:212
 msgid ""
-"A dissolve effect that turns any text into particles which get blown away by "
-"the wind."
+"A dissolve effect that turns any text into particles which get blown away by"
+" the wind."
 msgstr "一种溶解效果，将文本变成被风吹散的粒子。"
 
 # Translated with gpt-4.1-mini
@@ -984,9 +972,8 @@ msgid ""
 "must first export the text from these programs into a compatible image "
 "format that contains a **transparent background** and **alpha** channel."
 msgstr ""
-"您可以在许多不同的程序中生成文字和标题，如 Blender、Inkscape、Krita、Gimp "
-"等。在将文字导入 OpenShot 之前，必须先将文字从这些程序导出为包含**透明背景** "
-"和**Alpha** 通道的兼容图像格式。"
+"您可以在许多不同的程序中生成文字和标题，如 Blender、Inkscape、Krita、Gimp 等。在将文字导入 OpenShot "
+"之前，必须先将文字从这些程序导出为包含**透明背景** 和**Alpha** 通道的兼容图像格式。"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:253
@@ -999,18 +986,16 @@ msgid ""
 "to allow the text to not cover up videos and images on the timeline below "
 "them."
 msgstr ""
-"``SVG`` 格式是矢量图形（曲线、形状、文字效果和路径）的绝佳选择，但它并非总是"
-"与 OpenShot 100% 兼容。因此，我们推荐使用 ``PNG`` 格式，这是一种优秀的基于网"
-"络的图像格式，可以包含透明背景和 Alpha 通道。透明背景和 Alpha 通道是 "
-"OpenShot 允许文字不遮挡时间线下方视频和图像所必需的。"
+"``SVG`` 格式是矢量图形（曲线、形状、文字效果和路径）的绝佳选择，但它并非总是与 OpenShot 100% 兼容。因此，我们推荐使用 "
+"``PNG`` 格式，这是一种优秀的基于网络的图像格式，可以包含透明背景和 Alpha 通道。透明背景和 Alpha 通道是 OpenShot "
+"允许文字不遮挡时间线下方视频和图像所必需的。"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:258
 msgid ""
-"For information on importing animated sequences into OpenShot, please see :"
-"ref:`animation_image_seq_ref`."
-msgstr ""
-"有关将动画序列导入 OpenShot 的信息，请参见 :ref:`animation_image_seq_ref` 。"
+"For information on importing animated sequences into OpenShot, please see "
+":ref:`animation_image_seq_ref`."
+msgstr "有关将动画序列导入 OpenShot 的信息，请参见 :ref:`animation_image_seq_ref` 。"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:261
@@ -1021,15 +1006,14 @@ msgstr "安装 Inkscape"
 #: ../titles.rst:263
 msgid ""
 "The :guilabel:`Advanced Editor` feature in the :guilabel:`Title Editor` "
-"dialog requires the latest version of Inkscape (https://inkscape.org/"
-"release/) be installed and the OpenShot **Preferences** updated with the "
-"correct path to the Inkscape executable. See the :ref:"
-"`preferences_general_ref` tab in Preferences."
+"dialog requires the latest version of Inkscape "
+"(https://inkscape.org/release/) be installed and the OpenShot "
+"**Preferences** updated with the correct path to the Inkscape executable. "
+"See the :ref:`preferences_general_ref` tab in Preferences."
 msgstr ""
-":guilabel:`标题编辑器` 对话框中的 :guilabel:` 高级编辑器` 功能需要安装最新版"
-"本的 Inkscape (https://inkscape.org/release/)，并在 OpenShot **首选项** 中更"
-"新 Inkscape 可执行文件的正确路径。请参见首选项中的 :ref:"
-"`preferences_general_ref` 标签。"
+":guilabel:`标题编辑器` 对话框中的 :guilabel:` 高级编辑器` 功能需要安装最新版本的 Inkscape "
+"(https://inkscape.org/release/)，并在 OpenShot **首选项** 中更新 Inkscape "
+"可执行文件的正确路径。请参见首选项中的 :ref:`preferences_general_ref` 标签。"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:270
@@ -1042,15 +1026,14 @@ msgid ""
 "The :guilabel:`Animated Title` feature in OpenShot requires the latest "
 "version of Blender (https://www.blender.org/download/) be installed and the "
 "OpenShot **Preferences** updated with the correct path to the Blender "
-"executable. See the :ref:`preferences_general_ref` tab in Preferences. NOTE: "
-"The minimum supported version of Blender is 5.0+. Older versions of Blender "
-"are not compatible with OpenShot Video Editor."
+"executable. See the :ref:`preferences_general_ref` tab in Preferences. NOTE:"
+" The minimum supported version of Blender is 5.0+. Older versions of Blender"
+" are not compatible with OpenShot Video Editor."
 msgstr ""
-"OpenShot 中的 :guilabel:`动画标题` 功能需要安装最新版本的 Blender (https://"
-"www.blender.org/download/)，并在 OpenShot **首选项** 中更新 Blender 可执行文"
-"件的正确路径。请参见首选项中的 :ref:`preferences_general_ref` 标签。注意：支"
-"持的最低 Blender 版本为 5.0+，旧版本 Blender 与 OpenShot Video Editor 不兼"
-"容。"
+"OpenShot 中的 :guilabel:`动画标题` 功能需要安装最新版本的 Blender "
+"(https://www.blender.org/download/)，并在 OpenShot **首选项** 中更新 Blender "
+"可执行文件的正确路径。请参见首选项中的 :ref:`preferences_general_ref` 标签。注意：支持的最低 Blender 版本为 "
+"5.0+，旧版本 Blender 与 OpenShot Video Editor 不兼容。"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:278
@@ -1059,7 +1042,17 @@ msgid ""
 "Inkscape Guide <https://github.com/OpenShot/openshot-qt/wiki/Blender-and-"
 "Inkscape-Guide>`_."
 msgstr ""
-"有关如何安装这些依赖项的详细指南，请参见 `Blender & Inkscape 指南 <https://"
-"github.com/OpenShot/openshot-qt/wiki/Blender-and-Inkscape-Guide>`_ 。 "
-"`Blender & Inkscape Guide <https://github.com/OpenShot/openshot-qt/wiki/"
-"Blender-and-Inkscape-Guide>`_"
+"有关如何安装这些依赖项的详细指南，请参见 `Blender & Inkscape 指南 "
+"<https://github.com/OpenShot/openshot-qt/wiki/Blender-and-Inkscape-Guide>`_ "
+"。 `Blender & Inkscape Guide <https://github.com/OpenShot/openshot-"
+"qt/wiki/Blender-and-Inkscape-Guide>`_"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Adding text and titles is an important aspect of video editing, and OpenShot"
+#~ " comes with an easy-to-use Title Editor. Use the Title menu (located in the "
+#~ "main menu of OpenShot) to launch the Title Editor. You can also use the "
+#~ "keyboard shortcut :kbd:`Ctrl+T`."
+#~ msgstr ""
+#~ "添加文本和标题是视频编辑的重要方面，OpenShot 配备了易于使用的标题编辑器。使用标题菜单（位于 OpenShot "
+#~ "主菜单中）启动标题编辑器。您也可以使用快捷键 :kbd:`Ctrl+T` 。"

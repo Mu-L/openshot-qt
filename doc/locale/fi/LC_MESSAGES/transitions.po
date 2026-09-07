@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,18 +22,19 @@ msgstr ""
 msgid "Transitions"
 msgstr "Siirtymät"
 
-# Translated with gpt-4.1-mini
 #: ../transitions.rst:25
 msgid ""
-"A transition is used to gradually fade (or wipe) between two clip images. In "
-"OpenShot, transitions are represented by blue, rounded rectangles on the "
-"timeline. They are automatically created when you overlap two clips, and can "
-"be added manually by dragging one onto the timeline from the **Transitions** "
-"panel. A transition must be placed on top of a clip (overlapping it), with "
-"the most common location being the beginning or end of a clip."
+"A transition is used to gradually fade (also called a **cross dissolve** or "
+"**crossfade**) or wipe between two clip images. In OpenShot, transitions are"
+" represented by blue, rounded rectangles on the timeline. They are "
+"automatically created when you overlap two clips, and can be added manually "
+"by dragging one onto the timeline from the **Transitions** panel. A "
+"transition must be placed on top of a clip (overlapping it), with the most "
+"common location being the beginning or end of a clip."
 msgstr ""
-"Siirtymää käytetään kahden leikkeen kuvan asteittaiseen häivyttämiseen (tai "
-"pyyhkimiseen). OpenShotissa siirtymät esitetään sinisinä, pyöristetyinä "
+"Siirtymää käytetään kahden leikkeen kuvan asteittaiseen häivyttämiseen "
+"(kutsutaan myös **ristihäivytykseksi** tai **ristisulautumiseksi**) tai "
+"pyyhkäisyyn. OpenShotissa siirtymät esitetään sinisinä, pyöristetyinä "
 "suorakulmioina aikajanalla. Ne luodaan automaattisesti, kun kaksi leikettä "
 "päällekkäin, ja niitä voi lisätä manuaalisesti vetämällä siirtymä "
 "aikajanalle **Siirtymät**-paneelista. Siirtymä on sijoitettava leikkeen "
@@ -47,8 +48,8 @@ msgid ""
 "property. See :ref:`clip_properties_ref`"
 msgstr ""
 "HUOM: Siirtymät **eivät** vaikuta **ääneen**, joten jos aiot häivyttää "
-"leikkeen äänenvoimakkuutta, sinun on säädettävä ``volume``-"
-"leikeominaisuutta. Katso :ref:`clip_properties_ref`"
+"leikkeen äänenvoimakkuutta, sinun on säädettävä "
+"``volume``-leikeominaisuutta. Katso :ref:`clip_properties_ref`"
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:35
@@ -102,7 +103,8 @@ msgid ""
 "by overlapping the clips (does not affect the audio)"
 msgstr ""
 "Asteittainen häivytyssiirtymä kahden leikkeen kuvan välillä, luodaan "
-"automaattisesti leikkeiden päällekkäin asettamisen avulla (ei vaikuta ääneen)"
+"automaattisesti leikkeiden päällekkäin asettamisen avulla (ei vaikuta "
+"ääneen)"
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:44
@@ -127,8 +129,8 @@ msgstr "Suunta"
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:49
 msgid ""
-"Transitions adjust the alpha/transparency of the overlapping clip image (i."
-"e. the clip under the transition), and can either fade from opaque to "
+"Transitions adjust the alpha/transparency of the overlapping clip image "
+"(i.e. the clip under the transition), and can either fade from opaque to "
 "transparent, or transparent to opaque (does not affect the audio). Right "
 "click and choose :guilabel:`Reverse Transition` to change the direction of "
 "the fade. You can also manually adjust the **Brightness** curve, animating "
@@ -138,8 +140,8 @@ msgstr ""
 "siirtymän alla olevaa leikettä) ja voivat häivyttää läpinäkymättömästä "
 "läpinäkyvään tai päinvastoin (ei vaikuta ääneen). Napsauta hiiren oikealla "
 "ja valitse :guilabel:`Käännä siirtymä` muuttaaksesi häivytyksen suuntaa. "
-"Voit myös säätää manuaalisesti **Kirkkaus**-käyrää animoidaksesi visuaalista "
-"häivytystä haluamallasi tavalla."
+"Voit myös säätää manuaalisesti **Kirkkaus**-käyrää animoidaksesi visuaalista"
+" häivytystä haluamallasi tavalla."
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:56
@@ -149,26 +151,26 @@ msgstr "Läpinäkyvyys"
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:57
 msgid ""
-"If transitions are used on images or videos that contain transparency (*i.e. "
-"alpha channel*) this will result in the original clip disappearing abruptly "
-"(or popping out of existence), since OpenShot's transition system expects "
+"If transitions are used on images or videos that contain transparency (*i.e."
+" alpha channel*) this will result in the original clip disappearing abruptly"
+" (or popping out of existence), since OpenShot's transition system expects "
 "the 2nd clip to fully cover up the first clip. For example, if the 2nd clip "
-"does not fully cover the first clip, a transition might not be the best tool "
-"to use. Instead, you should consider adjusting the ``alpha`` property of the "
-"first clip to make it fade out where needed, see :ref:`clip_properties_ref` "
-"or :ref:`clip_presets_ref`. Alternatively, you can combine a transition and "
-"``alpha`` fade when using transparent clips to more smoothly fade between "
-"then."
+"does not fully cover the first clip, a transition might not be the best tool"
+" to use. Instead, you should consider adjusting the ``alpha`` property of "
+"the first clip to make it fade out where needed, see "
+":ref:`clip_properties_ref` or :ref:`clip_presets_ref`. Alternatively, you "
+"can combine a transition and ``alpha`` fade when using transparent clips to "
+"more smoothly fade between then."
 msgstr ""
-"Jos siirtymiä käytetään kuviin tai videoihin, joissa on läpinäkyvyyttä (*eli "
-"alfa-kanava*), alkuperäinen leike voi kadota äkillisesti (tai hävitä), koska "
-"OpenShotin siirtymäjärjestelmä odottaa toisen leikkeen peittävän ensimmäisen "
-"kokonaan. Esimerkiksi, jos toinen leike ei peitä ensimmäistä kokonaan, "
-"siirtymä ei välttämättä ole paras työkalu. Sen sijaan kannattaa harkita "
-"ensimmäisen leikkeen ``alpha``-ominaisuuden säätämistä häivyttämään sitä "
-"tarvittaessa, katso :ref:`clip_properties_ref` tai :ref:`clip_presets_ref`. "
-"Vaihtoehtoisesti voit yhdistää siirtymän ja ``alpha``-häivytyksen "
-"läpinäkyvien leikkeiden kanssa sujuvampaan siirtymään."
+"Jos siirtymiä käytetään kuviin tai videoihin, joissa on läpinäkyvyyttä (*eli"
+" alfa-kanava*), alkuperäinen leike voi kadota äkillisesti (tai hävitä), "
+"koska OpenShotin siirtymäjärjestelmä odottaa toisen leikkeen peittävän "
+"ensimmäisen kokonaan. Esimerkiksi, jos toinen leike ei peitä ensimmäistä "
+"kokonaan, siirtymä ei välttämättä ole paras työkalu. Sen sijaan kannattaa "
+"harkita ensimmäisen leikkeen ``alpha``-ominaisuuden säätämistä häivyttämään "
+"sitä tarvittaessa, katso :ref:`clip_properties_ref` tai "
+":ref:`clip_presets_ref`. Vaihtoehtoisesti voit yhdistää siirtymän ja "
+"``alpha``-häivytyksen läpinäkyvien leikkeiden kanssa sujuvampaan siirtymään."
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:65
@@ -188,8 +190,8 @@ msgstr ""
 "OpenShotissa on monia helppoja tapoja säätää siirtymän alun ja lopun "
 "trimmauskohtia (eli leikata tai rajata). Yleisin tapa on tarttua siirtymän "
 "vasempaan (tai oikeaan) reunaan ja vetää. Täydellisen oppaan viipalointiin "
-"ja kaikkiin näppäinoikotietoihin löydät kohdista :ref:"
-"`clips_cutting_slicing_ref` ja :ref:`keyboard_shortcut_ref`."
+"ja kaikkiin näppäinoikotietoihin löydät kohdista "
+":ref:`clips_cutting_slicing_ref` ja :ref:`keyboard_shortcut_ref`."
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:71
@@ -200,8 +202,8 @@ msgstr "Maski"
 #: ../transitions.rst:72
 msgid ""
 "In video editing, masks are powerful tools that allow you to selectively "
-"display specific areas of a video clip. Similar to masking in image editing, "
-"video masks define a region where changes will be applied while leaving "
+"display specific areas of a video clip. Similar to masking in image editing,"
+" video masks define a region where changes will be applied while leaving "
 "other parts of the video unaffected."
 msgstr ""
 "Videonmuokkauksessa maskit ovat tehokkaita työkaluja, jotka mahdollistavat "
@@ -234,11 +236,11 @@ msgstr ""
 "Maskit voivat olla animoituja, jolloin voit muuttaa muotoa tai sijaintia "
 "ajan myötä. Tämä mahdollistaa dynaamiset efektit, kuten piilotettujen "
 "elementtien paljastamisen tai siirtymisen eri visuaalisten tilojen välillä. "
-"OpenShotissa voit muuntaa siirtymän maskiksi muokkaamalla :guilabel:"
-"`Kirkkaus`-avainkehyksen käyrää. Staattisen (muuttumattoman) kirkkausarvon "
-"pitäminen säilyttää maskin kiinteän sijainnin. Yhdistä tämä mukautettuihin "
-"siirtymäkuviin tai jopa mukautettuihin kuvajonoihin luodaksesi animoituja, "
-"monimutkaisia maskeja."
+"OpenShotissa voit muuntaa siirtymän maskiksi muokkaamalla "
+":guilabel:`Kirkkaus`-avainkehyksen käyrää. Staattisen (muuttumattoman) "
+"kirkkausarvon pitäminen säilyttää maskin kiinteän sijainnin. Yhdistä tämä "
+"mukautettuihin siirtymäkuviin tai jopa mukautettuihin kuvajonoihin "
+"luodaksesi animoituja, monimutkaisia maskeja."
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:86
@@ -253,9 +255,9 @@ msgid ""
 "something that is easily recognizable, and restart OpenShot. Your custom "
 "transition/mask will now show up in the list of transitions."
 msgstr ""
-"Mitä tahansa harmaasävykuvaa voi käyttää siirtymänä (tai maskina) lisäämällä "
-"sen kansioon ``~/.openshot_qt/transitions/``. Varmista, että tiedoston nimi "
-"on helposti tunnistettava, ja käynnistä OpenShot uudelleen. Mukautettu "
+"Mitä tahansa harmaasävykuvaa voi käyttää siirtymänä (tai maskina) lisäämällä"
+" sen kansioon ``~/.openshot_qt/transitions/``. Varmista, että tiedoston nimi"
+" on helposti tunnistettava, ja käynnistä OpenShot uudelleen. Mukautettu "
 "siirtymäsi/maskisi näkyy nyt siirtymien listassa."
 
 # Translated with gpt-4.1-mini
@@ -269,14 +271,14 @@ msgid ""
 "Below is a list of transition properties which can be edited, and in most "
 "cases, animated over time. To view a transition's properties, right click "
 "and choose :guilabel:`Properties`. The property editor will appear, where "
-"you can change these properties. NOTE: Pay close attention to where the play-"
-"head (i.e. red playback line) is. Key frames are automatically created at "
-"the current playback position, to help create animations."
+"you can change these properties. NOTE: Pay close attention to where the "
+"play-head (i.e. red playback line) is. Key frames are automatically created "
+"at the current playback position, to help create animations."
 msgstr ""
 "Alla on luettelo siirtymän ominaisuuksista, joita voi muokata ja useimmissa "
 "tapauksissa animoida ajan myötä. Näyttääksesi siirtymän ominaisuudet, "
-"napsauta hiiren oikealla ja valitse :guilabel:`Ominaisuudet`. Ominaisuuksien "
-"muokkausikkuna avautuu, jossa voit muuttaa näitä ominaisuuksia. HUOM: "
+"napsauta hiiren oikealla ja valitse :guilabel:`Ominaisuudet`. Ominaisuuksien"
+" muokkausikkuna avautuu, jossa voit muuttaa näitä ominaisuuksia. HUOM: "
 "Kiinnitä huomiota toistopään (eli punaiseen toistolinjaan) sijaintiin. "
 "Avainkehykset luodaan automaattisesti nykyiseen toistokohtaan animaatioiden "
 "luomiseksi."
@@ -284,13 +286,13 @@ msgstr ""
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:98
 msgid ""
-"NOTE: Transitions do not affect audio, so if you are intending to fade in/"
-"out the audio volume of a clip, you must adjust the ``volume`` clip "
+"NOTE: Transitions do not affect audio, so if you are intending to fade "
+"in/out the audio volume of a clip, you must adjust the ``volume`` clip "
 "property. See :ref:`clip_properties_ref`."
 msgstr ""
 "HUOM: Siirtymät eivät vaikuta ääneen, joten jos aiot häivyttää leikkeen "
-"äänenvoimakkuutta, sinun on säädettävä ``volume``-leikeominaisuutta. Katso :"
-"ref:`clip_properties_ref`."
+"äänenvoimakkuutta, sinun on säädettävä ``volume``-leikeominaisuutta. Katso "
+":ref:`clip_properties_ref`."
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:105
@@ -315,11 +317,11 @@ msgstr "Avainkehys"
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:107
 msgid ""
-"Curve representing the brightness of the transition image, which affects the "
-"fade/wipe (-1 to 1)"
+"Curve representing the brightness of the transition image, which affects the"
+" fade/wipe (-1 to 1)"
 msgstr ""
-"Käyrä, joka kuvaa siirtymäkuvan kirkkautta ja vaikuttaa häivytykseen/"
-"pyyhkäisyyn (-1–1)"
+"Käyrä, joka kuvaa siirtymäkuvan kirkkautta ja vaikuttaa "
+"häivytykseen/pyyhkäisyyn (-1–1)"
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:108
@@ -332,17 +334,17 @@ msgid ""
 "Curve representing the contrast of the transition image, which affects the "
 "softness/hardness of the fade/wipe (0 to 20)"
 msgstr ""
-"Käyrä, joka kuvaa siirtymäkuvan kontrastia ja vaikuttaa häivytyksen/"
-"pyyhkäisyn pehmeyteen/kovuutta (0–20)"
+"Käyrä, joka kuvaa siirtymäkuvan kontrastia ja vaikuttaa "
+"häivytyksen/pyyhkäisyn pehmeyteen/kovuutta (0–20)"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:109 ../transitions.rst:120
+#: ../transitions.rst:109 ../transitions.rst:124
 msgid "Duration"
 msgstr "Kesto"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:109 ../transitions.rst:110 ../transitions.rst:113
-#: ../transitions.rst:115
+#: ../transitions.rst:109 ../transitions.rst:110 ../transitions.rst:117
+#: ../transitions.rst:119
 msgid "Float"
 msgstr "Liukuluku"
 
@@ -352,7 +354,7 @@ msgid "The length of the transition (in seconds). Read-only property."
 msgstr "Siirtymän pituus (sekunteina). Vain luku -ominaisuus."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:110 ../transitions.rst:128
+#: ../transitions.rst:110 ../transitions.rst:132
 msgid "End"
 msgstr "Loppu"
 
@@ -362,12 +364,12 @@ msgid "The end trimming position of the transition (in seconds)."
 msgstr "Siirtymän lopun rajauskohta (sekunteina)."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:111 ../transitions.rst:136
+#: ../transitions.rst:111 ../transitions.rst:140
 msgid "ID"
 msgstr "Tunnus"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:111 ../transitions.rst:112
+#: ../transitions.rst:111 ../transitions.rst:116
 msgid "String"
 msgstr "Merkkijono"
 
@@ -380,13 +382,69 @@ msgstr ""
 "Satunnaisesti luotu GUID (globaalisti yksilöllinen tunniste), joka on "
 "annettu jokaiselle siirtymälle. Vain luku -ominaisuus."
 
-# Translated with gpt-4.1-mini
 #: ../transitions.rst:112
+msgid "Mask: Invert"
+msgstr "Maski: Käännä"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:112 ../transitions.rst:113 ../transitions.rst:118
+msgid "Bool"
+msgstr "Totuusarvo"
+
+#: ../transitions.rst:112
+msgid ""
+"Invert the mask source so light areas become dark and dark areas become "
+"light."
+msgstr ""
+"Käännä maskin lähde niin, että vaaleat alueet muuttuvat tummiksi ja tummat "
+"alueet vaaleiksi."
+
+#: ../transitions.rst:113
+msgid "Mask: Loop"
+msgstr "Maski: Silmukka"
+
+#: ../transitions.rst:113
+msgid ""
+"Loop an animated mask source when the transition is longer than the source."
+msgstr ""
+"Toista animoitu maskin lähde silmukkana, kun siirtymä on pidempi kuin lähde."
+
+#: ../transitions.rst:114
+msgid "Mask: Source"
+msgstr "Maski: Lähde"
+
+#: ../transitions.rst:114
+msgid "Reader"
+msgstr "Lukija"
+
+#: ../transitions.rst:114
+msgid ""
+"The image, image sequence, or video used as the transition's grayscale mask "
+"source."
+msgstr ""
+"Kuva, kuvasarja tai video, jota käytetään siirtymän harmaasävyisenä maskin "
+"lähteenä."
+
+#: ../transitions.rst:115
+msgid "Mask: Time Mode"
+msgstr "Maski: Aikamuoto"
+
+#: ../transitions.rst:115
+msgid "Enum"
+msgstr "Luettelo"
+
+#: ../transitions.rst:115
+msgid "Controls how OpenShot maps transition time to an animated mask source."
+msgstr ""
+"Ohjaa, miten OpenShot yhdistää siirtymän ajan animoituun maskin lähteeseen."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:116
 msgid "Parent"
 msgstr "Ylätaso"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:112
+#: ../transitions.rst:116
 msgid ""
 "The parent object to this transition, which makes many of these keyframe "
 "values initialize to the parent value."
@@ -395,27 +453,22 @@ msgstr ""
 "arvot alkamaan ylätason arvoista."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:113
+#: ../transitions.rst:117
 msgid "Position"
 msgstr "Sijainti"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:113
+#: ../transitions.rst:117
 msgid "The position of the transition on the timeline (in seconds)."
 msgstr "Siirtymän sijainti aikajanalla (sekunteina)."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:114
+#: ../transitions.rst:118
 msgid "Replace Image"
 msgstr "Korvaa kuva"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:114
-msgid "Bool"
-msgstr "Totuusarvo"
-
-# Translated with gpt-4.1-mini
-#: ../transitions.rst:114
+#: ../transitions.rst:118
 msgid ""
 "For debugging a problem, this property displays the transition image "
 "(instead of becoming a transparency)."
@@ -424,27 +477,27 @@ msgstr ""
 "että siitä tulisi läpinäkyvyys)."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:115
+#: ../transitions.rst:119
 msgid "Start"
 msgstr "Alku"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:115
+#: ../transitions.rst:119
 msgid "The start trimming position of the transition (in seconds)."
 msgstr "Siirtymän alun rajauskohta (sekunteina)."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:116 ../transitions.rst:144
+#: ../transitions.rst:120 ../transitions.rst:158
 msgid "Track"
 msgstr "Raita"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:116
+#: ../transitions.rst:120
 msgid "Int"
 msgstr "Kokonaisluku"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:116
+#: ../transitions.rst:120
 msgid ""
 "The layer which holds the transition (higher tracks are rendered on top of "
 "lower tracks)."
@@ -453,20 +506,20 @@ msgstr ""
 "päälle)."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:121
+#: ../transitions.rst:125
 msgid ""
 "The :guilabel:`Duration` property is a float value indicating the length of "
 "the transition in seconds. This is a Read-only property. This is calculated "
-"by: End - Start. To modify duration, you must edit the :guilabel:`Start` and/"
-"or :guilabel:`End` transition properties."
+"by: End - Start. To modify duration, you must edit the :guilabel:`Start` "
+"and/or :guilabel:`End` transition properties."
 msgstr ""
 ":guilabel:`Kesto`-ominaisuus on liukuluku, joka ilmaisee siirtymän pituuden "
 "sekunteina. Tämä on vain luku -ominaisuus. Se lasketaan kaavalla: Loppu - "
-"Alku. Keston muuttamiseksi sinun on muokattava :guilabel:`Alku`- ja/tai :"
-"guilabel:`Loppu`-siirtymäominaisuuksia."
+"Alku. Keston muuttamiseksi sinun on muokattava :guilabel:`Alku`- ja/tai "
+":guilabel:`Loppu`-siirtymäominaisuuksia."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:124
+#: ../transitions.rst:128
 msgid ""
 "**Usage Example:** Inspect the duration of a transition to ensure it fits a "
 "specific time slot in the project."
@@ -475,7 +528,7 @@ msgstr ""
 "tiettyyn aikaväliin projektissa."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:125
+#: ../transitions.rst:129
 msgid ""
 "**Tip:** Consider using the \"Duration\" property for transitions that need "
 "to match specific time intervals, such as dialogue or scenes."
@@ -484,20 +537,20 @@ msgstr ""
 "tarvitsevat sopia tiettyihin aikaväleihin, kuten dialogiin tai kohtauksiin."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:129
+#: ../transitions.rst:133
 msgid ""
 "The :guilabel:`End` property defines the trimming point at the end of the "
-"transition in seconds, allowing you to control how much of the transition is "
-"visible in the timeline. Changing this property will impact the :guilabel:"
-"`Duration` transition property."
+"transition in seconds, allowing you to control how much of the transition is"
+" visible in the timeline. Changing this property will impact the "
+":guilabel:`Duration` transition property."
 msgstr ""
 ":guilabel:`Loppu`-ominaisuus määrittää siirtymän lopun rajauskohdan "
 "sekunteina, jolloin voit hallita, kuinka paljon siirtymästä näkyy "
-"aikajanalla. Tämän ominaisuuden muuttaminen vaikuttaa :guilabel:`Kesto`-"
-"ominaisuuteen."
+"aikajanalla. Tämän ominaisuuden muuttaminen vaikuttaa "
+":guilabel:`Kesto`-ominaisuuteen."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:132
+#: ../transitions.rst:136
 msgid ""
 "**Usage Example:** Trimming the end of a transition to align with another "
 "clip or trimming off unwanted sections of the transition."
@@ -506,7 +559,7 @@ msgstr ""
 "kanssa tai ei-toivottujen osien poistaminen siirtymästä."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:133
+#: ../transitions.rst:137
 msgid ""
 "**Tip:** Combine the \"Start\" and \"End\" properties to precisely control "
 "the visible portion of the transition."
@@ -515,11 +568,11 @@ msgstr ""
 "tarkasti siirtymän näkyvää osaa."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:137
+#: ../transitions.rst:141
 msgid ""
-"The :guilabel:`ID` property holds a randomly generated GUID (Globally Unique "
-"Identifier) assigned to each transition, ensuring its uniqueness. This is a "
-"Read-only property, and assigned by OpenShot when a transition is created."
+"The :guilabel:`ID` property holds a randomly generated GUID (Globally Unique"
+" Identifier) assigned to each transition, ensuring its uniqueness. This is a"
+" Read-only property, and assigned by OpenShot when a transition is created."
 msgstr ""
 ":guilabel:`Tunnus`-ominaisuus sisältää satunnaisesti luodun GUIDin "
 "(globaalisti yksilöllisen tunnisteen), joka on annettu jokaiselle "
@@ -527,36 +580,71 @@ msgstr ""
 "jonka OpenShot määrittää siirtymää luotaessa."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:140
+#: ../transitions.rst:144
 msgid ""
-"**Usage Example:** Referencing specific transitions within custom scripts or "
-"automation tasks."
+"**Usage Example:** Referencing specific transitions within custom scripts or"
+" automation tasks."
 msgstr ""
 "**Käyttöesimerkki:** Viittaaminen tiettyihin siirtymiin mukautetuissa "
 "skripteissä tai automaatiotehtävissä."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:141
+#: ../transitions.rst:145
 msgid ""
-"**Tip:** While typically managed behind the scenes, understanding transition "
-"IDs can aid in advanced project customization."
+"**Tip:** While typically managed behind the scenes, understanding transition"
+" IDs can aid in advanced project customization."
 msgstr ""
 "**Vinkki:** Vaikka siirtymien tunnuksia hallitaan yleensä taustalla, niiden "
 "ymmärtäminen voi auttaa edistyneessä projektin mukauttamisessa."
 
+#: ../transitions.rst:148
+msgid "Mask Properties"
+msgstr "Maskin ominaisuudet"
+
+#: ../transitions.rst:149
+msgid ""
+"The :guilabel:`Mask: Source`, :guilabel:`Mask: Time Mode`, :guilabel:`Mask: "
+"Loop`, and :guilabel:`Mask: Invert` properties control the grayscale mask "
+"used by a transition. Static masks use a single image. Animated masks can "
+"use video or image sequences, with time mapping and looping options "
+"determining which source frame is used at each point in the transition."
+msgstr ""
+":guilabel:`Maski: Lähde`, :guilabel:`Maski: Aikamuoto`, :guilabel:`Maski: "
+"Silmukka` ja :guilabel:`Maski: Käännä` -ominaisuudet ohjaavat siirtymässä "
+"käytettävää harmaasävyistä maskia. Staattiset maskit käyttävät yhtä kuvaa. "
+"Animoidut maskit voivat käyttää videota tai kuvasarjoja, ja aikakartoitus "
+"sekä silmukkavaihtoehdot määrittävät, mitä lähdekehystä käytetään siirtymän "
+"kussakin kohdassa."
+
+#: ../transitions.rst:154
+msgid ""
+"**Usage Example:** Use :guilabel:`Mask: Invert` when the visible and hidden "
+"areas of a custom mask are reversed."
+msgstr ""
+"**Käyttöesimerkki:** Käytä :guilabel:`Maski: Käännä`, kun mukautetun maskin "
+"näkyvät ja piilotetut alueet ovat päinvastoin."
+
+#: ../transitions.rst:155
+msgid ""
+"**Tip:** When using an animated mask, trim the mask source carefully before "
+"enabling loop behavior."
+msgstr ""
+"**Vinkki:** Kun käytät animoitua maskia, rajaa maskin lähde huolellisesti "
+"ennen silmukkatoiminnon käyttöönottoa."
+
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:145
+#: ../transitions.rst:159
 msgid ""
 "The :guilabel:`Track` property is an integer indicating the layer on which "
 "the transition is placed. Transitions on higher tracks are rendered above "
 "those on lower tracks."
 msgstr ""
-":guilabel:`Raita`-ominaisuus on kokonaisluku, joka ilmaisee kerroksen, johon "
-"siirtymä on sijoitettu. Korkeammilla raidoilla olevat siirtymät piirretään "
+":guilabel:`Raita`-ominaisuus on kokonaisluku, joka ilmaisee kerroksen, johon"
+" siirtymä on sijoitettu. Korkeammilla raidoilla olevat siirtymät piirretään "
 "alempien päälle."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:148
+#: ../transitions.rst:162
 msgid ""
 "**Usage Example:** Arranging transitions in different layers for creating "
 "visual depth and complexity."
@@ -565,10 +653,27 @@ msgstr ""
 "syvyyden ja monimutkaisuuden luomiseksi."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:149
+#: ../transitions.rst:163
 msgid ""
 "**Tip:** Use higher tracks for elements that need to appear above others, "
 "like text overlays or graphics."
 msgstr ""
 "**Vinkki:** Käytä korkeampia raitoja elementeille, jotka tarvitsevat näkyä "
 "muiden päällä, kuten tekstin päällekkäiset kerrokset tai grafiikat."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "A transition is used to gradually fade (or wipe) between two clip images. In"
+#~ " OpenShot, transitions are represented by blue, rounded rectangles on the "
+#~ "timeline. They are automatically created when you overlap two clips, and can"
+#~ " be added manually by dragging one onto the timeline from the "
+#~ "**Transitions** panel. A transition must be placed on top of a clip "
+#~ "(overlapping it), with the most common location being the beginning or end "
+#~ "of a clip."
+#~ msgstr ""
+#~ "Siirtymää käytetään kahden leikkeen kuvan asteittaiseen häivyttämiseen (tai "
+#~ "pyyhkimiseen). OpenShotissa siirtymät esitetään sinisinä, pyöristetyinä "
+#~ "suorakulmioina aikajanalla. Ne luodaan automaattisesti, kun kaksi leikettä "
+#~ "päällekkäin, ja niitä voi lisätä manuaalisesti vetämällä siirtymä "
+#~ "aikajanalle **Siirtymät**-paneelista. Siirtymä on sijoitettava leikkeen "
+#~ "päälle (päällekkäin), yleisimmin leikkeen alkuun tai loppuun."

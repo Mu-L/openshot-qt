@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenShot Video Editor 3.5\n"
+"Project-Id-Version: OpenShot Video Editor 4.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgid "Transitions"
 msgstr ""
 
 #: ../transitions.rst:25
-msgid "A transition is used to gradually fade (or wipe) between two clip images. In OpenShot, transitions are represented by blue, rounded rectangles on the timeline. They are automatically created when you overlap two clips, and can be added manually by dragging one onto the timeline from the **Transitions** panel. A transition must be placed on top of a clip (overlapping it), with the most common location being the beginning or end of a clip."
+msgid "A transition is used to gradually fade (also called a **cross dissolve** or **crossfade**) or wipe between two clip images. In OpenShot, transitions are represented by blue, rounded rectangles on the timeline. They are automatically created when you overlap two clips, and can be added manually by dragging one onto the timeline from the **Transitions** panel. A transition must be placed on top of a clip (overlapping it), with the most common location being the beginning or end of a clip."
 msgstr ""
 
 #: ../transitions.rst:31
@@ -171,14 +171,14 @@ msgid "Curve representing the contrast of the transition image, which affects th
 msgstr ""
 
 #: ../transitions.rst:109
-#: ../transitions.rst:120
+#: ../transitions.rst:124
 msgid "Duration"
 msgstr ""
 
 #: ../transitions.rst:109
 #: ../transitions.rst:110
-#: ../transitions.rst:113
-#: ../transitions.rst:115
+#: ../transitions.rst:117
+#: ../transitions.rst:119
 msgid "Float"
 msgstr ""
 
@@ -187,7 +187,7 @@ msgid "The length of the transition (in seconds). Read-only property."
 msgstr ""
 
 #: ../transitions.rst:110
-#: ../transitions.rst:128
+#: ../transitions.rst:132
 msgid "End"
 msgstr ""
 
@@ -196,12 +196,12 @@ msgid "The end trimming position of the transition (in seconds)."
 msgstr ""
 
 #: ../transitions.rst:111
-#: ../transitions.rst:136
+#: ../transitions.rst:140
 msgid "ID"
 msgstr ""
 
 #: ../transitions.rst:111
-#: ../transitions.rst:112
+#: ../transitions.rst:116
 msgid "String"
 msgstr ""
 
@@ -210,98 +210,156 @@ msgid "A randomly generated GUID (globally unique identifier) assigned to each t
 msgstr ""
 
 #: ../transitions.rst:112
-msgid "Parent"
+msgid "Mask: Invert"
 msgstr ""
 
 #: ../transitions.rst:112
-msgid "The parent object to this transition, which makes many of these keyframe values initialize to the parent value."
-msgstr ""
-
 #: ../transitions.rst:113
-msgid "Position"
-msgstr ""
-
-#: ../transitions.rst:113
-msgid "The position of the transition on the timeline (in seconds)."
-msgstr ""
-
-#: ../transitions.rst:114
-msgid "Replace Image"
-msgstr ""
-
-#: ../transitions.rst:114
+#: ../transitions.rst:118
 msgid "Bool"
 msgstr ""
 
+#: ../transitions.rst:112
+msgid "Invert the mask source so light areas become dark and dark areas become light."
+msgstr ""
+
+#: ../transitions.rst:113
+msgid "Mask: Loop"
+msgstr ""
+
+#: ../transitions.rst:113
+msgid "Loop an animated mask source when the transition is longer than the source."
+msgstr ""
+
 #: ../transitions.rst:114
+msgid "Mask: Source"
+msgstr ""
+
+#: ../transitions.rst:114
+msgid "Reader"
+msgstr ""
+
+#: ../transitions.rst:114
+msgid "The image, image sequence, or video used as the transition's grayscale mask source."
+msgstr ""
+
+#: ../transitions.rst:115
+msgid "Mask: Time Mode"
+msgstr ""
+
+#: ../transitions.rst:115
+msgid "Enum"
+msgstr ""
+
+#: ../transitions.rst:115
+msgid "Controls how OpenShot maps transition time to an animated mask source."
+msgstr ""
+
+#: ../transitions.rst:116
+msgid "Parent"
+msgstr ""
+
+#: ../transitions.rst:116
+msgid "The parent object to this transition, which makes many of these keyframe values initialize to the parent value."
+msgstr ""
+
+#: ../transitions.rst:117
+msgid "Position"
+msgstr ""
+
+#: ../transitions.rst:117
+msgid "The position of the transition on the timeline (in seconds)."
+msgstr ""
+
+#: ../transitions.rst:118
+msgid "Replace Image"
+msgstr ""
+
+#: ../transitions.rst:118
 msgid "For debugging a problem, this property displays the transition image (instead of becoming a transparency)."
 msgstr ""
 
-#: ../transitions.rst:115
+#: ../transitions.rst:119
 msgid "Start"
 msgstr ""
 
-#: ../transitions.rst:115
+#: ../transitions.rst:119
 msgid "The start trimming position of the transition (in seconds)."
 msgstr ""
 
-#: ../transitions.rst:116
-#: ../transitions.rst:144
+#: ../transitions.rst:120
+#: ../transitions.rst:158
 msgid "Track"
 msgstr ""
 
-#: ../transitions.rst:116
+#: ../transitions.rst:120
 msgid "Int"
 msgstr ""
 
-#: ../transitions.rst:116
+#: ../transitions.rst:120
 msgid "The layer which holds the transition (higher tracks are rendered on top of lower tracks)."
 msgstr ""
 
-#: ../transitions.rst:121
+#: ../transitions.rst:125
 msgid "The :guilabel:`Duration` property is a float value indicating the length of the transition in seconds. This is a Read-only property. This is calculated by: End - Start. To modify duration, you must edit the :guilabel:`Start` and/or :guilabel:`End` transition properties."
 msgstr ""
 
-#: ../transitions.rst:124
+#: ../transitions.rst:128
 msgid "**Usage Example:** Inspect the duration of a transition to ensure it fits a specific time slot in the project."
 msgstr ""
 
-#: ../transitions.rst:125
+#: ../transitions.rst:129
 msgid "**Tip:** Consider using the \"Duration\" property for transitions that need to match specific time intervals, such as dialogue or scenes."
 msgstr ""
 
-#: ../transitions.rst:129
+#: ../transitions.rst:133
 msgid "The :guilabel:`End` property defines the trimming point at the end of the transition in seconds, allowing you to control how much of the transition is visible in the timeline. Changing this property will impact the :guilabel:`Duration` transition property."
 msgstr ""
 
-#: ../transitions.rst:132
+#: ../transitions.rst:136
 msgid "**Usage Example:** Trimming the end of a transition to align with another clip or trimming off unwanted sections of the transition."
 msgstr ""
 
-#: ../transitions.rst:133
+#: ../transitions.rst:137
 msgid "**Tip:** Combine the \"Start\" and \"End\" properties to precisely control the visible portion of the transition."
 msgstr ""
 
-#: ../transitions.rst:137
+#: ../transitions.rst:141
 msgid "The :guilabel:`ID` property holds a randomly generated GUID (Globally Unique Identifier) assigned to each transition, ensuring its uniqueness. This is a Read-only property, and assigned by OpenShot when a transition is created."
 msgstr ""
 
-#: ../transitions.rst:140
+#: ../transitions.rst:144
 msgid "**Usage Example:** Referencing specific transitions within custom scripts or automation tasks."
 msgstr ""
 
-#: ../transitions.rst:141
+#: ../transitions.rst:145
 msgid "**Tip:** While typically managed behind the scenes, understanding transition IDs can aid in advanced project customization."
 msgstr ""
 
-#: ../transitions.rst:145
-msgid "The :guilabel:`Track` property is an integer indicating the layer on which the transition is placed. Transitions on higher tracks are rendered above those on lower tracks."
-msgstr ""
-
 #: ../transitions.rst:148
-msgid "**Usage Example:** Arranging transitions in different layers for creating visual depth and complexity."
+msgid "Mask Properties"
 msgstr ""
 
 #: ../transitions.rst:149
+msgid "The :guilabel:`Mask: Source`, :guilabel:`Mask: Time Mode`, :guilabel:`Mask: Loop`, and :guilabel:`Mask: Invert` properties control the grayscale mask used by a transition. Static masks use a single image. Animated masks can use video or image sequences, with time mapping and looping options determining which source frame is used at each point in the transition."
+msgstr ""
+
+#: ../transitions.rst:154
+msgid "**Usage Example:** Use :guilabel:`Mask: Invert` when the visible and hidden areas of a custom mask are reversed."
+msgstr ""
+
+#: ../transitions.rst:155
+msgid "**Tip:** When using an animated mask, trim the mask source carefully before enabling loop behavior."
+msgstr ""
+
+#: ../transitions.rst:159
+msgid "The :guilabel:`Track` property is an integer indicating the layer on which the transition is placed. Transitions on higher tracks are rendered above those on lower tracks."
+msgstr ""
+
+#: ../transitions.rst:162
+msgid "**Usage Example:** Arranging transitions in different layers for creating visual depth and complexity."
+msgstr ""
+
+#: ../transitions.rst:163
 msgid "**Tip:** Use higher tracks for elements that need to appear above others, like text overlays or graphics."
 msgstr ""

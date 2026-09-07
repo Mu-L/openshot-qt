@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,8 +81,8 @@ msgstr "Calculator"
 # Translated with gpt-4.1-mini
 #: ../getting_started.rst:42
 msgid ""
-"Video editing does not require an expensive machine, especially if you are a "
-"beginner. However, it would be best if you had a more recent monitor and "
+"Video editing does not require an expensive machine, especially if you are a"
+" beginner. However, it would be best if you had a more recent monitor and "
 "graphics card. If you have an older computer, check your system "
 "specifications against OpenShot's :ref:`min_system_req_ref` to make sure it "
 "works for video editing. Unfortunately, many older computers are not fast "
@@ -91,9 +91,9 @@ msgid ""
 msgstr ""
 "Editarea video nu necesită o mașină scumpă, mai ales dacă ești începător. "
 "Totuși, ar fi bine să ai un monitor și o placă grafică mai recente. Dacă ai "
-"un calculator mai vechi, verifică specificațiile sistemului tău în raport cu "
-"cerințele minime ale OpenShot :ref:`min_system_req_ref` pentru a te asigura "
-"că funcționează pentru editare video. Din păcate, multe calculatoare vechi "
+"un calculator mai vechi, verifică specificațiile sistemului tău în raport cu"
+" cerințele minime ale OpenShot :ref:`min_system_req_ref` pentru a te asigura"
+" că funcționează pentru editare video. Din păcate, multe calculatoare vechi "
 "nu sunt suficient de rapide pentru editare video și ar trebui să-ți "
 "actualizezi întregul sistem, dacă este posibil."
 
@@ -112,21 +112,21 @@ msgid ""
 "clips, the solution is to buy an external drive."
 msgstr ""
 "Înainte de a începe un proiect video, asigură-te că ai suficient spațiu de "
-"stocare pe calculator pentru a salva toate clipurile necesare. De exemplu, o "
-"oră de video 1080i, cum ar fi de la o cameră mini-DV, ocupă aproape 11 GB de "
-"spațiu. Dacă dispozitivul intern de stocare al calculatorului tău nu poate "
-"stoca toate clipurile, soluția este să cumperi un hard disk extern."
+"stocare pe calculator pentru a salva toate clipurile necesare. De exemplu, o"
+" oră de video 1080i, cum ar fi de la o cameră mini-DV, ocupă aproape 11 GB "
+"de spațiu. Dacă dispozitivul intern de stocare al calculatorului tău nu "
+"poate stoca toate clipurile, soluția este să cumperi un hard disk extern."
 
 # Translated with gpt-4.1-mini
 #: ../getting_started.rst:57
 msgid ""
-"It would help if you had several cables, usually Firewire or USB, to connect "
-"your computer, external hard drive, and a camera. Different computers and "
+"It would help if you had several cables, usually Firewire or USB, to connect"
+" your computer, external hard drive, and a camera. Different computers and "
 "cameras accept other connectors, so check your manuals before buying "
 "anything."
 msgstr ""
-"Ai nevoie de mai multe cabluri, de obicei Firewire sau USB, pentru a conecta "
-"calculatorul, hard disk-ul extern și o cameră. Diferite calculatoare și "
+"Ai nevoie de mai multe cabluri, de obicei Firewire sau USB, pentru a conecta"
+" calculatorul, hard disk-ul extern și o cameră. Diferite calculatoare și "
 "camere acceptă conectori diferiți, așa că verifică manualele înainte de a "
 "cumpăra ceva."
 
@@ -173,30 +173,36 @@ msgstr ""
 msgid "Keep Shooting"
 msgstr "Continuă Să Filmezi"
 
-# Translated with gpt-4.1-mini
 #: ../getting_started.rst:78
 msgid ""
 "Record more video and audio than you think you will need for your project. "
 "Include video that enhances the scene, sets a mood, or tells a story. You "
 "can use the extra video for smooth transitions in your project. If your "
-"project requires voice overs or narration, we suggest using an external "
-"application to record your microphone (since OpenShot does not include any "
-"recording capabilities yet)."
+"project requires voice overs, narration, screen capture, or webcam footage, "
+"you can use :guilabel:`View->Recording View` to open OpenShot's recording "
+"tools. For more details, including microphone, system audio, screen, and "
+"webcam options, see :ref:`recording_ref`. For more specialized capture "
+"workflows, you can still record with an external application and import the "
+"finished media into OpenShot."
 msgstr ""
 "Înregistrează mai mult video și audio decât crezi că vei avea nevoie pentru "
 "proiectul tău. Include video care îmbunătățește scena, creează o atmosferă "
-"sau spune o poveste. Poți folosi materialul suplimentar pentru tranziții "
-"fluide în proiectul tău. Dacă proiectul tău necesită voice-over sau "
-"narațiune, îți sugerăm să folosești o aplicație externă pentru a înregistra "
-"microfonul (deoarece OpenShot nu include încă capabilități de înregistrare)."
+"sau spune o poveste. Poți folosi video suplimentar pentru tranziții line în "
+"proiectul tău. Dacă proiectul tău necesită voice over, narațiune, captură de"
+" ecran sau filmări de la webcam, poți folosi :guilabel:`View->Recording "
+"View` pentru a deschide uneltele de înregistrare ale OpenShot. Pentru mai "
+"multe detalii, inclusiv opțiuni pentru microfon, audio de sistem, ecran și "
+"webcam, vezi :ref:`recording_ref`. Pentru fluxuri de lucru de captură mai "
+"specializate, poți în continuare să înregistrezi cu o aplicație externă și "
+"să imporți media finalizată în OpenShot."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:85
+#: ../getting_started.rst:88
 msgid "Organize Your Project Files"
 msgstr "Organizează Fișierele Proiectului"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:86
+#: ../getting_started.rst:89
 msgid ""
 "Composition is the key to success, whether you are running Linux, on a Mac, "
 "or a Windows machine. Be sure to label video files, audio files, and even "
@@ -208,18 +214,18 @@ msgstr ""
 "Compoziția este cheia succesului, indiferent dacă folosești Linux, Mac sau "
 "Windows. Asigură-te că etichetezi clar fișierele video, audio și chiar "
 "imaginile statice și păstrează toate clipurile pe același dispozitiv și în "
-"același folder pentru acces facil. OpenShot încearcă să urmărească clipurile "
-"tale, dar dacă le muți după ce proiectul este salvat, poți pierde întregul "
+"același folder pentru acces facil. OpenShot încearcă să urmărească clipurile"
+" tale, dar dacă le muți după ce proiectul este salvat, poți pierde întregul "
 "proiect. Organizarea înainte de a începe editarea poate fi foarte "
 "avantajoasă."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:95
+#: ../getting_started.rst:98
 msgid "Watch Everything"
 msgstr "Urmărește Totul"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:96
+#: ../getting_started.rst:99
 msgid ""
 "Watching everything is the first step in the editing process. Writer and "
 "filmmaker David Andrew Stoler says there is gold in the most unlikely of "
@@ -232,30 +238,31 @@ msgstr ""
 "obține de la actori sunt după tăietură.”"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:102
+#: ../getting_started.rst:105
 msgid "Edit for a Story"
 msgstr "Editează pentru o Poveste"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:103
+#: ../getting_started.rst:106
 msgid ""
 "Remember that as you edit, you are telling a story. Editing is so much more "
-"than merely cutting footage and adding effects. It is an opportunity to take "
-"your audience on a journey. Whether you are editing a complex narrative film "
-"or only putting together a personal video, you tell a more in-depth story."
+"than merely cutting footage and adding effects. It is an opportunity to take"
+" your audience on a journey. Whether you are editing a complex narrative "
+"film or only putting together a personal video, you tell a more in-depth "
+"story."
 msgstr ""
 "Amintește-ți că, pe măsură ce editezi, spui o poveste. Editarea este mult "
 "mai mult decât tăierea materialului și adăugarea de efecte. Este o "
-"oportunitate de a-ți purta publicul într-o călătorie. Fie că editezi un film "
-"narativ complex sau doar un video personal, spui o poveste mai profundă."
+"oportunitate de a-ți purta publicul într-o călătorie. Fie că editezi un film"
+" narativ complex sau doar un video personal, spui o poveste mai profundă."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:110
+#: ../getting_started.rst:113
 msgid "Keyboard Shortcuts"
 msgstr "Comenzi Rapide de Tastatură"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:111
+#: ../getting_started.rst:114
 msgid ""
 "One of the easiest ways to tell the difference between and professional "
 "video editor and a novice is to simply look at how much they use the "
@@ -264,16 +271,16 @@ msgid ""
 msgstr ""
 "Unul dintre cele mai simple moduri de a diferenția un editor video "
 "profesionist de un novice este să te uiți cât de mult folosește tastatura. "
-"Editorii cu experiență știu că câteva secunde economisite se adună pe durata "
-"proiectului."
+"Editorii cu experiență știu că câteva secunde economisite se adună pe durata"
+" proiectului."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:117
+#: ../getting_started.rst:120
 msgid "Learn the Lingo"
 msgstr "Învață Terminologia"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:118
+#: ../getting_started.rst:121
 msgid ""
 "Video editing is not just a hobby or a profession; it is an industry. And "
 "just like any industry, there is a ton of jargon to learn. Practically "
@@ -288,34 +295,34 @@ msgstr ""
 "ajuta să comunici mai bine cu alți editori video sau clienți."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:126
+#: ../getting_started.rst:129
 msgid "Assemble, Then Make a Rough Cut"
 msgstr "Asamblează, apoi fă o tăietură brută"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:127
+#: ../getting_started.rst:130
 msgid ""
 "Drag and drop all your video footage into a timeline and make sure your "
-"frame size and frame rates are consistent. Begin a new timeline and drag-and-"
-"drop the best clips into what becomes your assembly cut. Remember to save "
-"your work frequently, and notate the date and time of each version."
+"frame size and frame rates are consistent. Begin a new timeline and drag-"
+"and-drop the best clips into what becomes your assembly cut. Remember to "
+"save your work frequently, and notate the date and time of each version."
 msgstr ""
-"Tragează și plasează toate materialele video într-o cronologie și asigură-te "
-"că dimensiunea și rata cadrelor sunt consistente. Începe o cronologie nouă "
+"Tragează și plasează toate materialele video într-o cronologie și asigură-te"
+" că dimensiunea și rata cadrelor sunt consistente. Începe o cronologie nouă "
 "și trage cele mai bune clipuri în ceea ce va deveni montajul tău. Amintește-"
 "ți să salvezi frecvent și să notezi data și ora fiecărei versiuni."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:133
+#: ../getting_started.rst:136
 msgid "Refine Your Video"
 msgstr "Perfecționează-ți videoclipul"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:134
+#: ../getting_started.rst:137
 msgid ""
 "In this phase, your rough cut begins to resemble a cohesive project. Adjust "
-"the sound and color, make sure the dialog is audible, and add music, titles, "
-"or graphics in this phase. Color correction is the process of setting your "
+"the sound and color, make sure the dialog is audible, and add music, titles,"
+" or graphics in this phase. Color correction is the process of setting your "
 "footage to a color baseline. No matter how great your subject looks on set, "
 "you will almost always need to do some basic post-processing for a "
 "consistent video."
@@ -328,32 +335,32 @@ msgstr ""
 "procesare de bază pentru un videoclip consistent."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:142
+#: ../getting_started.rst:145
 msgid "Refine Some More"
 msgstr "Perfecționează și mai mult"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:143
+#: ../getting_started.rst:146
 msgid ""
 "A slow scene can set the mood and add tension or it can bore an audience. A "
-"fast scene can add adrenaline to your audience’s systems or it can give them "
-"headaches. Some editors cut their projects several different ways before "
+"fast scene can add adrenaline to your audience’s systems or it can give them"
+" headaches. Some editors cut their projects several different ways before "
 "they find the right pace. Do not let cutting your project several times "
 "discourage you."
 msgstr ""
 "O scenă lentă poate crea atmosfera și adăuga tensiune sau poate plictisi "
-"publicul. O scenă rapidă poate stimula adrenalina spectatorilor sau le poate "
-"provoca dureri de cap. Unii editori își taie proiectele în mai multe moduri "
-"înainte să găsească ritmul potrivit. Nu lăsa să te descurajeze faptul că tai "
-"proiectul de mai multe ori."
+"publicul. O scenă rapidă poate stimula adrenalina spectatorilor sau le poate"
+" provoca dureri de cap. Unii editori își taie proiectele în mai multe moduri"
+" înainte să găsească ritmul potrivit. Nu lăsa să te descurajeze faptul că "
+"tai proiectul de mai multe ori."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:150
+#: ../getting_started.rst:153
 msgid "Exporting"
 msgstr "Exportare"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:151
+#: ../getting_started.rst:154
 msgid ""
 "People view most of their projects on phones, tablets, or computers, so it "
 "is essential to know how to export for the web. The goal when exporting a "
@@ -362,18 +369,18 @@ msgid ""
 "finished video:"
 msgstr ""
 "Majoritatea oamenilor vizionează proiectele pe telefoane, tablete sau "
-"calculatoare, așa că este esențial să știi cum să exporți pentru web. Scopul "
-"exportului unui videoclip pentru web este să creezi cea mai bună calitate "
+"calculatoare, așa că este esențial să știi cum să exporți pentru web. Scopul"
+" exportului unui videoclip pentru web este să creezi cea mai bună calitate "
 "posibilă cu cel mai mic fișier. Patru factori principali determină "
 "dimensiunea fișierului videoclipului final:"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:157
+#: ../getting_started.rst:160
 msgid "Codec"
 msgstr "Codec"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:158
+#: ../getting_started.rst:161
 msgid ""
 "A codec determines the type of file format (MP4, AVI, MOV). The more "
 "compression performed by the codec, the smaller your video’s size. Videos "
@@ -385,12 +392,12 @@ msgstr ""
 "mai scăzută."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:163
+#: ../getting_started.rst:166
 msgid "Resolution"
 msgstr "Rezoluție"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:164
+#: ../getting_started.rst:167
 msgid ""
 "Resolution refers to the number of horizontal and vertical pixels (dots on "
 "display) your video contains. For example, a 4K UHD (2160P) video has four "
@@ -400,54 +407,54 @@ msgstr ""
 "Rezoluția se referă la numărul de pixeli orizontali și verticali (puncte pe "
 "ecran) pe care îi conține videoclipul tău. De exemplu, un videoclip 4K UHD "
 "(2160P) are de patru ori mai mulți pixeli decât un videoclip FHD (1080P). O "
-"rezoluție mai mare înseamnă mai multe informații de stocat, deci fișiere mai "
-"mari."
+"rezoluție mai mare înseamnă mai multe informații de stocat, deci fișiere mai"
+" mari."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:170
+#: ../getting_started.rst:173
 msgid "Bit Rate"
 msgstr "Rată de biți"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:171
+#: ../getting_started.rst:174
 msgid ""
-"The Bit Rate is the measure of the speed of data processing of your video. A "
-"higher bit rate means higher-quality video and larger files. OpenShot allows "
-"you to manually set the Bit Rate / Quality in the Advanced tab of the Export "
-"Video window."
+"The Bit Rate is the measure of the speed of data processing of your video. A"
+" higher bit rate means higher-quality video and larger files. OpenShot "
+"allows you to manually set the Bit Rate / Quality in the Advanced tab of the"
+" Export Video window."
 msgstr ""
-"Rata de biți măsoară viteza de procesare a datelor video. O rată de biți mai "
-"mare înseamnă un videoclip de calitate superioară și fișiere mai mari. "
+"Rata de biți măsoară viteza de procesare a datelor video. O rată de biți mai"
+" mare înseamnă un videoclip de calitate superioară și fișiere mai mari. "
 "OpenShot îți permite să setezi manual Rata de biți / Calitatea în fila "
 "Avansat a ferestrei de Export Video."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:177
+#: ../getting_started.rst:180
 msgid "Frame Rate"
 msgstr "Rată de cadre"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:178
+#: ../getting_started.rst:181
 msgid ""
 "The frequency (in Hz) at which consecutive images, called frames, appear on "
 "the display is the Frame Rate. Typically, you export your video in the film "
 "standard (24fps) or the TV broadcast standard of 30fps (or 25fps in PAL). "
-"While there is not much wiggle room here, you should note that if you decide "
-"to export your video in 48fps, 50fps, or 60fps, your file size doubles."
+"While there is not much wiggle room here, you should note that if you decide"
+" to export your video in 48fps, 50fps, or 60fps, your file size doubles."
 msgstr ""
-"Frecvența (în Hz) cu care apar imaginile consecutive, numite cadre, pe ecran "
-"este Rata de cadre. De obicei, exporți videoclipul în standardul filmului "
+"Frecvența (în Hz) cu care apar imaginile consecutive, numite cadre, pe ecran"
+" este Rata de cadre. De obicei, exporți videoclipul în standardul filmului "
 "(24fps) sau în standardul de difuzare TV de 30fps (sau 25fps în PAL). Deși "
 "nu există multă flexibilitate aici, trebuie să știi că dacă exporți la "
 "48fps, 50fps sau 60fps, dimensiunea fișierului se dublează."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:185
+#: ../getting_started.rst:188
 msgid "Conclusion"
 msgstr "Concluzie"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:186
+#: ../getting_started.rst:189
 msgid ""
 "In conclusion, video editing is an accessible skill that can elevate your "
 "video content even if you're not a professional videographer. With the "
@@ -456,20 +463,36 @@ msgid ""
 "way to becoming a skilled video editor, remember to focus on storytelling, "
 "efficient organization, and refining your project's details. From selecting "
 "the right computer to mastering keyboard shortcuts and understanding "
-"technical aspects like codecs and resolutions, your journey in video editing "
-"can lead to polished and impactful results. As you venture into the world of "
-"video editing, keep in mind that practice, patience, and a commitment to "
+"technical aspects like codecs and resolutions, your journey in video editing"
+" can lead to polished and impactful results. As you venture into the world "
+"of video editing, keep in mind that practice, patience, and a commitment to "
 "learning are key to achieving excellence in this creative endeavor."
 msgstr ""
 "În concluzie, editarea video este o abilitate accesibilă care poate "
 "îmbunătăți conținutul tău video chiar dacă nu ești un videograf "
-"profesionist. Cu abilitatea de a tăia, aranja și îmbunătăți materialul, poți "
-"crea videoclipuri captivante care să atragă publicul. Fie că ești începător "
-"sau în proces de a deveni un editor video priceput, amintește-ți să te "
+"profesionist. Cu abilitatea de a tăia, aranja și îmbunătăți materialul, poți"
+" crea videoclipuri captivante care să atragă publicul. Fie că ești începător"
+" sau în proces de a deveni un editor video priceput, amintește-ți să te "
 "concentrezi pe povestire, organizare eficientă și rafinarea detaliilor "
 "proiectului. De la alegerea calculatorului potrivit până la stăpânirea "
 "scurtăturilor de tastatură și înțelegerea aspectelor tehnice precum "
 "codecurile și rezoluțiile, călătoria ta în editarea video poate duce la "
 "rezultate finisate și de impact. Pe măsură ce pășești în lumea editării "
-"video, ține minte că practica, răbdarea și angajamentul pentru învățare sunt "
-"cheia excelenței în această activitate creativă."
+"video, ține minte că practica, răbdarea și angajamentul pentru învățare sunt"
+" cheia excelenței în această activitate creativă."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Record more video and audio than you think you will need for your project. "
+#~ "Include video that enhances the scene, sets a mood, or tells a story. You "
+#~ "can use the extra video for smooth transitions in your project. If your "
+#~ "project requires voice overs or narration, we suggest using an external "
+#~ "application to record your microphone (since OpenShot does not include any "
+#~ "recording capabilities yet)."
+#~ msgstr ""
+#~ "Înregistrează mai mult video și audio decât crezi că vei avea nevoie pentru "
+#~ "proiectul tău. Include video care îmbunătățește scena, creează o atmosferă "
+#~ "sau spune o poveste. Poți folosi materialul suplimentar pentru tranziții "
+#~ "fluide în proiectul tău. Dacă proiectul tău necesită voice-over sau "
+#~ "narațiune, îți sugerăm să folosești o aplicație externă pentru a înregistra "
+#~ "microfonul (deoarece OpenShot nu include încă capabilități de înregistrare)."
