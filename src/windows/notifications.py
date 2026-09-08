@@ -43,6 +43,7 @@ def banner_colors(window, theme=None):
 class NotificationBanner(QFrame):
     def __init__(self, parent, message, action_text, on_action, on_dismiss, translate):
         super().__init__(parent)
+        _ = translate
         self.setObjectName("notificationBanner")
         self.setAttribute(Qt.WA_StyledBackground, True)
         self.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Preferred)
@@ -67,8 +68,8 @@ class NotificationBanner(QFrame):
         layout.addWidget(self.primary)
         self.close_button = QPushButton("×", self)
         self.close_button.setObjectName("notificationClose")
-        self.close_button.setAccessibleName(translate("Dismiss notification"))
-        self.close_button.setToolTip(translate("Dismiss notification"))
+        self.close_button.setAccessibleName(_("Dismiss notification"))
+        self.close_button.setToolTip(_("Dismiss notification"))
         self.close_button.setFixedWidth(28)
         self.close_button.clicked.connect(on_dismiss)
         layout.addWidget(self.close_button)
@@ -214,6 +215,7 @@ class UpdateNotificationController(QObject):
         self.window.actionUpdate.setIconVisibleInMenu(True)
 
     def offer(self, version):
+        _ = self.translate
         if self.preview:
             version = self.current_version
         elif not should_notify_update(version, self.current_version, ""):
@@ -226,8 +228,8 @@ class UpdateNotificationController(QObject):
         # Keep the explicit Help action available even when its banner was dismissed.
         if hasattr(self.window, "actionUpdate"):
             self.window.actionUpdate.setVisible(True)
-            self.window.actionUpdate.setText(self.translate("Update Available"))
-            self.window.actionUpdate.setToolTip(self.translate("Update Available: %s") % version)
+            self.window.actionUpdate.setText(_("Update Available"))
+            self.window.actionUpdate.setToolTip(_("Update Available: %s") % version)
         if (version_key in self.dismissed or (not self.preview and not should_notify_update(
                 version, self.current_version, self.settings.get("dismissed-update-version")))):
             self.area.remove("update")
@@ -235,7 +237,6 @@ class UpdateNotificationController(QObject):
             return
         if self.banner and version_key == release_version(previous_version):
             return
-        _ = self.translate
         self.banner = NotificationBanner(
             self.window, _("Upgrade to the latest version of OpenShot."), _("Upgrade"),
             self.activate, self.dismiss, _)
@@ -258,6 +259,7 @@ class UpdateNotificationController(QObject):
         self.banner = None
 
     def activate(self):
+        _ = self.translate
         try:
             opened = self.open_download()
         except Exception:
@@ -266,8 +268,8 @@ class UpdateNotificationController(QObject):
         if opened:
             self.dismiss()
         elif self.banner:
-            self.banner.show_error(self.translate("Couldn’t open your browser. Please try again."))
+            self.banner.show_error(_("Couldn’t open your browser. Please try again."))
         else:
-            QMessageBox.warning(self.window, self.translate("Unable to open browser"),
-                                self.translate("Couldn’t open your browser. Please try again."))
+            QMessageBox.warning(self.window, _("Unable to open browser"),
+                                _("Couldn’t open your browser. Please try again."))
         return opened

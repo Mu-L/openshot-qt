@@ -13,6 +13,7 @@ from windows.notifications import NotificationBanner, notification_area, notific
 class FeedbackController(QObject):
     def __init__(self, window, settings, translate, preview=False):
         super().__init__(window)
+        _ = translate
         self.window = window
         self.settings = settings
         self.translate = translate
@@ -22,7 +23,7 @@ class FeedbackController(QObject):
         self.completed = False
         self.area = notification_area(window)
         self.banner = None
-        self.action = QAction(translate("Share Feedback…"), window)
+        self.action = QAction(_("Share Feedback…"), window)
         self.action.setObjectName("actionShareFeedback")
         window.actionShareFeedback = self.action
         self.refresh_icon(self.area.theme)
@@ -95,6 +96,7 @@ class FeedbackController(QObject):
             self.banner = None
 
     def open_survey(self):
+        _ = self.translate
         url = survey_url(get_distribution_info(), self.settings.get("unique_install_id"))
         try:
             opened = QDesktopServices.openUrl(QUrl(url))
@@ -103,9 +105,9 @@ class FeedbackController(QObject):
         if opened:
             self.dismiss()
         elif self.banner:
-            self.banner.show_error(self.translate("Couldn’t open your browser. Please try again."))
+            self.banner.show_error(_("Couldn’t open your browser. Please try again."))
         else:
-            QMessageBox.warning(self.window, self.translate("Unable to open browser"),
-                                self.translate("Couldn’t open your browser. Please try again."))
+            QMessageBox.warning(self.window, _("Unable to open browser"),
+                                _("Couldn’t open your browser. Please try again."))
             log.warning("Unable to open feedback survey in browser")
         return opened
