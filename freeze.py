@@ -62,7 +62,7 @@ from shutil import copytree, rmtree, copy
 from cx_Freeze import setup, Executable
 import cx_Freeze
 import shutil
-from installer.version_parser import parse_version_info, parse_build_name
+from installer.version_parser import parse_version_info, parse_build_name, write_build_metadata
 
 PATH = os.path.dirname(os.path.realpath(__file__))  # Primary openshot folder
 sys.path.insert(0, os.path.join(PATH, "src"))
@@ -346,13 +346,12 @@ if artifact_path:
                     # No extension, parse version info
                     version_info.update(parse_version_info(git_log_filepath))
 
-# If version info found (create src/settings/version.json file)
+# Always write provenance, including when a local build has no CI version files.
 if version_info:
     # Calculate build name from version info
     version_info["build_name"] = parse_build_name(version_info, git_branch_name)
-    version_path = os.path.join(openshot_copy_path, "settings", "version.json")
-    with open(version_path, "w") as f:
-        f.write(json.dumps(version_info, indent=4))
+version_path = os.path.join(openshot_copy_path, "settings", "version.json")
+write_build_metadata(version_path, version_info)
 
 if sys.platform == "win32":
     # Define alternate terminal-based executable
