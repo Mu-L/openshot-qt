@@ -5,11 +5,11 @@ import json
 import math
 from urllib.parse import urlencode
 
-SURVEY_URL = "https://www.openshot.org/feedback/"
+SURVEY_URL = "https://www.openshot.org/{language}feedback/"
 FEEDBACK_DELAY_SECONDS = 30 * 60
 
 
-def survey_url(distribution, install_id):
+def survey_url(distribution, install_id, website_language=""):
     """Encode the website's v1 context as unpadded URL-safe base64 UTF-8 JSON.
 
     Official website packages use ``direct``; our official MSIX uses
@@ -42,7 +42,7 @@ def survey_url(distribution, install_id):
     context = base64.urlsafe_b64encode(
         json.dumps(payload, separators=(",", ":"), ensure_ascii=False).encode("utf-8")
     ).decode("ascii").rstrip("=")
-    return SURVEY_URL + "?" + urlencode({"context": context})
+    return SURVEY_URL.format(language=website_language) + "?" + urlencode({"context": context})
 
 
 class FeedbackPolicy:

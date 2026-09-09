@@ -59,11 +59,11 @@ class FeedbackTests(unittest.TestCase):
                 policy.consume()
         self.assertFalse(policy.shown)
 
-    def decode_context(self, url):
+    def decode_context(self, url, path="/feedback/"):
         parsed = urlparse(url)
         self.assertEqual(parsed.scheme, "https")
         self.assertEqual(parsed.netloc, "www.openshot.org")
-        self.assertEqual(parsed.path, "/feedback/")
+        self.assertEqual(parsed.path, path)
         params = parse_qs(parsed.query)
         self.assertEqual(set(params), {"context"})
         context, = params["context"]
@@ -151,6 +151,36 @@ class FeedbackTests(unittest.TestCase):
         self.assertIsNone(controller.banner)
         self.assertTrue(controller.action.isEnabled())
         self.assertFalse(controller.policy.shown)
+
+    def test_banner_and_help_use_active_interface_language(self):
+        from classes import info
+
+        languages = [(code, code + "/") for code in (
+            "ar", "bn", "hr", "nl", "fr", "fi", "de", "hi", "is", "id", "it",
+            "ja", "ko", "nb", "fa", "pl", "pt", "ro", "ru", "es", "tr", "vi", "uk",
+        )] + [("zh_CN", "zh-hans/"), ("zh_TW", "zh-hant/"),
+             ("en_US", ""), ("pt_BR", "pt/")]
+        distribution = {"app_version": "4.0.1", "platform": "linux"}
+        for language, prefix in languages:
+            for entry_point in ("banner", "help"):
+                with self.subTest(language=language, entry_point=entry_point):
+                    settings = Settings()
+                    # The active language can override a saved preference (e.g. --lang).
+                    settings.set("default-language", "en_US")
+                    controller = self.make_controller(settings, preview=True)
+                    controller.show_invitation()
+                    with patch.object(info, "CURRENT_LANGUAGE", language), \
+                            patch("windows.feedback.get_distribution_info", return_value=distribution), \
+                            patch("windows.feedback.QDesktopServices.openUrl", return_value=True) as opened:
+                        if entry_point == "banner":
+                            controller.banner.primary.click()
+                        else:
+                            controller.action.trigger()
+                    opened.assert_called_once()
+                    payload = self.decode_context(opened.call_args[0][0].toString(),
+                                                  "/" + prefix + "feedback/")
+                    self.assertEqual(payload, {"v": 1, "version": "4.0.1", "os": "linux",
+                                               "source": "unknown", "install_uuid": "test-install-id"})
 
     def test_help_remains_usable_after_dismissal_and_restart(self):
         settings = Settings()
