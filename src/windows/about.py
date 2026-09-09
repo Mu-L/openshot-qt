@@ -267,6 +267,8 @@ class About(QDialog):
 
         version_line = f"Version: {info.VERSION} | libopenshot: {openshot.OPENSHOT_VERSION_FULL}"
         lines.append(version_line)
+        from classes.distribution import distribution_label
+        lines.append("Distribution: " + distribution_label())
 
         build_name, release_date = self.get_build_details()
         build_parts = []

@@ -165,6 +165,8 @@ class OpenShotApp(QApplication):
             log.info("-" * 48)
 
             log.info("openshot-qt version: %s" % info.VERSION)
+            from classes.distribution import distribution_label
+            log.info("distribution: %s", distribution_label())
             log.info("libopenshot version: %s" % openshot.OPENSHOT_VERSION_FULL)
             log.info("platform: %s" % platform.platform())
             log.info("processor: %s" % platform.processor())

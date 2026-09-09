@@ -93,6 +93,22 @@ def parse_build_name(version_info, git_branch_name=""):
     return build_name
 
 
+def write_build_metadata(version_path, version_info, environ=None):
+    """Write provenance for this build, clearing any marker left by an earlier build.
+
+    Copying the CI configuration into a fork must not label its builds official.
+    This is a distribution label, not a cryptographic authenticity check.
+    """
+    environ = os.environ if environ is None else environ
+    metadata = dict(version_info)
+    metadata["official_distribution"] = (
+        environ.get("CI_SERVER_HOST") == "gitlab.openshot.org"
+        and environ.get("CI_PROJECT_PATH") == "OpenShot/openshot-qt"
+    )
+    with open(version_path, "w", encoding="utf-8") as stream:
+        json.dump(metadata, stream, indent=4)
+
+
 if __name__ == "__main__":
     """Run these methods manually for testing"""
     # Determine absolute PATH of OpenShot folder

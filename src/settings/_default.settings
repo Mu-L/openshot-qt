@@ -73,6 +73,27 @@
     "setting": "unique_install_id"
   },
   {
+    "value": false,
+    "title": "",
+    "type": "hidden",
+    "category": "General",
+    "setting": "feedback-shown"
+  },
+  {
+    "value": 0,
+    "title": "",
+    "type": "hidden",
+    "category": "General",
+    "setting": "feedback-use-seconds"
+  },
+  {
+    "value": "",
+    "title": "",
+    "type": "hidden",
+    "category": "General",
+    "setting": "dismissed-update-version"
+  },
+  {
     "value": true,
     "title": "",
     "type": "hidden",
@@ -734,6 +755,22 @@
     "restart": false,
     "setting": "actionAbout",
     "value": "Ctrl+H",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Update Available",
+    "restart": false,
+    "setting": "actionUpdate",
+    "value": "F9",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Share Feedback...",
+    "restart": false,
+    "setting": "actionShareFeedback",
+    "value": "F8",
     "type": "text"
   },
   {

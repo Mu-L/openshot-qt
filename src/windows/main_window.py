@@ -1208,13 +1208,11 @@ class MainWindow(updates.UpdateWatcher, QMainWindow):
             log.error(error_msg, exc_info=1)
 
     def actionUpdate_trigger(self, checked=True):
+        return self.update_notifications.activate()
+
+    def open_update_download(self):
         url = "https://www.openshot.org/%sdownload/?app-toolbar" % info.website_language()
-        try:
-            webbrowser.open(url, new=1)
-        except Exception:
-            error_msg = f"Unable to open the Download url: {url}"
-            QMessageBox.information(self, "Error", error_msg)
-            log.error(error_msg, exc_info=1)
+        return webbrowser.open(url, new=1)
 
     def should_play(self, requested_speed=0):
         """Determine if we should start playback, based on the current frame
@@ -4319,38 +4317,16 @@ class MainWindow(updates.UpdateWatcher, QMainWindow):
 
     def foundCurrentVersion(self, version):
         """Handle the callback for detecting the current version on openshot.org"""
-        _ = get_app()._tr
-
-        # Compare versions (alphabetical compare of version strings should work fine)
-        if info.VERSION < version:
-            # Update text for QAction
-            self.actionUpdate.setVisible(True)
-            self.actionUpdate.setText(_("Update Available"))
-            self.actionUpdate.setToolTip(_("Update Available: <b>%s</b>") % version)
-
-            # Add toolbar button for non-cosmic dusk themes
-            # Cosmic dusk has a hidden toolbar button which is made visible
-            # by the setVisible() call above this
-            if get_app().theme_manager:
-                from themes.manager import ThemeName
-                theme = get_app().theme_manager.get_current_theme()
-                if theme and theme.name != ThemeName.COSMIC.value:
-                    # Add spacer and 'New Version Available' toolbar button (default hidden)
-                    spacer = QWidget(self)
-                    spacer.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Preferred)
-                    self.toolBar.addWidget(spacer)
-
-                    # Add update available button (with icon and text)
-                    updateButton = QToolButton(self)
-                    updateButton.setDefaultAction(self.actionUpdate)
-                    updateButton.setToolButtonStyle(Qt.ToolButtonTextBesideIcon)
-                    self.toolBar.addWidget(updateButton)
-            else:
-                log.warning("No ThemeManager loaded yet. Skip update available button.")
+        self.show_update_notice(version)
 
         # Initialize sentry exception tracing (now that we know the current version)
         from classes import sentry
         sentry.init_tracing()
+
+    def show_update_notice(self, version):
+        """Show updates in the shared banner area, without a duplicate toolbar button."""
+        if hasattr(self, "update_notifications"):
+            self.update_notifications.offer(version)
 
     def handleSeek(self, frame, _start_preroll=True):
         """ Always update the property view when we seek to a new position """
@@ -5384,6 +5360,10 @@ class MainWindow(updates.UpdateWatcher, QMainWindow):
         # Add window as watcher to receive undo/redo status updates
         app.updates.add_watcher(self)
 
+        from windows.notifications import UpdateNotificationController
+        self.update_notifications = UpdateNotificationController(
+            self, s, _, info.VERSION, self.open_update_download, preview=info.UPDATE_PREVIEW)
+
         # Get current version of OpenShot via HTTP
         self.FoundVersionSignal.connect(self.foundCurrentVersion)
         get_current_Version()
@@ -5715,6 +5695,8 @@ class MainWindow(updates.UpdateWatcher, QMainWindow):
         self.initialized = True
 
         # Init all Keyboard shortcuts
+        from windows.feedback import FeedbackController
+        self.feedback_controller = FeedbackController(self, s, _, preview=info.FEEDBACK_PREVIEW)
         self.initShortcuts()
 
         # Apply accessibility-friendly tab order after layout settles
@@ -5726,6 +5708,8 @@ class MainWindow(updates.UpdateWatcher, QMainWindow):
         )
         self._schedule_initial_focus()
         self._install_focus_debugger()
+        if info.UPDATE_PREVIEW:
+            QTimer.singleShot(0, lambda: self.show_update_notice(info.VERSION))
 
     def _init_ui_trace_recorder(self):
         """Enable env-configured UI trace recording for automated test capture."""
