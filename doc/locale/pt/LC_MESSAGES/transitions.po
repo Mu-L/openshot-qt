@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,23 +22,24 @@ msgstr ""
 msgid "Transitions"
 msgstr "Transições"
 
-# Translated with gpt-4.1-mini
 #: ../transitions.rst:25
 msgid ""
-"A transition is used to gradually fade (or wipe) between two clip images. In "
-"OpenShot, transitions are represented by blue, rounded rectangles on the "
-"timeline. They are automatically created when you overlap two clips, and can "
-"be added manually by dragging one onto the timeline from the **Transitions** "
-"panel. A transition must be placed on top of a clip (overlapping it), with "
-"the most common location being the beginning or end of a clip."
+"A transition is used to gradually fade (also called a **cross dissolve** or "
+"**crossfade**) or wipe between two clip images. In OpenShot, transitions are"
+" represented by blue, rounded rectangles on the timeline. They are "
+"automatically created when you overlap two clips, and can be added manually "
+"by dragging one onto the timeline from the **Transitions** panel. A "
+"transition must be placed on top of a clip (overlapping it), with the most "
+"common location being the beginning or end of a clip."
 msgstr ""
-"Uma transição é usada para desvanecer gradualmente (ou apagar) entre duas "
+"Uma transição é usada para desvanecer gradualmente (também chamada de "
+"**cross dissolve** ou **crossfade**) ou fazer uma transição entre duas "
 "imagens de clipes. No OpenShot, as transições são representadas por "
-"retângulos arredondados azuis na linha do tempo. Elas são criadas "
+"retângulos azuis e arredondados na linha do tempo. Elas são criadas "
 "automaticamente quando você sobrepõe dois clipes, e podem ser adicionadas "
 "manualmente arrastando uma para a linha do tempo a partir do painel "
-"**Transições**. Uma transição deve ser colocada sobre um clipe (sobrepondo-"
-"o), sendo o local mais comum o início ou o fim de um clipe."
+"**Transitions**. Uma transição deve ser colocada sobre um clipe "
+"(sobrepondo-o), sendo o local mais comum o início ou o fim de um clipe."
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:31
@@ -128,19 +129,19 @@ msgstr "Direção"
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:49
 msgid ""
-"Transitions adjust the alpha/transparency of the overlapping clip image (i."
-"e. the clip under the transition), and can either fade from opaque to "
+"Transitions adjust the alpha/transparency of the overlapping clip image "
+"(i.e. the clip under the transition), and can either fade from opaque to "
 "transparent, or transparent to opaque (does not affect the audio). Right "
 "click and choose :guilabel:`Reverse Transition` to change the direction of "
 "the fade. You can also manually adjust the **Brightness** curve, animating "
 "the visual fade in any way you wish."
 msgstr ""
-"As transições ajustam o alfa/transparência da imagem do clipe sobreposto (ou "
-"seja, o clipe sob a transição), e podem desvanecer de opaco para "
+"As transições ajustam o alfa/transparência da imagem do clipe sobreposto (ou"
+" seja, o clipe sob a transição), e podem desvanecer de opaco para "
 "transparente, ou de transparente para opaco (não afeta o áudio). Clique com "
 "o botão direito e escolha :guilabel:`Inverter Transição` para mudar a "
-"direção do fade. Você também pode ajustar manualmente a curva de **Brilho**, "
-"animando o fade visual da forma que desejar."
+"direção do fade. Você também pode ajustar manualmente a curva de **Brilho**,"
+" animando o fade visual da forma que desejar."
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:56
@@ -150,27 +151,27 @@ msgstr "Transparência"
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:57
 msgid ""
-"If transitions are used on images or videos that contain transparency (*i.e. "
-"alpha channel*) this will result in the original clip disappearing abruptly "
-"(or popping out of existence), since OpenShot's transition system expects "
+"If transitions are used on images or videos that contain transparency (*i.e."
+" alpha channel*) this will result in the original clip disappearing abruptly"
+" (or popping out of existence), since OpenShot's transition system expects "
 "the 2nd clip to fully cover up the first clip. For example, if the 2nd clip "
-"does not fully cover the first clip, a transition might not be the best tool "
-"to use. Instead, you should consider adjusting the ``alpha`` property of the "
-"first clip to make it fade out where needed, see :ref:`clip_properties_ref` "
-"or :ref:`clip_presets_ref`. Alternatively, you can combine a transition and "
-"``alpha`` fade when using transparent clips to more smoothly fade between "
-"then."
+"does not fully cover the first clip, a transition might not be the best tool"
+" to use. Instead, you should consider adjusting the ``alpha`` property of "
+"the first clip to make it fade out where needed, see "
+":ref:`clip_properties_ref` or :ref:`clip_presets_ref`. Alternatively, you "
+"can combine a transition and ``alpha`` fade when using transparent clips to "
+"more smoothly fade between then."
 msgstr ""
 "Se transições forem usadas em imagens ou vídeos que contenham transparência "
 "(*ou seja, canal alfa*), isso resultará no desaparecimento abrupto do clipe "
-"original (ou sumindo da existência), pois o sistema de transição do OpenShot "
-"espera que o 2º clipe cubra totalmente o primeiro clipe. Por exemplo, se o "
+"original (ou sumindo da existência), pois o sistema de transição do OpenShot"
+" espera que o 2º clipe cubra totalmente o primeiro clipe. Por exemplo, se o "
 "2º clipe não cobrir totalmente o primeiro, uma transição pode não ser a "
 "melhor ferramenta a usar. Em vez disso, você deve considerar ajustar a "
 "propriedade ``alpha`` do primeiro clipe para fazê-lo desaparecer onde "
 "necessário, veja :ref:`clip_properties_ref` ou :ref:`clip_presets_ref`. "
-"Alternativamente, você pode combinar uma transição e um fade de ``alpha`` ao "
-"usar clipes transparentes para um desvanecimento mais suave entre eles."
+"Alternativamente, você pode combinar uma transição e um fade de ``alpha`` ao"
+" usar clipes transparentes para um desvanecimento mais suave entre eles."
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:65
@@ -191,8 +192,8 @@ msgstr ""
 "fim do corte de uma transição (também conhecido como cortar ou aparar). O "
 "método mais comum é simplesmente agarrar a borda esquerda (ou direita) da "
 "transição e arrastar. Para um guia completo sobre fatiamento e todos os "
-"atalhos de teclado disponíveis, veja as seções :ref:"
-"`clips_cutting_slicing_ref` e :ref:`keyboard_shortcut_ref`."
+"atalhos de teclado disponíveis, veja as seções "
+":ref:`clips_cutting_slicing_ref` e :ref:`keyboard_shortcut_ref`."
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:71
@@ -203,8 +204,8 @@ msgstr "Máscara"
 #: ../transitions.rst:72
 msgid ""
 "In video editing, masks are powerful tools that allow you to selectively "
-"display specific areas of a video clip. Similar to masking in image editing, "
-"video masks define a region where changes will be applied while leaving "
+"display specific areas of a video clip. Similar to masking in image editing,"
+" video masks define a region where changes will be applied while leaving "
 "other parts of the video unaffected."
 msgstr ""
 "Na edição de vídeo, máscaras são ferramentas poderosas que permitem exibir "
@@ -221,8 +222,8 @@ msgid ""
 msgstr ""
 "Uma máscara pode ser pensada como uma forma ou caminho que delimita a área "
 "que você deseja atingir. Formas comumente usadas incluem retângulos, "
-"círculos e caminhos livres. A área mascarada é chamada de \"região mascarada."
-"\""
+"círculos e caminhos livres. A área mascarada é chamada de \"região "
+"mascarada.\""
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:79
@@ -236,12 +237,12 @@ msgid ""
 "custom image sequences, to create animated, complex masks."
 msgstr ""
 "Máscaras podem ser animadas, permitindo que você altere a forma ou posição "
-"ao longo do tempo. Isso possibilita efeitos dinâmicos como revelar elementos "
-"ocultos ou transitar entre diferentes estados visuais. No OpenShot, você "
+"ao longo do tempo. Isso possibilita efeitos dinâmicos como revelar elementos"
+" ocultos ou transitar entre diferentes estados visuais. No OpenShot, você "
 "pode converter uma transição em máscara, personalizando a curva de keyframe "
 "de :guilabel:`Brilho`. Manter um valor estático (inalterado) de brilho "
-"manterá a localização fixa da máscara. Combine isso com imagens de transição "
-"personalizadas, ou até sequências de imagens personalizadas, para criar "
+"manterá a localização fixa da máscara. Combine isso com imagens de transição"
+" personalizadas, ou até sequências de imagens personalizadas, para criar "
 "máscaras animadas e complexas."
 
 # Translated with gpt-4.1-mini
@@ -274,23 +275,24 @@ msgid ""
 "Below is a list of transition properties which can be edited, and in most "
 "cases, animated over time. To view a transition's properties, right click "
 "and choose :guilabel:`Properties`. The property editor will appear, where "
-"you can change these properties. NOTE: Pay close attention to where the play-"
-"head (i.e. red playback line) is. Key frames are automatically created at "
-"the current playback position, to help create animations."
+"you can change these properties. NOTE: Pay close attention to where the "
+"play-head (i.e. red playback line) is. Key frames are automatically created "
+"at the current playback position, to help create animations."
 msgstr ""
-"Abaixo está uma lista de propriedades da transição que podem ser editadas e, "
-"na maioria dos casos, animadas ao longo do tempo. Para ver as propriedades "
-"de uma transição, clique com o botão direito e escolha :guilabel:"
-"`Propriedades`. O editor de propriedades aparecerá, onde você pode alterar "
-"essas propriedades. NOTA: Preste muita atenção à posição do cabeçote de "
-"reprodução (ou seja, a linha vermelha de reprodução). Keyframes são criados "
-"automaticamente na posição atual de reprodução para ajudar a criar animações."
+"Abaixo está uma lista de propriedades da transição que podem ser editadas e,"
+" na maioria dos casos, animadas ao longo do tempo. Para ver as propriedades "
+"de uma transição, clique com o botão direito e escolha "
+":guilabel:`Propriedades`. O editor de propriedades aparecerá, onde você pode"
+" alterar essas propriedades. NOTA: Preste muita atenção à posição do "
+"cabeçote de reprodução (ou seja, a linha vermelha de reprodução). Keyframes "
+"são criados automaticamente na posição atual de reprodução para ajudar a "
+"criar animações."
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:98
 msgid ""
-"NOTE: Transitions do not affect audio, so if you are intending to fade in/"
-"out the audio volume of a clip, you must adjust the ``volume`` clip "
+"NOTE: Transitions do not affect audio, so if you are intending to fade "
+"in/out the audio volume of a clip, you must adjust the ``volume`` clip "
 "property. See :ref:`clip_properties_ref`."
 msgstr ""
 "NOTA: As transições não afetam o áudio, portanto, se você pretende fazer um "
@@ -320,8 +322,8 @@ msgstr "Keyframe"
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:107
 msgid ""
-"Curve representing the brightness of the transition image, which affects the "
-"fade/wipe (-1 to 1)"
+"Curve representing the brightness of the transition image, which affects the"
+" fade/wipe (-1 to 1)"
 msgstr ""
 "Curva que representa o brilho da imagem da transição, que afeta o "
 "desvanecimento/varredura (-1 a 1)"
@@ -341,13 +343,13 @@ msgstr ""
 "suavidade/dureza do desvanecimento/varredura (0 a 20)"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:109 ../transitions.rst:120
+#: ../transitions.rst:109 ../transitions.rst:124
 msgid "Duration"
 msgstr "Duração"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:109 ../transitions.rst:110 ../transitions.rst:113
-#: ../transitions.rst:115
+#: ../transitions.rst:109 ../transitions.rst:110 ../transitions.rst:117
+#: ../transitions.rst:119
 msgid "Float"
 msgstr "Número decimal"
 
@@ -357,7 +359,7 @@ msgid "The length of the transition (in seconds). Read-only property."
 msgstr "A duração da transição (em segundos). Propriedade somente leitura."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:110 ../transitions.rst:128
+#: ../transitions.rst:110 ../transitions.rst:132
 msgid "End"
 msgstr "Fim"
 
@@ -367,12 +369,12 @@ msgid "The end trimming position of the transition (in seconds)."
 msgstr "A posição de corte final da transição (em segundos)."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:111 ../transitions.rst:136
+#: ../transitions.rst:111 ../transitions.rst:140
 msgid "ID"
 msgstr "ID"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:111 ../transitions.rst:112
+#: ../transitions.rst:111 ../transitions.rst:116
 msgid "String"
 msgstr "Texto"
 
@@ -385,13 +387,71 @@ msgstr ""
 "Um GUID gerado aleatoriamente (identificador globalmente único) atribuído a "
 "cada transição. Propriedade somente leitura."
 
-# Translated with gpt-4.1-mini
 #: ../transitions.rst:112
+msgid "Mask: Invert"
+msgstr "Máscara: Inverter"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:112 ../transitions.rst:113 ../transitions.rst:118
+msgid "Bool"
+msgstr "Booleano"
+
+#: ../transitions.rst:112
+msgid ""
+"Invert the mask source so light areas become dark and dark areas become "
+"light."
+msgstr ""
+"Inverta a fonte da máscara para que as áreas claras se tornem escuras e as "
+"áreas escuras se tornem claras."
+
+#: ../transitions.rst:113
+msgid "Mask: Loop"
+msgstr "Máscara: Repetir"
+
+#: ../transitions.rst:113
+msgid ""
+"Loop an animated mask source when the transition is longer than the source."
+msgstr ""
+"Repita uma fonte de máscara animada quando a transição for mais longa que a "
+"fonte."
+
+#: ../transitions.rst:114
+msgid "Mask: Source"
+msgstr "Máscara: Fonte"
+
+#: ../transitions.rst:114
+msgid "Reader"
+msgstr "Leitor"
+
+#: ../transitions.rst:114
+msgid ""
+"The image, image sequence, or video used as the transition's grayscale mask "
+"source."
+msgstr ""
+"A imagem, sequência de imagens ou vídeo usado como fonte da máscara em "
+"escala de cinza da transição."
+
+#: ../transitions.rst:115
+msgid "Mask: Time Mode"
+msgstr "Máscara: Modo de Tempo"
+
+#: ../transitions.rst:115
+msgid "Enum"
+msgstr "Enum"
+
+#: ../transitions.rst:115
+msgid "Controls how OpenShot maps transition time to an animated mask source."
+msgstr ""
+"Controla como o OpenShot mapeia o tempo da transição para uma fonte de "
+"máscara animada."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:116
 msgid "Parent"
 msgstr "Pai"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:112
+#: ../transitions.rst:116
 msgid ""
 "The parent object to this transition, which makes many of these keyframe "
 "values initialize to the parent value."
@@ -400,27 +460,22 @@ msgstr ""
 "quadro-chave sejam inicializados com o valor do pai."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:113
+#: ../transitions.rst:117
 msgid "Position"
 msgstr "Posição"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:113
+#: ../transitions.rst:117
 msgid "The position of the transition on the timeline (in seconds)."
 msgstr "A posição da transição na linha do tempo (em segundos)."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:114
+#: ../transitions.rst:118
 msgid "Replace Image"
 msgstr "Substituir Imagem"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:114
-msgid "Bool"
-msgstr "Booleano"
-
-# Translated with gpt-4.1-mini
-#: ../transitions.rst:114
+#: ../transitions.rst:118
 msgid ""
 "For debugging a problem, this property displays the transition image "
 "(instead of becoming a transparency)."
@@ -429,27 +484,27 @@ msgstr ""
 "(em vez de se tornar uma transparência)."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:115
+#: ../transitions.rst:119
 msgid "Start"
 msgstr "Início"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:115
+#: ../transitions.rst:119
 msgid "The start trimming position of the transition (in seconds)."
 msgstr "A posição de corte inicial da transição (em segundos)."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:116 ../transitions.rst:144
+#: ../transitions.rst:120 ../transitions.rst:158
 msgid "Track"
 msgstr "Faixa"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:116
+#: ../transitions.rst:120
 msgid "Int"
 msgstr "Inteiro"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:116
+#: ../transitions.rst:120
 msgid ""
 "The layer which holds the transition (higher tracks are rendered on top of "
 "lower tracks)."
@@ -458,20 +513,20 @@ msgstr ""
 "das inferiores)."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:121
+#: ../transitions.rst:125
 msgid ""
 "The :guilabel:`Duration` property is a float value indicating the length of "
 "the transition in seconds. This is a Read-only property. This is calculated "
-"by: End - Start. To modify duration, you must edit the :guilabel:`Start` and/"
-"or :guilabel:`End` transition properties."
+"by: End - Start. To modify duration, you must edit the :guilabel:`Start` "
+"and/or :guilabel:`End` transition properties."
 msgstr ""
-"A propriedade :guilabel:`Duração` é um valor decimal que indica a duração da "
-"transição em segundos. Esta é uma propriedade somente leitura. É calculada "
+"A propriedade :guilabel:`Duração` é um valor decimal que indica a duração da"
+" transição em segundos. Esta é uma propriedade somente leitura. É calculada "
 "por: Fim - Início. Para modificar a duração, você deve editar as "
 "propriedades de transição :guilabel:`Início` e/ou :guilabel:`Fim`."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:124
+#: ../transitions.rst:128
 msgid ""
 "**Usage Example:** Inspect the duration of a transition to ensure it fits a "
 "specific time slot in the project."
@@ -480,7 +535,7 @@ msgstr ""
 "ela se encaixe em um intervalo de tempo específico no projeto."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:125
+#: ../transitions.rst:129
 msgid ""
 "**Tip:** Consider using the \"Duration\" property for transitions that need "
 "to match specific time intervals, such as dialogue or scenes."
@@ -490,20 +545,20 @@ msgstr ""
 "cenas."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:129
+#: ../transitions.rst:133
 msgid ""
 "The :guilabel:`End` property defines the trimming point at the end of the "
-"transition in seconds, allowing you to control how much of the transition is "
-"visible in the timeline. Changing this property will impact the :guilabel:"
-"`Duration` transition property."
+"transition in seconds, allowing you to control how much of the transition is"
+" visible in the timeline. Changing this property will impact the "
+":guilabel:`Duration` transition property."
 msgstr ""
 "A propriedade :guilabel:`Fim` define o ponto de corte no final da transição "
 "em segundos, permitindo controlar quanto da transição é visível na linha do "
-"tempo. Alterar esta propriedade afetará a propriedade de transição :guilabel:"
-"`Duração`."
+"tempo. Alterar esta propriedade afetará a propriedade de transição "
+":guilabel:`Duração`."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:132
+#: ../transitions.rst:136
 msgid ""
 "**Usage Example:** Trimming the end of a transition to align with another "
 "clip or trimming off unwanted sections of the transition."
@@ -512,7 +567,7 @@ msgstr ""
 "clipe ou remover seções indesejadas da transição."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:133
+#: ../transitions.rst:137
 msgid ""
 "**Tip:** Combine the \"Start\" and \"End\" properties to precisely control "
 "the visible portion of the transition."
@@ -521,48 +576,83 @@ msgstr ""
 "precisão a porção visível da transição."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:137
+#: ../transitions.rst:141
 msgid ""
-"The :guilabel:`ID` property holds a randomly generated GUID (Globally Unique "
-"Identifier) assigned to each transition, ensuring its uniqueness. This is a "
-"Read-only property, and assigned by OpenShot when a transition is created."
+"The :guilabel:`ID` property holds a randomly generated GUID (Globally Unique"
+" Identifier) assigned to each transition, ensuring its uniqueness. This is a"
+" Read-only property, and assigned by OpenShot when a transition is created."
 msgstr ""
 "A propriedade :guilabel:`ID` contém um GUID gerado aleatoriamente "
-"(Identificador Globalmente Único) atribuído a cada transição, garantindo sua "
-"unicidade. Esta é uma propriedade somente leitura, atribuída pelo OpenShot "
+"(Identificador Globalmente Único) atribuído a cada transição, garantindo sua"
+" unicidade. Esta é uma propriedade somente leitura, atribuída pelo OpenShot "
 "quando uma transição é criada."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:140
+#: ../transitions.rst:144
 msgid ""
-"**Usage Example:** Referencing specific transitions within custom scripts or "
-"automation tasks."
+"**Usage Example:** Referencing specific transitions within custom scripts or"
+" automation tasks."
 msgstr ""
 "**Exemplo de Uso:** Referenciar transições específicas em scripts "
 "personalizados ou tarefas de automação."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:141
+#: ../transitions.rst:145
 msgid ""
-"**Tip:** While typically managed behind the scenes, understanding transition "
-"IDs can aid in advanced project customization."
+"**Tip:** While typically managed behind the scenes, understanding transition"
+" IDs can aid in advanced project customization."
 msgstr ""
-"**Dica:** Embora normalmente gerenciados nos bastidores, entender os IDs das "
-"transições pode ajudar na personalização avançada do projeto."
+"**Dica:** Embora normalmente gerenciados nos bastidores, entender os IDs das"
+" transições pode ajudar na personalização avançada do projeto."
+
+#: ../transitions.rst:148
+msgid "Mask Properties"
+msgstr "Propriedades da Máscara"
+
+#: ../transitions.rst:149
+msgid ""
+"The :guilabel:`Mask: Source`, :guilabel:`Mask: Time Mode`, :guilabel:`Mask: "
+"Loop`, and :guilabel:`Mask: Invert` properties control the grayscale mask "
+"used by a transition. Static masks use a single image. Animated masks can "
+"use video or image sequences, with time mapping and looping options "
+"determining which source frame is used at each point in the transition."
+msgstr ""
+"As propriedades :guilabel:`Mask: Source`, :guilabel:`Mask: Time Mode`, "
+":guilabel:`Mask: Loop` e :guilabel:`Mask: Invert` controlam a máscara em "
+"escala de cinza usada por uma transição. Máscaras estáticas usam uma única "
+"imagem. Máscaras animadas podem usar vídeo ou sequências de imagens, com "
+"opções de mapeamento de tempo e repetição determinando qual quadro da fonte "
+"é usado em cada ponto da transição."
+
+#: ../transitions.rst:154
+msgid ""
+"**Usage Example:** Use :guilabel:`Mask: Invert` when the visible and hidden "
+"areas of a custom mask are reversed."
+msgstr ""
+"**Exemplo de Uso:** Use :guilabel:`Mask: Invert` quando as áreas visíveis e "
+"ocultas de uma máscara personalizada estiverem invertidas."
+
+#: ../transitions.rst:155
+msgid ""
+"**Tip:** When using an animated mask, trim the mask source carefully before "
+"enabling loop behavior."
+msgstr ""
+"**Dica:** Ao usar uma máscara animada, corte a fonte da máscara "
+"cuidadosamente antes de ativar o comportamento de repetição."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:145
+#: ../transitions.rst:159
 msgid ""
 "The :guilabel:`Track` property is an integer indicating the layer on which "
 "the transition is placed. Transitions on higher tracks are rendered above "
 "those on lower tracks."
 msgstr ""
-"A propriedade :guilabel:`Faixa` é um número inteiro que indica a camada onde "
-"a transição está posicionada. Transições em faixas superiores são "
+"A propriedade :guilabel:`Faixa` é um número inteiro que indica a camada onde"
+" a transição está posicionada. Transições em faixas superiores são "
 "renderizadas acima das inferiores."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:148
+#: ../transitions.rst:162
 msgid ""
 "**Usage Example:** Arranging transitions in different layers for creating "
 "visual depth and complexity."
@@ -571,10 +661,28 @@ msgstr ""
 "profundidade visual e complexidade."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:149
+#: ../transitions.rst:163
 msgid ""
 "**Tip:** Use higher tracks for elements that need to appear above others, "
 "like text overlays or graphics."
 msgstr ""
 "**Dica:** Use faixas superiores para elementos que precisam aparecer acima "
 "de outros, como sobreposições de texto ou gráficos."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "A transition is used to gradually fade (or wipe) between two clip images. In"
+#~ " OpenShot, transitions are represented by blue, rounded rectangles on the "
+#~ "timeline. They are automatically created when you overlap two clips, and can"
+#~ " be added manually by dragging one onto the timeline from the "
+#~ "**Transitions** panel. A transition must be placed on top of a clip "
+#~ "(overlapping it), with the most common location being the beginning or end "
+#~ "of a clip."
+#~ msgstr ""
+#~ "Uma transição é usada para desvanecer gradualmente (ou apagar) entre duas "
+#~ "imagens de clipes. No OpenShot, as transições são representadas por "
+#~ "retângulos arredondados azuis na linha do tempo. Elas são criadas "
+#~ "automaticamente quando você sobrepõe dois clipes, e podem ser adicionadas "
+#~ "manualmente arrastando uma para a linha do tempo a partir do painel "
+#~ "**Transições**. Uma transição deve ser colocada sobre um clipe "
+#~ "(sobrepondo-o), sendo o local mais comum o início ou o fim de um clipe."

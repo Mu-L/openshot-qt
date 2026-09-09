@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,8 +27,8 @@ msgstr "Animación"
 # Translated with gpt-4.1-mini
 #: ../animation.rst:25
 msgid ""
-"OpenShot has been designed specifically with animation in mind. The powerful "
-"curve-based animation framework can handle most jobs with ease, and is "
+"OpenShot has been designed specifically with animation in mind. The powerful"
+" curve-based animation framework can handle most jobs with ease, and is "
 "flexible enough to create just about any animation. Key frames specify "
 "values at certain points on a clip, and OpenShot does the hard work of "
 "interpolating the in-between values."
@@ -46,22 +46,22 @@ msgid "Overview"
 msgstr "Resumen"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:38 ../animation.rst:131
+#: ../animation.rst:38 ../animation.rst:141
 msgid "#"
 msgstr "#"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:38 ../animation.rst:131
+#: ../animation.rst:38 ../animation.rst:141
 msgid "Name"
 msgstr "Nombre"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:38 ../animation.rst:65 ../animation.rst:131
+#: ../animation.rst:38 ../animation.rst:65 ../animation.rst:141
 msgid "Description"
 msgstr "Descripción"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:40 ../animation.rst:41 ../animation.rst:133
+#: ../animation.rst:40 ../animation.rst:41 ../animation.rst:143
 msgid "1"
 msgstr "1"
 
@@ -87,11 +87,11 @@ msgstr "Propiedad Azul"
 msgid ""
 "When the play-head is on an interpolated value, the property appears blue"
 msgstr ""
-"Cuando el cabezal de reproducción está en un valor interpolado, la propiedad "
-"aparece en azul"
+"Cuando el cabezal de reproducción está en un valor interpolado, la propiedad"
+" aparece en azul"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:42 ../animation.rst:134
+#: ../animation.rst:42 ../animation.rst:144
 msgid "2"
 msgstr "2"
 
@@ -123,8 +123,8 @@ msgstr "Cabezal de reproducción"
 #: ../animation.rst:43
 msgid "Position the play-head over a clip where you need a key frame"
 msgstr ""
-"Coloca el cabezal de reproducción sobre un clip donde necesites un fotograma "
-"clave"
+"Coloca el cabezal de reproducción sobre un clip donde necesites un fotograma"
+" clave"
 
 # Translated with gpt-4.1-mini
 #: ../animation.rst:44
@@ -143,8 +143,8 @@ msgid ""
 "(`circle=Bézier`, `diamond=linear`, `square=constant`). Each icon matches "
 "the color of its clip, effect, or transition. The selected item's keyframe "
 "icons are shown brighter. Filtering the property list also filters these "
-"icons. Click any icon to jump the play-head, load its properties, and select "
-"its clip, effect, or transition. Drag an icon left or right to move the "
+"icons. Click any icon to jump the play-head, load its properties, and select"
+" its clip, effect, or transition. Drag an icon left or right to move the "
 "keyframe and fine‑tune your animation timing."
 msgstr ""
 "Iconos coloridos alinean la parte inferior del clip para cada fotograma "
@@ -179,8 +179,8 @@ msgstr ""
 "sobre un clip y edita las propiedades en el diálogo de propiedades. Si la "
 "propiedad admite fotogramas clave, se pondrá verde y aparecerá un pequeño "
 "icono (`circle=Bézier, diamond=linear, square=constant`) en la parte "
-"inferior de tu clip en esa posición. Mueve el cabezal de reproducción a otro "
-"punto sobre ese clip y ajusta las propiedades nuevamente. Todas las "
+"inferior de tu clip en esa posición. Mueve el cabezal de reproducción a otro"
+" punto sobre ese clip y ajusta las propiedades nuevamente. Todas las "
 "animaciones requieren al menos 2 fotogramas clave, pero pueden soportar un "
 "número ilimitado de ellos."
 
@@ -188,12 +188,12 @@ msgstr ""
 #: ../animation.rst:55
 msgid ""
 "Use the :guilabel:`Next Marker` and :guilabel:`Previous Marker` toolbar "
-"buttons to step through the selected item's keyframes. They follow whichever "
-"clip, effect, or transition is selected. When an effect is selected, "
+"buttons to step through the selected item's keyframes. They follow whichever"
+" clip, effect, or transition is selected. When an effect is selected, "
 "navigation also stops at the start and end of its parent clip."
 msgstr ""
-"Usa los botones de la barra de herramientas :guilabel:`Siguiente marcador` "
-"y :guilabel:`Marcador anterior` para avanzar por los fotogramas clave del "
+"Usa los botones de la barra de herramientas :guilabel:`Siguiente marcador` y"
+" :guilabel:`Marcador anterior` para avanzar por los fotogramas clave del "
 "elemento seleccionado. Siguen el clip, efecto o transición que esté "
 "seleccionado. Cuando se selecciona un efecto, la navegación también se "
 "detiene al inicio y al final de su clip padre."
@@ -220,8 +220,8 @@ msgstr "Bézier"
 # Translated with gpt-4.1-mini
 #: ../animation.rst:67
 msgid ""
-"Interpolated values use a quadratic curve, and ease-in and ease-out. Icon: :"
-"guilabel:`Circle`."
+"Interpolated values use a quadratic curve, and ease-in and ease-out. Icon: "
+":guilabel:`Circle`."
 msgstr ""
 "Los valores interpolados usan una curva cuadrática, con entrada y salida "
 "suaves. Icono: :guilabel:`Círculo`."
@@ -234,8 +234,8 @@ msgstr "Lineal"
 # Translated with gpt-4.1-mini
 #: ../animation.rst:68
 msgid ""
-"Interpolated values are calculated linear (each step value is equal). Icon: :"
-"guilabel:`Diamond`."
+"Interpolated values are calculated linear (each step value is equal). Icon: "
+":guilabel:`Diamond`."
 msgstr ""
 "Los valores interpolados se calculan linealmente (cada valor de paso es "
 "igual). Icono: :guilabel:`Diamante`."
@@ -262,22 +262,22 @@ msgid ""
 "and origin, see :ref:`clip_transform_ref`."
 msgstr ""
 "Para más información sobre cómo crear fotogramas clave para ubicación, "
-"rotación, escala, cizalladura y ubicación, consulta :ref:"
-"`clip_transform_ref`."
+"rotación, escala, cizalladura y ubicación, consulta "
+":ref:`clip_transform_ref`."
 
 # Translated with gpt-4.1-mini
 #: ../animation.rst:73
 msgid "For more info on preset animations, see :ref:`clip_presets_ref`."
 msgstr ""
-"Para más información sobre animaciones preestablecidas, consulta :ref:"
-"`clip_presets_ref`."
+"Para más información sobre animaciones preestablecidas, consulta "
+":ref:`clip_presets_ref`."
 
 # Translated with gpt-4.1-mini
 #: ../animation.rst:74
 msgid "For a full list of key frames, see :ref:`clip_properties_ref`."
 msgstr ""
-"Para una lista completa de fotogramas clave, consulta :ref:"
-"`clip_properties_ref`."
+"Para una lista completa de fotogramas clave, consulta "
+":ref:`clip_properties_ref`."
 
 # Translated with gpt-4.1-mini
 #: ../animation.rst:77
@@ -290,17 +290,16 @@ msgid ""
 "Changing how fast a clip plays is done with the :guilabel:`Time` property "
 "and the :guilabel:`Timing` tool."
 msgstr ""
-"Cambiar la velocidad de reproducción de un clip se hace con la propiedad :"
-"guilabel:`Tiempo` y la herramienta :guilabel:`Temporización`."
+"Cambiar la velocidad de reproducción de un clip se hace con la propiedad "
+":guilabel:`Tiempo` y la herramienta :guilabel:`Temporización`."
 
-# Translated with gpt-4.1-mini
 #: ../animation.rst:80
 msgid ""
-"The :guilabel:`Time` menu offers presets such as normal, fast, slow, freeze, "
-"and reverse. See details in :ref:`clip_time_ref`."
+"The :guilabel:`Speed` menu offers presets such as normal, fast, slow, "
+"freeze, reverse, and repeat. See details in :ref:`clip_time_ref`."
 msgstr ""
-"El menú :guilabel:`Tiempo` ofrece preajustes como normal, rápido, lento, "
-"congelar e invertir. Consulta detalles en :ref:`clip_time_ref`."
+"El menú :guilabel:`Velocidad` ofrece preajustes como normal, rápido, lento, "
+"congelar, reverso y repetir. Consulte los detalles en :ref:`clip_time_ref`."
 
 # Translated with gpt-4.1-mini
 #: ../animation.rst:81
@@ -321,13 +320,12 @@ msgstr ""
 msgid "Repeating"
 msgstr "Repetición"
 
-# Translated with gpt-4.1-mini
 #: ../animation.rst:87
 msgid ""
-"To play a clip multiple times, use :guilabel:`Right-Click → Time → Repeat`."
+"To play a clip multiple times, use :guilabel:`Right-Click → Speed → Repeat`."
 msgstr ""
-"Para reproducir un clip varias veces, usa :guilabel:`Clic derecho → Tiempo → "
-"Repetir`."
+"Para reproducir un clip varias veces, use :guilabel:`Clic derecho → "
+"Velocidad → Repetir`."
 
 # Translated with gpt-4.1-mini
 #: ../animation.rst:89
@@ -357,8 +355,8 @@ msgid ""
 "keyframes just like any other. See more: :ref:`clip_time_repeat_ref`."
 msgstr ""
 "OpenShot escribe la curva :guilabel:`Tiempo` por ti, y puedes editar esos "
-"fotogramas clave como cualquier otro. Más información: :ref:"
-"`clip_time_repeat_ref`."
+"fotogramas clave como cualquier otro. Más información: "
+":ref:`clip_time_repeat_ref`."
 
 # Translated with gpt-4.1-mini
 #: ../animation.rst:97
@@ -371,14 +369,14 @@ msgid ""
 "When using a Bézier curve for animation, OpenShot includes more than 20 "
 "curve presets (which affect the shape of the curve). For example, **Ease-"
 "In** has a more gradual slope at the beginning, making an animation move "
-"slower at the beginning, and faster at the end. **Ease-In/Out (Back)** has a "
-"gradual beginning and ending, but actually goes past the expected value and "
-"then back (producing a bounce effect)."
+"slower at the beginning, and faster at the end. **Ease-In/Out (Back)** has a"
+" gradual beginning and ending, but actually goes past the expected value and"
+" then back (producing a bounce effect)."
 msgstr ""
 "Al usar una curva Bézier para animación, OpenShot incluye más de 20 "
 "preajustes de curva (que afectan la forma de la curva). Por ejemplo, **Ease-"
-"In** tiene una pendiente más gradual al inicio, haciendo que la animación se "
-"mueva más lento al principio y más rápido al final. **Ease-In/Out (Back)** "
+"In** tiene una pendiente más gradual al inicio, haciendo que la animación se"
+" mueva más lento al principio y más rápido al final. **Ease-In/Out (Back)** "
 "tiene un inicio y final gradual, pero en realidad sobrepasa el valor "
 "esperado y luego regresa (produciendo un efecto rebote)."
 
@@ -391,13 +389,36 @@ msgstr ""
 "Para elegir un preajuste de curva, haz clic derecho en el pequeño ícono de "
 "gráfico junto a un fotograma clave."
 
-# Translated with gpt-4.1-mini
 #: ../animation.rst:110
+msgid "Ken Burns Effect"
+msgstr "Efecto Ken Burns"
+
+#: ../animation.rst:111
+msgid ""
+"The **Ken Burns effect** is a pan-and-zoom animation technique — named after"
+" documentary filmmaker Ken Burns — that brings still images or video clips "
+"to life with slow, deliberate camera movement. In OpenShot, use "
+":guilabel:`Right-Click → Motion → Camera` presets for one-click Ken Burns "
+"animations (Zoom In, Zoom Out, Pan, Zoom & Pan with Auto Direction), or set "
+"keyframes on :guilabel:`Location X/Y` and :guilabel:`Scale X/Y` manually for"
+" full control. See :ref:`clip_presets_ref`."
+msgstr ""
+"El **efecto Ken Burns** es una técnica de animación de paneo y zoom — "
+"nombrada así por el cineasta documental Ken Burns — que da vida a imágenes "
+"fijas o clips de video con un movimiento de cámara lento y deliberado. En "
+"OpenShot, use los preajustes :guilabel:`Clic derecho → Movimiento → Cámara` "
+"para animaciones Ken Burns con un solo clic (Acercar, Alejar, Paneo, Zoom y "
+"Paneo con dirección automática), o configure fotogramas clave en "
+":guilabel:`Ubicación X/Y` y :guilabel:`Escala X/Y` manualmente para un "
+"control total. Vea :ref:`clip_presets_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:120
 msgid "Image Sequences"
 msgstr "Secuencias de imágenes"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:111
+#: ../animation.rst:121
 msgid ""
 "If you have a sequence of similarly named images (such as, cat001.png, "
 "cat002.png, cat003.png, etc...), you can simply drag and drop one of them "
@@ -414,13 +435,13 @@ msgstr ""
 "basa en su tasa de fotogramas."
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:116
+#: ../animation.rst:126
 msgid ""
 "**NOTE:** Be sure your image sequence starts at 0 or 1, or you will likely "
 "receive an error when importing it into OpenShot. For example, if your "
 "sequence starts at cat222.png, or has missing images in the sequence, "
-"OpenShot will struggle to understand the sequence. An easy work-around is to "
-"renumber the images so they start with 1."
+"OpenShot will struggle to understand the sequence. An easy work-around is to"
+" renumber the images so they start with 1."
 msgstr ""
 "**NOTA:** Asegúrate de que tu secuencia de imágenes comience en 0 o 1, o "
 "probablemente recibirás un error al importarla en OpenShot. Por ejemplo, si "
@@ -429,24 +450,24 @@ msgstr ""
 "solución sencilla es renumerar las imágenes para que comiencen en 1."
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:122
+#: ../animation.rst:132
 msgid ""
 "To adjust the frame rate of the animation, right click and choose **File "
-"Properties** in the **Project Files** panel, and adjust the frame rate. Once "
-"you have set the correct frame rate, drag the animation onto the timeline."
+"Properties** in the **Project Files** panel, and adjust the frame rate. Once"
+" you have set the correct frame rate, drag the animation onto the timeline."
 msgstr ""
-"Para ajustar la tasa de fotogramas de la animación, haz clic derecho y elige "
-"**Propiedades del archivo** en el panel de **Archivos del proyecto**, y "
+"Para ajustar la tasa de fotogramas de la animación, haz clic derecho y elige"
+" **Propiedades del archivo** en el panel de **Archivos del proyecto**, y "
 "ajusta la tasa de fotogramas. Una vez que hayas establecido la tasa "
 "correcta, arrastra la animación a la línea de tiempo."
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:133
+#: ../animation.rst:143
 msgid "File Properties"
 msgstr "Propiedades del archivo"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:133
+#: ../animation.rst:143
 msgid ""
 "Select an image sequence in the **Project Files** panel, right click and "
 "choose **File Properties**"
@@ -455,15 +476,30 @@ msgstr ""
 "proyecto**, haz clic derecho y elige **Propiedades del archivo**"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:134
+#: ../animation.rst:144
 msgid "Frame Rate"
 msgstr "Tasa de fotogramas"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:134
+#: ../animation.rst:144
 msgid ""
-"Adjust the frame rate of the animation. Typically, hand-drawn animations use "
-"12 frames per second."
+"Adjust the frame rate of the animation. Typically, hand-drawn animations use"
+" 12 frames per second."
 msgstr ""
 "Ajusta la tasa de fotogramas de la animación. Normalmente, las animaciones "
 "dibujadas a mano usan 12 fotogramas por segundo."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Time` menu offers presets such as normal, fast, slow, freeze,"
+#~ " and reverse. See details in :ref:`clip_time_ref`."
+#~ msgstr ""
+#~ "El menú :guilabel:`Tiempo` ofrece preajustes como normal, rápido, lento, "
+#~ "congelar e invertir. Consulta detalles en :ref:`clip_time_ref`."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "To play a clip multiple times, use :guilabel:`Right-Click → Time → Repeat`."
+#~ msgstr ""
+#~ "Para reproducir un clip varias veces, usa :guilabel:`Clic derecho → Tiempo →"
+#~ " Repetir`."

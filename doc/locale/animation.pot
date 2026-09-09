@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenShot Video Editor 3.5\n"
+"Project-Id-Version: OpenShot Video Editor 4.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,24 +29,24 @@ msgid "Overview"
 msgstr ""
 
 #: ../animation.rst:38
-#: ../animation.rst:131
+#: ../animation.rst:141
 msgid "#"
 msgstr ""
 
 #: ../animation.rst:38
-#: ../animation.rst:131
+#: ../animation.rst:141
 msgid "Name"
 msgstr ""
 
 #: ../animation.rst:38
 #: ../animation.rst:65
-#: ../animation.rst:131
+#: ../animation.rst:141
 msgid "Description"
 msgstr ""
 
 #: ../animation.rst:40
 #: ../animation.rst:41
-#: ../animation.rst:133
+#: ../animation.rst:143
 msgid "1"
 msgstr ""
 
@@ -67,7 +67,7 @@ msgid "When the play-head is on an interpolated value, the property appears blue
 msgstr ""
 
 #: ../animation.rst:42
-#: ../animation.rst:134
+#: ../animation.rst:144
 msgid "2"
 msgstr ""
 
@@ -168,7 +168,7 @@ msgid "Changing how fast a clip plays is done with the :guilabel:`Time` property
 msgstr ""
 
 #: ../animation.rst:80
-msgid "The :guilabel:`Time` menu offers presets such as normal, fast, slow, freeze, and reverse. See details in :ref:`clip_time_ref`."
+msgid "The :guilabel:`Speed` menu offers presets such as normal, fast, slow, freeze, reverse, and repeat. See details in :ref:`clip_time_ref`."
 msgstr ""
 
 #: ../animation.rst:81
@@ -180,7 +180,7 @@ msgid "Repeating"
 msgstr ""
 
 #: ../animation.rst:87
-msgid "To play a clip multiple times, use :guilabel:`Right-Click → Time → Repeat`."
+msgid "To play a clip multiple times, use :guilabel:`Right-Click → Speed → Repeat`."
 msgstr ""
 
 #: ../animation.rst:89
@@ -212,33 +212,41 @@ msgid "To choose a curve preset, right click on the small graph icon next to a k
 msgstr ""
 
 #: ../animation.rst:110
-msgid "Image Sequences"
+msgid "Ken Burns Effect"
 msgstr ""
 
 #: ../animation.rst:111
+msgid "The **Ken Burns effect** is a pan-and-zoom animation technique — named after documentary filmmaker Ken Burns — that brings still images or video clips to life with slow, deliberate camera movement. In OpenShot, use :guilabel:`Right-Click → Motion → Camera` presets for one-click Ken Burns animations (Zoom In, Zoom Out, Pan, Zoom & Pan with Auto Direction), or set keyframes on :guilabel:`Location X/Y` and :guilabel:`Scale X/Y` manually for full control. See :ref:`clip_presets_ref`."
+msgstr ""
+
+#: ../animation.rst:120
+msgid "Image Sequences"
+msgstr ""
+
+#: ../animation.rst:121
 msgid "If you have a sequence of similarly named images (such as, cat001.png, cat002.png, cat003.png, etc...), you can simply drag and drop one of them into OpenShot, and you will be prompted to import the entire sequence. OpenShot will playback these sequential images rapidly, as if they are frames in a video. The rate or speed in which these images are displayed is based on their frame rate."
 msgstr ""
 
-#: ../animation.rst:116
+#: ../animation.rst:126
 msgid "**NOTE:** Be sure your image sequence starts at 0 or 1, or you will likely receive an error when importing it into OpenShot. For example, if your sequence starts at cat222.png, or has missing images in the sequence, OpenShot will struggle to understand the sequence. An easy work-around is to renumber the images so they start with 1."
 msgstr ""
 
-#: ../animation.rst:122
+#: ../animation.rst:132
 msgid "To adjust the frame rate of the animation, right click and choose **File Properties** in the **Project Files** panel, and adjust the frame rate. Once you have set the correct frame rate, drag the animation onto the timeline."
 msgstr ""
 
-#: ../animation.rst:133
+#: ../animation.rst:143
 msgid "File Properties"
 msgstr ""
 
-#: ../animation.rst:133
+#: ../animation.rst:143
 msgid "Select an image sequence in the **Project Files** panel, right click and choose **File Properties**"
 msgstr ""
 
-#: ../animation.rst:134
+#: ../animation.rst:144
 msgid "Frame Rate"
 msgstr ""
 
-#: ../animation.rst:134
+#: ../animation.rst:144
 msgid "Adjust the frame rate of the animation. Typically, hand-drawn animations use 12 frames per second."
 msgstr ""

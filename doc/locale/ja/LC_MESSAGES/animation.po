@@ -9,13 +9,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
 
@@ -41,22 +41,22 @@ msgid "Overview"
 msgstr "概要"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:38 ../animation.rst:131
+#: ../animation.rst:38 ../animation.rst:141
 msgid "#"
 msgstr "＃"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:38 ../animation.rst:131
+#: ../animation.rst:38 ../animation.rst:141
 msgid "Name"
 msgstr "名前"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:38 ../animation.rst:65 ../animation.rst:131
+#: ../animation.rst:38 ../animation.rst:65 ../animation.rst:141
 msgid "Description"
 msgstr "説明"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:40 ../animation.rst:41 ../animation.rst:133
+#: ../animation.rst:40 ../animation.rst:41 ../animation.rst:143
 msgid "1"
 msgstr "1"
 
@@ -82,7 +82,7 @@ msgid ""
 msgstr "プレイヘッドが補間値上にあるとき、プロパティは青色で表示されます"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:42 ../animation.rst:134
+#: ../animation.rst:42 ../animation.rst:144
 msgid "2"
 msgstr "2"
 
@@ -247,13 +247,12 @@ msgid ""
 "and the :guilabel:`Timing` tool."
 msgstr "クリップの再生速度の変更は、:guilabel:`時間` プロパティと :guilabel:` タイミング` ツールで行います。"
 
-# Translated with gpt-4.1-mini
 #: ../animation.rst:80
 msgid ""
-"The :guilabel:`Time` menu offers presets such as normal, fast, slow, freeze,"
-" and reverse. See details in :ref:`clip_time_ref`."
+"The :guilabel:`Speed` menu offers presets such as normal, fast, slow, "
+"freeze, reverse, and repeat. See details in :ref:`clip_time_ref`."
 msgstr ""
-":guilabel:`時間` メニューには、通常、速い、遅い、フリーズ、逆再生などのプリセットがあります。詳細は "
+":guilabel:`Speed` メニューには、通常、速い、遅い、フリーズ、逆再生、リピートなどのプリセットがあります。詳細は "
 ":ref:`clip_time_ref` を参照してください。"
 
 # Translated with gpt-4.1-mini
@@ -273,11 +272,10 @@ msgstr ""
 msgid "Repeating"
 msgstr "繰り返し"
 
-# Translated with gpt-4.1-mini
 #: ../animation.rst:87
 msgid ""
-"To play a clip multiple times, use :guilabel:`Right-Click → Time → Repeat`."
-msgstr "クリップを複数回再生するには、:guilabel:`右クリック → 時間 → 繰り返し` を使用します。"
+"To play a clip multiple times, use :guilabel:`Right-Click → Speed → Repeat`."
+msgstr "クリップを複数回再生するには、:guilabel:`右クリック → Speed → Repeat` を使用してください。"
 
 # Translated with gpt-4.1-mini
 #: ../animation.rst:89
@@ -332,13 +330,34 @@ msgid ""
 "frame."
 msgstr "曲線プリセットを選択するには、キーフレームの隣にある小さなグラフアイコンを右クリックしてください。"
 
-# Translated with gpt-4.1-mini
 #: ../animation.rst:110
+msgid "Ken Burns Effect"
+msgstr "ケン・バーンズ効果"
+
+#: ../animation.rst:111
+msgid ""
+"The **Ken Burns effect** is a pan-and-zoom animation technique — named after"
+" documentary filmmaker Ken Burns — that brings still images or video clips "
+"to life with slow, deliberate camera movement. In OpenShot, use "
+":guilabel:`Right-Click → Motion → Camera` presets for one-click Ken Burns "
+"animations (Zoom In, Zoom Out, Pan, Zoom & Pan with Auto Direction), or set "
+"keyframes on :guilabel:`Location X/Y` and :guilabel:`Scale X/Y` manually for"
+" full control. See :ref:`clip_presets_ref`."
+msgstr ""
+"**ケン・バーンズ効果** "
+"は、ドキュメンタリー映画監督ケン・バーンズにちなんで名付けられたパン＆ズームのアニメーション技法で、静止画像やビデオクリップにゆっくりとした意図的なカメラの動きを加えて命を吹き込みます。OpenShot"
+" では、:guilabel:`右クリック → Motion → Camera` "
+"のプリセットを使ってワンクリックでケン・バーンズアニメーション（ズームイン、ズームアウト、パン、ズーム＆パン（自動方向））を適用するか、:guilabel:`Location"
+" X/Y` と :guilabel:`Scale X/Y` にキーフレームを手動で設定して完全にコントロールできます。詳細は "
+":ref:`clip_presets_ref` を参照してください。"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:120
 msgid "Image Sequences"
 msgstr "画像シーケンス"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:111
+#: ../animation.rst:121
 msgid ""
 "If you have a sequence of similarly named images (such as, cat001.png, "
 "cat002.png, cat003.png, etc...), you can simply drag and drop one of them "
@@ -350,7 +369,7 @@ msgstr ""
 "同じような名前の画像の連番（例：cat001.png、cat002.png、cat003.pngなど）がある場合、そのうちの1つをOpenShotにドラッグ＆ドロップすると、連番全体のインポートを促されます。OpenShotはこれらの連続した画像を動画のフレームのように高速で再生します。表示速度はフレームレートに基づいています。"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:116
+#: ../animation.rst:126
 msgid ""
 "**NOTE:** Be sure your image sequence starts at 0 or 1, or you will likely "
 "receive an error when importing it into OpenShot. For example, if your "
@@ -362,7 +381,7 @@ msgstr ""
 "画像シーケンスは0または1から始まるようにしてください。そうしないとOpenShotへのインポート時にエラーが発生する可能性があります。例えば、シーケンスがcat222.pngから始まる場合や、途中の画像が欠けている場合、OpenShotはシーケンスを正しく認識できません。簡単な対処法は、画像の番号を1から始まるように付け直すことです。"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:122
+#: ../animation.rst:132
 msgid ""
 "To adjust the frame rate of the animation, right click and choose **File "
 "Properties** in the **Project Files** panel, and adjust the frame rate. Once"
@@ -372,25 +391,38 @@ msgstr ""
 "を選択し、フレームレートを調整します。正しいフレームレートを設定したら、アニメーションをタイムラインにドラッグしてください。"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:133
+#: ../animation.rst:143
 msgid "File Properties"
 msgstr "ファイルのプロパティ"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:133
+#: ../animation.rst:143
 msgid ""
 "Select an image sequence in the **Project Files** panel, right click and "
 "choose **File Properties**"
 msgstr "**プロジェクトファイル** パネルで画像シーケンスを選択し、右クリックして**ファイルのプロパティ** を選択します"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:134
+#: ../animation.rst:144
 msgid "Frame Rate"
 msgstr "フレームレート"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:134
+#: ../animation.rst:144
 msgid ""
 "Adjust the frame rate of the animation. Typically, hand-drawn animations use"
 " 12 frames per second."
 msgstr "アニメーションのフレームレートを調整します。通常、手描きアニメーションは1秒あたり12フレームを使用します。"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Time` menu offers presets such as normal, fast, slow, freeze,"
+#~ " and reverse. See details in :ref:`clip_time_ref`."
+#~ msgstr ""
+#~ ":guilabel:`時間` メニューには、通常、速い、遅い、フリーズ、逆再生などのプリセットがあります。詳細は "
+#~ ":ref:`clip_time_ref` を参照してください。"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "To play a clip multiple times, use :guilabel:`Right-Click → Time → Repeat`."
+#~ msgstr "クリップを複数回再生するには、:guilabel:`右クリック → 時間 → 繰り返し` を使用します。"

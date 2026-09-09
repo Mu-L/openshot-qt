@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,9 +45,9 @@ msgstr "Profils"
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:25
 msgid ""
-"A video profile is a collection of common video settings (*size, frame rate, "
-"aspect ratio*). Profiles are used during editing, previewing, and exporting "
-"to provide a quick way to switch between common combinations of these "
+"A video profile is a collection of common video settings (*size, frame rate,"
+" aspect ratio*). Profiles are used during editing, previewing, and exporting"
+" to provide a quick way to switch between common combinations of these "
 "settings."
 msgstr ""
 "Un profil vidéo est un ensemble de paramètres vidéo courants (*taille, "
@@ -58,8 +58,8 @@ msgstr ""
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:29
 msgid ""
-"If you often use the same profile, you can set a default profile: :guilabel:"
-"`Edit→Preferences→Preview`."
+"If you often use the same profile, you can set a default profile: "
+":guilabel:`Edit→Preferences→Preview`."
 msgstr ""
 "Si vous utilisez souvent le même profil, vous pouvez définir un profil par "
 "défaut : :guilabel:`Édition→Préférences→Aperçu`."
@@ -76,14 +76,14 @@ msgid ""
 "default project profile is ``HD 720p 30fps``. It is best practice to always "
 "switch to your target profile before you begin editing. For example, if you "
 "are targeting 1080p 30fps, switch to that profile before you begin editing "
-"your project. For a full list of included profiles see :ref:"
-"`profile_list_ref`."
+"your project. For a full list of included profiles see "
+":ref:`profile_list_ref`."
 msgstr ""
-"Le profil du projet est utilisé lors de la prévisualisation et du montage de "
-"votre projet. Le profil par défaut est ``HD 720p 30fps``. Il est recommandé "
-"de toujours passer à votre profil cible avant de commencer le montage. Par "
-"exemple, si vous visez du 1080p 30fps, passez à ce profil avant de commencer "
-"le montage de votre projet. Pour une liste complète des profils inclus, "
+"Le profil du projet est utilisé lors de la prévisualisation et du montage de"
+" votre projet. Le profil par défaut est ``HD 720p 30fps``. Il est recommandé"
+" de toujours passer à votre profil cible avant de commencer le montage. Par "
+"exemple, si vous visez du 1080p 30fps, passez à ce profil avant de commencer"
+" le montage de votre projet. Pour une liste complète des profils inclus, "
 "voir :ref:`profile_list_ref`."
 
 # Translated with gpt-4.1-mini
@@ -98,41 +98,44 @@ msgstr ""
 "choisir l'option :guilabel:`Choisir le profil` (voir :ref:`file_menu_ref`)."
 
 # Translated with gpt-4.1-mini
-#: ../profiles.rst:46 ../profiles.rst:59 ../profiles.rst:86 ../profiles.rst:119
+#: ../profiles.rst:46 ../profiles.rst:59 ../profiles.rst:86
+#: ../profiles.rst:119
 msgid "#"
 msgstr "#"
 
 # Translated with gpt-4.1-mini
-#: ../profiles.rst:46 ../profiles.rst:59 ../profiles.rst:86 ../profiles.rst:119
+#: ../profiles.rst:46 ../profiles.rst:59 ../profiles.rst:86
+#: ../profiles.rst:119
 msgid "Name"
 msgstr "Nom"
 
 # Translated with gpt-4.1-mini
-#: ../profiles.rst:46 ../profiles.rst:59 ../profiles.rst:86 ../profiles.rst:119
-#: ../profiles.rst:152 ../profiles.rst:187 ../profiles.rst:211
-#: ../profiles.rst:235 ../profiles.rst:259 ../profiles.rst:276
-#: ../profiles.rst:300 ../profiles.rst:324 ../profiles.rst:348
-#: ../profiles.rst:372 ../profiles.rst:396 ../profiles.rst:420
-#: ../profiles.rst:444 ../profiles.rst:468 ../profiles.rst:492
-#: ../profiles.rst:516 ../profiles.rst:536 ../profiles.rst:560
-#: ../profiles.rst:584 ../profiles.rst:608 ../profiles.rst:632
-#: ../profiles.rst:656 ../profiles.rst:680 ../profiles.rst:704
-#: ../profiles.rst:728 ../profiles.rst:757 ../profiles.rst:781
-#: ../profiles.rst:805 ../profiles.rst:829 ../profiles.rst:853
-#: ../profiles.rst:877 ../profiles.rst:901 ../profiles.rst:925
-#: ../profiles.rst:949 ../profiles.rst:973 ../profiles.rst:1000
-#: ../profiles.rst:1020 ../profiles.rst:1044 ../profiles.rst:1068
-#: ../profiles.rst:1097 ../profiles.rst:1124 ../profiles.rst:1155
-#: ../profiles.rst:1179 ../profiles.rst:1203 ../profiles.rst:1234
-#: ../profiles.rst:1259 ../profiles.rst:1292 ../profiles.rst:1316
-#: ../profiles.rst:1355 ../profiles.rst:1386 ../profiles.rst:1417
-#: ../profiles.rst:1448 ../profiles.rst:1492 ../profiles.rst:1519
-#: ../profiles.rst:1544
+#: ../profiles.rst:46 ../profiles.rst:59 ../profiles.rst:86
+#: ../profiles.rst:119 ../profiles.rst:152 ../profiles.rst:187
+#: ../profiles.rst:211 ../profiles.rst:235 ../profiles.rst:259
+#: ../profiles.rst:276 ../profiles.rst:300 ../profiles.rst:324
+#: ../profiles.rst:348 ../profiles.rst:372 ../profiles.rst:396
+#: ../profiles.rst:420 ../profiles.rst:444 ../profiles.rst:468
+#: ../profiles.rst:492 ../profiles.rst:516 ../profiles.rst:536
+#: ../profiles.rst:560 ../profiles.rst:584 ../profiles.rst:608
+#: ../profiles.rst:632 ../profiles.rst:656 ../profiles.rst:680
+#: ../profiles.rst:704 ../profiles.rst:728 ../profiles.rst:757
+#: ../profiles.rst:781 ../profiles.rst:805 ../profiles.rst:829
+#: ../profiles.rst:853 ../profiles.rst:877 ../profiles.rst:901
+#: ../profiles.rst:925 ../profiles.rst:949 ../profiles.rst:973
+#: ../profiles.rst:1000 ../profiles.rst:1020 ../profiles.rst:1044
+#: ../profiles.rst:1068 ../profiles.rst:1097 ../profiles.rst:1124
+#: ../profiles.rst:1155 ../profiles.rst:1179 ../profiles.rst:1203
+#: ../profiles.rst:1234 ../profiles.rst:1259 ../profiles.rst:1292
+#: ../profiles.rst:1316 ../profiles.rst:1355 ../profiles.rst:1386
+#: ../profiles.rst:1417 ../profiles.rst:1448 ../profiles.rst:1492
+#: ../profiles.rst:1519 ../profiles.rst:1544
 msgid "Description"
 msgstr "Description"
 
 # Translated with gpt-4.1-mini
-#: ../profiles.rst:48 ../profiles.rst:61 ../profiles.rst:88 ../profiles.rst:121
+#: ../profiles.rst:48 ../profiles.rst:61 ../profiles.rst:88
+#: ../profiles.rst:121
 msgid "1"
 msgstr "1"
 
@@ -147,25 +150,25 @@ msgid "The title bar of OpenShot displays the current profile"
 msgstr "La barre de titre d'OpenShot affiche le profil actuel"
 
 # Translated with gpt-4.1-mini
-#: ../profiles.rst:49 ../profiles.rst:62 ../profiles.rst:89 ../profiles.rst:122
-#: ../profiles.rst:192 ../profiles.rst:216 ../profiles.rst:240
-#: ../profiles.rst:281 ../profiles.rst:305 ../profiles.rst:329
-#: ../profiles.rst:353 ../profiles.rst:377 ../profiles.rst:401
-#: ../profiles.rst:425 ../profiles.rst:449 ../profiles.rst:473
-#: ../profiles.rst:497 ../profiles.rst:520 ../profiles.rst:541
-#: ../profiles.rst:565 ../profiles.rst:589 ../profiles.rst:613
-#: ../profiles.rst:637 ../profiles.rst:661 ../profiles.rst:685
-#: ../profiles.rst:709 ../profiles.rst:733 ../profiles.rst:762
-#: ../profiles.rst:786 ../profiles.rst:810 ../profiles.rst:834
-#: ../profiles.rst:858 ../profiles.rst:882 ../profiles.rst:906
-#: ../profiles.rst:930 ../profiles.rst:954 ../profiles.rst:978
-#: ../profiles.rst:1005 ../profiles.rst:1025 ../profiles.rst:1049
-#: ../profiles.rst:1073 ../profiles.rst:1102 ../profiles.rst:1129
-#: ../profiles.rst:1160 ../profiles.rst:1184 ../profiles.rst:1208
-#: ../profiles.rst:1239 ../profiles.rst:1264 ../profiles.rst:1297
-#: ../profiles.rst:1321 ../profiles.rst:1360 ../profiles.rst:1391
-#: ../profiles.rst:1422 ../profiles.rst:1453 ../profiles.rst:1497
-#: ../profiles.rst:1524 ../profiles.rst:1549
+#: ../profiles.rst:49 ../profiles.rst:62 ../profiles.rst:89
+#: ../profiles.rst:122 ../profiles.rst:192 ../profiles.rst:216
+#: ../profiles.rst:240 ../profiles.rst:281 ../profiles.rst:305
+#: ../profiles.rst:329 ../profiles.rst:353 ../profiles.rst:377
+#: ../profiles.rst:401 ../profiles.rst:425 ../profiles.rst:449
+#: ../profiles.rst:473 ../profiles.rst:497 ../profiles.rst:520
+#: ../profiles.rst:541 ../profiles.rst:565 ../profiles.rst:589
+#: ../profiles.rst:613 ../profiles.rst:637 ../profiles.rst:661
+#: ../profiles.rst:685 ../profiles.rst:709 ../profiles.rst:733
+#: ../profiles.rst:762 ../profiles.rst:786 ../profiles.rst:810
+#: ../profiles.rst:834 ../profiles.rst:858 ../profiles.rst:882
+#: ../profiles.rst:906 ../profiles.rst:930 ../profiles.rst:954
+#: ../profiles.rst:978 ../profiles.rst:1005 ../profiles.rst:1025
+#: ../profiles.rst:1049 ../profiles.rst:1073 ../profiles.rst:1102
+#: ../profiles.rst:1129 ../profiles.rst:1160 ../profiles.rst:1184
+#: ../profiles.rst:1208 ../profiles.rst:1239 ../profiles.rst:1264
+#: ../profiles.rst:1297 ../profiles.rst:1321 ../profiles.rst:1360
+#: ../profiles.rst:1391 ../profiles.rst:1422 ../profiles.rst:1453
+#: ../profiles.rst:1497 ../profiles.rst:1524 ../profiles.rst:1549
 msgid "2"
 msgstr "2"
 
@@ -266,13 +269,13 @@ msgstr "Menu contextuel"
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:65
 msgid ""
-"Right click on any row to :guilabel:`Set as Default Profile` or :guilabel:"
-"`Duplicate` a profile. Duplicated and custom profiles also include an :"
-"guilabel:`Edit` and :guilabel:`Delete` option. **Note**: *The current "
+"Right click on any row to :guilabel:`Set as Default Profile` or "
+":guilabel:`Duplicate` a profile. Duplicated and custom profiles also include"
+" an :guilabel:`Edit` and :guilabel:`Delete` option. **Note**: *The current "
 "profile can not be deleted*."
 msgstr ""
-"Cliquez droit sur une ligne pour :guilabel:`Définir comme profil par défaut` "
-"ou :guilabel:`Dupliquer` un profil. Les profils dupliqués et personnalisés "
+"Cliquez droit sur une ligne pour :guilabel:`Définir comme profil par défaut`"
+" ou :guilabel:`Dupliquer` un profil. Les profils dupliqués et personnalisés "
 "incluent aussi les options :guilabel:`Modifier` et :guilabel:`Supprimer`. "
 "**Note** : *Le profil actuel ne peut pas être supprimé*."
 
@@ -291,22 +294,23 @@ msgid ""
 "rate, aspect ratio, and pixel ratio of the custom profile. **NOTE**: *It is "
 "important that each custom profile has a unique profile name*."
 msgstr ""
-"Pour créer un profil personnalisé, cliquez droit sur un profil dans OpenShot "
-"et choisissez :guilabel:`Dupliquer` pour ouvrir l’éditeur de profil. Les "
-"profils personnalisés incluent aussi les options :guilabel:`Modifier` et :"
-"guilabel:`Supprimer` si vous souhaitez les personnaliser davantage. Vous "
+"Pour créer un profil personnalisé, cliquez droit sur un profil dans OpenShot"
+" et choisissez :guilabel:`Dupliquer` pour ouvrir l’éditeur de profil. Les "
+"profils personnalisés incluent aussi les options :guilabel:`Modifier` et "
+":guilabel:`Supprimer` si vous souhaitez les personnaliser davantage. Vous "
 "pouvez modifier la description, la résolution, la fréquence d’images, le "
-"format d’image et le ratio des pixels du profil personnalisé. **NOTE** : *Il "
-"est important que chaque profil personnalisé ait un nom unique*."
+"format d’image et le ratio des pixels du profil personnalisé. **NOTE** : *Il"
+" est important que chaque profil personnalisé ait un nom unique*."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:78
 msgid ""
-"The custom profiles are saved in the ``~/.openshot_qt/profiles/`` or ``C:"
-"\\Users\\USERNAME\\.openshot_qt\\profiles`` folder."
+"The custom profiles are saved in the ``~/.openshot_qt/profiles/`` or "
+"``C:\\Users\\USERNAME\\.openshot_qt\\profiles`` folder."
 msgstr ""
-"Les profils personnalisés sont enregistrés dans le dossier ``~/.openshot_qt/"
-"profiles/`` ou ``C:\\Users\\USERNAME\\.openshot_qt\\profiles``."
+"Les profils personnalisés sont enregistrés dans le dossier "
+"``~/.openshot_qt/profiles/`` ou "
+"``C:\\Users\\USERNAME\\.openshot_qt\\profiles``."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:88
@@ -375,8 +379,8 @@ msgstr "**Format d’image**"
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:93
 msgid ""
-"The display aspect ratio of the video (automatically calculated from width/"
-"height and pixel ratio)."
+"The display aspect ratio of the video (automatically calculated from "
+"width/height and pixel ratio)."
 msgstr ""
 "Le format d’image affiché de la vidéo (calculé automatiquement à partir de "
 "la largeur/hauteur et du ratio des pixels)."
@@ -423,10 +427,10 @@ msgstr "Conversion des profils"
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:100
 msgid ""
-"When switching profiles (or exporting to a different profile), OpenShot will "
-"do it's best to convert all clip, transition, and keyframe data to the new "
-"framerate (FPS). Certain properties, such as `position`, `start`, `end`, and "
-"`keyframes` will be updated to match the new framerate precision. For "
+"When switching profiles (or exporting to a different profile), OpenShot will"
+" do it's best to convert all clip, transition, and keyframe data to the new "
+"framerate (FPS). Certain properties, such as `position`, `start`, `end`, and"
+" `keyframes` will be updated to match the new framerate precision. For "
 "example, if moving from 30 FPS to 25 FPS, these properties will be changed "
 "from increments of 1/30 seconds to increments of 1/25 seconds. In order to "
 "preserve the overall timing accuracy of the timeline, OpenShot will match "
@@ -445,8 +449,8 @@ msgstr ""
 "propriétés seront modifiées d’incréments de 1/30 secondes à des incréments "
 "de 1/25 secondes. Afin de préserver la précision globale du timing de la "
 "timeline, OpenShot ajustera au mieux la découpe `position` et `start`, et "
-"tout petit écart (de 1 à 3 images) causé par l’arrondi ou les changements de "
-"précision sera automatiquement corrigé en ajustant la découpe `end`. Cela "
+"tout petit écart (de 1 à 3 images) causé par l’arrondi ou les changements de"
+" précision sera automatiquement corrigé en ajustant la découpe `end`. Cela "
 "devrait permettre une conversion fluide pour la plupart des projets vidéo "
 "(sans espaces noirs visibles entre les clips)."
 
@@ -454,8 +458,8 @@ msgstr ""
 #: ../profiles.rst:108
 msgid ""
 "However, the destructive nature of this conversion is why we recommend "
-"always editing in your target profile, or at least your target FPS, in order "
-"to avoid converting between profiles as much as possible."
+"always editing in your target profile, or at least your target FPS, in order"
+" to avoid converting between profiles as much as possible."
 msgstr ""
 "Cependant, la nature destructive de cette conversion explique pourquoi nous "
 "recommandons toujours d’éditer dans votre profil cible, ou au moins à votre "
@@ -495,8 +499,8 @@ msgid ""
 "Open Profile dialog to filter and search for an export profile, which can "
 "sometimes be much quicker to find a specific profile."
 msgstr ""
-"Ouvrez la boîte de dialogue des profils pour filtrer et rechercher un profil "
-"d’exportation, ce qui peut parfois être plus rapide pour trouver un profil "
+"Ouvrez la boîte de dialogue des profils pour filtrer et rechercher un profil"
+" d’exportation, ce qui peut parfois être plus rapide pour trouver un profil "
 "spécifique."
 
 # Translated with gpt-4.1-mini
@@ -509,13 +513,13 @@ msgstr "Profil personnalisé"
 msgid ""
 "Although OpenShot has more than 400 profiles (:ref:`profile_list_ref`) "
 "included by default, you can also create your own custom profiles. Create a "
-"new text file in the ``~/.openshot_qt/profiles/`` or ``C:\\Users\\USERNAME\\."
-"openshot_qt\\profiles`` folder."
+"new text file in the ``~/.openshot_qt/profiles/`` or "
+"``C:\\Users\\USERNAME\\.openshot_qt\\profiles`` folder."
 msgstr ""
 "Bien qu’OpenShot inclue plus de 400 profils (:ref:`profile_list_ref`) par "
 "défaut, vous pouvez aussi créer vos propres profils personnalisés. Créez un "
-"nouveau fichier texte dans le dossier ``~/.openshot_qt/profiles/`` ou ``C:"
-"\\Users\\USERNAME\\.openshot_qt\\profiles``."
+"nouveau fichier texte dans le dossier ``~/.openshot_qt/profiles/`` ou "
+"``C:\\Users\\USERNAME\\.openshot_qt\\profiles``."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:131
@@ -548,8 +552,8 @@ msgstr "description"
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:154
 msgid ""
-"The friendly name of the profile (this is what OpenShot displays in the user "
-"interface)"
+"The friendly name of the profile (this is what OpenShot displays in the user"
+" interface)"
 msgstr ""
 "Le nom convivial du profil (c'est ce que OpenShot affiche dans l'interface "
 "utilisateur)"
@@ -617,8 +621,8 @@ msgid ""
 "```(0 or 1)``` If 1, both even and odd rows of pixels are used. If 0, only "
 "odd or even rows of pixels are used."
 msgstr ""
-"```(0 ou 1)``` Si 1, les lignes paires et impaires de pixels sont utilisées. "
-"Si 0, seules les lignes paires ou impaires sont utilisées."
+"```(0 ou 1)``` Si 1, les lignes paires et impaires de pixels sont utilisées."
+" Si 0, seules les lignes paires ou impaires sont utilisées."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:160
@@ -632,9 +636,9 @@ msgid ""
 "ratio would represent a square pixel, ``2:1`` ratio would represent a "
 "``2x1`` rectangle pixel shape, etc..."
 msgstr ""
-"Le numérateur du **SAR** (rapport d'aspect de la forme de l'échantillon/"
-"pixel), un ratio ``1:1`` représente un pixel carré, un ratio ``2:1`` "
-"représente un pixel rectangulaire ``2x1``, etc..."
+"Le numérateur du **SAR** (rapport d'aspect de la forme de "
+"l'échantillon/pixel), un ratio ``1:1`` représente un pixel carré, un ratio "
+"``2:1`` représente un pixel rectangulaire ``2x1``, etc..."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:161
@@ -645,8 +649,8 @@ msgstr "dénominateur_aspect_échantillon"
 #: ../profiles.rst:161
 msgid "The denominator of the **SAR** (sample/pixel shape aspect ratio)"
 msgstr ""
-"Le dénominateur du **SAR** (rapport d'aspect de la forme de l'échantillon/"
-"pixel)"
+"Le dénominateur du **SAR** (rapport d'aspect de la forme de "
+"l'échantillon/pixel)"
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:162
@@ -661,11 +665,11 @@ msgid ""
 "screen, reduced to the smallest fraction possible (common ratios are 16:9 "
 "for wide formats, 4:3 for legacy television formats)."
 msgstr ""
-"Le numérateur du **DAR** (rapport d'aspect d'affichage), ``(largeur/hauteur) "
-"X (rapport d'aspect de l'échantillon)``. C'est le ratio final de l'image "
+"Le numérateur du **DAR** (rapport d'aspect d'affichage), ``(largeur/hauteur)"
+" X (rapport d'aspect de l'échantillon)``. C'est le ratio final de l'image "
 "affichée à l'écran, réduit à la plus petite fraction possible (les ratios "
-"courants sont 16:9 pour les formats larges, 4:3 pour les formats télévisuels "
-"anciens)."
+"courants sont 16:9 pour les formats larges, 4:3 pour les formats télévisuels"
+" anciens)."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:163
@@ -683,8 +687,8 @@ msgid ""
 "Once you restart OpenShot, you will see your custom profile appear in the "
 "list of Profiles."
 msgstr ""
-"Une fois que vous redémarrez OpenShot, vous verrez votre profil personnalisé "
-"apparaître dans la liste des profils."
+"Une fois que vous redémarrez OpenShot, vous verrez votre profil personnalisé"
+" apparaître dans la liste des profils."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:171
@@ -698,15 +702,16 @@ msgid ""
 "profiles and their associated video export settings (``video codec``, "
 "``audio codec``, ``audio channels``, ``audio sample rate``, etc...), which "
 "target specific output formats, websites, and devices. The **default export "
-"preset** used by OpenShot is ``MP4 (h.264 + AAC)``, see :ref:"
-"`profiles_mp4_h264_ref`."
+"preset** used by OpenShot is ``MP4 (h.264 + AAC)``, see "
+":ref:`profiles_mp4_h264_ref`."
 msgstr ""
 "OpenShot inclut de nombreux **préréglages d'exportation**, qui combinent "
 "notre liste de profils courants et leurs paramètres d'export vidéo associés "
 "(``codec vidéo``, ``codec audio``, ``canaux audio``, ``fréquence "
-"d'échantillonnage audio``, etc...), ciblant des formats de sortie, sites web "
-"et appareils spécifiques. Le **préréglage d'exportation par défaut** utilisé "
-"par OpenShot est ``MP4 (h.264 + AAC)``, voir :ref:`profiles_mp4_h264_ref`."
+"d'échantillonnage audio``, etc...), ciblant des formats de sortie, sites web"
+" et appareils spécifiques. Le **préréglage d'exportation par défaut** "
+"utilisé par OpenShot est ``MP4 (h.264 + AAC)``, voir "
+":ref:`profiles_mp4_h264_ref`."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:178
@@ -1674,10 +1679,9 @@ msgstr "NTSC SD Grand écran Anamorphique 480i 29,97 ips"
 msgid "Web"
 msgstr "Web"
 
-# Translated with gpt-4.1-mini
 #: ../profiles.rst:1091
-msgid "Flickr-HD"
-msgstr "Flickr-HD"
+msgid "Flickr"
+msgstr "Flickr"
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:0 ../profiles.rst:1662
@@ -1760,7 +1764,7 @@ msgid "1.7 Mb/s"
 msgstr "1,7 Mb/s"
 
 # Translated with gpt-4.1-mini
-#: ../profiles.rst:1228
+#: ../profiles.rst:1228 ../profiles.rst:1253
 msgid "Vimeo"
 msgstr "Vimeo"
 
@@ -1768,11 +1772,6 @@ msgstr "Vimeo"
 #: ../profiles.rst:0
 msgid "NTSC SD Wide FWVGA 480p 29.97 fps"
 msgstr "NTSC SD Large FWVGA 480p 29,97 ips"
-
-# Translated with gpt-4.1-mini
-#: ../profiles.rst:1253
-msgid "Vimeo-HD"
-msgstr "Vimeo-HD"
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:1267
@@ -1809,10 +1808,9 @@ msgstr "HD 720p 24 ips"
 msgid "Wikipedia"
 msgstr "Wikipedia"
 
-# Translated with gpt-4.1-mini
 #: ../profiles.rst:1310
-msgid "YouTube HD"
-msgstr "YouTube HD"
+msgid "YouTube"
+msgstr "YouTube"
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:1325
@@ -1864,10 +1862,9 @@ msgstr "FHD Vertical 1080p 59,94 ips"
 msgid "FHD Vertical 1080p 60 fps"
 msgstr "FHD Vertical 1080p 60 ips"
 
-# Translated with gpt-4.1-mini
 #: ../profiles.rst:1349
-msgid "YouTube HD (2K)"
-msgstr "YouTube HD (2K)"
+msgid "YouTube (2K)"
+msgstr "YouTube (2K)"
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:1363
@@ -1924,10 +1921,9 @@ msgstr "2,5K WQHD 1440p 59,94 ips"
 msgid "2.5K WQHD 1440p 60 fps"
 msgstr "2,5K WQHD 1440p 60 ips"
 
-# Translated with gpt-4.1-mini
 #: ../profiles.rst:1380
-msgid "YouTube HD (4K)"
-msgstr "YouTube HD (4K)"
+msgid "YouTube (4K)"
+msgstr "YouTube (4K)"
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:1394
@@ -1984,10 +1980,9 @@ msgstr "4K UHD 2160p 59,94 ips"
 msgid "4K UHD 2160p 60 fps"
 msgstr "4K UHD 2160p 60 ips"
 
-# Translated with gpt-4.1-mini
 #: ../profiles.rst:1411
-msgid "YouTube HD (8K)"
-msgstr "YouTube HD (8K)"
+msgid "YouTube (8K)"
+msgstr "YouTube (8K)"
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:1425
@@ -2167,9 +2162,9 @@ msgstr "Liste des profils"
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:1567
 msgid ""
-"OpenShot includes over 400 built-in video profiles. These profiles match the "
-"most common video project sizes and frame rates used around the world. It is "
-"recommended to edit your project using the same profile as you intend to "
+"OpenShot includes over 400 built-in video profiles. These profiles match the"
+" most common video project sizes and frame rates used around the world. It "
+"is recommended to edit your project using the same profile as you intend to "
 "export. You can also edit your project with different profiles which match "
 "your target aspect ratio, for example: all ``16:9`` profiles are generally "
 "compatible with each other. Sometimes it can be useful to edit a project in "
@@ -2217,8 +2212,8 @@ msgstr ""
 msgid ""
 "**SAR**: Sample Aspect Ratio (e.g., 1:1 square pixel, 2:1 horizontal "
 "rectangular pixel). The SAR directly affects the display aspect ratio. For "
-"instance, a 4:3 video can be displayed as 16:9 using rectangular pixels. Non-"
-"square pixels adjust the final display width."
+"instance, a 4:3 video can be displayed as 16:9 using rectangular pixels. "
+"Non-square pixels adjust the final display width."
 msgstr ""
 "**SAR** : Rapport d'aspect de l'échantillon (par exemple, pixel carré 1:1, "
 "pixel rectangulaire horizontal 2:1). Le SAR affecte directement le rapport "
@@ -5293,3 +5288,27 @@ msgstr "NTSC SD SQ CIF 96p 25 ips"
 #: ../profiles.rst:2021
 msgid "NTSC SD SQ CIF 96p 15 fps"
 msgstr "NTSC SD SQ CIF 96p 15 ips"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Flickr-HD"
+#~ msgstr "Flickr-HD"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Vimeo-HD"
+#~ msgstr "Vimeo-HD"
+
+# Translated with gpt-4.1-mini
+#~ msgid "YouTube HD"
+#~ msgstr "YouTube HD"
+
+# Translated with gpt-4.1-mini
+#~ msgid "YouTube HD (2K)"
+#~ msgstr "YouTube HD (2K)"
+
+# Translated with gpt-4.1-mini
+#~ msgid "YouTube HD (4K)"
+#~ msgstr "YouTube HD (4K)"
+
+# Translated with gpt-4.1-mini
+#~ msgid "YouTube HD (8K)"
+#~ msgstr "YouTube HD (8K)"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,24 +43,24 @@ msgstr "Profili"
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:25
 msgid ""
-"A video profile is a collection of common video settings (*size, frame rate, "
-"aspect ratio*). Profiles are used during editing, previewing, and exporting "
-"to provide a quick way to switch between common combinations of these "
+"A video profile is a collection of common video settings (*size, frame rate,"
+" aspect ratio*). Profiles are used during editing, previewing, and exporting"
+" to provide a quick way to switch between common combinations of these "
 "settings."
 msgstr ""
 "Video profil je skup uobičajenih video postavki (*veličina, broj sličica u "
-"sekundi, omjer stranica*). Profili se koriste tijekom uređivanja, pregleda i "
-"izvoza kako bi se brzo prebacivali između uobičajenih kombinacija ovih "
+"sekundi, omjer stranica*). Profili se koriste tijekom uređivanja, pregleda i"
+" izvoza kako bi se brzo prebacivali između uobičajenih kombinacija ovih "
 "postavki."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:29
 msgid ""
-"If you often use the same profile, you can set a default profile: :guilabel:"
-"`Edit→Preferences→Preview`."
+"If you often use the same profile, you can set a default profile: "
+":guilabel:`Edit→Preferences→Preview`."
 msgstr ""
-"Ako često koristite isti profil, možete postaviti zadani profil: :guilabel:"
-"`Uredi→Postavke→Pregled`."
+"Ako često koristite isti profil, možete postaviti zadani profil: "
+":guilabel:`Uredi→Postavke→Pregled`."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:33
@@ -74,15 +74,15 @@ msgid ""
 "default project profile is ``HD 720p 30fps``. It is best practice to always "
 "switch to your target profile before you begin editing. For example, if you "
 "are targeting 1080p 30fps, switch to that profile before you begin editing "
-"your project. For a full list of included profiles see :ref:"
-"`profile_list_ref`."
+"your project. For a full list of included profiles see "
+":ref:`profile_list_ref`."
 msgstr ""
 "Profil projekta koristi se prilikom pregleda i uređivanja vašeg projekta. "
-"Zadani profil projekta je ``HD 720p 30fps``. Najbolja praksa je uvijek prije "
-"početka uređivanja prebaciti se na ciljani profil. Na primjer, ako ciljate "
+"Zadani profil projekta je ``HD 720p 30fps``. Najbolja praksa je uvijek prije"
+" početka uređivanja prebaciti se na ciljani profil. Na primjer, ako ciljate "
 "na 1080p 30fps, prebacite se na taj profil prije nego što počnete uređivati "
-"projekt. Za potpuni popis uključenih profila pogledajte :ref:"
-"`profile_list_ref`."
+"projekt. Za potpuni popis uključenih profila pogledajte "
+":ref:`profile_list_ref`."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:40
@@ -92,45 +92,48 @@ msgid ""
 "(see :ref:`file_menu_ref`)."
 msgstr ""
 "**Savjet:** Za brzo odabiranje profila, možete kliknuti desnom tipkom miša "
-"na bilo koju datoteku u vašim **Datotekama projekta** i odabrati opciju :"
-"guilabel:`Odaberi profil` (pogledajte :ref:`file_menu_ref`)."
+"na bilo koju datoteku u vašim **Datotekama projekta** i odabrati opciju "
+":guilabel:`Odaberi profil` (pogledajte :ref:`file_menu_ref`)."
 
 # Translated with gpt-4.1-mini
-#: ../profiles.rst:46 ../profiles.rst:59 ../profiles.rst:86 ../profiles.rst:119
+#: ../profiles.rst:46 ../profiles.rst:59 ../profiles.rst:86
+#: ../profiles.rst:119
 msgid "#"
 msgstr "#"
 
 # Translated with gpt-4.1-mini
-#: ../profiles.rst:46 ../profiles.rst:59 ../profiles.rst:86 ../profiles.rst:119
+#: ../profiles.rst:46 ../profiles.rst:59 ../profiles.rst:86
+#: ../profiles.rst:119
 msgid "Name"
 msgstr "Naziv"
 
 # Translated with gpt-4.1-mini
-#: ../profiles.rst:46 ../profiles.rst:59 ../profiles.rst:86 ../profiles.rst:119
-#: ../profiles.rst:152 ../profiles.rst:187 ../profiles.rst:211
-#: ../profiles.rst:235 ../profiles.rst:259 ../profiles.rst:276
-#: ../profiles.rst:300 ../profiles.rst:324 ../profiles.rst:348
-#: ../profiles.rst:372 ../profiles.rst:396 ../profiles.rst:420
-#: ../profiles.rst:444 ../profiles.rst:468 ../profiles.rst:492
-#: ../profiles.rst:516 ../profiles.rst:536 ../profiles.rst:560
-#: ../profiles.rst:584 ../profiles.rst:608 ../profiles.rst:632
-#: ../profiles.rst:656 ../profiles.rst:680 ../profiles.rst:704
-#: ../profiles.rst:728 ../profiles.rst:757 ../profiles.rst:781
-#: ../profiles.rst:805 ../profiles.rst:829 ../profiles.rst:853
-#: ../profiles.rst:877 ../profiles.rst:901 ../profiles.rst:925
-#: ../profiles.rst:949 ../profiles.rst:973 ../profiles.rst:1000
-#: ../profiles.rst:1020 ../profiles.rst:1044 ../profiles.rst:1068
-#: ../profiles.rst:1097 ../profiles.rst:1124 ../profiles.rst:1155
-#: ../profiles.rst:1179 ../profiles.rst:1203 ../profiles.rst:1234
-#: ../profiles.rst:1259 ../profiles.rst:1292 ../profiles.rst:1316
-#: ../profiles.rst:1355 ../profiles.rst:1386 ../profiles.rst:1417
-#: ../profiles.rst:1448 ../profiles.rst:1492 ../profiles.rst:1519
-#: ../profiles.rst:1544
+#: ../profiles.rst:46 ../profiles.rst:59 ../profiles.rst:86
+#: ../profiles.rst:119 ../profiles.rst:152 ../profiles.rst:187
+#: ../profiles.rst:211 ../profiles.rst:235 ../profiles.rst:259
+#: ../profiles.rst:276 ../profiles.rst:300 ../profiles.rst:324
+#: ../profiles.rst:348 ../profiles.rst:372 ../profiles.rst:396
+#: ../profiles.rst:420 ../profiles.rst:444 ../profiles.rst:468
+#: ../profiles.rst:492 ../profiles.rst:516 ../profiles.rst:536
+#: ../profiles.rst:560 ../profiles.rst:584 ../profiles.rst:608
+#: ../profiles.rst:632 ../profiles.rst:656 ../profiles.rst:680
+#: ../profiles.rst:704 ../profiles.rst:728 ../profiles.rst:757
+#: ../profiles.rst:781 ../profiles.rst:805 ../profiles.rst:829
+#: ../profiles.rst:853 ../profiles.rst:877 ../profiles.rst:901
+#: ../profiles.rst:925 ../profiles.rst:949 ../profiles.rst:973
+#: ../profiles.rst:1000 ../profiles.rst:1020 ../profiles.rst:1044
+#: ../profiles.rst:1068 ../profiles.rst:1097 ../profiles.rst:1124
+#: ../profiles.rst:1155 ../profiles.rst:1179 ../profiles.rst:1203
+#: ../profiles.rst:1234 ../profiles.rst:1259 ../profiles.rst:1292
+#: ../profiles.rst:1316 ../profiles.rst:1355 ../profiles.rst:1386
+#: ../profiles.rst:1417 ../profiles.rst:1448 ../profiles.rst:1492
+#: ../profiles.rst:1519 ../profiles.rst:1544
 msgid "Description"
 msgstr "Opis"
 
 # Translated with gpt-4.1-mini
-#: ../profiles.rst:48 ../profiles.rst:61 ../profiles.rst:88 ../profiles.rst:121
+#: ../profiles.rst:48 ../profiles.rst:61 ../profiles.rst:88
+#: ../profiles.rst:121
 msgid "1"
 msgstr "1"
 
@@ -145,25 +148,25 @@ msgid "The title bar of OpenShot displays the current profile"
 msgstr "Naslovna traka OpenShota prikazuje trenutni profil"
 
 # Translated with gpt-4.1-mini
-#: ../profiles.rst:49 ../profiles.rst:62 ../profiles.rst:89 ../profiles.rst:122
-#: ../profiles.rst:192 ../profiles.rst:216 ../profiles.rst:240
-#: ../profiles.rst:281 ../profiles.rst:305 ../profiles.rst:329
-#: ../profiles.rst:353 ../profiles.rst:377 ../profiles.rst:401
-#: ../profiles.rst:425 ../profiles.rst:449 ../profiles.rst:473
-#: ../profiles.rst:497 ../profiles.rst:520 ../profiles.rst:541
-#: ../profiles.rst:565 ../profiles.rst:589 ../profiles.rst:613
-#: ../profiles.rst:637 ../profiles.rst:661 ../profiles.rst:685
-#: ../profiles.rst:709 ../profiles.rst:733 ../profiles.rst:762
-#: ../profiles.rst:786 ../profiles.rst:810 ../profiles.rst:834
-#: ../profiles.rst:858 ../profiles.rst:882 ../profiles.rst:906
-#: ../profiles.rst:930 ../profiles.rst:954 ../profiles.rst:978
-#: ../profiles.rst:1005 ../profiles.rst:1025 ../profiles.rst:1049
-#: ../profiles.rst:1073 ../profiles.rst:1102 ../profiles.rst:1129
-#: ../profiles.rst:1160 ../profiles.rst:1184 ../profiles.rst:1208
-#: ../profiles.rst:1239 ../profiles.rst:1264 ../profiles.rst:1297
-#: ../profiles.rst:1321 ../profiles.rst:1360 ../profiles.rst:1391
-#: ../profiles.rst:1422 ../profiles.rst:1453 ../profiles.rst:1497
-#: ../profiles.rst:1524 ../profiles.rst:1549
+#: ../profiles.rst:49 ../profiles.rst:62 ../profiles.rst:89
+#: ../profiles.rst:122 ../profiles.rst:192 ../profiles.rst:216
+#: ../profiles.rst:240 ../profiles.rst:281 ../profiles.rst:305
+#: ../profiles.rst:329 ../profiles.rst:353 ../profiles.rst:377
+#: ../profiles.rst:401 ../profiles.rst:425 ../profiles.rst:449
+#: ../profiles.rst:473 ../profiles.rst:497 ../profiles.rst:520
+#: ../profiles.rst:541 ../profiles.rst:565 ../profiles.rst:589
+#: ../profiles.rst:613 ../profiles.rst:637 ../profiles.rst:661
+#: ../profiles.rst:685 ../profiles.rst:709 ../profiles.rst:733
+#: ../profiles.rst:762 ../profiles.rst:786 ../profiles.rst:810
+#: ../profiles.rst:834 ../profiles.rst:858 ../profiles.rst:882
+#: ../profiles.rst:906 ../profiles.rst:930 ../profiles.rst:954
+#: ../profiles.rst:978 ../profiles.rst:1005 ../profiles.rst:1025
+#: ../profiles.rst:1049 ../profiles.rst:1073 ../profiles.rst:1102
+#: ../profiles.rst:1129 ../profiles.rst:1160 ../profiles.rst:1184
+#: ../profiles.rst:1208 ../profiles.rst:1239 ../profiles.rst:1264
+#: ../profiles.rst:1297 ../profiles.rst:1321 ../profiles.rst:1360
+#: ../profiles.rst:1391 ../profiles.rst:1422 ../profiles.rst:1453
+#: ../profiles.rst:1497 ../profiles.rst:1524 ../profiles.rst:1549
 msgid "2"
 msgstr "2"
 
@@ -263,13 +266,13 @@ msgstr "Kontekstni izbornik"
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:65
 msgid ""
-"Right click on any row to :guilabel:`Set as Default Profile` or :guilabel:"
-"`Duplicate` a profile. Duplicated and custom profiles also include an :"
-"guilabel:`Edit` and :guilabel:`Delete` option. **Note**: *The current "
+"Right click on any row to :guilabel:`Set as Default Profile` or "
+":guilabel:`Duplicate` a profile. Duplicated and custom profiles also include"
+" an :guilabel:`Edit` and :guilabel:`Delete` option. **Note**: *The current "
 "profile can not be deleted*."
 msgstr ""
-"Desni klik na bilo koji redak za :guilabel:`Postavi kao zadani profil` ili :"
-"guilabel:`Dupliciraj` profil. Duplicirani i prilagođeni profili također "
+"Desni klik na bilo koji redak za :guilabel:`Postavi kao zadani profil` ili "
+":guilabel:`Dupliciraj` profil. Duplicirani i prilagođeni profili također "
 "uključuju opcije :guilabel:`Uredi` i :guilabel:`Izbriši`. **Napomena**: "
 "*Trenutni profil se ne može izbrisati*."
 
@@ -289,21 +292,21 @@ msgid ""
 "important that each custom profile has a unique profile name*."
 msgstr ""
 "Za stvaranje prilagođenog profila, desni klik na bilo koji profil u "
-"OpenShotu i odaberite :guilabel:`Dupliciraj` za otvaranje Uređivača profila. "
-"Prilagođeni profili također uključuju opcije :guilabel:`Uredi` i :guilabel:"
-"`Izbriši`, ako ih želite dodatno prilagoditi. Možete urediti opis, "
-"rezoluciju, broj sličica u sekundi, omjer širine i visine te omjer piksela "
+"OpenShotu i odaberite :guilabel:`Dupliciraj` za otvaranje Uređivača profila."
+" Prilagođeni profili također uključuju opcije :guilabel:`Uredi` i "
+":guilabel:`Izbriši`, ako ih želite dodatno prilagoditi. Možete urediti opis,"
+" rezoluciju, broj sličica u sekundi, omjer širine i visine te omjer piksela "
 "prilagođenog profila. **NAPOMENA**: *Važno je da svaki prilagođeni profil "
 "ima jedinstveno ime*."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:78
 msgid ""
-"The custom profiles are saved in the ``~/.openshot_qt/profiles/`` or ``C:"
-"\\Users\\USERNAME\\.openshot_qt\\profiles`` folder."
+"The custom profiles are saved in the ``~/.openshot_qt/profiles/`` or "
+"``C:\\Users\\USERNAME\\.openshot_qt\\profiles`` folder."
 msgstr ""
-"Prilagođeni profili se spremaju u mapu ``~/.openshot_qt/profiles/`` ili ``C:"
-"\\Users\\USERNAME\\.openshot_qt\\profiles``."
+"Prilagođeni profili se spremaju u mapu ``~/.openshot_qt/profiles/`` ili "
+"``C:\\Users\\USERNAME\\.openshot_qt\\profiles``."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:88
@@ -370,11 +373,11 @@ msgstr "**Omjer širine i visine**"
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:93
 msgid ""
-"The display aspect ratio of the video (automatically calculated from width/"
-"height and pixel ratio)."
+"The display aspect ratio of the video (automatically calculated from "
+"width/height and pixel ratio)."
 msgstr ""
-"Prikazani omjer širine i visine videa (automatski izračunat iz širine/visine "
-"i omjera piksela)."
+"Prikazani omjer širine i visine videa (automatski izračunat iz širine/visine"
+" i omjera piksela)."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:94
@@ -417,10 +420,10 @@ msgstr "Pretvaranje profila"
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:100
 msgid ""
-"When switching profiles (or exporting to a different profile), OpenShot will "
-"do it's best to convert all clip, transition, and keyframe data to the new "
-"framerate (FPS). Certain properties, such as `position`, `start`, `end`, and "
-"`keyframes` will be updated to match the new framerate precision. For "
+"When switching profiles (or exporting to a different profile), OpenShot will"
+" do it's best to convert all clip, transition, and keyframe data to the new "
+"framerate (FPS). Certain properties, such as `position`, `start`, `end`, and"
+" `keyframes` will be updated to match the new framerate precision. For "
 "example, if moving from 30 FPS to 25 FPS, these properties will be changed "
 "from increments of 1/30 seconds to increments of 1/25 seconds. In order to "
 "preserve the overall timing accuracy of the timeline, OpenShot will match "
@@ -437,9 +440,9 @@ msgstr ""
 "brzine sličica. Na primjer, pri prelasku s 30 FPS na 25 FPS, ta će se "
 "svojstva promijeniti s koraka od 1/30 sekundi na korake od 1/25 sekundi. "
 "Kako bi se sačuvala ukupna točnost vremenske linije, OpenShot će uskladiti "
-"`position` i `start` rez što je moguće preciznije, a male praznine (veličine "
-"1-3 sličice) uzrokovane zaokruživanjem ili promjenama preciznosti automatski "
-"će se riješiti prilagodbom `end` reza. To bi trebalo rezultirati "
+"`position` i `start` rez što je moguće preciznije, a male praznine (veličine"
+" 1-3 sličice) uzrokovane zaokruživanjem ili promjenama preciznosti "
+"automatski će se riješiti prilagodbom `end` reza. To bi trebalo rezultirati "
 "besprijekornom konverzijom za većinu video projekata (bez primjetnih crnih "
 "praznina između isječaka)."
 
@@ -447,8 +450,8 @@ msgstr ""
 #: ../profiles.rst:108
 msgid ""
 "However, the destructive nature of this conversion is why we recommend "
-"always editing in your target profile, or at least your target FPS, in order "
-"to avoid converting between profiles as much as possible."
+"always editing in your target profile, or at least your target FPS, in order"
+" to avoid converting between profiles as much as possible."
 msgstr ""
 "Međutim, zbog destruktivne prirode ove konverzije preporučujemo da uvijek "
 "uređujete u ciljanom profilu, ili barem u ciljanoj brzini sličica, kako "
@@ -501,12 +504,13 @@ msgstr "Prilagođeni profil"
 msgid ""
 "Although OpenShot has more than 400 profiles (:ref:`profile_list_ref`) "
 "included by default, you can also create your own custom profiles. Create a "
-"new text file in the ``~/.openshot_qt/profiles/`` or ``C:\\Users\\USERNAME\\."
-"openshot_qt\\profiles`` folder."
+"new text file in the ``~/.openshot_qt/profiles/`` or "
+"``C:\\Users\\USERNAME\\.openshot_qt\\profiles`` folder."
 msgstr ""
-"Iako OpenShot prema zadanim postavkama uključuje više od 400 profila (:ref:"
-"`profile_list_ref`), možete također stvoriti vlastite prilagođene profile. "
-"Napravite novu tekstualnu datoteku u mapi ``~/.openshot_qt/profiles/`` ili "
+"Iako OpenShot prema zadanim postavkama uključuje više od 400 profila "
+"(:ref:`profile_list_ref`), možete također stvoriti vlastite prilagođene "
+"profile. Napravite novu tekstualnu datoteku u mapi "
+"``~/.openshot_qt/profiles/`` ili "
 "``C:\\Users\\USERNAME\\.openshot_qt\\profiles``."
 
 # Translated with gpt-4.1-mini
@@ -540,8 +544,8 @@ msgstr "opis"
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:154
 msgid ""
-"The friendly name of the profile (this is what OpenShot displays in the user "
-"interface)"
+"The friendly name of the profile (this is what OpenShot displays in the user"
+" interface)"
 msgstr ""
 "Prijateljsko ime profila (ovo je ono što OpenShot prikazuje u korisničkom "
 "sučelju)"
@@ -585,8 +589,8 @@ msgid ""
 "The number of horizontal pixels in the image. By reversing the values for "
 "`width` and `height`, you can create a vertical profile."
 msgstr ""
-"Broj horizontalnih piksela u slici. Obrtanje vrijednosti `širine` i `visine` "
-"omogućuje stvaranje vertikalnog profila."
+"Broj horizontalnih piksela u slici. Obrtanje vrijednosti `širine` i `visine`"
+" omogućuje stvaranje vertikalnog profila."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:158
@@ -672,8 +676,8 @@ msgid ""
 "Once you restart OpenShot, you will see your custom profile appear in the "
 "list of Profiles."
 msgstr ""
-"Nakon ponovnog pokretanja OpenShota, vaš prilagođeni profil pojavit će se na "
-"popisu profila."
+"Nakon ponovnog pokretanja OpenShota, vaš prilagođeni profil pojavit će se na"
+" popisu profila."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:171
@@ -687,14 +691,14 @@ msgid ""
 "profiles and their associated video export settings (``video codec``, "
 "``audio codec``, ``audio channels``, ``audio sample rate``, etc...), which "
 "target specific output formats, websites, and devices. The **default export "
-"preset** used by OpenShot is ``MP4 (h.264 + AAC)``, see :ref:"
-"`profiles_mp4_h264_ref`."
+"preset** used by OpenShot is ``MP4 (h.264 + AAC)``, see "
+":ref:`profiles_mp4_h264_ref`."
 msgstr ""
 "OpenShot uključuje mnoge **unaprijed postavljene izvoze**, koji kombiniraju "
 "naš popis uobičajenih profila i njihove povezane postavke izvoza videa "
 "(``video kodek``, ``audio kodek``, ``audio kanali``, ``audio uzorak "
-"frekvencije``, itd...), a ciljaju specifične izlazne formate, web stranice i "
-"uređaje. **Zadani unaprijed postavljeni izvoz** koji koristi OpenShot je "
+"frekvencije``, itd...), a ciljaju specifične izlazne formate, web stranice i"
+" uređaje. **Zadani unaprijed postavljeni izvoz** koji koristi OpenShot je "
 "``MP4 (h.264 + AAC)``, vidi :ref:`profiles_mp4_h264_ref`."
 
 # Translated with gpt-4.1-mini
@@ -1663,10 +1667,9 @@ msgstr "NTSC SD Widescreen Anamorphic 480i 29,97 fps"
 msgid "Web"
 msgstr "Web"
 
-# Translated with gpt-4.1-mini
 #: ../profiles.rst:1091
-msgid "Flickr-HD"
-msgstr "Flickr-HD"
+msgid "Flickr"
+msgstr "Flickr"
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:0 ../profiles.rst:1662
@@ -1749,7 +1752,7 @@ msgid "1.7 Mb/s"
 msgstr "1,7 Mb/s"
 
 # Translated with gpt-4.1-mini
-#: ../profiles.rst:1228
+#: ../profiles.rst:1228 ../profiles.rst:1253
 msgid "Vimeo"
 msgstr "Vimeo"
 
@@ -1757,11 +1760,6 @@ msgstr "Vimeo"
 #: ../profiles.rst:0
 msgid "NTSC SD Wide FWVGA 480p 29.97 fps"
 msgstr "NTSC SD Wide FWVGA 480p 29,97 fps"
-
-# Translated with gpt-4.1-mini
-#: ../profiles.rst:1253
-msgid "Vimeo-HD"
-msgstr "Vimeo-HD"
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:1267
@@ -1798,10 +1796,9 @@ msgstr "HD 720p 24 fps"
 msgid "Wikipedia"
 msgstr "Wikipedia"
 
-# Translated with gpt-4.1-mini
 #: ../profiles.rst:1310
-msgid "YouTube HD"
-msgstr "YouTube HD"
+msgid "YouTube"
+msgstr "YouTube"
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:1325
@@ -1853,10 +1850,9 @@ msgstr "FHD Vertikalno 1080p 59,94 fps"
 msgid "FHD Vertical 1080p 60 fps"
 msgstr "FHD Vertikalno 1080p 60 fps"
 
-# Translated with gpt-4.1-mini
 #: ../profiles.rst:1349
-msgid "YouTube HD (2K)"
-msgstr "YouTube HD (2K)"
+msgid "YouTube (2K)"
+msgstr "YouTube (2K)"
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:1363
@@ -1913,10 +1909,9 @@ msgstr "2,5K WQHD 1440p 59,94 fps"
 msgid "2.5K WQHD 1440p 60 fps"
 msgstr "2,5K WQHD 1440p 60 fps"
 
-# Translated with gpt-4.1-mini
 #: ../profiles.rst:1380
-msgid "YouTube HD (4K)"
-msgstr "YouTube HD (4K)"
+msgid "YouTube (4K)"
+msgstr "YouTube (4K)"
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:1394
@@ -1973,10 +1968,9 @@ msgstr "4K UHD 2160p 59,94 fps"
 msgid "4K UHD 2160p 60 fps"
 msgstr "4K UHD 2160p 60 fps"
 
-# Translated with gpt-4.1-mini
 #: ../profiles.rst:1411
-msgid "YouTube HD (8K)"
-msgstr "YouTube HD (8K)"
+msgid "YouTube (8K)"
+msgstr "YouTube (8K)"
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:1425
@@ -2156,9 +2150,9 @@ msgstr "Popis profila"
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:1567
 msgid ""
-"OpenShot includes over 400 built-in video profiles. These profiles match the "
-"most common video project sizes and frame rates used around the world. It is "
-"recommended to edit your project using the same profile as you intend to "
+"OpenShot includes over 400 built-in video profiles. These profiles match the"
+" most common video project sizes and frame rates used around the world. It "
+"is recommended to edit your project using the same profile as you intend to "
 "export. You can also edit your project with different profiles which match "
 "your target aspect ratio, for example: all ``16:9`` profiles are generally "
 "compatible with each other. Sometimes it can be useful to edit a project in "
@@ -2166,13 +2160,13 @@ msgid ""
 "full list of profiles is provided below."
 msgstr ""
 "OpenShot uključuje preko 400 ugrađenih video profila. Ti profili odgovaraju "
-"najčešćim veličinama video projekata i frekvencijama sličica koje se koriste "
-"širom svijeta. Preporučuje se uređivanje projekta koristeći isti profil koji "
-"namjeravate izvesti. Također možete uređivati projekt s različitim profilima "
-"koji odgovaraju vašem ciljnom omjeru stranica, na primjer: svi ``16:9`` "
-"profili su općenito međusobno kompatibilni. Ponekad može biti korisno "
-"uređivati projekt u profilu niže rezolucije, a izvesti u profilu više "
-"rezolucije. Potpuni popis profila nalazi se u nastavku."
+"najčešćim veličinama video projekata i frekvencijama sličica koje se koriste"
+" širom svijeta. Preporučuje se uređivanje projekta koristeći isti profil "
+"koji namjeravate izvesti. Također možete uređivati projekt s različitim "
+"profilima koji odgovaraju vašem ciljnom omjeru stranica, na primjer: svi "
+"``16:9`` profili su općenito međusobno kompatibilni. Ponekad može biti "
+"korisno uređivati projekt u profilu niže rezolucije, a izvesti u profilu "
+"više rezolucije. Potpuni popis profila nalazi se u nastavku."
 
 # Translated with gpt-4.1-mini
 #: ../profiles.rst:1576
@@ -2203,8 +2197,8 @@ msgstr "**DAR**: Omjer prikaza (npr. 1920:1080 postaje 16:9)"
 msgid ""
 "**SAR**: Sample Aspect Ratio (e.g., 1:1 square pixel, 2:1 horizontal "
 "rectangular pixel). The SAR directly affects the display aspect ratio. For "
-"instance, a 4:3 video can be displayed as 16:9 using rectangular pixels. Non-"
-"square pixels adjust the final display width."
+"instance, a 4:3 video can be displayed as 16:9 using rectangular pixels. "
+"Non-square pixels adjust the final display width."
 msgstr ""
 "**SAR**: Omjer uzorka piksela (npr. 1:1 kvadratni piksel, 2:1 horizontalni "
 "pravokutni piksel). SAR izravno utječe na omjer prikaza. Na primjer, video "
@@ -5278,3 +5272,27 @@ msgstr "NTSC SD SQ CIF 96p 25 fps"
 #: ../profiles.rst:2021
 msgid "NTSC SD SQ CIF 96p 15 fps"
 msgstr "NTSC SD SQ CIF 96p 15 fps"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Flickr-HD"
+#~ msgstr "Flickr-HD"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Vimeo-HD"
+#~ msgstr "Vimeo-HD"
+
+# Translated with gpt-4.1-mini
+#~ msgid "YouTube HD"
+#~ msgstr "YouTube HD"
+
+# Translated with gpt-4.1-mini
+#~ msgid "YouTube HD (2K)"
+#~ msgstr "YouTube HD (2K)"
+
+# Translated with gpt-4.1-mini
+#~ msgid "YouTube HD (4K)"
+#~ msgstr "YouTube HD (4K)"
+
+# Translated with gpt-4.1-mini
+#~ msgid "YouTube HD (8K)"
+#~ msgstr "YouTube HD (8K)"

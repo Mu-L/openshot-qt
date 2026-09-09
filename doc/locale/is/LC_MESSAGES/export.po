@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,10 +34,10 @@ msgid ""
 msgstr ""
 "Útflutningur breytir OpenShot verkefninu þínu (klippum, áhrifum, "
 "hreyfimyndum, titlum) í eina vídeóskrá (með ferli sem kallast "
-"``vídeóþjöppun``). Með því að nota sjálfgefna stillingu verður útflutt vídeó "
-"samhæft flestum fjölmiðlaspilurum (eins og VLC) og vefsíðum (eins og "
-"YouTube, Vimeo, Facebook) og býr til ``MP4 (h.264 + AAC)`` sniðið vídeóskrá. "
-"Sjá :ref:`profiles_mp4_h264_ref`."
+"``vídeóþjöppun``). Með því að nota sjálfgefna stillingu verður útflutt vídeó"
+" samhæft flestum fjölmiðlaspilurum (eins og VLC) og vefsíðum (eins og "
+"YouTube, Vimeo, Facebook) og býr til ``MP4 (h.264 + AAC)`` sniðið vídeóskrá."
+" Sjá :ref:`profiles_mp4_h264_ref`."
 
 # Translated with gpt-4.1-mini
 #: ../export.rst:28
@@ -45,7 +45,8 @@ msgid ""
 "Click on the :guilabel:`Export Video` icon at the top of the screen (or use "
 "the :guilabel:`File→Export Video` menu). The default values will work fine, "
 "so just click the :guilabel:`Export Video` button to render your new video. "
-"You can also create your own custom export profiles, see :ref:`profiles_ref`."
+"You can also create your own custom export profiles, see "
+":ref:`profiles_ref`."
 msgstr ""
 "Smelltu á táknið :guilabel:`Flytja út vídeó` efst á skjánum (eða notaðu "
 "valmyndina :guilabel:`Skrá→Flytja út vídeó`). Sjálfgefnu gildin virka vel, "
@@ -68,8 +69,8 @@ msgid ""
 msgstr ""
 "Þó að vídeóþjöppun sé mjög flókin, með tugum samtengdra stillinga og "
 "valkosta, gerir OpenShot það auðvelt með skynsamlegum sjálfgefnum "
-"stillingum, og mest af þessari flækju falin bak við flipann `Simple`, sem er "
-"sjálfgefinn útflutningssýn."
+"stillingum, og mest af þessari flækju falin bak við flipann `Simple`, sem er"
+" sjálfgefinn útflutningssýn."
 
 # Translated with gpt-4.1-mini
 #: ../export.rst:45
@@ -97,7 +98,7 @@ msgstr ""
 "flokkaðar eftir flokkum, til dæmis: **Vefur**)"
 
 # Translated with gpt-4.1-mini
-#: ../export.rst:48
+#: ../export.rst:48 ../export.rst:168
 msgid "Target"
 msgstr "Markmið"
 
@@ -111,7 +112,7 @@ msgstr ""
 "kóðurum og gæðastillingum, sjá :ref:`preset_list_ref`)"
 
 # Translated with gpt-4.1-mini
-#: ../export.rst:49
+#: ../export.rst:49 ../export.rst:169
 msgid "Video Profile"
 msgstr "Vídeóprófíll"
 
@@ -153,10 +154,10 @@ msgid ""
 "bitrates, different codecs, or limiting the range of frames exported, this "
 "is the tab for you."
 msgstr ""
-"Flestir notendur þurfa aldrei að skipta yfir í flipann `Ítarlegur`, en ef þú "
-"þarft að sérsníða einhverjar vídeóþjöppunarstillingar, til dæmis sérsniðna "
-"strauma, aðra kóðara eða takmarka svið ramma sem eru fluttir út, þá er þetta "
-"flipinn fyrir þig."
+"Flestir notendur þurfa aldrei að skipta yfir í flipann `Ítarlegur`, en ef þú"
+" þarft að sérsníða einhverjar vídeóþjöppunarstillingar, til dæmis sérsniðna "
+"strauma, aðra kóðara eða takmarka svið ramma sem eru fluttir út, þá er þetta"
+" flipinn fyrir þig."
 
 # Translated with gpt-4.1-mini
 #: ../export.rst:61
@@ -234,19 +235,20 @@ msgid ""
 "need to zoom out (:guilabel:`Ctrl+Scroll Wheel`) of the timeline before you "
 "can drag the right edge of a track."
 msgstr ""
-"Þessi gátreitur skiptir á milli **Endaramma** `enda` lengstu klippu/"
-"skiptingar og fulls `verkefnatíma`. Verkefnatímann er hægt að stilla með því "
-"að draga hægri brún hvers rásar. Þú þarft að aðdraga út (:guilabel:"
-"`Ctrl+Scroll Wheel`) tímalínuna áður en þú getur dregið hægri brún rásar."
+"Þessi gátreitur skiptir á milli **Endaramma** `enda` lengstu "
+"klippu/skiptingar og fulls `verkefnatíma`. Verkefnatímann er hægt að stilla "
+"með því að draga hægri brún hvers rásar. Þú þarft að aðdraga út "
+"(:guilabel:`Ctrl+Scroll Wheel`) tímalínuna áður en þú getur dregið hægri "
+"brún rásar."
 
 # Translated with gpt-4.1-mini
 #: ../export.rst:81
 msgid ""
-"A video profile is a collection of common video settings (*size, frame rate, "
-"aspect ratio*). Profiles are used during editing, previewing, and exporting "
-"to provide a quick way to switch between common combinations of these "
-"settings. The :guilabel:`Export Dialog` will **default** to the same profile "
-"used by the project."
+"A video profile is a collection of common video settings (*size, frame rate,"
+" aspect ratio*). Profiles are used during editing, previewing, and exporting"
+" to provide a quick way to switch between common combinations of these "
+"settings. The :guilabel:`Export Dialog` will **default** to the same profile"
+" used by the project."
 msgstr ""
 "Vídeóprófíll er safn af algengum vídeóstillingum (*stærð, rammatíðni, "
 "hlutföll*). Prófílar eru notaðir við klippingu, forskoðun og útflutning til "
@@ -267,8 +269,8 @@ msgstr ""
 "*ATH: Mikilvægt er að velja **prófíl** með sama **hlutfalli** og notað er "
 "við klippingu verkefnisins. Ef þú ert að flytja út með **öðru hlutfalli** "
 "gæti það teygð myndina, klippt hana, bætt við svörtum röndum eða valdið "
-"öðrum vandamálum sem breyta útflyttri mynd, svo hún birtist öðruvísi en í :"
-"guilabel:`Forskoðun` í OpenShot.*"
+"öðrum vandamálum sem breyta útflyttri mynd, svo hún birtist öðruvísi en í "
+":guilabel:`Forskoðun` í OpenShot.*"
 
 # Translated with gpt-4.1-mini
 #: ../export.rst:96
@@ -316,8 +318,8 @@ msgid ""
 "This also takes into account the pixel ratio, for example 2:1 rectangular "
 "pixels will affect the aspect ratio."
 msgstr ""
-"Hlutfall lokaútfluttra vídeóa. 1920×1080 jafngildir 16:9. Þetta tekur einnig "
-"tillit til pixlahlutfalls, til dæmis hafa 2:1 rétthyrnd pixlar áhrif á "
+"Hlutfall lokaútfluttra vídeóa. 1920×1080 jafngildir 16:9. Þetta tekur einnig"
+" tillit til pixlahlutfalls, til dæmis hafa 2:1 rétthyrnd pixlar áhrif á "
 "hlutfallið."
 
 # Translated with gpt-4.1-mini
@@ -395,8 +397,8 @@ msgid ""
 "00002.png."
 msgstr ""
 "Strengjaforskrift sem táknar nafn útfluttrar skráar í röð mynda. Til dæmis "
-"myndi %05d.png bæta við tölustöfum þannig að númerið verði 5 stafa: 00001."
-"png, 00002.png."
+"myndi %05d.png bæta við tölustöfum þannig að númerið verði 5 stafa: "
+"00001.png, 00002.png."
 
 # Translated with gpt-4.1-mini
 #: ../export.rst:123
@@ -418,7 +420,8 @@ msgstr "Myndbandsform"
 msgid ""
 "The name of the container format (``mp4``, ``mov``, ``avi``, ``webm``, "
 "etc...)"
-msgstr "Nafn umbúðaforskriftar (``mp4``, ``mov``, ``avi``, ``webm``, o.s.frv.)"
+msgstr ""
+"Nafn umbúðaforskriftar (``mp4``, ``mov``, ``avi``, ``webm``, o.s.frv.)"
 
 # Translated with gpt-4.1-mini
 #: ../export.rst:134
@@ -442,11 +445,11 @@ msgstr "Bitahraði / Gæði"
 # Translated with gpt-4.1-mini
 #: ../export.rst:135
 msgid ""
-"The bitrate to use for video encoding. Accepts the following formats: ``5 Mb/"
-"s``, ``96 kb/s``, ``23 crf``, etc..."
+"The bitrate to use for video encoding. Accepts the following formats: ``5 "
+"Mb/s``, ``96 kb/s``, ``23 crf``, etc..."
 msgstr ""
-"Bitahraði sem á að nota við myndbandsþjöppun. Tekur við eftirfarandi sniðum: "
-"``5 Mb/s``, ``96 kb/s``, ``23 crf``, o.s.frv."
+"Bitahraði sem á að nota við myndbandsþjöppun. Tekur við eftirfarandi sniðum:"
+" ``5 Mb/s``, ``96 kb/s``, ``23 crf``, o.s.frv."
 
 # Translated with gpt-4.1-mini
 #: ../export.rst:139
@@ -482,7 +485,8 @@ msgstr "Sýnatökutíðni"
 msgid ""
 "The number of audio samples per second. Common values are ``44100`` and "
 "``48000``."
-msgstr "Fjöldi hljóðsýna á sekúndu. Algengar tölur eru ``44100`` og ``48000``."
+msgstr ""
+"Fjöldi hljóðsýna á sekúndu. Algengar tölur eru ``44100`` og ``48000``."
 
 # Translated with gpt-4.1-mini
 #: ../export.rst:151
@@ -492,8 +496,8 @@ msgstr "Röðun rása"
 # Translated with gpt-4.1-mini
 #: ../export.rst:151
 msgid ""
-"The number and layout of audio channels (``Stereo``, ``Mono``, ``Surround``, "
-"etc...)"
+"The number and layout of audio channels (``Stereo``, ``Mono``, ``Surround``,"
+" etc...)"
 msgstr ""
 "Fjöldi og röðun hljóðrása (``Stereo``, ``Mono``, ``Surround``, o.s.frv.)"
 
@@ -505,3 +509,253 @@ msgid ""
 msgstr ""
 "Bitahraði sem á að nota við hljóðþjöppun. Tekur við eftirfarandi sniðum: "
 "``96 kb/s``, ``128 kb/s``, ``192 kb/s``, o.s.frv."
+
+#: ../export.rst:158
+msgid "Social Media Quick Reference"
+msgstr "Fljótleg tilvísun í samfélagsmiðla"
+
+#: ../export.rst:160
+msgid ""
+"The table below shows the recommended :guilabel:`Target` and "
+":guilabel:`Video Profile` settings for common social media platforms. Select"
+" these in the **Simple** tab of the Export dialog."
+msgstr ""
+"Taflan hér að neðan sýnir ráðlagðar stillingar fyrir :guilabel:`Markmið` og "
+":guilabel:`Myndbandsprófíl` fyrir algengar samfélagsmiðlaplatformur. Veldu "
+"þessar í **Einföldu** flipanum í Útflutningsglugganum."
+
+#: ../export.rst:167
+msgid "Platform"
+msgstr "Vettvangur"
+
+#: ../export.rst:170
+msgid "Notes"
+msgstr "Athugasemdir"
+
+#: ../export.rst:171
+msgid "YouTube (landscape)"
+msgstr "YouTube (landslag)"
+
+#: ../export.rst:172
+msgid "``YouTube``"
+msgstr "``YouTube``"
+
+#: ../export.rst:173 ../export.rst:189 ../export.rst:197 ../export.rst:201
+#: ../export.rst:205 ../export.rst:209
+msgid "``FHD 1080p 30 fps``"
+msgstr "``FHD 1080p 30 fps``"
+
+#: ../export.rst:174
+msgid "Use ``YouTube (4K)`` for 4K"
+msgstr "Notaðu ``YouTube (4K)`` fyrir 4K"
+
+#: ../export.rst:175
+msgid "YouTube Shorts (vertical)"
+msgstr "YouTube Shorts (lóðrétt)"
+
+#: ../export.rst:176
+msgid "``YouTube Shorts``"
+msgstr "``YouTube Shorts``"
+
+#: ../export.rst:177 ../export.rst:181 ../export.rst:185 ../export.rst:193
+msgid "``FHD Vertical 1080p 30 fps``"
+msgstr "``FHD lóðrétt 1080p 30 fps``"
+
+#: ../export.rst:178 ../export.rst:182 ../export.rst:186 ../export.rst:194
+msgid "Up to 60 fps"
+msgstr "Allt að 60 fps"
+
+#: ../export.rst:179
+msgid "TikTok (vertical)"
+msgstr "TikTok (lóðrétt)"
+
+#: ../export.rst:180
+msgid "``TikTok``"
+msgstr "``TikTok``"
+
+#: ../export.rst:183
+msgid "Instagram Reels (vertical)"
+msgstr "Instagram Reels (lóðrétt)"
+
+#: ../export.rst:184
+msgid "``Instagram Reels``"
+msgstr "``Instagram Reels``"
+
+#: ../export.rst:187
+msgid "Instagram (landscape/square)"
+msgstr "Instagram (landslag/ferningur)"
+
+#: ../export.rst:188
+msgid "``Instagram``"
+msgstr "``Instagram``"
+
+#: ../export.rst:190
+msgid "Square (1:1) also available"
+msgstr "Ferningur (1:1) einnig í boði"
+
+#: ../export.rst:191
+msgid "Snapchat (vertical)"
+msgstr "Snapchat (lóðrétt)"
+
+#: ../export.rst:192
+msgid "``Snapchat``"
+msgstr "``Snapchat``"
+
+#: ../export.rst:195
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../export.rst:196
+msgid "``Facebook``"
+msgstr "``Facebook``"
+
+#: ../export.rst:198
+msgid "Square and vertical also available"
+msgstr "Ferningur og lóðrétt einnig í boði"
+
+#: ../export.rst:199
+msgid "LinkedIn (landscape)"
+msgstr "LinkedIn (landslag)"
+
+#: ../export.rst:200
+msgid "``LinkedIn``"
+msgstr "``LinkedIn``"
+
+#: ../export.rst:202
+msgid "Square and 4:5 portrait also available"
+msgstr "Ferningur og 4:5 portrett einnig í boði"
+
+#: ../export.rst:203
+msgid "Twitter / X"
+msgstr "Twitter / X"
+
+#: ../export.rst:204
+msgid "``Twitter / X``"
+msgstr "``Twitter / X``"
+
+#: ../export.rst:206
+msgid "Vertical also available"
+msgstr "Lóðrétt einnig í boði"
+
+#: ../export.rst:207
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: ../export.rst:208
+msgid "``Vimeo``"
+msgstr "``Vimeo``"
+
+#: ../export.rst:210
+msgid "Use High quality setting"
+msgstr "Notaðu stillingu fyrir háa gæði"
+
+#: ../export.rst:215
+msgid "Hardware-Accelerated Export"
+msgstr "Hraðaður útflutningur með vélbúnaði"
+
+#: ../export.rst:217
+msgid ""
+"OpenShot supports GPU-accelerated video encoding on supported hardware, "
+"dramatically reducing export times. Hardware-accelerated targets are shown "
+"with a badge in the :guilabel:`Target` dropdown. Select the appropriate "
+"target for your hardware:"
+msgstr ""
+"OpenShot styður GPU-hraðað myndbandskóðun á studdum vélbúnaði, sem minnkar "
+"útflutningstíma verulega. Markmið með vélbúnaðarhraðara eru sýnd með merki í"
+" fellivalmyndinni :guilabel:`Markmið`. Veldu viðeigandi markmið fyrir "
+"vélbúnaðinn þinn:"
+
+#: ../export.rst:225
+msgid "Target (Export Dialog)"
+msgstr "Markmið (Útflutningsgluggi)"
+
+#: ../export.rst:225
+msgid "Badge"
+msgstr "Merki"
+
+#: ../export.rst:225
+msgid "Requires"
+msgstr "Krefst"
+
+#: ../export.rst:227
+msgid "``MP4 (h.264 nv)``"
+msgstr "``MP4 (h.264 nv)``"
+
+#: ../export.rst:227
+msgid "NVENC"
+msgstr "NVENC"
+
+#: ../export.rst:227
+msgid "NVIDIA GPU (Kepler or newer)"
+msgstr "NVIDIA GPU (Kepler eða nýrri)"
+
+#: ../export.rst:228
+msgid "``MP4 (h.264 va)``"
+msgstr "``MP4 (h.264 va)``"
+
+#: ../export.rst:228 ../export.rst:232
+msgid "VA-API"
+msgstr "VA-API"
+
+#: ../export.rst:228
+msgid "Linux with AMD or Intel GPU (VAAPI driver)"
+msgstr "Linux með AMD eða Intel GPU (VAAPI bílstjóri)"
+
+#: ../export.rst:229
+msgid "``MP4 (h.264 qsv)``"
+msgstr "``MP4 (h.264 qsv)``"
+
+#: ../export.rst:229
+msgid "QSV"
+msgstr "QSV"
+
+#: ../export.rst:229
+msgid "Intel GPU with Quick Sync Video"
+msgstr "Intel GPU með Quick Sync Video"
+
+#: ../export.rst:230
+msgid "``MP4 (h.264 videotoolbox)``"
+msgstr "``MP4 (h.264 videotoolbox)``"
+
+#: ../export.rst:230
+msgid "VideoToolbox"
+msgstr "VideoToolbox"
+
+#: ../export.rst:230
+msgid "macOS with Apple or Intel GPU"
+msgstr "macOS með Apple eða Intel GPU"
+
+#: ../export.rst:231
+msgid "``MP4 (h.264 dx)``"
+msgstr "``MP4 (h.264 dx)``"
+
+#: ../export.rst:231
+msgid "DirectX"
+msgstr "DirectX"
+
+#: ../export.rst:231
+msgid "Windows with DirectX-compatible GPU"
+msgstr "Windows með DirectX-samhæfu GPU"
+
+#: ../export.rst:232
+msgid "``MP4 (HEVC va)``"
+msgstr "``MP4 (HEVC va)``"
+
+#: ../export.rst:232
+msgid "Linux VA-API — produces smaller HEVC files"
+msgstr "Linux VA-API — framleiðir minni HEVC skrár"
+
+#: ../export.rst:235
+msgid ""
+"MKV variants (``MKV (h.264 nv)``, ``MKV (h.264 va)``, etc.) are also "
+"available for each accelerator. If none of these targets appear or export "
+"fails, your system either lacks the required driver or the hardware encoder "
+"is not supported — fall back to the standard ``MP4 (h.264 + AAC)`` target, "
+"which uses the CPU-based ``libx264`` encoder and works on all systems."
+msgstr ""
+"MKV afbrigði (``MKV (h.264 nv)``, ``MKV (h.264 va)``, o.s.frv.) eru einnig í"
+" boði fyrir hvern hraðara. Ef engin þessara markmiða birtast eða "
+"útflutningur bilar, þá vantar kerfið þitt annað hvort nauðsynlegan bílstjóra"
+" eða vélbúnaðar-kóðarinn er ekki studdur — notaðu þá venjulega ``MP4 (h.264 "
+"+ AAC)`` markmiðið, sem notar CPU-undirstaðan ``libx264`` kóðara og virkar á"
+" öllum kerfum."

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,29 +24,29 @@ msgstr ""
 msgid "Text & Titles"
 msgstr "Teksti & Otsikot"
 
-# Translated with gpt-4.1-mini
 #: ../titles.rst:25
 msgid ""
-"Adding text and titles is an important aspect of video editing, and OpenShot "
-"comes with an easy-to-use Title Editor. Use the Title menu (located in the "
-"main menu of OpenShot) to launch the Title Editor. You can also use the "
-"keyboard shortcut :kbd:`Ctrl+T`."
+"Adding text overlays, lower thirds, and titles is an important aspect of "
+"video editing, and OpenShot comes with an easy-to-use Title Editor. Use the "
+"Title menu (located in the main menu of OpenShot) to launch the Title "
+"Editor. You can also use the keyboard shortcut :kbd:`Ctrl+T`."
 msgstr ""
-"Tekstin ja otsikoiden lisääminen on tärkeä osa videoeditointia, ja OpenShot "
-"sisältää helppokäyttöisen otsikkotyökalun. Käynnistä otsikkotyökalu Otsikko-"
-"valikosta (päävalikossa). Voit myös käyttää pikanäppäintä :kbd:`Ctrl+T`."
+"Tekstikerrosten, alaotsikoiden ja otsikoiden lisääminen on tärkeä osa "
+"videoeditointia, ja OpenShot sisältää helppokäyttöisen otsikkotyökalun. "
+"Käytä Otsikko-valikkoa (sijaitsee OpenShotin päävalikossa) käynnistääksesi "
+"otsikkotyökalun. Voit myös käyttää pikanäppäintä :kbd:`Ctrl+T`."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:29
 msgid ""
-"Titles are simply vector image files with transparent backgrounds (``*."
-"svg``). OpenShot comes with many easy-to-use templates, but you can also "
-"create your own or import new templates into OpenShot. These templates allow "
-"you to quickly change the text, font, size, color, and background color. You "
-"can also launch an advanced, external SVG editor for further customizations "
-"(if needed). Once the title is added to your project, drag and drop the "
-"title on a Track above a video clip. The transparent background will allow "
-"the video below to appear behind the text."
+"Titles are simply vector image files with transparent backgrounds "
+"(``*.svg``). OpenShot comes with many easy-to-use templates, but you can "
+"also create your own or import new templates into OpenShot. These templates "
+"allow you to quickly change the text, font, size, color, and background "
+"color. You can also launch an advanced, external SVG editor for further "
+"customizations (if needed). Once the title is added to your project, drag "
+"and drop the title on a Track above a video clip. The transparent background"
+" will allow the video below to appear behind the text."
 msgstr ""
 "Otsikot ovat yksinkertaisesti vektorigrafiikkatiedostoja, joissa on "
 "läpinäkyvä tausta (``*.svg``). OpenShot sisältää monia helppokäyttöisiä "
@@ -54,8 +54,8 @@ msgstr ""
 "Näillä malleilla voit nopeasti muuttaa tekstiä, fonttia, kokoa, väriä ja "
 "taustaväriä. Voit myös avata kehittyneen ulkoisen SVG-editorin "
 "lisämuokkauksia varten. Kun otsikko on lisätty projektiisi, vedä ja pudota "
-"se raidalle videoleikkeen yläpuolelle. Läpinäkyvä tausta sallii videon näkyä "
-"tekstin takana."
+"se raidalle videoleikkeen yläpuolelle. Läpinäkyvä tausta sallii videon näkyä"
+" tekstin takana."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:36
@@ -191,7 +191,8 @@ msgstr "Palkki 3"
 #: ../titles.rst:69
 msgid "Another variation of a simple bar with text, for lower 3rds."
 msgstr ""
-"Toinen versio yksinkertaisesta palkista tekstillä, käytettäväksi alalaidassa."
+"Toinen versio yksinkertaisesta palkista tekstillä, käytettäväksi "
+"alalaidassa."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:70
@@ -317,8 +318,7 @@ msgstr "Elokuvaluokitus 4"
 # Translated with gpt-4.1-mini
 #: ../titles.rst:93
 msgid "Displays a film rating of \"PG-13\", parents strongly cautioned."
-msgstr ""
-"Näyttää elokuvaluokituksen \"PG-13\", vanhempien tulee olla varovaisia."
+msgstr "Näyttää elokuvaluokituksen \"PG-13\", vanhempien tulee olla varovaisia."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:94
@@ -420,10 +420,11 @@ msgstr "Harmaa laatikko 1"
 # Translated with gpt-4.1-mini
 #: ../titles.rst:113
 msgid ""
-"A simple gray box for highlighting text (one line of text, top-left aligned)."
+"A simple gray box for highlighting text (one line of text, top-left "
+"aligned)."
 msgstr ""
-"Yksinkertainen harmaa laatikko tekstin korostamiseen (yksi tekstirivi, vasen "
-"yläkulma)."
+"Yksinkertainen harmaa laatikko tekstin korostamiseen (yksi tekstirivi, vasen"
+" yläkulma)."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:114
@@ -433,7 +434,8 @@ msgstr "Harmaa laatikko 2"
 # Translated with gpt-4.1-mini
 #: ../titles.rst:115
 msgid ""
-"A simple gray box for highlighting text (two lins of text, top-left aligned)."
+"A simple gray box for highlighting text (two lins of text, top-left "
+"aligned)."
 msgstr ""
 "Yksinkertainen harmaa laatikko tekstin korostamiseen (kaksi tekstiriviä, "
 "vasen yläkulma)."
@@ -694,8 +696,7 @@ msgstr "TV-luokitus"
 msgid ""
 "Displays TV ratings badge such as \"G\" and \"PG\" (for the corner of the "
 "screen)."
-msgstr ""
-"Näyttää TV-luokituksen tunnuksen, kuten \"G\" ja \"PG\" (näytön kulmassa)."
+msgstr "Näyttää TV-luokituksen tunnuksen, kuten \"G\" ja \"PG\" (näytön kulmassa)."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:167
@@ -705,20 +706,20 @@ msgstr "Mukautetut otsikkopohjat"
 # Translated with gpt-4.1-mini
 #: ../titles.rst:168
 msgid ""
-"OpenShot can use any vector SVG image file as a custom title template in "
-"the :guilabel:`Title Editor` dialog. Just add an SVG image file to your ``~/."
-"openshot_qt/title_templates/`` folder, and it will appear the next time you "
-"launch the :guilabel:`Title Editor` dialog. You can also right click on any "
-"SVG files in your **Project Files** panel, and choose **Edit Title** or "
-"**Duplicate Title**."
+"OpenShot can use any vector SVG image file as a custom title template in the"
+" :guilabel:`Title Editor` dialog. Just add an SVG image file to your "
+"``~/.openshot_qt/title_templates/`` folder, and it will appear the next time"
+" you launch the :guilabel:`Title Editor` dialog. You can also right click on"
+" any SVG files in your **Project Files** panel, and choose **Edit Title** or"
+" **Duplicate Title**."
 msgstr ""
 "OpenShot voi käyttää mitä tahansa vektori-SVG-kuvatiedostoa mukautettuna "
 "otsikkopohjana :guilabel:`Title Editor` -valintaikkunassa. Lisää vain SVG-"
 "kuvatiedosto kansioon ``~/.openshot_qt/title_templates/``, niin se näkyy "
 "seuraavan kerran, kun avaat :guilabel:`Title Editor` -valintaikkunan. Voit "
 "myös napsauttaa hiiren oikealla mitä tahansa SVG-tiedostoa "
-"**Projektitiedostot**-paneelissa ja valita **Muokkaa otsikkoa** tai **Kopioi "
-"otsikko**."
+"**Projektitiedostot**-paneelissa ja valita **Muokkaa otsikkoa** tai **Kopioi"
+" otsikko**."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:172
@@ -726,8 +727,8 @@ msgid ""
 "Note: These SVG templates are only used by the :guilabel:`Title Editor` "
 "dialog, and not :guilabel:`Animated Title` dialog."
 msgstr ""
-"Huomautus: Näitä SVG-pohjia käyttää vain :guilabel:`Title Editor` -"
-"valintaikkuna, ei :guilabel:`Animated Title` -valintaikkuna."
+"Huomautus: Näitä SVG-pohjia käyttää vain :guilabel:`Title Editor` "
+"-valintaikkuna, ei :guilabel:`Animated Title` -valintaikkuna."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:177
@@ -777,8 +778,8 @@ msgstr "3D-animoidut pohjat"
 # Translated with gpt-4.1-mini
 #: ../titles.rst:196
 msgid ""
-"OpenShot includes a variety of 3D animated templates that can be used to add "
-"dynamic and engaging elements to your video projects. Below is a table "
+"OpenShot includes a variety of 3D animated templates that can be used to add"
+" dynamic and engaging elements to your video projects. Below is a table "
 "listing the available templates and their descriptions:"
 msgstr ""
 "OpenShot sisältää erilaisia 3D-animoituja pohjia, joita voi käyttää "
@@ -823,7 +824,8 @@ msgstr "Värilaatat"
 msgid ""
 "An animation with changing colors, suitable for vibrant and dynamic titles."
 msgstr ""
-"Animaatio, jossa värit vaihtuvat, sopii eloisille ja dynaamisille otsikoille."
+"Animaatio, jossa värit vaihtuvat, sopii eloisille ja dynaamisille "
+"otsikoille."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:211
@@ -833,10 +835,11 @@ msgstr "Hajoava teksti"
 # Translated with gpt-4.1-mini
 #: ../titles.rst:212
 msgid ""
-"A dissolve effect that turns any text into particles which get blown away by "
-"the wind."
+"A dissolve effect that turns any text into particles which get blown away by"
+" the wind."
 msgstr ""
-"Hajoamistehoste, joka muuttaa tekstin hiukkasiksi, jotka tuuli puhaltaa pois."
+"Hajoamistehoste, joka muuttaa tekstin hiukkasiksi, jotka tuuli puhaltaa "
+"pois."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:213
@@ -1012,7 +1015,8 @@ msgstr "Zoomaa klappilautaan"
 msgid ""
 "A zoom title with a clapboard, perfect for film or video production themes."
 msgstr ""
-"Zoom-otsikko klappilaudalla, täydellinen elokuva- tai videotuotantoteemoihin."
+"Zoom-otsikko klappilaudalla, täydellinen elokuva- tai "
+"videotuotantoteemoihin."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:247
@@ -1043,9 +1047,9 @@ msgid ""
 "to allow the text to not cover up videos and images on the timeline below "
 "them."
 msgstr ""
-"``SVG``-formaatti on erinomainen valinta vektorigrafiikkaan (käyrät, muodot, "
-"tekstiefektit ja polut), mutta se ei ole aina 100 % yhteensopiva OpenShotin "
-"kanssa. Siksi suosittelemme käyttämään ``PNG``-formaattia, joka on "
+"``SVG``-formaatti on erinomainen valinta vektorigrafiikkaan (käyrät, muodot,"
+" tekstiefektit ja polut), mutta se ei ole aina 100 % yhteensopiva OpenShotin"
+" kanssa. Siksi suosittelemme käyttämään ``PNG``-formaattia, joka on "
 "erinomainen verkkopohjainen kuvaformaatti, joka voi sisältää läpinäkyvän "
 "taustan ja alfakanavan. Läpinäkyvä tausta ja alfakanava ovat tarpeen, jotta "
 "OpenShot sallii tekstin olla peittämättä aikajanalla olevia videoita ja "
@@ -1054,11 +1058,11 @@ msgstr ""
 # Translated with gpt-4.1-mini
 #: ../titles.rst:258
 msgid ""
-"For information on importing animated sequences into OpenShot, please see :"
-"ref:`animation_image_seq_ref`."
+"For information on importing animated sequences into OpenShot, please see "
+":ref:`animation_image_seq_ref`."
 msgstr ""
-"Lisätietoja animoitujen sekvenssien tuonnista OpenShotiin löydät kohdasta :"
-"ref:`animation_image_seq_ref`."
+"Lisätietoja animoitujen sekvenssien tuonnista OpenShotiin löydät kohdasta "
+":ref:`animation_image_seq_ref`."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:261
@@ -1069,14 +1073,14 @@ msgstr "Inkscapen asennus"
 #: ../titles.rst:263
 msgid ""
 "The :guilabel:`Advanced Editor` feature in the :guilabel:`Title Editor` "
-"dialog requires the latest version of Inkscape (https://inkscape.org/"
-"release/) be installed and the OpenShot **Preferences** updated with the "
-"correct path to the Inkscape executable. See the :ref:"
-"`preferences_general_ref` tab in Preferences."
+"dialog requires the latest version of Inkscape "
+"(https://inkscape.org/release/) be installed and the OpenShot "
+"**Preferences** updated with the correct path to the Inkscape executable. "
+"See the :ref:`preferences_general_ref` tab in Preferences."
 msgstr ""
-":guilabel:`Title Editor`-valintaikkunan :guilabel:`Advanced Editor` -"
-"ominaisuus vaatii uusimman Inkscape-version (https://inkscape.org/release/) "
-"asentamisen ja OpenShotin **Asetuksista** polun päivittämisen Inkscape-"
+":guilabel:`Title Editor`-valintaikkunan :guilabel:`Advanced Editor` "
+"-ominaisuus vaatii uusimman Inkscape-version (https://inkscape.org/release/)"
+" asentamisen ja OpenShotin **Asetuksista** polun päivittämisen Inkscape-"
 "suoritustiedostoon. Katso :ref:`preferences_general_ref` -välilehti "
 "Asetuksista."
 
@@ -1091,16 +1095,16 @@ msgid ""
 "The :guilabel:`Animated Title` feature in OpenShot requires the latest "
 "version of Blender (https://www.blender.org/download/) be installed and the "
 "OpenShot **Preferences** updated with the correct path to the Blender "
-"executable. See the :ref:`preferences_general_ref` tab in Preferences. NOTE: "
-"The minimum supported version of Blender is 5.0+. Older versions of Blender "
-"are not compatible with OpenShot Video Editor."
+"executable. See the :ref:`preferences_general_ref` tab in Preferences. NOTE:"
+" The minimum supported version of Blender is 5.0+. Older versions of Blender"
+" are not compatible with OpenShot Video Editor."
 msgstr ""
 "OpenShotin :guilabel:`Animated Title` -ominaisuus vaatii uusimman Blender-"
 "version (https://www.blender.org/download/) asentamisen ja OpenShotin "
-"**Asetuksista** polun päivittämisen Blenderin suoritustiedostoon. Katso :ref:"
-"`preferences_general_ref` -välilehti Asetuksista. HUOM: Vähimmäistukiversio "
-"Blenderistä on 5.0+. Vanhemmat Blender-versiot eivät ole yhteensopivia "
-"OpenShot Video Editorin kanssa."
+"**Asetuksista** polun päivittämisen Blenderin suoritustiedostoon. Katso "
+":ref:`preferences_general_ref` -välilehti Asetuksista. HUOM: "
+"Vähimmäistukiversio Blenderistä on 5.0+. Vanhemmat Blender-versiot eivät ole"
+" yhteensopivia OpenShot Video Editorin kanssa."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:278
@@ -1112,3 +1116,14 @@ msgstr ""
 "Yksityiskohtaisen asennusoppaan näiden riippuvuuksien asentamiseen löydät "
 "osoitteesta `Blender & Inkscape Guide <https://github.com/OpenShot/openshot-"
 "qt/wiki/Blender-and-Inkscape-Guide>`_."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Adding text and titles is an important aspect of video editing, and OpenShot"
+#~ " comes with an easy-to-use Title Editor. Use the Title menu (located in the "
+#~ "main menu of OpenShot) to launch the Title Editor. You can also use the "
+#~ "keyboard shortcut :kbd:`Ctrl+T`."
+#~ msgstr ""
+#~ "Tekstin ja otsikoiden lisääminen on tärkeä osa videoeditointia, ja OpenShot "
+#~ "sisältää helppokäyttöisen otsikkotyökalun. Käynnistä otsikkotyökalu Otsikko-"
+#~ "valikosta (päävalikossa). Voit myös käyttää pikanäppäintä :kbd:`Ctrl+T`."

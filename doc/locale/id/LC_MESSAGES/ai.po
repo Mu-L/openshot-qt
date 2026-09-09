@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-02 17:20-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,16 +26,17 @@ msgstr "AI Lanjutan: ComfyUI"
 # Translated with gpt-4.1-mini
 #: ../ai.rst:25
 msgid ""
-"OpenShot can connect to a local `ComfyUI <https://github.com/comfyanonymous/"
-"ComfyUI>`_ server and run AI workflows from the Project Files and Timeline "
-"context menus. This page explains what these tools are, what hardware they "
-"require, and where the built-in workflow templates live."
+"OpenShot can connect to a local `ComfyUI "
+"<https://github.com/comfyanonymous/ComfyUI>`_ server and run AI workflows "
+"from the Project Files and Timeline context menus. This page explains what "
+"these tools are, what hardware they require, and where the built-in workflow"
+" templates live."
 msgstr ""
-"OpenShot dapat terhubung ke server `ComfyUI <https://github.com/"
-"comfyanonymous/ComfyUI>`_ lokal dan menjalankan alur kerja AI dari menu "
-"konteks File Proyek dan Timeline. Halaman ini menjelaskan apa saja alat-alat "
-"tersebut, perangkat keras apa yang diperlukan, dan di mana templat alur "
-"kerja bawaan berada."
+"OpenShot dapat terhubung ke server `ComfyUI "
+"<https://github.com/comfyanonymous/ComfyUI>`_ lokal dan menjalankan alur "
+"kerja AI dari menu konteks File Proyek dan Timeline. Halaman ini menjelaskan"
+" apa saja alat-alat tersebut, perangkat keras apa yang diperlukan, dan di "
+"mana templat alur kerja bawaan berada."
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:30
@@ -43,8 +44,8 @@ msgid ""
 "AI features in OpenShot are **experimental** and require a **high-end "
 "workstation**."
 msgstr ""
-"Fitur AI di OpenShot bersifat **eksperimental** dan memerlukan **workstation "
-"kelas atas**."
+"Fitur AI di OpenShot bersifat **eksperimental** dan memerlukan **workstation"
+" kelas atas**."
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:32
@@ -61,8 +62,8 @@ msgid ""
 "You must run a local `ComfyUI <https://github.com/comfyanonymous/ComfyUI>`_ "
 "server."
 msgstr ""
-"Anda harus menjalankan server lokal `ComfyUI <https://github.com/"
-"comfyanonymous/ComfyUI>`_."
+"Anda harus menjalankan server lokal `ComfyUI "
+"<https://github.com/comfyanonymous/ComfyUI>`_."
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:34
@@ -181,11 +182,11 @@ msgstr ""
 
 #: ../ai.rst:63
 msgid ""
-"Start ComfyUI, then open :guilabel:`Edit->Preferences->Advanced` and set :"
-"guilabel:`ComfyUI URL`."
+"Start ComfyUI, then open :guilabel:`Edit->Preferences->Advanced` and set "
+":guilabel:`ComfyUI URL`."
 msgstr ""
-"Mulai ComfyUI, lalu buka :guilabel:`Edit->Preferences->Advanced` dan atur :"
-"guilabel:`ComfyUI URL`."
+"Mulai ComfyUI, lalu buka :guilabel:`Edit->Preferences->Advanced` dan atur "
+":guilabel:`ComfyUI URL`."
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:64
@@ -196,19 +197,20 @@ msgstr ""
 # Translated with gpt-4.1-mini
 #: ../ai.rst:66
 msgid ""
-"For a full step-by-step server setup guide, see the OpenShot wiki: `ComfyUI: "
-"Advanced AI Setup Guide <https://github.com/OpenShot/openshot-qt/wiki/"
-"ComfyUI:-Advanced-AI-Setup-Guide>`_."
+"For a full step-by-step server setup guide, see the OpenShot wiki: `ComfyUI:"
+" Advanced AI Setup Guide <https://github.com/OpenShot/openshot-"
+"qt/wiki/ComfyUI:-Advanced-AI-Setup-Guide>`_."
 msgstr ""
 "Untuk panduan pengaturan server langkah demi langkah lengkap, lihat wiki "
-"OpenShot: `ComfyUI: Panduan Pengaturan AI Lanjutan <https://github.com/"
-"OpenShot/openshot-qt/wiki/ComfyUI:-Advanced-AI-Setup-Guide>`_."
+"OpenShot: `ComfyUI: Panduan Pengaturan AI Lanjutan "
+"<https://github.com/OpenShot/openshot-qt/wiki/ComfyUI:-Advanced-AI-Setup-"
+"Guide>`_."
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:69
 msgid ""
-"For full ComfyUI installation details, see the official repository: `ComfyUI "
-"on GitHub <https://github.com/comfyanonymous/ComfyUI>`_."
+"For full ComfyUI installation details, see the official repository: `ComfyUI"
+" on GitHub <https://github.com/comfyanonymous/ComfyUI>`_."
 msgstr ""
 "Untuk detail instalasi lengkap ComfyUI, lihat repositori resmi: `ComfyUI on "
 "GitHub <https://github.com/comfyanonymous/ComfyUI>`_."
@@ -221,11 +223,11 @@ msgstr "Node Kustom yang Diperlukan"
 # Translated with gpt-4.1-mini
 #: ../ai.rst:75
 msgid ""
-"`comfyui_controlnet_aux <https://github.com/Fannovel16/"
-"comfyui_controlnet_aux>`_"
+"`comfyui_controlnet_aux "
+"<https://github.com/Fannovel16/comfyui_controlnet_aux>`_"
 msgstr ""
-"`comfyui_controlnet_aux <https://github.com/Fannovel16/"
-"comfyui_controlnet_aux>`_"
+"`comfyui_controlnet_aux "
+"<https://github.com/Fannovel16/comfyui_controlnet_aux>`_"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:76
@@ -358,14 +360,16 @@ msgstr "``ComfyUI/models/text_encoders/t5-base.safetensors``"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:102
-msgid "``ComfyUI/models/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors``"
+msgid ""
+"``ComfyUI/models/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors``"
 msgstr ""
 "``ComfyUI/models/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors``"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:103
 msgid "``ComfyUI/models/TTS/Ace-Step1.5/acestep-v15-turbo/silence_latent.pt``"
-msgstr "``ComfyUI/models/TTS/Ace-Step1.5/acestep-v15-turbo/silence_latent.pt``"
+msgstr ""
+"``ComfyUI/models/TTS/Ace-Step1.5/acestep-v15-turbo/silence_latent.pt``"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:104
@@ -385,11 +389,11 @@ msgstr "``ComfyUI/models/vae/wan2.2_vae.safetensors``"
 # Translated with gpt-4.1-mini
 #: ../ai.rst:107
 msgid ""
-"``ComfyUI/models/VLM/transnetv2-pytorch-weights/transnetv2-pytorch-weights."
-"pth``"
+"``ComfyUI/models/VLM/transnetv2-pytorch-weights/transnetv2-pytorch-"
+"weights.pth``"
 msgstr ""
-"``ComfyUI/models/VLM/transnetv2-pytorch-weights/transnetv2-pytorch-weights."
-"pth``"
+"``ComfyUI/models/VLM/transnetv2-pytorch-weights/transnetv2-pytorch-"
+"weights.pth``"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:110
@@ -423,8 +427,8 @@ msgid ""
 "and queue badges. Outputs are saved under ``.openshot_qt/comfyui-output/``."
 msgstr ""
 "File yang dihasilkan ditambahkan ke :guilabel:`Project Files` dengan teks "
-"kemajuan dan lencana antrean. Output disimpan di bawah ``.openshot_qt/"
-"comfyui-output/``."
+"kemajuan dan lencana antrean. Output disimpan di bawah "
+"``.openshot_qt/comfyui-output/``."
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:129
@@ -437,20 +441,20 @@ msgid ""
 msgstr ""
 "Memulai **proyek baru** atau membuka **proyek yang sudah ada** akan "
 "menghapus folder kerja AI sementara ``.openshot_qt`` sehingga Anda memulai "
-"dengan keadaan bersih. Proyek yang disimpan tidak terpengaruh, dan aset yang "
-"sebelumnya disalin ke folder ``PROJECTNAME_Assets`` tetap berada di "
+"dengan keadaan bersih. Proyek yang disimpan tidak terpengaruh, dan aset yang"
+" sebelumnya disalin ke folder ``PROJECTNAME_Assets`` tetap berada di "
 "direktori proyek tersebut."
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:134
 msgid ""
 "If ComfyUI is unavailable, OpenShot disables the AI menus. Configure the "
-"server URL in :guilabel:`Edit->Preferences->Advanced`, then use the :"
-"guilabel:`Check` button to test connectivity."
+"server URL in :guilabel:`Edit->Preferences->Advanced`, then use the "
+":guilabel:`Check` button to test connectivity."
 msgstr ""
 "Jika ComfyUI tidak tersedia, OpenShot menonaktifkan menu AI. Konfigurasikan "
-"URL server di :guilabel:`Edit->Preferences->Advanced`, lalu gunakan tombol :"
-"guilabel:`Check` untuk menguji konektivitas."
+"URL server di :guilabel:`Edit->Preferences->Advanced`, lalu gunakan tombol "
+":guilabel:`Check` untuk menguji konektivitas."
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:139
@@ -481,8 +485,8 @@ msgstr "Di ComfyUI, buka tab alur kerja yang ingin Anda gunakan."
 msgid ""
 "Choose :guilabel:`Export (API)` to save the workflow as a ``*.json`` file."
 msgstr ""
-"Pilih :guilabel:`Export (API)` untuk menyimpan alur kerja sebagai file ``*."
-"json``."
+"Pilih :guilabel:`Export (API)` untuk menyimpan alur kerja sebagai file "
+"``*.json``."
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:148
@@ -497,8 +501,8 @@ msgstr "Mulai ulang OpenShot, atau buka kembali proyek jika diperlukan."
 # Translated with gpt-4.1-mini
 #: ../ai.rst:151
 msgid ""
-"OpenShot will automatically load the workflow and show it in the appropriate "
-"AI menu. When you trigger it from OpenShot, the selected source file is "
+"OpenShot will automatically load the workflow and show it in the appropriate"
+" AI menu. When you trigger it from OpenShot, the selected source file is "
 "passed into the workflow, and the output from the workflow's final output "
 "node is imported back into :guilabel:`Project Files`."
 msgstr ""
@@ -597,247 +601,244 @@ msgstr "Berikan titik/rectangle pelacakan untuk alur kerja pelacakan."
 msgid ""
 "Start the job with :guilabel:`Generate` or close with :guilabel:`Cancel`."
 msgstr ""
-"Mulai pekerjaan dengan :guilabel:`Generate` atau tutup dengan :guilabel:"
-"`Cancel`."
+"Mulai pekerjaan dengan :guilabel:`Generate` atau tutup dengan "
+":guilabel:`Cancel`."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:184
+#: ../ai.rst:186
 msgid "Tracking (Mask, Blur, Highlight)"
 msgstr "Pelacakan (Masker, Blur, Sorot)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:186
+#: ../ai.rst:188
 msgid ""
-"Tracking workflows (:guilabel:`Blur...`, :guilabel:`Highlight...`, :guilabel:"
-"`Mask...`) use a region screen where you mark what to include and what to "
-"ignore."
+"Tracking workflows (:guilabel:`Blur...`, :guilabel:`Highlight...`, "
+":guilabel:`Mask...`) use a region screen where you mark what to include and "
+"what to ignore."
 msgstr ""
-"Alur kerja pelacakan (:guilabel:`Blur...`, :guilabel:`Highlight...`, :"
-"guilabel:`Mask...`) menggunakan layar wilayah di mana Anda menandai apa yang "
-"harus disertakan dan apa yang harus diabaikan."
+"Alur kerja pelacakan (:guilabel:`Blur...`, :guilabel:`Highlight...`, "
+":guilabel:`Mask...`) menggunakan layar wilayah di mana Anda menandai apa "
+"yang harus disertakan dan apa yang harus diabaikan."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:193
+#: ../ai.rst:195
 msgid "Why this matters"
 msgstr "Mengapa ini penting"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:195
+#: ../ai.rst:197
 msgid ""
 "Tracking helps your effect stay attached to a moving subject over time. For "
 "example, you can blur a face, highlight a player, or generate a clean mask "
 "that follows the same object across many frames."
 msgstr ""
-"Pelacakan membantu efek Anda tetap melekat pada subjek yang bergerak seiring "
-"waktu. Misalnya, Anda dapat memburamkan wajah, menyorot pemain, atau "
+"Pelacakan membantu efek Anda tetap melekat pada subjek yang bergerak seiring"
+" waktu. Misalnya, Anda dapat memburamkan wajah, menyorot pemain, atau "
 "menghasilkan masker bersih yang mengikuti objek yang sama di banyak frame."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:200
+#: ../ai.rst:202
 msgid "Tracking Icons"
 msgstr "Ikon Pelacakan"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:206
+#: ../ai.rst:208
 msgid "Icon / Marker"
 msgstr "Ikon / Penanda"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:207
+#: ../ai.rst:209
 msgid "Meaning"
 msgstr "Arti"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:208
+#: ../ai.rst:210
 msgid "Blue dot"
 msgstr "Titik biru"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:209
+#: ../ai.rst:211
 msgid "Positive tracking coordinate (foreground/subject seed point)."
 msgstr "Koordinat pelacakan positif (titik benih latar depan/subjek)."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:210
+#: ../ai.rst:212
 msgid "Red dot"
 msgstr "Titik merah"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:211
+#: ../ai.rst:213
 msgid "Negative tracking coordinate (background/exclusion seed point)."
-msgstr "Koordinat pelacakan negatif (titik benih latar belakang/pengecualian)."
+msgstr ""
+"Koordinat pelacakan negatif (titik benih latar belakang/pengecualian)."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:212
+#: ../ai.rst:214
 msgid "Blue rectangle"
 msgstr "Persegi panjang biru"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:213
+#: ../ai.rst:215
 msgid "Positive region seed (broad subject hint)."
 msgstr "Benih wilayah positif (petunjuk subjek luas)."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:214
+#: ../ai.rst:216
 msgid "Red rectangle"
 msgstr "Persegi panjang merah"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:215
+#: ../ai.rst:217
 msgid "Negative region seed (broad exclusion hint)."
 msgstr "Benih wilayah negatif (petunjuk pengecualian luas)."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:216
+#: ../ai.rst:218
 msgid "Delete icon"
 msgstr "Hapus ikon"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:217
+#: ../ai.rst:219
 msgid "Clear all current tracking seeds (points/rectangles) and start over."
 msgstr ""
 "Bersihkan semua benih pelacakan saat ini (titik/persegi panjang) dan mulai "
 "ulang."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:220
+#: ../ai.rst:222
 msgid "How Tracking Works"
 msgstr "Cara Kerja Pelacakan"
 
-# Translated with gpt-4.1-mini
-#: ../ai.rst:222
+#: ../ai.rst:224
 msgid ""
-"OpenShot sends your positive and negative markers as seed coordinates to the "
-"tracking model, which builds a mask for the subject and then follows it over "
-"time. Better seeds usually produce cleaner masks and less drift. [sam2]_"
+"OpenShot sends your positive and negative markers as seed coordinates to the"
+" tracking model, which builds a mask for the subject and then follows it "
+"over time. Better seeds usually produce cleaner masks and less drift. This "
+"workflow uses `SAM2 (Segment Anything Model 2) "
+"<https://github.com/facebookresearch/sam2>`_."
 msgstr ""
 "OpenShot mengirimkan penanda positif dan negatif Anda sebagai koordinat "
-"benih ke model pelacakan, yang membangun masker untuk subjek dan kemudian "
+"benih ke model pelacakan, yang membangun topeng untuk subjek dan kemudian "
 "mengikutinya seiring waktu. Benih yang lebih baik biasanya menghasilkan "
-"masker yang lebih bersih dan drift yang lebih sedikit. [sam2]_"
+"topeng yang lebih bersih dan drift yang lebih sedikit. Alur kerja ini "
+"menggunakan `SAM2 (Segment Anything Model 2) "
+"<https://github.com/facebookresearch/sam2>`_."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:227
+#: ../ai.rst:230
 msgid "How to use it"
 msgstr "Cara menggunakannya"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:229
+#: ../ai.rst:232
 msgid "Pick a frame where the subject is clearly visible."
 msgstr "Pilih frame di mana subjek terlihat jelas."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:230
+#: ../ai.rst:233
 msgid "Start with one blue dot on the subject."
 msgstr "Mulai dengan satu titik biru pada subjek."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:231
+#: ../ai.rst:234
 msgid "Add red dots on nearby background only if needed."
 msgstr ""
 "Tambahkan titik merah pada latar belakang sekitar hanya jika diperlukan."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:232
+#: ../ai.rst:235
 msgid "Add rectangles when you need faster broad selection."
 msgstr ""
 "Tambahkan persegi panjang ketika Anda membutuhkan seleksi luas yang lebih "
 "cepat."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:233
+#: ../ai.rst:236
 msgid "Repeat on additional frames when motion/shape changes."
 msgstr "Ulangi pada frame tambahan ketika gerakan/bentuk berubah."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:235
+#: ../ai.rst:238
 msgid "Adjusting over time (frame slider):"
 msgstr "Penyesuaian seiring waktu (penggeser frame):"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:237
+#: ../ai.rst:240
 msgid "Move the frame slider to different moments in the clip."
 msgstr "Geser penggeser frame ke momen berbeda dalam klip."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:238
-msgid "Add or adjust dots/rectangles on frames where tracking starts to drift."
+#: ../ai.rst:241
+msgid ""
+"Add or adjust dots/rectangles on frames where tracking starts to drift."
 msgstr ""
 "Tambahkan atau sesuaikan titik/persegi panjang pada frame di mana pelacakan "
 "mulai melenceng."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:239
+#: ../ai.rst:242
 msgid ""
-"Use additional seed points only where needed, especially on occlusions, fast "
-"motion, or major shape changes."
+"Use additional seed points only where needed, especially on occlusions, fast"
+" motion, or major shape changes."
 msgstr ""
 "Gunakan titik benih tambahan hanya di tempat yang diperlukan, terutama pada "
 "oklusi, gerakan cepat, atau perubahan bentuk besar."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:241
+#: ../ai.rst:244
 msgid "**Mask Preview Output (from this tracking process):**"
 msgstr "**Pratinjau Output Masker (dari proses pelacakan ini):**"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:246
+#: ../ai.rst:249
 msgid "Best Practices"
 msgstr "Praktik Terbaik"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:248
+#: ../ai.rst:251
 msgid "Use a short test clip first."
 msgstr "Gunakan klip uji pendek terlebih dahulu."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:249
+#: ../ai.rst:252
 msgid "Start simple: a single blue dot is often enough."
 msgstr "Mulai dengan sederhana: satu titik biru seringkali sudah cukup."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:250
+#: ../ai.rst:253
 msgid "Add more points only where tracking fails."
 msgstr "Tambahkan lebih banyak titik hanya di tempat pelacakan gagal."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:251
+#: ../ai.rst:254
 msgid ""
-"If needed, add a more nuanced set of positive/negative points and rectangles."
+"If needed, add a more nuanced set of positive/negative points and "
+"rectangles."
 msgstr ""
 "Jika perlu, tambahkan set titik positif/negatif dan persegi panjang yang "
 "lebih rinci."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:252
+#: ../ai.rst:255
 msgid "Keep positive and negative points separated clearly."
 msgstr "Jaga titik positif dan negatif tetap terpisah dengan jelas."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:253
+#: ../ai.rst:256
 msgid ""
 "If tracking becomes messy, use the Delete icon and restart with cleaner "
 "seeds."
 msgstr ""
-"Jika pelacakan menjadi berantakan, gunakan ikon Hapus dan mulai ulang dengan "
-"titik awal yang lebih bersih."
+"Jika pelacakan menjadi berantakan, gunakan ikon Hapus dan mulai ulang dengan"
+" titik awal yang lebih bersih."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:255
-msgid ""
-"*SAM2 (Segment Anything Model 2) project:* `facebookresearch/sam2 <https://"
-"github.com/facebookresearch/sam2>`_"
-msgstr ""
-"*Proyek SAM2 (Segment Anything Model 2):* `facebookresearch/sam2 <https://"
-"github.com/facebookresearch/sam2>`_"
-
-# Translated with gpt-4.1-mini
-#: ../ai.rst:258
+#: ../ai.rst:259
 msgid "Job Queue, Progress, and Cancel"
 msgstr "Antrian Pekerjaan, Progres, dan Batal"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:260
+#: ../ai.rst:261
 msgid ""
 "After you click :guilabel:`Generate`, the request is queued and runs in "
 "OpenShot's AI job queue."
@@ -846,18 +847,18 @@ msgstr ""
 "dijalankan di antrian pekerjaan AI OpenShot."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:263
+#: ../ai.rst:264
 msgid ""
 "Progress is shown in :guilabel:`Project Files` (badges and status text)."
 msgstr ""
 "Progres ditampilkan di :guilabel:`Project Files` (lencana dan teks status)."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:264
+#: ../ai.rst:265
 msgid "Completed outputs are imported back into :guilabel:`Project Files`."
 msgstr "Output yang selesai diimpor kembali ke :guilabel:`Project Files`."
 
-#: ../ai.rst:265
+#: ../ai.rst:266
 msgid ""
 "Active jobs can be canceled by right-clicking the generated project file "
 "with the progress bar and choosing :guilabel:`Cancel Job`."
@@ -866,43 +867,43 @@ msgstr ""
 "dihasilkan dengan bilah kemajuan dan memilih :guilabel:`Batalkan Pekerjaan`."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:266
+#: ../ai.rst:267
 msgid "Outputs are written under ``.openshot_qt/comfyui-output/``."
 msgstr "Output disimpan di bawah ``.openshot_qt/comfyui-output/``."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:269
+#: ../ai.rst:270
 msgid "Built-in JSON Workflows"
 msgstr "Alur Kerja JSON Bawaan"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:271
+#: ../ai.rst:272
 msgid ""
 "The sections below map directly to built-in JSON templates in ``comfyui/``. "
 "Each subsection describes why you might use it, how to run it, and key "
 "details."
 msgstr ""
-"Bagian di bawah ini dipetakan langsung ke templat JSON bawaan di ``comfyui/"
-"``. Setiap subbagian menjelaskan alasan Anda menggunakannya, cara "
+"Bagian di bawah ini dipetakan langsung ke templat JSON bawaan di "
+"``comfyui/``. Setiap subbagian menjelaskan alasan Anda menggunakannya, cara "
 "menjalankannya, dan detail penting."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:275
+#: ../ai.rst:276
 msgid "Create with AI"
 msgstr "Buat dengan AI"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:278
+#: ../ai.rst:279
 msgid "Image... (``txt2img-basic``)"
 msgstr "Gambar... (``txt2img-basic``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:280
+#: ../ai.rst:281
 msgid "Why: Generate still images from a text prompt."
 msgstr "Mengapa: Menghasilkan gambar diam dari perintah teks."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:281
+#: ../ai.rst:282
 msgid ""
 "How: Choose :guilabel:`Create with AI` -> :guilabel:`Image...`, enter a "
 "prompt, then generate."
@@ -911,26 +912,26 @@ msgstr ""
 "perintah, lalu buat."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:282
+#: ../ai.rst:283
 msgid ""
-"Details: Uses ``comfyui/txt2img-basic.json`` with ``sd_xl_base_1.0."
-"safetensors``."
+"Details: Uses ``comfyui/txt2img-basic.json`` with "
+"``sd_xl_base_1.0.safetensors``."
 msgstr ""
-"Detail: Menggunakan ``comfyui/txt2img-basic.json`` dengan ``sd_xl_base_1.0."
-"safetensors``."
+"Detail: Menggunakan ``comfyui/txt2img-basic.json`` dengan "
+"``sd_xl_base_1.0.safetensors``."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:285
+#: ../ai.rst:286
 msgid "Video... (``txt2video-svd``)"
 msgstr "Video... (``txt2video-svd``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:287
+#: ../ai.rst:288
 msgid "Why: Generate short video clips from text."
 msgstr "Mengapa: Menghasilkan klip video pendek dari teks."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:288
+#: ../ai.rst:289
 msgid ""
 "How: Choose :guilabel:`Create with AI` -> :guilabel:`Video...`, enter a "
 "prompt, then generate."
@@ -939,7 +940,7 @@ msgstr ""
 "perintah, lalu buat."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:289
+#: ../ai.rst:290
 msgid ""
 "Details: Uses ``comfyui/txt2video-svd.json`` with WAN video generation "
 "models."
@@ -948,17 +949,17 @@ msgstr ""
 "video WAN."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:292
+#: ../ai.rst:293
 msgid "Sound... (``txt2audio-stable-open``)"
 msgstr "Suara... (``txt2audio-stable-open``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:294
+#: ../ai.rst:295
 msgid "Why: Generate non-musical audio from text prompts."
 msgstr "Mengapa: Menghasilkan audio non-musik dari perintah teks."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:295
+#: ../ai.rst:296
 msgid ""
 "How: Choose :guilabel:`Create with AI` -> :guilabel:`Sound...`, enter a "
 "prompt, then generate."
@@ -967,7 +968,7 @@ msgstr ""
 "perintah, lalu buat."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:296
+#: ../ai.rst:297
 msgid ""
 "Details: Uses ``comfyui/txt2audio-stable-open.json`` with Stable Audio Open "
 "models."
@@ -976,26 +977,26 @@ msgstr ""
 "Stable Audio Open."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:299
+#: ../ai.rst:300
 msgid "Music... (``txt2music-ace-step``)"
 msgstr "Musik... (``txt2music-ace-step``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:301
+#: ../ai.rst:302
 msgid "Why: Generate music from style/tags (and optional lyrics)."
 msgstr "Mengapa: Menghasilkan musik dari gaya/tag (dan lirik opsional)."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:302
+#: ../ai.rst:303
 msgid ""
-"How: Choose :guilabel:`Create with AI` -> :guilabel:`Music...`, enter prompt "
-"text, then generate."
+"How: Choose :guilabel:`Create with AI` -> :guilabel:`Music...`, enter prompt"
+" text, then generate."
 msgstr ""
 "Cara: Pilih :guilabel:`Create with AI` -> :guilabel:`Music...`, masukkan "
 "teks perintah, lalu buat."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:303
+#: ../ai.rst:304
 msgid ""
 "Details: Uses ``comfyui/txt2music-ace-step.json`` with an Ace-Step 1.5 "
 "checkpoint."
@@ -1004,62 +1005,144 @@ msgstr ""
 "pemeriksaan Ace-Step 1.5."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:306
+#: ../ai.rst:307
 msgid "Enhance with AI"
 msgstr "Tingkatkan dengan AI"
 
+#: ../ai.rst:310
+msgid "Noise -> Reduce (``audio-noise-reduce``)"
+msgstr "Kebisingan -> Kurangi (``audio-noise-reduce``)"
+
+#: ../ai.rst:312
+msgid ""
+"Why: Lightly reduce steady background noise while keeping more of the "
+"original ambience."
+msgstr ""
+"Mengapa: Kurangi sedikit kebisingan latar belakang yang stabil sambil "
+"mempertahankan lebih banyak suasana asli."
+
+#: ../ai.rst:313
+msgid ""
+"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Noise` -> "
+":guilabel:`Reduce` on an audio file, then generate."
+msgstr ""
+"Cara: Pilih :guilabel:`Tingkatkan dengan AI` -> :guilabel:`Kebisingan` -> "
+":guilabel:`Kurangi` pada file audio, lalu hasilkan."
+
+#: ../ai.rst:314
+msgid ""
+"Details: Uses ``comfyui/audio-noise-reduce.json`` with "
+"``OpenShotDeepFilterNetDenoiseAudio``."
+msgstr ""
+"Detail: Menggunakan ``comfyui/audio-noise-reduce.json`` dengan "
+"``OpenShotDeepFilterNetDenoiseAudio``."
+
+#: ../ai.rst:317
+msgid "Noise -> Remove (``audio-noise-remove``)"
+msgstr "Kebisingan -> Hapus (``audio-noise-remove``)"
+
+#: ../ai.rst:319
+msgid "Why: Aggressively remove background noise from noisy recordings."
+msgstr ""
+"Mengapa: Hapus kebisingan latar belakang secara agresif dari rekaman yang "
+"bising."
+
+#: ../ai.rst:320
+msgid ""
+"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Noise` -> "
+":guilabel:`Remove` on an audio file, then generate."
+msgstr ""
+"Cara: Pilih :guilabel:`Tingkatkan dengan AI` -> :guilabel:`Kebisingan` -> "
+":guilabel:`Hapus` pada file audio, lalu hasilkan."
+
+#: ../ai.rst:321
+msgid ""
+"Details: Uses ``comfyui/audio-noise-remove.json`` with "
+"``OpenShotDeepFilterNetDenoiseAudio``."
+msgstr ""
+"Detail: Menggunakan ``comfyui/audio-noise-remove.json`` dengan "
+"``OpenShotDeepFilterNetDenoiseAudio``."
+
+#: ../ai.rst:324
+msgid "Clarity -> Speech (``audio-clarity-speech``)"
+msgstr "Kejelasan -> Bicara (``audio-clarity-speech``)"
+
+#: ../ai.rst:326
+msgid ""
+"Why: Improve clarity for speech recordings that sound dull, noisy, "
+"bandwidth-limited, or low fidelity."
+msgstr ""
+"Mengapa: Tingkatkan kejelasan untuk rekaman bicara yang terdengar redup, "
+"bising, terbatas bandwidth, atau fidelitas rendah."
+
+#: ../ai.rst:327
+msgid ""
+"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Clarity` -> "
+":guilabel:`Speech` on an audio file, then generate."
+msgstr ""
+"Cara: Pilih :guilabel:`Tingkatkan dengan AI` -> :guilabel:`Kejelasan` -> "
+":guilabel:`Bicara` pada file audio, lalu hasilkan."
+
+#: ../ai.rst:328
+msgid ""
+"Details: Uses ``comfyui/audio-clarity-speech.json`` with "
+"``OpenShotLavaSRSpeechClarity``."
+msgstr ""
+"Detail: Menggunakan ``comfyui/audio-clarity-speech.json`` dengan "
+"``OpenShotLavaSRSpeechClarity``."
+
 # Translated with gpt-4.1-mini
-#: ../ai.rst:309
+#: ../ai.rst:331
 msgid "Change Image Style... (``img2img-basic``)"
 msgstr "Ubah Gaya Gambar... (``img2img-basic``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:311
+#: ../ai.rst:333
 msgid "Why: Restyle an existing image while keeping the source composition."
 msgstr ""
 "Mengapa: Mengubah gaya gambar yang ada sambil mempertahankan komposisi "
 "sumber."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:312
+#: ../ai.rst:334
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on an image, enter a style prompt, "
 "then generate."
 msgstr ""
-"Cara: Pilih :guilabel:`Enhance with AI` pada gambar, masukkan perintah gaya, "
-"lalu buat."
+"Cara: Pilih :guilabel:`Enhance with AI` pada gambar, masukkan perintah gaya,"
+" lalu buat."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:313
+#: ../ai.rst:335
 msgid ""
-"Details: Uses ``comfyui/img2img-basic.json`` with ``sd_xl_base_1.0."
-"safetensors``."
+"Details: Uses ``comfyui/img2img-basic.json`` with "
+"``sd_xl_base_1.0.safetensors``."
 msgstr ""
-"Detail: Menggunakan ``comfyui/img2img-basic.json`` dengan ``sd_xl_base_1.0."
-"safetensors``."
+"Detail: Menggunakan ``comfyui/img2img-basic.json`` dengan "
+"``sd_xl_base_1.0.safetensors``."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:316
+#: ../ai.rst:338
 msgid "Depth (``image-extract-depth``)"
 msgstr "Kedalaman (``image-extract-depth``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:318
+#: ../ai.rst:340
 msgid "Why: Export a grayscale depth-map image from a source image."
 msgstr ""
 "Mengapa: Ekspor gambar peta kedalaman skala abu-abu dari gambar sumber."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:319
+#: ../ai.rst:341
 msgid ""
-"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:"
-"`Depth` on an image, then generate."
+"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Depth` on an image, then generate."
 msgstr ""
-"Cara: Pilih :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:"
-"`Depth` pada gambar, lalu buat."
+"Cara: Pilih :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Depth` pada gambar, lalu buat."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:320
+#: ../ai.rst:342
 msgid ""
 "Details: Uses ``comfyui/image-extract-depth.json`` with "
 "``DepthAnythingV2Preprocessor``."
@@ -1068,26 +1151,26 @@ msgstr ""
 "``DepthAnythingV2Preprocessor``."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:323
+#: ../ai.rst:345
 msgid "Lines (``image-extract-lines``)"
 msgstr "Garis (``image-extract-lines``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:325
+#: ../ai.rst:347
 msgid "Why: Export a line-map image from a source image."
 msgstr "Mengapa: Ekspor gambar peta garis dari gambar sumber."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:326
+#: ../ai.rst:348
 msgid ""
-"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:"
-"`Lines` on an image, then generate."
+"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Lines` on an image, then generate."
 msgstr ""
-"Cara: Pilih :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:"
-"`Lines` pada gambar, lalu buat."
+"Cara: Pilih :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Lines` pada gambar, lalu buat."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:327
+#: ../ai.rst:349
 msgid ""
 "Details: Uses ``comfyui/image-extract-lines.json`` with "
 "``LineArtPreprocessor``."
@@ -1096,17 +1179,17 @@ msgstr ""
 "``LineArtPreprocessor``."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:330
+#: ../ai.rst:352
 msgid "Image to Video... (``img2video-wan``)"
 msgstr "Gambar ke Video... (``img2video-wan``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:332
+#: ../ai.rst:354
 msgid "Why: Turn a still image into a generated video shot."
 msgstr "Mengapa: Mengubah gambar diam menjadi rekaman video yang dihasilkan."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:333
+#: ../ai.rst:355
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on an image, provide prompt "
 "guidance, then generate."
@@ -1115,7 +1198,7 @@ msgstr ""
 "perintah, lalu buat."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:334
+#: ../ai.rst:356
 msgid ""
 "Details: Uses ``comfyui/img2video-wan.json`` with WAN 2.2 image-to-video "
 "models."
@@ -1124,17 +1207,17 @@ msgstr ""
 "gambar-ke-video."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:337
+#: ../ai.rst:359
 msgid "Change Video Style... (``video2video-basic``)"
 msgstr "Ubah Gaya Video... (``video2video-basic``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:339
+#: ../ai.rst:361
 msgid "Why: Apply a new visual style to a source video."
 msgstr "Mengapa: Terapkan gaya visual baru ke video sumber."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:340
+#: ../ai.rst:362
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on a video, enter a style prompt, "
 "pick a reference image in the :guilabel:`Reference` tab, then generate."
@@ -1143,7 +1226,7 @@ msgstr ""
 "pilih gambar referensi di tab :guilabel:`Reference`, lalu buat."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:341
+#: ../ai.rst:363
 msgid ""
 "Details: Uses ``comfyui/video2video-basic.json`` with WAN VACE video-to-"
 "video nodes, a required reference image, blended "
@@ -1158,26 +1241,26 @@ msgstr ""
 "serta ``umt5_xxl_fp8_e4m3fn_scaled.safetensors``."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:344
+#: ../ai.rst:366
 msgid "Depth (``video-extract-depth``)"
 msgstr "Kedalaman (``video-extract-depth``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:346
+#: ../ai.rst:368
 msgid "Why: Export a grayscale depth-map version of a source video."
 msgstr "Mengapa: Ekspor versi peta kedalaman skala abu-abu dari video sumber."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:347
+#: ../ai.rst:369
 msgid ""
-"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:"
-"`Depth` on a video, then generate."
+"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Depth` on a video, then generate."
 msgstr ""
-"Cara: Pilih :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:"
-"`Depth` pada video, lalu buat."
+"Cara: Pilih :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Depth` pada video, lalu buat."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:348
+#: ../ai.rst:370
 msgid ""
 "Details: Uses ``comfyui/video-extract-depth.json`` with "
 "``DepthAnythingV2Preprocessor`` and preserves the source frame rate."
@@ -1186,26 +1269,26 @@ msgstr ""
 "``DepthAnythingV2Preprocessor`` dan mempertahankan kecepatan bingkai sumber."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:351
+#: ../ai.rst:373
 msgid "Lines (``video-extract-lines``)"
 msgstr "Garis (``video-extract-lines``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:353
+#: ../ai.rst:375
 msgid "Why: Export a line-map version of a source video."
 msgstr "Mengapa: Ekspor versi peta garis dari video sumber."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:354
+#: ../ai.rst:376
 msgid ""
-"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:"
-"`Lines` on a video, then generate."
+"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Lines` on a video, then generate."
 msgstr ""
-"Cara: Pilih :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:"
-"`Lines` pada video, lalu buat."
+"Cara: Pilih :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Lines` pada video, lalu buat."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:355
+#: ../ai.rst:377
 msgid ""
 "Details: Uses ``comfyui/video-extract-lines.json`` with "
 "``LineArtPreprocessor`` and preserves the source frame rate."
@@ -1214,17 +1297,17 @@ msgstr ""
 "``LineArtPreprocessor`` dan mempertahankan kecepatan bingkai sumber."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:358
+#: ../ai.rst:380
 msgid "Increase Resolution (image) (``upscale-realesrgan-x4``)"
 msgstr "Tingkatkan Resolusi (gambar) (``upscale-realesrgan-x4``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:360
+#: ../ai.rst:382
 msgid "Why: Upscale low-resolution images."
 msgstr "Mengapa: Meningkatkan resolusi gambar beresolusi rendah."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:361
+#: ../ai.rst:383
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on an image, select increase "
 "resolution, then generate."
@@ -1233,7 +1316,7 @@ msgstr ""
 "resolusi, lalu buat."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:362
+#: ../ai.rst:384
 msgid ""
 "Details: Uses ``comfyui/upscale-realesrgan-x4.json`` with "
 "``RealESRGAN_x4plus.safetensors``."
@@ -1242,18 +1325,18 @@ msgstr ""
 "``RealESRGAN_x4plus.safetensors``."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:365
+#: ../ai.rst:387
 msgid "Increase Resolution (video) (``video-upscale-gan``)"
 msgstr "Tingkatkan Resolusi (video) (``video-upscale-gan``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:367
+#: ../ai.rst:389
 msgid "Why: Upscale video frames for higher apparent detail."
 msgstr ""
 "Mengapa: Meningkatkan resolusi frame video untuk detail yang lebih jelas."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:368
+#: ../ai.rst:390
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on a video, select increase "
 "resolution, then generate."
@@ -1262,28 +1345,28 @@ msgstr ""
 "resolusi, lalu buat."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:369
+#: ../ai.rst:391
 msgid ""
-"Details: Uses ``comfyui/video-upscale-gan.json`` with ``RealESRGAN_x4plus."
-"safetensors``."
+"Details: Uses ``comfyui/video-upscale-gan.json`` with "
+"``RealESRGAN_x4plus.safetensors``."
 msgstr ""
 "Detail: Menggunakan ``comfyui/video-upscale-gan.json`` dengan "
 "``RealESRGAN_x4plus.safetensors``."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:372
+#: ../ai.rst:394
 msgid "Smooth Motion (2x Frame Rate) (``video-frame-interpolation-rife2x``)"
 msgstr ""
 "Gerakan Halus (Kecepatan Frame 2x) (``video-frame-interpolation-rife2x``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:374
+#: ../ai.rst:396
 msgid "Why: Increase frame rate for smoother perceived motion."
 msgstr ""
 "Mengapa: Meningkatkan kecepatan frame untuk gerakan yang terasa lebih halus."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:375
+#: ../ai.rst:397
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on a video, select smooth motion, "
 "then generate."
@@ -1292,21 +1375,21 @@ msgstr ""
 "lalu buat."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:376
+#: ../ai.rst:398
 msgid ""
 "Details: Uses ``comfyui/video-frame-interpolation-rife2x.json`` with "
 "``rife47.pth``."
 msgstr ""
-"Detail: Menggunakan ``comfyui/video-frame-interpolation-rife2x.json`` dengan "
-"``rife47.pth``."
+"Detail: Menggunakan ``comfyui/video-frame-interpolation-rife2x.json`` dengan"
+" ``rife47.pth``."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:379
+#: ../ai.rst:401
 msgid "Split into Scenes (``video-segment-scenes-transnet``)"
 msgstr "Pisahkan ke dalam Adegan (``video-segment-scenes-transnet``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:381
+#: ../ai.rst:403
 msgid ""
 "Why: Automatically detect scene changes and split long clips into segments."
 msgstr ""
@@ -1314,7 +1397,7 @@ msgstr ""
 "panjang menjadi segmen."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:382
+#: ../ai.rst:404
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on a video, select scene splitting, "
 "then generate."
@@ -1323,25 +1406,26 @@ msgstr ""
 "lalu buat."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:383
+#: ../ai.rst:405
 msgid ""
-"Details: Uses ``comfyui/video-segment-scenes-transnet.json`` with TransNetV2."
+"Details: Uses ``comfyui/video-segment-scenes-transnet.json`` with "
+"TransNetV2."
 msgstr ""
 "Detail: Menggunakan ``comfyui/video-segment-scenes-transnet.json`` dengan "
 "TransNetV2."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:386
+#: ../ai.rst:408
 msgid "Add Captions from Speech (``video-whisper-srt``)"
 msgstr "Tambahkan Teks dari Ucapan (``video-whisper-srt``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:388
+#: ../ai.rst:410
 msgid "Why: Transcribe speech into subtitle/caption files."
 msgstr "Mengapa: Menyalin ucapan menjadi file subtitle/teks."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:389
+#: ../ai.rst:411
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on a video, select captions, then "
 "generate."
@@ -1350,7 +1434,7 @@ msgstr ""
 "buat."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:390
+#: ../ai.rst:412
 msgid ""
 "Details: Uses ``comfyui/video-whisper-srt.json`` and creates SRT output."
 msgstr ""
@@ -1358,12 +1442,12 @@ msgstr ""
 "SRT."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:393
+#: ../ai.rst:415
 msgid "Tracking Workflows (SAM2)"
 msgstr "Alur Kerja Pelacakan (SAM2)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:395
+#: ../ai.rst:417
 msgid ""
 "These workflows use the same region/tracking input flow and are grouped in "
 "the tracking context menu."
@@ -1372,22 +1456,22 @@ msgstr ""
 "dikelompokkan dalam menu konteks pelacakan."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:399
+#: ../ai.rst:421
 msgid "Blur... (image) (``image-blur-anything-sam2``)"
 msgstr "Kaburkan... (gambar) (``image-blur-anything-sam2``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:401
+#: ../ai.rst:423
 msgid "Why: Blur selected subject areas in a still image."
 msgstr "Mengapa: Kaburkan area subjek yang dipilih dalam gambar diam."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:402 ../ai.rst:409 ../ai.rst:416
+#: ../ai.rst:424 ../ai.rst:431 ../ai.rst:438
 msgid "How: Select points/rectangles for the subject, then generate."
 msgstr "Cara: Pilih titik/persegi panjang untuk subjek, lalu buat."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:403
+#: ../ai.rst:425
 msgid ""
 "Details: Uses ``comfyui/image-blur-anything-sam2.json`` with SAM2 image "
 "segmentation."
@@ -1396,36 +1480,36 @@ msgstr ""
 "segmentasi gambar SAM2."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:406
+#: ../ai.rst:428
 msgid "Highlight... (image) (``image-highlight-anything-sam2``)"
 msgstr "Sorot... (gambar) (``image-highlight-anything-sam2``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:408
+#: ../ai.rst:430
 msgid "Why: Emphasize selected subject areas in a still image."
 msgstr "Mengapa: Tekankan area subjek yang dipilih dalam gambar diam."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:410
+#: ../ai.rst:432
 msgid ""
-"Details: Uses ``comfyui/image-highlight-anything-sam2.json`` with SAM2 image "
-"segmentation."
+"Details: Uses ``comfyui/image-highlight-anything-sam2.json`` with SAM2 image"
+" segmentation."
 msgstr ""
 "Detail: Menggunakan ``comfyui/image-highlight-anything-sam2.json`` dengan "
 "segmentasi gambar SAM2."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:413
+#: ../ai.rst:435
 msgid "Mask... (image) (``image-mask-anything-sam2``)"
 msgstr "Masker... (gambar) (``image-mask-anything-sam2``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:415
+#: ../ai.rst:437
 msgid "Why: Generate an image mask for selected subject areas."
 msgstr "Mengapa: Buat masker gambar untuk area subjek yang dipilih."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:417
+#: ../ai.rst:439
 msgid ""
 "Details: Uses ``comfyui/image-mask-anything-sam2.json`` with SAM2 image "
 "segmentation."
@@ -1434,22 +1518,22 @@ msgstr ""
 "segmentasi gambar SAM2."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:420
+#: ../ai.rst:442
 msgid "Blur... (video) (``video-blur-anything-sam2``)"
 msgstr "Kaburkan... (video) (``video-blur-anything-sam2``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:422
+#: ../ai.rst:444
 msgid "Why: Track and blur a moving subject in video."
 msgstr "Mengapa: Lacak dan kaburkan subjek yang bergerak dalam video."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:423 ../ai.rst:430 ../ai.rst:437
+#: ../ai.rst:445 ../ai.rst:452 ../ai.rst:459
 msgid "How: Mark subject/background in the region screen, then generate."
 msgstr "Cara: Tandai subjek/latar belakang di layar wilayah, lalu buat."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:424
+#: ../ai.rst:446
 msgid ""
 "Details: Uses ``comfyui/video-blur-anything-sam2.json`` with SAM2 video "
 "tracking."
@@ -1458,36 +1542,36 @@ msgstr ""
 "pelacakan video SAM2."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:427
+#: ../ai.rst:449
 msgid "Highlight... (video) (``video-highlight-anything-sam2``)"
 msgstr "Sorot... (video) (``video-highlight-anything-sam2``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:429
+#: ../ai.rst:451
 msgid "Why: Track and highlight a moving subject in video."
 msgstr "Mengapa: Lacak dan sorot subjek yang bergerak dalam video."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:431
+#: ../ai.rst:453
 msgid ""
-"Details: Uses ``comfyui/video-highlight-anything-sam2.json`` with SAM2 video "
-"tracking."
+"Details: Uses ``comfyui/video-highlight-anything-sam2.json`` with SAM2 video"
+" tracking."
 msgstr ""
 "Detail: Menggunakan ``comfyui/video-highlight-anything-sam2.json`` dengan "
 "pelacakan video SAM2."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:434
+#: ../ai.rst:456
 msgid "Mask... (video) (``video-mask-anything-sam2``)"
 msgstr "Masker... (video) (``video-mask-anything-sam2``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:436
+#: ../ai.rst:458
 msgid "Why: Generate an animated mask that follows a moving subject."
 msgstr "Mengapa: Buat masker animasi yang mengikuti subjek yang bergerak."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:438
+#: ../ai.rst:460
 msgid ""
 "Details: Uses ``comfyui/video-mask-anything-sam2.json`` with SAM2 video "
 "tracking."
@@ -1496,83 +1580,104 @@ msgstr ""
 "pelacakan video SAM2."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:441
+#: ../ai.rst:463
 msgid "Starting Points for New Users"
 msgstr "Titik Awal untuk Pengguna Baru"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:443
+#: ../ai.rst:465
 msgid "If you are new to these tools, start with:"
 msgstr "Jika Anda baru dengan alat ini, mulailah dengan:"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:445
+#: ../ai.rst:467
 msgid ":guilabel:`Create with AI` -> :guilabel:`Image`"
 msgstr ":guilabel:`Buat dengan AI` -> :guilabel:`Gambar`"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:446
+#: ../ai.rst:468
 msgid ":guilabel:`Enhance with AI` -> :guilabel:`Increase Resolution`"
 msgstr ":guilabel:`Tingkatkan dengan AI` -> :guilabel:`Tingkatkan Resolusi`"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:447
+#: ../ai.rst:469
 msgid ":guilabel:`Enhance with AI` -> :guilabel:`Smooth Motion`"
 msgstr ":guilabel:`Tingkatkan dengan AI` -> :guilabel:`Haluskan Gerakan`"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:448
+#: ../ai.rst:470
 msgid ":guilabel:`Enhance with AI` -> :guilabel:`Split into Scenes`"
 msgstr ""
 ":guilabel:`Tingkatkan dengan AI` -> :guilabel:`Pisahkan menjadi Adegan`"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:449
+#: ../ai.rst:471
 msgid ":guilabel:`Enhance with AI` -> :guilabel:`Add Captions`"
 msgstr ":guilabel:`Tingkatkan dengan AI` -> :guilabel:`Tambahkan Teks`"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:452
+#: ../ai.rst:474
 msgid "Troubleshooting"
 msgstr "Pemecahan Masalah"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:454
+#: ../ai.rst:476
 msgid "If AI menus do not appear or jobs fail immediately:"
 msgstr "Jika menu AI tidak muncul atau pekerjaan gagal segera:"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:456
+#: ../ai.rst:478
 msgid "Verify ComfyUI is running and reachable at the configured URL."
-msgstr "Pastikan ComfyUI berjalan dan dapat diakses di URL yang dikonfigurasi."
+msgstr ""
+"Pastikan ComfyUI berjalan dan dapat diakses di URL yang dikonfigurasi."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:457
+#: ../ai.rst:479
 msgid "Confirm required models exist in your ComfyUI environment."
 msgstr "Konfirmasi model yang diperlukan ada di lingkungan ComfyUI Anda."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:458
+#: ../ai.rst:480
 msgid ""
 "Confirm custom node packages are installed for the workflow you selected."
 msgstr ""
 "Konfirmasi paket node kustom terpasang untuk alur kerja yang Anda pilih."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:459
+#: ../ai.rst:481
 msgid "Reduce batch/chunk sizes for long clips."
 msgstr "Kurangi ukuran batch/potongan untuk klip panjang."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:460
+#: ../ai.rst:482
 msgid "Re-test with a short clip or still image first."
 msgstr "Uji ulang dengan klip pendek atau gambar diam terlebih dahulu."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:462
+#: ../ai.rst:484
 msgid ""
-"For general performance and cache tuning, see :ref:`preferences_ref` and :"
-"ref:`playback_ref`."
+"For general performance and cache tuning, see :ref:`preferences_ref` and "
+":ref:`playback_ref`."
 msgstr ""
-"Untuk penyetelan kinerja umum dan cache, lihat :ref:`preferences_ref` dan :"
-"ref:`playback_ref`."
+"Untuk penyetelan kinerja umum dan cache, lihat :ref:`preferences_ref` dan "
+":ref:`playback_ref`."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "OpenShot sends your positive and negative markers as seed coordinates to the"
+#~ " tracking model, which builds a mask for the subject and then follows it "
+#~ "over time. Better seeds usually produce cleaner masks and less drift. "
+#~ "[sam2]_"
+#~ msgstr ""
+#~ "OpenShot mengirimkan penanda positif dan negatif Anda sebagai koordinat "
+#~ "benih ke model pelacakan, yang membangun masker untuk subjek dan kemudian "
+#~ "mengikutinya seiring waktu. Benih yang lebih baik biasanya menghasilkan "
+#~ "masker yang lebih bersih dan drift yang lebih sedikit. [sam2]_"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "*SAM2 (Segment Anything Model 2) project:* `facebookresearch/sam2 "
+#~ "<https://github.com/facebookresearch/sam2>`_"
+#~ msgstr ""
+#~ "*Proyek SAM2 (Segment Anything Model 2):* `facebookresearch/sam2 "
+#~ "<https://github.com/facebookresearch/sam2>`_"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-02 17:20-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ja <LL@li.org>\n"
@@ -27,34 +27,30 @@ msgstr "高度なAI: ComfyUI"
 # Translated with gpt-4.1-mini
 #: ../ai.rst:25
 msgid ""
-"OpenShot can connect to a local `ComfyUI <https://github.com/comfyanonymous/"
-"ComfyUI>`_ server and run AI workflows from the Project Files and Timeline "
-"context menus. This page explains what these tools are, what hardware they "
-"require, and where the built-in workflow templates live."
+"OpenShot can connect to a local `ComfyUI "
+"<https://github.com/comfyanonymous/ComfyUI>`_ server and run AI workflows "
+"from the Project Files and Timeline context menus. This page explains what "
+"these tools are, what hardware they require, and where the built-in workflow"
+" templates live."
 msgstr ""
 "OpenShot は、ローカル `ComfyUI <https://github.com/comfyanonymous/ComfyUI>`_ "
-"サーバーに接続し、プロジェクト ファイルとタイムラインのコンテキスト メニュー"
-"から AI ワークフローを実行できます。このページでは、これらのツールとは何か、"
-"必要なハードウェア、および組み込みのワークフロー テンプレートが存在する場所に"
-"ついて説明します。"
+"サーバーに接続し、プロジェクト ファイルとタイムラインのコンテキスト メニューから AI "
+"ワークフローを実行できます。このページでは、これらのツールとは何か、必要なハードウェア、および組み込みのワークフロー "
+"テンプレートが存在する場所について説明します。"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:30
 msgid ""
 "AI features in OpenShot are **experimental** and require a **high-end "
 "workstation**."
-msgstr ""
-"OpenShot のAI機能は **実験的** であり、 **ハイエンドワークステーション** が必"
-"要です。"
+msgstr "OpenShot のAI機能は **実験的** であり、 **ハイエンドワークステーション** が必要です。"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:32
 msgid ""
 "These tools are **not recommended** for laptops, mid-range desktops, or "
 "budget systems."
-msgstr ""
-"これらのツールはノートパソコン、中価格帯デスクトップ、または低価格システムに"
-"は **推奨されません**。"
+msgstr "これらのツールはノートパソコン、中価格帯デスクトップ、または低価格システムには **推奨されません**。"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:33
@@ -62,16 +58,14 @@ msgid ""
 "You must run a local `ComfyUI <https://github.com/comfyanonymous/ComfyUI>`_ "
 "server."
 msgstr ""
-"ローカルの `ComfyUI <https://github.com/comfyanonymous/ComfyUI>`_ サーバーを"
-"実行する必要があります。"
+"ローカルの `ComfyUI <https://github.com/comfyanonymous/ComfyUI>`_ "
+"サーバーを実行する必要があります。"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:34
 msgid ""
 "You should expect model downloads, setup work, and workflow troubleshooting."
-msgstr ""
-"モデルのダウンロード、セットアップ作業、およびワークフローのトラブルシュー"
-"ティングが必要になることを想定してください。"
+msgstr "モデルのダウンロード、セットアップ作業、およびワークフローのトラブルシューティングが必要になることを想定してください。"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:37
@@ -145,9 +139,7 @@ msgid ""
 "unstable results. If your GPU has 8GB or less of VRAM, you will run out of "
 "memory running these models."
 msgstr ""
-"システムがこれらのレベルを下回る場合、ジョブは停止、失敗し、不安定な結果を生"
-"じます。GPUのVRAMが8GB以下の場合、これらのモデルを実行するとメモリ不足になり"
-"ます。"
+"システムがこれらのレベルを下回る場合、ジョブは停止、失敗し、不安定な結果を生じます。GPUのVRAMが8GB以下の場合、これらのモデルを実行するとメモリ不足になります。"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:56
@@ -157,9 +149,7 @@ msgstr "インストールとセットアップ"
 # Translated with gpt-4.1-mini
 #: ../ai.rst:58
 msgid "Use this quick setup path before trying any AI workflow in OpenShot:"
-msgstr ""
-"OpenShotでAIワークフローを試す前に、このクイックセットアップ手順を使用してく"
-"ださい:"
+msgstr "OpenShotでAIワークフローを試す前に、このクイックセットアップ手順を使用してください:"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:60
@@ -175,44 +165,40 @@ msgstr "必要なカスタムノード（以下に記載）をインストール
 #: ../ai.rst:62
 msgid ""
 "Download required model files (listed below) into matching model folders."
-msgstr ""
-"必要なモデルファイル（以下に記載）を対応するモデルフォルダにダウンロードして"
-"ください。"
+msgstr "必要なモデルファイル（以下に記載）を対応するモデルフォルダにダウンロードしてください。"
 
 #: ../ai.rst:63
 msgid ""
-"Start ComfyUI, then open :guilabel:`Edit->Preferences->Advanced` and set :"
-"guilabel:`ComfyUI URL`."
+"Start ComfyUI, then open :guilabel:`Edit->Preferences->Advanced` and set "
+":guilabel:`ComfyUI URL`."
 msgstr ""
-"ComfyUI を起動し、:guilabel:`Edit->Preferences->Advanced` を開き、:guilabel:"
-"`ComfyUI URL` を設定します。"
+"ComfyUI を起動し、:guilabel:`Edit->Preferences->Advanced` を開き、:guilabel:`ComfyUI "
+"URL` を設定します。"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:64
 msgid "Click :guilabel:`Check` to confirm OpenShot can reach the server."
-msgstr ""
-":guilabel:`チェック` をクリックして、OpenShotがサーバーに接続できることを確認"
-"してください。"
+msgstr ":guilabel:`チェック` をクリックして、OpenShotがサーバーに接続できることを確認してください。"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:66
 msgid ""
-"For a full step-by-step server setup guide, see the OpenShot wiki: `ComfyUI: "
-"Advanced AI Setup Guide <https://github.com/OpenShot/openshot-qt/wiki/"
-"ComfyUI:-Advanced-AI-Setup-Guide>`_."
+"For a full step-by-step server setup guide, see the OpenShot wiki: `ComfyUI:"
+" Advanced AI Setup Guide <https://github.com/OpenShot/openshot-"
+"qt/wiki/ComfyUI:-Advanced-AI-Setup-Guide>`_."
 msgstr ""
-"完全なステップバイステップのサーバーセットアップガイドについては、OpenShotの"
-"ウィキ「ComfyUI: Advanced AI Setup Guide <https://github.com/OpenShot/"
-"openshot-qt/wiki/ComfyUI:-Advanced-AI-Setup-Guide>`_」を参照してください。"
+"完全なステップバイステップのサーバーセットアップガイドについては、OpenShotのウィキ「ComfyUI: Advanced AI Setup "
+"Guide <https://github.com/OpenShot/openshot-qt/wiki/ComfyUI:-Advanced-AI-"
+"Setup-Guide>`_」を参照してください。"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:69
 msgid ""
-"For full ComfyUI installation details, see the official repository: `ComfyUI "
-"on GitHub <https://github.com/comfyanonymous/ComfyUI>`_."
+"For full ComfyUI installation details, see the official repository: `ComfyUI"
+" on GitHub <https://github.com/comfyanonymous/ComfyUI>`_."
 msgstr ""
-"ComfyUIの完全なインストール手順については、公式リポジトリをご覧ください: "
-"`ComfyUI on GitHub <https://github.com/comfyanonymous/ComfyUI>`_."
+"ComfyUIの完全なインストール手順については、公式リポジトリをご覧ください: `ComfyUI on GitHub "
+"<https://github.com/comfyanonymous/ComfyUI>`_."
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:73
@@ -222,11 +208,11 @@ msgstr "必要なカスタムノード"
 # Translated with gpt-4.1-mini
 #: ../ai.rst:75
 msgid ""
-"`comfyui_controlnet_aux <https://github.com/Fannovel16/"
-"comfyui_controlnet_aux>`_"
+"`comfyui_controlnet_aux "
+"<https://github.com/Fannovel16/comfyui_controlnet_aux>`_"
 msgstr ""
-"`comfyui_controlnet_aux <https://github.com/Fannovel16/"
-"comfyui_controlnet_aux>`_"
+"`comfyui_controlnet_aux "
+"<https://github.com/Fannovel16/comfyui_controlnet_aux>`_"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:76
@@ -359,14 +345,16 @@ msgstr "``ComfyUI/models/text_encoders/t5-base.safetensors``"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:102
-msgid "``ComfyUI/models/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors``"
+msgid ""
+"``ComfyUI/models/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors``"
 msgstr ""
 "``ComfyUI/models/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors``"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:103
 msgid "``ComfyUI/models/TTS/Ace-Step1.5/acestep-v15-turbo/silence_latent.pt``"
-msgstr "``ComfyUI/models/TTS/Ace-Step1.5/acestep-v15-turbo/silence_latent.pt``"
+msgstr ""
+"``ComfyUI/models/TTS/Ace-Step1.5/acestep-v15-turbo/silence_latent.pt``"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:104
@@ -386,11 +374,11 @@ msgstr "``ComfyUI/models/vae/wan2.2_vae.safetensors``"
 # Translated with gpt-4.1-mini
 #: ../ai.rst:107
 msgid ""
-"``ComfyUI/models/VLM/transnetv2-pytorch-weights/transnetv2-pytorch-weights."
-"pth``"
+"``ComfyUI/models/VLM/transnetv2-pytorch-weights/transnetv2-pytorch-"
+"weights.pth``"
 msgstr ""
-"``ComfyUI/models/VLM/transnetv2-pytorch-weights/transnetv2-pytorch-weights."
-"pth``"
+"``ComfyUI/models/VLM/transnetv2-pytorch-weights/transnetv2-pytorch-"
+"weights.pth``"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:110
@@ -400,9 +388,7 @@ msgstr "OpenShotでユーザーが見るもの"
 # Translated with gpt-4.1-mini
 #: ../ai.rst:112
 msgid "When ComfyUI is available, OpenShot shows AI tools in context menus:"
-msgstr ""
-"ComfyUIが利用可能な場合、OpenShotはコンテキストメニューにAIツールを表示しま"
-"す:"
+msgstr "ComfyUIが利用可能な場合、OpenShotはコンテキストメニューにAIツールを表示します:"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:114
@@ -425,9 +411,8 @@ msgid ""
 "Generated files are added to :guilabel:`Project Files` with progress text "
 "and queue badges. Outputs are saved under ``.openshot_qt/comfyui-output/``."
 msgstr ""
-"生成されたファイルは進行状況のテキストとキューバッジと共に :guilabel:"
-"`Project Files` に追加されます。出力は ``.openshot_qt/comfyui-output/`` に保"
-"存されます。"
+"生成されたファイルは進行状況のテキストとキューバッジと共に :guilabel:`Project Files` に追加されます。出力は "
+"``.openshot_qt/comfyui-output/`` に保存されます。"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:129
@@ -438,21 +423,20 @@ msgid ""
 "copied into a ``PROJECTNAME_Assets`` folder remain in that project's "
 "directory."
 msgstr ""
-"**新しいプロジェクト** を開始するか **既存のプロジェクト** を開くと、一時的"
-"な ``.openshot_qt`` AI 作業フォルダーがクリアされ、クリーンな状態から始められ"
-"ます。保存されたプロジェクトには影響せず、以前に ``PROJECTNAME_Assets`` フォ"
-"ルダーにコピーされたアセットはそのプロジェクトのディレクトリに残ります。"
+"**新しいプロジェクト** を開始するか **既存のプロジェクト** を開くと、一時的な ``.openshot_qt`` AI "
+"作業フォルダーがクリアされ、クリーンな状態から始められます。保存されたプロジェクトには影響せず、以前に ``PROJECTNAME_Assets`` "
+"フォルダーにコピーされたアセットはそのプロジェクトのディレクトリに残ります。"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:134
 msgid ""
 "If ComfyUI is unavailable, OpenShot disables the AI menus. Configure the "
-"server URL in :guilabel:`Edit->Preferences->Advanced`, then use the :"
-"guilabel:`Check` button to test connectivity."
+"server URL in :guilabel:`Edit->Preferences->Advanced`, then use the "
+":guilabel:`Check` button to test connectivity."
 msgstr ""
-"ComfyUI が利用できない場合、OpenShot は AI メニューを無効にします。 :"
-"guilabel:`Edit->Preferences->Advanced` でサーバー URL を構成し、:guilabel:"
-"`Check` ボタンを使用して接続をテストします。"
+"ComfyUI が利用できない場合、OpenShot は AI メニューを無効にします。 "
+":guilabel:`Edit->Preferences->Advanced` でサーバー URL を構成し、:guilabel:`Check` "
+"ボタンを使用して接続をテストします。"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:139
@@ -465,9 +449,8 @@ msgid ""
 "OpenShot reads built-in templates from ``comfyui/``. It also loads custom "
 "user templates from ``~/.openshot_qt/comfyui/``."
 msgstr ""
-"OpenShot は、組み込みテンプレートを ``comfyui/`` から読み取ります。また、"
-"``~/.openshot_qt/comfyui/`` からカスタム ユーザー テンプレートを読み込みま"
-"す。"
+"OpenShot は、組み込みテンプレートを ``comfyui/`` から読み取ります。また、``~/.openshot_qt/comfyui/`` "
+"からカスタム ユーザー テンプレートを読み込みます。"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:144
@@ -483,9 +466,7 @@ msgstr "ComfyUI で、使用したいワークフロータブを開きます。"
 #: ../ai.rst:147
 msgid ""
 "Choose :guilabel:`Export (API)` to save the workflow as a ``*.json`` file."
-msgstr ""
-":guilabel:`Export (API)` を選択して、ワークフローを ``*.json`` ファイルとして"
-"保存します。"
+msgstr ":guilabel:`Export (API)` を選択して、ワークフローを ``*.json`` ファイルとして保存します。"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:148
@@ -500,15 +481,14 @@ msgstr "OpenShot を再起動するか、必要に応じてプロジェクトを
 # Translated with gpt-4.1-mini
 #: ../ai.rst:151
 msgid ""
-"OpenShot will automatically load the workflow and show it in the appropriate "
-"AI menu. When you trigger it from OpenShot, the selected source file is "
+"OpenShot will automatically load the workflow and show it in the appropriate"
+" AI menu. When you trigger it from OpenShot, the selected source file is "
 "passed into the workflow, and the output from the workflow's final output "
 "node is imported back into :guilabel:`Project Files`."
 msgstr ""
-"OpenShot はワークフローを自動的に読み込み、適切な AI メニューに表示します。"
-"OpenShot から起動すると、選択したソースファイルがワークフローに渡され、ワーク"
-"フローの最終出力ノードの出力が :guilabel:`Project Files` にインポートされま"
-"す。"
+"OpenShot はワークフローを自動的に読み込み、適切な AI メニューに表示します。OpenShot "
+"から起動すると、選択したソースファイルがワークフローに渡され、ワークフローの最終出力ノードの出力が :guilabel:`Project Files` "
+"にインポートされます。"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:156
@@ -516,8 +496,8 @@ msgid ""
 "OpenShot also writes a ``.openshot_qt/comfyui/debug.json`` payload for "
 "advanced users who want to inspect the exact request sent to ComfyUI."
 msgstr ""
-"OpenShot はまた、ComfyUI に送信された正確なリクエストを確認したい上級ユーザー"
-"向けに ``.openshot_qt/comfyui/debug.json`` ペイロードを書き出します。"
+"OpenShot はまた、ComfyUI に送信された正確なリクエストを確認したい上級ユーザー向けに "
+"``.openshot_qt/comfyui/debug.json`` ペイロードを書き出します。"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:160
@@ -530,8 +510,7 @@ msgid ""
 "Both :guilabel:`Create with AI` and :guilabel:`Enhance with AI` open the "
 "same generation dialog."
 msgstr ""
-":guilabel:`Create with AI` と :guilabel:`Enhance with AI` の両方が同じ生成ダ"
-"イアログを開きます。"
+":guilabel:`Create with AI` と :guilabel:`Enhance with AI` の両方が同じ生成ダイアログを開きます。"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:167
@@ -583,9 +562,7 @@ msgstr "生成されるメディアの出力名を設定します。"
 msgid ""
 "Pick a reference image in the :guilabel:`Reference` tab for workflows that "
 "require one."
-msgstr ""
-"必要なワークフローのために、:guilabel:`Reference` タブで参照画像を選択してく"
-"ださい。"
+msgstr "必要なワークフローのために、:guilabel:`Reference` タブで参照画像を選択してください。"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:180
@@ -596,456 +573,500 @@ msgstr "トラッキングワークフロー用にトラッキングポイント
 #: ../ai.rst:181
 msgid ""
 "Start the job with :guilabel:`Generate` or close with :guilabel:`Cancel`."
-msgstr ""
-":guilabel:`Generate` でジョブを開始するか、:guilabel:`Cancel` で閉じます。"
+msgstr ":guilabel:`Generate` でジョブを開始するか、:guilabel:`Cancel` で閉じます。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:184
+#: ../ai.rst:186
 msgid "Tracking (Mask, Blur, Highlight)"
 msgstr "トラッキング（マスク、ぼかし、ハイライト）"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:186
+#: ../ai.rst:188
 msgid ""
-"Tracking workflows (:guilabel:`Blur...`, :guilabel:`Highlight...`, :guilabel:"
-"`Mask...`) use a region screen where you mark what to include and what to "
-"ignore."
+"Tracking workflows (:guilabel:`Blur...`, :guilabel:`Highlight...`, "
+":guilabel:`Mask...`) use a region screen where you mark what to include and "
+"what to ignore."
 msgstr ""
-"トラッキングワークフロー（:guilabel:`Blur...`、:guilabel:`Highlight...`、:"
-"guilabel:`Mask...`）は、含める部分と除外する部分をマークする領域画面を使用し"
-"ます。"
+"トラッキングワークフロー（:guilabel:`Blur...`、:guilabel:`Highlight...`、:guilabel:`Mask...`）は、含める部分と除外する部分をマークする領域画面を使用します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:193
+#: ../ai.rst:195
 msgid "Why this matters"
 msgstr "これが重要な理由"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:195
+#: ../ai.rst:197
 msgid ""
 "Tracking helps your effect stay attached to a moving subject over time. For "
 "example, you can blur a face, highlight a player, or generate a clean mask "
 "that follows the same object across many frames."
 msgstr ""
-"トラッキングは、効果が動く被写体に時間を通じて追従するのを助けます。例えば、"
-"顔をぼかしたり、選手をハイライトしたり、同じオブジェクトを複数フレームにわ"
-"たって追うクリーンなマスクを生成できます。"
+"トラッキングは、効果が動く被写体に時間を通じて追従するのを助けます。例えば、顔をぼかしたり、選手をハイライトしたり、同じオブジェクトを複数フレームにわたって追うクリーンなマスクを生成できます。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:200
+#: ../ai.rst:202
 msgid "Tracking Icons"
 msgstr "トラッキングアイコン"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:206
+#: ../ai.rst:208
 msgid "Icon / Marker"
 msgstr "アイコン／マーカー"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:207
+#: ../ai.rst:209
 msgid "Meaning"
 msgstr "意味"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:208
+#: ../ai.rst:210
 msgid "Blue dot"
 msgstr "青い点"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:209
+#: ../ai.rst:211
 msgid "Positive tracking coordinate (foreground/subject seed point)."
 msgstr "ポジティブトラッキング座標（前景／被写体のシードポイント）。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:210
+#: ../ai.rst:212
 msgid "Red dot"
 msgstr "赤い点"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:211
+#: ../ai.rst:213
 msgid "Negative tracking coordinate (background/exclusion seed point)."
 msgstr "ネガティブトラッキング座標（背景／除外のシードポイント）。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:212
+#: ../ai.rst:214
 msgid "Blue rectangle"
 msgstr "青い矩形"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:213
+#: ../ai.rst:215
 msgid "Positive region seed (broad subject hint)."
 msgstr "ポジティブ領域シード（広範囲の被写体ヒント）。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:214
+#: ../ai.rst:216
 msgid "Red rectangle"
 msgstr "赤い矩形"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:215
+#: ../ai.rst:217
 msgid "Negative region seed (broad exclusion hint)."
 msgstr "ネガティブ領域シード（広範囲の除外ヒント）。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:216
+#: ../ai.rst:218
 msgid "Delete icon"
 msgstr "削除アイコン"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:217
+#: ../ai.rst:219
 msgid "Clear all current tracking seeds (points/rectangles) and start over."
 msgstr "現在のすべてのトラッキングシード（点／矩形）をクリアしてやり直します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:220
+#: ../ai.rst:222
 msgid "How Tracking Works"
 msgstr "トラッキングの仕組み"
 
-# Translated with gpt-4.1-mini
-#: ../ai.rst:222
+#: ../ai.rst:224
 msgid ""
-"OpenShot sends your positive and negative markers as seed coordinates to the "
-"tracking model, which builds a mask for the subject and then follows it over "
-"time. Better seeds usually produce cleaner masks and less drift. [sam2]_"
+"OpenShot sends your positive and negative markers as seed coordinates to the"
+" tracking model, which builds a mask for the subject and then follows it "
+"over time. Better seeds usually produce cleaner masks and less drift. This "
+"workflow uses `SAM2 (Segment Anything Model 2) "
+"<https://github.com/facebookresearch/sam2>`_."
 msgstr ""
-"OpenShot はポジティブおよびネガティブのマーカーをシード座標としてトラッキング"
-"モデルに送信し、被写体のマスクを作成して時間経過に沿って追跡します。より良い"
-"シードは通常、よりクリーンなマスクとドリフトの減少をもたらします。 [sam2]_"
+"OpenShot "
+"は、ポジティブおよびネガティブのマーカーをシード座標としてトラッキングモデルに送信し、被写体のマスクを作成して時間経過に沿って追跡します。より良いシードは通常、よりクリーンなマスクと少ないドリフトを生み出します。このワークフローは"
+" `SAM2 (Segment Anything Model 2) "
+"<https://github.com/facebookresearch/sam2>`_ を使用します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:227
+#: ../ai.rst:230
 msgid "How to use it"
 msgstr "使い方"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:229
+#: ../ai.rst:232
 msgid "Pick a frame where the subject is clearly visible."
 msgstr "被写体がはっきり見えるフレームを選びます。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:230
+#: ../ai.rst:233
 msgid "Start with one blue dot on the subject."
 msgstr "被写体に青い点を一つ置いて始めます。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:231
+#: ../ai.rst:234
 msgid "Add red dots on nearby background only if needed."
 msgstr "必要に応じて近くの背景に赤い点を追加します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:232
+#: ../ai.rst:235
 msgid "Add rectangles when you need faster broad selection."
 msgstr "より広範囲の選択を速く行いたい場合は矩形を追加します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:233
+#: ../ai.rst:236
 msgid "Repeat on additional frames when motion/shape changes."
 msgstr "動きや形状が変わる場合は追加のフレームで繰り返します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:235
+#: ../ai.rst:238
 msgid "Adjusting over time (frame slider):"
 msgstr "時間経過に合わせた調整（フレームスライダー）："
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:237
+#: ../ai.rst:240
 msgid "Move the frame slider to different moments in the clip."
 msgstr "クリップ内の異なる時点にフレームスライダーを移動します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:238
-msgid "Add or adjust dots/rectangles on frames where tracking starts to drift."
+#: ../ai.rst:241
+msgid ""
+"Add or adjust dots/rectangles on frames where tracking starts to drift."
 msgstr "トラッキングがずれ始めたフレームで点や矩形を追加または調整します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:239
+#: ../ai.rst:242
 msgid ""
-"Use additional seed points only where needed, especially on occlusions, fast "
-"motion, or major shape changes."
-msgstr ""
-"追加のシードポイントは必要な箇所だけに使用します。特に遮蔽、速い動き、大きな"
-"形状変化のある場所で。"
+"Use additional seed points only where needed, especially on occlusions, fast"
+" motion, or major shape changes."
+msgstr "追加のシードポイントは必要な箇所だけに使用します。特に遮蔽、速い動き、大きな形状変化のある場所で。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:241
+#: ../ai.rst:244
 msgid "**Mask Preview Output (from this tracking process):**"
 msgstr "**マスクプレビュー出力（このトラッキング処理から）：**"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:246
+#: ../ai.rst:249
 msgid "Best Practices"
 msgstr "ベストプラクティス"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:248
+#: ../ai.rst:251
 msgid "Use a short test clip first."
 msgstr "まずは短いテストクリップを使用してください。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:249
+#: ../ai.rst:252
 msgid "Start simple: a single blue dot is often enough."
 msgstr "シンプルに始めましょう：青い点一つで十分なことが多いです。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:250
+#: ../ai.rst:253
 msgid "Add more points only where tracking fails."
 msgstr "トラッキングが失敗する箇所にのみ追加の点を加えます。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:251
+#: ../ai.rst:254
 msgid ""
-"If needed, add a more nuanced set of positive/negative points and rectangles."
+"If needed, add a more nuanced set of positive/negative points and "
+"rectangles."
 msgstr "必要に応じて、より詳細な正負のポイントと矩形を追加してください。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:252
+#: ../ai.rst:255
 msgid "Keep positive and negative points separated clearly."
 msgstr "正のポイントと負のポイントを明確に分けてください。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:253
+#: ../ai.rst:256
 msgid ""
 "If tracking becomes messy, use the Delete icon and restart with cleaner "
 "seeds."
-msgstr ""
-"トラッキングが乱れた場合は、削除アイコンを使ってクリーンなシードからやり直し"
-"てください。"
+msgstr "トラッキングが乱れた場合は、削除アイコンを使ってクリーンなシードからやり直してください。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:255
-msgid ""
-"*SAM2 (Segment Anything Model 2) project:* `facebookresearch/sam2 <https://"
-"github.com/facebookresearch/sam2>`_"
-msgstr ""
-"*SAM2 (Segment Anything Model 2) プロジェクト:* `facebookresearch/sam2 "
-"<https://github.com/facebookresearch/sam2>`_"
-
-# Translated with gpt-4.1-mini
-#: ../ai.rst:258
+#: ../ai.rst:259
 msgid "Job Queue, Progress, and Cancel"
 msgstr "ジョブキュー、進行状況、およびキャンセル"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:260
+#: ../ai.rst:261
 msgid ""
 "After you click :guilabel:`Generate`, the request is queued and runs in "
 "OpenShot's AI job queue."
-msgstr ""
-":guilabel:`生成` をクリックすると、リクエストはキューに入り、OpenShot の AI "
-"ジョブキューで実行されます。"
-
-# Translated with gpt-4.1-mini
-#: ../ai.rst:263
-msgid ""
-"Progress is shown in :guilabel:`Project Files` (badges and status text)."
-msgstr ""
-"進行状況は :guilabel:`プロジェクトファイル` （バッジとステータステキスト）に"
-"表示されます。"
+msgstr ":guilabel:`生成` をクリックすると、リクエストはキューに入り、OpenShot の AI ジョブキューで実行されます。"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:264
+msgid ""
+"Progress is shown in :guilabel:`Project Files` (badges and status text)."
+msgstr "進行状況は :guilabel:`プロジェクトファイル` （バッジとステータステキスト）に表示されます。"
+
+# Translated with gpt-4.1-mini
+#: ../ai.rst:265
 msgid "Completed outputs are imported back into :guilabel:`Project Files`."
 msgstr "完了した出力は :guilabel:`プロジェクトファイル` にインポートされます。"
 
-#: ../ai.rst:265
+#: ../ai.rst:266
 msgid ""
 "Active jobs can be canceled by right-clicking the generated project file "
 "with the progress bar and choosing :guilabel:`Cancel Job`."
 msgstr ""
-"アクティブなジョブは、進行状況バーが表示された生成されたプロジェクト ファイル"
-"を右クリックし、:guilabel:`Cancel Job` を選択することでキャンセルできます。"
+"アクティブなジョブは、進行状況バーが表示された生成されたプロジェクト ファイルを右クリックし、:guilabel:`Cancel Job` "
+"を選択することでキャンセルできます。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:266
+#: ../ai.rst:267
 msgid "Outputs are written under ``.openshot_qt/comfyui-output/``."
 msgstr "出力は ``.openshot_qt/comfyui-output/`` に書き込まれます。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:269
+#: ../ai.rst:270
 msgid "Built-in JSON Workflows"
 msgstr "組み込み JSON ワークフロー"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:271
+#: ../ai.rst:272
 msgid ""
 "The sections below map directly to built-in JSON templates in ``comfyui/``. "
 "Each subsection describes why you might use it, how to run it, and key "
 "details."
 msgstr ""
-"以下のセクションは、``comfyui/`` の組み込み JSON テンプレートに直接マップされ"
-"ます。各サブセクションでは、これを使用する理由、実行方法、重要な詳細について"
-"説明します。"
+"以下のセクションは、``comfyui/`` の組み込み JSON "
+"テンプレートに直接マップされます。各サブセクションでは、これを使用する理由、実行方法、重要な詳細について説明します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:275
+#: ../ai.rst:276
 msgid "Create with AI"
 msgstr "AI で作成"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:278
+#: ../ai.rst:279
 msgid "Image... (``txt2img-basic``)"
 msgstr "画像... (``txt2img-basic``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:280
+#: ../ai.rst:281
 msgid "Why: Generate still images from a text prompt."
 msgstr "理由: テキストプロンプトから静止画像を生成します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:281
+#: ../ai.rst:282
 msgid ""
 "How: Choose :guilabel:`Create with AI` -> :guilabel:`Image...`, enter a "
 "prompt, then generate."
-msgstr ""
-"方法: :guilabel:`AI で作成` -> :guilabel:`画像...` を選択し、プロンプトを入力"
-"して生成します。"
+msgstr "方法: :guilabel:`AI で作成` -> :guilabel:`画像...` を選択し、プロンプトを入力して生成します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:282
+#: ../ai.rst:283
 msgid ""
-"Details: Uses ``comfyui/txt2img-basic.json`` with ``sd_xl_base_1.0."
-"safetensors``."
+"Details: Uses ``comfyui/txt2img-basic.json`` with "
+"``sd_xl_base_1.0.safetensors``."
 msgstr ""
-"詳細: ``comfyui/txt2img-basic.json`` を ``sd_xl_base_1.0.safetensors`` ととも"
-"に使用します。"
+"詳細: ``comfyui/txt2img-basic.json`` を ``sd_xl_base_1.0.safetensors`` "
+"とともに使用します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:285
+#: ../ai.rst:286
 msgid "Video... (``txt2video-svd``)"
 msgstr "ビデオ... (``txt2video-svd``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:287
+#: ../ai.rst:288
 msgid "Why: Generate short video clips from text."
 msgstr "理由: テキストから短いビデオクリップを生成します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:288
+#: ../ai.rst:289
 msgid ""
 "How: Choose :guilabel:`Create with AI` -> :guilabel:`Video...`, enter a "
 "prompt, then generate."
-msgstr ""
-"方法: :guilabel:`AI で作成` -> :guilabel:`ビデオ...` を選択し、プロンプトを入"
-"力して生成します。"
+msgstr "方法: :guilabel:`AI で作成` -> :guilabel:`ビデオ...` を選択し、プロンプトを入力して生成します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:289
+#: ../ai.rst:290
 msgid ""
 "Details: Uses ``comfyui/txt2video-svd.json`` with WAN video generation "
 "models."
-msgstr ""
-"詳細: WAN ビデオ生成モデルで ``comfyui/txt2video-svd.json`` を使用します。"
+msgstr "詳細: WAN ビデオ生成モデルで ``comfyui/txt2video-svd.json`` を使用します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:292
+#: ../ai.rst:293
 msgid "Sound... (``txt2audio-stable-open``)"
 msgstr "サウンド... (``txt2audio-stable-open``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:294
+#: ../ai.rst:295
 msgid "Why: Generate non-musical audio from text prompts."
 msgstr "理由: テキストプロンプトから非音楽的なオーディオを生成します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:295
+#: ../ai.rst:296
 msgid ""
 "How: Choose :guilabel:`Create with AI` -> :guilabel:`Sound...`, enter a "
 "prompt, then generate."
-msgstr ""
-"方法: :guilabel:`AI で作成` -> :guilabel:`サウンド...` を選択し、プロンプトを"
-"入力して生成します。"
+msgstr "方法: :guilabel:`AI で作成` -> :guilabel:`サウンド...` を選択し、プロンプトを入力して生成します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:296
+#: ../ai.rst:297
 msgid ""
 "Details: Uses ``comfyui/txt2audio-stable-open.json`` with Stable Audio Open "
 "models."
 msgstr ""
-"詳細: Stable Audio Open モデルでは ``comfyui/txt2audio-stable-open.json`` を"
-"使用します。"
+"詳細: Stable Audio Open モデルでは ``comfyui/txt2audio-stable-open.json`` を使用します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:299
+#: ../ai.rst:300
 msgid "Music... (``txt2music-ace-step``)"
 msgstr "音楽... (``txt2music-ace-step``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:301
+#: ../ai.rst:302
 msgid "Why: Generate music from style/tags (and optional lyrics)."
 msgstr "理由: スタイルやタグ（およびオプションの歌詞）から音楽を生成します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:302
+#: ../ai.rst:303
 msgid ""
-"How: Choose :guilabel:`Create with AI` -> :guilabel:`Music...`, enter prompt "
-"text, then generate."
-msgstr ""
-"方法: :guilabel:`AI で作成` -> :guilabel:`音楽...` を選択し、プロンプトテキス"
-"トを入力して生成します。"
+"How: Choose :guilabel:`Create with AI` -> :guilabel:`Music...`, enter prompt"
+" text, then generate."
+msgstr "方法: :guilabel:`AI で作成` -> :guilabel:`音楽...` を選択し、プロンプトテキストを入力して生成します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:303
+#: ../ai.rst:304
 msgid ""
 "Details: Uses ``comfyui/txt2music-ace-step.json`` with an Ace-Step 1.5 "
 "checkpoint."
 msgstr ""
-"詳細: Ace-Step 1.5 チェックポイントで ``comfyui/txt2music-ace-step.json`` を"
-"使用します。"
+"詳細: Ace-Step 1.5 チェックポイントで ``comfyui/txt2music-ace-step.json`` を使用します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:306
+#: ../ai.rst:307
 msgid "Enhance with AI"
 msgstr "AI で強化"
 
+#: ../ai.rst:310
+msgid "Noise -> Reduce (``audio-noise-reduce``)"
+msgstr "ノイズ -> 減少 (``audio-noise-reduce``)"
+
+#: ../ai.rst:312
+msgid ""
+"Why: Lightly reduce steady background noise while keeping more of the "
+"original ambience."
+msgstr "理由: 元の環境音を多く残しつつ、安定したバックグラウンドノイズを軽く減らします。"
+
+#: ../ai.rst:313
+msgid ""
+"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Noise` -> "
+":guilabel:`Reduce` on an audio file, then generate."
+msgstr ""
+"方法: オーディオファイルで :guilabel:`Enhance with AI` -> :guilabel:`Noise` -> "
+":guilabel:`Reduce` を選択し、生成します。"
+
+#: ../ai.rst:314
+msgid ""
+"Details: Uses ``comfyui/audio-noise-reduce.json`` with "
+"``OpenShotDeepFilterNetDenoiseAudio``."
+msgstr ""
+"詳細: ``OpenShotDeepFilterNetDenoiseAudio`` と共に ``comfyui/audio-noise-"
+"reduce.json`` を使用します。"
+
+#: ../ai.rst:317
+msgid "Noise -> Remove (``audio-noise-remove``)"
+msgstr "ノイズ -> 除去 (``audio-noise-remove``)"
+
+#: ../ai.rst:319
+msgid "Why: Aggressively remove background noise from noisy recordings."
+msgstr "理由: 騒がしい録音からバックグラウンドノイズを積極的に除去します。"
+
+#: ../ai.rst:320
+msgid ""
+"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Noise` -> "
+":guilabel:`Remove` on an audio file, then generate."
+msgstr ""
+"方法: オーディオファイルで :guilabel:`Enhance with AI` -> :guilabel:`Noise` -> "
+":guilabel:`Remove` を選択し、生成します。"
+
+#: ../ai.rst:321
+msgid ""
+"Details: Uses ``comfyui/audio-noise-remove.json`` with "
+"``OpenShotDeepFilterNetDenoiseAudio``."
+msgstr ""
+"詳細: ``OpenShotDeepFilterNetDenoiseAudio`` と共に ``comfyui/audio-noise-"
+"remove.json`` を使用します。"
+
+#: ../ai.rst:324
+msgid "Clarity -> Speech (``audio-clarity-speech``)"
+msgstr "明瞭度 -> スピーチ (``audio-clarity-speech``)"
+
+#: ../ai.rst:326
+msgid ""
+"Why: Improve clarity for speech recordings that sound dull, noisy, "
+"bandwidth-limited, or low fidelity."
+msgstr "理由: 鈍く、ノイズが多く、帯域制限されているか低音質のスピーチ録音の明瞭度を向上させます。"
+
+#: ../ai.rst:327
+msgid ""
+"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Clarity` -> "
+":guilabel:`Speech` on an audio file, then generate."
+msgstr ""
+"方法: オーディオファイルで :guilabel:`Enhance with AI` -> :guilabel:`Clarity` -> "
+":guilabel:`Speech` を選択し、生成します。"
+
+#: ../ai.rst:328
+msgid ""
+"Details: Uses ``comfyui/audio-clarity-speech.json`` with "
+"``OpenShotLavaSRSpeechClarity``."
+msgstr ""
+"詳細: ``OpenShotLavaSRSpeechClarity`` と共に ``comfyui/audio-clarity-"
+"speech.json`` を使用します。"
+
 # Translated with gpt-4.1-mini
-#: ../ai.rst:309
+#: ../ai.rst:331
 msgid "Change Image Style... (``img2img-basic``)"
 msgstr "画像スタイルを変更... (``img2img-basic``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:311
+#: ../ai.rst:333
 msgid "Why: Restyle an existing image while keeping the source composition."
 msgstr "理由: 元の構図を保ちながら既存の画像のスタイルを変更します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:312
+#: ../ai.rst:334
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on an image, enter a style prompt, "
 "then generate."
-msgstr ""
-"方法: 画像で :guilabel:`AI で強化` を選択し、スタイルプロンプトを入力して生成"
-"します。"
+msgstr "方法: 画像で :guilabel:`AI で強化` を選択し、スタイルプロンプトを入力して生成します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:313
+#: ../ai.rst:335
 msgid ""
-"Details: Uses ``comfyui/img2img-basic.json`` with ``sd_xl_base_1.0."
-"safetensors``."
+"Details: Uses ``comfyui/img2img-basic.json`` with "
+"``sd_xl_base_1.0.safetensors``."
 msgstr ""
-"詳細: ``comfyui/img2img-basic.json`` を ``sd_xl_base_1.0.safetensors`` ととも"
-"に使用します。"
+"詳細: ``comfyui/img2img-basic.json`` を ``sd_xl_base_1.0.safetensors`` "
+"とともに使用します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:316
+#: ../ai.rst:338
 msgid "Depth (``image-extract-depth``)"
 msgstr "深度（``image-extract-depth``）"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:318
+#: ../ai.rst:340
 msgid "Why: Export a grayscale depth-map image from a source image."
 msgstr "理由：元画像からグレースケールの深度マップ画像をエクスポートします。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:319
+#: ../ai.rst:341
 msgid ""
-"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:"
-"`Depth` on an image, then generate."
+"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Depth` on an image, then generate."
 msgstr ""
-"方法：画像で :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:"
-"`Depth` を選択し、生成します。"
+"方法：画像で :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Depth` を選択し、生成します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:320
+#: ../ai.rst:342
 msgid ""
 "Details: Uses ``comfyui/image-extract-depth.json`` with "
 "``DepthAnythingV2Preprocessor``."
@@ -1054,82 +1075,78 @@ msgstr ""
 "depth.json`` を使用します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:323
+#: ../ai.rst:345
 msgid "Lines (``image-extract-lines``)"
 msgstr "線画（``image-extract-lines``）"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:325
+#: ../ai.rst:347
 msgid "Why: Export a line-map image from a source image."
 msgstr "理由：元画像から線画マップ画像をエクスポートします。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:326
+#: ../ai.rst:348
 msgid ""
-"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:"
-"`Lines` on an image, then generate."
+"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Lines` on an image, then generate."
 msgstr ""
-"方法：画像で :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:"
-"`Lines` を選択し、生成します。"
+"方法：画像で :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Lines` を選択し、生成します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:327
+#: ../ai.rst:349
 msgid ""
 "Details: Uses ``comfyui/image-extract-lines.json`` with "
 "``LineArtPreprocessor``."
 msgstr ""
-"詳細：``LineArtPreprocessor`` を使用した ``comfyui/image-extract-lines."
-"json`` を使用します。"
+"詳細：``LineArtPreprocessor`` を使用した ``comfyui/image-extract-lines.json`` "
+"を使用します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:330
+#: ../ai.rst:352
 msgid "Image to Video... (``img2video-wan``)"
 msgstr "画像から動画へ...（``img2video-wan``）"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:332
+#: ../ai.rst:354
 msgid "Why: Turn a still image into a generated video shot."
 msgstr "理由: 静止画像を生成されたビデオショットに変換します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:333
+#: ../ai.rst:355
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on an image, provide prompt "
 "guidance, then generate."
-msgstr ""
-"方法: 画像で :guilabel:`AI で強化` を選択し、プロンプトガイダンスを提供して生"
-"成します。"
+msgstr "方法: 画像で :guilabel:`AI で強化` を選択し、プロンプトガイダンスを提供して生成します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:334
+#: ../ai.rst:356
 msgid ""
 "Details: Uses ``comfyui/img2video-wan.json`` with WAN 2.2 image-to-video "
 "models."
-msgstr ""
-"詳細：WAN 2.2 の画像から動画へのモデルを使用した ``comfyui/img2video-wan."
-"json`` を使用します。"
+msgstr "詳細：WAN 2.2 の画像から動画へのモデルを使用した ``comfyui/img2video-wan.json`` を使用します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:337
+#: ../ai.rst:359
 msgid "Change Video Style... (``video2video-basic``)"
 msgstr "ビデオスタイルを変更... (``video2video-basic``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:339
+#: ../ai.rst:361
 msgid "Why: Apply a new visual style to a source video."
 msgstr "理由: 元のビデオに新しいビジュアルスタイルを適用します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:340
+#: ../ai.rst:362
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on a video, enter a style prompt, "
 "pick a reference image in the :guilabel:`Reference` tab, then generate."
 msgstr ""
-"方法：動画で :guilabel:`Enhance with AI` を選択し、スタイルプロンプトを入力"
-"し、:guilabel:`Reference` タブで参照画像を選択してから生成します。"
+"方法：動画で :guilabel:`Enhance with AI` を選択し、スタイルプロンプトを入力し、:guilabel:`Reference` "
+"タブで参照画像を選択してから生成します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:341
+#: ../ai.rst:363
 msgid ""
 "Details: Uses ``comfyui/video2video-basic.json`` with WAN VACE video-to-"
 "video nodes, a required reference image, blended "
@@ -1137,34 +1154,32 @@ msgid ""
 "``wan2.1_vace_1.3B_fp16.safetensors``, ``wan_2.1_vae.safetensors``, and "
 "``umt5_xxl_fp8_e4m3fn_scaled.safetensors`` models."
 msgstr ""
-"詳細：WAN VACE の動画から動画へのノード、必須の参照画像、ブレンドされた "
-"``DepthAnythingV2Preprocessor`` の深度と Canny エッジ制御、及び "
-"``wan2.1_vace_1.3B_fp16.safetensors``, ``wan_2.1_vae.safetensors``, "
-"``umt5_xxl_fp8_e4m3fn_scaled.safetensors`` モデルを使用した ``comfyui/"
-"video2video-basic.json`` を使用します。"
+"詳細：WAN VACE の動画から動画へのノード、必須の参照画像、ブレンドされた ``DepthAnythingV2Preprocessor`` "
+"の深度と Canny エッジ制御、及び ``wan2.1_vace_1.3B_fp16.safetensors``, "
+"``wan_2.1_vae.safetensors``, ``umt5_xxl_fp8_e4m3fn_scaled.safetensors`` "
+"モデルを使用した ``comfyui/video2video-basic.json`` を使用します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:344
+#: ../ai.rst:366
 msgid "Depth (``video-extract-depth``)"
 msgstr "深度（``video-extract-depth``）"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:346
+#: ../ai.rst:368
 msgid "Why: Export a grayscale depth-map version of a source video."
-msgstr ""
-"理由：元動画からグレースケールの深度マップバージョンをエクスポートします。"
+msgstr "理由：元動画からグレースケールの深度マップバージョンをエクスポートします。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:347
+#: ../ai.rst:369
 msgid ""
-"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:"
-"`Depth` on a video, then generate."
+"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Depth` on a video, then generate."
 msgstr ""
-"方法：動画で :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:"
-"`Depth` を選択し、生成します。"
+"方法：動画で :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Depth` を選択し、生成します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:348
+#: ../ai.rst:370
 msgid ""
 "Details: Uses ``comfyui/video-extract-depth.json`` with "
 "``DepthAnythingV2Preprocessor`` and preserves the source frame rate."
@@ -1173,390 +1188,386 @@ msgstr ""
 "depth.json`` を使用し、元のフレームレートを保持します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:351
+#: ../ai.rst:373
 msgid "Lines (``video-extract-lines``)"
 msgstr "線画（``video-extract-lines``）"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:353
+#: ../ai.rst:375
 msgid "Why: Export a line-map version of a source video."
 msgstr "理由：元動画から線画マップバージョンをエクスポートします。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:354
+#: ../ai.rst:376
 msgid ""
-"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:"
-"`Lines` on a video, then generate."
+"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Lines` on a video, then generate."
 msgstr ""
-"方法：動画で :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:"
-"`Lines` を選択し、生成します。"
+"方法：動画で :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Lines` を選択し、生成します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:355
+#: ../ai.rst:377
 msgid ""
 "Details: Uses ``comfyui/video-extract-lines.json`` with "
 "``LineArtPreprocessor`` and preserves the source frame rate."
 msgstr ""
-"詳細：``LineArtPreprocessor`` を使用した ``comfyui/video-extract-lines."
-"json`` を使用し、元のフレームレートを保持します。"
+"詳細：``LineArtPreprocessor`` を使用した ``comfyui/video-extract-lines.json`` "
+"を使用し、元のフレームレートを保持します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:358
+#: ../ai.rst:380
 msgid "Increase Resolution (image) (``upscale-realesrgan-x4``)"
 msgstr "解像度を上げる（画像） (``upscale-realesrgan-x4``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:360
+#: ../ai.rst:382
 msgid "Why: Upscale low-resolution images."
 msgstr "理由: 低解像度の画像をアップスケールします。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:361
+#: ../ai.rst:383
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on an image, select increase "
 "resolution, then generate."
-msgstr ""
-"方法: 画像で :guilabel:`AI で強化` を選択し、解像度を上げるを選んで生成しま"
-"す。"
+msgstr "方法: 画像で :guilabel:`AI で強化` を選択し、解像度を上げるを選んで生成します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:362
+#: ../ai.rst:384
 msgid ""
 "Details: Uses ``comfyui/upscale-realesrgan-x4.json`` with "
 "``RealESRGAN_x4plus.safetensors``."
 msgstr ""
-"詳細: ``comfyui/upscale-realesrgan-x4.json`` を ``RealESRGAN_x4plus."
-"safetensors`` とともに使用します。"
+"詳細: ``comfyui/upscale-realesrgan-x4.json`` を "
+"``RealESRGAN_x4plus.safetensors`` とともに使用します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:365
+#: ../ai.rst:387
 msgid "Increase Resolution (video) (``video-upscale-gan``)"
 msgstr "解像度を上げる（ビデオ） (``video-upscale-gan``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:367
+#: ../ai.rst:389
 msgid "Why: Upscale video frames for higher apparent detail."
-msgstr ""
-"理由: ビデオフレームをアップスケールして、より高い見かけの詳細を実現します。"
+msgstr "理由: ビデオフレームをアップスケールして、より高い見かけの詳細を実現します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:368
+#: ../ai.rst:390
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on a video, select increase "
 "resolution, then generate."
-msgstr ""
-"方法: ビデオで :guilabel:`AI で強化` を選択し、解像度を上げるを選んで生成しま"
-"す。"
+msgstr "方法: ビデオで :guilabel:`AI で強化` を選択し、解像度を上げるを選んで生成します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:369
+#: ../ai.rst:391
 msgid ""
-"Details: Uses ``comfyui/video-upscale-gan.json`` with ``RealESRGAN_x4plus."
-"safetensors``."
+"Details: Uses ``comfyui/video-upscale-gan.json`` with "
+"``RealESRGAN_x4plus.safetensors``."
 msgstr ""
-"詳細: ``comfyui/video-upscale-gan.json`` を ``RealESRGAN_x4plus."
-"safetensors`` とともに使用します。"
+"詳細: ``comfyui/video-upscale-gan.json`` を ``RealESRGAN_x4plus.safetensors`` "
+"とともに使用します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:372
+#: ../ai.rst:394
 msgid "Smooth Motion (2x Frame Rate) (``video-frame-interpolation-rife2x``)"
-msgstr ""
-"スムーズモーション（2倍フレームレート） (``video-frame-interpolation-"
-"rife2x``)"
+msgstr "スムーズモーション（2倍フレームレート） (``video-frame-interpolation-rife2x``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:374
+#: ../ai.rst:396
 msgid "Why: Increase frame rate for smoother perceived motion."
 msgstr "理由: より滑らかな動きを感じさせるためにフレームレートを上げます。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:375
+#: ../ai.rst:397
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on a video, select smooth motion, "
 "then generate."
-msgstr ""
-"方法: ビデオで :guilabel:`AI で強化` を選択し、スムーズモーションを選んで生成"
-"します。"
+msgstr "方法: ビデオで :guilabel:`AI で強化` を選択し、スムーズモーションを選んで生成します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:376
+#: ../ai.rst:398
 msgid ""
 "Details: Uses ``comfyui/video-frame-interpolation-rife2x.json`` with "
 "``rife47.pth``."
 msgstr ""
-"詳細: ``comfyui/video-frame-interpolation-rife2x.json`` を ``rife47.pth`` と"
-"ともに使用します。"
+"詳細: ``comfyui/video-frame-interpolation-rife2x.json`` を ``rife47.pth`` "
+"とともに使用します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:379
+#: ../ai.rst:401
 msgid "Split into Scenes (``video-segment-scenes-transnet``)"
 msgstr "シーンに分割 (``video-segment-scenes-transnet``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:381
+#: ../ai.rst:403
 msgid ""
 "Why: Automatically detect scene changes and split long clips into segments."
 msgstr "理由: シーンの変化を自動検出し、長いクリップをセグメントに分割します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:382
+#: ../ai.rst:404
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on a video, select scene splitting, "
 "then generate."
-msgstr ""
-"方法: ビデオで :guilabel:`AI で強化` を選択し、シーン分割を選んで生成します。"
+msgstr "方法: ビデオで :guilabel:`AI で強化` を選択し、シーン分割を選んで生成します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:383
+#: ../ai.rst:405
 msgid ""
-"Details: Uses ``comfyui/video-segment-scenes-transnet.json`` with TransNetV2."
+"Details: Uses ``comfyui/video-segment-scenes-transnet.json`` with "
+"TransNetV2."
 msgstr ""
-"詳細: TransNetV2 で ``comfyui/video-segment-scenes-transnet.json`` を使用しま"
-"す。"
+"詳細: TransNetV2 で ``comfyui/video-segment-scenes-transnet.json`` を使用します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:386
+#: ../ai.rst:408
 msgid "Add Captions from Speech (``video-whisper-srt``)"
 msgstr "音声から字幕を追加（``video-whisper-srt``）"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:388
+#: ../ai.rst:410
 msgid "Why: Transcribe speech into subtitle/caption files."
 msgstr "理由: 音声を字幕/キャプションファイルに書き起こします。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:389
+#: ../ai.rst:411
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on a video, select captions, then "
 "generate."
-msgstr ""
-"方法: 動画で :guilabel:`Enhance with AI` を選択し、字幕を選んでから生成しま"
-"す。"
+msgstr "方法: 動画で :guilabel:`Enhance with AI` を選択し、字幕を選んでから生成します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:390
+#: ../ai.rst:412
 msgid ""
 "Details: Uses ``comfyui/video-whisper-srt.json`` and creates SRT output."
-msgstr ""
-"詳細: ``comfyui/video-whisper-srt.json`` を使用し、SRT 出力を作成します。"
+msgstr "詳細: ``comfyui/video-whisper-srt.json`` を使用し、SRT 出力を作成します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:393
+#: ../ai.rst:415
 msgid "Tracking Workflows (SAM2)"
 msgstr "トラッキングワークフロー（SAM2）"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:395
+#: ../ai.rst:417
 msgid ""
 "These workflows use the same region/tracking input flow and are grouped in "
 "the tracking context menu."
-msgstr ""
-"これらのワークフローは同じ領域/トラッキング入力フローを使用し、トラッキングの"
-"コンテキストメニューにまとめられています。"
+msgstr "これらのワークフローは同じ領域/トラッキング入力フローを使用し、トラッキングのコンテキストメニューにまとめられています。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:399
+#: ../ai.rst:421
 msgid "Blur... (image) (``image-blur-anything-sam2``)"
 msgstr "ぼかし...（画像）（``image-blur-anything-sam2``）"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:401
+#: ../ai.rst:423
 msgid "Why: Blur selected subject areas in a still image."
 msgstr "理由: 静止画像の選択した被写体領域をぼかします。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:402 ../ai.rst:409 ../ai.rst:416
+#: ../ai.rst:424 ../ai.rst:431 ../ai.rst:438
 msgid "How: Select points/rectangles for the subject, then generate."
 msgstr "方法: 被写体のポイントや矩形を選択し、生成します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:403
+#: ../ai.rst:425
 msgid ""
 "Details: Uses ``comfyui/image-blur-anything-sam2.json`` with SAM2 image "
 "segmentation."
 msgstr ""
-"詳細: SAM2 イメージ セグメンテーションで ``comfyui/image-blur-anything-sam2."
-"json`` を使用します。"
+"詳細: SAM2 イメージ セグメンテーションで ``comfyui/image-blur-anything-sam2.json`` を使用します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:406
+#: ../ai.rst:428
 msgid "Highlight... (image) (``image-highlight-anything-sam2``)"
 msgstr "強調...（画像）（``image-highlight-anything-sam2``）"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:408
+#: ../ai.rst:430
 msgid "Why: Emphasize selected subject areas in a still image."
 msgstr "理由: 静止画像の選択した被写体領域を強調します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:410
+#: ../ai.rst:432
 msgid ""
-"Details: Uses ``comfyui/image-highlight-anything-sam2.json`` with SAM2 image "
-"segmentation."
+"Details: Uses ``comfyui/image-highlight-anything-sam2.json`` with SAM2 image"
+" segmentation."
 msgstr ""
-"詳細: SAM2 イメージ セグメンテーションで ``comfyui/image-highlight-anything-"
-"sam2.json`` を使用します。"
+"詳細: SAM2 イメージ セグメンテーションで ``comfyui/image-highlight-anything-sam2.json`` "
+"を使用します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:413
+#: ../ai.rst:435
 msgid "Mask... (image) (``image-mask-anything-sam2``)"
 msgstr "マスク...（画像）（``image-mask-anything-sam2``）"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:415
+#: ../ai.rst:437
 msgid "Why: Generate an image mask for selected subject areas."
 msgstr "理由: 選択した被写体領域の画像マスクを生成します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:417
+#: ../ai.rst:439
 msgid ""
 "Details: Uses ``comfyui/image-mask-anything-sam2.json`` with SAM2 image "
 "segmentation."
 msgstr ""
-"詳細: SAM2 イメージ セグメンテーションで ``comfyui/image-mask-anything-sam2."
-"json`` を使用します。"
+"詳細: SAM2 イメージ セグメンテーションで ``comfyui/image-mask-anything-sam2.json`` を使用します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:420
+#: ../ai.rst:442
 msgid "Blur... (video) (``video-blur-anything-sam2``)"
 msgstr "ぼかし...（動画）（``video-blur-anything-sam2``）"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:422
+#: ../ai.rst:444
 msgid "Why: Track and blur a moving subject in video."
 msgstr "理由: 動画内の動く被写体を追跡してぼかします。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:423 ../ai.rst:430 ../ai.rst:437
+#: ../ai.rst:445 ../ai.rst:452 ../ai.rst:459
 msgid "How: Mark subject/background in the region screen, then generate."
 msgstr "方法: 領域画面で被写体/背景をマークし、生成します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:424
+#: ../ai.rst:446
 msgid ""
 "Details: Uses ``comfyui/video-blur-anything-sam2.json`` with SAM2 video "
 "tracking."
 msgstr ""
-"詳細: SAM2 ビデオ トラッキングで ``comfyui/video-blur-anything-sam2.json`` を"
-"使用します。"
+"詳細: SAM2 ビデオ トラッキングで ``comfyui/video-blur-anything-sam2.json`` を使用します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:427
+#: ../ai.rst:449
 msgid "Highlight... (video) (``video-highlight-anything-sam2``)"
 msgstr "強調...（動画）（``video-highlight-anything-sam2``）"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:429
+#: ../ai.rst:451
 msgid "Why: Track and highlight a moving subject in video."
 msgstr "理由: 動画内の動く被写体を追跡して強調します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:431
+#: ../ai.rst:453
 msgid ""
-"Details: Uses ``comfyui/video-highlight-anything-sam2.json`` with SAM2 video "
-"tracking."
+"Details: Uses ``comfyui/video-highlight-anything-sam2.json`` with SAM2 video"
+" tracking."
 msgstr ""
-"詳細: SAM2 ビデオ トラッキングで ``comfyui/video-highlight-anything-sam2."
-"json`` を使用します。"
+"詳細: SAM2 ビデオ トラッキングで ``comfyui/video-highlight-anything-sam2.json`` を使用します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:434
+#: ../ai.rst:456
 msgid "Mask... (video) (``video-mask-anything-sam2``)"
 msgstr "マスク...（動画）（``video-mask-anything-sam2``）"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:436
+#: ../ai.rst:458
 msgid "Why: Generate an animated mask that follows a moving subject."
 msgstr "理由: 動く被写体に追従するアニメーションマスクを生成します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:438
+#: ../ai.rst:460
 msgid ""
 "Details: Uses ``comfyui/video-mask-anything-sam2.json`` with SAM2 video "
 "tracking."
 msgstr ""
-"詳細: SAM2 ビデオ トラッキングで ``comfyui/video-mask-anything-sam2.json`` を"
-"使用します。"
+"詳細: SAM2 ビデオ トラッキングで ``comfyui/video-mask-anything-sam2.json`` を使用します。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:441
+#: ../ai.rst:463
 msgid "Starting Points for New Users"
 msgstr "初心者向けの開始ポイント"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:443
+#: ../ai.rst:465
 msgid "If you are new to these tools, start with:"
 msgstr "これらのツールを初めて使う場合は、以下から始めてください:"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:445
+#: ../ai.rst:467
 msgid ":guilabel:`Create with AI` -> :guilabel:`Image`"
 msgstr ":guilabel:`Create with AI` -> :guilabel:`Image`"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:446
+#: ../ai.rst:468
 msgid ":guilabel:`Enhance with AI` -> :guilabel:`Increase Resolution`"
 msgstr ":guilabel:`Enhance with AI` -> :guilabel:`Increase Resolution`"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:447
+#: ../ai.rst:469
 msgid ":guilabel:`Enhance with AI` -> :guilabel:`Smooth Motion`"
 msgstr ":guilabel:`Enhance with AI` -> :guilabel:`Smooth Motion`"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:448
+#: ../ai.rst:470
 msgid ":guilabel:`Enhance with AI` -> :guilabel:`Split into Scenes`"
 msgstr ":guilabel:`Enhance with AI` -> :guilabel:`Split into Scenes`"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:449
+#: ../ai.rst:471
 msgid ":guilabel:`Enhance with AI` -> :guilabel:`Add Captions`"
 msgstr ":guilabel:`Enhance with AI` -> :guilabel:`Add Captions`"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:452
+#: ../ai.rst:474
 msgid "Troubleshooting"
 msgstr "トラブルシューティング"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:454
+#: ../ai.rst:476
 msgid "If AI menus do not appear or jobs fail immediately:"
 msgstr "AI メニューが表示されない、またはジョブがすぐに失敗する場合:"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:456
+#: ../ai.rst:478
 msgid "Verify ComfyUI is running and reachable at the configured URL."
-msgstr ""
-"ComfyUI が起動しており、設定された URL でアクセス可能か確認してください。"
+msgstr "ComfyUI が起動しており、設定された URL でアクセス可能か確認してください。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:457
+#: ../ai.rst:479
 msgid "Confirm required models exist in your ComfyUI environment."
 msgstr "必要なモデルが ComfyUI 環境に存在するか確認してください。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:458
+#: ../ai.rst:480
 msgid ""
 "Confirm custom node packages are installed for the workflow you selected."
-msgstr ""
-"選択したワークフローに必要なカスタムノードパッケージがインストールされている"
-"か確認してください。"
+msgstr "選択したワークフローに必要なカスタムノードパッケージがインストールされているか確認してください。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:459
+#: ../ai.rst:481
 msgid "Reduce batch/chunk sizes for long clips."
 msgstr "長いクリップの場合はバッチ/チャンクサイズを減らしてください。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:460
+#: ../ai.rst:482
 msgid "Re-test with a short clip or still image first."
 msgstr "まずは短いクリップや静止画像で再テストしてください。"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:462
+#: ../ai.rst:484
 msgid ""
-"For general performance and cache tuning, see :ref:`preferences_ref` and :"
-"ref:`playback_ref`."
+"For general performance and cache tuning, see :ref:`preferences_ref` and "
+":ref:`playback_ref`."
 msgstr ""
-"一般的なパフォーマンスやキャッシュの調整については、:ref:`preferences_ref` "
-"と :ref:`playback_ref` を参照してください。"
+"一般的なパフォーマンスやキャッシュの調整については、:ref:`preferences_ref` と :ref:`playback_ref` "
+"を参照してください。"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "OpenShot sends your positive and negative markers as seed coordinates to the"
+#~ " tracking model, which builds a mask for the subject and then follows it "
+#~ "over time. Better seeds usually produce cleaner masks and less drift. "
+#~ "[sam2]_"
+#~ msgstr ""
+#~ "OpenShot "
+#~ "はポジティブおよびネガティブのマーカーをシード座標としてトラッキングモデルに送信し、被写体のマスクを作成して時間経過に沿って追跡します。より良いシードは通常、よりクリーンなマスクとドリフトの減少をもたらします。"
+#~ " [sam2]_"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "*SAM2 (Segment Anything Model 2) project:* `facebookresearch/sam2 "
+#~ "<https://github.com/facebookresearch/sam2>`_"
+#~ msgstr ""
+#~ "*SAM2 (Segment Anything Model 2) プロジェクト:* `facebookresearch/sam2 "
+#~ "<https://github.com/facebookresearch/sam2>`_"

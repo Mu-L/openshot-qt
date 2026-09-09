@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-02 17:20-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,8 +41,8 @@ msgstr ""
 #: ../timeline.rst:32
 msgid ""
 "If you are just getting started, read :ref:`quick_tutorial_ref` first, then "
-"come back here for more detail. For a labeled breakdown of toolbar controls, "
-"see :ref:`timeline_toolbar_ref`."
+"come back here for more detail. For a labeled breakdown of toolbar controls,"
+" see :ref:`timeline_toolbar_ref`."
 msgstr ""
 "Jos olet vasta aloittamassa, lue ensin :ref:`quick_tutorial_ref` ja palaa "
 "sitten tänne saadaksesi lisätietoja. Työkalupalkin ohjainten nimettyyn "
@@ -136,53 +136,80 @@ msgstr "Tallennettu arvo tiettynä ajankohtana (käytetään animaatiossa)."
 msgid "For a full glossary, see :ref:`glossary_ref`."
 msgstr "Täydellisen sanaston löydät kohdasta :ref:`glossary_ref`."
 
-# Translated with gpt-4.1-mini
 #: ../timeline.rst:58
+msgid "Current Timecode"
+msgstr "Nykyinen aikakoodi"
+
+#: ../timeline.rst:60
+msgid ""
+"The current timecode appears at the left side of the timeline ruler and "
+"shows the playhead's exact position. Click the timecode, enter a new value, "
+"and press :kbd:`Enter` to move the playhead to that frame."
+msgstr ""
+"Nykyinen aikakoodi näkyy aikajanaviivaimen vasemmassa reunassa ja näyttää "
+"toistopään tarkan sijainnin. Napsauta aikakoodia, kirjoita uusi arvo ja "
+"paina :kbd:`Enter` siirtääksesi toistopään kyseiseen ruutuun."
+
+#: ../timeline.rst:64
+msgid ""
+"Clear the field or enter ``0`` to jump to the start of the timeline. Press "
+":kbd:`Up` or :kbd:`Down` to step the selected timecode segment; hold "
+":kbd:`Shift` to step by 10. When the frame segment is selected, hold "
+":kbd:`Ctrl` to step by one second. Press :kbd:`Esc` to cancel."
+msgstr ""
+"Tyhjennä kenttä tai kirjoita ``0`` siirtyäksesi aikajanan alkuun. Paina "
+":kbd:`Ylös` tai :kbd:`Alas` siirtääksesi valittua aikakoodin segmenttiä; "
+"pidä :kbd:`Shift` painettuna siirtyäksesi 10 askelta. Kun ruutusegmentti on "
+"valittuna, pidä :kbd:`Ctrl` painettuna siirtyäksesi yhdellä sekunnilla. "
+"Paina :kbd:`Esc` peruuttaaksesi."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:70
 msgid "Common Timeline Tasks"
 msgstr "Yleiset aikajanan tehtävät"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:60
+#: ../timeline.rst:72
 msgid "Most editing sessions follow a similar flow:"
 msgstr "Useimmat editointisessiot etenevät samankaltaisesti:"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:62
+#: ../timeline.rst:74
 msgid "Add media to the project using :ref:`import_files_ref`."
 msgstr "Lisää media projektiin käyttämällä :ref:`import_files_ref`."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:63
+#: ../timeline.rst:75
 msgid "Drag files from the project panel onto timeline tracks."
 msgstr "Vedä tiedostoja projektipaneelista aikajanan raidoille."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:64
+#: ../timeline.rst:76
 msgid "Trim clip edges to remove extra content."
 msgstr "Rajaa leikkeiden reunat poistaaksesi ylimääräisen sisällön."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:65
+#: ../timeline.rst:77
 msgid "Move clips into order and stack tracks to build your scene."
 msgstr ""
 "Siirrä leikkeet järjestykseen ja pinota raidat rakentaaksesi kohtauksesi."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:66
+#: ../timeline.rst:78
 msgid ""
-"Add transitions and effects where needed (:ref:`transitions_ref`, :ref:"
-"`effects_ref`)."
+"Add transitions and effects where needed (:ref:`transitions_ref`, "
+":ref:`effects_ref`)."
 msgstr ""
-"Lisää siirtymiä ja efektejä tarpeen mukaan (:ref:`transitions_ref`, :ref:"
-"`effects_ref`)."
+"Lisää siirtymiä ja efektejä tarpeen mukaan (:ref:`transitions_ref`, "
+":ref:`effects_ref`)."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:67
+#: ../timeline.rst:79
 msgid "Preview and adjust timing (:ref:`playback_ref`)."
 msgstr "Esikatsele ja säädä ajoitusta (:ref:`playback_ref`)."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:69
+#: ../timeline.rst:81
 msgid ""
 "Clip trimming, slicing, and clip context menu actions are covered in detail "
 "in :ref:`clips_ref`."
@@ -191,27 +218,27 @@ msgstr ""
 "käsitellään yksityiskohtaisesti kohdassa :ref:`clips_ref`."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:72
+#: ../timeline.rst:84
 msgid "Selecting Clips and Transitions"
 msgstr "Leikkeiden ja siirtymien valinta"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:74
+#: ../timeline.rst:86
 msgid "Selection is one of the most important timeline skills:"
 msgstr "Valinta on yksi tärkeimmistä aikajanan taidoista:"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:76
+#: ../timeline.rst:88
 msgid "Click an item to select it."
 msgstr "Napsauta kohdetta valitaksesi sen."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:77
+#: ../timeline.rst:89
 msgid ":kbd:`Ctrl+Click` adds or removes items from selection."
 msgstr ":kbd:`Ctrl+Click` lisää tai poistaa kohteita valinnasta."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:78
+#: ../timeline.rst:90
 msgid ""
 ":kbd:`Shift+Click` selects a range between your anchor item and the clicked "
 "item."
@@ -220,12 +247,12 @@ msgstr ""
 "välillä."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:79
+#: ../timeline.rst:91
 msgid ":kbd:`Ctrl+Shift+Click` adds that range to your current selection."
 msgstr ":kbd:`Ctrl+Shift+Click` lisää kyseisen alueen nykyiseen valintaasi."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:80
+#: ../timeline.rst:92
 msgid ""
 ":kbd:`Alt+Click` ripple-selects from the clicked item to the end of the "
 "track."
@@ -234,22 +261,22 @@ msgstr ""
 "loppuun."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:81
+#: ../timeline.rst:93
 msgid "Drag an empty-area selection box to select multiple items."
 msgstr "Vedä tyhjän alueen valintaruutu valitaksesi useita kohteita."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:83
+#: ../timeline.rst:95
 msgid "See :ref:`clips_ref` for the full list and examples."
 msgstr "Katso täydellinen lista ja esimerkit kohdasta :ref:`clips_ref`."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:86
+#: ../timeline.rst:98
 msgid "Timeline Toolbar and Zoom"
 msgstr "Aikajanan työkalupalkki ja zoomaus"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:88
+#: ../timeline.rst:100
 msgid ""
 "The timeline toolbar helps with common navigation and editing actions "
 "(snapping, retime, razor, markers, centering, and zoom)."
@@ -259,7 +286,7 @@ msgstr ""
 "keskitys ja zoomaus)."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:91
+#: ../timeline.rst:103
 msgid ""
 "Tip: If timeline editing feels crowded, zoom in with the timeline slider to "
 "make small clip adjustments easier."
@@ -268,68 +295,68 @@ msgstr ""
 "liukusäätimellä helpottaaksesi pienten leikkeiden säätöä."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:94
+#: ../timeline.rst:106
 msgid ""
-"You can also zoom the timeline with :kbd:`Ctrl+Scroll Wheel`. On the QWidget "
-"timeline, hold :kbd:`Ctrl` and drag with the middle mouse button for smooth "
-"zooming."
+"You can also zoom the timeline with :kbd:`Ctrl+Scroll Wheel`. On the QWidget"
+" timeline, hold :kbd:`Ctrl` and drag with the middle mouse button for smooth"
+" zooming."
 msgstr ""
 "Voit myös zoomata aikajanaa painamalla :kbd:`Ctrl` ja rullaamalla hiiren "
-"rullaa. QWidget-aikajanalla pidä :kbd:`Ctrl` pohjassa ja vedä keskimmäisellä "
-"hiiren painikkeella sujuvaa zoomausta varten."
+"rullaa. QWidget-aikajanalla pidä :kbd:`Ctrl` pohjassa ja vedä keskimmäisellä"
+" hiiren painikkeella sujuvaa zoomausta varten."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:99
+#: ../timeline.rst:111
 msgid "Tracks, Locking, and Inserting"
 msgstr "Raidat, lukitseminen ja lisääminen"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:101
+#: ../timeline.rst:113
 msgid "Tracks help organize your edit. A common setup is:"
 msgstr "Raidat auttavat järjestämään editointiasi. Yleinen asettelu on:"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:103
+#: ../timeline.rst:115
 msgid "Top tracks: titles, overlays, logos, picture-in-picture"
 msgstr "Ylimmät raidat: otsikot, päällekkäiset kuvat, logot, kuva kuvassa"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:104
+#: ../timeline.rst:116
 msgid "Middle tracks: main video content"
 msgstr "Keskimmäiset raidat: päävideo"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:105
+#: ../timeline.rst:117
 msgid "Lower tracks: music and sound effects"
 msgstr "Alemmat raidat: musiikki ja ääniefektit"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:107
+#: ../timeline.rst:119
 msgid ""
-"You can lock tracks to protect them from accidental edits and use insert/"
-"ripple editing when you need later clips to move automatically."
+"You can lock tracks to protect them from accidental edits and use "
+"insert/ripple editing when you need later clips to move automatically."
 msgstr ""
 "Voit lukita raidat suojataksesi niitä vahingossa tehdyiltä muokkauksilta ja "
 "käyttää lisäys-/aaltoilevaa editointia, kun haluat myöhempien leikkeiden "
 "liikkuvan automaattisesti."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:110
+#: ../timeline.rst:122
 msgid ""
 "For track layout basics, see :ref:`tracks_ref`. For detailed clip editing "
 "behavior, see :ref:`clips_cutting_slicing_ref`."
 msgstr ""
 "Raidan asettelun perusteet löydät kohdasta :ref:`tracks_ref`. "
-"Yksityiskohtaiset leikkeiden muokkauskäytännöt löytyvät kohdasta :ref:"
-"`clips_cutting_slicing_ref`."
+"Yksityiskohtaiset leikkeiden muokkauskäytännöt löytyvät kohdasta "
+":ref:`clips_cutting_slicing_ref`."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:114
+#: ../timeline.rst:126
 msgid "Keyframes in the Timeline"
 msgstr "Avainkehykset aikajanalla"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:116
+#: ../timeline.rst:128
 msgid ""
 "Keyframes let you change values over time, such as position, scale, "
 "rotation, opacity, and effect settings."
@@ -338,7 +365,7 @@ msgstr ""
 "skaalausta, kiertoa, läpinäkyvyyttä ja efektiasetuksia."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:119
+#: ../timeline.rst:131
 msgid ""
 "In the timeline keyframe panel, each row represents one animated property. "
 "You can:"
@@ -347,39 +374,40 @@ msgstr ""
 "ominaisuutta. Voit:"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:121
+#: ../timeline.rst:133
 msgid "Add a keyframe row for a property"
 msgstr "Lisätä avainkehysrivin ominaisuudelle"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:122
+#: ../timeline.rst:134
 msgid "Insert new keyframes along the row"
 msgstr "Lisätä uusia avainkehyksiä riville"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:123
+#: ../timeline.rst:135
 msgid "Move keyframes to change timing"
 msgstr "Siirtää avainkehyksiä muuttaaksesi ajoitusta"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:124
+#: ../timeline.rst:136
 msgid "Change interpolation to control motion style"
 msgstr "Muuta interpolaatiota hallitaksesi liikkeen tyyliä"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:126
-msgid "For keyframe concepts and animation examples, see :ref:`animation_ref`."
+#: ../timeline.rst:138
+msgid ""
+"For keyframe concepts and animation examples, see :ref:`animation_ref`."
 msgstr ""
-"Avainkehyskonsepteihin ja animaatioesimerkkeihin tutustu kohdassa :ref:"
-"`animation_ref`."
+"Avainkehyskonsepteihin ja animaatioesimerkkeihin tutustu kohdassa "
+":ref:`animation_ref`."
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:129
+#: ../timeline.rst:141
 msgid "Next Steps"
 msgstr "Seuraavat askeleet"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:131
+#: ../timeline.rst:143
 msgid ""
 "After you are comfortable with timeline basics, these sections are the best "
 "next reads:"
@@ -388,22 +416,22 @@ msgstr ""
 "seuraavat luettavat:"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:133
+#: ../timeline.rst:145
 msgid ":ref:`clips_ref` for trimming, slicing, and clip properties"
 msgstr ""
 ":ref:`clips_ref` leikkeiden rajaamiseen, leikkaamiseen ja ominaisuuksiin"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:134
+#: ../timeline.rst:146
 msgid ":ref:`effects_ref` for video/audio effects"
 msgstr ":ref:`effects_ref` video- ja ääni-efekteihin"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:135
+#: ../timeline.rst:147
 msgid ":ref:`animation_ref` for keyframe animation workflows"
 msgstr ":ref:`animation_ref` avainkehysanimaatioiden työnkulkuihin"
 
 # Translated with gpt-4.1-mini
-#: ../timeline.rst:136
+#: ../timeline.rst:148
 msgid ":doc:`export` for creating your final video file"
 msgstr ":doc:`export` lopullisen videotiedostosi luomiseen"

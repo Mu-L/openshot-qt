@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenShot Video Editor 3.5\n"
+"Project-Id-Version: OpenShot Video Editor 4.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-02 17:20-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -97,173 +97,185 @@ msgid "For a full glossary, see :ref:`glossary_ref`."
 msgstr ""
 
 #: ../timeline.rst:58
-msgid "Common Timeline Tasks"
+msgid "Current Timecode"
 msgstr ""
 
 #: ../timeline.rst:60
-msgid "Most editing sessions follow a similar flow:"
-msgstr ""
-
-#: ../timeline.rst:62
-msgid "Add media to the project using :ref:`import_files_ref`."
-msgstr ""
-
-#: ../timeline.rst:63
-msgid "Drag files from the project panel onto timeline tracks."
+msgid "The current timecode appears at the left side of the timeline ruler and shows the playhead's exact position. Click the timecode, enter a new value, and press :kbd:`Enter` to move the playhead to that frame."
 msgstr ""
 
 #: ../timeline.rst:64
-msgid "Trim clip edges to remove extra content."
+msgid "Clear the field or enter ``0`` to jump to the start of the timeline. Press :kbd:`Up` or :kbd:`Down` to step the selected timecode segment; hold :kbd:`Shift` to step by 10. When the frame segment is selected, hold :kbd:`Ctrl` to step by one second. Press :kbd:`Esc` to cancel."
 msgstr ""
 
-#: ../timeline.rst:65
-msgid "Move clips into order and stack tracks to build your scene."
-msgstr ""
-
-#: ../timeline.rst:66
-msgid "Add transitions and effects where needed (:ref:`transitions_ref`, :ref:`effects_ref`)."
-msgstr ""
-
-#: ../timeline.rst:67
-msgid "Preview and adjust timing (:ref:`playback_ref`)."
-msgstr ""
-
-#: ../timeline.rst:69
-msgid "Clip trimming, slicing, and clip context menu actions are covered in detail in :ref:`clips_ref`."
+#: ../timeline.rst:70
+msgid "Common Timeline Tasks"
 msgstr ""
 
 #: ../timeline.rst:72
-msgid "Selecting Clips and Transitions"
+msgid "Most editing sessions follow a similar flow:"
 msgstr ""
 
 #: ../timeline.rst:74
-msgid "Selection is one of the most important timeline skills:"
+msgid "Add media to the project using :ref:`import_files_ref`."
+msgstr ""
+
+#: ../timeline.rst:75
+msgid "Drag files from the project panel onto timeline tracks."
 msgstr ""
 
 #: ../timeline.rst:76
-msgid "Click an item to select it."
+msgid "Trim clip edges to remove extra content."
 msgstr ""
 
 #: ../timeline.rst:77
-msgid ":kbd:`Ctrl+Click` adds or removes items from selection."
+msgid "Move clips into order and stack tracks to build your scene."
 msgstr ""
 
 #: ../timeline.rst:78
-msgid ":kbd:`Shift+Click` selects a range between your anchor item and the clicked item."
+msgid "Add transitions and effects where needed (:ref:`transitions_ref`, :ref:`effects_ref`)."
 msgstr ""
 
 #: ../timeline.rst:79
-msgid ":kbd:`Ctrl+Shift+Click` adds that range to your current selection."
-msgstr ""
-
-#: ../timeline.rst:80
-msgid ":kbd:`Alt+Click` ripple-selects from the clicked item to the end of the track."
+msgid "Preview and adjust timing (:ref:`playback_ref`)."
 msgstr ""
 
 #: ../timeline.rst:81
-msgid "Drag an empty-area selection box to select multiple items."
+msgid "Clip trimming, slicing, and clip context menu actions are covered in detail in :ref:`clips_ref`."
 msgstr ""
 
-#: ../timeline.rst:83
-msgid "See :ref:`clips_ref` for the full list and examples."
+#: ../timeline.rst:84
+msgid "Selecting Clips and Transitions"
 msgstr ""
 
 #: ../timeline.rst:86
-msgid "Timeline Toolbar and Zoom"
+msgid "Selection is one of the most important timeline skills:"
 msgstr ""
 
 #: ../timeline.rst:88
-msgid "The timeline toolbar helps with common navigation and editing actions (snapping, retime, razor, markers, centering, and zoom)."
+msgid "Click an item to select it."
+msgstr ""
+
+#: ../timeline.rst:89
+msgid ":kbd:`Ctrl+Click` adds or removes items from selection."
+msgstr ""
+
+#: ../timeline.rst:90
+msgid ":kbd:`Shift+Click` selects a range between your anchor item and the clicked item."
 msgstr ""
 
 #: ../timeline.rst:91
-msgid "Tip: If timeline editing feels crowded, zoom in with the timeline slider to make small clip adjustments easier."
+msgid ":kbd:`Ctrl+Shift+Click` adds that range to your current selection."
 msgstr ""
 
-#: ../timeline.rst:94
-msgid "You can also zoom the timeline with :kbd:`Ctrl+Scroll Wheel`. On the QWidget timeline, hold :kbd:`Ctrl` and drag with the middle mouse button for smooth zooming."
+#: ../timeline.rst:92
+msgid ":kbd:`Alt+Click` ripple-selects from the clicked item to the end of the track."
 msgstr ""
 
-#: ../timeline.rst:99
-msgid "Tracks, Locking, and Inserting"
+#: ../timeline.rst:93
+msgid "Drag an empty-area selection box to select multiple items."
 msgstr ""
 
-#: ../timeline.rst:101
-msgid "Tracks help organize your edit. A common setup is:"
+#: ../timeline.rst:95
+msgid "See :ref:`clips_ref` for the full list and examples."
+msgstr ""
+
+#: ../timeline.rst:98
+msgid "Timeline Toolbar and Zoom"
+msgstr ""
+
+#: ../timeline.rst:100
+msgid "The timeline toolbar helps with common navigation and editing actions (snapping, retime, razor, markers, centering, and zoom)."
 msgstr ""
 
 #: ../timeline.rst:103
+msgid "Tip: If timeline editing feels crowded, zoom in with the timeline slider to make small clip adjustments easier."
+msgstr ""
+
+#: ../timeline.rst:106
+msgid "You can also zoom the timeline with :kbd:`Ctrl+Scroll Wheel`. On the QWidget timeline, hold :kbd:`Ctrl` and drag with the middle mouse button for smooth zooming."
+msgstr ""
+
+#: ../timeline.rst:111
+msgid "Tracks, Locking, and Inserting"
+msgstr ""
+
+#: ../timeline.rst:113
+msgid "Tracks help organize your edit. A common setup is:"
+msgstr ""
+
+#: ../timeline.rst:115
 msgid "Top tracks: titles, overlays, logos, picture-in-picture"
 msgstr ""
 
-#: ../timeline.rst:104
+#: ../timeline.rst:116
 msgid "Middle tracks: main video content"
 msgstr ""
 
-#: ../timeline.rst:105
+#: ../timeline.rst:117
 msgid "Lower tracks: music and sound effects"
 msgstr ""
 
-#: ../timeline.rst:107
+#: ../timeline.rst:119
 msgid "You can lock tracks to protect them from accidental edits and use insert/ripple editing when you need later clips to move automatically."
 msgstr ""
 
-#: ../timeline.rst:110
+#: ../timeline.rst:122
 msgid "For track layout basics, see :ref:`tracks_ref`. For detailed clip editing behavior, see :ref:`clips_cutting_slicing_ref`."
 msgstr ""
 
-#: ../timeline.rst:114
+#: ../timeline.rst:126
 msgid "Keyframes in the Timeline"
 msgstr ""
 
-#: ../timeline.rst:116
+#: ../timeline.rst:128
 msgid "Keyframes let you change values over time, such as position, scale, rotation, opacity, and effect settings."
 msgstr ""
 
-#: ../timeline.rst:119
+#: ../timeline.rst:131
 msgid "In the timeline keyframe panel, each row represents one animated property. You can:"
 msgstr ""
 
-#: ../timeline.rst:121
+#: ../timeline.rst:133
 msgid "Add a keyframe row for a property"
 msgstr ""
 
-#: ../timeline.rst:122
+#: ../timeline.rst:134
 msgid "Insert new keyframes along the row"
 msgstr ""
 
-#: ../timeline.rst:123
+#: ../timeline.rst:135
 msgid "Move keyframes to change timing"
 msgstr ""
 
-#: ../timeline.rst:124
+#: ../timeline.rst:136
 msgid "Change interpolation to control motion style"
 msgstr ""
 
-#: ../timeline.rst:126
+#: ../timeline.rst:138
 msgid "For keyframe concepts and animation examples, see :ref:`animation_ref`."
 msgstr ""
 
-#: ../timeline.rst:129
+#: ../timeline.rst:141
 msgid "Next Steps"
 msgstr ""
 
-#: ../timeline.rst:131
+#: ../timeline.rst:143
 msgid "After you are comfortable with timeline basics, these sections are the best next reads:"
 msgstr ""
 
-#: ../timeline.rst:133
+#: ../timeline.rst:145
 msgid ":ref:`clips_ref` for trimming, slicing, and clip properties"
 msgstr ""
 
-#: ../timeline.rst:134
+#: ../timeline.rst:146
 msgid ":ref:`effects_ref` for video/audio effects"
 msgstr ""
 
-#: ../timeline.rst:135
+#: ../timeline.rst:147
 msgid ":ref:`animation_ref` for keyframe animation workflows"
 msgstr ""
 
-#: ../timeline.rst:136
+#: ../timeline.rst:148
 msgid ":doc:`export` for creating your final video file"
 msgstr ""

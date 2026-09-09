@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,39 +24,38 @@ msgstr ""
 msgid "Text & Titles"
 msgstr "Tekst i tytuły"
 
-# Translated with gpt-4.1-mini
 #: ../titles.rst:25
 msgid ""
-"Adding text and titles is an important aspect of video editing, and OpenShot "
-"comes with an easy-to-use Title Editor. Use the Title menu (located in the "
-"main menu of OpenShot) to launch the Title Editor. You can also use the "
-"keyboard shortcut :kbd:`Ctrl+T`."
+"Adding text overlays, lower thirds, and titles is an important aspect of "
+"video editing, and OpenShot comes with an easy-to-use Title Editor. Use the "
+"Title menu (located in the main menu of OpenShot) to launch the Title "
+"Editor. You can also use the keyboard shortcut :kbd:`Ctrl+T`."
 msgstr ""
-"Dodawanie tekstu i tytułów to ważny aspekt edycji wideo, a OpenShot oferuje "
-"łatwy w użyciu Edytor Tytułów. Użyj menu Tytuł (znajdującego się w głównym "
-"menu OpenShot), aby uruchomić Edytor Tytułów. Możesz także użyć skrótu "
-"klawiaturowego :kbd:`Ctrl+T`."
+"Dodawanie nakładek tekstowych, dolnych trzecich i tytułów jest ważnym "
+"aspektem edycji wideo, a OpenShot oferuje łatwy w użyciu Edytor Tytułów. "
+"Użyj menu Tytuł (znajdującego się w głównym menu OpenShot), aby uruchomić "
+"Edytor Tytułów. Możesz także użyć skrótu klawiaturowego :kbd:`Ctrl+T`."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:29
 msgid ""
-"Titles are simply vector image files with transparent backgrounds (``*."
-"svg``). OpenShot comes with many easy-to-use templates, but you can also "
-"create your own or import new templates into OpenShot. These templates allow "
-"you to quickly change the text, font, size, color, and background color. You "
-"can also launch an advanced, external SVG editor for further customizations "
-"(if needed). Once the title is added to your project, drag and drop the "
-"title on a Track above a video clip. The transparent background will allow "
-"the video below to appear behind the text."
+"Titles are simply vector image files with transparent backgrounds "
+"(``*.svg``). OpenShot comes with many easy-to-use templates, but you can "
+"also create your own or import new templates into OpenShot. These templates "
+"allow you to quickly change the text, font, size, color, and background "
+"color. You can also launch an advanced, external SVG editor for further "
+"customizations (if needed). Once the title is added to your project, drag "
+"and drop the title on a Track above a video clip. The transparent background"
+" will allow the video below to appear behind the text."
 msgstr ""
 "Tytuły to po prostu pliki wektorowe z przezroczystym tłem (``*.svg``). "
 "OpenShot zawiera wiele łatwych w użyciu szablonów, ale możesz także tworzyć "
 "własne lub importować nowe szablony do OpenShot. Szablony te pozwalają "
 "szybko zmieniać tekst, czcionkę, rozmiar, kolor i kolor tła. Możesz także "
-"uruchomić zaawansowany, zewnętrzny edytor SVG do dalszych modyfikacji (jeśli "
-"zajdzie taka potrzeba). Po dodaniu tytułu do projektu, przeciągnij i upuść "
-"tytuł na ścieżkę nad klipem wideo. Przezroczyste tło pozwoli na wyświetlenie "
-"wideo pod tekstem."
+"uruchomić zaawansowany, zewnętrzny edytor SVG do dalszych modyfikacji (jeśli"
+" zajdzie taka potrzeba). Po dodaniu tytułu do projektu, przeciągnij i upuść "
+"tytuł na ścieżkę nad klipem wideo. Przezroczyste tło pozwoli na wyświetlenie"
+" wideo pod tekstem."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:36
@@ -416,7 +415,8 @@ msgstr "Szare pole 1"
 # Translated with gpt-4.1-mini
 #: ../titles.rst:113
 msgid ""
-"A simple gray box for highlighting text (one line of text, top-left aligned)."
+"A simple gray box for highlighting text (one line of text, top-left "
+"aligned)."
 msgstr ""
 "Proste szare pole do wyróżnienia tekstu (jedna linia tekstu, wyrównanie do "
 "lewej u góry)."
@@ -429,7 +429,8 @@ msgstr "Szare pole 2"
 # Translated with gpt-4.1-mini
 #: ../titles.rst:115
 msgid ""
-"A simple gray box for highlighting text (two lins of text, top-left aligned)."
+"A simple gray box for highlighting text (two lins of text, top-left "
+"aligned)."
 msgstr ""
 "Proste szare pole do wyróżnienia tekstu (dwie linie tekstu, wyrównanie do "
 "lewej u góry)."
@@ -471,8 +472,8 @@ msgstr "Nagłówek 1"
 #: ../titles.rst:121
 msgid "A header bar for titles or section headers (top-left aligned)."
 msgstr ""
-"Pasek nagłówka dla tytułów lub nagłówków sekcji (wyrównany do lewego górnego "
-"rogu)."
+"Pasek nagłówka dla tytułów lub nagłówków sekcji (wyrównany do lewego górnego"
+" rogu)."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:122
@@ -482,7 +483,8 @@ msgstr "Nagłówek 2"
 # Translated with gpt-4.1-mini
 #: ../titles.rst:123
 msgid "A header bar for titles or section headers (center aligned)."
-msgstr "Pasek nagłówka dla tytułów lub nagłówków sekcji (wyrównany do środka)."
+msgstr ""
+"Pasek nagłówka dla tytułów lub nagłówków sekcji (wyrównany do środka)."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:124
@@ -681,7 +683,8 @@ msgstr "Zachód słońca"
 # Translated with gpt-4.1-mini
 #: ../titles.rst:161
 msgid "A title with sunset gradient for a warm, end-of-day theme."
-msgstr "Tytuł z gradientem zachodu słońca dla ciepłego, końcowego motywu dnia."
+msgstr ""
+"Tytuł z gradientem zachodu słońca dla ciepłego, końcowego motywu dnia."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:162
@@ -703,19 +706,19 @@ msgstr "Własne szablony tytułów"
 # Translated with gpt-4.1-mini
 #: ../titles.rst:168
 msgid ""
-"OpenShot can use any vector SVG image file as a custom title template in "
-"the :guilabel:`Title Editor` dialog. Just add an SVG image file to your ``~/."
-"openshot_qt/title_templates/`` folder, and it will appear the next time you "
-"launch the :guilabel:`Title Editor` dialog. You can also right click on any "
-"SVG files in your **Project Files** panel, and choose **Edit Title** or "
-"**Duplicate Title**."
+"OpenShot can use any vector SVG image file as a custom title template in the"
+" :guilabel:`Title Editor` dialog. Just add an SVG image file to your "
+"``~/.openshot_qt/title_templates/`` folder, and it will appear the next time"
+" you launch the :guilabel:`Title Editor` dialog. You can also right click on"
+" any SVG files in your **Project Files** panel, and choose **Edit Title** or"
+" **Duplicate Title**."
 msgstr ""
 "OpenShot może używać dowolnego wektorowego pliku SVG jako własnego szablonu "
 "tytułu w oknie :guilabel:`Edytor tytułów`. Wystarczy dodać plik SVG do "
 "folderu ``~/.openshot_qt/title_templates/``, a pojawi się on przy następnym "
 "uruchomieniu okna :guilabel:`Edytor tytułów`. Możesz także kliknąć prawym "
-"przyciskiem myszy na dowolnym pliku SVG w panelu **Pliki projektu** i wybrać "
-"**Edytuj tytuł** lub **Duplikuj tytuł**."
+"przyciskiem myszy na dowolnym pliku SVG w panelu **Pliki projektu** i wybrać"
+" **Edytuj tytuł** lub **Duplikuj tytuł**."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:172
@@ -774,13 +777,13 @@ msgstr "Animowane szablony 3D"
 # Translated with gpt-4.1-mini
 #: ../titles.rst:196
 msgid ""
-"OpenShot includes a variety of 3D animated templates that can be used to add "
-"dynamic and engaging elements to your video projects. Below is a table "
+"OpenShot includes a variety of 3D animated templates that can be used to add"
+" dynamic and engaging elements to your video projects. Below is a table "
 "listing the available templates and their descriptions:"
 msgstr ""
 "OpenShot zawiera różnorodne animowane szablony 3D, które można wykorzystać "
-"do dodania dynamicznych i angażujących elementów do projektów wideo. Poniżej "
-"znajduje się tabela z dostępnymi szablonami i ich opisami:"
+"do dodania dynamicznych i angażujących elementów do projektów wideo. Poniżej"
+" znajduje się tabela z dostępnymi szablonami i ich opisami:"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:203
@@ -807,8 +810,8 @@ msgstr "Rozmycie"
 msgid ""
 "A template that blurs text in and out, providing a smooth transition effect."
 msgstr ""
-"Szablon, który rozmywa tekst pojawiający się i znikający, zapewniając płynny "
-"efekt przejścia."
+"Szablon, który rozmywa tekst pojawiający się i znikający, zapewniając płynny"
+" efekt przejścia."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:209
@@ -820,8 +823,8 @@ msgstr "Kolorowe kafelki"
 msgid ""
 "An animation with changing colors, suitable for vibrant and dynamic titles."
 msgstr ""
-"Animacja z zmieniającymi się kolorami, odpowiednia dla żywych i dynamicznych "
-"tytułów."
+"Animacja z zmieniającymi się kolorami, odpowiednia dla żywych i dynamicznych"
+" tytułów."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:211
@@ -831,8 +834,8 @@ msgstr "Rozpuszczający się tekst"
 # Translated with gpt-4.1-mini
 #: ../titles.rst:212
 msgid ""
-"A dissolve effect that turns any text into particles which get blown away by "
-"the wind."
+"A dissolve effect that turns any text into particles which get blown away by"
+" the wind."
 msgstr ""
 "Efekt rozpuszczania, który zamienia tekst w cząsteczki zdmuchiwane przez "
 "wiatr."
@@ -857,7 +860,8 @@ msgstr "Eksplodujący tekst"
 msgid ""
 "An animation where the title explode into pieces, adding dramatic impact."
 msgstr ""
-"Animacja, w której tytuł eksploduje na kawałki, dodając dramatycznego efektu."
+"Animacja, w której tytuł eksploduje na kawałki, dodając dramatycznego "
+"efektu."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:217
@@ -944,8 +948,8 @@ msgid ""
 "A template featuring four picture frames, suitable for showcasing images or "
 "video clips."
 msgstr ""
-"Szablon z czterema ramkami na zdjęcia, odpowiedni do prezentacji obrazów lub "
-"klipów wideo."
+"Szablon z czterema ramkami na zdjęcia, odpowiedni do prezentacji obrazów lub"
+" klipów wideo."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:233
@@ -1057,11 +1061,11 @@ msgstr ""
 # Translated with gpt-4.1-mini
 #: ../titles.rst:258
 msgid ""
-"For information on importing animated sequences into OpenShot, please see :"
-"ref:`animation_image_seq_ref`."
+"For information on importing animated sequences into OpenShot, please see "
+":ref:`animation_image_seq_ref`."
 msgstr ""
-"Informacje o imporcie animowanych sekwencji do OpenShot znajdziesz w :ref:"
-"`animation_image_seq_ref`."
+"Informacje o imporcie animowanych sekwencji do OpenShot znajdziesz w "
+":ref:`animation_image_seq_ref`."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:261
@@ -1072,16 +1076,16 @@ msgstr "Instalacja Inkscape"
 #: ../titles.rst:263
 msgid ""
 "The :guilabel:`Advanced Editor` feature in the :guilabel:`Title Editor` "
-"dialog requires the latest version of Inkscape (https://inkscape.org/"
-"release/) be installed and the OpenShot **Preferences** updated with the "
-"correct path to the Inkscape executable. See the :ref:"
-"`preferences_general_ref` tab in Preferences."
+"dialog requires the latest version of Inkscape "
+"(https://inkscape.org/release/) be installed and the OpenShot "
+"**Preferences** updated with the correct path to the Inkscape executable. "
+"See the :ref:`preferences_general_ref` tab in Preferences."
 msgstr ""
 "Funkcja :guilabel:`Zaawansowany edytor` w oknie :guilabel:`Edytor tytułów` "
-"wymaga zainstalowania najnowszej wersji Inkscape (https://inkscape.org/"
-"release/) oraz zaktualizowania w OpenShot **Preferencji** ścieżki do pliku "
-"wykonywalnego Inkscape. Zobacz zakładkę :ref:`preferences_general_ref` w "
-"Preferencjach."
+"wymaga zainstalowania najnowszej wersji Inkscape "
+"(https://inkscape.org/release/) oraz zaktualizowania w OpenShot "
+"**Preferencji** ścieżki do pliku wykonywalnego Inkscape. Zobacz zakładkę "
+":ref:`preferences_general_ref` w Preferencjach."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:270
@@ -1094,9 +1098,9 @@ msgid ""
 "The :guilabel:`Animated Title` feature in OpenShot requires the latest "
 "version of Blender (https://www.blender.org/download/) be installed and the "
 "OpenShot **Preferences** updated with the correct path to the Blender "
-"executable. See the :ref:`preferences_general_ref` tab in Preferences. NOTE: "
-"The minimum supported version of Blender is 5.0+. Older versions of Blender "
-"are not compatible with OpenShot Video Editor."
+"executable. See the :ref:`preferences_general_ref` tab in Preferences. NOTE:"
+" The minimum supported version of Blender is 5.0+. Older versions of Blender"
+" are not compatible with OpenShot Video Editor."
 msgstr ""
 "Funkcja :guilabel:`Animowany tytuł` w OpenShot wymaga zainstalowania "
 "najnowszej wersji Blender (https://www.blender.org/download/) oraz "
@@ -1113,5 +1117,17 @@ msgid ""
 "Inkscape-Guide>`_."
 msgstr ""
 "Szczegółowy przewodnik dotyczący instalacji tych zależności znajdziesz w "
-"`Przewodniku Blender & Inkscape <https://github.com/OpenShot/openshot-qt/"
-"wiki/Blender-and-Inkscape-Guide>`_."
+"`Przewodniku Blender & Inkscape <https://github.com/OpenShot/openshot-"
+"qt/wiki/Blender-and-Inkscape-Guide>`_."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Adding text and titles is an important aspect of video editing, and OpenShot"
+#~ " comes with an easy-to-use Title Editor. Use the Title menu (located in the "
+#~ "main menu of OpenShot) to launch the Title Editor. You can also use the "
+#~ "keyboard shortcut :kbd:`Ctrl+T`."
+#~ msgstr ""
+#~ "Dodawanie tekstu i tytułów to ważny aspekt edycji wideo, a OpenShot oferuje "
+#~ "łatwy w użyciu Edytor Tytułów. Użyj menu Tytuł (znajdującego się w głównym "
+#~ "menu OpenShot), aby uruchomić Edytor Tytułów. Możesz także użyć skrótu "
+#~ "klawiaturowego :kbd:`Ctrl+T`."

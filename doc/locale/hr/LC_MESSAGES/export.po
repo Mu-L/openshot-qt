@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,13 +45,14 @@ msgid ""
 "Click on the :guilabel:`Export Video` icon at the top of the screen (or use "
 "the :guilabel:`File→Export Video` menu). The default values will work fine, "
 "so just click the :guilabel:`Export Video` button to render your new video. "
-"You can also create your own custom export profiles, see :ref:`profiles_ref`."
+"You can also create your own custom export profiles, see "
+":ref:`profiles_ref`."
 msgstr ""
 "Kliknite na ikonu :guilabel:`Izvoz videozapisa` na vrhu zaslona (ili "
 "koristite izbornik :guilabel:`Datoteka→Izvoz videozapisa`). Zadane "
-"vrijednosti će dobro funkcionirati, stoga samo kliknite gumb :guilabel:"
-"`Izvoz videozapisa` za izradu novog videa. Također možete kreirati vlastite "
-"prilagođene profile izvoza, pogledajte :ref:`profiles_ref`."
+"vrijednosti će dobro funkcionirati, stoga samo kliknite gumb "
+":guilabel:`Izvoz videozapisa` za izradu novog videa. Također možete kreirati"
+" vlastite prilagođene profile izvoza, pogledajte :ref:`profiles_ref`."
 
 # Translated with gpt-4.1-mini
 #: ../export.rst:33
@@ -98,7 +99,7 @@ msgstr ""
 "primjer: **Web**)"
 
 # Translated with gpt-4.1-mini
-#: ../export.rst:48
+#: ../export.rst:48 ../export.rst:168
 msgid "Target"
 msgstr "Cilj"
 
@@ -109,11 +110,11 @@ msgid ""
 "formats, codecs, and quality settings, see :ref:`preset_list_ref`)"
 msgstr ""
 "Ciljne unaprijed postavljene vrijednosti povezane s trenutnim profilom "
-"(skupovi uobičajenih formata, kodeka i postavki kvalitete, pogledajte :ref:"
-"`preset_list_ref`)"
+"(skupovi uobičajenih formata, kodeka i postavki kvalitete, pogledajte "
+":ref:`preset_list_ref`)"
 
 # Translated with gpt-4.1-mini
-#: ../export.rst:49
+#: ../export.rst:49 ../export.rst:169
 msgid "Video Profile"
 msgstr "Video profil"
 
@@ -155,8 +156,8 @@ msgid ""
 "bitrates, different codecs, or limiting the range of frames exported, this "
 "is the tab for you."
 msgstr ""
-"Većina korisnika nikada neće trebati prebaciti se na karticu `Napredno`, ali "
-"ako trebate prilagoditi bilo koju od postavki video kodiranja, na primjer, "
+"Većina korisnika nikada neće trebati prebaciti se na karticu `Napredno`, ali"
+" ako trebate prilagoditi bilo koju od postavki video kodiranja, na primjer, "
 "prilagođene bitrateove, različite kodeke ili ograničiti raspon izvezenih "
 "sličica, ovo je kartica za vas."
 
@@ -244,17 +245,17 @@ msgstr ""
 # Translated with gpt-4.1-mini
 #: ../export.rst:81
 msgid ""
-"A video profile is a collection of common video settings (*size, frame rate, "
-"aspect ratio*). Profiles are used during editing, previewing, and exporting "
-"to provide a quick way to switch between common combinations of these "
-"settings. The :guilabel:`Export Dialog` will **default** to the same profile "
-"used by the project."
+"A video profile is a collection of common video settings (*size, frame rate,"
+" aspect ratio*). Profiles are used during editing, previewing, and exporting"
+" to provide a quick way to switch between common combinations of these "
+"settings. The :guilabel:`Export Dialog` will **default** to the same profile"
+" used by the project."
 msgstr ""
 "Video profil je skup uobičajenih video postavki (*veličina, brzina sličica, "
 "omjer stranica*). Profili se koriste tijekom uređivanja, pregleda i izvoza "
-"kako bi se brzo prebacivali između uobičajenih kombinacija ovih postavki. :"
-"guilabel:`Dijalog za izvoz` će **zadano** koristiti isti profil koji koristi "
-"projekt."
+"kako bi se brzo prebacivali između uobičajenih kombinacija ovih postavki. "
+":guilabel:`Dijalog za izvoz` će **zadano** koristiti isti profil koji "
+"koristi projekt."
 
 # Translated with gpt-4.1-mini
 #: ../export.rst:85
@@ -266,8 +267,8 @@ msgid ""
 "video, making it appear differently than the :guilabel:`Preview` inside "
 "OpenShot.*"
 msgstr ""
-"*NAPOMENA: Važno je odabrati **Profil** s istim **omjerom stranica** koji se "
-"koristi prilikom uređivanja vašeg projekta. Ako izvozite u **drugom omjeru "
+"*NAPOMENA: Važno je odabrati **Profil** s istim **omjerom stranica** koji se"
+" koristi prilikom uređivanja vašeg projekta. Ako izvozite u **drugom omjeru "
 "stranica**, to može istegnuti sliku, izrezati sliku, dodati crne trake ili "
 "na drugi način uzrokovati problem koji mijenja izvezeni video, čineći da "
 "izgleda drugačije nego u :guilabel:`Pregledu` unutar OpenShota.*"
@@ -283,8 +284,8 @@ msgid ""
 "The video profile to use during export (collection of size, frame rate, and "
 "aspect ratios, see :ref:`profile_list_ref`)"
 msgstr ""
-"Video profil koji se koristi tijekom izvoza (skup veličina, brzina sličica i "
-"omjera stranica, pogledajte :ref:`profile_list_ref`)"
+"Video profil koji se koristi tijekom izvoza (skup veličina, brzina sličica i"
+" omjera stranica, pogledajte :ref:`profile_list_ref`)"
 
 # Translated with gpt-4.1-mini
 #: ../export.rst:99
@@ -318,8 +319,8 @@ msgid ""
 "This also takes into account the pixel ratio, for example 2:1 rectangular "
 "pixels will affect the aspect ratio."
 msgstr ""
-"Omjer stranica konačnog izvezenog videa. 1920×1080 se svodi na 16:9. Također "
-"uzima u obzir omjer piksela, na primjer, pravokutni pikseli 2:1 utječu na "
+"Omjer stranica konačnog izvezenog videa. 1920×1080 se svodi na 16:9. Također"
+" uzima u obzir omjer piksela, na primjer, pravokutni pikseli 2:1 utječu na "
 "omjer stranica."
 
 # Translated with gpt-4.1-mini
@@ -333,8 +334,8 @@ msgid ""
 "The ratio representing pixel shape. Most video profiles use a 1:1 square "
 "pixel shape, but others will use rectangular pixels."
 msgstr ""
-"Omjer koji predstavlja oblik piksela. Većina video profila koristi kvadratne "
-"piksele 1:1, ali neki koriste pravokutne piksele."
+"Omjer koji predstavlja oblik piksela. Većina video profila koristi kvadratne"
+" piksele 1:1, ali neki koriste pravokutne piksele."
 
 # Translated with gpt-4.1-mini
 #: ../export.rst:103
@@ -397,8 +398,8 @@ msgid ""
 "images. For example, %05d.png would pad a number with 5 digits: 00001.png, "
 "00002.png."
 msgstr ""
-"Format niza znakova koji predstavlja naziv izlazne datoteke u nizu slika. Na "
-"primjer, %05d.png će broj popuniti s 5 znamenki: 00001.png, 00002.png."
+"Format niza znakova koji predstavlja naziv izlazne datoteke u nizu slika. Na"
+" primjer, %05d.png će broj popuniti s 5 znamenki: 00001.png, 00002.png."
 
 # Translated with gpt-4.1-mini
 #: ../export.rst:123
@@ -444,8 +445,8 @@ msgstr "Brzina prijenosa / Kvaliteta"
 # Translated with gpt-4.1-mini
 #: ../export.rst:135
 msgid ""
-"The bitrate to use for video encoding. Accepts the following formats: ``5 Mb/"
-"s``, ``96 kb/s``, ``23 crf``, etc..."
+"The bitrate to use for video encoding. Accepts the following formats: ``5 "
+"Mb/s``, ``96 kb/s``, ``23 crf``, etc..."
 msgstr ""
 "Brzina prijenosa koja se koristi za kodiranje videa. Prihvaća sljedeće "
 "formate: ``5 Mb/s``, ``96 kb/s``, ``23 crf``, itd..."
@@ -496,8 +497,8 @@ msgstr "Raspored kanala"
 # Translated with gpt-4.1-mini
 #: ../export.rst:151
 msgid ""
-"The number and layout of audio channels (``Stereo``, ``Mono``, ``Surround``, "
-"etc...)"
+"The number and layout of audio channels (``Stereo``, ``Mono``, ``Surround``,"
+" etc...)"
 msgstr ""
 "Broj i raspored audio kanala (``Stereo``, ``Mono``, ``Surround``, itd...)"
 
@@ -509,3 +510,253 @@ msgid ""
 msgstr ""
 "Brzina prijenosa koja se koristi za kodiranje zvuka. Prihvaća sljedeće "
 "formate: ``96 kb/s``, ``128 kb/s``, ``192 kb/s``, itd..."
+
+#: ../export.rst:158
+msgid "Social Media Quick Reference"
+msgstr "Brzi pregled društvenih mreža"
+
+#: ../export.rst:160
+msgid ""
+"The table below shows the recommended :guilabel:`Target` and "
+":guilabel:`Video Profile` settings for common social media platforms. Select"
+" these in the **Simple** tab of the Export dialog."
+msgstr ""
+"Tablica u nastavku prikazuje preporučene postavke :guilabel:`Cilj` i "
+":guilabel:`Video profil` za uobičajene platforme društvenih mreža. Odaberite"
+" ih na kartici **Jednostavno** u dijalogu za izvoz."
+
+#: ../export.rst:167
+msgid "Platform"
+msgstr "Platforma"
+
+#: ../export.rst:170
+msgid "Notes"
+msgstr "Bilješke"
+
+#: ../export.rst:171
+msgid "YouTube (landscape)"
+msgstr "YouTube (vodoravno)"
+
+#: ../export.rst:172
+msgid "``YouTube``"
+msgstr "``YouTube``"
+
+#: ../export.rst:173 ../export.rst:189 ../export.rst:197 ../export.rst:201
+#: ../export.rst:205 ../export.rst:209
+msgid "``FHD 1080p 30 fps``"
+msgstr "``FHD 1080p 30 fps``"
+
+#: ../export.rst:174
+msgid "Use ``YouTube (4K)`` for 4K"
+msgstr "Koristite ``YouTube (4K)`` za 4K"
+
+#: ../export.rst:175
+msgid "YouTube Shorts (vertical)"
+msgstr "YouTube Shorts (okomito)"
+
+#: ../export.rst:176
+msgid "``YouTube Shorts``"
+msgstr "``YouTube Shorts``"
+
+#: ../export.rst:177 ../export.rst:181 ../export.rst:185 ../export.rst:193
+msgid "``FHD Vertical 1080p 30 fps``"
+msgstr "``FHD okomito 1080p 30 fps``"
+
+#: ../export.rst:178 ../export.rst:182 ../export.rst:186 ../export.rst:194
+msgid "Up to 60 fps"
+msgstr "Do 60 fps"
+
+#: ../export.rst:179
+msgid "TikTok (vertical)"
+msgstr "TikTok (okomito)"
+
+#: ../export.rst:180
+msgid "``TikTok``"
+msgstr "``TikTok``"
+
+#: ../export.rst:183
+msgid "Instagram Reels (vertical)"
+msgstr "Instagram Reels (okomito)"
+
+#: ../export.rst:184
+msgid "``Instagram Reels``"
+msgstr "``Instagram Reels``"
+
+#: ../export.rst:187
+msgid "Instagram (landscape/square)"
+msgstr "Instagram (vodoravno/kvadrat)"
+
+#: ../export.rst:188
+msgid "``Instagram``"
+msgstr "``Instagram``"
+
+#: ../export.rst:190
+msgid "Square (1:1) also available"
+msgstr "Dostupno je i kvadratno (1:1)"
+
+#: ../export.rst:191
+msgid "Snapchat (vertical)"
+msgstr "Snapchat (okomito)"
+
+#: ../export.rst:192
+msgid "``Snapchat``"
+msgstr "``Snapchat``"
+
+#: ../export.rst:195
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../export.rst:196
+msgid "``Facebook``"
+msgstr "``Facebook``"
+
+#: ../export.rst:198
+msgid "Square and vertical also available"
+msgstr "Dostupni su i kvadratni i okomiti formati"
+
+#: ../export.rst:199
+msgid "LinkedIn (landscape)"
+msgstr "LinkedIn (vodoravno)"
+
+#: ../export.rst:200
+msgid "``LinkedIn``"
+msgstr "``LinkedIn``"
+
+#: ../export.rst:202
+msgid "Square and 4:5 portrait also available"
+msgstr "Dostupni su i kvadratni i portretni format 4:5"
+
+#: ../export.rst:203
+msgid "Twitter / X"
+msgstr "Twitter / X"
+
+#: ../export.rst:204
+msgid "``Twitter / X``"
+msgstr "``Twitter / X``"
+
+#: ../export.rst:206
+msgid "Vertical also available"
+msgstr "Dostupno je i okomito"
+
+#: ../export.rst:207
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: ../export.rst:208
+msgid "``Vimeo``"
+msgstr "``Vimeo``"
+
+#: ../export.rst:210
+msgid "Use High quality setting"
+msgstr "Koristite postavku visoke kvalitete"
+
+#: ../export.rst:215
+msgid "Hardware-Accelerated Export"
+msgstr "Izvoz ubrzan hardverom"
+
+#: ../export.rst:217
+msgid ""
+"OpenShot supports GPU-accelerated video encoding on supported hardware, "
+"dramatically reducing export times. Hardware-accelerated targets are shown "
+"with a badge in the :guilabel:`Target` dropdown. Select the appropriate "
+"target for your hardware:"
+msgstr ""
+"OpenShot podržava kodiranje videa ubrzano GPU-om na podržanom hardveru, što "
+"značajno smanjuje vrijeme izvoza. Ciljevi ubrzani hardverom prikazuju se "
+"oznakom u padajućem izborniku :guilabel:`Cilj`. Odaberite odgovarajući cilj "
+"za svoj hardver:"
+
+#: ../export.rst:225
+msgid "Target (Export Dialog)"
+msgstr "Cilj (dijalog za izvoz)"
+
+#: ../export.rst:225
+msgid "Badge"
+msgstr "Oznaka"
+
+#: ../export.rst:225
+msgid "Requires"
+msgstr "Zahtijeva"
+
+#: ../export.rst:227
+msgid "``MP4 (h.264 nv)``"
+msgstr "``MP4 (h.264 nv)``"
+
+#: ../export.rst:227
+msgid "NVENC"
+msgstr "NVENC"
+
+#: ../export.rst:227
+msgid "NVIDIA GPU (Kepler or newer)"
+msgstr "NVIDIA GPU (Kepler ili noviji)"
+
+#: ../export.rst:228
+msgid "``MP4 (h.264 va)``"
+msgstr "``MP4 (h.264 va)``"
+
+#: ../export.rst:228 ../export.rst:232
+msgid "VA-API"
+msgstr "VA-API"
+
+#: ../export.rst:228
+msgid "Linux with AMD or Intel GPU (VAAPI driver)"
+msgstr "Linux s AMD ili Intel GPU-om (VAAPI upravljački program)"
+
+#: ../export.rst:229
+msgid "``MP4 (h.264 qsv)``"
+msgstr "``MP4 (h.264 qsv)``"
+
+#: ../export.rst:229
+msgid "QSV"
+msgstr "QSV"
+
+#: ../export.rst:229
+msgid "Intel GPU with Quick Sync Video"
+msgstr "Intel GPU s Quick Sync Video"
+
+#: ../export.rst:230
+msgid "``MP4 (h.264 videotoolbox)``"
+msgstr "``MP4 (h.264 videotoolbox)``"
+
+#: ../export.rst:230
+msgid "VideoToolbox"
+msgstr "VideoToolbox"
+
+#: ../export.rst:230
+msgid "macOS with Apple or Intel GPU"
+msgstr "macOS s Apple ili Intel GPU-om"
+
+#: ../export.rst:231
+msgid "``MP4 (h.264 dx)``"
+msgstr "``MP4 (h.264 dx)``"
+
+#: ../export.rst:231
+msgid "DirectX"
+msgstr "DirectX"
+
+#: ../export.rst:231
+msgid "Windows with DirectX-compatible GPU"
+msgstr "Windows s GPU-om kompatibilnim s DirectX-om"
+
+#: ../export.rst:232
+msgid "``MP4 (HEVC va)``"
+msgstr "``MP4 (HEVC va)``"
+
+#: ../export.rst:232
+msgid "Linux VA-API — produces smaller HEVC files"
+msgstr "Linux VA-API — proizvodi manje HEVC datoteke"
+
+#: ../export.rst:235
+msgid ""
+"MKV variants (``MKV (h.264 nv)``, ``MKV (h.264 va)``, etc.) are also "
+"available for each accelerator. If none of these targets appear or export "
+"fails, your system either lacks the required driver or the hardware encoder "
+"is not supported — fall back to the standard ``MP4 (h.264 + AAC)`` target, "
+"which uses the CPU-based ``libx264`` encoder and works on all systems."
+msgstr ""
+"MKV varijante (``MKV (h.264 nv)``, ``MKV (h.264 va)``, itd.) također su "
+"dostupne za svaki akcelerator. Ako nijedan od ovih ciljeva nije prikazan ili"
+" izvoz ne uspije, vaš sustav ili nema potreban upravljački program ili "
+"hardverski enkoder nije podržan — vratite se na standardni cilj ``MP4 (h.264"
+" + AAC)``, koji koristi CPU-bazirani ``libx264`` enkoder i radi na svim "
+"sustavima."

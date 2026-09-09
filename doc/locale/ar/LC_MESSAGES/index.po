@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,19 +22,29 @@ msgstr ""
 msgid "OpenShot User Guide"
 msgstr "دليل مستخدم OpenShot"
 
-# Translated with gpt-4.1-mini
 #: ../index.rst:23
 msgid ""
-"OpenShot Video Editor is an award-winning, open-source video editor, "
+"OpenShot Video Editor is a free, award-winning, open-source video editor, "
 "available on Linux, Mac, Chrome OS, and Windows. OpenShot can create "
 "stunning videos, films, and animations with an easy-to-use interface and "
 "rich set of features."
 msgstr ""
-"OpenShot Video Editor هو محرر فيديو مفتوح المصدر حاصل على جوائز، متوفر على "
-"لينكس، ماك، كروم أو إس، وويندوز. يمكن لـ OpenShot إنشاء فيديوهات وأفلام "
-"ورسوم متحركة مذهلة بواجهة سهلة الاستخدام ومجموعة غنية من الميزات."
+"OpenShot Video Editor هو محرر فيديو مجاني مفتوح المصدر حاصل على جوائز، متوفر"
+" على لينكس، ماك، كروم أو إس، وويندوز. يمكن لـ OpenShot إنشاء فيديوهات وأفلام"
+" ورسوم متحركة مذهلة بواجهة سهلة الاستخدام ومجموعة غنية من الميزات."
 
 # Translated with gpt-4.1-mini
 #: ../index.rst:30
 msgid "Table of Contents:"
 msgstr "جدول المحتويات:"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "OpenShot Video Editor is an award-winning, open-source video editor, "
+#~ "available on Linux, Mac, Chrome OS, and Windows. OpenShot can create "
+#~ "stunning videos, films, and animations with an easy-to-use interface and "
+#~ "rich set of features."
+#~ msgstr ""
+#~ "OpenShot Video Editor هو محرر فيديو مفتوح المصدر حاصل على جوائز، متوفر على "
+#~ "لينكس، ماك، كروم أو إس، وويندوز. يمكن لـ OpenShot إنشاء فيديوهات وأفلام "
+#~ "ورسوم متحركة مذهلة بواجهة سهلة الاستخدام ومجموعة غنية من الميزات."

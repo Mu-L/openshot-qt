@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenShot Video Editor 3.5\n"
+"Project-Id-Version: OpenShot Video Editor 4.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-02 17:20-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -380,602 +380,646 @@ msgstr ""
 msgid "Start the job with :guilabel:`Generate` or close with :guilabel:`Cancel`."
 msgstr ""
 
-#: ../ai.rst:184
+#: ../ai.rst:186
 msgid "Tracking (Mask, Blur, Highlight)"
 msgstr ""
 
-#: ../ai.rst:186
+#: ../ai.rst:188
 msgid "Tracking workflows (:guilabel:`Blur...`, :guilabel:`Highlight...`, :guilabel:`Mask...`) use a region screen where you mark what to include and what to ignore."
 msgstr ""
 
-#: ../ai.rst:193
+#: ../ai.rst:195
 msgid "Why this matters"
 msgstr ""
 
-#: ../ai.rst:195
+#: ../ai.rst:197
 msgid "Tracking helps your effect stay attached to a moving subject over time. For example, you can blur a face, highlight a player, or generate a clean mask that follows the same object across many frames."
 msgstr ""
 
-#: ../ai.rst:200
+#: ../ai.rst:202
 msgid "Tracking Icons"
 msgstr ""
 
-#: ../ai.rst:206
+#: ../ai.rst:208
 msgid "Icon / Marker"
 msgstr ""
 
-#: ../ai.rst:207
+#: ../ai.rst:209
 msgid "Meaning"
 msgstr ""
 
-#: ../ai.rst:208
+#: ../ai.rst:210
 msgid "Blue dot"
 msgstr ""
 
-#: ../ai.rst:209
+#: ../ai.rst:211
 msgid "Positive tracking coordinate (foreground/subject seed point)."
 msgstr ""
 
-#: ../ai.rst:210
+#: ../ai.rst:212
 msgid "Red dot"
 msgstr ""
 
-#: ../ai.rst:211
+#: ../ai.rst:213
 msgid "Negative tracking coordinate (background/exclusion seed point)."
 msgstr ""
 
-#: ../ai.rst:212
+#: ../ai.rst:214
 msgid "Blue rectangle"
 msgstr ""
 
-#: ../ai.rst:213
+#: ../ai.rst:215
 msgid "Positive region seed (broad subject hint)."
 msgstr ""
 
-#: ../ai.rst:214
+#: ../ai.rst:216
 msgid "Red rectangle"
 msgstr ""
 
-#: ../ai.rst:215
+#: ../ai.rst:217
 msgid "Negative region seed (broad exclusion hint)."
 msgstr ""
 
-#: ../ai.rst:216
+#: ../ai.rst:218
 msgid "Delete icon"
 msgstr ""
 
-#: ../ai.rst:217
+#: ../ai.rst:219
 msgid "Clear all current tracking seeds (points/rectangles) and start over."
 msgstr ""
 
-#: ../ai.rst:220
+#: ../ai.rst:222
 msgid "How Tracking Works"
 msgstr ""
 
-#: ../ai.rst:222
-msgid "OpenShot sends your positive and negative markers as seed coordinates to the tracking model, which builds a mask for the subject and then follows it over time. Better seeds usually produce cleaner masks and less drift. [sam2]_"
-msgstr ""
-
-#: ../ai.rst:227
-msgid "How to use it"
-msgstr ""
-
-#: ../ai.rst:229
-msgid "Pick a frame where the subject is clearly visible."
+#: ../ai.rst:224
+msgid "OpenShot sends your positive and negative markers as seed coordinates to the tracking model, which builds a mask for the subject and then follows it over time. Better seeds usually produce cleaner masks and less drift. This workflow uses `SAM2 (Segment Anything Model 2) <https://github.com/facebookresearch/sam2>`_."
 msgstr ""
 
 #: ../ai.rst:230
-msgid "Start with one blue dot on the subject."
-msgstr ""
-
-#: ../ai.rst:231
-msgid "Add red dots on nearby background only if needed."
+msgid "How to use it"
 msgstr ""
 
 #: ../ai.rst:232
-msgid "Add rectangles when you need faster broad selection."
+msgid "Pick a frame where the subject is clearly visible."
 msgstr ""
 
 #: ../ai.rst:233
-msgid "Repeat on additional frames when motion/shape changes."
+msgid "Start with one blue dot on the subject."
+msgstr ""
+
+#: ../ai.rst:234
+msgid "Add red dots on nearby background only if needed."
 msgstr ""
 
 #: ../ai.rst:235
-msgid "Adjusting over time (frame slider):"
+msgid "Add rectangles when you need faster broad selection."
 msgstr ""
 
-#: ../ai.rst:237
-msgid "Move the frame slider to different moments in the clip."
+#: ../ai.rst:236
+msgid "Repeat on additional frames when motion/shape changes."
 msgstr ""
 
 #: ../ai.rst:238
-msgid "Add or adjust dots/rectangles on frames where tracking starts to drift."
+msgid "Adjusting over time (frame slider):"
 msgstr ""
 
-#: ../ai.rst:239
-msgid "Use additional seed points only where needed, especially on occlusions, fast motion, or major shape changes."
+#: ../ai.rst:240
+msgid "Move the frame slider to different moments in the clip."
 msgstr ""
 
 #: ../ai.rst:241
+msgid "Add or adjust dots/rectangles on frames where tracking starts to drift."
+msgstr ""
+
+#: ../ai.rst:242
+msgid "Use additional seed points only where needed, especially on occlusions, fast motion, or major shape changes."
+msgstr ""
+
+#: ../ai.rst:244
 msgid "**Mask Preview Output (from this tracking process):**"
 msgstr ""
 
-#: ../ai.rst:246
+#: ../ai.rst:249
 msgid "Best Practices"
 msgstr ""
 
-#: ../ai.rst:248
+#: ../ai.rst:251
 msgid "Use a short test clip first."
 msgstr ""
 
-#: ../ai.rst:249
+#: ../ai.rst:252
 msgid "Start simple: a single blue dot is often enough."
 msgstr ""
 
-#: ../ai.rst:250
+#: ../ai.rst:253
 msgid "Add more points only where tracking fails."
 msgstr ""
 
-#: ../ai.rst:251
+#: ../ai.rst:254
 msgid "If needed, add a more nuanced set of positive/negative points and rectangles."
 msgstr ""
 
-#: ../ai.rst:252
+#: ../ai.rst:255
 msgid "Keep positive and negative points separated clearly."
 msgstr ""
 
-#: ../ai.rst:253
+#: ../ai.rst:256
 msgid "If tracking becomes messy, use the Delete icon and restart with cleaner seeds."
 msgstr ""
 
-#: ../ai.rst:255
-msgid "*SAM2 (Segment Anything Model 2) project:* `facebookresearch/sam2 <https://github.com/facebookresearch/sam2>`_"
-msgstr ""
-
-#: ../ai.rst:258
+#: ../ai.rst:259
 msgid "Job Queue, Progress, and Cancel"
 msgstr ""
 
-#: ../ai.rst:260
+#: ../ai.rst:261
 msgid "After you click :guilabel:`Generate`, the request is queued and runs in OpenShot's AI job queue."
 msgstr ""
 
-#: ../ai.rst:263
+#: ../ai.rst:264
 msgid "Progress is shown in :guilabel:`Project Files` (badges and status text)."
 msgstr ""
 
-#: ../ai.rst:264
+#: ../ai.rst:265
 msgid "Completed outputs are imported back into :guilabel:`Project Files`."
 msgstr ""
 
-#: ../ai.rst:265
+#: ../ai.rst:266
 msgid "Active jobs can be canceled by right-clicking the generated project file with the progress bar and choosing :guilabel:`Cancel Job`."
 msgstr ""
 
-#: ../ai.rst:266
+#: ../ai.rst:267
 msgid "Outputs are written under ``.openshot_qt/comfyui-output/``."
 msgstr ""
 
-#: ../ai.rst:269
+#: ../ai.rst:270
 msgid "Built-in JSON Workflows"
 msgstr ""
 
-#: ../ai.rst:271
+#: ../ai.rst:272
 msgid "The sections below map directly to built-in JSON templates in ``comfyui/``. Each subsection describes why you might use it, how to run it, and key details."
 msgstr ""
 
-#: ../ai.rst:275
+#: ../ai.rst:276
 msgid "Create with AI"
 msgstr ""
 
-#: ../ai.rst:278
+#: ../ai.rst:279
 msgid "Image... (``txt2img-basic``)"
 msgstr ""
 
-#: ../ai.rst:280
+#: ../ai.rst:281
 msgid "Why: Generate still images from a text prompt."
 msgstr ""
 
-#: ../ai.rst:281
+#: ../ai.rst:282
 msgid "How: Choose :guilabel:`Create with AI` -> :guilabel:`Image...`, enter a prompt, then generate."
 msgstr ""
 
-#: ../ai.rst:282
+#: ../ai.rst:283
 msgid "Details: Uses ``comfyui/txt2img-basic.json`` with ``sd_xl_base_1.0.safetensors``."
 msgstr ""
 
-#: ../ai.rst:285
+#: ../ai.rst:286
 msgid "Video... (``txt2video-svd``)"
 msgstr ""
 
-#: ../ai.rst:287
+#: ../ai.rst:288
 msgid "Why: Generate short video clips from text."
 msgstr ""
 
-#: ../ai.rst:288
+#: ../ai.rst:289
 msgid "How: Choose :guilabel:`Create with AI` -> :guilabel:`Video...`, enter a prompt, then generate."
 msgstr ""
 
-#: ../ai.rst:289
+#: ../ai.rst:290
 msgid "Details: Uses ``comfyui/txt2video-svd.json`` with WAN video generation models."
 msgstr ""
 
-#: ../ai.rst:292
+#: ../ai.rst:293
 msgid "Sound... (``txt2audio-stable-open``)"
 msgstr ""
 
-#: ../ai.rst:294
+#: ../ai.rst:295
 msgid "Why: Generate non-musical audio from text prompts."
 msgstr ""
 
-#: ../ai.rst:295
+#: ../ai.rst:296
 msgid "How: Choose :guilabel:`Create with AI` -> :guilabel:`Sound...`, enter a prompt, then generate."
 msgstr ""
 
-#: ../ai.rst:296
+#: ../ai.rst:297
 msgid "Details: Uses ``comfyui/txt2audio-stable-open.json`` with Stable Audio Open models."
 msgstr ""
 
-#: ../ai.rst:299
+#: ../ai.rst:300
 msgid "Music... (``txt2music-ace-step``)"
 msgstr ""
 
-#: ../ai.rst:301
+#: ../ai.rst:302
 msgid "Why: Generate music from style/tags (and optional lyrics)."
 msgstr ""
 
-#: ../ai.rst:302
+#: ../ai.rst:303
 msgid "How: Choose :guilabel:`Create with AI` -> :guilabel:`Music...`, enter prompt text, then generate."
 msgstr ""
 
-#: ../ai.rst:303
+#: ../ai.rst:304
 msgid "Details: Uses ``comfyui/txt2music-ace-step.json`` with an Ace-Step 1.5 checkpoint."
 msgstr ""
 
-#: ../ai.rst:306
+#: ../ai.rst:307
 msgid "Enhance with AI"
 msgstr ""
 
-#: ../ai.rst:309
-msgid "Change Image Style... (``img2img-basic``)"
-msgstr ""
-
-#: ../ai.rst:311
-msgid "Why: Restyle an existing image while keeping the source composition."
+#: ../ai.rst:310
+msgid "Noise -> Reduce (``audio-noise-reduce``)"
 msgstr ""
 
 #: ../ai.rst:312
-msgid "How: Choose :guilabel:`Enhance with AI` on an image, enter a style prompt, then generate."
+msgid "Why: Lightly reduce steady background noise while keeping more of the original ambience."
 msgstr ""
 
 #: ../ai.rst:313
-msgid "Details: Uses ``comfyui/img2img-basic.json`` with ``sd_xl_base_1.0.safetensors``."
+msgid "How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Noise` -> :guilabel:`Reduce` on an audio file, then generate."
 msgstr ""
 
-#: ../ai.rst:316
-msgid "Depth (``image-extract-depth``)"
+#: ../ai.rst:314
+msgid "Details: Uses ``comfyui/audio-noise-reduce.json`` with ``OpenShotDeepFilterNetDenoiseAudio``."
 msgstr ""
 
-#: ../ai.rst:318
-msgid "Why: Export a grayscale depth-map image from a source image."
+#: ../ai.rst:317
+msgid "Noise -> Remove (``audio-noise-remove``)"
 msgstr ""
 
 #: ../ai.rst:319
-msgid "How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:`Depth` on an image, then generate."
+msgid "Why: Aggressively remove background noise from noisy recordings."
 msgstr ""
 
 #: ../ai.rst:320
-msgid "Details: Uses ``comfyui/image-extract-depth.json`` with ``DepthAnythingV2Preprocessor``."
+msgid "How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Noise` -> :guilabel:`Remove` on an audio file, then generate."
 msgstr ""
 
-#: ../ai.rst:323
-msgid "Lines (``image-extract-lines``)"
+#: ../ai.rst:321
+msgid "Details: Uses ``comfyui/audio-noise-remove.json`` with ``OpenShotDeepFilterNetDenoiseAudio``."
 msgstr ""
 
-#: ../ai.rst:325
-msgid "Why: Export a line-map image from a source image."
+#: ../ai.rst:324
+msgid "Clarity -> Speech (``audio-clarity-speech``)"
 msgstr ""
 
 #: ../ai.rst:326
-msgid "How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:`Lines` on an image, then generate."
+msgid "Why: Improve clarity for speech recordings that sound dull, noisy, bandwidth-limited, or low fidelity."
 msgstr ""
 
 #: ../ai.rst:327
-msgid "Details: Uses ``comfyui/image-extract-lines.json`` with ``LineArtPreprocessor``."
+msgid "How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Clarity` -> :guilabel:`Speech` on an audio file, then generate."
 msgstr ""
 
-#: ../ai.rst:330
-msgid "Image to Video... (``img2video-wan``)"
+#: ../ai.rst:328
+msgid "Details: Uses ``comfyui/audio-clarity-speech.json`` with ``OpenShotLavaSRSpeechClarity``."
 msgstr ""
 
-#: ../ai.rst:332
-msgid "Why: Turn a still image into a generated video shot."
+#: ../ai.rst:331
+msgid "Change Image Style... (``img2img-basic``)"
 msgstr ""
 
 #: ../ai.rst:333
-msgid "How: Choose :guilabel:`Enhance with AI` on an image, provide prompt guidance, then generate."
+msgid "Why: Restyle an existing image while keeping the source composition."
 msgstr ""
 
 #: ../ai.rst:334
-msgid "Details: Uses ``comfyui/img2video-wan.json`` with WAN 2.2 image-to-video models."
+msgid "How: Choose :guilabel:`Enhance with AI` on an image, enter a style prompt, then generate."
 msgstr ""
 
-#: ../ai.rst:337
-msgid "Change Video Style... (``video2video-basic``)"
+#: ../ai.rst:335
+msgid "Details: Uses ``comfyui/img2img-basic.json`` with ``sd_xl_base_1.0.safetensors``."
 msgstr ""
 
-#: ../ai.rst:339
-msgid "Why: Apply a new visual style to a source video."
+#: ../ai.rst:338
+msgid "Depth (``image-extract-depth``)"
 msgstr ""
 
 #: ../ai.rst:340
-msgid "How: Choose :guilabel:`Enhance with AI` on a video, enter a style prompt, pick a reference image in the :guilabel:`Reference` tab, then generate."
+msgid "Why: Export a grayscale depth-map image from a source image."
 msgstr ""
 
 #: ../ai.rst:341
-msgid "Details: Uses ``comfyui/video2video-basic.json`` with WAN VACE video-to-video nodes, a required reference image, blended ``DepthAnythingV2Preprocessor`` depth plus Canny edge control, and the ``wan2.1_vace_1.3B_fp16.safetensors``, ``wan_2.1_vae.safetensors``, and ``umt5_xxl_fp8_e4m3fn_scaled.safetensors`` models."
+msgid "How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:`Depth` on an image, then generate."
 msgstr ""
 
-#: ../ai.rst:344
-msgid "Depth (``video-extract-depth``)"
+#: ../ai.rst:342
+msgid "Details: Uses ``comfyui/image-extract-depth.json`` with ``DepthAnythingV2Preprocessor``."
 msgstr ""
 
-#: ../ai.rst:346
-msgid "Why: Export a grayscale depth-map version of a source video."
+#: ../ai.rst:345
+msgid "Lines (``image-extract-lines``)"
 msgstr ""
 
 #: ../ai.rst:347
-msgid "How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:`Depth` on a video, then generate."
+msgid "Why: Export a line-map image from a source image."
 msgstr ""
 
 #: ../ai.rst:348
-msgid "Details: Uses ``comfyui/video-extract-depth.json`` with ``DepthAnythingV2Preprocessor`` and preserves the source frame rate."
+msgid "How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:`Lines` on an image, then generate."
 msgstr ""
 
-#: ../ai.rst:351
-msgid "Lines (``video-extract-lines``)"
+#: ../ai.rst:349
+msgid "Details: Uses ``comfyui/image-extract-lines.json`` with ``LineArtPreprocessor``."
 msgstr ""
 
-#: ../ai.rst:353
-msgid "Why: Export a line-map version of a source video."
+#: ../ai.rst:352
+msgid "Image to Video... (``img2video-wan``)"
 msgstr ""
 
 #: ../ai.rst:354
-msgid "How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:`Lines` on a video, then generate."
+msgid "Why: Turn a still image into a generated video shot."
 msgstr ""
 
 #: ../ai.rst:355
-msgid "Details: Uses ``comfyui/video-extract-lines.json`` with ``LineArtPreprocessor`` and preserves the source frame rate."
+msgid "How: Choose :guilabel:`Enhance with AI` on an image, provide prompt guidance, then generate."
 msgstr ""
 
-#: ../ai.rst:358
-msgid "Increase Resolution (image) (``upscale-realesrgan-x4``)"
+#: ../ai.rst:356
+msgid "Details: Uses ``comfyui/img2video-wan.json`` with WAN 2.2 image-to-video models."
 msgstr ""
 
-#: ../ai.rst:360
-msgid "Why: Upscale low-resolution images."
+#: ../ai.rst:359
+msgid "Change Video Style... (``video2video-basic``)"
 msgstr ""
 
 #: ../ai.rst:361
-msgid "How: Choose :guilabel:`Enhance with AI` on an image, select increase resolution, then generate."
+msgid "Why: Apply a new visual style to a source video."
 msgstr ""
 
 #: ../ai.rst:362
-msgid "Details: Uses ``comfyui/upscale-realesrgan-x4.json`` with ``RealESRGAN_x4plus.safetensors``."
+msgid "How: Choose :guilabel:`Enhance with AI` on a video, enter a style prompt, pick a reference image in the :guilabel:`Reference` tab, then generate."
 msgstr ""
 
-#: ../ai.rst:365
-msgid "Increase Resolution (video) (``video-upscale-gan``)"
+#: ../ai.rst:363
+msgid "Details: Uses ``comfyui/video2video-basic.json`` with WAN VACE video-to-video nodes, a required reference image, blended ``DepthAnythingV2Preprocessor`` depth plus Canny edge control, and the ``wan2.1_vace_1.3B_fp16.safetensors``, ``wan_2.1_vae.safetensors``, and ``umt5_xxl_fp8_e4m3fn_scaled.safetensors`` models."
 msgstr ""
 
-#: ../ai.rst:367
-msgid "Why: Upscale video frames for higher apparent detail."
+#: ../ai.rst:366
+msgid "Depth (``video-extract-depth``)"
 msgstr ""
 
 #: ../ai.rst:368
-msgid "How: Choose :guilabel:`Enhance with AI` on a video, select increase resolution, then generate."
+msgid "Why: Export a grayscale depth-map version of a source video."
 msgstr ""
 
 #: ../ai.rst:369
-msgid "Details: Uses ``comfyui/video-upscale-gan.json`` with ``RealESRGAN_x4plus.safetensors``."
+msgid "How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:`Depth` on a video, then generate."
 msgstr ""
 
-#: ../ai.rst:372
-msgid "Smooth Motion (2x Frame Rate) (``video-frame-interpolation-rife2x``)"
+#: ../ai.rst:370
+msgid "Details: Uses ``comfyui/video-extract-depth.json`` with ``DepthAnythingV2Preprocessor`` and preserves the source frame rate."
 msgstr ""
 
-#: ../ai.rst:374
-msgid "Why: Increase frame rate for smoother perceived motion."
+#: ../ai.rst:373
+msgid "Lines (``video-extract-lines``)"
 msgstr ""
 
 #: ../ai.rst:375
-msgid "How: Choose :guilabel:`Enhance with AI` on a video, select smooth motion, then generate."
+msgid "Why: Export a line-map version of a source video."
 msgstr ""
 
 #: ../ai.rst:376
-msgid "Details: Uses ``comfyui/video-frame-interpolation-rife2x.json`` with ``rife47.pth``."
+msgid "How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:`Lines` on a video, then generate."
 msgstr ""
 
-#: ../ai.rst:379
-msgid "Split into Scenes (``video-segment-scenes-transnet``)"
+#: ../ai.rst:377
+msgid "Details: Uses ``comfyui/video-extract-lines.json`` with ``LineArtPreprocessor`` and preserves the source frame rate."
 msgstr ""
 
-#: ../ai.rst:381
-msgid "Why: Automatically detect scene changes and split long clips into segments."
+#: ../ai.rst:380
+msgid "Increase Resolution (image) (``upscale-realesrgan-x4``)"
 msgstr ""
 
 #: ../ai.rst:382
-msgid "How: Choose :guilabel:`Enhance with AI` on a video, select scene splitting, then generate."
+msgid "Why: Upscale low-resolution images."
 msgstr ""
 
 #: ../ai.rst:383
-msgid "Details: Uses ``comfyui/video-segment-scenes-transnet.json`` with TransNetV2."
+msgid "How: Choose :guilabel:`Enhance with AI` on an image, select increase resolution, then generate."
 msgstr ""
 
-#: ../ai.rst:386
-msgid "Add Captions from Speech (``video-whisper-srt``)"
+#: ../ai.rst:384
+msgid "Details: Uses ``comfyui/upscale-realesrgan-x4.json`` with ``RealESRGAN_x4plus.safetensors``."
 msgstr ""
 
-#: ../ai.rst:388
-msgid "Why: Transcribe speech into subtitle/caption files."
+#: ../ai.rst:387
+msgid "Increase Resolution (video) (``video-upscale-gan``)"
 msgstr ""
 
 #: ../ai.rst:389
-msgid "How: Choose :guilabel:`Enhance with AI` on a video, select captions, then generate."
+msgid "Why: Upscale video frames for higher apparent detail."
 msgstr ""
 
 #: ../ai.rst:390
-msgid "Details: Uses ``comfyui/video-whisper-srt.json`` and creates SRT output."
+msgid "How: Choose :guilabel:`Enhance with AI` on a video, select increase resolution, then generate."
 msgstr ""
 
-#: ../ai.rst:393
-msgid "Tracking Workflows (SAM2)"
+#: ../ai.rst:391
+msgid "Details: Uses ``comfyui/video-upscale-gan.json`` with ``RealESRGAN_x4plus.safetensors``."
 msgstr ""
 
-#: ../ai.rst:395
-msgid "These workflows use the same region/tracking input flow and are grouped in the tracking context menu."
+#: ../ai.rst:394
+msgid "Smooth Motion (2x Frame Rate) (``video-frame-interpolation-rife2x``)"
 msgstr ""
 
-#: ../ai.rst:399
-msgid "Blur... (image) (``image-blur-anything-sam2``)"
+#: ../ai.rst:396
+msgid "Why: Increase frame rate for smoother perceived motion."
+msgstr ""
+
+#: ../ai.rst:397
+msgid "How: Choose :guilabel:`Enhance with AI` on a video, select smooth motion, then generate."
+msgstr ""
+
+#: ../ai.rst:398
+msgid "Details: Uses ``comfyui/video-frame-interpolation-rife2x.json`` with ``rife47.pth``."
 msgstr ""
 
 #: ../ai.rst:401
-msgid "Why: Blur selected subject areas in a still image."
-msgstr ""
-
-#: ../ai.rst:402
-#: ../ai.rst:409
-#: ../ai.rst:416
-msgid "How: Select points/rectangles for the subject, then generate."
+msgid "Split into Scenes (``video-segment-scenes-transnet``)"
 msgstr ""
 
 #: ../ai.rst:403
-msgid "Details: Uses ``comfyui/image-blur-anything-sam2.json`` with SAM2 image segmentation."
+msgid "Why: Automatically detect scene changes and split long clips into segments."
 msgstr ""
 
-#: ../ai.rst:406
-msgid "Highlight... (image) (``image-highlight-anything-sam2``)"
+#: ../ai.rst:404
+msgid "How: Choose :guilabel:`Enhance with AI` on a video, select scene splitting, then generate."
+msgstr ""
+
+#: ../ai.rst:405
+msgid "Details: Uses ``comfyui/video-segment-scenes-transnet.json`` with TransNetV2."
 msgstr ""
 
 #: ../ai.rst:408
-msgid "Why: Emphasize selected subject areas in a still image."
+msgid "Add Captions from Speech (``video-whisper-srt``)"
 msgstr ""
 
 #: ../ai.rst:410
-msgid "Details: Uses ``comfyui/image-highlight-anything-sam2.json`` with SAM2 image segmentation."
+msgid "Why: Transcribe speech into subtitle/caption files."
 msgstr ""
 
-#: ../ai.rst:413
-msgid "Mask... (image) (``image-mask-anything-sam2``)"
+#: ../ai.rst:411
+msgid "How: Choose :guilabel:`Enhance with AI` on a video, select captions, then generate."
+msgstr ""
+
+#: ../ai.rst:412
+msgid "Details: Uses ``comfyui/video-whisper-srt.json`` and creates SRT output."
 msgstr ""
 
 #: ../ai.rst:415
-msgid "Why: Generate an image mask for selected subject areas."
+msgid "Tracking Workflows (SAM2)"
 msgstr ""
 
 #: ../ai.rst:417
-msgid "Details: Uses ``comfyui/image-mask-anything-sam2.json`` with SAM2 image segmentation."
+msgid "These workflows use the same region/tracking input flow and are grouped in the tracking context menu."
 msgstr ""
 
-#: ../ai.rst:420
-msgid "Blur... (video) (``video-blur-anything-sam2``)"
-msgstr ""
-
-#: ../ai.rst:422
-msgid "Why: Track and blur a moving subject in video."
+#: ../ai.rst:421
+msgid "Blur... (image) (``image-blur-anything-sam2``)"
 msgstr ""
 
 #: ../ai.rst:423
-#: ../ai.rst:430
-#: ../ai.rst:437
-msgid "How: Mark subject/background in the region screen, then generate."
+msgid "Why: Blur selected subject areas in a still image."
 msgstr ""
 
 #: ../ai.rst:424
-msgid "Details: Uses ``comfyui/video-blur-anything-sam2.json`` with SAM2 video tracking."
-msgstr ""
-
-#: ../ai.rst:427
-msgid "Highlight... (video) (``video-highlight-anything-sam2``)"
-msgstr ""
-
-#: ../ai.rst:429
-msgid "Why: Track and highlight a moving subject in video."
-msgstr ""
-
 #: ../ai.rst:431
-msgid "Details: Uses ``comfyui/video-highlight-anything-sam2.json`` with SAM2 video tracking."
-msgstr ""
-
-#: ../ai.rst:434
-msgid "Mask... (video) (``video-mask-anything-sam2``)"
-msgstr ""
-
-#: ../ai.rst:436
-msgid "Why: Generate an animated mask that follows a moving subject."
-msgstr ""
-
 #: ../ai.rst:438
-msgid "Details: Uses ``comfyui/video-mask-anything-sam2.json`` with SAM2 video tracking."
+msgid "How: Select points/rectangles for the subject, then generate."
 msgstr ""
 
-#: ../ai.rst:441
-msgid "Starting Points for New Users"
+#: ../ai.rst:425
+msgid "Details: Uses ``comfyui/image-blur-anything-sam2.json`` with SAM2 image segmentation."
 msgstr ""
 
-#: ../ai.rst:443
-msgid "If you are new to these tools, start with:"
+#: ../ai.rst:428
+msgid "Highlight... (image) (``image-highlight-anything-sam2``)"
+msgstr ""
+
+#: ../ai.rst:430
+msgid "Why: Emphasize selected subject areas in a still image."
+msgstr ""
+
+#: ../ai.rst:432
+msgid "Details: Uses ``comfyui/image-highlight-anything-sam2.json`` with SAM2 image segmentation."
+msgstr ""
+
+#: ../ai.rst:435
+msgid "Mask... (image) (``image-mask-anything-sam2``)"
+msgstr ""
+
+#: ../ai.rst:437
+msgid "Why: Generate an image mask for selected subject areas."
+msgstr ""
+
+#: ../ai.rst:439
+msgid "Details: Uses ``comfyui/image-mask-anything-sam2.json`` with SAM2 image segmentation."
+msgstr ""
+
+#: ../ai.rst:442
+msgid "Blur... (video) (``video-blur-anything-sam2``)"
+msgstr ""
+
+#: ../ai.rst:444
+msgid "Why: Track and blur a moving subject in video."
 msgstr ""
 
 #: ../ai.rst:445
-msgid ":guilabel:`Create with AI` -> :guilabel:`Image`"
+#: ../ai.rst:452
+#: ../ai.rst:459
+msgid "How: Mark subject/background in the region screen, then generate."
 msgstr ""
 
 #: ../ai.rst:446
-msgid ":guilabel:`Enhance with AI` -> :guilabel:`Increase Resolution`"
-msgstr ""
-
-#: ../ai.rst:447
-msgid ":guilabel:`Enhance with AI` -> :guilabel:`Smooth Motion`"
-msgstr ""
-
-#: ../ai.rst:448
-msgid ":guilabel:`Enhance with AI` -> :guilabel:`Split into Scenes`"
+msgid "Details: Uses ``comfyui/video-blur-anything-sam2.json`` with SAM2 video tracking."
 msgstr ""
 
 #: ../ai.rst:449
-msgid ":guilabel:`Enhance with AI` -> :guilabel:`Add Captions`"
+msgid "Highlight... (video) (``video-highlight-anything-sam2``)"
 msgstr ""
 
-#: ../ai.rst:452
-msgid "Troubleshooting"
+#: ../ai.rst:451
+msgid "Why: Track and highlight a moving subject in video."
 msgstr ""
 
-#: ../ai.rst:454
-msgid "If AI menus do not appear or jobs fail immediately:"
+#: ../ai.rst:453
+msgid "Details: Uses ``comfyui/video-highlight-anything-sam2.json`` with SAM2 video tracking."
 msgstr ""
 
 #: ../ai.rst:456
-msgid "Verify ComfyUI is running and reachable at the configured URL."
-msgstr ""
-
-#: ../ai.rst:457
-msgid "Confirm required models exist in your ComfyUI environment."
+msgid "Mask... (video) (``video-mask-anything-sam2``)"
 msgstr ""
 
 #: ../ai.rst:458
-msgid "Confirm custom node packages are installed for the workflow you selected."
-msgstr ""
-
-#: ../ai.rst:459
-msgid "Reduce batch/chunk sizes for long clips."
+msgid "Why: Generate an animated mask that follows a moving subject."
 msgstr ""
 
 #: ../ai.rst:460
+msgid "Details: Uses ``comfyui/video-mask-anything-sam2.json`` with SAM2 video tracking."
+msgstr ""
+
+#: ../ai.rst:463
+msgid "Starting Points for New Users"
+msgstr ""
+
+#: ../ai.rst:465
+msgid "If you are new to these tools, start with:"
+msgstr ""
+
+#: ../ai.rst:467
+msgid ":guilabel:`Create with AI` -> :guilabel:`Image`"
+msgstr ""
+
+#: ../ai.rst:468
+msgid ":guilabel:`Enhance with AI` -> :guilabel:`Increase Resolution`"
+msgstr ""
+
+#: ../ai.rst:469
+msgid ":guilabel:`Enhance with AI` -> :guilabel:`Smooth Motion`"
+msgstr ""
+
+#: ../ai.rst:470
+msgid ":guilabel:`Enhance with AI` -> :guilabel:`Split into Scenes`"
+msgstr ""
+
+#: ../ai.rst:471
+msgid ":guilabel:`Enhance with AI` -> :guilabel:`Add Captions`"
+msgstr ""
+
+#: ../ai.rst:474
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../ai.rst:476
+msgid "If AI menus do not appear or jobs fail immediately:"
+msgstr ""
+
+#: ../ai.rst:478
+msgid "Verify ComfyUI is running and reachable at the configured URL."
+msgstr ""
+
+#: ../ai.rst:479
+msgid "Confirm required models exist in your ComfyUI environment."
+msgstr ""
+
+#: ../ai.rst:480
+msgid "Confirm custom node packages are installed for the workflow you selected."
+msgstr ""
+
+#: ../ai.rst:481
+msgid "Reduce batch/chunk sizes for long clips."
+msgstr ""
+
+#: ../ai.rst:482
 msgid "Re-test with a short clip or still image first."
 msgstr ""
 
-#: ../ai.rst:462
+#: ../ai.rst:484
 msgid "For general performance and cache tuning, see :ref:`preferences_ref` and :ref:`playback_ref`."
 msgstr ""

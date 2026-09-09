@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,22 +22,23 @@ msgstr ""
 msgid "Transitions"
 msgstr "Overganger"
 
-# Translated with gpt-4.1-mini
 #: ../transitions.rst:25
 msgid ""
-"A transition is used to gradually fade (or wipe) between two clip images. In "
-"OpenShot, transitions are represented by blue, rounded rectangles on the "
-"timeline. They are automatically created when you overlap two clips, and can "
-"be added manually by dragging one onto the timeline from the **Transitions** "
-"panel. A transition must be placed on top of a clip (overlapping it), with "
-"the most common location being the beginning or end of a clip."
+"A transition is used to gradually fade (also called a **cross dissolve** or "
+"**crossfade**) or wipe between two clip images. In OpenShot, transitions are"
+" represented by blue, rounded rectangles on the timeline. They are "
+"automatically created when you overlap two clips, and can be added manually "
+"by dragging one onto the timeline from the **Transitions** panel. A "
+"transition must be placed on top of a clip (overlapping it), with the most "
+"common location being the beginning or end of a clip."
 msgstr ""
-"En overgang brukes til å gradvis tone ut (eller viske) mellom to "
-"klippbilder. I OpenShot representeres overganger av blå, avrundede "
-"rektangler på tidslinjen. De opprettes automatisk når du overlapper to "
-"klipp, og kan legges til manuelt ved å dra en overgang til tidslinjen fra "
-"**Overganger**-panelet. En overgang må plasseres oppå et klipp (overlappende "
-"det), vanligvis i begynnelsen eller slutten av et klipp."
+"En overgang brukes til å gradvis tone ut (også kalt en **kryssoppløsning** "
+"eller **krysstoning**) eller viske mellom to klippbilder. I OpenShot "
+"representeres overganger av blå, avrundede rektangler på tidslinjen. De "
+"opprettes automatisk når du overlapper to klipp, og kan legges til manuelt "
+"ved å dra en overgang til tidslinjen fra **Overganger**-panelet. En overgang"
+" må plasseres oppå et klipp (overlappende det), med den vanligste "
+"plasseringen ved begynnelsen eller slutten av et klipp."
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:31
@@ -47,8 +48,8 @@ msgid ""
 "property. See :ref:`clip_properties_ref`"
 msgstr ""
 "MERK: Overganger påvirker **ikke** **lyd**, så hvis du ønsker å tone inn/ut "
-"lydvolumet til et klipp, må du justere ``volume``-egenskapen for klippet. "
-"Se :ref:`clip_properties_ref`"
+"lydvolumet til et klipp, må du justere ``volume``-egenskapen for klippet. Se"
+" :ref:`clip_properties_ref`"
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:35
@@ -127,19 +128,19 @@ msgstr "Retning"
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:49
 msgid ""
-"Transitions adjust the alpha/transparency of the overlapping clip image (i."
-"e. the clip under the transition), and can either fade from opaque to "
+"Transitions adjust the alpha/transparency of the overlapping clip image "
+"(i.e. the clip under the transition), and can either fade from opaque to "
 "transparent, or transparent to opaque (does not affect the audio). Right "
 "click and choose :guilabel:`Reverse Transition` to change the direction of "
 "the fade. You can also manually adjust the **Brightness** curve, animating "
 "the visual fade in any way you wish."
 msgstr ""
-"Overganger justerer alfa/gjennomsiktigheten til det overlappende klippbildet "
-"(dvs. klippet under overgangen), og kan enten tone fra ugjennomsiktig til "
+"Overganger justerer alfa/gjennomsiktigheten til det overlappende klippbildet"
+" (dvs. klippet under overgangen), og kan enten tone fra ugjennomsiktig til "
 "gjennomsiktig, eller fra gjennomsiktig til ugjennomsiktig (påvirker ikke "
 "lyden). Høyreklikk og velg :guilabel:`Reverse Transition` for å endre "
-"retningen på toningen. Du kan også manuelt justere **Brightness**-kurven for "
-"å animere den visuelle toningen på ønsket måte."
+"retningen på toningen. Du kan også manuelt justere **Brightness**-kurven for"
+" å animere den visuelle toningen på ønsket måte."
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:56
@@ -149,16 +150,16 @@ msgstr "Gjennomsiktighet"
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:57
 msgid ""
-"If transitions are used on images or videos that contain transparency (*i.e. "
-"alpha channel*) this will result in the original clip disappearing abruptly "
-"(or popping out of existence), since OpenShot's transition system expects "
+"If transitions are used on images or videos that contain transparency (*i.e."
+" alpha channel*) this will result in the original clip disappearing abruptly"
+" (or popping out of existence), since OpenShot's transition system expects "
 "the 2nd clip to fully cover up the first clip. For example, if the 2nd clip "
-"does not fully cover the first clip, a transition might not be the best tool "
-"to use. Instead, you should consider adjusting the ``alpha`` property of the "
-"first clip to make it fade out where needed, see :ref:`clip_properties_ref` "
-"or :ref:`clip_presets_ref`. Alternatively, you can combine a transition and "
-"``alpha`` fade when using transparent clips to more smoothly fade between "
-"then."
+"does not fully cover the first clip, a transition might not be the best tool"
+" to use. Instead, you should consider adjusting the ``alpha`` property of "
+"the first clip to make it fade out where needed, see "
+":ref:`clip_properties_ref` or :ref:`clip_presets_ref`. Alternatively, you "
+"can combine a transition and ``alpha`` fade when using transparent clips to "
+"more smoothly fade between then."
 msgstr ""
 "Hvis overganger brukes på bilder eller videoer som inneholder "
 "gjennomsiktighet (*dvs. alfakanal*), vil dette føre til at det opprinnelige "
@@ -166,10 +167,11 @@ msgstr ""
 "overgangssystem forventer at det andre klippet dekker det første klippet "
 "fullstendig. For eksempel, hvis det andre klippet ikke dekker det første "
 "helt, er kanskje ikke en overgang det beste verktøyet. I stedet bør du "
-"vurdere å justere ``alpha``-egenskapen til det første klippet for å tone det "
-"ut der det trengs, se :ref:`clip_properties_ref` eller :ref:"
-"`clip_presets_ref`. Alternativt kan du kombinere en overgang og ``alpha``-"
-"toning når du bruker gjennomsiktige klipp for å få en jevnere overgang."
+"vurdere å justere ``alpha``-egenskapen til det første klippet for å tone det"
+" ut der det trengs, se :ref:`clip_properties_ref` eller "
+":ref:`clip_presets_ref`. Alternativt kan du kombinere en overgang og "
+"``alpha``-toning når du bruker gjennomsiktige klipp for å få en jevnere "
+"overgang."
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:65
@@ -188,9 +190,9 @@ msgid ""
 msgstr ""
 "OpenShot har mange enkle måter å justere start- og sluttposisjoner for "
 "trimming av en overgang (også kalt kutting eller trimming). Den vanligste "
-"metoden er å dra i venstre (eller høyre) kant av overgangen. For en komplett "
-"guide til klipping og alle tilgjengelige hurtigtaster, se :ref:"
-"`clips_cutting_slicing_ref` og :ref:`keyboard_shortcut_ref`."
+"metoden er å dra i venstre (eller høyre) kant av overgangen. For en komplett"
+" guide til klipping og alle tilgjengelige hurtigtaster, se "
+":ref:`clips_cutting_slicing_ref` og :ref:`keyboard_shortcut_ref`."
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:71
@@ -201,8 +203,8 @@ msgstr "Maske"
 #: ../transitions.rst:72
 msgid ""
 "In video editing, masks are powerful tools that allow you to selectively "
-"display specific areas of a video clip. Similar to masking in image editing, "
-"video masks define a region where changes will be applied while leaving "
+"display specific areas of a video clip. Similar to masking in image editing,"
+" video masks define a region where changes will be applied while leaving "
 "other parts of the video unaffected."
 msgstr ""
 "I videoredigering er masker kraftige verktøy som lar deg selektivt vise "
@@ -218,8 +220,8 @@ msgid ""
 "paths. The masked area is referred to as the \"masked region.\""
 msgstr ""
 "En maske kan betraktes som en form eller sti som omkranser området du vil "
-"målrette. Vanlige former inkluderer rektangler, sirkler og friformede stier. "
-"Det maskerte området kalles «masked region»."
+"målrette. Vanlige former inkluderer rektangler, sirkler og friformede stier."
+" Det maskerte området kalles «masked region»."
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:79
@@ -235,8 +237,8 @@ msgstr ""
 "Masker kan animeres, slik at du kan endre form eller posisjon over tid. "
 "Dette muliggjør dynamiske effekter som å avsløre skjulte elementer eller "
 "overgang mellom ulike visuelle tilstander. I OpenShot kan du konvertere en "
-"overgang til en maske ved å tilpasse :guilabel:`Brightness`-keyframe-kurven. "
-"Ved å holde en statisk (uendret) lysstyrkeverdi, vil maskens plassering "
+"overgang til en maske ved å tilpasse :guilabel:`Brightness`-keyframe-kurven."
+" Ved å holde en statisk (uendret) lysstyrkeverdi, vil maskens plassering "
 "forbli fast. Kombiner dette med egendefinerte overgangsbilder eller til og "
 "med egendefinerte bildesekvenser for å lage animerte, komplekse masker."
 
@@ -253,8 +255,8 @@ msgid ""
 "something that is easily recognizable, and restart OpenShot. Your custom "
 "transition/mask will now show up in the list of transitions."
 msgstr ""
-"Enhver gråtonebilde kan brukes som en overgang (eller maske) ved å legge det "
-"til i mappen ``~/.openshot_qt/transitions/``. Sørg bare for å gi filen et "
+"Enhver gråtonebilde kan brukes som en overgang (eller maske) ved å legge det"
+" til i mappen ``~/.openshot_qt/transitions/``. Sørg bare for å gi filen et "
 "lett gjenkjennelig navn, og start OpenShot på nytt. Din egendefinerte "
 "overgang/maske vil nå vises i listen over overganger."
 
@@ -269,27 +271,27 @@ msgid ""
 "Below is a list of transition properties which can be edited, and in most "
 "cases, animated over time. To view a transition's properties, right click "
 "and choose :guilabel:`Properties`. The property editor will appear, where "
-"you can change these properties. NOTE: Pay close attention to where the play-"
-"head (i.e. red playback line) is. Key frames are automatically created at "
-"the current playback position, to help create animations."
+"you can change these properties. NOTE: Pay close attention to where the "
+"play-head (i.e. red playback line) is. Key frames are automatically created "
+"at the current playback position, to help create animations."
 msgstr ""
 "Nedenfor er en liste over overgangsegenskaper som kan redigeres, og i de "
 "fleste tilfeller animeres over tid. For å se en overgangs egenskaper, "
 "høyreklikk og velg :guilabel:`Properties`. Egenskapsredigereren vises, hvor "
-"du kan endre disse egenskapene. MERK: Følg nøye med på hvor avspillingshodet "
-"(dvs. den røde avspillingslinjen) er. Keyframes opprettes automatisk på "
+"du kan endre disse egenskapene. MERK: Følg nøye med på hvor avspillingshodet"
+" (dvs. den røde avspillingslinjen) er. Keyframes opprettes automatisk på "
 "gjeldende avspillingsposisjon for å hjelpe til med å lage animasjoner."
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:98
 msgid ""
-"NOTE: Transitions do not affect audio, so if you are intending to fade in/"
-"out the audio volume of a clip, you must adjust the ``volume`` clip "
+"NOTE: Transitions do not affect audio, so if you are intending to fade "
+"in/out the audio volume of a clip, you must adjust the ``volume`` clip "
 "property. See :ref:`clip_properties_ref`."
 msgstr ""
 "MERK: Overganger påvirker ikke lyd, så hvis du ønsker å tone inn/ut "
-"lydvolumet til et klipp, må du justere ``volume``-egenskapen for klippet. "
-"Se :ref:`clip_properties_ref`."
+"lydvolumet til et klipp, må du justere ``volume``-egenskapen for klippet. Se"
+" :ref:`clip_properties_ref`."
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:105
@@ -314,8 +316,8 @@ msgstr "Keyframe"
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:107
 msgid ""
-"Curve representing the brightness of the transition image, which affects the "
-"fade/wipe (-1 to 1)"
+"Curve representing the brightness of the transition image, which affects the"
+" fade/wipe (-1 to 1)"
 msgstr ""
 "Kurve som representerer lysstyrken til overgangsbildet, som påvirker fade/ "
 "wipe (-1 til 1)"
@@ -335,13 +337,13 @@ msgstr ""
 "mykheten/hardheten til fade/ wipe (0 til 20)"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:109 ../transitions.rst:120
+#: ../transitions.rst:109 ../transitions.rst:124
 msgid "Duration"
 msgstr "Varighet"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:109 ../transitions.rst:110 ../transitions.rst:113
-#: ../transitions.rst:115
+#: ../transitions.rst:109 ../transitions.rst:110 ../transitions.rst:117
+#: ../transitions.rst:119
 msgid "Float"
 msgstr "Flyttall"
 
@@ -351,7 +353,7 @@ msgid "The length of the transition (in seconds). Read-only property."
 msgstr "Lengden på overgangen (i sekunder). Skrivebeskyttet egenskap."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:110 ../transitions.rst:128
+#: ../transitions.rst:110 ../transitions.rst:132
 msgid "End"
 msgstr "Slutt"
 
@@ -361,12 +363,12 @@ msgid "The end trimming position of the transition (in seconds)."
 msgstr "Sluttposisjonen for trimming av overgangen (i sekunder)."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:111 ../transitions.rst:136
+#: ../transitions.rst:111 ../transitions.rst:140
 msgid "ID"
 msgstr "ID"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:111 ../transitions.rst:112
+#: ../transitions.rst:111 ../transitions.rst:116
 msgid "String"
 msgstr "Tekst"
 
@@ -379,13 +381,68 @@ msgstr ""
 "En tilfeldig generert GUID (globalt unik identifikator) tildelt hver "
 "overgang. Skrivebeskyttet egenskap."
 
-# Translated with gpt-4.1-mini
 #: ../transitions.rst:112
+msgid "Mask: Invert"
+msgstr "Maske: Inverter"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:112 ../transitions.rst:113 ../transitions.rst:118
+msgid "Bool"
+msgstr "Boolsk"
+
+#: ../transitions.rst:112
+msgid ""
+"Invert the mask source so light areas become dark and dark areas become "
+"light."
+msgstr ""
+"Inverter maskekilden slik at lyse områder blir mørke og mørke områder blir "
+"lyse."
+
+#: ../transitions.rst:113
+msgid "Mask: Loop"
+msgstr "Maske: Sløyfe"
+
+#: ../transitions.rst:113
+msgid ""
+"Loop an animated mask source when the transition is longer than the source."
+msgstr "Sløyfe en animert maskekilde når overgangen er lengre enn kilden."
+
+#: ../transitions.rst:114
+msgid "Mask: Source"
+msgstr "Maske: Kilde"
+
+#: ../transitions.rst:114
+msgid "Reader"
+msgstr "Leser"
+
+#: ../transitions.rst:114
+msgid ""
+"The image, image sequence, or video used as the transition's grayscale mask "
+"source."
+msgstr ""
+"Bildet, bildesekvensen eller videoen som brukes som overgangens gråtone-"
+"maske."
+
+#: ../transitions.rst:115
+msgid "Mask: Time Mode"
+msgstr "Maske: Tidsmodus"
+
+#: ../transitions.rst:115
+msgid "Enum"
+msgstr "Enum"
+
+#: ../transitions.rst:115
+msgid "Controls how OpenShot maps transition time to an animated mask source."
+msgstr ""
+"Styrer hvordan OpenShot kobler overgangstid til en animert maskekilde."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:116
 msgid "Parent"
 msgstr "Forelder"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:112
+#: ../transitions.rst:116
 msgid ""
 "The parent object to this transition, which makes many of these keyframe "
 "values initialize to the parent value."
@@ -394,27 +451,22 @@ msgstr ""
 "verdiene initialiseres til foreldres verdier."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:113
+#: ../transitions.rst:117
 msgid "Position"
 msgstr "Posisjon"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:113
+#: ../transitions.rst:117
 msgid "The position of the transition on the timeline (in seconds)."
 msgstr "Posisjonen til overgangen på tidslinjen (i sekunder)."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:114
+#: ../transitions.rst:118
 msgid "Replace Image"
 msgstr "Erstatt bilde"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:114
-msgid "Bool"
-msgstr "Boolsk"
-
-# Translated with gpt-4.1-mini
-#: ../transitions.rst:114
+#: ../transitions.rst:118
 msgid ""
 "For debugging a problem, this property displays the transition image "
 "(instead of becoming a transparency)."
@@ -423,39 +475,39 @@ msgstr ""
 "gjennomsiktig)."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:115
+#: ../transitions.rst:119
 msgid "Start"
 msgstr "Start"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:115
+#: ../transitions.rst:119
 msgid "The start trimming position of the transition (in seconds)."
 msgstr "Startposisjonen for trimming av overgangen (i sekunder)."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:116 ../transitions.rst:144
+#: ../transitions.rst:120 ../transitions.rst:158
 msgid "Track"
 msgstr "Spor"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:116
+#: ../transitions.rst:120
 msgid "Int"
 msgstr "Heltall"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:116
+#: ../transitions.rst:120
 msgid ""
 "The layer which holds the transition (higher tracks are rendered on top of "
 "lower tracks)."
 msgstr "Laget som holder overgangen (høyere spor vises over lavere spor)."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:121
+#: ../transitions.rst:125
 msgid ""
 "The :guilabel:`Duration` property is a float value indicating the length of "
 "the transition in seconds. This is a Read-only property. This is calculated "
-"by: End - Start. To modify duration, you must edit the :guilabel:`Start` and/"
-"or :guilabel:`End` transition properties."
+"by: End - Start. To modify duration, you must edit the :guilabel:`Start` "
+"and/or :guilabel:`End` transition properties."
 msgstr ""
 "Egenskapen :guilabel:`Varighet` er en flyttallsverdi som angir lengden på "
 "overgangen i sekunder. Dette er en skrivebeskyttet egenskap. Den beregnes "
@@ -463,7 +515,7 @@ msgstr ""
 "og/eller :guilabel:`Slutt` egenskapene for overgangen."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:124
+#: ../transitions.rst:128
 msgid ""
 "**Usage Example:** Inspect the duration of a transition to ensure it fits a "
 "specific time slot in the project."
@@ -472,29 +524,29 @@ msgstr ""
 "passer til et bestemt tidsrom i prosjektet."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:125
+#: ../transitions.rst:129
 msgid ""
 "**Tip:** Consider using the \"Duration\" property for transitions that need "
 "to match specific time intervals, such as dialogue or scenes."
 msgstr ""
-"**Tips:** Vurder å bruke egenskapen \"Varighet\" for overganger som må passe "
-"til bestemte tidsintervaller, som dialog eller scener."
+"**Tips:** Vurder å bruke egenskapen \"Varighet\" for overganger som må passe"
+" til bestemte tidsintervaller, som dialog eller scener."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:129
+#: ../transitions.rst:133
 msgid ""
 "The :guilabel:`End` property defines the trimming point at the end of the "
-"transition in seconds, allowing you to control how much of the transition is "
-"visible in the timeline. Changing this property will impact the :guilabel:"
-"`Duration` transition property."
+"transition in seconds, allowing you to control how much of the transition is"
+" visible in the timeline. Changing this property will impact the "
+":guilabel:`Duration` transition property."
 msgstr ""
 "Egenskapen :guilabel:`Slutt` definerer trimme-punktet ved slutten av "
-"overgangen i sekunder, slik at du kan kontrollere hvor mye av overgangen som "
-"er synlig på tidslinjen. Endring av denne egenskapen påvirker :guilabel:"
-"`Varighet`-egenskapen for overgangen."
+"overgangen i sekunder, slik at du kan kontrollere hvor mye av overgangen som"
+" er synlig på tidslinjen. Endring av denne egenskapen påvirker "
+":guilabel:`Varighet`-egenskapen for overgangen."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:132
+#: ../transitions.rst:136
 msgid ""
 "**Usage Example:** Trimming the end of a transition to align with another "
 "clip or trimming off unwanted sections of the transition."
@@ -503,7 +555,7 @@ msgstr ""
 "annet klipp eller fjerne uønskede deler av overgangen."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:133
+#: ../transitions.rst:137
 msgid ""
 "**Tip:** Combine the \"Start\" and \"End\" properties to precisely control "
 "the visible portion of the transition."
@@ -512,37 +564,72 @@ msgstr ""
 "synlige delen av overgangen nøyaktig."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:137
+#: ../transitions.rst:141
 msgid ""
-"The :guilabel:`ID` property holds a randomly generated GUID (Globally Unique "
-"Identifier) assigned to each transition, ensuring its uniqueness. This is a "
-"Read-only property, and assigned by OpenShot when a transition is created."
+"The :guilabel:`ID` property holds a randomly generated GUID (Globally Unique"
+" Identifier) assigned to each transition, ensuring its uniqueness. This is a"
+" Read-only property, and assigned by OpenShot when a transition is created."
 msgstr ""
 "Egenskapen :guilabel:`ID` inneholder en tilfeldig generert GUID (globalt "
-"unik identifikator) tildelt hver overgang, som sikrer dens unikhet. Dette er "
-"en skrivebeskyttet egenskap, og tildeles av OpenShot når en overgang "
+"unik identifikator) tildelt hver overgang, som sikrer dens unikhet. Dette er"
+" en skrivebeskyttet egenskap, og tildeles av OpenShot når en overgang "
 "opprettes."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:140
+#: ../transitions.rst:144
 msgid ""
-"**Usage Example:** Referencing specific transitions within custom scripts or "
-"automation tasks."
+"**Usage Example:** Referencing specific transitions within custom scripts or"
+" automation tasks."
 msgstr ""
-"**Brukseksempel:** Referere til spesifikke overganger i egendefinerte skript "
-"eller automatiseringsoppgaver."
+"**Brukseksempel:** Referere til spesifikke overganger i egendefinerte skript"
+" eller automatiseringsoppgaver."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:141
+#: ../transitions.rst:145
 msgid ""
-"**Tip:** While typically managed behind the scenes, understanding transition "
-"IDs can aid in advanced project customization."
+"**Tip:** While typically managed behind the scenes, understanding transition"
+" IDs can aid in advanced project customization."
 msgstr ""
 "**Tips:** Selv om de vanligvis håndteres i bakgrunnen, kan forståelse av "
 "overgangs-IDer hjelpe ved avansert prosjekt-tilpasning."
 
+#: ../transitions.rst:148
+msgid "Mask Properties"
+msgstr "Maskeegenskaper"
+
+#: ../transitions.rst:149
+msgid ""
+"The :guilabel:`Mask: Source`, :guilabel:`Mask: Time Mode`, :guilabel:`Mask: "
+"Loop`, and :guilabel:`Mask: Invert` properties control the grayscale mask "
+"used by a transition. Static masks use a single image. Animated masks can "
+"use video or image sequences, with time mapping and looping options "
+"determining which source frame is used at each point in the transition."
+msgstr ""
+"Egenskapene :guilabel:`Maske: Kilde`, :guilabel:`Maske: Tidsmodus`, "
+":guilabel:`Maske: Sløyfe` og :guilabel:`Maske: Inverter` styrer gråtone-"
+"maske som brukes av en overgang. Statisk masker bruker et enkelt bilde. "
+"Animerte masker kan bruke video eller bildesekvenser, med tidskartlegging og"
+" sløyfevalg som bestemmer hvilken kilderamme som brukes på hvert punkt i "
+"overgangen."
+
+#: ../transitions.rst:154
+msgid ""
+"**Usage Example:** Use :guilabel:`Mask: Invert` when the visible and hidden "
+"areas of a custom mask are reversed."
+msgstr ""
+"**Brukseksempel:** Bruk :guilabel:`Maske: Inverter` når de synlige og "
+"skjulte områdene i en tilpasset maske er omvendt."
+
+#: ../transitions.rst:155
+msgid ""
+"**Tip:** When using an animated mask, trim the mask source carefully before "
+"enabling loop behavior."
+msgstr ""
+"**Tips:** Når du bruker en animert maske, beskjær maskekilden nøye før du "
+"aktiverer sløyfefunksjonen."
+
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:145
+#: ../transitions.rst:159
 msgid ""
 "The :guilabel:`Track` property is an integer indicating the layer on which "
 "the transition is placed. Transitions on higher tracks are rendered above "
@@ -552,7 +639,7 @@ msgstr ""
 "plassert på. Overganger på høyere spor vises over de på lavere spor."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:148
+#: ../transitions.rst:162
 msgid ""
 "**Usage Example:** Arranging transitions in different layers for creating "
 "visual depth and complexity."
@@ -561,10 +648,27 @@ msgstr ""
 "visuell dybde og kompleksitet."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:149
+#: ../transitions.rst:163
 msgid ""
 "**Tip:** Use higher tracks for elements that need to appear above others, "
 "like text overlays or graphics."
 msgstr ""
 "**Tips:** Bruk høyere spor for elementer som må vises over andre, som "
 "tekstoverlegg eller grafikk."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "A transition is used to gradually fade (or wipe) between two clip images. In"
+#~ " OpenShot, transitions are represented by blue, rounded rectangles on the "
+#~ "timeline. They are automatically created when you overlap two clips, and can"
+#~ " be added manually by dragging one onto the timeline from the "
+#~ "**Transitions** panel. A transition must be placed on top of a clip "
+#~ "(overlapping it), with the most common location being the beginning or end "
+#~ "of a clip."
+#~ msgstr ""
+#~ "En overgang brukes til å gradvis tone ut (eller viske) mellom to "
+#~ "klippbilder. I OpenShot representeres overganger av blå, avrundede "
+#~ "rektangler på tidslinjen. De opprettes automatisk når du overlapper to "
+#~ "klipp, og kan legges til manuelt ved å dra en overgang til tidslinjen fra "
+#~ "**Overganger**-panelet. En overgang må plasseres oppå et klipp (overlappende"
+#~ " det), vanligvis i begynnelsen eller slutten av et klipp."

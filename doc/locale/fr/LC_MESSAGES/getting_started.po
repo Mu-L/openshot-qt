@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,8 +33,8 @@ msgid ""
 msgstr ""
 "Vous n'avez pas besoin d'être un vidéaste professionnel pour comprendre "
 "comment bien créer des vidéos. Un montage simple peut maintenir l'attention "
-"de vos spectateurs plus longtemps et donner un aspect professionnel, même si "
-"vous n'êtes pas un monteur vidéo professionnel."
+"de vos spectateurs plus longtemps et donner un aspect professionnel, même si"
+" vous n'êtes pas un monteur vidéo professionnel."
 
 # Translated with gpt-4.1-mini
 #: ../getting_started.rst:27
@@ -83,21 +83,21 @@ msgstr "Ordinateur"
 # Translated with gpt-4.1-mini
 #: ../getting_started.rst:42
 msgid ""
-"Video editing does not require an expensive machine, especially if you are a "
-"beginner. However, it would be best if you had a more recent monitor and "
+"Video editing does not require an expensive machine, especially if you are a"
+" beginner. However, it would be best if you had a more recent monitor and "
 "graphics card. If you have an older computer, check your system "
 "specifications against OpenShot's :ref:`min_system_req_ref` to make sure it "
 "works for video editing. Unfortunately, many older computers are not fast "
 "enough for video editing, and you should upgrade your whole system, if "
 "possible."
 msgstr ""
-"Le montage vidéo ne nécessite pas une machine coûteuse, surtout si vous êtes "
-"débutant. Cependant, il est préférable d'avoir un écran et une carte "
+"Le montage vidéo ne nécessite pas une machine coûteuse, surtout si vous êtes"
+" débutant. Cependant, il est préférable d'avoir un écran et une carte "
 "graphique récents. Si vous avez un ordinateur plus ancien, vérifiez ses "
 "spécifications par rapport aux :ref:`min_system_req_ref` d'OpenShot pour "
 "vous assurer qu'il convient au montage vidéo. Malheureusement, de nombreux "
-"ordinateurs anciens ne sont pas assez rapides pour le montage vidéo, et vous "
-"devriez envisager de mettre à niveau tout votre système, si possible."
+"ordinateurs anciens ne sont pas assez rapides pour le montage vidéo, et vous"
+" devriez envisager de mettre à niveau tout votre système, si possible."
 
 # Translated with gpt-4.1-mini
 #: ../getting_started.rst:50
@@ -114,17 +114,17 @@ msgid ""
 "clips, the solution is to buy an external drive."
 msgstr ""
 "Avant de commencer un projet vidéo, assurez-vous que votre ordinateur "
-"dispose de suffisamment d'espace de stockage pour sauvegarder tous les clips "
-"nécessaires. Par exemple, une heure de vidéo 1080i, comme celle d'une caméra "
-"mini-DV, occupe près de 11 Go. Si le stockage interne de votre ordinateur ne "
-"peut pas contenir tous les clips, la solution est d'acheter un disque dur "
-"externe."
+"dispose de suffisamment d'espace de stockage pour sauvegarder tous les clips"
+" nécessaires. Par exemple, une heure de vidéo 1080i, comme celle d'une "
+"caméra mini-DV, occupe près de 11 Go. Si le stockage interne de votre "
+"ordinateur ne peut pas contenir tous les clips, la solution est d'acheter un"
+" disque dur externe."
 
 # Translated with gpt-4.1-mini
 #: ../getting_started.rst:57
 msgid ""
-"It would help if you had several cables, usually Firewire or USB, to connect "
-"your computer, external hard drive, and a camera. Different computers and "
+"It would help if you had several cables, usually Firewire or USB, to connect"
+" your computer, external hard drive, and a camera. Different computers and "
 "cameras accept other connectors, so check your manuals before buying "
 "anything."
 msgstr ""
@@ -176,31 +176,37 @@ msgstr ""
 msgid "Keep Shooting"
 msgstr "Continuez à filmer"
 
-# Translated with gpt-4.1-mini
 #: ../getting_started.rst:78
 msgid ""
 "Record more video and audio than you think you will need for your project. "
 "Include video that enhances the scene, sets a mood, or tells a story. You "
 "can use the extra video for smooth transitions in your project. If your "
-"project requires voice overs or narration, we suggest using an external "
-"application to record your microphone (since OpenShot does not include any "
-"recording capabilities yet)."
+"project requires voice overs, narration, screen capture, or webcam footage, "
+"you can use :guilabel:`View->Recording View` to open OpenShot's recording "
+"tools. For more details, including microphone, system audio, screen, and "
+"webcam options, see :ref:`recording_ref`. For more specialized capture "
+"workflows, you can still record with an external application and import the "
+"finished media into OpenShot."
 msgstr ""
-"Enregistrez plus de vidéo et d'audio que ce que vous pensez nécessaire pour "
+"Enregistrez plus de vidéo et d’audio que ce que vous pensez nécessaire pour "
 "votre projet. Incluez des vidéos qui améliorent la scène, créent une "
-"ambiance ou racontent une histoire. Vous pouvez utiliser ces séquences "
+"ambiance ou racontent une histoire. Vous pouvez utiliser les vidéos "
 "supplémentaires pour des transitions fluides dans votre projet. Si votre "
-"projet nécessite des voix off ou une narration, nous vous suggérons "
-"d'utiliser une application externe pour enregistrer votre microphone (car "
-"OpenShot ne propose pas encore de fonction d'enregistrement)."
+"projet nécessite des voix off, une narration, une capture d’écran ou des "
+"séquences de webcam, vous pouvez utiliser :guilabel:`Affichage->Vue "
+"d’enregistrement` pour ouvrir les outils d’enregistrement d’OpenShot. Pour "
+"plus de détails, y compris les options de microphone, audio système, écran "
+"et webcam, consultez :ref:`recording_ref`. Pour des flux de capture plus "
+"spécialisés, vous pouvez toujours enregistrer avec une application externe "
+"et importer les médias finis dans OpenShot."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:85
+#: ../getting_started.rst:88
 msgid "Organize Your Project Files"
 msgstr "Organisez vos fichiers de projet"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:86
+#: ../getting_started.rst:89
 msgid ""
 "Composition is the key to success, whether you are running Linux, on a Mac, "
 "or a Windows machine. Be sure to label video files, audio files, and even "
@@ -210,19 +216,19 @@ msgid ""
 "project. Organizing before you begin editing can be very advantageous."
 msgstr ""
 "L'organisation est la clé du succès, que vous utilisiez Linux, Mac ou "
-"Windows. Veillez à bien nommer vos fichiers vidéo, audio et images fixes, et "
-"à conserver tous vos clips sur le même appareil et dans le même dossier pour "
-"un accès facile. OpenShot essaie de suivre vos clips, mais si vous les "
+"Windows. Veillez à bien nommer vos fichiers vidéo, audio et images fixes, et"
+" à conserver tous vos clips sur le même appareil et dans le même dossier "
+"pour un accès facile. OpenShot essaie de suivre vos clips, mais si vous les "
 "déplacez après avoir sauvegardé votre projet, vous risquez de perdre tout "
 "votre travail. Organiser avant de commencer le montage est très avantageux."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:95
+#: ../getting_started.rst:98
 msgid "Watch Everything"
 msgstr "Regardez tout"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:96
+#: ../getting_started.rst:99
 msgid ""
 "Watching everything is the first step in the editing process. Writer and "
 "filmmaker David Andrew Stoler says there is gold in the most unlikely of "
@@ -235,31 +241,32 @@ msgstr ""
 "trouvent après la coupure. »"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:102
+#: ../getting_started.rst:105
 msgid "Edit for a Story"
 msgstr "Montez pour raconter une histoire"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:103
+#: ../getting_started.rst:106
 msgid ""
 "Remember that as you edit, you are telling a story. Editing is so much more "
-"than merely cutting footage and adding effects. It is an opportunity to take "
-"your audience on a journey. Whether you are editing a complex narrative film "
-"or only putting together a personal video, you tell a more in-depth story."
+"than merely cutting footage and adding effects. It is an opportunity to take"
+" your audience on a journey. Whether you are editing a complex narrative "
+"film or only putting together a personal video, you tell a more in-depth "
+"story."
 msgstr ""
-"N'oubliez pas qu'en montant, vous racontez une histoire. Le montage est bien "
-"plus que couper des séquences et ajouter des effets. C'est une occasion "
+"N'oubliez pas qu'en montant, vous racontez une histoire. Le montage est bien"
+" plus que couper des séquences et ajouter des effets. C'est une occasion "
 "d'emmener votre public dans un voyage. Que vous montiez un film narratif "
 "complexe ou une simple vidéo personnelle, vous racontez une histoire plus "
 "profonde."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:110
+#: ../getting_started.rst:113
 msgid "Keyboard Shortcuts"
 msgstr "Raccourcis clavier"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:111
+#: ../getting_started.rst:114
 msgid ""
 "One of the easiest ways to tell the difference between and professional "
 "video editor and a novice is to simply look at how much they use the "
@@ -272,12 +279,12 @@ msgstr ""
 "s'accumulent sur la durée du projet."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:117
+#: ../getting_started.rst:120
 msgid "Learn the Lingo"
 msgstr "Apprenez le jargon"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:118
+#: ../getting_started.rst:121
 msgid ""
 "Video editing is not just a hobby or a profession; it is an industry. And "
 "just like any industry, there is a ton of jargon to learn. Practically "
@@ -285,43 +292,43 @@ msgid ""
 "to become a better video editor, but a fundamental knowledge of the terms "
 "may help you communicate better with other video editors or clients."
 msgstr ""
-"Le montage vidéo n'est pas seulement un loisir ou une profession ; c'est une "
-"industrie. Et comme dans toute industrie, il y a beaucoup de jargon à "
+"Le montage vidéo n'est pas seulement un loisir ou une profession ; c'est une"
+" industrie. Et comme dans toute industrie, il y a beaucoup de jargon à "
 "apprendre. En pratique, vous n'avez pas besoin de connaître tous les termes "
 "du :ref:`glossary_ref` pour devenir un meilleur monteur, mais une "
 "connaissance fondamentale des termes peut vous aider à mieux communiquer "
 "avec d'autres monteurs ou clients."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:126
+#: ../getting_started.rst:129
 msgid "Assemble, Then Make a Rough Cut"
 msgstr "Assemblez, puis réalisez un premier montage"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:127
+#: ../getting_started.rst:130
 msgid ""
 "Drag and drop all your video footage into a timeline and make sure your "
-"frame size and frame rates are consistent. Begin a new timeline and drag-and-"
-"drop the best clips into what becomes your assembly cut. Remember to save "
-"your work frequently, and notate the date and time of each version."
+"frame size and frame rates are consistent. Begin a new timeline and drag-"
+"and-drop the best clips into what becomes your assembly cut. Remember to "
+"save your work frequently, and notate the date and time of each version."
 msgstr ""
-"Glissez-déposez toutes vos séquences vidéo dans une timeline et assurez-vous "
-"que la taille des images et les fréquences d’images sont cohérentes. "
+"Glissez-déposez toutes vos séquences vidéo dans une timeline et assurez-vous"
+" que la taille des images et les fréquences d’images sont cohérentes. "
 "Commencez une nouvelle timeline et glissez-déposez les meilleurs clips dans "
 "ce qui deviendra votre montage brut. N’oubliez pas de sauvegarder "
 "fréquemment votre travail et de noter la date et l’heure de chaque version."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:133
+#: ../getting_started.rst:136
 msgid "Refine Your Video"
 msgstr "Affinez votre vidéo"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:134
+#: ../getting_started.rst:137
 msgid ""
 "In this phase, your rough cut begins to resemble a cohesive project. Adjust "
-"the sound and color, make sure the dialog is audible, and add music, titles, "
-"or graphics in this phase. Color correction is the process of setting your "
+"the sound and color, make sure the dialog is audible, and add music, titles,"
+" or graphics in this phase. Color correction is the process of setting your "
 "footage to a color baseline. No matter how great your subject looks on set, "
 "you will almost always need to do some basic post-processing for a "
 "consistent video."
@@ -329,38 +336,38 @@ msgstr ""
 "À cette étape, votre montage brut commence à ressembler à un projet "
 "cohérent. Ajustez le son et la couleur, assurez-vous que les dialogues sont "
 "audibles, et ajoutez musique, titres ou graphiques. La correction "
-"colorimétrique consiste à ajuster vos séquences sur une base de couleur. Peu "
-"importe à quel point votre sujet est bien filmé, vous devrez presque "
+"colorimétrique consiste à ajuster vos séquences sur une base de couleur. Peu"
+" importe à quel point votre sujet est bien filmé, vous devrez presque "
 "toujours effectuer un post-traitement basique pour obtenir une vidéo "
 "cohérente."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:142
+#: ../getting_started.rst:145
 msgid "Refine Some More"
 msgstr "Affinez encore"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:143
+#: ../getting_started.rst:146
 msgid ""
 "A slow scene can set the mood and add tension or it can bore an audience. A "
-"fast scene can add adrenaline to your audience’s systems or it can give them "
-"headaches. Some editors cut their projects several different ways before "
+"fast scene can add adrenaline to your audience’s systems or it can give them"
+" headaches. Some editors cut their projects several different ways before "
 "they find the right pace. Do not let cutting your project several times "
 "discourage you."
 msgstr ""
 "Une scène lente peut instaurer une ambiance et ajouter de la tension, ou "
-"bien ennuyer le public. Une scène rapide peut stimuler l’adrénaline de votre "
-"audience ou lui provoquer des maux de tête. Certains monteurs coupent leurs "
-"projets de plusieurs façons avant de trouver le bon rythme. Ne vous laissez "
-"pas décourager par le fait de devoir monter plusieurs fois votre projet."
+"bien ennuyer le public. Une scène rapide peut stimuler l’adrénaline de votre"
+" audience ou lui provoquer des maux de tête. Certains monteurs coupent leurs"
+" projets de plusieurs façons avant de trouver le bon rythme. Ne vous laissez"
+" pas décourager par le fait de devoir monter plusieurs fois votre projet."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:150
+#: ../getting_started.rst:153
 msgid "Exporting"
 msgstr "Exportation"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:151
+#: ../getting_started.rst:154
 msgid ""
 "People view most of their projects on phones, tablets, or computers, so it "
 "is essential to know how to export for the web. The goal when exporting a "
@@ -368,19 +375,19 @@ msgid ""
 "smallest file size. Four main factors determine the file size of your "
 "finished video:"
 msgstr ""
-"La plupart des gens regardent leurs projets sur des téléphones, tablettes ou "
-"ordinateurs, il est donc essentiel de savoir comment exporter pour le web. "
+"La plupart des gens regardent leurs projets sur des téléphones, tablettes ou"
+" ordinateurs, il est donc essentiel de savoir comment exporter pour le web. "
 "L’objectif lors de l’exportation d’une vidéo pour le web est de créer la "
 "meilleure qualité possible avec la taille de fichier la plus petite. Quatre "
 "facteurs principaux déterminent la taille du fichier de votre vidéo finale :"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:157
+#: ../getting_started.rst:160
 msgid "Codec"
 msgstr "Codec"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:158
+#: ../getting_started.rst:161
 msgid ""
 "A codec determines the type of file format (MP4, AVI, MOV). The more "
 "compression performed by the codec, the smaller your video’s size. Videos "
@@ -392,12 +399,12 @@ msgstr ""
 "inférieure."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:163
+#: ../getting_started.rst:166
 msgid "Resolution"
 msgstr "Résolution"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:164
+#: ../getting_started.rst:167
 msgid ""
 "Resolution refers to the number of horizontal and vertical pixels (dots on "
 "display) your video contains. For example, a 4K UHD (2160P) video has four "
@@ -411,37 +418,37 @@ msgstr ""
 "fichiers plus volumineux."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:170
+#: ../getting_started.rst:173
 msgid "Bit Rate"
 msgstr "Débit binaire"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:171
+#: ../getting_started.rst:174
 msgid ""
-"The Bit Rate is the measure of the speed of data processing of your video. A "
-"higher bit rate means higher-quality video and larger files. OpenShot allows "
-"you to manually set the Bit Rate / Quality in the Advanced tab of the Export "
-"Video window."
+"The Bit Rate is the measure of the speed of data processing of your video. A"
+" higher bit rate means higher-quality video and larger files. OpenShot "
+"allows you to manually set the Bit Rate / Quality in the Advanced tab of the"
+" Export Video window."
 msgstr ""
-"Le débit binaire mesure la vitesse de traitement des données de votre vidéo. "
-"Un débit binaire plus élevé signifie une vidéo de meilleure qualité et des "
+"Le débit binaire mesure la vitesse de traitement des données de votre vidéo."
+" Un débit binaire plus élevé signifie une vidéo de meilleure qualité et des "
 "fichiers plus volumineux. OpenShot vous permet de régler manuellement le "
 "débit binaire / la qualité dans l’onglet Avancé de la fenêtre d’exportation "
 "vidéo."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:177
+#: ../getting_started.rst:180
 msgid "Frame Rate"
 msgstr "Fréquence d’images"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:178
+#: ../getting_started.rst:181
 msgid ""
 "The frequency (in Hz) at which consecutive images, called frames, appear on "
 "the display is the Frame Rate. Typically, you export your video in the film "
 "standard (24fps) or the TV broadcast standard of 30fps (or 25fps in PAL). "
-"While there is not much wiggle room here, you should note that if you decide "
-"to export your video in 48fps, 50fps, or 60fps, your file size doubles."
+"While there is not much wiggle room here, you should note that if you decide"
+" to export your video in 48fps, 50fps, or 60fps, your file size doubles."
 msgstr ""
 "La fréquence (en Hz) à laquelle les images consécutives, appelées images "
 "clés, apparaissent à l’écran est la fréquence d’images. En général, vous "
@@ -451,12 +458,12 @@ msgstr ""
 "50fps ou 60fps, la taille du fichier double."
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:185
+#: ../getting_started.rst:188
 msgid "Conclusion"
 msgstr "Conclusion"
 
 # Translated with gpt-4.1-mini
-#: ../getting_started.rst:186
+#: ../getting_started.rst:189
 msgid ""
 "In conclusion, video editing is an accessible skill that can elevate your "
 "video content even if you're not a professional videographer. With the "
@@ -465,9 +472,9 @@ msgid ""
 "way to becoming a skilled video editor, remember to focus on storytelling, "
 "efficient organization, and refining your project's details. From selecting "
 "the right computer to mastering keyboard shortcuts and understanding "
-"technical aspects like codecs and resolutions, your journey in video editing "
-"can lead to polished and impactful results. As you venture into the world of "
-"video editing, keep in mind that practice, patience, and a commitment to "
+"technical aspects like codecs and resolutions, your journey in video editing"
+" can lead to polished and impactful results. As you venture into the world "
+"of video editing, keep in mind that practice, patience, and a commitment to "
 "learning are key to achieving excellence in this creative endeavor."
 msgstr ""
 "En conclusion, le montage vidéo est une compétence accessible qui peut "
@@ -477,10 +484,27 @@ msgstr ""
 "l’attention de votre public. Que vous soyez débutant ou en voie de devenir "
 "un monteur vidéo expérimenté, souvenez-vous de vous concentrer sur la "
 "narration, l’organisation efficace et le raffinement des détails de votre "
-"projet. Du choix de l’ordinateur adapté à la maîtrise des raccourcis clavier "
-"en passant par la compréhension des aspects techniques comme les codecs et "
+"projet. Du choix de l’ordinateur adapté à la maîtrise des raccourcis clavier"
+" en passant par la compréhension des aspects techniques comme les codecs et "
 "les résolutions, votre parcours en montage vidéo peut aboutir à des "
 "résultats soignés et percutants. En vous lançant dans le monde du montage "
 "vidéo, gardez à l’esprit que la pratique, la patience et l’engagement dans "
 "l’apprentissage sont essentiels pour atteindre l’excellence dans cette "
 "démarche créative."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Record more video and audio than you think you will need for your project. "
+#~ "Include video that enhances the scene, sets a mood, or tells a story. You "
+#~ "can use the extra video for smooth transitions in your project. If your "
+#~ "project requires voice overs or narration, we suggest using an external "
+#~ "application to record your microphone (since OpenShot does not include any "
+#~ "recording capabilities yet)."
+#~ msgstr ""
+#~ "Enregistrez plus de vidéo et d'audio que ce que vous pensez nécessaire pour "
+#~ "votre projet. Incluez des vidéos qui améliorent la scène, créent une "
+#~ "ambiance ou racontent une histoire. Vous pouvez utiliser ces séquences "
+#~ "supplémentaires pour des transitions fluides dans votre projet. Si votre "
+#~ "projet nécessite des voix off ou une narration, nous vous suggérons "
+#~ "d'utiliser une application externe pour enregistrer votre microphone (car "
+#~ "OpenShot ne propose pas encore de fonction d'enregistrement)."

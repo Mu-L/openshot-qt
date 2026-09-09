@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-22 12:37-0600\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -92,7 +92,7 @@ msgid ""
 msgstr "一般的なプリセット（プリセットとビデオプロファイルの組み合わせをカテゴリ別にグループ化、例：**Web** ）"
 
 # Translated with gpt-4.1-mini
-#: ../export.rst:48
+#: ../export.rst:48 ../export.rst:168
 msgid "Target"
 msgstr "ターゲット"
 
@@ -106,7 +106,7 @@ msgstr ""
 ":ref:`preset_list_ref` を参照）"
 
 # Translated with gpt-4.1-mini
-#: ../export.rst:49
+#: ../export.rst:49 ../export.rst:169
 msgid "Video Profile"
 msgstr "ビデオプロファイル"
 
@@ -470,3 +470,249 @@ msgid ""
 msgstr ""
 "オーディオエンコードに使用するビットレート。以下の形式を受け付けます：``96 kb/s``, ``128 kb/s``, ``192 kb/s`` "
 "など。"
+
+#: ../export.rst:158
+msgid "Social Media Quick Reference"
+msgstr "ソーシャルメディア クイックリファレンス"
+
+#: ../export.rst:160
+msgid ""
+"The table below shows the recommended :guilabel:`Target` and "
+":guilabel:`Video Profile` settings for common social media platforms. Select"
+" these in the **Simple** tab of the Export dialog."
+msgstr ""
+"以下の表は、一般的なソーシャルメディアプラットフォーム向けの推奨 :guilabel:`ターゲット` と :guilabel:`ビデオプロファイル` "
+"設定を示しています。エクスポートダイアログの **シンプル** タブでこれらを選択してください。"
+
+#: ../export.rst:167
+msgid "Platform"
+msgstr "プラットフォーム"
+
+#: ../export.rst:170
+msgid "Notes"
+msgstr "備考"
+
+#: ../export.rst:171
+msgid "YouTube (landscape)"
+msgstr "YouTube（横向き）"
+
+#: ../export.rst:172
+msgid "``YouTube``"
+msgstr "``YouTube``"
+
+#: ../export.rst:173 ../export.rst:189 ../export.rst:197 ../export.rst:201
+#: ../export.rst:205 ../export.rst:209
+msgid "``FHD 1080p 30 fps``"
+msgstr "``FHD 1080p 30 fps``"
+
+#: ../export.rst:174
+msgid "Use ``YouTube (4K)`` for 4K"
+msgstr "4Kの場合は ``YouTube (4K)`` を使用してください"
+
+#: ../export.rst:175
+msgid "YouTube Shorts (vertical)"
+msgstr "YouTube Shorts（縦向き）"
+
+#: ../export.rst:176
+msgid "``YouTube Shorts``"
+msgstr "``YouTube Shorts``"
+
+#: ../export.rst:177 ../export.rst:181 ../export.rst:185 ../export.rst:193
+msgid "``FHD Vertical 1080p 30 fps``"
+msgstr "``FHD 縦向き 1080p 30 fps``"
+
+#: ../export.rst:178 ../export.rst:182 ../export.rst:186 ../export.rst:194
+msgid "Up to 60 fps"
+msgstr "最大60 fps"
+
+#: ../export.rst:179
+msgid "TikTok (vertical)"
+msgstr "TikTok（縦向き）"
+
+#: ../export.rst:180
+msgid "``TikTok``"
+msgstr "``TikTok``"
+
+#: ../export.rst:183
+msgid "Instagram Reels (vertical)"
+msgstr "Instagram Reels（縦向き）"
+
+#: ../export.rst:184
+msgid "``Instagram Reels``"
+msgstr "``Instagram Reels``"
+
+#: ../export.rst:187
+msgid "Instagram (landscape/square)"
+msgstr "Instagram（横向き/正方形）"
+
+#: ../export.rst:188
+msgid "``Instagram``"
+msgstr "``Instagram``"
+
+#: ../export.rst:190
+msgid "Square (1:1) also available"
+msgstr "正方形（1:1）も利用可能"
+
+#: ../export.rst:191
+msgid "Snapchat (vertical)"
+msgstr "Snapchat（縦向き）"
+
+#: ../export.rst:192
+msgid "``Snapchat``"
+msgstr "``Snapchat``"
+
+#: ../export.rst:195
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../export.rst:196
+msgid "``Facebook``"
+msgstr "``Facebook``"
+
+#: ../export.rst:198
+msgid "Square and vertical also available"
+msgstr "正方形および縦向きも利用可能"
+
+#: ../export.rst:199
+msgid "LinkedIn (landscape)"
+msgstr "LinkedIn（横向き）"
+
+#: ../export.rst:200
+msgid "``LinkedIn``"
+msgstr "``LinkedIn``"
+
+#: ../export.rst:202
+msgid "Square and 4:5 portrait also available"
+msgstr "正方形および4:5縦向きも利用可能"
+
+#: ../export.rst:203
+msgid "Twitter / X"
+msgstr "Twitter / X"
+
+#: ../export.rst:204
+msgid "``Twitter / X``"
+msgstr "``Twitter / X``"
+
+#: ../export.rst:206
+msgid "Vertical also available"
+msgstr "縦向きも利用可能"
+
+#: ../export.rst:207
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: ../export.rst:208
+msgid "``Vimeo``"
+msgstr "``Vimeo``"
+
+#: ../export.rst:210
+msgid "Use High quality setting"
+msgstr "高品質設定を使用"
+
+#: ../export.rst:215
+msgid "Hardware-Accelerated Export"
+msgstr "ハードウェアアクセラレーションエクスポート"
+
+#: ../export.rst:217
+msgid ""
+"OpenShot supports GPU-accelerated video encoding on supported hardware, "
+"dramatically reducing export times. Hardware-accelerated targets are shown "
+"with a badge in the :guilabel:`Target` dropdown. Select the appropriate "
+"target for your hardware:"
+msgstr ""
+"OpenShot "
+"は対応ハードウェアでのGPUアクセラレーションによるビデオエンコードをサポートしており、エクスポート時間を大幅に短縮します。ハードウェアアクセラレーション対応のターゲットは"
+" :guilabel:`ターゲット` ドロップダウンにバッジ付きで表示されます。お使いのハードウェアに適したターゲットを選択してください："
+
+#: ../export.rst:225
+msgid "Target (Export Dialog)"
+msgstr "ターゲット（エクスポートダイアログ）"
+
+#: ../export.rst:225
+msgid "Badge"
+msgstr "バッジ"
+
+#: ../export.rst:225
+msgid "Requires"
+msgstr "必要条件"
+
+#: ../export.rst:227
+msgid "``MP4 (h.264 nv)``"
+msgstr "``MP4 (h.264 nv)``"
+
+#: ../export.rst:227
+msgid "NVENC"
+msgstr "NVENC"
+
+#: ../export.rst:227
+msgid "NVIDIA GPU (Kepler or newer)"
+msgstr "NVIDIA GPU（Kepler以降）"
+
+#: ../export.rst:228
+msgid "``MP4 (h.264 va)``"
+msgstr "``MP4 (h.264 va)``"
+
+#: ../export.rst:228 ../export.rst:232
+msgid "VA-API"
+msgstr "VA-API"
+
+#: ../export.rst:228
+msgid "Linux with AMD or Intel GPU (VAAPI driver)"
+msgstr "AMDまたはIntel GPU搭載のLinux（VAAPIドライバー）"
+
+#: ../export.rst:229
+msgid "``MP4 (h.264 qsv)``"
+msgstr "``MP4 (h.264 qsv)``"
+
+#: ../export.rst:229
+msgid "QSV"
+msgstr "QSV"
+
+#: ../export.rst:229
+msgid "Intel GPU with Quick Sync Video"
+msgstr "Quick Sync Video対応のIntel GPU"
+
+#: ../export.rst:230
+msgid "``MP4 (h.264 videotoolbox)``"
+msgstr "``MP4 (h.264 videotoolbox)``"
+
+#: ../export.rst:230
+msgid "VideoToolbox"
+msgstr "VideoToolbox"
+
+#: ../export.rst:230
+msgid "macOS with Apple or Intel GPU"
+msgstr "AppleまたはIntel GPU搭載のmacOS"
+
+#: ../export.rst:231
+msgid "``MP4 (h.264 dx)``"
+msgstr "``MP4 (h.264 dx)``"
+
+#: ../export.rst:231
+msgid "DirectX"
+msgstr "DirectX"
+
+#: ../export.rst:231
+msgid "Windows with DirectX-compatible GPU"
+msgstr "DirectX対応GPU搭載のWindows"
+
+#: ../export.rst:232
+msgid "``MP4 (HEVC va)``"
+msgstr "``MP4 (HEVC va)``"
+
+#: ../export.rst:232
+msgid "Linux VA-API — produces smaller HEVC files"
+msgstr "Linux VA-API — より小さいHEVCファイルを生成"
+
+#: ../export.rst:235
+msgid ""
+"MKV variants (``MKV (h.264 nv)``, ``MKV (h.264 va)``, etc.) are also "
+"available for each accelerator. If none of these targets appear or export "
+"fails, your system either lacks the required driver or the hardware encoder "
+"is not supported — fall back to the standard ``MP4 (h.264 + AAC)`` target, "
+"which uses the CPU-based ``libx264`` encoder and works on all systems."
+msgstr ""
+"各アクセラレータ向けにMKVのバリエーション（``MKV (h.264 nv)``, ``MKV (h.264 "
+"va)``など）も利用可能です。これらのターゲットが表示されないかエクスポートに失敗する場合は、システムに必要なドライバーがないかハードウェアエンコーダがサポートされていません。その場合は、CPUベースの"
+" ``libx264`` エンコーダを使用し、すべてのシステムで動作する標準の ``MP4 (h.264 + AAC)`` "
+"ターゲットに切り替えてください。"

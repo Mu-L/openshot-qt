@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-22 12:37-0600\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,20 +22,18 @@ msgstr ""
 msgid "Transitions"
 msgstr "轉場"
 
-# Translated with gpt-4.1-mini
 #: ../transitions.rst:25
 msgid ""
-"A transition is used to gradually fade (or wipe) between two clip images. In"
-" OpenShot, transitions are represented by blue, rounded rectangles on the "
-"timeline. They are automatically created when you overlap two clips, and can"
-" be added manually by dragging one onto the timeline from the "
-"**Transitions** panel. A transition must be placed on top of a clip "
-"(overlapping it), with the most common location being the beginning or end "
-"of a clip."
+"A transition is used to gradually fade (also called a **cross dissolve** or "
+"**crossfade**) or wipe between two clip images. In OpenShot, transitions are"
+" represented by blue, rounded rectangles on the timeline. They are "
+"automatically created when you overlap two clips, and can be added manually "
+"by dragging one onto the timeline from the **Transitions** panel. A "
+"transition must be placed on top of a clip (overlapping it), with the most "
+"common location being the beginning or end of a clip."
 msgstr ""
-"轉場用於在兩個剪輯影像之間逐漸淡入淡出（或擦除）。在 OpenShot "
-"中，轉場以藍色圓角矩形顯示於時間軸上。當你重疊兩個剪輯時，轉場會自動建立，也可以從 **轉場** "
-"面板拖曳手動新增。轉場必須放置於剪輯之上（重疊剪輯），最常見的位置是剪輯的開始或結束。"
+"轉場用於在兩個剪輯影像之間逐漸淡出（也稱為**交叉溶解**或**交叉淡化**）或擦除。在 OpenShot "
+"中，轉場以藍色圓角矩形顯示於時間軸上。當您重疊兩個剪輯時，轉場會自動建立，也可以從**轉場**面板拖曳至時間軸手動新增。轉場必須放置在剪輯之上（重疊剪輯），最常見的位置是在剪輯的開始或結束。"
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:31
@@ -297,13 +295,13 @@ msgid ""
 msgstr "表示轉場影像對比度的曲線，影響淡入淡出/擦除的柔和度/硬度（0 到 20）"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:109 ../transitions.rst:120
+#: ../transitions.rst:109 ../transitions.rst:124
 msgid "Duration"
 msgstr "持續時間"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:109 ../transitions.rst:110 ../transitions.rst:113
-#: ../transitions.rst:115
+#: ../transitions.rst:109 ../transitions.rst:110 ../transitions.rst:117
+#: ../transitions.rst:119
 msgid "Float"
 msgstr "浮點數"
 
@@ -313,7 +311,7 @@ msgid "The length of the transition (in seconds). Read-only property."
 msgstr "轉場的長度（以秒為單位）。唯讀屬性。"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:110 ../transitions.rst:128
+#: ../transitions.rst:110 ../transitions.rst:132
 msgid "End"
 msgstr "結束"
 
@@ -323,12 +321,12 @@ msgid "The end trimming position of the transition (in seconds)."
 msgstr "轉場結束的修剪位置（以秒為單位）。"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:111 ../transitions.rst:136
+#: ../transitions.rst:111 ../transitions.rst:140
 msgid "ID"
 msgstr "識別碼"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:111 ../transitions.rst:112
+#: ../transitions.rst:111 ../transitions.rst:116
 msgid "String"
 msgstr "字串"
 
@@ -339,74 +337,119 @@ msgid ""
 "transition. Read-only property."
 msgstr "隨機產生並分配給每個轉場的 GUID（全球唯一識別碼）。唯讀屬性。"
 
-# Translated with gpt-4.1-mini
 #: ../transitions.rst:112
+msgid "Mask: Invert"
+msgstr "遮罩：反轉"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:112 ../transitions.rst:113 ../transitions.rst:118
+msgid "Bool"
+msgstr "布林值"
+
+#: ../transitions.rst:112
+msgid ""
+"Invert the mask source so light areas become dark and dark areas become "
+"light."
+msgstr "反轉遮罩來源，使亮區變暗，暗區變亮。"
+
+#: ../transitions.rst:113
+msgid "Mask: Loop"
+msgstr "遮罩：循環"
+
+#: ../transitions.rst:113
+msgid ""
+"Loop an animated mask source when the transition is longer than the source."
+msgstr "當轉場長度超過遮罩來源時，循環播放動畫遮罩來源。"
+
+#: ../transitions.rst:114
+msgid "Mask: Source"
+msgstr "遮罩：來源"
+
+#: ../transitions.rst:114
+msgid "Reader"
+msgstr "讀取器"
+
+#: ../transitions.rst:114
+msgid ""
+"The image, image sequence, or video used as the transition's grayscale mask "
+"source."
+msgstr "用作轉場灰階遮罩來源的影像、影像序列或影片。"
+
+#: ../transitions.rst:115
+msgid "Mask: Time Mode"
+msgstr "遮罩：時間模式"
+
+#: ../transitions.rst:115
+msgid "Enum"
+msgstr "列舉"
+
+#: ../transitions.rst:115
+msgid "Controls how OpenShot maps transition time to an animated mask source."
+msgstr "控制 OpenShot 如何將轉場時間映射到動畫遮罩來源。"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:116
 msgid "Parent"
 msgstr "父項"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:112
+#: ../transitions.rst:116
 msgid ""
 "The parent object to this transition, which makes many of these keyframe "
 "values initialize to the parent value."
 msgstr "此轉場的父物件，許多關鍵影格值會初始化為父物件的值。"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:113
+#: ../transitions.rst:117
 msgid "Position"
 msgstr "位置"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:113
+#: ../transitions.rst:117
 msgid "The position of the transition on the timeline (in seconds)."
 msgstr "轉場在時間軸上的位置（以秒為單位）。"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:114
+#: ../transitions.rst:118
 msgid "Replace Image"
 msgstr "替換影像"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:114
-msgid "Bool"
-msgstr "布林值"
-
-# Translated with gpt-4.1-mini
-#: ../transitions.rst:114
+#: ../transitions.rst:118
 msgid ""
 "For debugging a problem, this property displays the transition image "
 "(instead of becoming a transparency)."
 msgstr "用於除錯，此屬性會顯示轉場影像（而非變成透明）。"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:115
+#: ../transitions.rst:119
 msgid "Start"
 msgstr "開始"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:115
+#: ../transitions.rst:119
 msgid "The start trimming position of the transition (in seconds)."
 msgstr "轉場開始的修剪位置（以秒為單位）。"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:116 ../transitions.rst:144
+#: ../transitions.rst:120 ../transitions.rst:158
 msgid "Track"
 msgstr "軌道"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:116
+#: ../transitions.rst:120
 msgid "Int"
 msgstr "整數"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:116
+#: ../transitions.rst:120
 msgid ""
 "The layer which holds the transition (higher tracks are rendered on top of "
 "lower tracks)."
 msgstr "承載轉場的圖層（較高的軌道會渲染在較低軌道之上）。"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:121
+#: ../transitions.rst:125
 msgid ""
 "The :guilabel:`Duration` property is a float value indicating the length of "
 "the transition in seconds. This is a Read-only property. This is calculated "
@@ -417,21 +460,21 @@ msgstr ""
 ":guilabel:` 開始` 和/或 :guilabel:` 結束` 屬性。"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:124
+#: ../transitions.rst:128
 msgid ""
 "**Usage Example:** Inspect the duration of a transition to ensure it fits a "
 "specific time slot in the project."
 msgstr "**使用範例：** 檢查轉場的持續時間，以確保其符合專案中特定的時間區段。"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:125
+#: ../transitions.rst:129
 msgid ""
 "**Tip:** Consider using the \"Duration\" property for transitions that need "
 "to match specific time intervals, such as dialogue or scenes."
 msgstr "**提示：** 對於需要符合特定時間區間（如對話或場景）的轉場，建議使用「持續時間」屬性。"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:129
+#: ../transitions.rst:133
 msgid ""
 "The :guilabel:`End` property defines the trimming point at the end of the "
 "transition in seconds, allowing you to control how much of the transition is"
@@ -442,21 +485,21 @@ msgstr ""
 "屬性。"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:132
+#: ../transitions.rst:136
 msgid ""
 "**Usage Example:** Trimming the end of a transition to align with another "
 "clip or trimming off unwanted sections of the transition."
 msgstr "**使用範例：** 修剪轉場結束以與其他剪輯對齊，或去除不需要的轉場部分。"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:133
+#: ../transitions.rst:137
 msgid ""
 "**Tip:** Combine the \"Start\" and \"End\" properties to precisely control "
 "the visible portion of the transition."
 msgstr "**提示：** 結合「開始」和「結束」屬性，可精確控制轉場的可見範圍。"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:137
+#: ../transitions.rst:141
 msgid ""
 "The :guilabel:`ID` property holds a randomly generated GUID (Globally Unique"
 " Identifier) assigned to each transition, ensuring its uniqueness. This is a"
@@ -466,21 +509,48 @@ msgstr ""
 "在建立轉場時分配。"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:140
+#: ../transitions.rst:144
 msgid ""
 "**Usage Example:** Referencing specific transitions within custom scripts or"
 " automation tasks."
 msgstr "**使用範例：** 在自訂腳本或自動化任務中引用特定轉場。"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:141
+#: ../transitions.rst:145
 msgid ""
 "**Tip:** While typically managed behind the scenes, understanding transition"
 " IDs can aid in advanced project customization."
 msgstr "**提示：** 雖然通常在幕後管理，了解轉場識別碼有助於進階專案自訂。"
 
+#: ../transitions.rst:148
+msgid "Mask Properties"
+msgstr "遮罩屬性"
+
+#: ../transitions.rst:149
+msgid ""
+"The :guilabel:`Mask: Source`, :guilabel:`Mask: Time Mode`, :guilabel:`Mask: "
+"Loop`, and :guilabel:`Mask: Invert` properties control the grayscale mask "
+"used by a transition. Static masks use a single image. Animated masks can "
+"use video or image sequences, with time mapping and looping options "
+"determining which source frame is used at each point in the transition."
+msgstr ""
+":guilabel:`遮罩：來源`、:guilabel:`遮罩：時間模式`、:guilabel:`遮罩：循環` 和 :guilabel:`遮罩：反轉` "
+"屬性控制轉場使用的灰階遮罩。靜態遮罩使用單一影像。動畫遮罩可以使用影片或影像序列，時間映射和循環選項決定轉場中每個時間點使用的來源影格。"
+
+#: ../transitions.rst:154
+msgid ""
+"**Usage Example:** Use :guilabel:`Mask: Invert` when the visible and hidden "
+"areas of a custom mask are reversed."
+msgstr "**使用範例：** 當自訂遮罩的可見區域與隱藏區域顛倒時，使用 :guilabel:`遮罩：反轉`。"
+
+#: ../transitions.rst:155
+msgid ""
+"**Tip:** When using an animated mask, trim the mask source carefully before "
+"enabling loop behavior."
+msgstr "**提示：** 使用動畫遮罩時，請在啟用循環行為前仔細修剪遮罩來源。"
+
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:145
+#: ../transitions.rst:159
 msgid ""
 "The :guilabel:`Track` property is an integer indicating the layer on which "
 "the transition is placed. Transitions on higher tracks are rendered above "
@@ -488,15 +558,29 @@ msgid ""
 msgstr ":guilabel:`軌道` 屬性為整數，表示轉場所在的圖層。較高軌道的轉場會渲染在較低軌道之上。"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:148
+#: ../transitions.rst:162
 msgid ""
 "**Usage Example:** Arranging transitions in different layers for creating "
 "visual depth and complexity."
 msgstr "**使用範例：** 將轉場安排在不同圖層，以創造視覺深度與複雜度。"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:149
+#: ../transitions.rst:163
 msgid ""
 "**Tip:** Use higher tracks for elements that need to appear above others, "
 "like text overlays or graphics."
 msgstr "**提示：** 對於需要顯示在其他元素之上的項目，如文字覆蓋或圖形，請使用較高的軌道。"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "A transition is used to gradually fade (or wipe) between two clip images. In"
+#~ " OpenShot, transitions are represented by blue, rounded rectangles on the "
+#~ "timeline. They are automatically created when you overlap two clips, and can"
+#~ " be added manually by dragging one onto the timeline from the "
+#~ "**Transitions** panel. A transition must be placed on top of a clip "
+#~ "(overlapping it), with the most common location being the beginning or end "
+#~ "of a clip."
+#~ msgstr ""
+#~ "轉場用於在兩個剪輯影像之間逐漸淡入淡出（或擦除）。在 OpenShot "
+#~ "中，轉場以藍色圓角矩形顯示於時間軸上。當你重疊兩個剪輯時，轉場會自動建立，也可以從 **轉場** "
+#~ "面板拖曳手動新增。轉場必須放置於剪輯之上（重疊剪輯），最常見的位置是剪輯的開始或結束。"

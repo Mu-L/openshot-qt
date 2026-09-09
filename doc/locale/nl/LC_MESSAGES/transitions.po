@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,23 +22,24 @@ msgstr ""
 msgid "Transitions"
 msgstr "Overgangen"
 
-# Translated with gpt-4.1-mini
 #: ../transitions.rst:25
 msgid ""
-"A transition is used to gradually fade (or wipe) between two clip images. In "
-"OpenShot, transitions are represented by blue, rounded rectangles on the "
-"timeline. They are automatically created when you overlap two clips, and can "
-"be added manually by dragging one onto the timeline from the **Transitions** "
-"panel. A transition must be placed on top of a clip (overlapping it), with "
-"the most common location being the beginning or end of a clip."
+"A transition is used to gradually fade (also called a **cross dissolve** or "
+"**crossfade**) or wipe between two clip images. In OpenShot, transitions are"
+" represented by blue, rounded rectangles on the timeline. They are "
+"automatically created when you overlap two clips, and can be added manually "
+"by dragging one onto the timeline from the **Transitions** panel. A "
+"transition must be placed on top of a clip (overlapping it), with the most "
+"common location being the beginning or end of a clip."
 msgstr ""
-"Een overgang wordt gebruikt om geleidelijk te vervagen (of te wissen) tussen "
-"twee clipbeelden. In OpenShot worden overgangen weergegeven als blauwe, "
-"afgeronde rechthoeken op de tijdlijn. Ze worden automatisch gemaakt wanneer "
-"je twee clips overlapt, en kunnen handmatig worden toegevoegd door er een "
-"vanuit het **Overgangen**-paneel naar de tijdlijn te slepen. Een overgang "
-"moet bovenop een clip worden geplaatst (eroverheen), meestal aan het begin "
-"of einde van een clip."
+"Een overgang wordt gebruikt om geleidelijk te vervagen (ook wel een **cross "
+"dissolve** of **crossfade** genoemd) of te wissen tussen twee clipbeelden. "
+"In OpenShot worden overgangen weergegeven als blauwe, afgeronde rechthoeken "
+"op de tijdlijn. Ze worden automatisch gemaakt wanneer je twee clips "
+"overlapt, en kunnen handmatig worden toegevoegd door er een vanaf het "
+"**Overgangen**-paneel naar de tijdlijn te slepen. Een overgang moet bovenop "
+"een clip worden geplaatst (eroverheen), waarbij de meest gebruikelijke "
+"locatie het begin of het einde van een clip is."
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:31
@@ -128,8 +129,8 @@ msgstr "Richting"
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:49
 msgid ""
-"Transitions adjust the alpha/transparency of the overlapping clip image (i."
-"e. the clip under the transition), and can either fade from opaque to "
+"Transitions adjust the alpha/transparency of the overlapping clip image "
+"(i.e. the clip under the transition), and can either fade from opaque to "
 "transparent, or transparent to opaque (does not affect the audio). Right "
 "click and choose :guilabel:`Reverse Transition` to change the direction of "
 "the fade. You can also manually adjust the **Brightness** curve, animating "
@@ -137,8 +138,8 @@ msgid ""
 msgstr ""
 "Overgangen passen de alfa/transparantie van de overlappende clipafbeelding "
 "aan (d.w.z. de clip onder de overgang) en kunnen vervagen van ondoorzichtig "
-"naar transparant, of van transparant naar ondoorzichtig (beïnvloedt de audio "
-"niet). Klik met de rechtermuisknop en kies :guilabel:`Overgang omkeren` om "
+"naar transparant, of van transparant naar ondoorzichtig (beïnvloedt de audio"
+" niet). Klik met de rechtermuisknop en kies :guilabel:`Overgang omkeren` om "
 "de richting van de vervaging te wijzigen. Je kunt ook handmatig de "
 "**Helderheid**-curve aanpassen en de visuele vervaging op elke gewenste "
 "manier animeren."
@@ -151,16 +152,16 @@ msgstr "Transparantie"
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:57
 msgid ""
-"If transitions are used on images or videos that contain transparency (*i.e. "
-"alpha channel*) this will result in the original clip disappearing abruptly "
-"(or popping out of existence), since OpenShot's transition system expects "
+"If transitions are used on images or videos that contain transparency (*i.e."
+" alpha channel*) this will result in the original clip disappearing abruptly"
+" (or popping out of existence), since OpenShot's transition system expects "
 "the 2nd clip to fully cover up the first clip. For example, if the 2nd clip "
-"does not fully cover the first clip, a transition might not be the best tool "
-"to use. Instead, you should consider adjusting the ``alpha`` property of the "
-"first clip to make it fade out where needed, see :ref:`clip_properties_ref` "
-"or :ref:`clip_presets_ref`. Alternatively, you can combine a transition and "
-"``alpha`` fade when using transparent clips to more smoothly fade between "
-"then."
+"does not fully cover the first clip, a transition might not be the best tool"
+" to use. Instead, you should consider adjusting the ``alpha`` property of "
+"the first clip to make it fade out where needed, see "
+":ref:`clip_properties_ref` or :ref:`clip_presets_ref`. Alternatively, you "
+"can combine a transition and ``alpha`` fade when using transparent clips to "
+"more smoothly fade between then."
 msgstr ""
 "Als overgangen worden gebruikt op afbeeldingen of video's die transparantie "
 "bevatten (*d.w.z. alfakanaal*), zal dit ertoe leiden dat de originele clip "
@@ -188,12 +189,12 @@ msgid ""
 "the :ref:`clips_cutting_slicing_ref` and :ref:`keyboard_shortcut_ref` "
 "sections."
 msgstr ""
-"OpenShot heeft veel eenvoudige manieren om de begin- en eindtrimposities van "
-"een overgang aan te passen (ook wel knippen of trimmen genoemd). De meest "
+"OpenShot heeft veel eenvoudige manieren om de begin- en eindtrimposities van"
+" een overgang aan te passen (ook wel knippen of trimmen genoemd). De meest "
 "gebruikelijke methode is simpelweg de linker- (of rechter) rand van de "
-"overgang vast te pakken en te slepen. Voor een complete gids over snijden en "
-"alle beschikbare sneltoetsen, zie de secties :ref:"
-"`clips_cutting_slicing_ref` en :ref:`keyboard_shortcut_ref`."
+"overgang vast te pakken en te slepen. Voor een complete gids over snijden en"
+" alle beschikbare sneltoetsen, zie de secties "
+":ref:`clips_cutting_slicing_ref` en :ref:`keyboard_shortcut_ref`."
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:71
@@ -204,14 +205,14 @@ msgstr "Masker"
 #: ../transitions.rst:72
 msgid ""
 "In video editing, masks are powerful tools that allow you to selectively "
-"display specific areas of a video clip. Similar to masking in image editing, "
-"video masks define a region where changes will be applied while leaving "
+"display specific areas of a video clip. Similar to masking in image editing,"
+" video masks define a region where changes will be applied while leaving "
 "other parts of the video unaffected."
 msgstr ""
 "In videobewerking zijn maskers krachtige hulpmiddelen waarmee je selectief "
 "specifieke gebieden van een videoclip kunt weergeven. Net als bij maskeren "
-"in beeldbewerking definiëren videomaskers een gebied waar wijzigingen worden "
-"toegepast terwijl andere delen van de video onaangetast blijven."
+"in beeldbewerking definiëren videomaskers een gebied waar wijzigingen worden"
+" toegepast terwijl andere delen van de video onaangetast blijven."
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:76
@@ -261,8 +262,8 @@ msgstr ""
 "Elke grijswaardenafbeelding kan worden gebruikt als overgang (of masker) "
 "door deze toe te voegen aan je ``~/.openshot_qt/transitions/`` map. Zorg er "
 "wel voor dat je bestand een gemakkelijk herkenbare naam heeft en start "
-"OpenShot opnieuw op. Je aangepaste overgang/masker verschijnt nu in de lijst "
-"met overgangen."
+"OpenShot opnieuw op. Je aangepaste overgang/masker verschijnt nu in de lijst"
+" met overgangen."
 
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:92
@@ -275,9 +276,9 @@ msgid ""
 "Below is a list of transition properties which can be edited, and in most "
 "cases, animated over time. To view a transition's properties, right click "
 "and choose :guilabel:`Properties`. The property editor will appear, where "
-"you can change these properties. NOTE: Pay close attention to where the play-"
-"head (i.e. red playback line) is. Key frames are automatically created at "
-"the current playback position, to help create animations."
+"you can change these properties. NOTE: Pay close attention to where the "
+"play-head (i.e. red playback line) is. Key frames are automatically created "
+"at the current playback position, to help create animations."
 msgstr ""
 "Hieronder staat een lijst met overgangseigenschappen die kunnen worden "
 "bewerkt en in de meeste gevallen in de loop van de tijd geanimeerd. Om de "
@@ -290,8 +291,8 @@ msgstr ""
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:98
 msgid ""
-"NOTE: Transitions do not affect audio, so if you are intending to fade in/"
-"out the audio volume of a clip, you must adjust the ``volume`` clip "
+"NOTE: Transitions do not affect audio, so if you are intending to fade "
+"in/out the audio volume of a clip, you must adjust the ``volume`` clip "
 "property. See :ref:`clip_properties_ref`."
 msgstr ""
 "OPMERKING: Overgangen beïnvloeden de audio niet, dus als je het audiovolume "
@@ -321,8 +322,8 @@ msgstr "Keyframe"
 # Translated with gpt-4.1-mini
 #: ../transitions.rst:107
 msgid ""
-"Curve representing the brightness of the transition image, which affects the "
-"fade/wipe (-1 to 1)"
+"Curve representing the brightness of the transition image, which affects the"
+" fade/wipe (-1 to 1)"
 msgstr ""
 "Kromme die de helderheid van de overgangsafbeelding weergeeft, wat de "
 "vervaging/veeg beïnvloedt (-1 tot 1)"
@@ -342,13 +343,13 @@ msgstr ""
 "zachtheid/sterkte van de vervaging/veeg beïnvloedt (0 tot 20)"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:109 ../transitions.rst:120
+#: ../transitions.rst:109 ../transitions.rst:124
 msgid "Duration"
 msgstr "Duur"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:109 ../transitions.rst:110 ../transitions.rst:113
-#: ../transitions.rst:115
+#: ../transitions.rst:109 ../transitions.rst:110 ../transitions.rst:117
+#: ../transitions.rst:119
 msgid "Float"
 msgstr "Kommagetal"
 
@@ -358,7 +359,7 @@ msgid "The length of the transition (in seconds). Read-only property."
 msgstr "De lengte van de overgang (in seconden). Alleen-lezen eigenschap."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:110 ../transitions.rst:128
+#: ../transitions.rst:110 ../transitions.rst:132
 msgid "End"
 msgstr "Einde"
 
@@ -368,12 +369,12 @@ msgid "The end trimming position of the transition (in seconds)."
 msgstr "De trimpositie aan het einde van de overgang (in seconden)."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:111 ../transitions.rst:136
+#: ../transitions.rst:111 ../transitions.rst:140
 msgid "ID"
 msgstr "ID"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:111 ../transitions.rst:112
+#: ../transitions.rst:111 ../transitions.rst:116
 msgid "String"
 msgstr "Tekst"
 
@@ -386,13 +387,71 @@ msgstr ""
 "Een willekeurig gegenereerde GUID (globaal unieke identificatie) toegewezen "
 "aan elke overgang. Alleen-lezen eigenschap."
 
-# Translated with gpt-4.1-mini
 #: ../transitions.rst:112
+msgid "Mask: Invert"
+msgstr "Masker: Omkeren"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:112 ../transitions.rst:113 ../transitions.rst:118
+msgid "Bool"
+msgstr "Bool"
+
+#: ../transitions.rst:112
+msgid ""
+"Invert the mask source so light areas become dark and dark areas become "
+"light."
+msgstr ""
+"Keer de maskerkleur om zodat lichte gebieden donker worden en donkere "
+"gebieden licht."
+
+#: ../transitions.rst:113
+msgid "Mask: Loop"
+msgstr "Masker: Herhalen"
+
+#: ../transitions.rst:113
+msgid ""
+"Loop an animated mask source when the transition is longer than the source."
+msgstr ""
+"Herhaal een geanimeerde maskerkleur wanneer de overgang langer is dan de "
+"bron."
+
+#: ../transitions.rst:114
+msgid "Mask: Source"
+msgstr "Masker: Bron"
+
+#: ../transitions.rst:114
+msgid "Reader"
+msgstr "Lezer"
+
+#: ../transitions.rst:114
+msgid ""
+"The image, image sequence, or video used as the transition's grayscale mask "
+"source."
+msgstr ""
+"De afbeelding, afbeeldingsreeks of video die wordt gebruikt als de "
+"grijswaardenmaskerbron van de overgang."
+
+#: ../transitions.rst:115
+msgid "Mask: Time Mode"
+msgstr "Masker: Tijdmodus"
+
+#: ../transitions.rst:115
+msgid "Enum"
+msgstr "Enum"
+
+#: ../transitions.rst:115
+msgid "Controls how OpenShot maps transition time to an animated mask source."
+msgstr ""
+"Bepaalt hoe OpenShot de overgangstijd koppelt aan een geanimeerde "
+"maskerkleurbron."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:116
 msgid "Parent"
 msgstr "Ouder"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:112
+#: ../transitions.rst:116
 msgid ""
 "The parent object to this transition, which makes many of these keyframe "
 "values initialize to the parent value."
@@ -401,27 +460,22 @@ msgstr ""
 "waarden worden geïnitialiseerd met de waarde van de ouder."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:113
+#: ../transitions.rst:117
 msgid "Position"
 msgstr "Positie"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:113
+#: ../transitions.rst:117
 msgid "The position of the transition on the timeline (in seconds)."
 msgstr "De positie van de overgang op de tijdlijn (in seconden)."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:114
+#: ../transitions.rst:118
 msgid "Replace Image"
 msgstr "Afbeelding vervangen"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:114
-msgid "Bool"
-msgstr "Bool"
-
-# Translated with gpt-4.1-mini
-#: ../transitions.rst:114
+#: ../transitions.rst:118
 msgid ""
 "For debugging a problem, this property displays the transition image "
 "(instead of becoming a transparency)."
@@ -430,27 +484,27 @@ msgstr ""
 "overgangsafbeelding (in plaats van transparant te worden)."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:115
+#: ../transitions.rst:119
 msgid "Start"
 msgstr "Start"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:115
+#: ../transitions.rst:119
 msgid "The start trimming position of the transition (in seconds)."
 msgstr "De trimpositie aan het begin van de overgang (in seconden)."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:116 ../transitions.rst:144
+#: ../transitions.rst:120 ../transitions.rst:158
 msgid "Track"
 msgstr "Spoor"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:116
+#: ../transitions.rst:120
 msgid "Int"
 msgstr "Geheel getal"
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:116
+#: ../transitions.rst:120
 msgid ""
 "The layer which holds the transition (higher tracks are rendered on top of "
 "lower tracks)."
@@ -459,20 +513,20 @@ msgstr ""
 "sporen weergegeven)."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:121
+#: ../transitions.rst:125
 msgid ""
 "The :guilabel:`Duration` property is a float value indicating the length of "
 "the transition in seconds. This is a Read-only property. This is calculated "
-"by: End - Start. To modify duration, you must edit the :guilabel:`Start` and/"
-"or :guilabel:`End` transition properties."
+"by: End - Start. To modify duration, you must edit the :guilabel:`Start` "
+"and/or :guilabel:`End` transition properties."
 msgstr ""
 "De :guilabel:`Duur` eigenschap is een kommagetal dat de lengte van de "
-"overgang in seconden aangeeft. Dit is een alleen-lezen eigenschap. Dit wordt "
-"berekend als: Einde - Start. Om de duur te wijzigen, moet u de :guilabel:"
-"`Start` en/of :guilabel:`Einde` overgangseigenschappen aanpassen."
+"overgang in seconden aangeeft. Dit is een alleen-lezen eigenschap. Dit wordt"
+" berekend als: Einde - Start. Om de duur te wijzigen, moet u de "
+":guilabel:`Start` en/of :guilabel:`Einde` overgangseigenschappen aanpassen."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:124
+#: ../transitions.rst:128
 msgid ""
 "**Usage Example:** Inspect the duration of a transition to ensure it fits a "
 "specific time slot in the project."
@@ -481,29 +535,29 @@ msgstr ""
 "een specifieke tijdsperiode van het project past."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:125
+#: ../transitions.rst:129
 msgid ""
 "**Tip:** Consider using the \"Duration\" property for transitions that need "
 "to match specific time intervals, such as dialogue or scenes."
 msgstr ""
-"**Tip:** Overweeg het gebruik van de \"Duur\" eigenschap voor overgangen die "
-"moeten passen bij specifieke tijdsintervallen, zoals dialogen of scènes."
+"**Tip:** Overweeg het gebruik van de \"Duur\" eigenschap voor overgangen die"
+" moeten passen bij specifieke tijdsintervallen, zoals dialogen of scènes."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:129
+#: ../transitions.rst:133
 msgid ""
 "The :guilabel:`End` property defines the trimming point at the end of the "
-"transition in seconds, allowing you to control how much of the transition is "
-"visible in the timeline. Changing this property will impact the :guilabel:"
-"`Duration` transition property."
+"transition in seconds, allowing you to control how much of the transition is"
+" visible in the timeline. Changing this property will impact the "
+":guilabel:`Duration` transition property."
 msgstr ""
 "De :guilabel:`Einde` eigenschap bepaalt het trimmpunt aan het einde van de "
 "overgang in seconden, waarmee u kunt regelen hoeveel van de overgang "
-"zichtbaar is op de tijdlijn. Het wijzigen van deze eigenschap beïnvloedt de :"
-"guilabel:`Duur` eigenschap van de overgang."
+"zichtbaar is op de tijdlijn. Het wijzigen van deze eigenschap beïnvloedt de "
+":guilabel:`Duur` eigenschap van de overgang."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:132
+#: ../transitions.rst:136
 msgid ""
 "**Usage Example:** Trimming the end of a transition to align with another "
 "clip or trimming off unwanted sections of the transition."
@@ -512,7 +566,7 @@ msgstr ""
 "andere clip of ongewenste delen van de overgang verwijderen."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:133
+#: ../transitions.rst:137
 msgid ""
 "**Tip:** Combine the \"Start\" and \"End\" properties to precisely control "
 "the visible portion of the transition."
@@ -521,11 +575,11 @@ msgstr ""
 "gedeelte van de overgang nauwkeurig te regelen."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:137
+#: ../transitions.rst:141
 msgid ""
-"The :guilabel:`ID` property holds a randomly generated GUID (Globally Unique "
-"Identifier) assigned to each transition, ensuring its uniqueness. This is a "
-"Read-only property, and assigned by OpenShot when a transition is created."
+"The :guilabel:`ID` property holds a randomly generated GUID (Globally Unique"
+" Identifier) assigned to each transition, ensuring its uniqueness. This is a"
+" Read-only property, and assigned by OpenShot when a transition is created."
 msgstr ""
 "De :guilabel:`ID` eigenschap bevat een willekeurig gegenereerde GUID "
 "(Globaal Unieke Identificatie) die aan elke overgang is toegewezen, wat de "
@@ -533,25 +587,60 @@ msgstr ""
 "OpenShot bij het aanmaken van een overgang."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:140
+#: ../transitions.rst:144
 msgid ""
-"**Usage Example:** Referencing specific transitions within custom scripts or "
-"automation tasks."
+"**Usage Example:** Referencing specific transitions within custom scripts or"
+" automation tasks."
 msgstr ""
 "**Voorbeeld:** Verwijzen naar specifieke overgangen binnen aangepaste "
 "scripts of automatiseringstaken."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:141
+#: ../transitions.rst:145
 msgid ""
-"**Tip:** While typically managed behind the scenes, understanding transition "
-"IDs can aid in advanced project customization."
+"**Tip:** While typically managed behind the scenes, understanding transition"
+" IDs can aid in advanced project customization."
 msgstr ""
 "**Tip:** Hoewel meestal achter de schermen beheerd, kan het begrijpen van "
 "overgangs-ID's helpen bij geavanceerde projectaanpassingen."
 
+#: ../transitions.rst:148
+msgid "Mask Properties"
+msgstr "Maskereigenschappen"
+
+#: ../transitions.rst:149
+msgid ""
+"The :guilabel:`Mask: Source`, :guilabel:`Mask: Time Mode`, :guilabel:`Mask: "
+"Loop`, and :guilabel:`Mask: Invert` properties control the grayscale mask "
+"used by a transition. Static masks use a single image. Animated masks can "
+"use video or image sequences, with time mapping and looping options "
+"determining which source frame is used at each point in the transition."
+msgstr ""
+"De eigenschappen :guilabel:`Masker: Bron`, :guilabel:`Masker: Tijdmodus`, "
+":guilabel:`Masker: Herhalen` en :guilabel:`Masker: Omkeren` regelen het "
+"grijswaardenmasker dat door een overgang wordt gebruikt. Statische maskers "
+"gebruiken een enkele afbeelding. Geanimeerde maskers kunnen video of "
+"afbeeldingsreeksen gebruiken, waarbij tijdsafstemming en herhaalopties "
+"bepalen welk bronframe op elk punt in de overgang wordt gebruikt."
+
+#: ../transitions.rst:154
+msgid ""
+"**Usage Example:** Use :guilabel:`Mask: Invert` when the visible and hidden "
+"areas of a custom mask are reversed."
+msgstr ""
+"**Voorbeeld:** Gebruik :guilabel:`Masker: Omkeren` wanneer de zichtbare en "
+"verborgen gebieden van een aangepast masker omgekeerd zijn."
+
+#: ../transitions.rst:155
+msgid ""
+"**Tip:** When using an animated mask, trim the mask source carefully before "
+"enabling loop behavior."
+msgstr ""
+"**Tip:** Wanneer je een geanimeerd masker gebruikt, knip de maskerkleurbron "
+"zorgvuldig bij voordat je de herhaalfunctie inschakelt."
+
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:145
+#: ../transitions.rst:159
 msgid ""
 "The :guilabel:`Track` property is an integer indicating the layer on which "
 "the transition is placed. Transitions on higher tracks are rendered above "
@@ -562,7 +651,7 @@ msgstr ""
 "die op lagere sporen weergegeven."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:148
+#: ../transitions.rst:162
 msgid ""
 "**Usage Example:** Arranging transitions in different layers for creating "
 "visual depth and complexity."
@@ -571,10 +660,28 @@ msgstr ""
 "diepte en complexiteit te creëren."
 
 # Translated with gpt-4.1-mini
-#: ../transitions.rst:149
+#: ../transitions.rst:163
 msgid ""
 "**Tip:** Use higher tracks for elements that need to appear above others, "
 "like text overlays or graphics."
 msgstr ""
 "**Tip:** Gebruik hogere sporen voor elementen die boven andere moeten "
 "verschijnen, zoals tekstoverlays of grafische elementen."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "A transition is used to gradually fade (or wipe) between two clip images. In"
+#~ " OpenShot, transitions are represented by blue, rounded rectangles on the "
+#~ "timeline. They are automatically created when you overlap two clips, and can"
+#~ " be added manually by dragging one onto the timeline from the "
+#~ "**Transitions** panel. A transition must be placed on top of a clip "
+#~ "(overlapping it), with the most common location being the beginning or end "
+#~ "of a clip."
+#~ msgstr ""
+#~ "Een overgang wordt gebruikt om geleidelijk te vervagen (of te wissen) tussen"
+#~ " twee clipbeelden. In OpenShot worden overgangen weergegeven als blauwe, "
+#~ "afgeronde rechthoeken op de tijdlijn. Ze worden automatisch gemaakt wanneer "
+#~ "je twee clips overlapt, en kunnen handmatig worden toegevoegd door er een "
+#~ "vanuit het **Overgangen**-paneel naar de tijdlijn te slepen. Een overgang "
+#~ "moet bovenop een clip worden geplaatst (eroverheen), meestal aan het begin "
+#~ "of einde van een clip."

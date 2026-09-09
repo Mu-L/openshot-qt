@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,39 +24,38 @@ msgstr ""
 msgid "Text & Titles"
 msgstr "متن و عناوین"
 
-# Translated with gpt-4.1-mini
 #: ../titles.rst:25
 msgid ""
-"Adding text and titles is an important aspect of video editing, and OpenShot "
-"comes with an easy-to-use Title Editor. Use the Title menu (located in the "
-"main menu of OpenShot) to launch the Title Editor. You can also use the "
-"keyboard shortcut :kbd:`Ctrl+T`."
+"Adding text overlays, lower thirds, and titles is an important aspect of "
+"video editing, and OpenShot comes with an easy-to-use Title Editor. Use the "
+"Title menu (located in the main menu of OpenShot) to launch the Title "
+"Editor. You can also use the keyboard shortcut :kbd:`Ctrl+T`."
 msgstr ""
-"افزودن متن و عناوین بخش مهمی از ویرایش ویدیو است و OpenShot دارای ویرایشگر "
-"عنوان آسان برای استفاده است. از منوی Title (واقع در منوی اصلی OpenShot) برای "
-"باز کردن ویرایشگر عنوان استفاده کنید. همچنین می‌توانید از کلید میانبر "
-"صفحه‌کلید :kbd:`Ctrl+T` استفاده کنید."
+"افزودن متن‌های روی تصویر، بخش‌های پایین صفحه و عناوین، بخش مهمی از ویرایش "
+"ویدیو است و OpenShot دارای یک ویرایشگر عنوان آسان برای استفاده است. از منوی "
+"Title (واقع در منوی اصلی OpenShot) برای باز کردن ویرایشگر عنوان استفاده "
+"کنید. همچنین می‌توانید از کلید میانبر صفحه‌کلید :kbd:`Ctrl+T` استفاده کنید."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:29
 msgid ""
-"Titles are simply vector image files with transparent backgrounds (``*."
-"svg``). OpenShot comes with many easy-to-use templates, but you can also "
-"create your own or import new templates into OpenShot. These templates allow "
-"you to quickly change the text, font, size, color, and background color. You "
-"can also launch an advanced, external SVG editor for further customizations "
-"(if needed). Once the title is added to your project, drag and drop the "
-"title on a Track above a video clip. The transparent background will allow "
-"the video below to appear behind the text."
+"Titles are simply vector image files with transparent backgrounds "
+"(``*.svg``). OpenShot comes with many easy-to-use templates, but you can "
+"also create your own or import new templates into OpenShot. These templates "
+"allow you to quickly change the text, font, size, color, and background "
+"color. You can also launch an advanced, external SVG editor for further "
+"customizations (if needed). Once the title is added to your project, drag "
+"and drop the title on a Track above a video clip. The transparent background"
+" will allow the video below to appear behind the text."
 msgstr ""
-"عناوین صرفاً فایل‌های تصویر برداری با پس‌زمینه شفاف (``*.svg``) هستند. OpenShot "
-"با قالب‌های متعددی که استفاده از آن‌ها آسان است ارائه می‌شود، اما شما همچنین "
-"می‌توانید قالب‌های خود را ایجاد یا قالب‌های جدید را به OpenShot وارد کنید. این "
-"قالب‌ها به شما امکان می‌دهند به سرعت متن، قلم، اندازه، رنگ و رنگ پس‌زمینه را "
-"تغییر دهید. همچنین می‌توانید یک ویرایشگر SVG پیشرفته و خارجی را برای "
-"سفارشی‌سازی‌های بیشتر (در صورت نیاز) باز کنید. پس از افزودن عنوان به پروژه "
-"خود، عنوان را روی یک ترک بالای کلیپ ویدیویی بکشید و رها کنید. پس‌زمینه شفاف "
-"اجازه می‌دهد ویدیوی زیر متن دیده شود."
+"عناوین صرفاً فایل‌های تصویر برداری با پس‌زمینه شفاف (``*.svg``) هستند. "
+"OpenShot با قالب‌های متعددی که استفاده از آن‌ها آسان است ارائه می‌شود، اما "
+"شما همچنین می‌توانید قالب‌های خود را ایجاد یا قالب‌های جدید را به OpenShot "
+"وارد کنید. این قالب‌ها به شما امکان می‌دهند به سرعت متن، قلم، اندازه، رنگ و "
+"رنگ پس‌زمینه را تغییر دهید. همچنین می‌توانید یک ویرایشگر SVG پیشرفته و خارجی"
+" را برای سفارشی‌سازی‌های بیشتر (در صورت نیاز) باز کنید. پس از افزودن عنوان "
+"به پروژه خود، عنوان را روی یک ترک بالای کلیپ ویدیویی بکشید و رها کنید. "
+"پس‌زمینه شفاف اجازه می‌دهد ویدیوی زیر متن دیده شود."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:36
@@ -124,8 +123,8 @@ msgid ""
 "Change the text, font, size, colors, or edit in an advanced, external SVG "
 "image editor (such as Inkscape)"
 msgstr ""
-"متن، قلم، اندازه، رنگ‌ها را تغییر دهید یا در یک ویرایشگر تصویر SVG پیشرفته و "
-"خارجی (مانند Inkscape) ویرایش کنید"
+"متن، قلم، اندازه، رنگ‌ها را تغییر دهید یا در یک ویرایشگر تصویر SVG پیشرفته و"
+" خارجی (مانند Inkscape) ویرایش کنید"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:49 ../titles.rst:190
@@ -154,8 +153,8 @@ msgid ""
 "enhance your video projects. Below is a table listing the available titles "
 "and their descriptions:"
 msgstr ""
-"OpenShot شامل انواع قالب‌های عنوان برداری است که می‌توانند پروژه‌های ویدیویی "
-"شما را بهبود بخشند. در زیر جدولی از عناوین موجود و توضیحات آن‌ها آمده است:"
+"OpenShot شامل انواع قالب‌های عنوان برداری است که می‌توانند پروژه‌های ویدیویی"
+" شما را بهبود بخشند. در زیر جدولی از عناوین موجود و توضیحات آن‌ها آمده است:"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:62
@@ -414,7 +413,8 @@ msgstr "کادر خاکستری ۱"
 # Translated with gpt-4.1-mini
 #: ../titles.rst:113
 msgid ""
-"A simple gray box for highlighting text (one line of text, top-left aligned)."
+"A simple gray box for highlighting text (one line of text, top-left "
+"aligned)."
 msgstr "یک کادر خاکستری ساده برای برجسته کردن متن (یک خط متن، چپ‌بالا چین)."
 
 # Translated with gpt-4.1-mini
@@ -425,7 +425,8 @@ msgstr "کادر خاکستری ۲"
 # Translated with gpt-4.1-mini
 #: ../titles.rst:115
 msgid ""
-"A simple gray box for highlighting text (two lins of text, top-left aligned)."
+"A simple gray box for highlighting text (two lins of text, top-left "
+"aligned)."
 msgstr "یک کادر خاکستری ساده برای برجسته کردن متن (دو خط متن، چپ‌بالا چین)."
 
 # Translated with gpt-4.1-mini
@@ -690,19 +691,19 @@ msgstr "قالب‌های عنوان سفارشی"
 # Translated with gpt-4.1-mini
 #: ../titles.rst:168
 msgid ""
-"OpenShot can use any vector SVG image file as a custom title template in "
-"the :guilabel:`Title Editor` dialog. Just add an SVG image file to your ``~/."
-"openshot_qt/title_templates/`` folder, and it will appear the next time you "
-"launch the :guilabel:`Title Editor` dialog. You can also right click on any "
-"SVG files in your **Project Files** panel, and choose **Edit Title** or "
-"**Duplicate Title**."
+"OpenShot can use any vector SVG image file as a custom title template in the"
+" :guilabel:`Title Editor` dialog. Just add an SVG image file to your "
+"``~/.openshot_qt/title_templates/`` folder, and it will appear the next time"
+" you launch the :guilabel:`Title Editor` dialog. You can also right click on"
+" any SVG files in your **Project Files** panel, and choose **Edit Title** or"
+" **Duplicate Title**."
 msgstr ""
 "OpenShot می‌تواند از هر فایل تصویر برداری SVG به عنوان قالب عنوان سفارشی در "
 "پنجره :guilabel:`ویرایشگر عنوان` استفاده کند. کافی است یک فایل SVG را در "
-"پوشه ``~/.openshot_qt/title_templates/`` اضافه کنید تا در دفعه بعد که پنجره :"
-"guilabel:`ویرایشگر عنوان` را باز می‌کنید ظاهر شود. همچنین می‌توانید روی هر "
-"فایل SVG در پنل **فایل‌های پروژه** راست‌کلیک کرده و گزینه‌های **ویرایش عنوان** "
-"یا **تکثیر عنوان** را انتخاب کنید."
+"پوشه ``~/.openshot_qt/title_templates/`` اضافه کنید تا در دفعه بعد که پنجره "
+":guilabel:`ویرایشگر عنوان` را باز می‌کنید ظاهر شود. همچنین می‌توانید روی هر "
+"فایل SVG در پنل **فایل‌های پروژه** راست‌کلیک کرده و گزینه‌های **ویرایش "
+"عنوان** یا **تکثیر عنوان** را انتخاب کنید."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:172
@@ -727,11 +728,11 @@ msgid ""
 "**Ctrl+B**. Note: Blender must be installed and configured before this "
 "feature will work in OpenShot. See :ref:`blender_install_ref`."
 msgstr ""
-"افزودن یک عنوان متحرک سه‌بعدی به همان سادگی است، با استفاده از پنجره **عنوان "
-"متحرک**. از منوی عنوان (در منوی اصلی OpenShot) برای باز کردن ویرایشگر عنوان "
-"متحرک استفاده کنید. همچنین می‌توانید از کلید میانبر **Ctrl+B** استفاده کنید. "
-"توجه: برای استفاده از این ویژگی، Blender باید نصب و پیکربندی شده باشد. به :"
-"ref:`blender_install_ref` مراجعه کنید."
+"افزودن یک عنوان متحرک سه‌بعدی به همان سادگی است، با استفاده از پنجره **عنوان"
+" متحرک**. از منوی عنوان (در منوی اصلی OpenShot) برای باز کردن ویرایشگر عنوان"
+" متحرک استفاده کنید. همچنین می‌توانید از کلید میانبر **Ctrl+B** استفاده "
+"کنید. توجه: برای استفاده از این ویژگی، Blender باید نصب و پیکربندی شده باشد."
+" به :ref:`blender_install_ref` مراجعه کنید."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:187
@@ -761,13 +762,13 @@ msgstr "قالب‌های متحرک سه‌بعدی"
 # Translated with gpt-4.1-mini
 #: ../titles.rst:196
 msgid ""
-"OpenShot includes a variety of 3D animated templates that can be used to add "
-"dynamic and engaging elements to your video projects. Below is a table "
+"OpenShot includes a variety of 3D animated templates that can be used to add"
+" dynamic and engaging elements to your video projects. Below is a table "
 "listing the available templates and their descriptions:"
 msgstr ""
-"OpenShot شامل مجموعه‌ای از قالب‌های متحرک سه‌بعدی است که می‌توانند عناصر پویا و "
-"جذابی به پروژه‌های ویدیویی شما اضافه کنند. در زیر جدولی از قالب‌های موجود و "
-"توضیحات آن‌ها آمده است:"
+"OpenShot شامل مجموعه‌ای از قالب‌های متحرک سه‌بعدی است که می‌توانند عناصر "
+"پویا و جذابی به پروژه‌های ویدیویی شما اضافه کنند. در زیر جدولی از قالب‌های "
+"موجود و توضیحات آن‌ها آمده است:"
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:203
@@ -814,8 +815,8 @@ msgstr "متن حل‌شونده"
 # Translated with gpt-4.1-mini
 #: ../titles.rst:212
 msgid ""
-"A dissolve effect that turns any text into particles which get blown away by "
-"the wind."
+"A dissolve effect that turns any text into particles which get blown away by"
+" the wind."
 msgstr ""
 "افکت حل‌شدن که هر متنی را به ذرات تبدیل می‌کند که توسط باد پراکنده می‌شوند."
 
@@ -910,7 +911,8 @@ msgstr "خم‌های نئون"
 # Translated with gpt-4.1-mini
 #: ../titles.rst:230
 msgid "An animation with neon curves, creating a futuristic and vibrant look."
-msgstr "یک انیمیشن با خم‌های نئون که ظاهری آینده‌نگر و پرجنب‌وجوش ایجاد می‌کند."
+msgstr ""
+"یک انیمیشن با خم‌های نئون که ظاهری آینده‌نگر و پرجنب‌وجوش ایجاد می‌کند."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:231
@@ -965,7 +967,8 @@ msgstr "معرفی فیلم فضایی"
 # Translated with gpt-4.1-mini
 #: ../titles.rst:240
 msgid "A cinematic space-themed intro, ideal for epic or sci-fi projects."
-msgstr "یک معرفی سینمایی با تم فضایی، مناسب برای پروژه‌های حماسی یا علمی-تخیلی."
+msgstr ""
+"یک معرفی سینمایی با تم فضایی، مناسب برای پروژه‌های حماسی یا علمی-تخیلی."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:241
@@ -1005,8 +1008,8 @@ msgid ""
 msgstr ""
 "شما می‌توانید متن و عناوین را در برنامه‌های مختلفی مانند Blender، Inkscape، "
 "Krita، Gimp و غیره ایجاد کنید... قبل از اینکه بتوانید متن را به OpenShot "
-"وارد کنید، ابتدا باید متن را از این برنامه‌ها به فرمت تصویری سازگاری که دارای "
-"**پس‌زمینه شفاف** و کانال **آلفا** باشد، صادر کنید."
+"وارد کنید، ابتدا باید متن را از این برنامه‌ها به فرمت تصویری سازگاری که "
+"دارای **پس‌زمینه شفاف** و کانال **آلفا** باشد، صادر کنید."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:253
@@ -1019,21 +1022,21 @@ msgid ""
 "to allow the text to not cover up videos and images on the timeline below "
 "them."
 msgstr ""
-"فرمت ``SVG`` انتخاب بسیار خوبی برای گرافیک‌های برداری (خم‌ها، اشکال، افکت‌های "
-"متنی و مسیرها) است، اما همیشه ۱۰۰٪ با OpenShot سازگار نیست. بنابراین، ما "
-"استفاده از فرمت ``PNG`` را توصیه می‌کنیم که یک فرمت تصویری مبتنی بر وب عالی "
-"است و می‌تواند پس‌زمینه شفاف و کانال آلفا را شامل شود. پس‌زمینه شفاف و کانال "
-"آلفا برای OpenShot لازم است تا متن روی ویدئوها و تصاویر در تایم‌لاین زیر آن‌ها "
-"را نپوشاند."
+"فرمت ``SVG`` انتخاب بسیار خوبی برای گرافیک‌های برداری (خم‌ها، اشکال، "
+"افکت‌های متنی و مسیرها) است، اما همیشه ۱۰۰٪ با OpenShot سازگار نیست. "
+"بنابراین، ما استفاده از فرمت ``PNG`` را توصیه می‌کنیم که یک فرمت تصویری "
+"مبتنی بر وب عالی است و می‌تواند پس‌زمینه شفاف و کانال آلفا را شامل شود. "
+"پس‌زمینه شفاف و کانال آلفا برای OpenShot لازم است تا متن روی ویدئوها و "
+"تصاویر در تایم‌لاین زیر آن‌ها را نپوشاند."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:258
 msgid ""
-"For information on importing animated sequences into OpenShot, please see :"
-"ref:`animation_image_seq_ref`."
+"For information on importing animated sequences into OpenShot, please see "
+":ref:`animation_image_seq_ref`."
 msgstr ""
-"برای اطلاعات درباره وارد کردن دنباله‌های انیمیشنی به OpenShot، لطفاً به :ref:"
-"`animation_image_seq_ref` مراجعه کنید."
+"برای اطلاعات درباره وارد کردن دنباله‌های انیمیشنی به OpenShot، لطفاً به "
+":ref:`animation_image_seq_ref` مراجعه کنید."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:261
@@ -1044,15 +1047,15 @@ msgstr "نصب Inkscape"
 #: ../titles.rst:263
 msgid ""
 "The :guilabel:`Advanced Editor` feature in the :guilabel:`Title Editor` "
-"dialog requires the latest version of Inkscape (https://inkscape.org/"
-"release/) be installed and the OpenShot **Preferences** updated with the "
-"correct path to the Inkscape executable. See the :ref:"
-"`preferences_general_ref` tab in Preferences."
+"dialog requires the latest version of Inkscape "
+"(https://inkscape.org/release/) be installed and the OpenShot "
+"**Preferences** updated with the correct path to the Inkscape executable. "
+"See the :ref:`preferences_general_ref` tab in Preferences."
 msgstr ""
 "ویژگی :guilabel:`ویرایشگر پیشرفته` در پنجره :guilabel:`ویرایشگر عنوان` "
-"نیازمند نصب آخرین نسخه Inkscape (https://inkscape.org/release/) و به‌روزرسانی "
-"مسیر صحیح فایل اجرایی Inkscape در **تنظیمات** OpenShot است. به برگه :ref:"
-"`preferences_general_ref` در تنظیمات مراجعه کنید."
+"نیازمند نصب آخرین نسخه Inkscape (https://inkscape.org/release/) و "
+"به‌روزرسانی مسیر صحیح فایل اجرایی Inkscape در **تنظیمات** OpenShot است. به "
+"برگه :ref:`preferences_general_ref` در تنظیمات مراجعه کنید."
 
 # Translated with gpt-4.1-mini
 #: ../titles.rst:270
@@ -1065,9 +1068,9 @@ msgid ""
 "The :guilabel:`Animated Title` feature in OpenShot requires the latest "
 "version of Blender (https://www.blender.org/download/) be installed and the "
 "OpenShot **Preferences** updated with the correct path to the Blender "
-"executable. See the :ref:`preferences_general_ref` tab in Preferences. NOTE: "
-"The minimum supported version of Blender is 5.0+. Older versions of Blender "
-"are not compatible with OpenShot Video Editor."
+"executable. See the :ref:`preferences_general_ref` tab in Preferences. NOTE:"
+" The minimum supported version of Blender is 5.0+. Older versions of Blender"
+" are not compatible with OpenShot Video Editor."
 msgstr ""
 "ویژگی :guilabel:`عنوان متحرک` در OpenShot نیازمند نصب آخرین نسخه Blender "
 "(https://www.blender.org/download/) و به‌روزرسانی مسیر صحیح فایل اجرایی "
@@ -1085,3 +1088,15 @@ msgstr ""
 "برای راهنمایی دقیق درباره نحوه نصب این وابستگی‌ها، به `راهنمای Blender و "
 "Inkscape <https://github.com/OpenShot/openshot-qt/wiki/Blender-and-Inkscape-"
 "Guide>`_ مراجعه کنید."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Adding text and titles is an important aspect of video editing, and OpenShot"
+#~ " comes with an easy-to-use Title Editor. Use the Title menu (located in the "
+#~ "main menu of OpenShot) to launch the Title Editor. You can also use the "
+#~ "keyboard shortcut :kbd:`Ctrl+T`."
+#~ msgstr ""
+#~ "افزودن متن و عناوین بخش مهمی از ویرایش ویدیو است و OpenShot دارای ویرایشگر "
+#~ "عنوان آسان برای استفاده است. از منوی Title (واقع در منوی اصلی OpenShot) برای"
+#~ " باز کردن ویرایشگر عنوان استفاده کنید. همچنین می‌توانید از کلید میانبر "
+#~ "صفحه‌کلید :kbd:`Ctrl+T` استفاده کنید."

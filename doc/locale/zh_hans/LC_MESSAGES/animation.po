@@ -9,13 +9,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_hans\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
 
@@ -43,22 +43,22 @@ msgid "Overview"
 msgstr "概述"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:38 ../animation.rst:131
+#: ../animation.rst:38 ../animation.rst:141
 msgid "#"
 msgstr "编号"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:38 ../animation.rst:131
+#: ../animation.rst:38 ../animation.rst:141
 msgid "Name"
 msgstr "名称"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:38 ../animation.rst:65 ../animation.rst:131
+#: ../animation.rst:38 ../animation.rst:65 ../animation.rst:141
 msgid "Description"
 msgstr "描述"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:40 ../animation.rst:41 ../animation.rst:133
+#: ../animation.rst:40 ../animation.rst:41 ../animation.rst:143
 msgid "1"
 msgstr "1"
 
@@ -84,7 +84,7 @@ msgid ""
 msgstr "当播放头位于插值点时，该属性显示为蓝色"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:42 ../animation.rst:134
+#: ../animation.rst:42 ../animation.rst:144
 msgid "2"
 msgstr "2"
 
@@ -249,12 +249,12 @@ msgid ""
 "and the :guilabel:`Timing` tool."
 msgstr "调整剪辑播放速度可通过 :guilabel:`时间` 属性和 :guilabel:` 时间控制` 工具完成。"
 
-# Translated with gpt-4.1-mini
 #: ../animation.rst:80
 msgid ""
-"The :guilabel:`Time` menu offers presets such as normal, fast, slow, freeze,"
-" and reverse. See details in :ref:`clip_time_ref`."
-msgstr ":guilabel:`时间` 菜单提供正常、快速、慢速、冻结和反向等预设。详情见 :ref:`clip_time_ref` 。"
+"The :guilabel:`Speed` menu offers presets such as normal, fast, slow, "
+"freeze, reverse, and repeat. See details in :ref:`clip_time_ref`."
+msgstr ""
+":guilabel:`Speed` 菜单提供了正常、快速、慢速、冻结、倒放和重复等预设。详情请参见 :ref:`clip_time_ref`。"
 
 # Translated with gpt-4.1-mini
 #: ../animation.rst:81
@@ -272,11 +272,10 @@ msgstr ""
 msgid "Repeating"
 msgstr "重复播放"
 
-# Translated with gpt-4.1-mini
 #: ../animation.rst:87
 msgid ""
-"To play a clip multiple times, use :guilabel:`Right-Click → Time → Repeat`."
-msgstr "要多次播放剪辑，请使用 :guilabel:`右键点击 → 时间 → 重复` 。"
+"To play a clip multiple times, use :guilabel:`Right-Click → Speed → Repeat`."
+msgstr "要多次播放剪辑，请使用 :guilabel:`右键点击 → Speed → Repeat`。"
 
 # Translated with gpt-4.1-mini
 #: ../animation.rst:89
@@ -331,13 +330,32 @@ msgid ""
 "frame."
 msgstr "要选择曲线预设，请右键点击关键帧旁的小图表图标。"
 
-# Translated with gpt-4.1-mini
 #: ../animation.rst:110
+msgid "Ken Burns Effect"
+msgstr "Ken Burns 效果"
+
+#: ../animation.rst:111
+msgid ""
+"The **Ken Burns effect** is a pan-and-zoom animation technique — named after"
+" documentary filmmaker Ken Burns — that brings still images or video clips "
+"to life with slow, deliberate camera movement. In OpenShot, use "
+":guilabel:`Right-Click → Motion → Camera` presets for one-click Ken Burns "
+"animations (Zoom In, Zoom Out, Pan, Zoom & Pan with Auto Direction), or set "
+"keyframes on :guilabel:`Location X/Y` and :guilabel:`Scale X/Y` manually for"
+" full control. See :ref:`clip_presets_ref`."
+msgstr ""
+"**Ken Burns 效果** 是一种平移和缩放的动画技术——以纪录片导演 Ken Burns "
+"命名——通过缓慢而有意的摄像机移动使静态图像或视频剪辑栩栩如生。在 OpenShot 中，使用 :guilabel:`右键点击 → Motion → "
+"Camera` 预设即可一键实现 Ken Burns 动画（放大、缩小、平移、自动方向的缩放和平移），或者手动在 :guilabel:`Location"
+" X/Y` 和 :guilabel:`Scale X/Y` 上设置关键帧以获得完全控制。详情请参见 :ref:`clip_presets_ref`。"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:120
 msgid "Image Sequences"
 msgstr "图像序列"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:111
+#: ../animation.rst:121
 msgid ""
 "If you have a sequence of similarly named images (such as, cat001.png, "
 "cat002.png, cat003.png, etc...), you can simply drag and drop one of them "
@@ -350,7 +368,7 @@ msgstr ""
 "中，系统会提示您导入整个序列。OpenShot 会快速播放这些连续图像，就像视频中的帧一样。图像显示的速率基于其帧率。"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:116
+#: ../animation.rst:126
 msgid ""
 "**NOTE:** Be sure your image sequence starts at 0 or 1, or you will likely "
 "receive an error when importing it into OpenShot. For example, if your "
@@ -362,7 +380,7 @@ msgstr ""
 "开始，或序列中缺少图像，OpenShot 将难以识别该序列。一个简单的解决方法是重新编号图像，使其从 1 开始。"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:122
+#: ../animation.rst:132
 msgid ""
 "To adjust the frame rate of the animation, right click and choose **File "
 "Properties** in the **Project Files** panel, and adjust the frame rate. Once"
@@ -370,25 +388,36 @@ msgid ""
 msgstr "要调整动画的帧率，请在“项目文件”面板中右键点击并选择 **文件属性** ，然后调整帧率。设置正确的帧率后，将动画拖到时间轴上。"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:133
+#: ../animation.rst:143
 msgid "File Properties"
 msgstr "文件属性"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:133
+#: ../animation.rst:143
 msgid ""
 "Select an image sequence in the **Project Files** panel, right click and "
 "choose **File Properties**"
 msgstr "在“项目文件”面板中选择一个图像序列，右键点击并选择 **文件属性**"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:134
+#: ../animation.rst:144
 msgid "Frame Rate"
 msgstr "帧率"
 
 # Translated with gpt-4.1-mini
-#: ../animation.rst:134
+#: ../animation.rst:144
 msgid ""
 "Adjust the frame rate of the animation. Typically, hand-drawn animations use"
 " 12 frames per second."
 msgstr "调整动画的帧率。通常，手绘动画使用每秒 12 帧。 "
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Time` menu offers presets such as normal, fast, slow, freeze,"
+#~ " and reverse. See details in :ref:`clip_time_ref`."
+#~ msgstr ":guilabel:`时间` 菜单提供正常、快速、慢速、冻结和反向等预设。详情见 :ref:`clip_time_ref` 。"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "To play a clip multiple times, use :guilabel:`Right-Click → Time → Repeat`."
+#~ msgstr "要多次播放剪辑，请使用 :guilabel:`右键点击 → 时间 → 重复` 。"

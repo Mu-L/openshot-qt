@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,14 +25,14 @@ msgstr "Entwickler"
 # Translated with gpt-4.1-mini
 #: ../developers.rst:23
 msgid ""
-"If you are a programmer (or want to become a programmer), and are interested "
-"in developing new features, fixing bugs, or improving the user interface for "
-"OpenShot, the following sections will explain how to get started and get "
-"involved!"
+"If you are a programmer (or want to become a programmer), and are interested"
+" in developing new features, fixing bugs, or improving the user interface "
+"for OpenShot, the following sections will explain how to get started and get"
+" involved!"
 msgstr ""
 "Wenn Sie Programmierer sind (oder Programmierer werden möchten) und daran "
-"interessiert sind, neue Funktionen zu entwickeln, Fehler zu beheben oder die "
-"Benutzeroberfläche von OpenShot zu verbessern, erklären die folgenden "
+"interessiert sind, neue Funktionen zu entwickeln, Fehler zu beheben oder die"
+" Benutzeroberfläche von OpenShot zu verbessern, erklären die folgenden "
 "Abschnitte, wie Sie anfangen und sich beteiligen können!"
 
 # Translated with gpt-4.1-mini
@@ -44,29 +44,29 @@ msgstr "Das große Ganze"
 #: ../developers.rst:29
 msgid ""
 "OpenShot Video Editor has 3 main components, a Python & PyQt user interface "
-"(:openshot-github:`openshot-qt`), a C++ audio library (:openshot-github:"
-"`libopenshot-audio`) and a C++ video library (:openshot-github:"
-"`libopenshot`). If you are not familiar with Python, PyQt, or C++, those "
-"would be great topics to research and learn more about at this point."
+"(:openshot-github:`openshot-qt`), a C++ audio library (:openshot-"
+"github:`libopenshot-audio`) and a C++ video library (:openshot-"
+"github:`libopenshot`). If you are not familiar with Python, PyQt, or C++, "
+"those would be great topics to research and learn more about at this point."
 msgstr ""
 "OpenShot Video Editor besteht aus 3 Hauptkomponenten: einer Python- & PyQt-"
-"Benutzeroberfläche (:openshot-github:`openshot-qt`), einer C++-"
-"Audiobibliothek (:openshot-github:`libopenshot-audio`) und einer C++-"
-"Videobibliothek (:openshot-github:`libopenshot`). Wenn Sie mit Python, PyQt "
-"oder C++ nicht vertraut sind, sind dies gute Themen, um sich jetzt damit zu "
-"beschäftigen und mehr zu lernen."
+"Benutzeroberfläche (:openshot-github:`openshot-qt`), einer "
+"C++-Audiobibliothek (:openshot-github:`libopenshot-audio`) und einer "
+"C++-Videobibliothek (:openshot-github:`libopenshot`). Wenn Sie mit Python, "
+"PyQt oder C++ nicht vertraut sind, sind dies gute Themen, um sich jetzt "
+"damit zu beschäftigen und mehr zu lernen."
 
 # Translated with gpt-4.1-mini
 #: ../developers.rst:35
 msgid ""
 "However, many bugs can be fixed and new features added with only Python "
 "knowledge, since the C++ components are not involved in the user interface "
-"at all. Python is an amazing language, and is super fun to learn, and is the "
-"only prerequisite skill needed to become an OpenShot developer!"
+"at all. Python is an amazing language, and is super fun to learn, and is the"
+" only prerequisite skill needed to become an OpenShot developer!"
 msgstr ""
 "Viele Fehler können jedoch mit nur Python-Kenntnissen behoben und neue "
-"Funktionen hinzugefügt werden, da die C++-Komponenten überhaupt nicht in die "
-"Benutzeroberfläche eingebunden sind. Python ist eine großartige Sprache, "
+"Funktionen hinzugefügt werden, da die C++-Komponenten überhaupt nicht in die"
+" Benutzeroberfläche eingebunden sind. Python ist eine großartige Sprache, "
 "macht viel Spaß zu lernen und ist die einzige Voraussetzung, um OpenShot-"
 "Entwickler zu werden!"
 
@@ -142,12 +142,54 @@ msgid ""
 msgstr ""
 "Um OpenShot tatsächlich zu kompilieren oder auszuführen, müssen wir einige "
 "Abhängigkeiten auf Ihrem System installieren. Der einfachste Weg ist die "
-"Verwendung unseres `Daily PPA <https://www.openshot.org/ppa/>`_. Ein PPA ist "
-"ein inoffizielles Ubuntu-Repository, das unsere Softwarepakete zum "
+"Verwendung unseres `Daily PPA <https://www.openshot.org/ppa/>`_. Ein PPA ist"
+" ein inoffizielles Ubuntu-Repository, das unsere Softwarepakete zum "
 "Herunterladen und Installieren bereitstellt."
 
+#: ../developers.rst:112
+msgid ""
+"OpenShot supports PyQt5, PyQt6, and PySide6. libopenshot must be built "
+"against the correct Qt version for the binding you are using (Qt5: PyQt5, "
+"Qt6: PyQt6 or PySide6)."
+msgstr ""
+"OpenShot unterstützt PyQt5, PyQt6 und PySide6. libopenshot muss gegen die "
+"korrekte Qt-Version für das von Ihnen verwendete Binding gebaut werden (Qt5:"
+" PyQt5, Qt6: PyQt6 oder PySide6)."
+
+#: ../developers.rst:116
+msgid "For PySide6 (Qt6) bindings, install these packages:"
+msgstr "Für PySide6 (Qt6) Bindings installieren Sie diese Pakete:"
+
+#: ../developers.rst:129
+msgid "For PyQt6, install these packages:"
+msgstr "Für PyQt6 installieren Sie diese Pakete:"
+
+#: ../developers.rst:139
+msgid ""
+"The PyQt6 runtime must provide ``QtCore``, ``QtGui``, ``QtWidgets``, "
+"``QtSvg``, ``QtStateMachine``, and ``uic``. Some distributions split these "
+"modules into separate packages. In particular, Ubuntu 24.04's "
+"``python3-pyqt6`` package does not include ``QtStateMachine``. On that "
+"release, use the PySide6 packages above or install the complete PyQt6 wheel "
+"in a Python virtual environment:"
+msgstr ""
+"Die PyQt6-Laufzeit muss ``QtCore``, ``QtGui``, ``QtWidgets``, ``QtSvg``, "
+"``QtStateMachine`` und ``uic`` bereitstellen. Einige Distributionen teilen "
+"diese Module in separate Pakete auf. Insbesondere enthält das "
+"``python3-pyqt6``-Paket von Ubuntu 24.04 nicht ``QtStateMachine``. Verwenden"
+" Sie in dieser Version die oben genannten PySide6-Pakete oder installieren "
+"Sie das vollständige PyQt6-Wheel in einer Python-virtuellen Umgebung:"
+
+#: ../developers.rst:151
+msgid ""
+"Verify the selected Qt binding and its required modules before launching "
+"OpenShot:"
+msgstr ""
+"Überprüfen Sie das ausgewählte Qt-Binding und die erforderlichen Module, "
+"bevor Sie OpenShot starten:"
+
 # Translated with gpt-4.1-mini
-#: ../developers.rst:109
+#: ../developers.rst:159
 msgid ""
 "At this point, you should have all 3 OpenShot components source code cloned "
 "into local folders, the OpenShot daily PPA installed, and all of the "
@@ -161,46 +203,46 @@ msgstr ""
 "Kompilieren von Code zu beginnen!"
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:114
+#: ../developers.rst:164
 msgid "libopenshot-audio (Build Instructions)"
 msgstr "libopenshot-audio (Build-Anleitung)"
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:115
+#: ../developers.rst:165
 msgid ""
 "This library is required for audio playback and audio effects. It is based "
 "on the JUCE audio framework. Here are the commands to build it:"
 msgstr ""
-"Diese Bibliothek wird für die Audiowiedergabe und Audioeffekte benötigt. Sie "
-"basiert auf dem JUCE-Audio-Framework. Hier sind die Befehle zum Erstellen:"
+"Diese Bibliothek wird für die Audiowiedergabe und Audioeffekte benötigt. Sie"
+" basiert auf dem JUCE-Audio-Framework. Hier sind die Befehle zum Erstellen:"
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:128
+#: ../developers.rst:178
 msgid ""
 "Essentially, we are switching to the ``libopenshot-audio/build`` folder, "
 "then running ``cmake ..`` on the parent folder. This finds dependencies and "
-"creates all the needed Makefiles used to compile this library. Then ``make`` "
-"uses those Makefiles to compile this library, and ``make install`` installs "
-"them in the location we specified. If ``CMAKE_INSTALL_PREFIX`` isn't set, "
+"creates all the needed Makefiles used to compile this library. Then ``make``"
+" uses those Makefiles to compile this library, and ``make install`` installs"
+" them in the location we specified. If ``CMAKE_INSTALL_PREFIX`` isn't set, "
 "the files will install to ``/usr/local/`` (by default) and ``make install`` "
 "will require administrative privileges to run."
 msgstr ""
 "Im Wesentlichen wechseln wir in den Ordner ``libopenshot-audio/build`` und "
 "führen dann ``cmake ..`` im übergeordneten Ordner aus. Dies findet "
 "Abhängigkeiten und erstellt alle benötigten Makefiles, die zum Kompilieren "
-"dieser Bibliothek verwendet werden. Dann verwendet ``make`` diese Makefiles, "
-"um die Bibliothek zu kompilieren, und ``make install`` installiert sie an "
+"dieser Bibliothek verwendet werden. Dann verwendet ``make`` diese Makefiles,"
+" um die Bibliothek zu kompilieren, und ``make install`` installiert sie an "
 "dem von uns angegebenen Ort. Wenn ``CMAKE_INSTALL_PREFIX`` nicht gesetzt "
 "ist, werden die Dateien standardmäßig nach ``/usr/local/`` installiert, und "
 "``make install`` erfordert Administratorrechte."
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:136
+#: ../developers.rst:186
 msgid "libopenshot (Build Instructions)"
 msgstr "libopenshot (Build-Anleitung)"
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:137
+#: ../developers.rst:187
 msgid ""
 "This library is required for video decoding, encoding, animation, and just "
 "about everything else. It does all the heavy lifting of video editing and "
@@ -212,25 +254,25 @@ msgstr ""
 "Erstellen:"
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:149
+#: ../developers.rst:199
 msgid ""
 "Essentially, we are switching to the ``libopenshot/build`` folder, then "
 "running ``cmake ..`` on the parent folder. This finds dependencies and "
-"creates all the needed Makefiles used to compile this library. Then ``make`` "
-"uses those Makefiles to compile this library. Because we provided the "
-"location of our compiled ``libopenshot-audio`` installation, that version of "
-"the library will be used instead of the system version (if any)."
+"creates all the needed Makefiles used to compile this library. Then ``make``"
+" uses those Makefiles to compile this library. Because we provided the "
+"location of our compiled ``libopenshot-audio`` installation, that version of"
+" the library will be used instead of the system version (if any)."
 msgstr ""
 "Im Wesentlichen wechseln wir in den Ordner ``libopenshot/build`` und führen "
 "dann ``cmake ..`` im übergeordneten Ordner aus. Dies findet Abhängigkeiten "
 "und erstellt alle benötigten Makefiles, die zum Kompilieren dieser "
-"Bibliothek verwendet werden. Dann verwendet ``make`` diese Makefiles, um die "
-"Bibliothek zu kompilieren. Da wir den Speicherort unserer kompilierten "
+"Bibliothek verwendet werden. Dann verwendet ``make`` diese Makefiles, um die"
+" Bibliothek zu kompilieren. Da wir den Speicherort unserer kompilierten "
 "``libopenshot-audio``-Installation angegeben haben, wird diese Version der "
 "Bibliothek anstelle der Systemversion (falls vorhanden) verwendet."
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:156
+#: ../developers.rst:206
 msgid ""
 "We don't install our ``libopenshot`` after building, because we don't need "
 "to. For testing purposes, we can tell OpenShot to use ``libopenshot`` right "
@@ -241,12 +283,12 @@ msgstr ""
 "``libopenshot`` direkt aus unserem ``build``-Verzeichnis zu verwenden."
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:160
+#: ../developers.rst:210
 msgid "Language Bindings"
 msgstr "Sprachbindungen"
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:161
+#: ../developers.rst:211
 msgid ""
 "The ``libopenshot`` API is available in several languages through SWIG "
 "bindings.  Python is used by the OpenShot user interface, and we also "
@@ -264,28 +306,29 @@ msgstr ""
 "der Umgebung bearbeiten können, die Sie bevorzugen."
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:167
+#: ../developers.rst:217
 msgid "openshot-qt (Launch Instructions)"
 msgstr "openshot-qt (Startanleitung)"
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:168
+#: ../developers.rst:218
 msgid ""
 "This is our main PyQt Python application. Because it is written in Python, "
-"it does not require any compiling to run. To launch OpenShot from the source "
-"code with our newly-built ``libopenshot-audio`` and ``libopenshot`` "
+"it does not require any compiling to run. To launch OpenShot from the source"
+" code with our newly-built ``libopenshot-audio`` and ``libopenshot`` "
 "libraries, use the following commands:"
 msgstr ""
 "Dies ist unsere Haupt-PyQt-Python-Anwendung. Da sie in Python geschrieben "
 "ist, muss sie nicht kompiliert werden, um ausgeführt zu werden. Um OpenShot "
 "aus dem Quellcode mit unseren neu erstellten ``libopenshot-audio``- und "
-"``libopenshot``-Bibliotheken zu starten, verwenden Sie die folgenden Befehle:"
+"``libopenshot``-Bibliotheken zu starten, verwenden Sie die folgenden "
+"Befehle:"
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:179
+#: ../developers.rst:229
 msgid ""
-"This should launch the OpenShot user interface. Any changes you have made to "
-"the source code files (``*.py`` Python files, ``*.ui`` PyQt UI files, "
+"This should launch the OpenShot user interface. Any changes you have made to"
+" the source code files (``*.py`` Python files, ``*.ui`` PyQt UI files, "
 "etc...) will be included. This requires the ``libopenshot-audio`` and "
 "``libopenshot`` libraries, and if anything went wrong with the steps above, "
 "OpenShot will likely not launch."
@@ -298,7 +341,7 @@ msgstr ""
 "starten."
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:185
+#: ../developers.rst:235
 msgid ""
 "If OpenShot launches at this point, congratulations! You now have a working "
 "local version of OpenShot, which is running off your local source code. Try "
@@ -306,17 +349,17 @@ msgid ""
 "now see your changes!"
 msgstr ""
 "Wenn OpenShot an dieser Stelle startet, Glückwunsch! Sie haben jetzt eine "
-"funktionierende lokale Version von OpenShot, die von Ihrem lokalen Quellcode "
-"ausgeführt wird. Versuchen Sie, einige Änderungen am Quellcode vorzunehmen "
+"funktionierende lokale Version von OpenShot, die von Ihrem lokalen Quellcode"
+" ausgeführt wird. Versuchen Sie, einige Änderungen am Quellcode vorzunehmen "
 "und OpenShot neu zu starten... Sie sollten jetzt Ihre Änderungen sehen!"
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:191
+#: ../developers.rst:241
 msgid "GitHub Issues"
 msgstr "GitHub-Probleme"
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:192
+#: ../developers.rst:242
 msgid ""
 "Now that you have successfully compiled and launched OpenShot Video Editor "
 "from source code, be sure to check out our list of bug reports on GitHub: "
@@ -331,28 +374,28 @@ msgstr ""
 "auszufüllen und sich vorzustellen!"
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:198
+#: ../developers.rst:248
 msgid "Share your Changes"
 msgstr "Teilen Sie Ihre Änderungen"
 
 # Translated with gpt-4.1-mini
-#: ../developers.rst:199
+#: ../developers.rst:249
 msgid ""
 "Once you have fixed a bug or added an amazing new feature, be sure to share "
 "it with the OpenShot team. Ideally, we can merge this into our main source "
 "code branch. The easiest way to share your changes is by creating a fork of "
 "our repo, pushing your changes back to GitHub, and creating a `Pull "
-"Request`_. A Pull Request lets the OpenShot team know you have changes ready "
-"to be merged. Then we can review things, give feedback, and hopefully merge "
-"your changes into the main branch."
+"Request`_. A Pull Request lets the OpenShot team know you have changes ready"
+" to be merged. Then we can review things, give feedback, and hopefully merge"
+" your changes into the main branch."
 msgstr ""
 "Sobald Sie einen Fehler behoben oder eine großartige neue Funktion "
-"hinzugefügt haben, sollten Sie diese unbedingt mit dem OpenShot-Team teilen. "
-"Idealerweise können wir dies in unseren Haupt-Quellcode-Branch "
+"hinzugefügt haben, sollten Sie diese unbedingt mit dem OpenShot-Team teilen."
+" Idealerweise können wir dies in unseren Haupt-Quellcode-Branch "
 "zusammenführen. Der einfachste Weg, Ihre Änderungen zu teilen, besteht "
 "darin, einen Fork unseres Repositories zu erstellen, Ihre Änderungen zurück "
-"zu GitHub zu pushen und eine `Pull Request`_ zu erstellen. Eine Pull Request "
-"informiert das OpenShot-Team darüber, dass Sie Änderungen zur "
+"zu GitHub zu pushen und eine `Pull Request`_ zu erstellen. Eine Pull Request"
+" informiert das OpenShot-Team darüber, dass Sie Änderungen zur "
 "Zusammenführung bereit haben. Dann können wir die Änderungen überprüfen, "
 "Feedback geben und hoffentlich Ihre Änderungen in den Haupt-Branch "
 "zusammenführen."

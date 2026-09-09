@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-02 17:20-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,16 +26,17 @@ msgstr "Trí tuệ nhân tạo nâng cao: ComfyUI"
 # Translated with gpt-4.1-mini
 #: ../ai.rst:25
 msgid ""
-"OpenShot can connect to a local `ComfyUI <https://github.com/comfyanonymous/"
-"ComfyUI>`_ server and run AI workflows from the Project Files and Timeline "
-"context menus. This page explains what these tools are, what hardware they "
-"require, and where the built-in workflow templates live."
+"OpenShot can connect to a local `ComfyUI "
+"<https://github.com/comfyanonymous/ComfyUI>`_ server and run AI workflows "
+"from the Project Files and Timeline context menus. This page explains what "
+"these tools are, what hardware they require, and where the built-in workflow"
+" templates live."
 msgstr ""
-"OpenShot có thể kết nối với máy chủ `ComfyUI <https://github.com/"
-"comfyanonymous/ComfyUI>`_ cục bộ và chạy quy trình làm việc AI từ menu ngữ "
-"cảnh Tệp dự án và Dòng thời gian. Trang này giải thích những công cụ này là "
-"gì, chúng yêu cầu phần cứng gì và nơi chứa các mẫu quy trình làm việc tích "
-"hợp sẵn."
+"OpenShot có thể kết nối với máy chủ `ComfyUI "
+"<https://github.com/comfyanonymous/ComfyUI>`_ cục bộ và chạy quy trình làm "
+"việc AI từ menu ngữ cảnh Tệp dự án và Dòng thời gian. Trang này giải thích "
+"những công cụ này là gì, chúng yêu cầu phần cứng gì và nơi chứa các mẫu quy "
+"trình làm việc tích hợp sẵn."
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:30
@@ -61,8 +62,8 @@ msgid ""
 "You must run a local `ComfyUI <https://github.com/comfyanonymous/ComfyUI>`_ "
 "server."
 msgstr ""
-"Bạn phải chạy một máy chủ `ComfyUI <https://github.com/comfyanonymous/"
-"ComfyUI>`_ cục bộ."
+"Bạn phải chạy một máy chủ `ComfyUI "
+"<https://github.com/comfyanonymous/ComfyUI>`_ cục bộ."
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:34
@@ -144,8 +145,8 @@ msgid ""
 "unstable results. If your GPU has 8GB or less of VRAM, you will run out of "
 "memory running these models."
 msgstr ""
-"Nếu hệ thống của bạn thấp hơn các mức này, công việc sẽ bị trì trệ, thất bại "
-"và tạo ra kết quả không ổn định. Nếu GPU của bạn có VRAM 8GB hoặc ít hơn, "
+"Nếu hệ thống của bạn thấp hơn các mức này, công việc sẽ bị trì trệ, thất bại"
+" và tạo ra kết quả không ổn định. Nếu GPU của bạn có VRAM 8GB hoặc ít hơn, "
 "bạn sẽ hết bộ nhớ khi chạy các mô hình này."
 
 # Translated with gpt-4.1-mini
@@ -180,11 +181,11 @@ msgstr ""
 
 #: ../ai.rst:63
 msgid ""
-"Start ComfyUI, then open :guilabel:`Edit->Preferences->Advanced` and set :"
-"guilabel:`ComfyUI URL`."
+"Start ComfyUI, then open :guilabel:`Edit->Preferences->Advanced` and set "
+":guilabel:`ComfyUI URL`."
 msgstr ""
-"Khởi động ComfyUI, sau đó mở :guilabel:`Edit->Preferences->Advanced` và đặt :"
-"guilabel:`ComfyUI URL`."
+"Khởi động ComfyUI, sau đó mở :guilabel:`Edit->Preferences->Advanced` và đặt "
+":guilabel:`ComfyUI URL`."
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:64
@@ -195,19 +196,20 @@ msgstr ""
 # Translated with gpt-4.1-mini
 #: ../ai.rst:66
 msgid ""
-"For a full step-by-step server setup guide, see the OpenShot wiki: `ComfyUI: "
-"Advanced AI Setup Guide <https://github.com/OpenShot/openshot-qt/wiki/"
-"ComfyUI:-Advanced-AI-Setup-Guide>`_."
+"For a full step-by-step server setup guide, see the OpenShot wiki: `ComfyUI:"
+" Advanced AI Setup Guide <https://github.com/OpenShot/openshot-"
+"qt/wiki/ComfyUI:-Advanced-AI-Setup-Guide>`_."
 msgstr ""
 "Để có hướng dẫn thiết lập máy chủ từng bước đầy đủ, xem wiki OpenShot: "
-"`ComfyUI: Hướng Dẫn Thiết Lập AI Nâng Cao <https://github.com/OpenShot/"
-"openshot-qt/wiki/ComfyUI:-Advanced-AI-Setup-Guide>`_."
+"`ComfyUI: Hướng Dẫn Thiết Lập AI Nâng Cao "
+"<https://github.com/OpenShot/openshot-qt/wiki/ComfyUI:-Advanced-AI-Setup-"
+"Guide>`_."
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:69
 msgid ""
-"For full ComfyUI installation details, see the official repository: `ComfyUI "
-"on GitHub <https://github.com/comfyanonymous/ComfyUI>`_."
+"For full ComfyUI installation details, see the official repository: `ComfyUI"
+" on GitHub <https://github.com/comfyanonymous/ComfyUI>`_."
 msgstr ""
 "Để biết chi tiết cài đặt đầy đủ ComfyUI, xem kho lưu trữ chính thức: "
 "`ComfyUI trên GitHub <https://github.com/comfyanonymous/ComfyUI>`_."
@@ -220,11 +222,11 @@ msgstr "Các Nút Tùy Chỉnh Cần Thiết"
 # Translated with gpt-4.1-mini
 #: ../ai.rst:75
 msgid ""
-"`comfyui_controlnet_aux <https://github.com/Fannovel16/"
-"comfyui_controlnet_aux>`_"
+"`comfyui_controlnet_aux "
+"<https://github.com/Fannovel16/comfyui_controlnet_aux>`_"
 msgstr ""
-"`comfyui_controlnet_aux <https://github.com/Fannovel16/"
-"comfyui_controlnet_aux>`_"
+"`comfyui_controlnet_aux "
+"<https://github.com/Fannovel16/comfyui_controlnet_aux>`_"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:76
@@ -357,14 +359,16 @@ msgstr "``ComfyUI/models/text_encoders/t5-base.safetensors``"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:102
-msgid "``ComfyUI/models/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors``"
+msgid ""
+"``ComfyUI/models/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors``"
 msgstr ""
 "``ComfyUI/models/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors``"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:103
 msgid "``ComfyUI/models/TTS/Ace-Step1.5/acestep-v15-turbo/silence_latent.pt``"
-msgstr "``ComfyUI/models/TTS/Ace-Step1.5/acestep-v15-turbo/silence_latent.pt``"
+msgstr ""
+"``ComfyUI/models/TTS/Ace-Step1.5/acestep-v15-turbo/silence_latent.pt``"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:104
@@ -384,11 +388,11 @@ msgstr "``ComfyUI/models/vae/wan2.2_vae.safetensors``"
 # Translated with gpt-4.1-mini
 #: ../ai.rst:107
 msgid ""
-"``ComfyUI/models/VLM/transnetv2-pytorch-weights/transnetv2-pytorch-weights."
-"pth``"
+"``ComfyUI/models/VLM/transnetv2-pytorch-weights/transnetv2-pytorch-"
+"weights.pth``"
 msgstr ""
-"``ComfyUI/models/VLM/transnetv2-pytorch-weights/transnetv2-pytorch-weights."
-"pth``"
+"``ComfyUI/models/VLM/transnetv2-pytorch-weights/transnetv2-pytorch-"
+"weights.pth``"
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:110
@@ -422,8 +426,8 @@ msgid ""
 "Generated files are added to :guilabel:`Project Files` with progress text "
 "and queue badges. Outputs are saved under ``.openshot_qt/comfyui-output/``."
 msgstr ""
-"Các tệp được tạo sẽ được thêm vào :guilabel:`Project Files` với văn bản tiến "
-"trình và huy hiệu hàng đợi. Đầu ra được lưu dưới ``.openshot_qt/comfyui-"
+"Các tệp được tạo sẽ được thêm vào :guilabel:`Project Files` với văn bản tiến"
+" trình và huy hiệu hàng đợi. Đầu ra được lưu dưới ``.openshot_qt/comfyui-"
 "output/``."
 
 # Translated with gpt-4.1-mini
@@ -444,12 +448,12 @@ msgstr ""
 #: ../ai.rst:134
 msgid ""
 "If ComfyUI is unavailable, OpenShot disables the AI menus. Configure the "
-"server URL in :guilabel:`Edit->Preferences->Advanced`, then use the :"
-"guilabel:`Check` button to test connectivity."
+"server URL in :guilabel:`Edit->Preferences->Advanced`, then use the "
+":guilabel:`Check` button to test connectivity."
 msgstr ""
 "Nếu ComfyUI không khả dụng, OpenShot sẽ tắt các menu AI. Định cấu hình URL "
-"máy chủ trong :guilabel:`Edit->Preferences->Advanced`, sau đó sử dụng nút :"
-"guilabel:`Check` để kiểm tra kết nối."
+"máy chủ trong :guilabel:`Edit->Preferences->Advanced`, sau đó sử dụng nút "
+":guilabel:`Check` để kiểm tra kết nối."
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:139
@@ -480,8 +484,8 @@ msgstr "Trong ComfyUI, mở tab quy trình làm việc bạn muốn sử dụng.
 msgid ""
 "Choose :guilabel:`Export (API)` to save the workflow as a ``*.json`` file."
 msgstr ""
-"Chọn :guilabel:`Export (API)` để lưu quy trình làm việc dưới dạng tệp ``*."
-"json``."
+"Chọn :guilabel:`Export (API)` để lưu quy trình làm việc dưới dạng tệp "
+"``*.json``."
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:148
@@ -496,8 +500,8 @@ msgstr "Khởi động lại OpenShot, hoặc mở lại dự án nếu cần."
 # Translated with gpt-4.1-mini
 #: ../ai.rst:151
 msgid ""
-"OpenShot will automatically load the workflow and show it in the appropriate "
-"AI menu. When you trigger it from OpenShot, the selected source file is "
+"OpenShot will automatically load the workflow and show it in the appropriate"
+" AI menu. When you trigger it from OpenShot, the selected source file is "
 "passed into the workflow, and the output from the workflow's final output "
 "node is imported back into :guilabel:`Project Files`."
 msgstr ""
@@ -526,8 +530,8 @@ msgid ""
 "Both :guilabel:`Create with AI` and :guilabel:`Enhance with AI` open the "
 "same generation dialog."
 msgstr ""
-"Cả :guilabel:`Create with AI` và :guilabel:`Enhance with AI` đều mở cùng một "
-"hộp thoại tạo."
+"Cả :guilabel:`Create with AI` và :guilabel:`Enhance with AI` đều mở cùng một"
+" hộp thoại tạo."
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:167
@@ -598,28 +602,28 @@ msgstr ""
 "Bắt đầu công việc với :guilabel:`Generate` hoặc đóng với :guilabel:`Cancel`."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:184
+#: ../ai.rst:186
 msgid "Tracking (Mask, Blur, Highlight)"
 msgstr "Theo dõi (Mặt nạ, Làm mờ, Làm nổi bật)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:186
+#: ../ai.rst:188
 msgid ""
-"Tracking workflows (:guilabel:`Blur...`, :guilabel:`Highlight...`, :guilabel:"
-"`Mask...`) use a region screen where you mark what to include and what to "
-"ignore."
+"Tracking workflows (:guilabel:`Blur...`, :guilabel:`Highlight...`, "
+":guilabel:`Mask...`) use a region screen where you mark what to include and "
+"what to ignore."
 msgstr ""
-"Các quy trình làm việc theo dõi (:guilabel:`Blur...`, :guilabel:`Highlight..."
-"`, :guilabel:`Mask...`) sử dụng màn hình vùng nơi bạn đánh dấu những gì cần "
-"bao gồm và những gì cần bỏ qua."
+"Các quy trình làm việc theo dõi (:guilabel:`Blur...`, "
+":guilabel:`Highlight...`, :guilabel:`Mask...`) sử dụng màn hình vùng nơi bạn"
+" đánh dấu những gì cần bao gồm và những gì cần bỏ qua."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:193
+#: ../ai.rst:195
 msgid "Why this matters"
 msgstr "Tại sao điều này quan trọng"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:195
+#: ../ai.rst:197
 msgid ""
 "Tracking helps your effect stay attached to a moving subject over time. For "
 "example, you can blur a face, highlight a player, or generate a clean mask "
@@ -630,209 +634,205 @@ msgstr ""
 "tạo mặt nạ sạch theo dõi cùng một đối tượng qua nhiều khung hình."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:200
+#: ../ai.rst:202
 msgid "Tracking Icons"
 msgstr "Biểu tượng Theo dõi"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:206
+#: ../ai.rst:208
 msgid "Icon / Marker"
 msgstr "Biểu tượng / Đánh dấu"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:207
+#: ../ai.rst:209
 msgid "Meaning"
 msgstr "Ý nghĩa"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:208
+#: ../ai.rst:210
 msgid "Blue dot"
 msgstr "Chấm xanh"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:209
+#: ../ai.rst:211
 msgid "Positive tracking coordinate (foreground/subject seed point)."
 msgstr "Tọa độ theo dõi tích cực (điểm hạt giống tiền cảnh/đối tượng)."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:210
+#: ../ai.rst:212
 msgid "Red dot"
 msgstr "Chấm đỏ"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:211
+#: ../ai.rst:213
 msgid "Negative tracking coordinate (background/exclusion seed point)."
 msgstr "Tọa độ theo dõi tiêu cực (điểm hạt giống nền/loại trừ)."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:212
+#: ../ai.rst:214
 msgid "Blue rectangle"
 msgstr "Hình chữ nhật xanh"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:213
+#: ../ai.rst:215
 msgid "Positive region seed (broad subject hint)."
 msgstr "Hạt giống vùng tích cực (gợi ý đối tượng rộng)."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:214
+#: ../ai.rst:216
 msgid "Red rectangle"
 msgstr "Hình chữ nhật đỏ"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:215
+#: ../ai.rst:217
 msgid "Negative region seed (broad exclusion hint)."
 msgstr "Hạt giống vùng tiêu cực (gợi ý loại trừ rộng)."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:216
+#: ../ai.rst:218
 msgid "Delete icon"
 msgstr "Xóa biểu tượng"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:217
+#: ../ai.rst:219
 msgid "Clear all current tracking seeds (points/rectangles) and start over."
 msgstr ""
 "Xóa tất cả các hạt giống theo dõi hiện tại (điểm/hình chữ nhật) và bắt đầu "
 "lại."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:220
+#: ../ai.rst:222
 msgid "How Tracking Works"
 msgstr "Cách Theo dõi Hoạt động"
 
-# Translated with gpt-4.1-mini
-#: ../ai.rst:222
+#: ../ai.rst:224
 msgid ""
-"OpenShot sends your positive and negative markers as seed coordinates to the "
-"tracking model, which builds a mask for the subject and then follows it over "
-"time. Better seeds usually produce cleaner masks and less drift. [sam2]_"
+"OpenShot sends your positive and negative markers as seed coordinates to the"
+" tracking model, which builds a mask for the subject and then follows it "
+"over time. Better seeds usually produce cleaner masks and less drift. This "
+"workflow uses `SAM2 (Segment Anything Model 2) "
+"<https://github.com/facebookresearch/sam2>`_."
 msgstr ""
-"OpenShot gửi các dấu hiệu tích cực và tiêu cực của bạn như tọa độ hạt giống "
-"đến mô hình theo dõi, mô hình này tạo mặt nạ cho đối tượng và sau đó theo "
-"dõi nó theo thời gian. Hạt giống tốt hơn thường tạo ra mặt nạ sạch hơn và ít "
-"bị trôi hơn. [sam2]_"
+"OpenShot gửi các điểm đánh dấu dương và âm của bạn dưới dạng tọa độ hạt "
+"giống đến mô hình theo dõi, mô hình này xây dựng một mặt nạ cho đối tượng và"
+" sau đó theo dõi nó theo thời gian. Các điểm hạt giống tốt hơn thường tạo ra"
+" mặt nạ sạch hơn và ít bị trôi hơn. Quy trình làm việc này sử dụng `SAM2 "
+"(Segment Anything Model 2) <https://github.com/facebookresearch/sam2>`_."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:227
+#: ../ai.rst:230
 msgid "How to use it"
 msgstr "Cách sử dụng"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:229
+#: ../ai.rst:232
 msgid "Pick a frame where the subject is clearly visible."
 msgstr "Chọn một khung hình nơi đối tượng hiển thị rõ ràng."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:230
+#: ../ai.rst:233
 msgid "Start with one blue dot on the subject."
 msgstr "Bắt đầu với một chấm xanh trên đối tượng."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:231
+#: ../ai.rst:234
 msgid "Add red dots on nearby background only if needed."
 msgstr "Chỉ thêm các chấm đỏ trên nền gần đó nếu cần."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:232
+#: ../ai.rst:235
 msgid "Add rectangles when you need faster broad selection."
 msgstr "Thêm hình chữ nhật khi bạn cần chọn nhanh và rộng hơn."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:233
+#: ../ai.rst:236
 msgid "Repeat on additional frames when motion/shape changes."
 msgstr ""
 "Lặp lại trên các khung hình bổ sung khi chuyển động/hình dạng thay đổi."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:235
+#: ../ai.rst:238
 msgid "Adjusting over time (frame slider):"
 msgstr "Điều chỉnh theo thời gian (thanh trượt khung hình):"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:237
+#: ../ai.rst:240
 msgid "Move the frame slider to different moments in the clip."
 msgstr ""
-"Di chuyển thanh trượt khung hình đến các thời điểm khác nhau trong đoạn phim."
-
-# Translated with gpt-4.1-mini
-#: ../ai.rst:238
-msgid "Add or adjust dots/rectangles on frames where tracking starts to drift."
-msgstr ""
-"Thêm hoặc điều chỉnh các chấm/hình chữ nhật trên các khung hình nơi theo dõi "
-"bắt đầu bị trôi."
-
-# Translated with gpt-4.1-mini
-#: ../ai.rst:239
-msgid ""
-"Use additional seed points only where needed, especially on occlusions, fast "
-"motion, or major shape changes."
-msgstr ""
-"Chỉ sử dụng các điểm hạt giống bổ sung khi cần thiết, đặc biệt là khi bị che "
-"khuất, chuyển động nhanh hoặc thay đổi hình dạng lớn."
+"Di chuyển thanh trượt khung hình đến các thời điểm khác nhau trong đoạn "
+"phim."
 
 # Translated with gpt-4.1-mini
 #: ../ai.rst:241
+msgid ""
+"Add or adjust dots/rectangles on frames where tracking starts to drift."
+msgstr ""
+"Thêm hoặc điều chỉnh các chấm/hình chữ nhật trên các khung hình nơi theo dõi"
+" bắt đầu bị trôi."
+
+# Translated with gpt-4.1-mini
+#: ../ai.rst:242
+msgid ""
+"Use additional seed points only where needed, especially on occlusions, fast"
+" motion, or major shape changes."
+msgstr ""
+"Chỉ sử dụng các điểm hạt giống bổ sung khi cần thiết, đặc biệt là khi bị che"
+" khuất, chuyển động nhanh hoặc thay đổi hình dạng lớn."
+
+# Translated with gpt-4.1-mini
+#: ../ai.rst:244
 msgid "**Mask Preview Output (from this tracking process):**"
 msgstr "**Đầu ra Xem trước Mặt nạ (từ quá trình theo dõi này):**"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:246
+#: ../ai.rst:249
 msgid "Best Practices"
 msgstr "Thực hành Tốt nhất"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:248
+#: ../ai.rst:251
 msgid "Use a short test clip first."
 msgstr "Trước tiên hãy sử dụng một đoạn clip thử ngắn."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:249
+#: ../ai.rst:252
 msgid "Start simple: a single blue dot is often enough."
 msgstr "Bắt đầu đơn giản: một chấm xanh duy nhất thường là đủ."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:250
+#: ../ai.rst:253
 msgid "Add more points only where tracking fails."
 msgstr "Chỉ thêm nhiều điểm hơn khi theo dõi thất bại."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:251
+#: ../ai.rst:254
 msgid ""
-"If needed, add a more nuanced set of positive/negative points and rectangles."
+"If needed, add a more nuanced set of positive/negative points and "
+"rectangles."
 msgstr ""
 "Nếu cần, thêm một bộ điểm và hình chữ nhật tích cực/tiêu cực chi tiết hơn."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:252
+#: ../ai.rst:255
 msgid "Keep positive and negative points separated clearly."
 msgstr "Giữ các điểm tích cực và tiêu cực được tách biệt rõ ràng."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:253
+#: ../ai.rst:256
 msgid ""
 "If tracking becomes messy, use the Delete icon and restart with cleaner "
 "seeds."
 msgstr ""
-"Nếu việc theo dõi trở nên lộn xộn, hãy sử dụng biểu tượng Xóa và bắt đầu lại "
-"với các điểm khởi đầu sạch hơn."
+"Nếu việc theo dõi trở nên lộn xộn, hãy sử dụng biểu tượng Xóa và bắt đầu lại"
+" với các điểm khởi đầu sạch hơn."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:255
-msgid ""
-"*SAM2 (Segment Anything Model 2) project:* `facebookresearch/sam2 <https://"
-"github.com/facebookresearch/sam2>`_"
-msgstr ""
-"*Dự án SAM2 (Segment Anything Model 2):* `facebookresearch/sam2 <https://"
-"github.com/facebookresearch/sam2>`_"
-
-# Translated with gpt-4.1-mini
-#: ../ai.rst:258
+#: ../ai.rst:259
 msgid "Job Queue, Progress, and Cancel"
 msgstr "Hàng đợi công việc, Tiến trình và Hủy bỏ"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:260
+#: ../ai.rst:261
 msgid ""
 "After you click :guilabel:`Generate`, the request is queued and runs in "
 "OpenShot's AI job queue."
@@ -841,7 +841,7 @@ msgstr ""
 "hàng đợi công việc AI của OpenShot."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:263
+#: ../ai.rst:264
 msgid ""
 "Progress is shown in :guilabel:`Project Files` (badges and status text)."
 msgstr ""
@@ -849,56 +849,56 @@ msgstr ""
 "trạng thái)."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:264
+#: ../ai.rst:265
 msgid "Completed outputs are imported back into :guilabel:`Project Files`."
 msgstr "Kết quả hoàn thành được nhập lại vào :guilabel:`Tệp Dự án`."
 
-#: ../ai.rst:265
+#: ../ai.rst:266
 msgid ""
 "Active jobs can be canceled by right-clicking the generated project file "
 "with the progress bar and choosing :guilabel:`Cancel Job`."
 msgstr ""
-"Có thể hủy các công việc đang hoạt động bằng cách nhấp chuột phải vào tệp dự "
-"án đã tạo bằng thanh tiến trình và chọn :guilabel:`Cancel Job`."
+"Có thể hủy các công việc đang hoạt động bằng cách nhấp chuột phải vào tệp dự"
+" án đã tạo bằng thanh tiến trình và chọn :guilabel:`Cancel Job`."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:266
+#: ../ai.rst:267
 msgid "Outputs are written under ``.openshot_qt/comfyui-output/``."
 msgstr "Kết quả được ghi dưới thư mục ``.openshot_qt/comfyui-output/``."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:269
+#: ../ai.rst:270
 msgid "Built-in JSON Workflows"
 msgstr "Quy trình làm việc JSON tích hợp sẵn"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:271
+#: ../ai.rst:272
 msgid ""
 "The sections below map directly to built-in JSON templates in ``comfyui/``. "
 "Each subsection describes why you might use it, how to run it, and key "
 "details."
 msgstr ""
-"Các phần bên dưới ánh xạ trực tiếp tới các mẫu JSON tích hợp trong ``comfyui/"
-"``. Mỗi tiểu mục mô tả lý do tại sao bạn có thể sử dụng nó, cách chạy nó và "
-"các chi tiết chính."
+"Các phần bên dưới ánh xạ trực tiếp tới các mẫu JSON tích hợp trong "
+"``comfyui/``. Mỗi tiểu mục mô tả lý do tại sao bạn có thể sử dụng nó, cách "
+"chạy nó và các chi tiết chính."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:275
+#: ../ai.rst:276
 msgid "Create with AI"
 msgstr "Tạo với AI"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:278
+#: ../ai.rst:279
 msgid "Image... (``txt2img-basic``)"
 msgstr "Hình ảnh... (``txt2img-basic``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:280
+#: ../ai.rst:281
 msgid "Why: Generate still images from a text prompt."
 msgstr "Lý do: Tạo hình ảnh tĩnh từ lời nhắc văn bản."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:281
+#: ../ai.rst:282
 msgid ""
 "How: Choose :guilabel:`Create with AI` -> :guilabel:`Image...`, enter a "
 "prompt, then generate."
@@ -907,26 +907,26 @@ msgstr ""
 "nhắc, sau đó tạo."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:282
+#: ../ai.rst:283
 msgid ""
-"Details: Uses ``comfyui/txt2img-basic.json`` with ``sd_xl_base_1.0."
-"safetensors``."
+"Details: Uses ``comfyui/txt2img-basic.json`` with "
+"``sd_xl_base_1.0.safetensors``."
 msgstr ""
-"Chi tiết: Sử dụng ``comfyui/txt2img-basic.json`` với ``sd_xl_base_1.0."
-"safetensors``."
+"Chi tiết: Sử dụng ``comfyui/txt2img-basic.json`` với "
+"``sd_xl_base_1.0.safetensors``."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:285
+#: ../ai.rst:286
 msgid "Video... (``txt2video-svd``)"
 msgstr "Video... (``txt2video-svd``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:287
+#: ../ai.rst:288
 msgid "Why: Generate short video clips from text."
 msgstr "Lý do: Tạo các đoạn video ngắn từ văn bản."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:288
+#: ../ai.rst:289
 msgid ""
 "How: Choose :guilabel:`Create with AI` -> :guilabel:`Video...`, enter a "
 "prompt, then generate."
@@ -935,7 +935,7 @@ msgstr ""
 "nhắc, sau đó tạo."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:289
+#: ../ai.rst:290
 msgid ""
 "Details: Uses ``comfyui/txt2video-svd.json`` with WAN video generation "
 "models."
@@ -944,17 +944,17 @@ msgstr ""
 "WAN."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:292
+#: ../ai.rst:293
 msgid "Sound... (``txt2audio-stable-open``)"
 msgstr "Âm thanh... (``txt2audio-stable-open``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:294
+#: ../ai.rst:295
 msgid "Why: Generate non-musical audio from text prompts."
 msgstr "Lý do: Tạo âm thanh không phải nhạc từ lời nhắc văn bản."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:295
+#: ../ai.rst:296
 msgid ""
 "How: Choose :guilabel:`Create with AI` -> :guilabel:`Sound...`, enter a "
 "prompt, then generate."
@@ -963,7 +963,7 @@ msgstr ""
 "nhắc, sau đó tạo."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:296
+#: ../ai.rst:297
 msgid ""
 "Details: Uses ``comfyui/txt2audio-stable-open.json`` with Stable Audio Open "
 "models."
@@ -972,26 +972,26 @@ msgstr ""
 "Audio Open."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:299
+#: ../ai.rst:300
 msgid "Music... (``txt2music-ace-step``)"
 msgstr "Âm nhạc... (``txt2music-ace-step``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:301
+#: ../ai.rst:302
 msgid "Why: Generate music from style/tags (and optional lyrics)."
 msgstr "Lý do: Tạo nhạc từ phong cách/nhãn (và lời bài hát tùy chọn)."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:302
+#: ../ai.rst:303
 msgid ""
-"How: Choose :guilabel:`Create with AI` -> :guilabel:`Music...`, enter prompt "
-"text, then generate."
+"How: Choose :guilabel:`Create with AI` -> :guilabel:`Music...`, enter prompt"
+" text, then generate."
 msgstr ""
 "Cách làm: Chọn :guilabel:`Tạo với AI` -> :guilabel:`Âm nhạc...`, nhập văn "
 "bản lời nhắc, sau đó tạo."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:303
+#: ../ai.rst:304
 msgid ""
 "Details: Uses ``comfyui/txt2music-ace-step.json`` with an Ace-Step 1.5 "
 "checkpoint."
@@ -1000,23 +1000,103 @@ msgstr ""
 "Step 1.5."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:306
+#: ../ai.rst:307
 msgid "Enhance with AI"
 msgstr "Nâng cao với AI"
 
+#: ../ai.rst:310
+msgid "Noise -> Reduce (``audio-noise-reduce``)"
+msgstr "Tiếng ồn -> Giảm (``audio-noise-reduce``)"
+
+#: ../ai.rst:312
+msgid ""
+"Why: Lightly reduce steady background noise while keeping more of the "
+"original ambience."
+msgstr ""
+"Tại sao: Giảm nhẹ tiếng ồn nền ổn định trong khi giữ lại nhiều âm thanh môi "
+"trường gốc hơn."
+
+#: ../ai.rst:313
+msgid ""
+"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Noise` -> "
+":guilabel:`Reduce` on an audio file, then generate."
+msgstr ""
+"Cách làm: Chọn :guilabel:`Tăng cường với AI` -> :guilabel:`Tiếng ồn` -> "
+":guilabel:`Giảm` trên một tệp âm thanh, sau đó tạo."
+
+#: ../ai.rst:314
+msgid ""
+"Details: Uses ``comfyui/audio-noise-reduce.json`` with "
+"``OpenShotDeepFilterNetDenoiseAudio``."
+msgstr ""
+"Chi tiết: Sử dụng ``comfyui/audio-noise-reduce.json`` với "
+"``OpenShotDeepFilterNetDenoiseAudio``."
+
+#: ../ai.rst:317
+msgid "Noise -> Remove (``audio-noise-remove``)"
+msgstr "Tiếng ồn -> Loại bỏ (``audio-noise-remove``)"
+
+#: ../ai.rst:319
+msgid "Why: Aggressively remove background noise from noisy recordings."
+msgstr "Tại sao: Loại bỏ mạnh tiếng ồn nền từ các bản ghi ồn ào."
+
+#: ../ai.rst:320
+msgid ""
+"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Noise` -> "
+":guilabel:`Remove` on an audio file, then generate."
+msgstr ""
+"Cách làm: Chọn :guilabel:`Tăng cường với AI` -> :guilabel:`Tiếng ồn` -> "
+":guilabel:`Loại bỏ` trên một tệp âm thanh, sau đó tạo."
+
+#: ../ai.rst:321
+msgid ""
+"Details: Uses ``comfyui/audio-noise-remove.json`` with "
+"``OpenShotDeepFilterNetDenoiseAudio``."
+msgstr ""
+"Chi tiết: Sử dụng ``comfyui/audio-noise-remove.json`` với "
+"``OpenShotDeepFilterNetDenoiseAudio``."
+
+#: ../ai.rst:324
+msgid "Clarity -> Speech (``audio-clarity-speech``)"
+msgstr "Độ rõ -> Giọng nói (``audio-clarity-speech``)"
+
+#: ../ai.rst:326
+msgid ""
+"Why: Improve clarity for speech recordings that sound dull, noisy, "
+"bandwidth-limited, or low fidelity."
+msgstr ""
+"Tại sao: Cải thiện độ rõ cho các bản ghi giọng nói nghe có vẻ mờ, ồn, giới "
+"hạn băng thông hoặc chất lượng thấp."
+
+#: ../ai.rst:327
+msgid ""
+"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Clarity` -> "
+":guilabel:`Speech` on an audio file, then generate."
+msgstr ""
+"Cách làm: Chọn :guilabel:`Tăng cường với AI` -> :guilabel:`Độ rõ` -> "
+":guilabel:`Giọng nói` trên một tệp âm thanh, sau đó tạo."
+
+#: ../ai.rst:328
+msgid ""
+"Details: Uses ``comfyui/audio-clarity-speech.json`` with "
+"``OpenShotLavaSRSpeechClarity``."
+msgstr ""
+"Chi tiết: Sử dụng ``comfyui/audio-clarity-speech.json`` với "
+"``OpenShotLavaSRSpeechClarity``."
+
 # Translated with gpt-4.1-mini
-#: ../ai.rst:309
+#: ../ai.rst:331
 msgid "Change Image Style... (``img2img-basic``)"
 msgstr "Thay đổi phong cách hình ảnh... (``img2img-basic``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:311
+#: ../ai.rst:333
 msgid "Why: Restyle an existing image while keeping the source composition."
 msgstr ""
 "Lý do: Thay đổi phong cách hình ảnh hiện có trong khi giữ nguyên bố cục gốc."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:312
+#: ../ai.rst:334
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on an image, enter a style prompt, "
 "then generate."
@@ -1025,35 +1105,35 @@ msgstr ""
 "phong cách, sau đó tạo."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:313
+#: ../ai.rst:335
 msgid ""
-"Details: Uses ``comfyui/img2img-basic.json`` with ``sd_xl_base_1.0."
-"safetensors``."
+"Details: Uses ``comfyui/img2img-basic.json`` with "
+"``sd_xl_base_1.0.safetensors``."
 msgstr ""
-"Chi tiết: Sử dụng ``comfyui/img2img-basic.json`` với ``sd_xl_base_1.0."
-"safetensors``."
+"Chi tiết: Sử dụng ``comfyui/img2img-basic.json`` với "
+"``sd_xl_base_1.0.safetensors``."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:316
+#: ../ai.rst:338
 msgid "Depth (``image-extract-depth``)"
 msgstr "Độ sâu (``image-extract-depth``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:318
+#: ../ai.rst:340
 msgid "Why: Export a grayscale depth-map image from a source image."
 msgstr "Tại sao: Xuất một ảnh bản đồ độ sâu thang xám từ ảnh nguồn."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:319
+#: ../ai.rst:341
 msgid ""
-"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:"
-"`Depth` on an image, then generate."
+"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Depth` on an image, then generate."
 msgstr ""
-"Cách làm: Chọn :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :"
-"guilabel:`Depth` trên một ảnh, sau đó tạo."
+"Cách làm: Chọn :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Depth` trên một ảnh, sau đó tạo."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:320
+#: ../ai.rst:342
 msgid ""
 "Details: Uses ``comfyui/image-extract-depth.json`` with "
 "``DepthAnythingV2Preprocessor``."
@@ -1062,26 +1142,26 @@ msgstr ""
 "``DepthAnythingV2Preprocessor``."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:323
+#: ../ai.rst:345
 msgid "Lines (``image-extract-lines``)"
 msgstr "Đường nét (``image-extract-lines``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:325
+#: ../ai.rst:347
 msgid "Why: Export a line-map image from a source image."
 msgstr "Tại sao: Xuất một ảnh bản đồ đường nét từ ảnh nguồn."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:326
+#: ../ai.rst:348
 msgid ""
-"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:"
-"`Lines` on an image, then generate."
+"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Lines` on an image, then generate."
 msgstr ""
-"Cách làm: Chọn :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :"
-"guilabel:`Lines` trên một ảnh, sau đó tạo."
+"Cách làm: Chọn :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Lines` trên một ảnh, sau đó tạo."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:327
+#: ../ai.rst:349
 msgid ""
 "Details: Uses ``comfyui/image-extract-lines.json`` with "
 "``LineArtPreprocessor``."
@@ -1090,26 +1170,26 @@ msgstr ""
 "``LineArtPreprocessor``."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:330
+#: ../ai.rst:352
 msgid "Image to Video... (``img2video-wan``)"
 msgstr "Ảnh thành Video... (``img2video-wan``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:332
+#: ../ai.rst:354
 msgid "Why: Turn a still image into a generated video shot."
 msgstr "Lý do: Biến một hình ảnh tĩnh thành một cảnh video được tạo."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:333
+#: ../ai.rst:355
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on an image, provide prompt "
 "guidance, then generate."
 msgstr ""
-"Cách làm: Chọn :guilabel:`Nâng cao với AI` trên một hình ảnh, cung cấp hướng "
-"dẫn lời nhắc, sau đó tạo."
+"Cách làm: Chọn :guilabel:`Nâng cao với AI` trên một hình ảnh, cung cấp hướng"
+" dẫn lời nhắc, sau đó tạo."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:334
+#: ../ai.rst:356
 msgid ""
 "Details: Uses ``comfyui/img2video-wan.json`` with WAN 2.2 image-to-video "
 "models."
@@ -1118,17 +1198,17 @@ msgstr ""
 "chuyển ảnh thành video."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:337
+#: ../ai.rst:359
 msgid "Change Video Style... (``video2video-basic``)"
 msgstr "Thay đổi phong cách video... (``video2video-basic``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:339
+#: ../ai.rst:361
 msgid "Why: Apply a new visual style to a source video."
 msgstr "Lý do: Áp dụng phong cách hình ảnh mới cho video gốc."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:340
+#: ../ai.rst:362
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on a video, enter a style prompt, "
 "pick a reference image in the :guilabel:`Reference` tab, then generate."
@@ -1138,7 +1218,7 @@ msgstr ""
 "tạo."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:341
+#: ../ai.rst:363
 msgid ""
 "Details: Uses ``comfyui/video2video-basic.json`` with WAN VACE video-to-"
 "video nodes, a required reference image, blended "
@@ -1153,26 +1233,26 @@ msgstr ""
 "``umt5_xxl_fp8_e4m3fn_scaled.safetensors``."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:344
+#: ../ai.rst:366
 msgid "Depth (``video-extract-depth``)"
 msgstr "Độ sâu (``video-extract-depth``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:346
+#: ../ai.rst:368
 msgid "Why: Export a grayscale depth-map version of a source video."
 msgstr "Tại sao: Xuất phiên bản bản đồ độ sâu thang xám của video nguồn."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:347
+#: ../ai.rst:369
 msgid ""
-"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:"
-"`Depth` on a video, then generate."
+"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Depth` on a video, then generate."
 msgstr ""
-"Cách làm: Chọn :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :"
-"guilabel:`Depth` trên một video, sau đó tạo."
+"Cách làm: Chọn :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Depth` trên một video, sau đó tạo."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:348
+#: ../ai.rst:370
 msgid ""
 "Details: Uses ``comfyui/video-extract-depth.json`` with "
 "``DepthAnythingV2Preprocessor`` and preserves the source frame rate."
@@ -1181,26 +1261,26 @@ msgstr ""
 "``DepthAnythingV2Preprocessor`` và giữ nguyên tốc độ khung hình gốc."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:351
+#: ../ai.rst:373
 msgid "Lines (``video-extract-lines``)"
 msgstr "Đường nét (``video-extract-lines``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:353
+#: ../ai.rst:375
 msgid "Why: Export a line-map version of a source video."
 msgstr "Tại sao: Xuất phiên bản bản đồ đường nét của video nguồn."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:354
+#: ../ai.rst:376
 msgid ""
-"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :guilabel:"
-"`Lines` on a video, then generate."
+"How: Choose :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Lines` on a video, then generate."
 msgstr ""
-"Cách làm: Chọn :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> :"
-"guilabel:`Lines` trên một video, sau đó tạo."
+"Cách làm: Chọn :guilabel:`Enhance with AI` -> :guilabel:`Extract` -> "
+":guilabel:`Lines` trên một video, sau đó tạo."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:355
+#: ../ai.rst:377
 msgid ""
 "Details: Uses ``comfyui/video-extract-lines.json`` with "
 "``LineArtPreprocessor`` and preserves the source frame rate."
@@ -1209,17 +1289,17 @@ msgstr ""
 "``LineArtPreprocessor`` và giữ nguyên tốc độ khung hình gốc."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:358
+#: ../ai.rst:380
 msgid "Increase Resolution (image) (``upscale-realesrgan-x4``)"
 msgstr "Tăng độ phân giải (hình ảnh) (``upscale-realesrgan-x4``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:360
+#: ../ai.rst:382
 msgid "Why: Upscale low-resolution images."
 msgstr "Lý do: Tăng kích thước hình ảnh có độ phân giải thấp."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:361
+#: ../ai.rst:383
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on an image, select increase "
 "resolution, then generate."
@@ -1228,7 +1308,7 @@ msgstr ""
 "phân giải, sau đó tạo."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:362
+#: ../ai.rst:384
 msgid ""
 "Details: Uses ``comfyui/upscale-realesrgan-x4.json`` with "
 "``RealESRGAN_x4plus.safetensors``."
@@ -1237,47 +1317,47 @@ msgstr ""
 "``RealESRGAN_x4plus.safetensors``."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:365
+#: ../ai.rst:387
 msgid "Increase Resolution (video) (``video-upscale-gan``)"
 msgstr "Tăng độ phân giải (video) (``video-upscale-gan``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:367
+#: ../ai.rst:389
 msgid "Why: Upscale video frames for higher apparent detail."
 msgstr "Lý do: Tăng kích thước khung hình video để có chi tiết rõ hơn."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:368
+#: ../ai.rst:390
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on a video, select increase "
 "resolution, then generate."
 msgstr ""
-"Cách làm: Chọn :guilabel:`Nâng cao với AI` trên một video, chọn tăng độ phân "
-"giải, sau đó tạo."
+"Cách làm: Chọn :guilabel:`Nâng cao với AI` trên một video, chọn tăng độ phân"
+" giải, sau đó tạo."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:369
+#: ../ai.rst:391
 msgid ""
-"Details: Uses ``comfyui/video-upscale-gan.json`` with ``RealESRGAN_x4plus."
-"safetensors``."
+"Details: Uses ``comfyui/video-upscale-gan.json`` with "
+"``RealESRGAN_x4plus.safetensors``."
 msgstr ""
-"Chi tiết: Sử dụng ``comfyui/video-upscale-gan.json`` với ``RealESRGAN_x4plus."
-"safetensors``."
+"Chi tiết: Sử dụng ``comfyui/video-upscale-gan.json`` với "
+"``RealESRGAN_x4plus.safetensors``."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:372
+#: ../ai.rst:394
 msgid "Smooth Motion (2x Frame Rate) (``video-frame-interpolation-rife2x``)"
 msgstr ""
 "Chuyển động mượt mà (tốc độ khung hình 2x) (``video-frame-interpolation-"
 "rife2x``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:374
+#: ../ai.rst:396
 msgid "Why: Increase frame rate for smoother perceived motion."
 msgstr "Lý do: Tăng tốc độ khung hình để chuyển động mượt mà hơn."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:375
+#: ../ai.rst:397
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on a video, select smooth motion, "
 "then generate."
@@ -1286,7 +1366,7 @@ msgstr ""
 "mượt mà, sau đó tạo."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:376
+#: ../ai.rst:398
 msgid ""
 "Details: Uses ``comfyui/video-frame-interpolation-rife2x.json`` with "
 "``rife47.pth``."
@@ -1295,12 +1375,12 @@ msgstr ""
 "``rife47.pth``."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:379
+#: ../ai.rst:401
 msgid "Split into Scenes (``video-segment-scenes-transnet``)"
 msgstr "Chia thành các cảnh (``video-segment-scenes-transnet``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:381
+#: ../ai.rst:403
 msgid ""
 "Why: Automatically detect scene changes and split long clips into segments."
 msgstr ""
@@ -1308,7 +1388,7 @@ msgstr ""
 "phân đoạn."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:382
+#: ../ai.rst:404
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on a video, select scene splitting, "
 "then generate."
@@ -1317,46 +1397,47 @@ msgstr ""
 "sau đó tạo."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:383
+#: ../ai.rst:405
 msgid ""
-"Details: Uses ``comfyui/video-segment-scenes-transnet.json`` with TransNetV2."
+"Details: Uses ``comfyui/video-segment-scenes-transnet.json`` with "
+"TransNetV2."
 msgstr ""
 "Chi tiết: Sử dụng ``comfyui/video-segment-scenes-transnet.json`` với "
 "TransNetV2."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:386
+#: ../ai.rst:408
 msgid "Add Captions from Speech (``video-whisper-srt``)"
 msgstr "Thêm Phụ đề từ Giọng nói (``video-whisper-srt``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:388
+#: ../ai.rst:410
 msgid "Why: Transcribe speech into subtitle/caption files."
 msgstr "Tại sao: Chuyển lời nói thành các tệp phụ đề/phụ đề đóng."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:389
+#: ../ai.rst:411
 msgid ""
 "How: Choose :guilabel:`Enhance with AI` on a video, select captions, then "
 "generate."
 msgstr ""
-"Cách làm: Chọn :guilabel:`Tăng cường với AI` trên video, chọn phụ đề, sau đó "
-"tạo."
+"Cách làm: Chọn :guilabel:`Tăng cường với AI` trên video, chọn phụ đề, sau đó"
+" tạo."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:390
+#: ../ai.rst:412
 msgid ""
 "Details: Uses ``comfyui/video-whisper-srt.json`` and creates SRT output."
 msgstr ""
 "Chi tiết: Sử dụng ``comfyui/video-whisper-srt.json`` và tạo đầu ra SRT."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:393
+#: ../ai.rst:415
 msgid "Tracking Workflows (SAM2)"
 msgstr "Quy trình theo dõi (SAM2)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:395
+#: ../ai.rst:417
 msgid ""
 "These workflows use the same region/tracking input flow and are grouped in "
 "the tracking context menu."
@@ -1365,22 +1446,22 @@ msgstr ""
 "trong menu ngữ cảnh theo dõi."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:399
+#: ../ai.rst:421
 msgid "Blur... (image) (``image-blur-anything-sam2``)"
 msgstr "Làm mờ... (hình ảnh) (``image-blur-anything-sam2``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:401
+#: ../ai.rst:423
 msgid "Why: Blur selected subject areas in a still image."
 msgstr "Tại sao: Làm mờ các khu vực đối tượng được chọn trong hình ảnh tĩnh."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:402 ../ai.rst:409 ../ai.rst:416
+#: ../ai.rst:424 ../ai.rst:431 ../ai.rst:438
 msgid "How: Select points/rectangles for the subject, then generate."
 msgstr "Cách làm: Chọn các điểm/hình chữ nhật cho đối tượng, sau đó tạo."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:403
+#: ../ai.rst:425
 msgid ""
 "Details: Uses ``comfyui/image-blur-anything-sam2.json`` with SAM2 image "
 "segmentation."
@@ -1389,37 +1470,37 @@ msgstr ""
 "phân đoạn hình ảnh SAM2."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:406
+#: ../ai.rst:428
 msgid "Highlight... (image) (``image-highlight-anything-sam2``)"
 msgstr "Làm nổi bật... (hình ảnh) (``image-highlight-anything-sam2``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:408
+#: ../ai.rst:430
 msgid "Why: Emphasize selected subject areas in a still image."
 msgstr ""
 "Tại sao: Nhấn mạnh các khu vực đối tượng được chọn trong hình ảnh tĩnh."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:410
+#: ../ai.rst:432
 msgid ""
-"Details: Uses ``comfyui/image-highlight-anything-sam2.json`` with SAM2 image "
-"segmentation."
+"Details: Uses ``comfyui/image-highlight-anything-sam2.json`` with SAM2 image"
+" segmentation."
 msgstr ""
 "Chi tiết: Sử dụng ``comfyui/image-highlight-anything-sam2.json`` với tính "
 "năng phân đoạn hình ảnh SAM2."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:413
+#: ../ai.rst:435
 msgid "Mask... (image) (``image-mask-anything-sam2``)"
 msgstr "Mặt nạ... (hình ảnh) (``image-mask-anything-sam2``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:415
+#: ../ai.rst:437
 msgid "Why: Generate an image mask for selected subject areas."
 msgstr "Tại sao: Tạo mặt nạ hình ảnh cho các khu vực đối tượng được chọn."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:417
+#: ../ai.rst:439
 msgid ""
 "Details: Uses ``comfyui/image-mask-anything-sam2.json`` with SAM2 image "
 "segmentation."
@@ -1428,22 +1509,22 @@ msgstr ""
 "phân đoạn hình ảnh SAM2."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:420
+#: ../ai.rst:442
 msgid "Blur... (video) (``video-blur-anything-sam2``)"
 msgstr "Làm mờ... (video) (``video-blur-anything-sam2``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:422
+#: ../ai.rst:444
 msgid "Why: Track and blur a moving subject in video."
 msgstr "Tại sao: Theo dõi và làm mờ đối tượng chuyển động trong video."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:423 ../ai.rst:430 ../ai.rst:437
+#: ../ai.rst:445 ../ai.rst:452 ../ai.rst:459
 msgid "How: Mark subject/background in the region screen, then generate."
 msgstr "Cách làm: Đánh dấu đối tượng/nền trong màn hình vùng, sau đó tạo."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:424
+#: ../ai.rst:446
 msgid ""
 "Details: Uses ``comfyui/video-blur-anything-sam2.json`` with SAM2 video "
 "tracking."
@@ -1452,36 +1533,36 @@ msgstr ""
 "theo dõi video SAM2."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:427
+#: ../ai.rst:449
 msgid "Highlight... (video) (``video-highlight-anything-sam2``)"
 msgstr "Làm nổi bật... (video) (``video-highlight-anything-sam2``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:429
+#: ../ai.rst:451
 msgid "Why: Track and highlight a moving subject in video."
 msgstr "Tại sao: Theo dõi và làm nổi bật đối tượng chuyển động trong video."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:431
+#: ../ai.rst:453
 msgid ""
-"Details: Uses ``comfyui/video-highlight-anything-sam2.json`` with SAM2 video "
-"tracking."
+"Details: Uses ``comfyui/video-highlight-anything-sam2.json`` with SAM2 video"
+" tracking."
 msgstr ""
 "Chi tiết: Sử dụng ``comfyui/video-highlight-anything-sam2.json`` với tính "
 "năng theo dõi video SAM2."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:434
+#: ../ai.rst:456
 msgid "Mask... (video) (``video-mask-anything-sam2``)"
 msgstr "Mặt nạ... (video) (``video-mask-anything-sam2``)"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:436
+#: ../ai.rst:458
 msgid "Why: Generate an animated mask that follows a moving subject."
 msgstr "Tại sao: Tạo mặt nạ động theo dõi đối tượng chuyển động."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:438
+#: ../ai.rst:460
 msgid ""
 "Details: Uses ``comfyui/video-mask-anything-sam2.json`` with SAM2 video "
 "tracking."
@@ -1490,63 +1571,63 @@ msgstr ""
 "theo dõi video SAM2."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:441
+#: ../ai.rst:463
 msgid "Starting Points for New Users"
 msgstr "Điểm Khởi đầu cho Người dùng Mới"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:443
+#: ../ai.rst:465
 msgid "If you are new to these tools, start with:"
 msgstr "Nếu bạn mới với các công cụ này, hãy bắt đầu với:"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:445
+#: ../ai.rst:467
 msgid ":guilabel:`Create with AI` -> :guilabel:`Image`"
 msgstr ":guilabel:`Tạo với AI` -> :guilabel:`Hình ảnh`"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:446
+#: ../ai.rst:468
 msgid ":guilabel:`Enhance with AI` -> :guilabel:`Increase Resolution`"
 msgstr ":guilabel:`Tăng cường với AI` -> :guilabel:`Tăng Độ phân giải`"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:447
+#: ../ai.rst:469
 msgid ":guilabel:`Enhance with AI` -> :guilabel:`Smooth Motion`"
 msgstr ":guilabel:`Tăng cường với AI` -> :guilabel:`Làm mượt Chuyển động`"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:448
+#: ../ai.rst:470
 msgid ":guilabel:`Enhance with AI` -> :guilabel:`Split into Scenes`"
 msgstr ":guilabel:`Tăng cường với AI` -> :guilabel:`Chia thành Cảnh`"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:449
+#: ../ai.rst:471
 msgid ":guilabel:`Enhance with AI` -> :guilabel:`Add Captions`"
 msgstr ":guilabel:`Tăng cường với AI` -> :guilabel:`Thêm Phụ đề`"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:452
+#: ../ai.rst:474
 msgid "Troubleshooting"
 msgstr "Khắc phục sự cố"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:454
+#: ../ai.rst:476
 msgid "If AI menus do not appear or jobs fail immediately:"
 msgstr "Nếu menu AI không xuất hiện hoặc công việc thất bại ngay lập tức:"
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:456
+#: ../ai.rst:478
 msgid "Verify ComfyUI is running and reachable at the configured URL."
 msgstr "Xác nhận ComfyUI đang chạy và có thể truy cập tại URL đã cấu hình."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:457
+#: ../ai.rst:479
 msgid "Confirm required models exist in your ComfyUI environment."
 msgstr ""
 "Xác nhận các mô hình cần thiết tồn tại trong môi trường ComfyUI của bạn."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:458
+#: ../ai.rst:480
 msgid ""
 "Confirm custom node packages are installed for the workflow you selected."
 msgstr ""
@@ -1554,20 +1635,40 @@ msgstr ""
 "đã chọn."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:459
+#: ../ai.rst:481
 msgid "Reduce batch/chunk sizes for long clips."
 msgstr "Giảm kích thước lô/khối cho các đoạn clip dài."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:460
+#: ../ai.rst:482
 msgid "Re-test with a short clip or still image first."
 msgstr "Thử lại với đoạn clip ngắn hoặc hình ảnh tĩnh trước."
 
 # Translated with gpt-4.1-mini
-#: ../ai.rst:462
+#: ../ai.rst:484
 msgid ""
-"For general performance and cache tuning, see :ref:`preferences_ref` and :"
-"ref:`playback_ref`."
+"For general performance and cache tuning, see :ref:`preferences_ref` and "
+":ref:`playback_ref`."
 msgstr ""
-"Để tối ưu hiệu suất chung và bộ nhớ đệm, xem :ref:`preferences_ref` và :ref:"
-"`playback_ref`."
+"Để tối ưu hiệu suất chung và bộ nhớ đệm, xem :ref:`preferences_ref` và "
+":ref:`playback_ref`."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "OpenShot sends your positive and negative markers as seed coordinates to the"
+#~ " tracking model, which builds a mask for the subject and then follows it "
+#~ "over time. Better seeds usually produce cleaner masks and less drift. "
+#~ "[sam2]_"
+#~ msgstr ""
+#~ "OpenShot gửi các dấu hiệu tích cực và tiêu cực của bạn như tọa độ hạt giống "
+#~ "đến mô hình theo dõi, mô hình này tạo mặt nạ cho đối tượng và sau đó theo "
+#~ "dõi nó theo thời gian. Hạt giống tốt hơn thường tạo ra mặt nạ sạch hơn và ít"
+#~ " bị trôi hơn. [sam2]_"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "*SAM2 (Segment Anything Model 2) project:* `facebookresearch/sam2 "
+#~ "<https://github.com/facebookresearch/sam2>`_"
+#~ msgstr ""
+#~ "*Dự án SAM2 (Segment Anything Model 2):* `facebookresearch/sam2 "
+#~ "<https://github.com/facebookresearch/sam2>`_"

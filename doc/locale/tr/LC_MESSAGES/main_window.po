@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-02 17:20-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,7 +50,7 @@ msgstr "İsim"
 
 # Translated with gpt-4.1-mini
 #: ../main_window.rst:35 ../main_window.rst:80 ../main_window.rst:103
-#: ../main_window.rst:238 ../main_window.rst:309
+#: ../main_window.rst:235 ../main_window.rst:349 ../main_window.rst:378
 msgid "Description"
 msgstr "Açıklama"
 
@@ -91,7 +91,7 @@ msgid "3"
 msgstr "3"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:39 ../main_window.rst:316
+#: ../main_window.rst:39 ../main_window.rst:393
 msgid "Project Files"
 msgstr "Proje Dosyaları"
 
@@ -151,13 +151,13 @@ msgstr "Yakınlaştırma Kaydırıcısı"
 #: ../main_window.rst:42
 msgid ""
 "This slider will adjust the time-scale of your timeline. Drag the left or "
-"right edge to zoom in or out. Drag the blue area to scroll the timeline left "
-"or right. Clips and transitions are displayed as simple rectangles, to give "
-"you context for adjusting the zoom to specific clips."
+"right edge to zoom in or out. Drag the blue area to scroll the timeline left"
+" or right. Clips and transitions are displayed as simple rectangles, to give"
+" you context for adjusting the zoom to specific clips."
 msgstr ""
 "Bu kaydırıcı zaman çizgisinin zaman ölçeğini ayarlar. Yakınlaştırmak veya "
-"uzaklaştırmak için sol veya sağ kenarı sürükleyin. Zaman çizgisini kaydırmak "
-"için mavi alanı sürükleyin. Klipler ve geçişler, belirli kliplere "
+"uzaklaştırmak için sol veya sağ kenarı sürükleyin. Zaman çizgisini kaydırmak"
+" için mavi alanı sürükleyin. Klipler ve geçişler, belirli kliplere "
 "yakınlaştırmayı ayarlamanız için bağlam sağlamak amacıyla basit "
 "dikdörtgenler olarak gösterilir."
 
@@ -171,16 +171,17 @@ msgstr "7"
 msgid "Play-head / Ruler"
 msgstr "Oynatma Kafası / Cetvel"
 
-# Translated with gpt-4.1-mini
 #: ../main_window.rst:43
 msgid ""
-"The ruler shows the time-scale, and the red line is the play-head. The play-"
-"head represents the current playback position. Hold :kbd:`Shift` key while "
-"dragging the playhead to snap to nearby clips."
+"The ruler shows the time-scale, and the line is the play-head. The play-head"
+" represents the current playback position. The current timecode can be "
+"clicked to enter an exact timecode. Hold :kbd:`Shift` key while dragging the"
+" playhead to snap to nearby clips."
 msgstr ""
-"Cetvel zaman ölçeğini gösterir ve kırmızı çizgi oynatma kafasıdır. Oynatma "
-"kafası mevcut oynatma konumunu temsil eder. Oynatma kafasını sürüklerken :"
-"kbd:`Shift` tuşuna basılı tutarak yakın kliplere yapışmasını "
+"Cetvel zaman ölçeğini gösterir ve çizgi oynatma kafasını temsil eder. "
+"Oynatma kafası mevcut oynatma konumunu gösterir. Mevcut zaman koduna "
+"tıklanarak tam bir zaman kodu girilebilir. Oynatma kafasını sürüklerken "
+":kbd:`Shift` tuşuna basılı tutarak yakın kliplere yapışmasını "
 "sağlayabilirsiniz."
 
 # Translated with gpt-4.1-mini
@@ -269,8 +270,8 @@ msgid ""
 "For step-by-step instructions on the basic usage of OpenShot, be sure to "
 "read the :ref:`quick_tutorial_ref`."
 msgstr ""
-"OpenShot'un temel kullanımı için adım adım talimatlar içeren :ref:"
-"`quick_tutorial_ref` bölümünü mutlaka okuyun."
+"OpenShot'un temel kullanımı için adım adım talimatlar içeren "
+":ref:`quick_tutorial_ref` bölümünü mutlaka okuyun."
 
 # Translated with gpt-4.1-mini
 #: ../main_window.rst:54
@@ -281,14 +282,14 @@ msgstr "Yerleşik Eğitim"
 #: ../main_window.rst:55
 msgid ""
 "When you first launch OpenShot, you will be presented with a friendly built-"
-"in tutorial. It will demonstrate and explain the basics. Clicking :guilabel:"
-"`Next` will jump to the next topic. You can always view this tutorial again "
-"from the :guilabel:`Help→Tutorial` menu."
+"in tutorial. It will demonstrate and explain the basics. Clicking "
+":guilabel:`Next` will jump to the next topic. You can always view this "
+"tutorial again from the :guilabel:`Help→Tutorial` menu."
 msgstr ""
 "OpenShot'u ilk başlattığınızda, size dostça bir yerleşik eğitim sunulur. "
 "Temelleri gösterir ve açıklar. :guilabel:`İleri` düğmesine tıklayarak "
-"sonraki konuya geçebilirsiniz. Bu eğitimi her zaman :guilabel:"
-"`Yardım→Eğitim` menüsünden tekrar görüntüleyebilirsiniz."
+"sonraki konuya geçebilirsiniz. Bu eğitimi her zaman "
+":guilabel:`Yardım→Eğitim` menüsünden tekrar görüntüleyebilirsiniz."
 
 # Translated with gpt-4.1-mini
 #: ../main_window.rst:63
@@ -330,8 +331,8 @@ msgid ""
 "Clips on this track will always be on top and visible. Often watermarks and "
 "titles are placed on higher tracks."
 msgstr ""
-"Bu parçadaki klipler her zaman üstte ve görünür olur. Genellikle filigranlar "
-"ve başlıklar daha yüksek parçalara yerleştirilir."
+"Bu parçadaki klipler her zaman üstte ve görünür olur. Genellikle filigranlar"
+" ve başlıklar daha yüksek parçalara yerleştirilir."
 
 # Translated with gpt-4.1-mini
 #: ../main_window.rst:83
@@ -367,8 +368,8 @@ msgid ""
 "For a beginner-friendly overview of timeline editing (selection, tracks, "
 "keyframes, and common workflows), see :ref:`timeline_ref`."
 msgstr ""
-"Zaman çizelgesi düzenlemesine (seçim, parçalar, anahtar kareler ve yaygın iş "
-"akışları) yeni başlayanlar için genel bakış için bkz. :ref:`timeline_ref`."
+"Zaman çizelgesi düzenlemesine (seçim, parçalar, anahtar kareler ve yaygın iş"
+" akışları) yeni başlayanlar için genel bakış için bkz. :ref:`timeline_ref`."
 
 # Translated with gpt-4.1-mini
 #: ../main_window.rst:102
@@ -383,7 +384,8 @@ msgstr "Parça Ekle"
 # Translated with gpt-4.1-mini
 #: ../main_window.rst:106
 msgid ""
-"Add a new track to the timeline. New projects start with 5 tracks by default."
+"Add a new track to the timeline. New projects start with 5 tracks by "
+"default."
 msgstr ""
 "Zaman çizgisine yeni bir parça ekleyin. Yeni projeler varsayılan olarak 5 "
 "parça ile başlar."
@@ -428,7 +430,7 @@ msgstr ""
 "sınırlarına atlayın."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:117 ../main_window.rst:149
+#: ../main_window.rst:117 ../main_window.rst:148
 msgid "Center on Playhead"
 msgstr "Oynatma Kafasına Ortala"
 
@@ -442,13 +444,13 @@ msgstr ""
 # Translated with gpt-4.1-mini
 #: ../main_window.rst:121
 msgid ""
-"Control the visible timeline range. Drag handles to zoom in/out, drag center "
-"to pan, and double-click to fit timeline. You can also use :kbd:`Ctrl+Scroll "
-"Wheel`, or on the QWidget timeline hold :kbd:`Ctrl` and drag with the middle "
-"mouse button for smooth zooming."
+"Control the visible timeline range. Drag handles to zoom in/out, drag center"
+" to pan, and double-click to fit timeline. You can also use "
+":kbd:`Ctrl+Scroll Wheel`, or on the QWidget timeline hold :kbd:`Ctrl` and "
+"drag with the middle mouse button for smooth zooming."
 msgstr ""
-"Görünür zaman çizelgesi aralığını kontrol edin. Yakınlaştırmak/uzaklaştırmak "
-"için tutamaçları sürükleyin, kaydırmak için ortayı sürükleyin ve zaman "
+"Görünür zaman çizelgesi aralığını kontrol edin. Yakınlaştırmak/uzaklaştırmak"
+" için tutamaçları sürükleyin, kaydırmak için ortayı sürükleyin ve zaman "
 "çizelgesine sığdırmak için çift tıklayın. Ayrıca :kbd:`Ctrl+Kaydırma "
 "Tekerleği` kullanabilir veya QWidget zaman çizelgesinde :kbd:`Ctrl` tuşunu "
 "basılı tutup orta fare düğmesiyle sürükleyerek yumuşak yakınlaştırma "
@@ -462,7 +464,8 @@ msgstr "Parça açma/kapama (Kilit, Anahtar Kare Paneli)"
 # Translated with gpt-4.1-mini
 #: ../main_window.rst:124
 msgid "Per-track controls such as lock and keyframe panel visibility."
-msgstr "Kilit ve anahtar kare paneli görünürlüğü gibi parça başına kontroller."
+msgstr ""
+"Kilit ve anahtar kare paneli görünürlüğü gibi parça başına kontroller."
 
 # Translated with gpt-4.1-mini
 #: ../main_window.rst:129
@@ -475,14 +478,15 @@ msgid ""
 "Here is a list of the default keyboard shortcuts supported by OpenShot. You "
 "can configure these shortcuts in the Preferences window, which is opened by "
 "selecting :guilabel:`Edit→Preferences` from the OpenShot menu bar. (On "
-"macOS, choose :guilabel:`OpenShot Video Editor→Preferences`.) Learning a few "
-"of these shortcuts can save you a bunch of time!"
+"macOS, choose :guilabel:`OpenShot Video Editor→Preferences`.) Learning a few"
+" of these shortcuts can save you a bunch of time!"
 msgstr ""
 "İşte OpenShot tarafından desteklenen varsayılan klavye kısayollarının "
-"listesi. Bu kısayolları, OpenShot menü çubuğundan :guilabel:"
-"`Düzenle→Tercihler` seçeneğini seçerek açılan Tercihler penceresinde "
-"yapılandırabilirsiniz. (macOS'ta :guilabel:`OpenShot Video Editor→Tercihler` "
-"seçin.) Bu kısayollardan birkaçını öğrenmek size çok zaman kazandırabilir!"
+"listesi. Bu kısayolları, OpenShot menü çubuğundan "
+":guilabel:`Düzenle→Tercihler` seçeneğini seçerek açılan Tercihler "
+"penceresinde yapılandırabilirsiniz. (macOS'ta :guilabel:`OpenShot Video "
+"Editor→Tercihler` seçin.) Bu kısayollardan birkaçını öğrenmek size çok zaman"
+" kazandırabilir!"
 
 # Translated with gpt-4.1-mini
 #: ../main_window.rst:140
@@ -505,7 +509,7 @@ msgid "Shortcut 3"
 msgstr "Kısayol 3"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:142
+#: ../main_window.rst:142 ../main_window.rst:277
 msgid "About OpenShot"
 msgstr "OpenShot Hakkında"
 
@@ -540,34 +544,42 @@ msgid ":kbd:`Ctrl+Alt+A`"
 msgstr ":kbd:`Ctrl+Alt+A`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:147
+#: ../main_window.rst:146
 msgid "Animated Title"
 msgstr "Animasyonlu Başlık"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:147
+#: ../main_window.rst:146
 msgid ":kbd:`Ctrl+Shift+T`"
 msgstr ":kbd:`Ctrl+Shift+T`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:148
+#: ../main_window.rst:147
 msgid "Ask a Question..."
 msgstr "Bir Soru Sor..."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:148
+#: ../main_window.rst:147
 msgid ":kbd:`F4`"
 msgstr ":kbd:`F4`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:149
+#: ../main_window.rst:148
 msgid ":kbd:`Shift+C`"
 msgstr ":kbd:`Shift+C`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:149
+#: ../main_window.rst:148
 msgid ":kbd:`Alt+Up`"
 msgstr ":kbd:`Alt+Up`"
+
+#: ../main_window.rst:149 ../main_window.rst:311
+msgid "Color View"
+msgstr "Renk Görünümü"
+
+#: ../main_window.rst:149
+msgid ":kbd:`Alt+Shift+2`"
+msgstr ":kbd:`Alt+Shift+2`"
 
 # Translated with gpt-4.1-mini
 #: ../main_window.rst:150
@@ -756,651 +768,621 @@ msgstr ":kbd:`Ctrl+Çift Tık`"
 
 # Translated with gpt-4.1-mini
 #: ../main_window.rst:167
-msgid "Freeze View"
-msgstr "Görünümü Dondur"
-
-# Translated with gpt-4.1-mini
-#: ../main_window.rst:167
-msgid ":kbd:`Ctrl+F`"
-msgstr ":kbd:`Ctrl+F`"
-
-# Translated with gpt-4.1-mini
-#: ../main_window.rst:168
 msgid "Fullscreen"
 msgstr "Tam Ekran"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:168
+#: ../main_window.rst:167
 msgid ":kbd:`F11`"
 msgstr ":kbd:`F11`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:169
+#: ../main_window.rst:168
 msgid "Import Files..."
 msgstr "Dosyaları İçe Aktar..."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:169
+#: ../main_window.rst:168
 msgid ":kbd:`Ctrl+I`"
 msgstr ":kbd:`Ctrl+I`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:170
+#: ../main_window.rst:169
 msgid "Insert Keyframe"
 msgstr "Anahtar Kare Ekle"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:170
+#: ../main_window.rst:169
 msgid ":kbd:`Alt+Shift+K`"
 msgstr ":kbd:`Alt+Shift+K`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:171
+#: ../main_window.rst:170
 msgid "Join our Community..."
 msgstr "Topluluğumuza Katılın..."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:171
+#: ../main_window.rst:170
 msgid ":kbd:`F5`"
 msgstr ":kbd:`F5`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:172
+#: ../main_window.rst:171
 msgid "Jump To End"
 msgstr "Sona Atla"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:172
+#: ../main_window.rst:171
 msgid ":kbd:`End`"
 msgstr ":kbd:`End`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:173
+#: ../main_window.rst:172
 msgid "Jump To Start"
 msgstr "Başa Atla"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:173
+#: ../main_window.rst:172
 msgid ":kbd:`Home`"
 msgstr ":kbd:`Home`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:174
+#: ../main_window.rst:173
 msgid "Launch Tutorial"
 msgstr "Eğitimi Başlat"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:174
+#: ../main_window.rst:173
 msgid ":kbd:`F2`"
 msgstr ":kbd:`F2`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:175
+#: ../main_window.rst:174
 msgid "New Project"
 msgstr "Yeni Proje"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:175
+#: ../main_window.rst:174
 msgid ":kbd:`Ctrl+N`"
 msgstr ":kbd:`Ctrl+N`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:176
+#: ../main_window.rst:175
 msgid "Next Frame"
 msgstr "Sonraki Kare"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:176
+#: ../main_window.rst:175
 msgid ":kbd:`Right`"
 msgstr ":kbd:`Sağ`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:176
+#: ../main_window.rst:175
 msgid ":kbd:`.`"
 msgstr ":kbd:`.`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:177
+#: ../main_window.rst:176
 msgid "Next Marker"
 msgstr "Sonraki İşaretçi"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:177
+#: ../main_window.rst:176
 msgid ":kbd:`Shift+M`"
 msgstr ":kbd:`Shift+M`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:177
+#: ../main_window.rst:176
 msgid ":kbd:`Alt+Right`"
 msgstr ":kbd:`Alt+Sağ`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:178
+#: ../main_window.rst:177
 msgid "Nudge left (1 Frame)"
 msgstr "Bir Kare Sola Kaydır"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:178
+#: ../main_window.rst:177
 msgid ":kbd:`Ctrl+Left`"
 msgstr ":kbd:`Ctrl+Sol`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:179
+#: ../main_window.rst:178
 msgid "Nudge left (5 Frames)"
 msgstr "Beş Kare Sola Kaydır"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:179
+#: ../main_window.rst:178
 msgid ":kbd:`Shift+Ctrl+Left`"
 msgstr ":kbd:`Shift+Ctrl+Sol`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:180
+#: ../main_window.rst:179
 msgid "Nudge right (1 Frame)"
 msgstr "Bir Kare Sağa Kaydır"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:180
+#: ../main_window.rst:179
 msgid ":kbd:`Ctrl+Right`"
 msgstr ":kbd:`Ctrl+Sağ`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:181
+#: ../main_window.rst:180
 msgid "Nudge right (5 Frames)"
 msgstr "Beş Kare Sağa Kaydır"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:181
+#: ../main_window.rst:180
 msgid ":kbd:`Shift+Ctrl+Right`"
 msgstr ":kbd:`Shift+Ctrl+Sağ`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:182
+#: ../main_window.rst:181
 msgid "Open Help Contents"
 msgstr "Yardım İçeriğini Aç"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:182
+#: ../main_window.rst:181
 msgid ":kbd:`F1`"
 msgstr ":kbd:`F1`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:183
+#: ../main_window.rst:182
 msgid "Open Project..."
 msgstr "Projeyi Aç..."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:183
+#: ../main_window.rst:182
 msgid ":kbd:`Ctrl+O`"
 msgstr ":kbd:`Ctrl+O`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:184
+#: ../main_window.rst:183
 msgid "Paste"
 msgstr "Yapıştır"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:184
+#: ../main_window.rst:183
 msgid ":kbd:`Ctrl+V`"
 msgstr ":kbd:`Ctrl+V`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:185
+#: ../main_window.rst:184
 msgid "Play/Pause Toggle"
 msgstr "Oynat/Duraklat Değiştir"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:185
+#: ../main_window.rst:184
 msgid ":kbd:`Space`"
 msgstr ":kbd:`Boşluk`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:185
+#: ../main_window.rst:184
 msgid ":kbd:`Up`"
 msgstr ":kbd:`Yukarı`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:185
+#: ../main_window.rst:184
 msgid ":kbd:`Down`"
 msgstr ":kbd:`Aşağı`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:186
+#: ../main_window.rst:185
 msgid "Preferences"
 msgstr "Tercihler"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:186
+#: ../main_window.rst:185
 msgid ":kbd:`Ctrl+P`"
 msgstr ":kbd:`Ctrl+P`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:187
+#: ../main_window.rst:186
 msgid "Preview File"
 msgstr "Dosyayı Önizle"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:187
+#: ../main_window.rst:186
 msgid ":kbd:`Alt+P`"
 msgstr ":kbd:`Alt+P`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:187 ../main_window.rst:224
+#: ../main_window.rst:186 ../main_window.rst:221
 msgid ":kbd:`Double Click`"
 msgstr ":kbd:`Çift Tık`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:188
+#: ../main_window.rst:187
 msgid "Previous Frame"
 msgstr "Önceki Kare"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:188
+#: ../main_window.rst:187
 msgid ":kbd:`Left`"
 msgstr ":kbd:`Sol`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:188
+#: ../main_window.rst:187
 msgid ":kbd:`,`"
 msgstr ":kbd:`,`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:189
+#: ../main_window.rst:188
 msgid "Previous Marker"
 msgstr "Önceki İşaretçi"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:189
+#: ../main_window.rst:188
 msgid ":kbd:`Ctrl+Shift+M`"
 msgstr ":kbd:`Ctrl+Shift+M`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:189
+#: ../main_window.rst:188
 msgid ":kbd:`Alt+Left`"
 msgstr ":kbd:`Alt+Sol`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:190 ../main_window.rst:318
+#: ../main_window.rst:189 ../main_window.rst:395
 msgid "Properties"
 msgstr "Özellikler"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:190
+#: ../main_window.rst:189
 msgid ":kbd:`U`"
 msgstr ":kbd:`U`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:191
+#: ../main_window.rst:190
 msgid "Quit"
 msgstr "Çıkış"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:191
+#: ../main_window.rst:190
 msgid ":kbd:`Ctrl+Q`"
 msgstr ":kbd:`Ctrl+Q`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:192
+#: ../main_window.rst:191
 msgid "Razor Toggle"
 msgstr "Jilet Modu Değiştir"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:192
+#: ../main_window.rst:191
 msgid ":kbd:`C`"
 msgstr ":kbd:`C`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:192
+#: ../main_window.rst:191
 msgid ":kbd:`B`"
 msgstr ":kbd:`B`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:192
+#: ../main_window.rst:191
 msgid ":kbd:`R`"
 msgstr ":kbd:`R`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:193
+#: ../main_window.rst:192
 msgid "Redo"
 msgstr "Yinele"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:193
+#: ../main_window.rst:192
 msgid ":kbd:`Ctrl+Shift+Z`"
 msgstr ":kbd:`Ctrl+Shift+Z`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:194
+#: ../main_window.rst:193
 msgid "Report a Bug..."
 msgstr "Hata Bildir..."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:194
+#: ../main_window.rst:193
 msgid ":kbd:`F3`"
 msgstr ":kbd:`F3`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:195
+#: ../main_window.rst:194
 msgid "Rewind"
 msgstr "Geri Sar"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:195
+#: ../main_window.rst:194
 msgid ":kbd:`J`"
 msgstr ":kbd:`J`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:196 ../main_window.rst:197
+#: ../main_window.rst:195 ../main_window.rst:196
 msgid "Save Current Frame"
 msgstr "Geçerli Kareyi Kaydet"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:196 ../main_window.rst:197
+#: ../main_window.rst:195 ../main_window.rst:196
 msgid ":kbd:`Ctrl+Shift+Y`"
 msgstr ":kbd:`Ctrl+Shift+Y`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:198
+#: ../main_window.rst:197
 msgid "Save Project"
 msgstr "Projeyi Kaydet"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:198
+#: ../main_window.rst:197
 msgid ":kbd:`Ctrl+S`"
 msgstr ":kbd:`Ctrl+S`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:199
+#: ../main_window.rst:198
 msgid "Save Project As..."
 msgstr "Projeyi Farklı Kaydet..."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:199
+#: ../main_window.rst:198
 msgid ":kbd:`Ctrl+Shift+S`"
 msgstr ":kbd:`Ctrl+Shift+S`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:200
+#: ../main_window.rst:199
 msgid "Select All"
 msgstr "Tümünü Seç"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:200
+#: ../main_window.rst:199
 msgid ":kbd:`Ctrl+A`"
 msgstr ":kbd:`Ctrl+A`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:201
+#: ../main_window.rst:200
 msgid "Select Item (Ripple)"
 msgstr "Öğeyi Seç (Dalgalanma)"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:201
+#: ../main_window.rst:200
 msgid ":kbd:`Alt+A`"
 msgstr ":kbd:`Alt+A`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:201
+#: ../main_window.rst:200
 msgid ":kbd:`Alt+Click`"
 msgstr ":kbd:`Alt+Tıklama`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:202
+#: ../main_window.rst:201
 msgid "Select None"
 msgstr "Hiçbirini Seçme"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:202
+#: ../main_window.rst:201
 msgid ":kbd:`Ctrl+Shift+A`"
 msgstr ":kbd:`Ctrl+Shift+A`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:203
-msgid "Show All Docks"
-msgstr "Tüm Panelleri Göster"
-
-# Translated with gpt-4.1-mini
-#: ../main_window.rst:203
-msgid ":kbd:`Ctrl+Shift+D`"
-msgstr ":kbd:`Ctrl+Shift+D`"
-
-# Translated with gpt-4.1-mini
-#: ../main_window.rst:204 ../main_window.rst:286
+#: ../main_window.rst:202 ../main_window.rst:304
 msgid "Simple View"
 msgstr "Basit Görünüm"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:204
+#: ../main_window.rst:202
 msgid ":kbd:`Alt+Shift+0`"
 msgstr ":kbd:`Alt+Shift+0`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:205
+#: ../main_window.rst:203
 msgid "Slice All: Keep Both Sides"
 msgstr "Hepsini Böl: Her İki Tarafı Tut"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:205
+#: ../main_window.rst:203
 msgid ":kbd:`Ctrl+Shift+K`"
 msgstr ":kbd:`Ctrl+Shift+K`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:206
+#: ../main_window.rst:204
 msgid "Slice All: Keep Left Side"
 msgstr "Hepsini Böl: Sol Tarafı Tut"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:206
+#: ../main_window.rst:204
 msgid ":kbd:`Ctrl+Shift+J`"
 msgstr ":kbd:`Ctrl+Shift+J`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:207
+#: ../main_window.rst:205
 msgid "Slice All: Keep Right Side"
 msgstr "Hepsini Böl: Sağ Tarafı Tut"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:207
+#: ../main_window.rst:205
 msgid ":kbd:`Ctrl+Shift+L`"
 msgstr ":kbd:`Ctrl+Shift+L`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:208
+#: ../main_window.rst:206
 msgid "Slice Selected: Keep Both Sides"
 msgstr "Seçileni Böl: Her İki Tarafı Tut"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:208
+#: ../main_window.rst:206
 msgid ":kbd:`Ctrl+K`"
 msgstr ":kbd:`Ctrl+K`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:209
+#: ../main_window.rst:207
 msgid "Slice Selected: Keep Left Side"
 msgstr "Seçileni Böl: Sol Tarafı Tut"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:209
+#: ../main_window.rst:207
 msgid ":kbd:`Ctrl+J`"
 msgstr ":kbd:`Ctrl+J`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:210
+#: ../main_window.rst:208
 msgid "Slice Selected: Keep Right Side"
 msgstr "Seçileni Böl: Sağ Tarafı Tut"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:210
+#: ../main_window.rst:208
 msgid ":kbd:`Ctrl+L`"
 msgstr ":kbd:`Ctrl+L`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:211
+#: ../main_window.rst:209
 msgid "Slice Selected: Keep Left (Ripple)"
 msgstr "Seçileni Böl: Solu Tut (Dalgalanma)"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:211
+#: ../main_window.rst:209
 msgid ":kbd:`W`"
 msgstr ":kbd:`W`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:212
+#: ../main_window.rst:210
 msgid "Slice Selected: Keep Right (Ripple)"
 msgstr "Seçileni Böl: Sağı Tut (Dalgalanma)"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:212
+#: ../main_window.rst:210
 msgid ":kbd:`Q`"
 msgstr ":kbd:`Q`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:213
+#: ../main_window.rst:211
 msgid "Snapping Toggle"
 msgstr "Yapışmayı Aç/Kapat"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:213
+#: ../main_window.rst:211
 msgid ":kbd:`S`"
 msgstr ":kbd:`S`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:214
+#: ../main_window.rst:212
 msgid "Split File"
 msgstr "Dosyayı Böl"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:214
+#: ../main_window.rst:212
 msgid ":kbd:`Alt+S`"
 msgstr ":kbd:`Alt+S`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:214
+#: ../main_window.rst:212
 msgid ":kbd:`Shift+Double Click`"
 msgstr ":kbd:`Shift+Çift Tık`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:215
+#: ../main_window.rst:213
 msgid "Thumbnail View"
 msgstr "Küçük Resim Görünümü"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:215
+#: ../main_window.rst:213
 msgid ":kbd:`Ctrl+Page Down`"
 msgstr ":kbd:`Ctrl+Page Down`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:216
+#: ../main_window.rst:214
 msgid "Timing Toggle"
 msgstr "Zamanlama Değiştir"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:216
+#: ../main_window.rst:214
 msgid ":kbd:`T`"
 msgstr ":kbd:`T`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:217 ../main_window.rst:258
+#: ../main_window.rst:215 ../main_window.rst:255
 msgid "Title"
 msgstr "Başlık"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:217
+#: ../main_window.rst:215
 msgid ":kbd:`Ctrl+T`"
 msgstr ":kbd:`Ctrl+T`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:218
+#: ../main_window.rst:216
 msgid "Translate this Application..."
 msgstr "Bu Uygulamayı Çevir..."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:218
+#: ../main_window.rst:216
 msgid ":kbd:`F6`"
 msgstr ":kbd:`F6`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:219
-msgid "Un-Freeze View"
-msgstr "Görünümü Çöz"
-
-# Translated with gpt-4.1-mini
-#: ../main_window.rst:219
-msgid ":kbd:`Ctrl+Shift+F`"
-msgstr ":kbd:`Ctrl+Shift+F`"
-
-# Translated with gpt-4.1-mini
-#: ../main_window.rst:220
+#: ../main_window.rst:217
 msgid "Undo"
 msgstr "Geri Al"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:220
+#: ../main_window.rst:217
 msgid ":kbd:`Ctrl+Z`"
 msgstr ":kbd:`Ctrl+Z`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:221
+#: ../main_window.rst:218
 msgid "View Toolbar"
 msgstr "Araç Çubuğunu Göster"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:221
+#: ../main_window.rst:218
 msgid ":kbd:`Ctrl+Shift+B`"
 msgstr ":kbd:`Ctrl+Shift+B`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:222
+#: ../main_window.rst:219
 msgid "Zoom In"
 msgstr "Yakınlaştır"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:222
+#: ../main_window.rst:219
 msgid ":kbd:`=`"
 msgstr ":kbd:`=`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:222
+#: ../main_window.rst:219
 msgid ":kbd:`Ctrl+=`"
 msgstr ":kbd:`Ctrl+=`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:223
+#: ../main_window.rst:220
 msgid "Zoom Out"
 msgstr "Uzaklaştır"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:223
+#: ../main_window.rst:220
 msgid ":kbd:`-`"
 msgstr ":kbd:`-`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:223
+#: ../main_window.rst:220
 msgid ":kbd:`Ctrl+-`"
 msgstr ":kbd:`Ctrl+-`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:224
+#: ../main_window.rst:221
 msgid "Zoom to Timeline"
 msgstr "Zaman Çizelgesine Yakınlaştır"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:224
+#: ../main_window.rst:221
 msgid ":kbd:`\\\\`"
 msgstr ":kbd:`\\\\`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:224
+#: ../main_window.rst:221
 msgid ":kbd:`Shift+\\\\`"
 msgstr ":kbd:`Shift+\\\\`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:228
+#: ../main_window.rst:225
 msgid "Menu"
 msgstr "Menü"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:229
+#: ../main_window.rst:226
 msgid ""
 "The following menu options are available on the main window on OpenShot. "
 "Most of these options can be accessed by the keyboard shortcuts mentioned "
@@ -1408,37 +1390,37 @@ msgid ""
 "renamed and/or rearranged."
 msgstr ""
 "Aşağıdaki menü seçenekleri OpenShot ana penceresinde mevcuttur. Bu "
-"seçeneklerin çoğuna yukarıda belirtilen klavye kısayolları ile erişilebilir. "
-"Bazı işletim sistemlerinde (örneğin macOS) bu seçeneklerin bazıları yeniden "
-"adlandırılmış ve/veya yeniden düzenlenmiştir."
+"seçeneklerin çoğuna yukarıda belirtilen klavye kısayolları ile erişilebilir."
+" Bazı işletim sistemlerinde (örneğin macOS) bu seçeneklerin bazıları yeniden"
+" adlandırılmış ve/veya yeniden düzenlenmiştir."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:237
+#: ../main_window.rst:234
 msgid "Menu Name"
 msgstr "Menü Adı"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:239
+#: ../main_window.rst:236
 msgid "File"
 msgstr "Dosya"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:241
+#: ../main_window.rst:238
 msgid ":guilabel:`New Project` Create a blank new project."
 msgstr ":guilabel:`Yeni Proje` Boş yeni bir proje oluştur."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:242
+#: ../main_window.rst:239
 msgid ":guilabel:`Open Project` Open an existing project."
 msgstr ":guilabel:`Projeyi Aç` Var olan bir projeyi aç."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:243
+#: ../main_window.rst:240
 msgid ":guilabel:`Recent Projects` Access recently opened projects."
 msgstr ":guilabel:`Son Projeler` Son açılan projelere eriş."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:244
+#: ../main_window.rst:241
 msgid ""
 ":guilabel:`Recovery` Restore a previously saved version of your current "
 "project."
@@ -1447,26 +1429,26 @@ msgstr ""
 "geri yükle."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:245
+#: ../main_window.rst:242
 msgid ":guilabel:`Save Project` Save the current project."
 msgstr ":guilabel:`Projeyi Kaydet` Mevcut projeyi kaydet."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:246
+#: ../main_window.rst:243
 msgid ":guilabel:`Import Files` Import media files into the project."
 msgstr ":guilabel:`Dosya İçe Aktar` Medya dosyalarını projeye aktar."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:247
+#: ../main_window.rst:244
 msgid ""
 ":guilabel:`Choose Profile` Select a project profile (*i.e. 1080p @ 30fps, "
 "720p @ 24fps, ...*)."
 msgstr ""
-":guilabel:`Profil Seç` Bir proje profili seç (*örneğin 1080p @ 30fps, 720p @ "
-"24fps, ...*)."
+":guilabel:`Profil Seç` Bir proje profili seç (*örneğin 1080p @ 30fps, 720p @"
+" 24fps, ...*)."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:248
+#: ../main_window.rst:245
 msgid ""
 ":guilabel:`Save Current Frame` Save the current preview video frame as an "
 "image (sometimes represented with a camera icon)."
@@ -1475,16 +1457,16 @@ msgstr ""
 "olarak kaydet (bazen kamera simgesiyle gösterilir)."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:249
+#: ../main_window.rst:246
 msgid ""
 ":guilabel:`Import Project` Import another project into the current project "
 "(*Adobe and Final Cut Pro formats partially supported*)."
 msgstr ""
-":guilabel:`Projeyi İçe Aktar` Başka bir projeyi mevcut projeye aktar (*Adobe "
-"ve Final Cut Pro formatları kısmen desteklenir*)."
+":guilabel:`Projeyi İçe Aktar` Başka bir projeyi mevcut projeye aktar (*Adobe"
+" ve Final Cut Pro formatları kısmen desteklenir*)."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:250
+#: ../main_window.rst:247
 msgid ""
 ":guilabel:`Export Project` Export the current project to a specified format "
 "(*EDL, Adobe, and Final Cut Pro formats partially supported*)."
@@ -1493,27 +1475,27 @@ msgstr ""
 "(*EDL, Adobe ve Final Cut Pro formatları kısmen desteklenir*)."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:251
+#: ../main_window.rst:248
 msgid ":guilabel:`Quit` Exit the application."
 msgstr ":guilabel:`Çıkış` Uygulamadan çık."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:252
+#: ../main_window.rst:249
 msgid "Edit"
 msgstr "Düzenle"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:254
+#: ../main_window.rst:251
 msgid ":guilabel:`Undo` Undo the last action."
 msgstr ":guilabel:`Geri Al` Son işlemi geri al."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:255
+#: ../main_window.rst:252
 msgid ":guilabel:`Redo` Redo the last undone action."
 msgstr ":guilabel:`Yinele` Geri alınan son işlemi yinele."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:256
+#: ../main_window.rst:253
 msgid ""
 ":guilabel:`Clear` Clear the current history or waveform cached data. This "
 "makes the `.osp project` file a much smaller file size."
@@ -1522,101 +1504,108 @@ msgstr ""
 "temizle. Bu, `.osp proje` dosyasının boyutunu önemli ölçüde küçültür."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:257
+#: ../main_window.rst:254
 msgid ""
 ":guilabel:`Preferences` Open the preferences dialog to customize settings."
 msgstr ""
 ":guilabel:`Tercihler` Ayarları özelleştirmek için tercihler penceresini aç."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:260
+#: ../main_window.rst:257
 msgid ""
-":guilabel:`Title` Add a SVG vector title to the project. See :ref:"
-"`text_and_titles_ref`."
+":guilabel:`Title` Add a SVG vector title to the project. See "
+":ref:`text_and_titles_ref`."
 msgstr ""
-":guilabel:`Başlık` Projeye SVG vektör başlık ekle. Bkz. :ref:"
-"`text_and_titles_ref`."
+":guilabel:`Başlık` Projeye SVG vektör başlık ekle. Bkz. "
+":ref:`text_and_titles_ref`."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:261
+#: ../main_window.rst:258
 msgid ""
-":guilabel:`Animated Title` Add an animated title to the project. See :ref:"
-"`animated_titles_ref`."
+":guilabel:`Animated Title` Add an animated title to the project. See "
+":ref:`animated_titles_ref`."
 msgstr ""
-":guilabel:`Animasyonlu Başlık` Projeye animasyonlu başlık ekle. Bkz. :ref:"
-"`animated_titles_ref`."
+":guilabel:`Animasyonlu Başlık` Projeye animasyonlu başlık ekle. Bkz. "
+":ref:`animated_titles_ref`."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:262
+#: ../main_window.rst:259
 msgid "View"
 msgstr "Görünüm"
 
-# Translated with gpt-4.1-mini
-#: ../main_window.rst:264
-msgid ":guilabel:`Toolbar` Show or hide the main window toolbar."
-msgstr ":guilabel:`Araç Çubuğu` Ana pencere araç çubuğunu göster veya gizle."
+#: ../main_window.rst:261
+msgid ""
+":guilabel:`Simple View` and :guilabel:`Color View` switch or reset the main "
+"window layout."
+msgstr ""
+":guilabel:`Basit Görünüm` ve :guilabel:`Renk Görünümü` ana pencere düzenini "
+"değiştirir veya sıfırlar."
 
-# Translated with gpt-4.1-mini
+#: ../main_window.rst:262
+msgid ""
+":guilabel:`My Views` Save, load, update, and delete your own named layouts. "
+"See :ref:`my_views_ref`."
+msgstr ""
+":guilabel:`Görünümlerim` Kendi adlandırılmış düzenlerinizi kaydedin, "
+"yükleyin, güncelleyin ve silin. Bkz. :ref:`my_views_ref`."
+
+#: ../main_window.rst:263
+msgid ":guilabel:`Docks` Show or hide various dockable panels."
+msgstr ""
+":guilabel:`Paneller` Çeşitli yerleştirilebilir panelleri göster veya gizle."
+
+#: ../main_window.rst:264
+msgid ""
+":guilabel:`Scopes` Show or hide scope docks, or open all scopes at once."
+msgstr ""
+":guilabel:`Ölçümler` Ölçüm panellerini göster veya gizle, ya da tüm "
+"ölçümleri aynı anda aç."
+
 #: ../main_window.rst:265
-msgid ":guilabel:`Fullscreen` Toggle fullscreen mode."
-msgstr ":guilabel:`Tam Ekran` Tam ekran modunu aç veya kapat."
+msgid ""
+":guilabel:`Window` Show or hide the main window toolbar, or toggle "
+"fullscreen mode."
+msgstr ""
+":guilabel:`Pencere` Ana pencere araç çubuğunu göster veya gizle, ya da tam "
+"ekran modunu aç/kapat."
 
 # Translated with gpt-4.1-mini
 #: ../main_window.rst:266
-msgid ""
-":guilabel:`Views` Switch or reset the main window layout (*Simple, Advanced, "
-"Freeze, Show All*)."
-msgstr ""
-":guilabel:`Görünümler` Ana pencere düzenini değiştir veya sıfırla (*Basit, "
-"Gelişmiş, Dondur, Hepsini Göster*)."
-
-# Translated with gpt-4.1-mini
-#: ../main_window.rst:267
-msgid ""
-":guilabel:`Docks` Show or hide various dockable panels (*Captions, Effects, "
-"Emojis, Project Files, Properties, Transitions, Video Preview*)."
-msgstr ""
-":guilabel:`Paneller` Çeşitli sabitlenebilir panelleri göster veya gizle "
-"(*Altyazılar, Efektler, Emojiler, Proje Dosyaları, Özellikler, Geçişler, "
-"Video Önizleme*)."
-
-# Translated with gpt-4.1-mini
-#: ../main_window.rst:268
 msgid "Help"
 msgstr "Yardım"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:270
+#: ../main_window.rst:268
 msgid ":guilabel:`Contents` Open the user guide online."
 msgstr ":guilabel:`İçerik` Çevrimiçi kullanıcı kılavuzunu aç."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:271
+#: ../main_window.rst:269
 msgid ":guilabel:`Tutorial` Access the built-in tutorial for new users."
 msgstr ":guilabel:`Eğitim` Yeni kullanıcılar için yerleşik eğitime eriş."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:272
+#: ../main_window.rst:270
 msgid ":guilabel:`Report a Bug` Report a bug or issue."
 msgstr ":guilabel:`Hata Bildir` Bir hata veya sorun bildir."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:273
+#: ../main_window.rst:271
 msgid ":guilabel:`Ask a Question` Ask a question about the software."
 msgstr ":guilabel:`Soru Sor` Yazılımla ilgili bir soru sor."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:274
+#: ../main_window.rst:272
 msgid ":guilabel:`Translate` Contribute to translations of the software."
 msgstr ":guilabel:`Çeviri` Yazılımın çevirilerine katkıda bulun."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:275
+#: ../main_window.rst:273
 msgid ":guilabel:`Donate` Make a donation to support the project."
 msgstr ":guilabel:`Bağış Yap` Projeyi desteklemek için bağış yap."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:276
+#: ../main_window.rst:274
 msgid ""
 ":guilabel:`About` View information about the software (version, "
 "contributors, translators, changelog, and supporters)."
@@ -1624,75 +1613,267 @@ msgstr ""
 ":guilabel:`Hakkında` Yazılım hakkında bilgi görüntüle (sürüm, katkıda "
 "bulunanlar, çevirmenler, değişiklik günlüğü ve destekçiler)."
 
+#: ../main_window.rst:278
+msgid ""
+"Use :guilabel:`Help→About OpenShot` to check your OpenShot version. Click "
+":guilabel:`Copy` next to the version number to copy a short version and "
+"system details report, which is the preferred way to share this information "
+"when reporting a bug or asking for help."
+msgstr ""
+":guilabel:`Yardım→OpenShot Hakkında` seçeneğini kullanarak OpenShot "
+"sürümünüzü kontrol edin. Sürüm numarasının yanındaki :guilabel:`Kopyala` "
+"düğmesine tıklayarak kısa sürüm ve sistem detayları raporunu "
+"kopyalayabilirsiniz; bu, hata bildirirken veya yardım isterken tercih edilen"
+" bilgi paylaşım yoludur."
+
+#: ../main_window.rst:283
+msgid "Example output:"
+msgstr "Örnek çıktı:"
+
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:279
+#: ../main_window.rst:297
 msgid "Views"
 msgstr "Görünümler"
 
-# Translated with gpt-4.1-mini
-#: ../main_window.rst:287
+#: ../main_window.rst:299
+msgid ""
+"The OpenShot main window is composed of multiple **docks**. These **docks** "
+"are arranged and snapped together into a grouping that we call a **View**. "
+"OpenShot includes :guilabel:`Simple View`, :guilabel:`Color View`, and "
+":guilabel:`My Views` (user-defined layouts)."
+msgstr ""
+"OpenShot ana penceresi birden fazla **panelden** oluşur. Bu **paneller** bir"
+" araya getirilip yapışarak bir grup oluşturur, buna **Görünüm** diyoruz. "
+"OpenShot, :guilabel:`Basit Görünüm`, :guilabel:`Renk Görünümü` ve "
+":guilabel:`Görünümlerim` (kullanıcı tanımlı düzenler) içerir."
+
+#: ../main_window.rst:305
 msgid ""
 "This is the **default** view, and is designed to be easy-to-use, especially "
-"for first-time users. It contains :guilabel:`Project Files` on the top "
-"left, :guilabel:`Preview Window` on the top right, and :guilabel:`Timeline` "
-"on the bottom. If you accidentally close or move a dock, you can quickly "
-"reset all the docks back to their default location using the :guilabel:`View-"
-">Views->Simple View` menu at the top of the screen."
+"for first-time users. It contains :guilabel:`Project Files` on the top left,"
+" :guilabel:`Preview Window` on the top right, and :guilabel:`Timeline` on "
+"the bottom. If you accidentally close or move a dock, you can quickly reset "
+"all the docks back to their default location using the "
+":guilabel:`View->Simple View` menu at the top of the screen."
 msgstr ""
-"Bu, **varsayılan** görünüm olup, özellikle ilk kez kullananlar için "
-"kullanımı kolay olacak şekilde tasarlanmıştır. Sol üstte :guilabel:`Proje "
-"Dosyaları`, sağ üstte :guilabel:`Önizleme Penceresi` ve altta :guilabel:"
-"`Zaman Çizelgesi` bulunur. Bir dock'u yanlışlıkla kapatır veya taşırırsanız, "
-"ekranın üstündeki :guilabel:`Görünüm->Görünümler->Basit Görünüm` menüsünü "
-"kullanarak tüm dock'ları varsayılan konumlarına hızlıca sıfırlayabilirsiniz."
+"Bu **varsayılan** görünüm olup, özellikle ilk kez kullananlar için kolay "
+"kullanımlı olacak şekilde tasarlanmıştır. Sol üstte :guilabel:`Proje "
+"Dosyaları`, sağ üstte :guilabel:`Önizleme Penceresi` ve altta "
+":guilabel:`Zaman Çizelgesi` bulunur. Yanlışlıkla bir paneli kapatır veya "
+"taşırırsanız, ekranın üstündeki :guilabel:`Görünüm->Basit Görünüm` menüsünü "
+"kullanarak tüm panelleri varsayılan konumlarına hızlıca sıfırlayabilirsiniz."
+
+#: ../main_window.rst:312
+msgid ""
+"This view is focused on color correction and scopes. It enlarges the video "
+"preview, hides file-management docks, keeps the timeline and properties "
+"visible, places the :guilabel:`Color Wheels` dock on the right, and tabifies"
+" the :guilabel:`Luma Waveform` and :guilabel:`Histogram` docks together "
+"below it."
+msgstr ""
+"Bu görünüm renk düzeltme ve ölçümlere odaklanır. Video önizlemesini büyütür,"
+" dosya yönetimi panellerini gizler, zaman çizelgesi ve özellikleri görünür "
+"tutar, :guilabel:`Renk Çarkları` panelini sağa yerleştirir ve altına "
+":guilabel:`Luma Dalga Formu` ile :guilabel:`Histogram` panellerini sekmeli "
+"olarak birleştirir."
+
+#: ../main_window.rst:317
+msgid "Recording View"
+msgstr "Kayıt Görünümü"
+
+#: ../main_window.rst:318
+msgid ""
+"This view is focused on creating new recordings inside OpenShot. It shows "
+":guilabel:`Project Files`, :guilabel:`Video Preview`, :guilabel:`Timeline`, "
+"and the :guilabel:`Recording` dock. The :guilabel:`Properties` dock is "
+"grouped with :guilabel:`Project Files` as a tab, so you can show it from "
+":guilabel:`View->Docks->Properties` without disrupting the recording layout."
+msgstr ""
+"Bu görünüm OpenShot içinde yeni kayıtlar oluşturmaya odaklanır. "
+":guilabel:`Proje Dosyaları`, :guilabel:`Video Önizlemesi`, :guilabel:`Zaman "
+"Çizelgesi` ve :guilabel:`Kayıt` panelini gösterir. :guilabel:`Özellikler` "
+"paneli, :guilabel:`Proje Dosyaları` ile sekmeli olarak gruplanmıştır, "
+"böylece kayıt düzenini bozmadan :guilabel:`Görünüm->Paneller->Özellikler` "
+"üzerinden gösterebilirsiniz."
+
+#: ../main_window.rst:323
+msgid ""
+"The :guilabel:`Recording` dock can record microphone audio, screen capture, "
+"webcam video, or combinations of those sources. When screen and webcam are "
+"recorded together, OpenShot can place the webcam as a corner picture-in-"
+"picture clip. Those corner camera clips use normal clip properties after "
+"they are added to the timeline: :guilabel:`Gravity` chooses the corner, "
+":guilabel:`Scale X` and :guilabel:`Scale Y` set the corner size, "
+":guilabel:`Margin` creates the inset layout area that keeps the camera away "
+"from the screen edge, and :guilabel:`Corner Radius` rounds the camera clip "
+"without adding a separate Mask effect. See :ref:`clip_properties_ref` for "
+"details. See :ref:`recording_ref` for the complete recording workflow and "
+"all source options."
+msgstr ""
+":guilabel:`Kayıt` paneli mikrofon sesi, ekran kaydı, webcam videosu veya bu "
+"kaynakların kombinasyonlarını kaydedebilir. Ekran ve webcam birlikte "
+"kaydedildiğinde, OpenShot webcam görüntüsünü köşede resim içinde resim klibi"
+" olarak yerleştirebilir. Bu köşe kamera klipleri zaman çizelgesine "
+"eklendikten sonra normal klip özelliklerini kullanır: :guilabel:`Yerçekimi` "
+"köşeyi seçer, :guilabel:`Ölçek X` ve :guilabel:`Ölçek Y` köşe boyutunu "
+"ayarlar, :guilabel:`Kenarlık` kamerayı ekran kenarından uzak tutan iç "
+"yerleşim alanını oluşturur ve :guilabel:`Köşe Yarıçapı` ayrı bir Maske "
+"efekti eklemeden kamera klibini yuvarlar. Ayrıntılar için "
+":ref:`clip_properties_ref` bakınız. Tam kayıt iş akışı ve tüm kaynak "
+"seçenekleri için :ref:`recording_ref` bakınız."
+
+#: ../main_window.rst:334
+msgid "My Views"
+msgstr "Görünümlerim"
+
+#: ../main_window.rst:335
+msgid ""
+"**My Views** lets you save any dock arrangement as a named layout and recall"
+" it instantly. This is ideal for workflows that require switching between "
+"different editing modes — for example, a detailed audio mix layout and a "
+"focused color grading layout — without manually repositioning docks each "
+"time."
+msgstr ""
+"**Görünümlerim**, herhangi bir panel düzenini adlandırılmış bir düzen olarak"
+" kaydetmenizi ve anında çağırmanızı sağlar. Bu, farklı düzenleme modları "
+"arasında geçiş yapmayı gerektiren iş akışları için idealdir — örneğin, "
+"ayrıntılı bir ses miks düzeni ve odaklanmış bir renk derecelendirme düzeni —"
+" her seferinde panelleri manuel olarak yeniden konumlandırmadan."
+
+#: ../main_window.rst:339
+msgid ""
+"Each saved view captures the position, size, and visibility of every dock, "
+"as well as the timeline height. Saved views are stored in your project "
+"settings and persist across sessions."
+msgstr ""
+"Kaydedilen her görünüm, her panelin konumunu, boyutunu ve görünürlüğünü, "
+"ayrıca zaman çizelgesi yüksekliğini kaydeder. Kaydedilen görünümler proje "
+"ayarlarınızda saklanır ve oturumlar arasında kalıcıdır."
+
+#: ../main_window.rst:342
+msgid "**View → My Views** menu options:"
+msgstr "**Görünüm → Görünümlerim** menü seçenekleri:"
+
+#: ../main_window.rst:348
+msgid "Menu Item"
+msgstr "Menü Öğesi"
+
+#: ../main_window.rst:350
+msgid "List of user-defined views"
+msgstr "Kullanıcı tanımlı görünümlerin listesi"
+
+#: ../main_window.rst:351
+msgid ""
+"Click to restore that layout. The currently active view shows a checkmark."
+msgstr ""
+"O düzeni geri yüklemek için tıklayın. Şu anda aktif olan görünüm "
+"işaretlenir."
+
+#: ../main_window.rst:352
+msgid "Update \"*[name]*\""
+msgstr "\"*[name]*\" öğesini Güncelle"
+
+#: ../main_window.rst:353
+msgid "Save your current dock arrangement over the active view, replacing it."
+msgstr ""
+"Mevcut panel düzeninizi aktif görünümün üzerine kaydederek değiştirin."
+
+#: ../main_window.rst:354
+msgid "Delete \"*[name]*\""
+msgstr "\"*[name]*\" öğesini Sil"
+
+#: ../main_window.rst:355
+msgid "Remove the active view (asks for confirmation first)."
+msgstr "Aktif görünümü kaldırır (önce onay ister)."
+
+#: ../main_window.rst:356
+msgid "Save Current View As..."
+msgstr "Mevcut Görünümü Farklı Kaydet..."
+
+#: ../main_window.rst:357
+msgid "Name and save your current dock arrangement as a new view."
+msgstr "Mevcut panel düzeninizi yeni bir görünüm olarak adlandırıp kaydedin."
+
+#: ../main_window.rst:359
+msgid "**Typical workflow:**"
+msgstr "**Tipik iş akışı:**"
+
+#: ../main_window.rst:361
+msgid "Arrange your docks exactly how you like them."
+msgstr "Panellerinizi tam istediğiniz gibi düzenleyin."
+
+#: ../main_window.rst:362
+msgid ""
+"Open :guilabel:`View → My Views → Save Current View As...` and enter a name "
+"(e.g. *\"Audio Mix\"*)."
+msgstr ""
+":guilabel:`Görünüm → Görünümlerim → Mevcut Görünümü Farklı Kaydet...` "
+"seçeneğini açın ve bir isim girin (örneğin *\"Ses Karışımı\"*)."
+
+#: ../main_window.rst:363
+msgid ""
+"Later, open :guilabel:`View → My Views` and click the view name to restore "
+"that layout instantly."
+msgstr ""
+"Daha sonra :guilabel:`Görünüm → Görünümlerim` seçeneğini açın ve o düzeni "
+"anında geri yüklemek için görünüm adına tıklayın."
+
+#: ../main_window.rst:364
+msgid ""
+"If you adjust the layout and want to keep the changes, choose "
+":guilabel:`Update \"Audio Mix\"` to overwrite it."
+msgstr ""
+"Düzeni değiştirdiyseniz ve değişiklikleri korumak istiyorsanız, üzerine "
+"yazmak için :guilabel:`\"Ses Karışımı\" öğesini Güncelle` seçeneğini seçin."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:299
+#: ../main_window.rst:367
 msgid "Docks"
 msgstr "Dock'lar"
 
-# Translated with gpt-4.1-mini
-#: ../main_window.rst:300
+#: ../main_window.rst:368
 msgid ""
 "Each widget on the OpenShot main window is contained in a **dock**. These "
 "docks can be dragged and snapped around the main window, and even grouped "
-"together (into tabs). OpenShot will always save your main window dock layout "
-"when you exit the program. Re-launching OpenShot will restore your custom "
-"dock layout automatically."
+"together (into tabs). OpenShot will always save your main window dock layout"
+" when you exit the program. Re-launching OpenShot will restore your custom "
+"dock layout automatically. Scope docks are grouped under "
+":guilabel:`View->Scopes`."
 msgstr ""
-"OpenShot ana penceresindeki her araç, bir **dock** içinde bulunur. Bu "
-"dock'lar ana pencere etrafında sürüklenip yerleştirilebilir ve hatta "
-"sekmeler halinde gruplanabilir. OpenShot, programdan çıkarken ana pencere "
-"dock düzeninizi her zaman kaydeder. OpenShot'u yeniden başlattığınızda, özel "
-"dock düzeniniz otomatik olarak geri yüklenir."
+"OpenShot ana penceresindeki her widget bir **dock** içinde bulunur. Bu "
+"docklar ana pencere etrafında sürüklenip yerleştirilebilir ve hatta birlikte"
+" gruplanabilir (sekme olarak). OpenShot programdan çıkarken ana pencere dock"
+" düzeninizi her zaman kaydeder. OpenShot'u yeniden başlatmak, özel dock "
+"düzeninizi otomatik olarak geri yükler. Scope dockları "
+":guilabel:`View->Scopes` altında gruplanmıştır."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:308
+#: ../main_window.rst:377
 msgid "Dock Name"
 msgstr "Dock Adı"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:310
+#: ../main_window.rst:379
 msgid "Captions"
 msgstr "Altyazılar"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:311
+#: ../main_window.rst:380
 msgid ""
 "Manage and add captions or subtitles to your video project. Allows you to "
 "create, edit, and manage caption data. See :ref:`caption_effect_ref` effect."
 msgstr ""
 "Video projenize altyazı veya başlık ekleyin ve yönetin. Altyazı verilerini "
-"oluşturmanıza, düzenlemenize ve yönetmenize olanak tanır. Bkz. :ref:"
-"`caption_effect_ref` efekti."
+"oluşturmanıza, düzenlemenize ve yönetmenize olanak tanır. Bkz. "
+":ref:`caption_effect_ref` efekti."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:312
+#: ../main_window.rst:381
 msgid "Effects"
 msgstr "Efektler"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:313
+#: ../main_window.rst:382
 msgid ""
 "Browse and apply video and audio effects to your video clips. Includes "
 "filters, color adjustments, and special effects. See :ref:`effects_ref`."
@@ -1700,84 +1881,240 @@ msgstr ""
 "Video kliplerinize video ve ses efektleri göz atın ve uygulayın. Filtreler, "
 "renk ayarları ve özel efektler içerir. Bkz. :ref:`effects_ref`."
 
+#: ../main_window.rst:383
+msgid "Color Wheels"
+msgstr "Renk Çarkları"
+
+#: ../main_window.rst:384
+msgid ""
+"Edit Color Grade wheel controls for global, shadows, midtones, and "
+"highlights from a dedicated right-side dock."
+msgstr ""
+"Özel sağ taraf dockundan global, gölgeler, orta tonlar ve vurgular için Renk"
+" Derecelendirme çark kontrollerini düzenleyin."
+
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:314
+#: ../main_window.rst:385
 msgid "Emojis"
 msgstr "Emojiler"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:315
+#: ../main_window.rst:386
 msgid ""
-"Add emoji graphics to your video project. Choose from a variety of emojis to "
-"enhance your video content."
+"Add emoji graphics to your video project. Choose from a variety of emojis to"
+" enhance your video content."
 msgstr ""
-"Video projenize emoji grafikleri ekleyin. Video içeriğinizi geliştirmek için "
-"çeşitli emojiler arasından seçim yapın."
+"Video projenize emoji grafikleri ekleyin. Video içeriğinizi geliştirmek için"
+" çeşitli emojiler arasından seçim yapın."
+
+#: ../main_window.rst:387
+msgid "Histogram"
+msgstr "Histogram"
+
+#: ../main_window.rst:388
+msgid ""
+"Analyze the tonal and channel distribution of the current preview frame."
+msgstr "Mevcut önizleme karesinin ton ve kanal dağılımını analiz edin."
+
+#: ../main_window.rst:389
+msgid "Luma Waveform"
+msgstr "Luma Dalga Formu"
+
+#: ../main_window.rst:390
+msgid "Analyze brightness distribution across the current preview frame."
+msgstr "Mevcut önizleme karesindeki parlaklık dağılımını analiz edin."
+
+#: ../main_window.rst:391
+msgid "Audio Levels"
+msgstr "Ses Seviyeleri"
+
+#: ../main_window.rst:392
+msgid "Monitor audio level scope data for the current preview frame."
+msgstr "Mevcut önizleme karesi için ses seviyesi kapsam verilerini izleyin."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:317
+#: ../main_window.rst:394
 msgid ""
 "View and manage all the media files imported into your project. Organize, "
 "filter, and tag video, audio, and image files. See :ref:`files_ref`."
 msgstr ""
 "Projenize aktarılan tüm medya dosyalarını görüntüleyin ve yönetin. Video, "
-"ses ve resim dosyalarını düzenleyin, filtreleyin ve etiketleyin. Bkz. :ref:"
-"`files_ref`."
+"ses ve resim dosyalarını düzenleyin, filtreleyin ve etiketleyin. Bkz. "
+":ref:`files_ref`."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:319
+#: ../main_window.rst:396
 msgid ""
 "View and edit the properties of a selected effect, transition, or clip. "
-"Adjust settings such as duration, size, position, etc... See :ref:"
-"`clip_properties_ref`."
+"Adjust settings such as duration, size, position, etc... See "
+":ref:`clip_properties_ref`."
 msgstr ""
 "Seçilen efektin, geçişin veya klibin özelliklerini görüntüleyin ve "
-"düzenleyin. Süre, boyut, konum gibi ayarları yapın. Bkz. :ref:"
-"`clip_properties_ref`."
+"düzenleyin. Süre, boyut, konum gibi ayarları yapın. Bkz. "
+":ref:`clip_properties_ref`."
+
+#: ../main_window.rst:397
+msgid "Recording"
+msgstr "Kayıt"
+
+#: ../main_window.rst:398
+msgid ""
+"Record microphone audio, screen video, webcam video, or combined recordings."
+" See :ref:`recording_ref`."
+msgstr ""
+"Mikrofon sesi, ekran videosu, webcam videosu veya birleşik kayıtları "
+"kaydedin. Bkz. :ref:`recording_ref`."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:320
+#: ../main_window.rst:399
 msgid "Transitions"
 msgstr "Geçişler"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:321
+#: ../main_window.rst:400
 msgid ""
 "Browse and apply transitions between video clips. Choose from a variety of "
-"transition wipes to create smooth changes between scenes. See :ref:"
-"`transitions_ref`."
+"transition wipes to create smooth changes between scenes. See "
+":ref:`transitions_ref`."
 msgstr ""
 "Video klipler arasında geçişlere göz atın ve uygulayın. Sahneler arasında "
 "yumuşak geçişler oluşturmak için çeşitli geçiş efektleri arasından seçim "
 "yapın. Bkz. :ref:`transitions_ref`."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:322
+#: ../main_window.rst:401
 msgid "Video Preview"
 msgstr "Video Önizlemesi"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:323
+#: ../main_window.rst:402
 msgid ""
-"Preview the current state of your video project. Allows you to play back and "
-"review your edits in real-time. See :ref:`playback_ref`."
+"Preview the current state of your video project. Allows you to play back and"
+" review your edits in real-time. See :ref:`playback_ref`."
 msgstr ""
-"Video projenizin mevcut durumunu önizleyin. Düzenlemelerinizi gerçek zamanlı "
-"olarak oynatmanıza ve gözden geçirmenize olanak tanır. Bkz. :ref:"
-"`playback_ref`."
+"Video projenizin mevcut durumunu önizleyin. Düzenlemelerinizi gerçek zamanlı"
+" olarak oynatmanıza ve gözden geçirmenize olanak tanır. Bkz. "
+":ref:`playback_ref`."
 
-# Translated with gpt-4.1-mini
-#: ../main_window.rst:325
+#: ../main_window.rst:404
 msgid ""
 "If you have accidentally closed or moved a dock and can no longer find it, "
-"there are a couple easy solutions. First, you can use the :guilabel:`View-"
-">Views->Simple View` menu option at the top of the screen, to restore the "
-"view back to its default. Or you can use the :guilabel:`View->Views->Docks-"
-">...` menu to show or hide specific dock widgets on the main window."
+"there are a couple easy solutions. First, you can use the "
+":guilabel:`View->Simple View` menu option at the top of the screen, to "
+"restore the view back to its default. Or you can use the "
+":guilabel:`View->Docks->...` menu to show or hide specific dock widgets on "
+"the main window."
 msgstr ""
-"Bir dock'u yanlışlıkla kapattıysanız veya taşıdıysanız ve artık "
-"bulamıyorsanız, birkaç kolay çözüm vardır. Öncelikle, ekranın üstündeki :"
-"guilabel:`Görünüm->Görünümler->Basit Görünüm` menüsünü kullanarak görünümü "
-"varsayılan haline getirebilirsiniz. Ya da :guilabel:`Görünüm->Görünümler-"
-">Dock'lar->...` menüsünü kullanarak ana penceredeki belirli dock araçlarını "
-"gösterip gizleyebilirsiniz."
+"Yanlışlıkla bir dock'u kapattıysanız veya taşıdıysanız ve artık "
+"bulamıyorsanız, birkaç kolay çözüm vardır. Öncelikle, ekranın üstündeki "
+":guilabel:`View->Simple View` menü seçeneğini kullanarak görünümü "
+"varsayılana döndürebilirsiniz. Ya da ana pencerede belirli dock "
+"widget'larını göstermek veya gizlemek için :guilabel:`View->Docks->...` "
+"menüsünü kullanabilirsiniz."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The ruler shows the time-scale, and the red line is the play-head. The play-"
+#~ "head represents the current playback position. Hold :kbd:`Shift` key while "
+#~ "dragging the playhead to snap to nearby clips."
+#~ msgstr ""
+#~ "Cetvel zaman ölçeğini gösterir ve kırmızı çizgi oynatma kafasıdır. Oynatma "
+#~ "kafası mevcut oynatma konumunu temsil eder. Oynatma kafasını sürüklerken "
+#~ ":kbd:`Shift` tuşuna basılı tutarak yakın kliplere yapışmasını "
+#~ "sağlayabilirsiniz."
+
+# Translated with gpt-4.1-mini
+#~ msgid "Freeze View"
+#~ msgstr "Görünümü Dondur"
+
+# Translated with gpt-4.1-mini
+#~ msgid ":kbd:`Ctrl+F`"
+#~ msgstr ":kbd:`Ctrl+F`"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Show All Docks"
+#~ msgstr "Tüm Panelleri Göster"
+
+# Translated with gpt-4.1-mini
+#~ msgid ":kbd:`Ctrl+Shift+D`"
+#~ msgstr ":kbd:`Ctrl+Shift+D`"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Un-Freeze View"
+#~ msgstr "Görünümü Çöz"
+
+# Translated with gpt-4.1-mini
+#~ msgid ":kbd:`Ctrl+Shift+F`"
+#~ msgstr ":kbd:`Ctrl+Shift+F`"
+
+# Translated with gpt-4.1-mini
+#~ msgid ":guilabel:`Toolbar` Show or hide the main window toolbar."
+#~ msgstr ":guilabel:`Araç Çubuğu` Ana pencere araç çubuğunu göster veya gizle."
+
+# Translated with gpt-4.1-mini
+#~ msgid ":guilabel:`Fullscreen` Toggle fullscreen mode."
+#~ msgstr ":guilabel:`Tam Ekran` Tam ekran modunu aç veya kapat."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ ":guilabel:`Views` Switch or reset the main window layout (*Simple, Advanced,"
+#~ " Freeze, Show All*)."
+#~ msgstr ""
+#~ ":guilabel:`Görünümler` Ana pencere düzenini değiştir veya sıfırla (*Basit, "
+#~ "Gelişmiş, Dondur, Hepsini Göster*)."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ ":guilabel:`Docks` Show or hide various dockable panels (*Captions, Effects, "
+#~ "Emojis, Project Files, Properties, Transitions, Video Preview*)."
+#~ msgstr ""
+#~ ":guilabel:`Paneller` Çeşitli sabitlenebilir panelleri göster veya gizle "
+#~ "(*Altyazılar, Efektler, Emojiler, Proje Dosyaları, Özellikler, Geçişler, "
+#~ "Video Önizleme*)."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "This is the **default** view, and is designed to be easy-to-use, especially "
+#~ "for first-time users. It contains :guilabel:`Project Files` on the top left,"
+#~ " :guilabel:`Preview Window` on the top right, and :guilabel:`Timeline` on "
+#~ "the bottom. If you accidentally close or move a dock, you can quickly reset "
+#~ "all the docks back to their default location using the "
+#~ ":guilabel:`View->Views->Simple View` menu at the top of the screen."
+#~ msgstr ""
+#~ "Bu, **varsayılan** görünüm olup, özellikle ilk kez kullananlar için "
+#~ "kullanımı kolay olacak şekilde tasarlanmıştır. Sol üstte :guilabel:`Proje "
+#~ "Dosyaları`, sağ üstte :guilabel:`Önizleme Penceresi` ve altta "
+#~ ":guilabel:`Zaman Çizelgesi` bulunur. Bir dock'u yanlışlıkla kapatır veya "
+#~ "taşırırsanız, ekranın üstündeki :guilabel:`Görünüm->Görünümler->Basit "
+#~ "Görünüm` menüsünü kullanarak tüm dock'ları varsayılan konumlarına hızlıca "
+#~ "sıfırlayabilirsiniz."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Each widget on the OpenShot main window is contained in a **dock**. These "
+#~ "docks can be dragged and snapped around the main window, and even grouped "
+#~ "together (into tabs). OpenShot will always save your main window dock layout"
+#~ " when you exit the program. Re-launching OpenShot will restore your custom "
+#~ "dock layout automatically."
+#~ msgstr ""
+#~ "OpenShot ana penceresindeki her araç, bir **dock** içinde bulunur. Bu "
+#~ "dock'lar ana pencere etrafında sürüklenip yerleştirilebilir ve hatta "
+#~ "sekmeler halinde gruplanabilir. OpenShot, programdan çıkarken ana pencere "
+#~ "dock düzeninizi her zaman kaydeder. OpenShot'u yeniden başlattığınızda, özel"
+#~ " dock düzeniniz otomatik olarak geri yüklenir."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "If you have accidentally closed or moved a dock and can no longer find it, "
+#~ "there are a couple easy solutions. First, you can use the "
+#~ ":guilabel:`View->Views->Simple View` menu option at the top of the screen, "
+#~ "to restore the view back to its default. Or you can use the "
+#~ ":guilabel:`View->Views->Docks->...` menu to show or hide specific dock "
+#~ "widgets on the main window."
+#~ msgstr ""
+#~ "Bir dock'u yanlışlıkla kapattıysanız veya taşıdıysanız ve artık "
+#~ "bulamıyorsanız, birkaç kolay çözüm vardır. Öncelikle, ekranın üstündeki "
+#~ ":guilabel:`Görünüm->Görünümler->Basit Görünüm` menüsünü kullanarak görünümü "
+#~ "varsayılan haline getirebilirsiniz. Ya da "
+#~ ":guilabel:`Görünüm->Görünümler->Dock'lar->...` menüsünü kullanarak ana "
+#~ "penceredeki belirli dock araçlarını gösterip gizleyebilirsiniz."

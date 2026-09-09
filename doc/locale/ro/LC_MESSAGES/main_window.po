@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenShot Video Editor 3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-02 17:20-0500\n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,7 +51,7 @@ msgstr "Nume"
 
 # Translated with gpt-4.1-mini
 #: ../main_window.rst:35 ../main_window.rst:80 ../main_window.rst:103
-#: ../main_window.rst:238 ../main_window.rst:309
+#: ../main_window.rst:235 ../main_window.rst:349 ../main_window.rst:378
 msgid "Description"
 msgstr "Descriere"
 
@@ -92,7 +92,7 @@ msgid "3"
 msgstr "3"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:39 ../main_window.rst:316
+#: ../main_window.rst:39 ../main_window.rst:393
 msgid "Project Files"
 msgstr "Fișiere Proiect"
 
@@ -137,8 +137,8 @@ msgid ""
 "See :ref:`timeline_toolbar_ref`."
 msgstr ""
 "Această bară de instrumente conține butoane folosite pentru aliniere, "
-"inserarea marcatorilor, tăiere cu lama, sărituri între marcatori și centrare "
-"a cronologiei pe capul de redare. Vezi :ref:`timeline_toolbar_ref`."
+"inserarea marcatorilor, tăiere cu lama, sărituri între marcatori și centrare"
+" a cronologiei pe capul de redare. Vezi :ref:`timeline_toolbar_ref`."
 
 # Translated with gpt-4.1-mini
 #: ../main_window.rst:42 ../main_window.rst:119
@@ -154,9 +154,9 @@ msgstr "Glisor Zoom"
 #: ../main_window.rst:42
 msgid ""
 "This slider will adjust the time-scale of your timeline. Drag the left or "
-"right edge to zoom in or out. Drag the blue area to scroll the timeline left "
-"or right. Clips and transitions are displayed as simple rectangles, to give "
-"you context for adjusting the zoom to specific clips."
+"right edge to zoom in or out. Drag the blue area to scroll the timeline left"
+" or right. Clips and transitions are displayed as simple rectangles, to give"
+" you context for adjusting the zoom to specific clips."
 msgstr ""
 "Acest glisor ajustează scara temporală a cronologiei tale. Trage marginea "
 "stângă sau dreaptă pentru a mări sau micșora zoom-ul. Trage zona albastră "
@@ -174,16 +174,17 @@ msgstr "7"
 msgid "Play-head / Ruler"
 msgstr "Cap de redare / Riglă"
 
-# Translated with gpt-4.1-mini
 #: ../main_window.rst:43
 msgid ""
-"The ruler shows the time-scale, and the red line is the play-head. The play-"
-"head represents the current playback position. Hold :kbd:`Shift` key while "
-"dragging the playhead to snap to nearby clips."
+"The ruler shows the time-scale, and the line is the play-head. The play-head"
+" represents the current playback position. The current timecode can be "
+"clicked to enter an exact timecode. Hold :kbd:`Shift` key while dragging the"
+" playhead to snap to nearby clips."
 msgstr ""
-"Rigla arată scara temporală, iar linia roșie este capul de redare. Capul de "
-"redare reprezintă poziția curentă de redare. Ține apăsată tasta :kbd:`Shift` "
-"în timp ce tragi capul de redare pentru a-l alinia la clipurile apropiate."
+"Rigla arată scara de timp, iar linia este capul de redare. Capul de redare "
+"reprezintă poziția curentă de redare. Codul de timp curent poate fi clicat "
+"pentru a introduce un cod de timp exact. Țineți apăsată tasta :kbd:`Shift` "
+"în timp ce trageți capul de redare pentru a fixa la clipurile apropiate."
 
 # Translated with gpt-4.1-mini
 #: ../main_window.rst:44
@@ -203,8 +204,8 @@ msgid ""
 "items."
 msgstr ""
 "Cronologia vizualizează proiectul tău video, precum și fiecare clip și "
-"tranziție din proiect. Poți trage mouse-ul pentru a selecta, muta sau șterge "
-"mai multe elemente."
+"tranziție din proiect. Poți trage mouse-ul pentru a selecta, muta sau șterge"
+" mai multe elemente."
 
 # Translated with gpt-4.1-mini
 #: ../main_window.rst:45
@@ -224,8 +225,8 @@ msgid ""
 "what you are looking for, and the results will be shown."
 msgstr ""
 "Filtrează lista de elemente afișate (fișiere proiect, tranziții, efecte și "
-"emojis) folosind aceste butoane și caseta de filtrare. Introdu câteva litere "
-"din ceea ce cauți, iar rezultatele vor fi afișate."
+"emojis) folosind aceste butoane și caseta de filtrare. Introdu câteva litere"
+" din ceea ce cauți, iar rezultatele vor fi afișate."
 
 # Translated with gpt-4.1-mini
 #: ../main_window.rst:46
@@ -284,9 +285,9 @@ msgstr "Tutorial Integrat"
 #: ../main_window.rst:55
 msgid ""
 "When you first launch OpenShot, you will be presented with a friendly built-"
-"in tutorial. It will demonstrate and explain the basics. Clicking :guilabel:"
-"`Next` will jump to the next topic. You can always view this tutorial again "
-"from the :guilabel:`Help→Tutorial` menu."
+"in tutorial. It will demonstrate and explain the basics. Clicking "
+":guilabel:`Next` will jump to the next topic. You can always view this "
+"tutorial again from the :guilabel:`Help→Tutorial` menu."
 msgstr ""
 "Când lansezi OpenShot pentru prima dată, vei fi întâmpinat cu un tutorial "
 "integrat prietenos. Acesta va demonstra și explica elementele de bază. "
@@ -311,10 +312,10 @@ msgid ""
 msgstr ""
 "OpenShot folosește piste pentru a suprapune videoclipuri și imagini. Pista "
 "de sus este stratul superior, iar pista de jos este stratul inferior. Dacă "
-"ești familiarizat cu straturile dintr-o aplicație de editare foto, atunci ar "
-"trebui să cunoști acest concept. OpenShot va stivui straturile și le va "
-"combina, la fel ca o aplicație de editare foto. Poți avea un număr nelimitat "
-"de piste, dar de obicei un proiect video simplu nu va avea nevoie de mai "
+"ești familiarizat cu straturile dintr-o aplicație de editare foto, atunci ar"
+" trebui să cunoști acest concept. OpenShot va stivui straturile și le va "
+"combina, la fel ca o aplicație de editare foto. Poți avea un număr nelimitat"
+" de piste, dar de obicei un proiect video simplu nu va avea nevoie de mai "
 "mult de 5 piste."
 
 # Translated with gpt-4.1-mini
@@ -347,8 +348,8 @@ msgid ""
 "Clips in the middle (might or might not be visible, depending on what is "
 "above them)"
 msgstr ""
-"Clipurile din mijloc (pot fi sau nu vizibile, în funcție de ce este deasupra "
-"lor)"
+"Clipurile din mijloc (pot fi sau nu vizibile, în funcție de ce este deasupra"
+" lor)"
 
 # Translated with gpt-4.1-mini
 #: ../main_window.rst:84
@@ -371,8 +372,8 @@ msgid ""
 "keyframes, and common workflows), see :ref:`timeline_ref`."
 msgstr ""
 "Pentru o prezentare prietenoasă pentru începători a editării liniei de timp "
-"(selecție, piste, cadre cheie și fluxuri de lucru comune), consultați :ref:"
-"`timeline_ref`."
+"(selecție, piste, cadre cheie și fluxuri de lucru comune), consultați "
+":ref:`timeline_ref`."
 
 # Translated with gpt-4.1-mini
 #: ../main_window.rst:102
@@ -387,7 +388,8 @@ msgstr "Adaugă Pistă"
 # Translated with gpt-4.1-mini
 #: ../main_window.rst:106
 msgid ""
-"Add a new track to the timeline. New projects start with 5 tracks by default."
+"Add a new track to the timeline. New projects start with 5 tracks by "
+"default."
 msgstr ""
 "Adaugă o pistă nouă în cronologie. Proiectele noi încep implicit cu 5 piste."
 
@@ -431,7 +433,7 @@ msgstr ""
 "următor/limitele clipului."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:117 ../main_window.rst:149
+#: ../main_window.rst:117 ../main_window.rst:148
 msgid "Center on Playhead"
 msgstr "Centrează pe Capul de Redare"
 
@@ -439,20 +441,20 @@ msgstr "Centrează pe Capul de Redare"
 #: ../main_window.rst:118
 msgid "Center the visible timeline area around the current playhead position."
 msgstr ""
-"Centrează zona vizibilă a liniei de timp în jurul poziției curente a capului "
-"de redare."
+"Centrează zona vizibilă a liniei de timp în jurul poziției curente a capului"
+" de redare."
 
 # Translated with gpt-4.1-mini
 #: ../main_window.rst:121
 msgid ""
-"Control the visible timeline range. Drag handles to zoom in/out, drag center "
-"to pan, and double-click to fit timeline. You can also use :kbd:`Ctrl+Scroll "
-"Wheel`, or on the QWidget timeline hold :kbd:`Ctrl` and drag with the middle "
-"mouse button for smooth zooming."
+"Control the visible timeline range. Drag handles to zoom in/out, drag center"
+" to pan, and double-click to fit timeline. You can also use "
+":kbd:`Ctrl+Scroll Wheel`, or on the QWidget timeline hold :kbd:`Ctrl` and "
+"drag with the middle mouse button for smooth zooming."
 msgstr ""
-"Controlează intervalul vizibil al cronologiei. Trage mânerele pentru a mări/"
-"micșora, trage centrul pentru a deplasa și dă dublu clic pentru a ajusta "
-"cronologia. De asemenea, poți folosi :kbd:`Ctrl+Scroll Wheel` sau pe "
+"Controlează intervalul vizibil al cronologiei. Trage mânerele pentru a "
+"mări/micșora, trage centrul pentru a deplasa și dă dublu clic pentru a "
+"ajusta cronologia. De asemenea, poți folosi :kbd:`Ctrl+Scroll Wheel` sau pe "
 "cronologia QWidget ține apăsat :kbd:`Ctrl` și trage cu butonul mijlociu al "
 "mouse-ului pentru o mărire lină."
 
@@ -479,8 +481,8 @@ msgid ""
 "Here is a list of the default keyboard shortcuts supported by OpenShot. You "
 "can configure these shortcuts in the Preferences window, which is opened by "
 "selecting :guilabel:`Edit→Preferences` from the OpenShot menu bar. (On "
-"macOS, choose :guilabel:`OpenShot Video Editor→Preferences`.) Learning a few "
-"of these shortcuts can save you a bunch of time!"
+"macOS, choose :guilabel:`OpenShot Video Editor→Preferences`.) Learning a few"
+" of these shortcuts can save you a bunch of time!"
 msgstr ""
 "Iată o listă cu scurtăturile de tastatură implicite suportate de OpenShot. "
 "Poți configura aceste scurtături în fereastra Preferințe, care se deschide "
@@ -509,7 +511,7 @@ msgid "Shortcut 3"
 msgstr "Scurtătură 3"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:142
+#: ../main_window.rst:142 ../main_window.rst:277
 msgid "About OpenShot"
 msgstr "Despre OpenShot"
 
@@ -544,34 +546,42 @@ msgid ":kbd:`Ctrl+Alt+A`"
 msgstr ":kbd:`Ctrl+Alt+A`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:147
+#: ../main_window.rst:146
 msgid "Animated Title"
 msgstr "Titlu Animat"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:147
+#: ../main_window.rst:146
 msgid ":kbd:`Ctrl+Shift+T`"
 msgstr ":kbd:`Ctrl+Shift+T`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:148
+#: ../main_window.rst:147
 msgid "Ask a Question..."
 msgstr "Pune o întrebare..."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:148
+#: ../main_window.rst:147
 msgid ":kbd:`F4`"
 msgstr ":kbd:`F4`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:149
+#: ../main_window.rst:148
 msgid ":kbd:`Shift+C`"
 msgstr ":kbd:`Shift+C`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:149
+#: ../main_window.rst:148
 msgid ":kbd:`Alt+Up`"
 msgstr ":kbd:`Alt+Up`"
+
+#: ../main_window.rst:149 ../main_window.rst:311
+msgid "Color View"
+msgstr "Vizualizare Culoare"
+
+#: ../main_window.rst:149
+msgid ":kbd:`Alt+Shift+2`"
+msgstr ":kbd:`Alt+Shift+2`"
 
 # Translated with gpt-4.1-mini
 #: ../main_window.rst:150
@@ -760,651 +770,621 @@ msgstr ":kbd:`Ctrl+Double Click`"
 
 # Translated with gpt-4.1-mini
 #: ../main_window.rst:167
-msgid "Freeze View"
-msgstr "Îngheață Vizualizarea"
-
-# Translated with gpt-4.1-mini
-#: ../main_window.rst:167
-msgid ":kbd:`Ctrl+F`"
-msgstr ":kbd:`Ctrl+F`"
-
-# Translated with gpt-4.1-mini
-#: ../main_window.rst:168
 msgid "Fullscreen"
 msgstr "Ecran Complet"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:168
+#: ../main_window.rst:167
 msgid ":kbd:`F11`"
 msgstr ":kbd:`F11`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:169
+#: ../main_window.rst:168
 msgid "Import Files..."
 msgstr "Importă Fișiere..."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:169
+#: ../main_window.rst:168
 msgid ":kbd:`Ctrl+I`"
 msgstr ":kbd:`Ctrl+I`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:170
+#: ../main_window.rst:169
 msgid "Insert Keyframe"
 msgstr "Inserează Cadru Cheie"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:170
+#: ../main_window.rst:169
 msgid ":kbd:`Alt+Shift+K`"
 msgstr ":kbd:`Alt+Shift+K`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:171
+#: ../main_window.rst:170
 msgid "Join our Community..."
 msgstr "Alăturați-vă comunității noastre..."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:171
+#: ../main_window.rst:170
 msgid ":kbd:`F5`"
 msgstr ":kbd:`F5`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:172
+#: ../main_window.rst:171
 msgid "Jump To End"
 msgstr "Salt la sfârșit"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:172
+#: ../main_window.rst:171
 msgid ":kbd:`End`"
 msgstr ":kbd:`End`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:173
+#: ../main_window.rst:172
 msgid "Jump To Start"
 msgstr "Salt la început"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:173
+#: ../main_window.rst:172
 msgid ":kbd:`Home`"
 msgstr ":kbd:`Home`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:174
+#: ../main_window.rst:173
 msgid "Launch Tutorial"
 msgstr "Lansează tutorialul"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:174
+#: ../main_window.rst:173
 msgid ":kbd:`F2`"
 msgstr ":kbd:`F2`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:175
+#: ../main_window.rst:174
 msgid "New Project"
 msgstr "Proiect nou"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:175
+#: ../main_window.rst:174
 msgid ":kbd:`Ctrl+N`"
 msgstr ":kbd:`Ctrl+N`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:176
+#: ../main_window.rst:175
 msgid "Next Frame"
 msgstr "Cadru următor"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:176
+#: ../main_window.rst:175
 msgid ":kbd:`Right`"
 msgstr ":kbd:`Right`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:176
+#: ../main_window.rst:175
 msgid ":kbd:`.`"
 msgstr ":kbd:`.`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:177
+#: ../main_window.rst:176
 msgid "Next Marker"
 msgstr "Marcator Următor"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:177
+#: ../main_window.rst:176
 msgid ":kbd:`Shift+M`"
 msgstr ":kbd:`Shift+M`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:177
+#: ../main_window.rst:176
 msgid ":kbd:`Alt+Right`"
 msgstr ":kbd:`Alt+Right`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:178
+#: ../main_window.rst:177
 msgid "Nudge left (1 Frame)"
 msgstr "Deplasează la stânga (1 cadru)"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:178
+#: ../main_window.rst:177
 msgid ":kbd:`Ctrl+Left`"
 msgstr ":kbd:`Ctrl+Left`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:179
+#: ../main_window.rst:178
 msgid "Nudge left (5 Frames)"
 msgstr "Deplasează la stânga (5 cadre)"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:179
+#: ../main_window.rst:178
 msgid ":kbd:`Shift+Ctrl+Left`"
 msgstr ":kbd:`Shift+Ctrl+Left`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:180
+#: ../main_window.rst:179
 msgid "Nudge right (1 Frame)"
 msgstr "Deplasează la dreapta (1 cadru)"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:180
+#: ../main_window.rst:179
 msgid ":kbd:`Ctrl+Right`"
 msgstr ":kbd:`Ctrl+Right`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:181
+#: ../main_window.rst:180
 msgid "Nudge right (5 Frames)"
 msgstr "Deplasează la dreapta (5 cadre)"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:181
+#: ../main_window.rst:180
 msgid ":kbd:`Shift+Ctrl+Right`"
 msgstr ":kbd:`Shift+Ctrl+Right`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:182
+#: ../main_window.rst:181
 msgid "Open Help Contents"
 msgstr "Deschide conținutul ajutorului"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:182
+#: ../main_window.rst:181
 msgid ":kbd:`F1`"
 msgstr ":kbd:`F1`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:183
+#: ../main_window.rst:182
 msgid "Open Project..."
 msgstr "Deschide proiect..."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:183
+#: ../main_window.rst:182
 msgid ":kbd:`Ctrl+O`"
 msgstr ":kbd:`Ctrl+O`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:184
+#: ../main_window.rst:183
 msgid "Paste"
 msgstr "Lipește"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:184
+#: ../main_window.rst:183
 msgid ":kbd:`Ctrl+V`"
 msgstr ":kbd:`Ctrl+V`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:185
+#: ../main_window.rst:184
 msgid "Play/Pause Toggle"
 msgstr "Redare/Pauză"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:185
+#: ../main_window.rst:184
 msgid ":kbd:`Space`"
 msgstr ":kbd:`Space`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:185
+#: ../main_window.rst:184
 msgid ":kbd:`Up`"
 msgstr ":kbd:`Up`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:185
+#: ../main_window.rst:184
 msgid ":kbd:`Down`"
 msgstr ":kbd:`Down`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:186
+#: ../main_window.rst:185
 msgid "Preferences"
 msgstr "Preferințe"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:186
+#: ../main_window.rst:185
 msgid ":kbd:`Ctrl+P`"
 msgstr ":kbd:`Ctrl+P`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:187
+#: ../main_window.rst:186
 msgid "Preview File"
 msgstr "Previzualizează fișierul"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:187
+#: ../main_window.rst:186
 msgid ":kbd:`Alt+P`"
 msgstr ":kbd:`Alt+P`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:187 ../main_window.rst:224
+#: ../main_window.rst:186 ../main_window.rst:221
 msgid ":kbd:`Double Click`"
 msgstr ":kbd:`Dublu clic`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:188
+#: ../main_window.rst:187
 msgid "Previous Frame"
 msgstr "Cadru anterior"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:188
+#: ../main_window.rst:187
 msgid ":kbd:`Left`"
 msgstr ":kbd:`Left`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:188
+#: ../main_window.rst:187
 msgid ":kbd:`,`"
 msgstr ":kbd:`,`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:189
+#: ../main_window.rst:188
 msgid "Previous Marker"
 msgstr "Marcator Anterior"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:189
+#: ../main_window.rst:188
 msgid ":kbd:`Ctrl+Shift+M`"
 msgstr ":kbd:`Ctrl+Shift+M`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:189
+#: ../main_window.rst:188
 msgid ":kbd:`Alt+Left`"
 msgstr ":kbd:`Alt+Left`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:190 ../main_window.rst:318
+#: ../main_window.rst:189 ../main_window.rst:395
 msgid "Properties"
 msgstr "Proprietăți"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:190
+#: ../main_window.rst:189
 msgid ":kbd:`U`"
 msgstr ":kbd:`U`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:191
+#: ../main_window.rst:190
 msgid "Quit"
 msgstr "Ieșire"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:191
+#: ../main_window.rst:190
 msgid ":kbd:`Ctrl+Q`"
 msgstr ":kbd:`Ctrl+Q`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:192
+#: ../main_window.rst:191
 msgid "Razor Toggle"
 msgstr "Comutare lamă"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:192
+#: ../main_window.rst:191
 msgid ":kbd:`C`"
 msgstr ":kbd:`C`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:192
+#: ../main_window.rst:191
 msgid ":kbd:`B`"
 msgstr ":kbd:`B`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:192
+#: ../main_window.rst:191
 msgid ":kbd:`R`"
 msgstr ":kbd:`R`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:193
+#: ../main_window.rst:192
 msgid "Redo"
 msgstr "Refă"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:193
+#: ../main_window.rst:192
 msgid ":kbd:`Ctrl+Shift+Z`"
 msgstr ":kbd:`Ctrl+Shift+Z`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:194
+#: ../main_window.rst:193
 msgid "Report a Bug..."
 msgstr "Raportează o eroare..."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:194
+#: ../main_window.rst:193
 msgid ":kbd:`F3`"
 msgstr ":kbd:`F3`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:195
+#: ../main_window.rst:194
 msgid "Rewind"
 msgstr "Derulare înapoi"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:195
+#: ../main_window.rst:194
 msgid ":kbd:`J`"
 msgstr ":kbd:`J`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:196 ../main_window.rst:197
+#: ../main_window.rst:195 ../main_window.rst:196
 msgid "Save Current Frame"
 msgstr "Salvează cadrul curent"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:196 ../main_window.rst:197
+#: ../main_window.rst:195 ../main_window.rst:196
 msgid ":kbd:`Ctrl+Shift+Y`"
 msgstr ":kbd:`Ctrl+Shift+Y`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:198
+#: ../main_window.rst:197
 msgid "Save Project"
 msgstr "Salvează proiectul"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:198
+#: ../main_window.rst:197
 msgid ":kbd:`Ctrl+S`"
 msgstr ":kbd:`Ctrl+S`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:199
+#: ../main_window.rst:198
 msgid "Save Project As..."
 msgstr "Salvează proiectul ca..."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:199
+#: ../main_window.rst:198
 msgid ":kbd:`Ctrl+Shift+S`"
 msgstr ":kbd:`Ctrl+Shift+S`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:200
+#: ../main_window.rst:199
 msgid "Select All"
 msgstr "Selectează tot"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:200
+#: ../main_window.rst:199
 msgid ":kbd:`Ctrl+A`"
 msgstr ":kbd:`Ctrl+A`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:201
+#: ../main_window.rst:200
 msgid "Select Item (Ripple)"
 msgstr "Selectează elementul (ripple)"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:201
+#: ../main_window.rst:200
 msgid ":kbd:`Alt+A`"
 msgstr ":kbd:`Alt+A`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:201
+#: ../main_window.rst:200
 msgid ":kbd:`Alt+Click`"
 msgstr ":kbd:`Alt+Click`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:202
+#: ../main_window.rst:201
 msgid "Select None"
 msgstr "Deselectează tot"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:202
+#: ../main_window.rst:201
 msgid ":kbd:`Ctrl+Shift+A`"
 msgstr ":kbd:`Ctrl+Shift+A`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:203
-msgid "Show All Docks"
-msgstr "Afișează toate panourile"
-
-# Translated with gpt-4.1-mini
-#: ../main_window.rst:203
-msgid ":kbd:`Ctrl+Shift+D`"
-msgstr ":kbd:`Ctrl+Shift+D`"
-
-# Translated with gpt-4.1-mini
-#: ../main_window.rst:204 ../main_window.rst:286
+#: ../main_window.rst:202 ../main_window.rst:304
 msgid "Simple View"
 msgstr "Vizualizare simplă"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:204
+#: ../main_window.rst:202
 msgid ":kbd:`Alt+Shift+0`"
 msgstr ":kbd:`Alt+Shift+0`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:205
+#: ../main_window.rst:203
 msgid "Slice All: Keep Both Sides"
 msgstr "Taie tot: păstrează ambele părți"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:205
+#: ../main_window.rst:203
 msgid ":kbd:`Ctrl+Shift+K`"
 msgstr ":kbd:`Ctrl+Shift+K`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:206
+#: ../main_window.rst:204
 msgid "Slice All: Keep Left Side"
 msgstr "Taie tot: păstrează partea stângă"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:206
+#: ../main_window.rst:204
 msgid ":kbd:`Ctrl+Shift+J`"
 msgstr ":kbd:`Ctrl+Shift+J`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:207
+#: ../main_window.rst:205
 msgid "Slice All: Keep Right Side"
 msgstr "Taie tot: păstrează partea dreaptă"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:207
+#: ../main_window.rst:205
 msgid ":kbd:`Ctrl+Shift+L`"
 msgstr ":kbd:`Ctrl+Shift+L`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:208
+#: ../main_window.rst:206
 msgid "Slice Selected: Keep Both Sides"
 msgstr "Taie selecția: păstrează ambele părți"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:208
+#: ../main_window.rst:206
 msgid ":kbd:`Ctrl+K`"
 msgstr ":kbd:`Ctrl+K`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:209
+#: ../main_window.rst:207
 msgid "Slice Selected: Keep Left Side"
 msgstr "Taie selecția: păstrează partea stângă"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:209
+#: ../main_window.rst:207
 msgid ":kbd:`Ctrl+J`"
 msgstr ":kbd:`Ctrl+J`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:210
+#: ../main_window.rst:208
 msgid "Slice Selected: Keep Right Side"
 msgstr "Taie selecția: păstrează partea dreaptă"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:210
+#: ../main_window.rst:208
 msgid ":kbd:`Ctrl+L`"
 msgstr ":kbd:`Ctrl+L`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:211
+#: ../main_window.rst:209
 msgid "Slice Selected: Keep Left (Ripple)"
 msgstr "Taie selecția: păstrează stânga (ripple)"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:211
+#: ../main_window.rst:209
 msgid ":kbd:`W`"
 msgstr ":kbd:`W`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:212
+#: ../main_window.rst:210
 msgid "Slice Selected: Keep Right (Ripple)"
 msgstr "Taie selecția: păstrează dreapta (ripple)"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:212
+#: ../main_window.rst:210
 msgid ":kbd:`Q`"
 msgstr ":kbd:`Q`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:213
+#: ../main_window.rst:211
 msgid "Snapping Toggle"
 msgstr "Comutare aliniere"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:213
+#: ../main_window.rst:211
 msgid ":kbd:`S`"
 msgstr ":kbd:`S`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:214
+#: ../main_window.rst:212
 msgid "Split File"
 msgstr "Împarte fișierul"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:214
+#: ../main_window.rst:212
 msgid ":kbd:`Alt+S`"
 msgstr ":kbd:`Alt+S`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:214
+#: ../main_window.rst:212
 msgid ":kbd:`Shift+Double Click`"
 msgstr ":kbd:`Shift+Dublu clic`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:215
+#: ../main_window.rst:213
 msgid "Thumbnail View"
 msgstr "Vizualizare miniaturi"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:215
+#: ../main_window.rst:213
 msgid ":kbd:`Ctrl+Page Down`"
 msgstr ":kbd:`Ctrl+Page Down`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:216
+#: ../main_window.rst:214
 msgid "Timing Toggle"
 msgstr "Comutare Timp"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:216
+#: ../main_window.rst:214
 msgid ":kbd:`T`"
 msgstr ":kbd:`T`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:217 ../main_window.rst:258
+#: ../main_window.rst:215 ../main_window.rst:255
 msgid "Title"
 msgstr "Titlu"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:217
+#: ../main_window.rst:215
 msgid ":kbd:`Ctrl+T`"
 msgstr ":kbd:`Ctrl+T`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:218
+#: ../main_window.rst:216
 msgid "Translate this Application..."
 msgstr "Tradu această aplicație..."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:218
+#: ../main_window.rst:216
 msgid ":kbd:`F6`"
 msgstr ":kbd:`F6`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:219
-msgid "Un-Freeze View"
-msgstr "Deblochează Vizualizarea"
-
-# Translated with gpt-4.1-mini
-#: ../main_window.rst:219
-msgid ":kbd:`Ctrl+Shift+F`"
-msgstr ":kbd:`Ctrl+Shift+F`"
-
-# Translated with gpt-4.1-mini
-#: ../main_window.rst:220
+#: ../main_window.rst:217
 msgid "Undo"
 msgstr "Anulează"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:220
+#: ../main_window.rst:217
 msgid ":kbd:`Ctrl+Z`"
 msgstr ":kbd:`Ctrl+Z`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:221
+#: ../main_window.rst:218
 msgid "View Toolbar"
 msgstr "Afișează Bara de Instrumente"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:221
+#: ../main_window.rst:218
 msgid ":kbd:`Ctrl+Shift+B`"
 msgstr ":kbd:`Ctrl+Shift+B`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:222
+#: ../main_window.rst:219
 msgid "Zoom In"
 msgstr "Mărește"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:222
+#: ../main_window.rst:219
 msgid ":kbd:`=`"
 msgstr ":kbd:`=`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:222
+#: ../main_window.rst:219
 msgid ":kbd:`Ctrl+=`"
 msgstr ":kbd:`Ctrl+=`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:223
+#: ../main_window.rst:220
 msgid "Zoom Out"
 msgstr "Micșorează"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:223
+#: ../main_window.rst:220
 msgid ":kbd:`-`"
 msgstr ":kbd:`-`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:223
+#: ../main_window.rst:220
 msgid ":kbd:`Ctrl+-`"
 msgstr ":kbd:`Ctrl+-`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:224
+#: ../main_window.rst:221
 msgid "Zoom to Timeline"
 msgstr "Mărește la Cronologie"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:224
+#: ../main_window.rst:221
 msgid ":kbd:`\\\\`"
 msgstr ":kbd:`\\\\`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:224
+#: ../main_window.rst:221
 msgid ":kbd:`Shift+\\\\`"
 msgstr ":kbd:`Shift+\\\\`"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:228
+#: ../main_window.rst:225
 msgid "Menu"
 msgstr "Meniu"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:229
+#: ../main_window.rst:226
 msgid ""
 "The following menu options are available on the main window on OpenShot. "
 "Most of these options can be accessed by the keyboard shortcuts mentioned "
@@ -1413,55 +1393,55 @@ msgid ""
 msgstr ""
 "Următoarele opțiuni de meniu sunt disponibile în fereastra principală a "
 "OpenShot. Majoritatea acestor opțiuni pot fi accesate prin scurtăturile de "
-"tastatură menționate mai sus. Pe unele sisteme de operare (cum ar fi macOS), "
-"câteva dintre aceste opțiuni sunt redenumite și/sau rearanjate."
+"tastatură menționate mai sus. Pe unele sisteme de operare (cum ar fi macOS),"
+" câteva dintre aceste opțiuni sunt redenumite și/sau rearanjate."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:237
+#: ../main_window.rst:234
 msgid "Menu Name"
 msgstr "Nume Meniu"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:239
+#: ../main_window.rst:236
 msgid "File"
 msgstr "Fișier"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:241
+#: ../main_window.rst:238
 msgid ":guilabel:`New Project` Create a blank new project."
 msgstr ":guilabel:`Proiect Nou` Creează un proiect nou gol."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:242
+#: ../main_window.rst:239
 msgid ":guilabel:`Open Project` Open an existing project."
 msgstr ":guilabel:`Deschide Proiect` Deschide un proiect existent."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:243
+#: ../main_window.rst:240
 msgid ":guilabel:`Recent Projects` Access recently opened projects."
 msgstr ":guilabel:`Proiecte Recente` Accesează proiectele deschise recent."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:244
+#: ../main_window.rst:241
 msgid ""
 ":guilabel:`Recovery` Restore a previously saved version of your current "
 "project."
 msgstr ""
-":guilabel:`Recuperare` Restaurează o versiune salvată anterior a proiectului "
-"curent."
+":guilabel:`Recuperare` Restaurează o versiune salvată anterior a proiectului"
+" curent."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:245
+#: ../main_window.rst:242
 msgid ":guilabel:`Save Project` Save the current project."
 msgstr ":guilabel:`Salvează Proiectul` Salvează proiectul curent."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:246
+#: ../main_window.rst:243
 msgid ":guilabel:`Import Files` Import media files into the project."
 msgstr ":guilabel:`Importă Fișiere` Importă fișiere media în proiect."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:247
+#: ../main_window.rst:244
 msgid ""
 ":guilabel:`Choose Profile` Select a project profile (*i.e. 1080p @ 30fps, "
 "720p @ 24fps, ...*)."
@@ -1470,7 +1450,7 @@ msgstr ""
 "30fps, 720p @ 24fps, ...*)."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:248
+#: ../main_window.rst:245
 msgid ""
 ":guilabel:`Save Current Frame` Save the current preview video frame as an "
 "image (sometimes represented with a camera icon)."
@@ -1479,7 +1459,7 @@ msgstr ""
 "previzualizare ca imagine (uneori reprezentat cu o pictogramă de cameră)."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:249
+#: ../main_window.rst:246
 msgid ""
 ":guilabel:`Import Project` Import another project into the current project "
 "(*Adobe and Final Cut Pro formats partially supported*)."
@@ -1488,7 +1468,7 @@ msgstr ""
 "(*formatele Adobe și Final Cut Pro sunt parțial suportate*)."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:250
+#: ../main_window.rst:247
 msgid ""
 ":guilabel:`Export Project` Export the current project to a specified format "
 "(*EDL, Adobe, and Final Cut Pro formats partially supported*)."
@@ -1497,27 +1477,27 @@ msgstr ""
 "specificat (*formatele EDL, Adobe și Final Cut Pro sunt parțial suportate*)."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:251
+#: ../main_window.rst:248
 msgid ":guilabel:`Quit` Exit the application."
 msgstr ":guilabel:`Ieșire` Închide aplicația."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:252
+#: ../main_window.rst:249
 msgid "Edit"
 msgstr "Editare"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:254
+#: ../main_window.rst:251
 msgid ":guilabel:`Undo` Undo the last action."
 msgstr ":guilabel:`Anulează` Anulează ultima acțiune."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:255
+#: ../main_window.rst:252
 msgid ":guilabel:`Redo` Redo the last undone action."
 msgstr ":guilabel:`Refă` Refă ultima acțiune anulată."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:256
+#: ../main_window.rst:253
 msgid ""
 ":guilabel:`Clear` Clear the current history or waveform cached data. This "
 "makes the `.osp project` file a much smaller file size."
@@ -1526,7 +1506,7 @@ msgstr ""
 "undă. Aceasta face ca fișierul `.osp project` să fie mult mai mic."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:257
+#: ../main_window.rst:254
 msgid ""
 ":guilabel:`Preferences` Open the preferences dialog to customize settings."
 msgstr ""
@@ -1534,97 +1514,101 @@ msgstr ""
 "setările."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:260
+#: ../main_window.rst:257
 msgid ""
-":guilabel:`Title` Add a SVG vector title to the project. See :ref:"
-"`text_and_titles_ref`."
+":guilabel:`Title` Add a SVG vector title to the project. See "
+":ref:`text_and_titles_ref`."
 msgstr ""
-":guilabel:`Titlu` Adaugă un titlu vectorial SVG în proiect. Vezi :ref:"
-"`text_and_titles_ref`."
+":guilabel:`Titlu` Adaugă un titlu vectorial SVG în proiect. Vezi "
+":ref:`text_and_titles_ref`."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:261
+#: ../main_window.rst:258
 msgid ""
-":guilabel:`Animated Title` Add an animated title to the project. See :ref:"
-"`animated_titles_ref`."
+":guilabel:`Animated Title` Add an animated title to the project. See "
+":ref:`animated_titles_ref`."
 msgstr ""
-":guilabel:`Titlu Animat` Adaugă un titlu animat în proiect. Vezi :ref:"
-"`animated_titles_ref`."
+":guilabel:`Titlu Animat` Adaugă un titlu animat în proiect. Vezi "
+":ref:`animated_titles_ref`."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:262
+#: ../main_window.rst:259
 msgid "View"
 msgstr "Vizualizare"
 
-# Translated with gpt-4.1-mini
-#: ../main_window.rst:264
-msgid ":guilabel:`Toolbar` Show or hide the main window toolbar."
+#: ../main_window.rst:261
+msgid ""
+":guilabel:`Simple View` and :guilabel:`Color View` switch or reset the main "
+"window layout."
 msgstr ""
-":guilabel:`Bară de Instrumente` Afișează sau ascunde bara de instrumente a "
-"ferestrei principale."
+":guilabel:`Vizualizare Simplă` și :guilabel:`Vizualizare Culoare` comută sau"
+" resetează aspectul ferestrei principale."
 
-# Translated with gpt-4.1-mini
+#: ../main_window.rst:262
+msgid ""
+":guilabel:`My Views` Save, load, update, and delete your own named layouts. "
+"See :ref:`my_views_ref`."
+msgstr ""
+":guilabel:`Vizualizările Mele` Salvează, încarcă, actualizează și șterge "
+"propriile aspecte denumite. Vezi :ref:`my_views_ref`."
+
+#: ../main_window.rst:263
+msgid ":guilabel:`Docks` Show or hide various dockable panels."
+msgstr ":guilabel:`Panouri` Afișează sau ascunde diverse panouri ancorabile."
+
+#: ../main_window.rst:264
+msgid ""
+":guilabel:`Scopes` Show or hide scope docks, or open all scopes at once."
+msgstr ""
+":guilabel:`Scopuri` Afișează sau ascunde panourile de scope, sau deschide "
+"toate scope-urile simultan."
+
 #: ../main_window.rst:265
-msgid ":guilabel:`Fullscreen` Toggle fullscreen mode."
-msgstr ":guilabel:`Ecran Complet` Comută modul ecran complet."
+msgid ""
+":guilabel:`Window` Show or hide the main window toolbar, or toggle "
+"fullscreen mode."
+msgstr ""
+":guilabel:`Fereastră` Afișează sau ascunde bara de instrumente a ferestrei "
+"principale, sau comută modul ecran complet."
 
 # Translated with gpt-4.1-mini
 #: ../main_window.rst:266
-msgid ""
-":guilabel:`Views` Switch or reset the main window layout (*Simple, Advanced, "
-"Freeze, Show All*)."
-msgstr ""
-":guilabel:`Vizualizări` Comută sau resetează aspectul ferestrei principale "
-"(*Simplu, Avansat, Blocare, Afișează Tot*)."
-
-# Translated with gpt-4.1-mini
-#: ../main_window.rst:267
-msgid ""
-":guilabel:`Docks` Show or hide various dockable panels (*Captions, Effects, "
-"Emojis, Project Files, Properties, Transitions, Video Preview*)."
-msgstr ""
-":guilabel:`Panouri` Afișează sau ascunde diverse panouri ancorabile "
-"(*Subtitrări, Efecte, Emojis, Fișiere Proiect, Proprietăți, Tranziții, "
-"Previzualizare Video*)."
-
-# Translated with gpt-4.1-mini
-#: ../main_window.rst:268
 msgid "Help"
 msgstr "Ajutor"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:270
+#: ../main_window.rst:268
 msgid ":guilabel:`Contents` Open the user guide online."
 msgstr ":guilabel:`Conținut` Deschide ghidul utilizatorului online."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:271
+#: ../main_window.rst:269
 msgid ":guilabel:`Tutorial` Access the built-in tutorial for new users."
 msgstr ""
 ":guilabel:`Tutorial` Accesează tutorialul integrat pentru utilizatorii noi."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:272
+#: ../main_window.rst:270
 msgid ":guilabel:`Report a Bug` Report a bug or issue."
 msgstr ":guilabel:`Raportează o Eroare` Raportează o eroare sau o problemă."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:273
+#: ../main_window.rst:271
 msgid ":guilabel:`Ask a Question` Ask a question about the software."
 msgstr ":guilabel:`Pune o Întrebare` Pune o întrebare despre software."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:274
+#: ../main_window.rst:272
 msgid ":guilabel:`Translate` Contribute to translations of the software."
 msgstr ":guilabel:`Tradu` Contribuie la traducerile software-ului."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:275
+#: ../main_window.rst:273
 msgid ":guilabel:`Donate` Make a donation to support the project."
 msgstr ":guilabel:`Donează` Fă o donație pentru a susține proiectul."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:276
+#: ../main_window.rst:274
 msgid ""
 ":guilabel:`About` View information about the software (version, "
 "contributors, translators, changelog, and supporters)."
@@ -1632,76 +1616,274 @@ msgstr ""
 ":guilabel:`Despre` Vezi informații despre software (versiune, contributori, "
 "traducători, jurnal de modificări și susținători)."
 
+#: ../main_window.rst:278
+msgid ""
+"Use :guilabel:`Help→About OpenShot` to check your OpenShot version. Click "
+":guilabel:`Copy` next to the version number to copy a short version and "
+"system details report, which is the preferred way to share this information "
+"when reporting a bug or asking for help."
+msgstr ""
+"Folosește :guilabel:`Ajutor→Despre OpenShot` pentru a verifica versiunea ta "
+"de OpenShot. Apasă pe :guilabel:`Copiază` lângă numărul versiunii pentru a "
+"copia un raport scurt cu versiunea și detaliile sistemului, care este "
+"modalitatea preferată de a partaja aceste informații când raportezi o eroare"
+" sau ceri ajutor."
+
+#: ../main_window.rst:283
+msgid "Example output:"
+msgstr "Exemplu de ieșire:"
+
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:279
+#: ../main_window.rst:297
 msgid "Views"
 msgstr "Vizualizări"
 
-# Translated with gpt-4.1-mini
-#: ../main_window.rst:287
+#: ../main_window.rst:299
+msgid ""
+"The OpenShot main window is composed of multiple **docks**. These **docks** "
+"are arranged and snapped together into a grouping that we call a **View**. "
+"OpenShot includes :guilabel:`Simple View`, :guilabel:`Color View`, and "
+":guilabel:`My Views` (user-defined layouts)."
+msgstr ""
+"Fereastra principală OpenShot este compusă din mai multe **panouri**. Aceste"
+" **panouri** sunt aranjate și fixate împreună într-un grup pe care îl numim "
+"**Vizualizare**. OpenShot include :guilabel:`Vizualizare Simplă`, "
+":guilabel:`Vizualizare Culoare` și :guilabel:`Vizualizările Mele` (aspecte "
+"definite de utilizator)."
+
+#: ../main_window.rst:305
 msgid ""
 "This is the **default** view, and is designed to be easy-to-use, especially "
-"for first-time users. It contains :guilabel:`Project Files` on the top "
-"left, :guilabel:`Preview Window` on the top right, and :guilabel:`Timeline` "
-"on the bottom. If you accidentally close or move a dock, you can quickly "
-"reset all the docks back to their default location using the :guilabel:`View-"
-">Views->Simple View` menu at the top of the screen."
+"for first-time users. It contains :guilabel:`Project Files` on the top left,"
+" :guilabel:`Preview Window` on the top right, and :guilabel:`Timeline` on "
+"the bottom. If you accidentally close or move a dock, you can quickly reset "
+"all the docks back to their default location using the "
+":guilabel:`View->Simple View` menu at the top of the screen."
 msgstr ""
 "Aceasta este vizualizarea **implicită**, concepută să fie ușor de utilizat, "
-"în special pentru utilizatorii începători. Conține :guilabel:`Fișiere "
-"Proiect` în partea stângă sus, :guilabel:`Fereastra de previzualizare` în "
-"partea dreaptă sus și :guilabel:`Cronologie` în partea de jos. Dacă "
-"închideți sau mutați accidental un panou, puteți reseta rapid toate "
-"panourile la locația lor implicită folosind meniul :guilabel:`Vizualizare-"
-">Vizualizări->Vizualizare simplă` din partea de sus a ecranului."
+"mai ales pentru utilizatorii începători. Conține :guilabel:`Fișiere Proiect`"
+" în stânga sus, :guilabel:`Fereastra de Previzualizare` în dreapta sus și "
+":guilabel:`Cronologia` în partea de jos. Dacă închizi sau muți accidental un"
+" panou, poți reseta rapid toate panourile la locația lor implicită folosind "
+"meniul :guilabel:`Vizualizare->Vizualizare Simplă` din partea de sus a "
+"ecranului."
+
+#: ../main_window.rst:312
+msgid ""
+"This view is focused on color correction and scopes. It enlarges the video "
+"preview, hides file-management docks, keeps the timeline and properties "
+"visible, places the :guilabel:`Color Wheels` dock on the right, and tabifies"
+" the :guilabel:`Luma Waveform` and :guilabel:`Histogram` docks together "
+"below it."
+msgstr ""
+"Această vizualizare este axată pe corecția culorii și scope-uri. Mărește "
+"previzualizarea video, ascunde panourile de gestionare a fișierelor, "
+"păstrează cronologia și proprietățile vizibile, plasează panoul "
+":guilabel:`Roți de Culoare` în dreapta și grupează în file panourile "
+":guilabel:`Formă de undă Luma` și :guilabel:`Histogramă` sub acesta."
+
+#: ../main_window.rst:317
+msgid "Recording View"
+msgstr "Vizualizare Înregistrare"
+
+#: ../main_window.rst:318
+msgid ""
+"This view is focused on creating new recordings inside OpenShot. It shows "
+":guilabel:`Project Files`, :guilabel:`Video Preview`, :guilabel:`Timeline`, "
+"and the :guilabel:`Recording` dock. The :guilabel:`Properties` dock is "
+"grouped with :guilabel:`Project Files` as a tab, so you can show it from "
+":guilabel:`View->Docks->Properties` without disrupting the recording layout."
+msgstr ""
+"Această vizualizare este axată pe crearea de noi înregistrări în OpenShot. "
+"Afișează :guilabel:`Fișiere Proiect`, :guilabel:`Previzualizare Video`, "
+":guilabel:`Cronologia` și panoul :guilabel:`Înregistrare`. Panoul "
+":guilabel:`Proprietăți` este grupat cu :guilabel:`Fișiere Proiect` ca o "
+"filă, astfel încât îl poți afișa din "
+":guilabel:`Vizualizare->Panouri->Proprietăți` fără a perturba aspectul "
+"înregistrării."
+
+#: ../main_window.rst:323
+msgid ""
+"The :guilabel:`Recording` dock can record microphone audio, screen capture, "
+"webcam video, or combinations of those sources. When screen and webcam are "
+"recorded together, OpenShot can place the webcam as a corner picture-in-"
+"picture clip. Those corner camera clips use normal clip properties after "
+"they are added to the timeline: :guilabel:`Gravity` chooses the corner, "
+":guilabel:`Scale X` and :guilabel:`Scale Y` set the corner size, "
+":guilabel:`Margin` creates the inset layout area that keeps the camera away "
+"from the screen edge, and :guilabel:`Corner Radius` rounds the camera clip "
+"without adding a separate Mask effect. See :ref:`clip_properties_ref` for "
+"details. See :ref:`recording_ref` for the complete recording workflow and "
+"all source options."
+msgstr ""
+"Panoul :guilabel:`Înregistrare` poate înregistra audio de la microfon, "
+"captură de ecran, video de la webcam sau combinații ale acestor surse. Când "
+"ecranul și webcam-ul sunt înregistrate împreună, OpenShot poate plasa "
+"webcam-ul ca un clip picture-in-picture în colț. Aceste clipuri de cameră "
+"din colț folosesc proprietățile normale ale clipului după ce sunt adăugate "
+"în cronologie: :guilabel:`Gravitația` alege colțul, :guilabel:`Scara X` și "
+":guilabel:`Scara Y` setează dimensiunea colțului, :guilabel:`Marginea` "
+"creează zona de dispunere inserată care ține camera departe de marginea "
+"ecranului, iar :guilabel:`Raza Colțului` rotunjește clipul camerei fără a "
+"adăuga un efect de mască separat. Vezi :ref:`clip_properties_ref` pentru "
+"detalii. Vezi :ref:`recording_ref` pentru fluxul complet de înregistrare și "
+"toate opțiunile sursei."
+
+#: ../main_window.rst:334
+msgid "My Views"
+msgstr "Vizualizările Mele"
+
+#: ../main_window.rst:335
+msgid ""
+"**My Views** lets you save any dock arrangement as a named layout and recall"
+" it instantly. This is ideal for workflows that require switching between "
+"different editing modes — for example, a detailed audio mix layout and a "
+"focused color grading layout — without manually repositioning docks each "
+"time."
+msgstr ""
+"**Vizualizările Mele** îți permit să salvezi orice aranjament de panouri ca "
+"un aspect denumit și să îl reapelezi instantaneu. Acest lucru este ideal "
+"pentru fluxuri de lucru care necesită comutarea între diferite moduri de "
+"editare — de exemplu, un aspect detaliat pentru mixaj audio și un aspect "
+"concentrat pe corecția culorii — fără a repoziționa manual panourile de "
+"fiecare dată."
+
+#: ../main_window.rst:339
+msgid ""
+"Each saved view captures the position, size, and visibility of every dock, "
+"as well as the timeline height. Saved views are stored in your project "
+"settings and persist across sessions."
+msgstr ""
+"Fiecare vizualizare salvată capturează poziția, dimensiunea și vizibilitatea"
+" fiecărui panou, precum și înălțimea cronologiei. Vizualizările salvate sunt"
+" stocate în setările proiectului tău și persistă între sesiuni."
+
+#: ../main_window.rst:342
+msgid "**View → My Views** menu options:"
+msgstr "Opțiunile meniului **Vizualizare → Vizualizările Mele**:"
+
+#: ../main_window.rst:348
+msgid "Menu Item"
+msgstr "Element de meniu"
+
+#: ../main_window.rst:350
+msgid "List of user-defined views"
+msgstr "Listă de vizualizări definite de utilizator"
+
+#: ../main_window.rst:351
+msgid ""
+"Click to restore that layout. The currently active view shows a checkmark."
+msgstr ""
+"Click pentru a restaura acel aspect. Vizualizarea activă afișează o bifă."
+
+#: ../main_window.rst:352
+msgid "Update \"*[name]*\""
+msgstr "Actualizează „*[name]*”"
+
+#: ../main_window.rst:353
+msgid "Save your current dock arrangement over the active view, replacing it."
+msgstr ""
+"Salvează aranjamentul curent al panourilor peste vizualizarea activă, "
+"înlocuind-o."
+
+#: ../main_window.rst:354
+msgid "Delete \"*[name]*\""
+msgstr "Șterge „*[name]*”"
+
+#: ../main_window.rst:355
+msgid "Remove the active view (asks for confirmation first)."
+msgstr "Elimină vizualizarea activă (se cere confirmare înainte)."
+
+#: ../main_window.rst:356
+msgid "Save Current View As..."
+msgstr "Salvează Vizualizarea Curentă Ca..."
+
+#: ../main_window.rst:357
+msgid "Name and save your current dock arrangement as a new view."
+msgstr ""
+"Denumește și salvează aranjamentul curent al panourilor ca o vizualizare "
+"nouă."
+
+#: ../main_window.rst:359
+msgid "**Typical workflow:**"
+msgstr "**Flux de lucru tipic:**"
+
+#: ../main_window.rst:361
+msgid "Arrange your docks exactly how you like them."
+msgstr "Aranjează-ți panourile exact așa cum dorești."
+
+#: ../main_window.rst:362
+msgid ""
+"Open :guilabel:`View → My Views → Save Current View As...` and enter a name "
+"(e.g. *\"Audio Mix\"*)."
+msgstr ""
+"Deschide :guilabel:`Vizualizare → Vizualizările Mele → Salvează Vizualizarea"
+" Curentă Ca...` și introdu un nume (de ex. *„Mixaj Audio”*)."
+
+#: ../main_window.rst:363
+msgid ""
+"Later, open :guilabel:`View → My Views` and click the view name to restore "
+"that layout instantly."
+msgstr ""
+"Mai târziu, deschide :guilabel:`Vizualizare → Vizualizările Mele` și apasă "
+"pe numele vizualizării pentru a restaura instantaneu acel aspect."
+
+#: ../main_window.rst:364
+msgid ""
+"If you adjust the layout and want to keep the changes, choose "
+":guilabel:`Update \"Audio Mix\"` to overwrite it."
+msgstr ""
+"Dacă modifici aspectul și vrei să păstrezi schimbările, alege "
+":guilabel:`Actualizează „Mixaj Audio”` pentru a-l suprascrie."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:299
+#: ../main_window.rst:367
 msgid "Docks"
 msgstr "Panouri"
 
-# Translated with gpt-4.1-mini
-#: ../main_window.rst:300
+#: ../main_window.rst:368
 msgid ""
 "Each widget on the OpenShot main window is contained in a **dock**. These "
 "docks can be dragged and snapped around the main window, and even grouped "
-"together (into tabs). OpenShot will always save your main window dock layout "
-"when you exit the program. Re-launching OpenShot will restore your custom "
-"dock layout automatically."
+"together (into tabs). OpenShot will always save your main window dock layout"
+" when you exit the program. Re-launching OpenShot will restore your custom "
+"dock layout automatically. Scope docks are grouped under "
+":guilabel:`View->Scopes`."
 msgstr ""
 "Fiecare widget din fereastra principală OpenShot este conținut într-un "
-"**panou**. Aceste panouri pot fi trase și fixate în jurul ferestrei "
+"**dock**. Aceste dock-uri pot fi trase și fixate în jurul ferestrei "
 "principale și chiar grupate împreună (în file). OpenShot va salva "
-"întotdeauna aspectul panourilor ferestrei principale la ieșirea din program. "
-"Relansarea OpenShot va restaura automat aspectul personalizat al panourilor."
+"întotdeauna aspectul dock-urilor ferestrei principale când închideți "
+"programul. Relansarea OpenShot va restaura automat aspectul personalizat al "
+"dock-urilor. Dock-urile Scope sunt grupate sub :guilabel:`View->Scopes`."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:308
+#: ../main_window.rst:377
 msgid "Dock Name"
 msgstr "Nume panou"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:310
+#: ../main_window.rst:379
 msgid "Captions"
 msgstr "Subtitrări"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:311
+#: ../main_window.rst:380
 msgid ""
 "Manage and add captions or subtitles to your video project. Allows you to "
 "create, edit, and manage caption data. See :ref:`caption_effect_ref` effect."
 msgstr ""
 "Gestionează și adaugă subtitrări sau legende proiectului tău video. Permite "
-"crearea, editarea și gestionarea datelor de subtitrare. Vezi efectul :ref:"
-"`caption_effect_ref`."
+"crearea, editarea și gestionarea datelor de subtitrare. Vezi efectul "
+":ref:`caption_effect_ref`."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:312
+#: ../main_window.rst:381
 msgid "Effects"
 msgstr "Efecte"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:313
+#: ../main_window.rst:382
 msgid ""
 "Browse and apply video and audio effects to your video clips. Includes "
 "filters, color adjustments, and special effects. See :ref:`effects_ref`."
@@ -1709,22 +1891,64 @@ msgstr ""
 "Răsfoiește și aplică efecte video și audio pe clipurile tale video. Include "
 "filtre, ajustări de culoare și efecte speciale. Vezi :ref:`effects_ref`."
 
+#: ../main_window.rst:383
+msgid "Color Wheels"
+msgstr "Roți de culoare"
+
+#: ../main_window.rst:384
+msgid ""
+"Edit Color Grade wheel controls for global, shadows, midtones, and "
+"highlights from a dedicated right-side dock."
+msgstr ""
+"Editează controalele roții de gradație a culorii pentru global, umbre, "
+"tonuri medii și lumini dintr-un dock dedicat în partea dreaptă."
+
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:314
+#: ../main_window.rst:385
 msgid "Emojis"
 msgstr "Emoji"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:315
+#: ../main_window.rst:386
 msgid ""
-"Add emoji graphics to your video project. Choose from a variety of emojis to "
-"enhance your video content."
+"Add emoji graphics to your video project. Choose from a variety of emojis to"
+" enhance your video content."
 msgstr ""
-"Adaugă grafice emoji proiectului tău video. Alege dintr-o varietate de emoji "
-"pentru a îmbunătăți conținutul video."
+"Adaugă grafice emoji proiectului tău video. Alege dintr-o varietate de emoji"
+" pentru a îmbunătăți conținutul video."
+
+#: ../main_window.rst:387
+msgid "Histogram"
+msgstr "Histogramă"
+
+#: ../main_window.rst:388
+msgid ""
+"Analyze the tonal and channel distribution of the current preview frame."
+msgstr ""
+"Analizează distribuția tonală și pe canale a cadrului curent din "
+"previzualizare."
+
+#: ../main_window.rst:389
+msgid "Luma Waveform"
+msgstr "Formă de undă Luma"
+
+#: ../main_window.rst:390
+msgid "Analyze brightness distribution across the current preview frame."
+msgstr ""
+"Analizează distribuția luminozității pe cadrul curent din previzualizare."
+
+#: ../main_window.rst:391
+msgid "Audio Levels"
+msgstr "Niveluri audio"
+
+#: ../main_window.rst:392
+msgid "Monitor audio level scope data for the current preview frame."
+msgstr ""
+"Monitorizează datele nivelului audio pentru cadrul curent din "
+"previzualizare."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:317
+#: ../main_window.rst:394
 msgid ""
 "View and manage all the media files imported into your project. Organize, "
 "filter, and tag video, audio, and image files. See :ref:`files_ref`."
@@ -1734,58 +1958,180 @@ msgstr ""
 "Vezi :ref:`files_ref`."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:319
+#: ../main_window.rst:396
 msgid ""
 "View and edit the properties of a selected effect, transition, or clip. "
-"Adjust settings such as duration, size, position, etc... See :ref:"
-"`clip_properties_ref`."
+"Adjust settings such as duration, size, position, etc... See "
+":ref:`clip_properties_ref`."
 msgstr ""
 "Vizualizează și editează proprietățile unui efect, tranziții sau clip "
-"selectat. Ajustează setări precum durata, dimensiunea, poziția etc. Vezi :"
-"ref:`clip_properties_ref`."
+"selectat. Ajustează setări precum durata, dimensiunea, poziția etc. Vezi "
+":ref:`clip_properties_ref`."
+
+#: ../main_window.rst:397
+msgid "Recording"
+msgstr "Înregistrare"
+
+#: ../main_window.rst:398
+msgid ""
+"Record microphone audio, screen video, webcam video, or combined recordings."
+" See :ref:`recording_ref`."
+msgstr ""
+"Înregistrează audio de la microfon, video de pe ecran, video de la webcam "
+"sau înregistrări combinate. Vezi :ref:`recording_ref`."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:320
+#: ../main_window.rst:399
 msgid "Transitions"
 msgstr "Tranziții"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:321
+#: ../main_window.rst:400
 msgid ""
 "Browse and apply transitions between video clips. Choose from a variety of "
-"transition wipes to create smooth changes between scenes. See :ref:"
-"`transitions_ref`."
+"transition wipes to create smooth changes between scenes. See "
+":ref:`transitions_ref`."
 msgstr ""
 "Răsfoiește și aplică tranziții între clipurile video. Alege dintr-o "
-"varietate de tranziții pentru a crea schimbări line între scene. Vezi :ref:"
-"`transitions_ref`."
+"varietate de tranziții pentru a crea schimbări line între scene. Vezi "
+":ref:`transitions_ref`."
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:322
+#: ../main_window.rst:401
 msgid "Video Preview"
 msgstr "Previzualizare video"
 
 # Translated with gpt-4.1-mini
-#: ../main_window.rst:323
+#: ../main_window.rst:402
 msgid ""
-"Preview the current state of your video project. Allows you to play back and "
-"review your edits in real-time. See :ref:`playback_ref`."
+"Preview the current state of your video project. Allows you to play back and"
+" review your edits in real-time. See :ref:`playback_ref`."
 msgstr ""
 "Previzualizează starea curentă a proiectului tău video. Permite redarea și "
 "revizuirea editărilor în timp real. Vezi :ref:`playback_ref`."
 
-# Translated with gpt-4.1-mini
-#: ../main_window.rst:325
+#: ../main_window.rst:404
 msgid ""
 "If you have accidentally closed or moved a dock and can no longer find it, "
-"there are a couple easy solutions. First, you can use the :guilabel:`View-"
-">Views->Simple View` menu option at the top of the screen, to restore the "
-"view back to its default. Or you can use the :guilabel:`View->Views->Docks-"
-">...` menu to show or hide specific dock widgets on the main window."
+"there are a couple easy solutions. First, you can use the "
+":guilabel:`View->Simple View` menu option at the top of the screen, to "
+"restore the view back to its default. Or you can use the "
+":guilabel:`View->Docks->...` menu to show or hide specific dock widgets on "
+"the main window."
 msgstr ""
-"Dacă ați închis sau mutat accidental un panou și nu îl mai găsiți, există "
-"câteva soluții simple. În primul rând, puteți folosi opțiunea de meniu :"
-"guilabel:`Vizualizare->Vizualizări->Vizualizare simplă` din partea de sus a "
-"ecranului pentru a restaura vizualizarea la setarea implicită. Sau puteți "
-"folosi meniul :guilabel:`Vizualizare->Vizualizări->Panouri->...` pentru a "
-"afișa sau ascunde anumite widget-uri de panou în fereastra principală."
+"Dacă ați închis sau mutat accidental un dock și nu îl mai găsiți, există "
+"câteva soluții simple. Mai întâi, puteți folosi opțiunea de meniu "
+":guilabel:`View->Simple View` din partea de sus a ecranului pentru a "
+"restaura vizualizarea la setarea implicită. Sau puteți folosi meniul "
+":guilabel:`View->Docks->...` pentru a afișa sau ascunde widget-uri dock "
+"specifice în fereastra principală."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The ruler shows the time-scale, and the red line is the play-head. The play-"
+#~ "head represents the current playback position. Hold :kbd:`Shift` key while "
+#~ "dragging the playhead to snap to nearby clips."
+#~ msgstr ""
+#~ "Rigla arată scara temporală, iar linia roșie este capul de redare. Capul de "
+#~ "redare reprezintă poziția curentă de redare. Ține apăsată tasta :kbd:`Shift`"
+#~ " în timp ce tragi capul de redare pentru a-l alinia la clipurile apropiate."
+
+# Translated with gpt-4.1-mini
+#~ msgid "Freeze View"
+#~ msgstr "Îngheață Vizualizarea"
+
+# Translated with gpt-4.1-mini
+#~ msgid ":kbd:`Ctrl+F`"
+#~ msgstr ":kbd:`Ctrl+F`"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Show All Docks"
+#~ msgstr "Afișează toate panourile"
+
+# Translated with gpt-4.1-mini
+#~ msgid ":kbd:`Ctrl+Shift+D`"
+#~ msgstr ":kbd:`Ctrl+Shift+D`"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Un-Freeze View"
+#~ msgstr "Deblochează Vizualizarea"
+
+# Translated with gpt-4.1-mini
+#~ msgid ":kbd:`Ctrl+Shift+F`"
+#~ msgstr ":kbd:`Ctrl+Shift+F`"
+
+# Translated with gpt-4.1-mini
+#~ msgid ":guilabel:`Toolbar` Show or hide the main window toolbar."
+#~ msgstr ""
+#~ ":guilabel:`Bară de Instrumente` Afișează sau ascunde bara de instrumente a "
+#~ "ferestrei principale."
+
+# Translated with gpt-4.1-mini
+#~ msgid ":guilabel:`Fullscreen` Toggle fullscreen mode."
+#~ msgstr ":guilabel:`Ecran Complet` Comută modul ecran complet."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ ":guilabel:`Views` Switch or reset the main window layout (*Simple, Advanced,"
+#~ " Freeze, Show All*)."
+#~ msgstr ""
+#~ ":guilabel:`Vizualizări` Comută sau resetează aspectul ferestrei principale "
+#~ "(*Simplu, Avansat, Blocare, Afișează Tot*)."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ ":guilabel:`Docks` Show or hide various dockable panels (*Captions, Effects, "
+#~ "Emojis, Project Files, Properties, Transitions, Video Preview*)."
+#~ msgstr ""
+#~ ":guilabel:`Panouri` Afișează sau ascunde diverse panouri ancorabile "
+#~ "(*Subtitrări, Efecte, Emojis, Fișiere Proiect, Proprietăți, Tranziții, "
+#~ "Previzualizare Video*)."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "This is the **default** view, and is designed to be easy-to-use, especially "
+#~ "for first-time users. It contains :guilabel:`Project Files` on the top left,"
+#~ " :guilabel:`Preview Window` on the top right, and :guilabel:`Timeline` on "
+#~ "the bottom. If you accidentally close or move a dock, you can quickly reset "
+#~ "all the docks back to their default location using the "
+#~ ":guilabel:`View->Views->Simple View` menu at the top of the screen."
+#~ msgstr ""
+#~ "Aceasta este vizualizarea **implicită**, concepută să fie ușor de utilizat, "
+#~ "în special pentru utilizatorii începători. Conține :guilabel:`Fișiere "
+#~ "Proiect` în partea stângă sus, :guilabel:`Fereastra de previzualizare` în "
+#~ "partea dreaptă sus și :guilabel:`Cronologie` în partea de jos. Dacă "
+#~ "închideți sau mutați accidental un panou, puteți reseta rapid toate "
+#~ "panourile la locația lor implicită folosind meniul "
+#~ ":guilabel:`Vizualizare->Vizualizări->Vizualizare simplă` din partea de sus a"
+#~ " ecranului."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Each widget on the OpenShot main window is contained in a **dock**. These "
+#~ "docks can be dragged and snapped around the main window, and even grouped "
+#~ "together (into tabs). OpenShot will always save your main window dock layout"
+#~ " when you exit the program. Re-launching OpenShot will restore your custom "
+#~ "dock layout automatically."
+#~ msgstr ""
+#~ "Fiecare widget din fereastra principală OpenShot este conținut într-un "
+#~ "**panou**. Aceste panouri pot fi trase și fixate în jurul ferestrei "
+#~ "principale și chiar grupate împreună (în file). OpenShot va salva "
+#~ "întotdeauna aspectul panourilor ferestrei principale la ieșirea din program."
+#~ " Relansarea OpenShot va restaura automat aspectul personalizat al "
+#~ "panourilor."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "If you have accidentally closed or moved a dock and can no longer find it, "
+#~ "there are a couple easy solutions. First, you can use the "
+#~ ":guilabel:`View->Views->Simple View` menu option at the top of the screen, "
+#~ "to restore the view back to its default. Or you can use the "
+#~ ":guilabel:`View->Views->Docks->...` menu to show or hide specific dock "
+#~ "widgets on the main window."
+#~ msgstr ""
+#~ "Dacă ați închis sau mutat accidental un panou și nu îl mai găsiți, există "
+#~ "câteva soluții simple. În primul rând, puteți folosi opțiunea de meniu "
+#~ ":guilabel:`Vizualizare->Vizualizări->Vizualizare simplă` din partea de sus a"
+#~ " ecranului pentru a restaura vizualizarea la setarea implicită. Sau puteți "
+#~ "folosi meniul :guilabel:`Vizualizare->Vizualizări->Panouri->...` pentru a "
+#~ "afișa sau ascunde anumite widget-uri de panou în fereastra principală."
