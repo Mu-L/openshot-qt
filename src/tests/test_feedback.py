@@ -1,5 +1,7 @@
 """Survey persistence, routing, and actual Qt invitation behavior."""
 
+import base64
+import json
 import os
 import sys
 import tempfile
@@ -57,13 +59,51 @@ class FeedbackTests(unittest.TestCase):
                 policy.consume()
         self.assertFalse(policy.shown)
 
-    def test_url_encodes_metadata_and_id(self):
-        params = parse_qs(urlparse(survey_url(
-            {"official": False, "package_type": "unknown", "app_version": "4.0.0", "platform": "linux"},
-            "id&with spaces")).query)
-        self.assertEqual(params["guid"], ["id&with spaces"])
-        self.assertEqual(params["official"], ["0"])
-        self.assertEqual(params["app_version"], ["4.0.0"])
+    def decode_context(self, url):
+        parsed = urlparse(url)
+        self.assertEqual(parsed.scheme, "https")
+        self.assertEqual(parsed.netloc, "www.openshot.org")
+        self.assertEqual(parsed.path, "/feedback/")
+        params = parse_qs(parsed.query)
+        self.assertEqual(set(params), {"context"})
+        context, = params["context"]
+        self.assertRegex(context, r"^[A-Za-z0-9_-]+$")
+        return json.loads(base64.urlsafe_b64decode(context + "=" * (-len(context) % 4)))
+
+    def test_url_encodes_v1_context_and_unicode_id(self):
+        distribution = {"official": True, "package_type": "exe",
+                        "app_version": "4.0.1", "platform": "windows",
+                        "architecture": "AMD64", "build_name": "test-build"}
+        before = dict(distribution)
+        payload = self.decode_context(survey_url(distribution, "id&with spaces/é?"))
+        self.assertEqual(payload, {"v": 1, "version": "4.0.1", "os": "windows",
+                                   "source": "direct", "install_uuid": "id&with spaces/é?"})
+        self.assertEqual(distribution, before)
+
+    def test_context_source_and_os_mapping(self):
+        for kind, official, source in (
+                ("exe", True, "direct"), ("appimage", True, "direct"),
+                ("appbundle", True, "direct"), ("exe", False, "unknown"),
+                ("appimage", False, "unknown"), ("appbundle", False, "unknown"),
+                ("msix", True, "microsoft-store"), ("msix", False, "unknown"),
+                ("snap", False, "snap"), ("flatpak", False, "flatpak"),
+                ("unknown", False, "unknown")):
+            with self.subTest(kind=kind, official=official):
+                payload = self.decode_context(survey_url(
+                    {"official": official, "package_type": kind,
+                     "app_version": "4.0.1", "platform": "darwin"}, "test-id"))
+                self.assertEqual(payload["source"], source)
+                self.assertEqual(payload["os"], "macos")
+
+    def test_context_os_uses_only_supported_values(self):
+        for system, expected in (("windows", "windows"), ("Linux", "linux"),
+                                 ("darwin", "macos"), ("macos", "macos"),
+                                 ("FreeBSD", "unknown"), ("", "unknown")):
+            with self.subTest(system=system):
+                payload = self.decode_context(survey_url(
+                    {"app_version": "4.0.1", "platform": system}, "test-id"))
+                self.assertEqual(payload["os"], expected)
+                self.assertEqual(payload["source"], "unknown")
 
     def make_controller(self, settings, preview=False):
         window = QMainWindow()
@@ -90,7 +130,8 @@ class FeedbackTests(unittest.TestCase):
         self.assertTrue(actions[actions.index(controller.window.actionUpdate) + 1].isSeparator())
         with patch("windows.feedback.QDesktopServices.openUrl", return_value=True) as opened:
             controller.action.trigger()
-        self.assertIn("guid=test-install-id", opened.call_args[0][0].toString())
+        self.assertEqual(self.decode_context(opened.call_args[0][0].toString())["install_uuid"],
+                         "test-install-id")
         self.assertIsNone(controller.banner)
         self.assertTrue(settings.saved["feedback-shown"])
         self.assertTrue(controller.action.isEnabled())
@@ -159,7 +200,8 @@ class FeedbackTests(unittest.TestCase):
         self.assertFalse(controller.banner.isHidden())
         with patch("windows.feedback.QDesktopServices.openUrl", return_value=True) as opened:
             controller.open_survey()
-        self.assertIn("guid=test-install-id", opened.call_args[0][0].toString())
+        self.assertEqual(self.decode_context(opened.call_args[0][0].toString())["install_uuid"],
+                         "test-install-id")
         self.assertIsNone(controller.banner)
 
     def test_foreground_time_and_suspend_guard(self):
