@@ -4,6 +4,7 @@ import time
 
 from qt_api import QAction, QApplication, QDesktopServices, QTimer, QUrl, QObject, QMessageBox
 
+from classes import info
 from classes.distribution import get_distribution_info
 from classes.feedback import FeedbackPolicy, survey_url
 from classes.logger import log
@@ -97,7 +98,8 @@ class FeedbackController(QObject):
 
     def open_survey(self):
         _ = self.translate
-        url = survey_url(get_distribution_info(), self.settings.get("unique_install_id"))
+        url = survey_url(get_distribution_info(), self.settings.get("unique_install_id"),
+                         info.website_language())
         try:
             opened = QDesktopServices.openUrl(QUrl(url))
         except Exception:
