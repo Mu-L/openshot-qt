@@ -561,6 +561,9 @@ class Export(QDialog):
 
     def cboProfile_index_changed(self, widget, index):
         selected_profile_path = widget.itemData(index)
+        # Clearing/repopulating the combo can emit a selection without a profile.
+        if not selected_profile_path:
+            return
         log.info(selected_profile_path)
 
         # get translations

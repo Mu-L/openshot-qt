@@ -1540,10 +1540,10 @@ class PropertiesTableView(QTableView):
                     # Instantiate the effect
                     effect = timeline_instance.GetClipEffect(item_id)
                     # Get the indexes and IDs of the visible objects
-                    visible_objects = json.loads(effect.GetVisibleObjects(frame_number))
+                    visible_objects = json.loads(effect.GetVisibleObjects(frame_number) or "{}")
                     # Add visible objects as choices
                     object_index_choices = []
-                    for enum_index, object_index in enumerate(visible_objects["visible_objects_index"]):
+                    for enum_index, object_index in enumerate(visible_objects.get("visible_objects_index", [])):
                         class_name = visible_objects["visible_class_names"][enum_index]
                         object_name = f"{class_name}: {object_index}"
                         object_value = f"{object_index}"
@@ -1607,9 +1607,9 @@ class PropertiesTableView(QTableView):
                         for effect in clip.data["effects"]:
                             if effect.get("has_tracked_object"):
                                 eff_inst = timeline_instance.GetClipEffect(effect["id"])
-                                visible = json.loads(eff_inst.GetVisibleObjects(frame_number))
+                                visible = json.loads(eff_inst.GetVisibleObjects(frame_number) or "{}")
                                 # Use the new "<effect-UUID>-<index>" IDs directly
-                                for obj_id in visible["visible_objects_id"]:
+                                for obj_id in visible.get("visible_objects_id", []):
                                     tracked_objects.append({
                                         "name": obj_id,
                                         "value": obj_id,

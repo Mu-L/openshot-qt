@@ -1579,7 +1579,11 @@ class TimelineView(updates.UpdateInterface, ViewClass):
         clip_has_audio = bool(_reader.get("has_audio", True))
 
         # Get playhead position
-        playhead_position = float(self.window.preview_thread.current_frame - 1) / fps_float
+        current_frame = self.window.preview_thread.current_frame
+        if current_frame is None:
+            # The preview clears its frame during seeks; keep the displayed playhead.
+            current_frame = getattr(self, "current_frame", 1) or 1
+        playhead_position = float(current_frame - 1) / fps_float
 
         # Get clipboard
         copied_object = ClipboardManager.from_mime(get_app().clipboard().mimeData())
