@@ -202,7 +202,7 @@ class Clip(QueryObject):
                 name = str(file.data.get("name", "")).strip()
                 if name:
                     return name
-        return os.path.basename(path)
+        return os.path.basename(path) if path else (self.data.get("title") or "")
 
 class Transition(QueryObject):
     """ This class allows Transitions (i.e. timeline effects) to be queried, updated, and deleted from the project data. """

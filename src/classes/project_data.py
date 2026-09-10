@@ -1524,11 +1524,12 @@ class ProjectDataStore(JsonDataStore, UpdateInterface):
 
             # Copy all Clip thumbnails and update reader paths
             for clip in self._data["clips"]:
-                file_id = clip["file_id"]
+                file_id = clip.get("file_id") or (clip.get("reader") or {}).get("id")
                 clip_id = clip["id"]
 
                 # For now, store thumbnail path for backwards compatibility
-                clip["image"] = os.path.join(target_thumb_path, f"{file_id}.png")
+                if file_id:
+                    clip["image"] = os.path.join(target_thumb_path, f"{file_id}.png")
 
                 log.info("Checking clip %s path for file %s", clip_id, file_id)
                 # Update paths to files stored in our working space or old path structure
