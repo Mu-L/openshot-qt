@@ -2,13 +2,19 @@
 
 import time
 
-from qt_api import QAction, QApplication, QDesktopServices, QTimer, QUrl, QObject, QMessageBox
+import openshot
+
+from qt_api import QAction, QApplication, QDesktopServices, QTimer, QUrl, QObject, QMessageBox, QEvent, QWidget, Qt, isdeleted
 
 from classes import info
+from classes.app import get_app
 from classes.distribution import get_distribution_info
 from classes.feedback import FeedbackPolicy, survey_url
 from classes.logger import log
 from windows.notifications import NotificationBanner, notification_area, notification_icon
+
+IDLE_SECONDS = 60
+QUIET_SECONDS = 10
 
 
 class FeedbackController(QObject):
@@ -18,7 +24,7 @@ class FeedbackController(QObject):
         self.window = window
         self.settings = settings
         self.translate = translate
-        self.policy = FeedbackPolicy(settings)
+        self.policy = FeedbackPolicy(settings, None if preview else info.VERSION)
         self.preview = preview
         self.presented = False
         self.completed = False
@@ -34,10 +40,12 @@ class FeedbackController(QObject):
         self.action.triggered.connect(self.open_from_menu)
         window.menuHelp.insertAction(window.actionUpdate, self.action)
         self.last_tick = time.monotonic()
+        self.last_input = self.last_tick
         self.was_active = False
         self.timer = QTimer(self)
         self.timer.setInterval(5000)
         self.timer.timeout.connect(self.tick)
+        QApplication.instance().installEventFilter(self)
         if preview:
             self.timer.setInterval(250)
             self.timer.start()
@@ -46,6 +54,42 @@ class FeedbackController(QObject):
 
     def refresh_icon(self, theme=None):
         self.action.setIcon(notification_icon(self.window, "feedback", theme))
+
+    def record_action(self, category):
+        if not self.preview:
+            self.policy.record_action(category)
+        self.last_input = time.monotonic()
+
+    def eventFilter(self, watched, event):
+        if isdeleted(self.window):
+            return False
+        # Observe input without swallowing it or treating passive mouse movement as editing.
+        if isinstance(watched, QWidget) and (watched is self.window or self.window.isAncestorOf(watched)):
+            if event.type() in (QEvent.KeyPress, QEvent.MouseButtonPress, QEvent.MouseButtonRelease,
+                                QEvent.Wheel, QEvent.TouchBegin, QEvent.TouchUpdate, QEvent.WindowActivate):
+                self.last_input = time.monotonic()
+            elif event.type() == QEvent.MouseMove and event.buttons() != Qt.NoButton:
+                self.last_input = time.monotonic()
+        return False
+
+    def playback_active(self):
+        preview = getattr(self.window, "preview_thread", None)
+        player = getattr(preview, "player", None)
+        return bool(player and player.Mode() == openshot.PLAYBACK_PLAY and player.Speed() != 0)
+
+    def has_timeline_content(self):
+        return bool(get_app().project.get("clips"))
+
+    def shutdown(self):
+        self.timer.stop()
+        QApplication.instance().removeEventFilter(self)
+        self.flush()
+
+    def flush(self):
+        try:
+            self.policy.flush()
+        except Exception:
+            log.warning("Unable to save feedback editing time", exc_info=True)
 
     def tick(self):
         if self.preview:
@@ -60,10 +104,14 @@ class FeedbackController(QObject):
                   and not QApplication.activePopupWidget()
                   and not getattr(self.window, "shutting_down", False))
         # Ignore suspended/event-loop-blocked intervals instead of counting idle hours.
-        elapsed = seconds if active and self.was_active and seconds <= 10 else 0
-        self.was_active = active
+        playing = self.playback_active() if active else False
+        idle_seconds = now - self.last_input
+        editing = active and self.has_timeline_content() and (playing or idle_seconds <= IDLE_SECONDS)
+        elapsed = seconds if editing and self.was_active and seconds <= 10 else 0
+        self.was_active = editing
         try:
-            if self.policy.advance(elapsed) and active:
+            if (self.policy.advance(elapsed) and active and not playing and idle_seconds >= QUIET_SECONDS
+                    and seconds <= 10 and QApplication.mouseButtons() == Qt.NoButton):
                 self.show_invitation()
         except Exception:
             log.warning("Unable to save feedback invitation state", exc_info=True)
@@ -75,10 +123,15 @@ class FeedbackController(QObject):
         _ = self.translate
         self.banner = NotificationBanner(
             self.window, _("Help us make OpenShot even better!"), _("Share feedback"),
-            self.open_survey, self.dismiss, _)
+            self.open_from_banner, self.dismiss, _)
         self.area.add("feedback", self.banner)
         self.presented = True
         self.timer.stop()
+
+    def open_from_banner(self):
+        # A click acknowledges the banner even if the browser fails or the survey is abandoned.
+        self.dismiss()
+        self.open_survey()
 
     def open_from_menu(self, checked=False):
         # Voluntary feedback remains available after the one-time invitation ends.
@@ -104,11 +157,7 @@ class FeedbackController(QObject):
             opened = QDesktopServices.openUrl(QUrl(url))
         except Exception:
             opened = False
-        if opened:
-            self.dismiss()
-        elif self.banner:
-            self.banner.show_error(_("Couldn’t open your browser. Please try again."))
-        else:
+        if not opened:
             QMessageBox.warning(self.window, _("Unable to open browser"),
                                 _("Couldn’t open your browser. Please try again."))
             log.warning("Unable to open feedback survey in browser")

@@ -48,6 +48,7 @@ from qt_api import (
 
 from classes.logger import log
 from classes.app import get_app
+from classes.feedback import record_feedback_changes
 from classes import info
 from classes.query import Clip, Effect, Transition, File
 from classes.thumbnail import GetThumbPath
@@ -543,6 +544,9 @@ class PropertiesTableView(QTableView):
 
         get_app().updates.transaction_id = None
         self.transaction_id = None
+        record_feedback_changes("adjustments", {
+            item_id: item["data"] for item_id, item in self.original_data_map.items()
+            if item["type"] == "clip"})
         self.original_data_map = {}
         self.update_in_progress = False
 

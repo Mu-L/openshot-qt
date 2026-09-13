@@ -31,6 +31,7 @@ import uuid
 from qt_api import Qt, QRectF, QPointF
 from qt_api import QApplication
 from classes.app import get_app
+from classes.feedback import record_feedback_changes
 from classes.clip_utils import is_single_image_media
 from classes.query import Clip, Transition
 from classes.waveform import waveform_sample_rate
@@ -1580,6 +1581,9 @@ class ClipInteractionMixin:
         self._update_project_duration()
         if waveform_clips and hasattr(self, "Show_Waveform_Triggered"):
             self.Show_Waveform_Triggered(waveform_clips, transaction_id=transaction_id)
+        record_feedback_changes("structure", {
+            item_id: context["initial"] for item_id, context in resize_initial_map.items()
+            if isinstance(context.get("item"), Clip)}, fields=("start", "end"))
         self._finalize_resize_preview_state(resize_items, requested_backend_refresh)
         if hasattr(self, "_refresh_keyframe_markers") and not self._dragging_panel_keyframes and not self._dragging_keyframe:
             self._refresh_keyframe_markers()
