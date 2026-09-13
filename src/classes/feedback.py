@@ -74,8 +74,12 @@ def _feedback_clip_snapshot(clip_ids):
         controller = getattr(getattr(get_app(), "window", None), "feedback_controller", None)
         if not controller or controller.preview or controller.policy.experienced:
             return {}
-        return {clip_id: deepcopy(clip.data) for clip_id in clip_ids
-                if (clip := Clip.get(id=clip_id)) is not None}
+        snapshots = {}
+        for clip_id in clip_ids:
+            clip = Clip.get(id=clip_id)
+            if clip is not None:
+                snapshots[clip_id] = deepcopy(clip.data)
+        return snapshots
     except Exception:
         log.warning("Unable to inspect feedback activity", exc_info=True)
         return {}
