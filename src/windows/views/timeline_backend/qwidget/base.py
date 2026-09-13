@@ -3167,6 +3167,14 @@ class TimelineWidgetBase(QWidget):
 
         self.geometry.ensure()
 
+        # Razor clicks own the whole item, including its title and effect badges.
+        # Consume the release too, so it cannot open a menu or finish an old drag.
+        if content_pos and self.enable_razor and event.button() == Qt.LeftButton:
+            if self._handle_razor_press(pos):
+                self._press_hit = "razor"
+                event.accept()
+                return
+
         if event.button() == Qt.LeftButton:
             if self._playhead_time_panel_rect().contains(pos):
                 if self._start_playhead_time_edit():
@@ -3192,11 +3200,6 @@ class TimelineWidgetBase(QWidget):
             and self._handle_menu_icon_clicks(pos)
         ):
             return
-
-        if content_pos and self.enable_razor and event.button() == Qt.LeftButton:
-            if self._handle_razor_press(pos):
-                event.accept()
-                return
 
         self._assign_press_target(event)
 
@@ -3503,6 +3506,11 @@ class TimelineWidgetBase(QWidget):
     def mouseReleaseEvent(self, event):
         self._last_event = event
         posf = _event_posf(event)
+
+        if event.button() == Qt.LeftButton and self._press_hit == "razor":
+            self._press_hit = None
+            event.accept()
+            return
 
         if event.button() == Qt.LeftButton and self._toolbar_pressed_key:
             button = self._get_toolbar_button(*self._toolbar_pressed_key)

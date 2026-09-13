@@ -2607,7 +2607,7 @@ class VideoWidget(QWidget, updates.UpdateInterface):
                 return object_id, object_props
         return None, None
 
-    def refreshTriggered(self):
+    def refreshTriggered(self, refresh_project=True):
         """Signal to refresh viewport (i.e. a property might have changed that effects the preview)"""
 
         # SWIG references do not keep timeline-owned objects alive. Undo/redo
@@ -2615,7 +2615,7 @@ class VideoWidget(QWidget, updates.UpdateInterface):
         timeline = self.win.timeline_sync.timeline
         clips, objects = [], []
         for selected in self.transforming_clips:
-            clip = Clip.get(id=selected.id)
+            clip = Clip.get(id=selected.id) if refresh_project else selected
             obj = timeline.GetClip(selected.id)
             if clip and obj:
                 clips.append(clip)
@@ -2626,9 +2626,9 @@ class VideoWidget(QWidget, updates.UpdateInterface):
         if self.transforming_effect:
             clip_id = self.transforming_clip.id if self.transforming_clip else None
             effect_id = self.transforming_effect.id
-            clip = Clip.get(id=clip_id) if clip_id else None
+            clip = (Clip.get(id=clip_id) if refresh_project else self.transforming_clip) if clip_id else None
             obj = timeline.GetClip(clip_id) if clip_id else None
-            effect = Effect.get(id=effect_id)
+            effect = Effect.get(id=effect_id) if refresh_project else self.transforming_effect
             effect_obj = timeline.GetClipEffect(effect_id)
             if clip and obj and effect and effect_obj:
                 self.transforming_clip = clip

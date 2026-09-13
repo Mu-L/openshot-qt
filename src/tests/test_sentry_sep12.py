@@ -215,7 +215,7 @@ class SentrySeptemberTests(unittest.TestCase):
             win=window, transforming_clips=[], transforming_clip_objects=[],
             transforming_clip=None, transforming_clip_object=None,
             transforming_effect=None, transforming_effect_object=None)
-        preview.refreshTriggered = lambda: self.video.VideoWidget.refreshTriggered(preview)
+        preview.refreshTriggered = lambda **kw: self.video.VideoWidget.refreshTriggered(preview, **kw)
         window.videoPreview = preview
         manager = UpdateManager()
         manager.add_listener(types.SimpleNamespace(changed=lambda action: TimelineSync.changed(sync, action)))
@@ -315,3 +315,97 @@ class SentrySeptemberTests(unittest.TestCase):
             self.assertIsNone(preview.transforming_clip_object)
             self.assertIsNone(preview.transforming_effect)
         timeline.Clear()
+
+    def test_repeated_splits_keep_clip_edges_adjacent(self):
+        from classes.timeline import TimelineSync
+        from classes.updates import UpdateManager
+        store = make_store()
+        reader = openshot.DummyReader(openshot.Fraction(24, 1), 320, 180, 44100, 2, 600.0)
+        source = openshot.Clip(reader)
+        source.Id('long-clip')
+        source.Position(10)
+        source.Start(30)
+        source.End(530)
+        data = json.loads(source.Json())
+        store._data = {'clips': [data], 'effects': [], 'layers': [], 'fps': {'num': 24, 'den': 1}}
+        manager = UpdateManager()
+        manager.add_listener(store)
+        window = Mock()
+        native = openshot.Timeline(320, 180, openshot.Fraction(24, 1), 44100, 2, openshot.LAYOUT_STEREO)
+        native.ApplyJsonDiff(json.dumps([{'type': 'insert', 'key': ['clips'], 'value': data}]))
+        sync = types.SimpleNamespace(timeline=native, window=window)
+        window.timeline_sync = sync
+        window.proxy_service = None
+        preview = types.SimpleNamespace(win=window, transforming_clips=[], transforming_clip_objects=[],
+                                        transforming_clip=None, transforming_clip_object=None,
+                                        transforming_effect=None, transforming_effect_object=None)
+        preview.refreshTriggered = lambda **kw: self.video.VideoWidget.refreshTriggered(preview, **kw)
+        window.videoPreview = preview
+        manager.add_listener(types.SimpleNamespace(changed=lambda action: TimelineSync.changed(sync, action)), 0)
+        helper = Mock(window=window, show_wait_spinner=False)
+        helper.delete_invalid_timeline_item.side_effect = lambda item: self.timeline.TimelineView.delete_invalid_timeline_item(helper, item)
+        helper.update_clip_data.side_effect = lambda data, **kw: self.timeline.TimelineView.update_clip_data(helper, data, **kw)
+        helper.get_uuid.side_effect = ['cut-1', 'cut-2', 'cut-3', 'keep-left']
+        with patch.object(self.app, 'project', store), patch.object(self.app, 'updates', manager), \
+                patch.object(self.app, 'window', window):
+            for cut in (110, 210, 310):
+                target = max(store._data['clips'], key=lambda clip: clip['position'])
+                preview.transforming_clips = [Clip.get(id=target['id'])]
+                preview.refreshTriggered()
+                self.timeline.TimelineView.Slice_Triggered(helper, self.timeline.MenuSlice.KEEP_BOTH,
+                                                         [target['id']], [], cut)
+                clips = sorted(store._data['clips'], key=lambda clip: clip['position'])
+                self.assertEqual([c.data for c in Clip.filter()], store._data['clips'])
+                for left, right in zip(clips, clips[1:]):
+                    self.assertAlmostEqual(left['position'] + left['end'] - left['start'], right['position'])
+                    self.assertAlmostEqual(left['end'], right['start'])
+                self.assertAlmostEqual(sum(c['end'] - c['start'] for c in clips), 500)
+            # Keeping ten seconds and dragging between tracks must not restore
+            # source duration from a query cached before the trim was committed.
+            first = clips[0]
+            preview.transforming_clips = [Clip.get(id=first['id'])]
+            preview.refreshTriggered()
+            self.timeline.TimelineView.Slice_Triggered(helper, self.timeline.MenuSlice.KEEP_LEFT,
+                                                     [first['id']], [], 20)
+            expected_end = 40 + 1 / 24  # KEEP_LEFT includes the playhead frame.
+            for layer in (1, 0):
+                moved = Clip.get(id=first['id'])
+                moved.data['layer'] = layer
+                helper.update_clip_data(moved.data, only_basic_props=True, ignore_reader=True)
+                saved = next(c for c in store._data['clips'] if c['id'] == first['id'])
+                self.assertAlmostEqual(saved['end'], expected_end)
+                self.assertEqual(saved['start'], 30)
+                self.assertEqual(saved['position'], 10)
+                self.assertEqual(saved['layer'], layer)
+                self.assertEqual(Clip.get(id=first['id']).data, saved)
+        native.Clear()
+
+    def test_razor_consumes_title_and_body_clicks_without_menus_or_drag_release(self):
+        from qt_api import QPointF, QRectF, Qt
+        from windows.views.timeline_backend.qwidget.base import TimelineWidgetBase
+        for item_type in ('clip', 'transition'):
+            for y in (20, 80):
+                with self.subTest(item_type=item_type, y=y):
+                    item = types.SimpleNamespace(id='item')
+                    helper = Mock(enable_razor=True, _press_hit=None)
+                    helper._is_timeline_content_pos.return_value = True
+                    helper.geometry.iter_items.return_value = [(QRectF(10, 10, 200, 100), item, False, item_type)]
+                    helper._seconds_from_x.return_value = 10.0
+                    helper._handle_razor_press.side_effect = lambda pos: TimelineWidgetBase._handle_razor_press(helper, pos)
+                    helper._clear_pending_clip_menu_click.side_effect = lambda: TimelineWidgetBase._clear_pending_clip_menu_click(helper)
+                    helper._clear_pending_transition_menu_click.side_effect = lambda: TimelineWidgetBase._clear_pending_transition_menu_click(helper)
+                    helper._playhead_time_panel_rect.return_value = QRectF()
+                    helper._track_toolbar_button_at.return_value = None
+                    helper._handle_menu_icon_clicks.return_value = False
+                    event = types.SimpleNamespace(pos=lambda: QPointF(50, y), button=lambda: Qt.LeftButton,
+                                                  accept=Mock())
+                    TimelineWidgetBase.mousePressEvent(helper, event)
+                    helper.RazorSliceAtCursor.assert_called_once_with(
+                        'item' if item_type == 'clip' else '',
+                        'item' if item_type == 'transition' else '', 10.0)
+                    helper._begin_pending_clip_menu_click.assert_not_called()
+                    helper._begin_pending_transition_menu_click.assert_not_called()
+                    helper._handle_menu_icon_clicks.assert_not_called()
+                    TimelineWidgetBase.mouseReleaseEvent(helper, event)
+                    helper.events.released.emit.assert_not_called()
+                    self.assertIsNone(helper._press_hit)

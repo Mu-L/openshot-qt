@@ -134,7 +134,9 @@ class TimelineSync(UpdateInterface):
             if action.key and action.key[0] == "clips":
                 preview = getattr(self.window, "videoPreview", None)
                 if preview is not None:
-                    preview.refreshTriggered()
+                    # ProjectDataStore has not applied this action yet. Reading
+                    # queries here would cache old data under the new version.
+                    preview.refreshTriggered(refresh_project=False)
 
         # Cache stays off — re-enabled when the user seeks or starts playback
 
