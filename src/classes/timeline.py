@@ -128,6 +128,15 @@ class TimelineSync(UpdateInterface):
         except Exception as e:
             log.error("Error applying JSON to timeline object in libopenshot: %s. %s" %
                      (e, action.json(is_array=True)))
+        finally:
+            # Refresh borrowed clip/effect pointers before another update listener
+            # can process UI events, including between actions in an undo/redo.
+            if action.key and action.key[0] == "clips":
+                preview = getattr(self.window, "videoPreview", None)
+                if preview is not None:
+                    # ProjectDataStore has not applied this action yet. Reading
+                    # queries here would cache old data under the new version.
+                    preview.refreshTriggered(refresh_project=False)
 
         # Cache stays off — re-enabled when the user seeks or starts playback
 

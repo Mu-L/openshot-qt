@@ -450,7 +450,10 @@ class Export(QDialog):
         self.timeline.info.fps.den = self.txtFrameRateDen.value()
         self.timeline.info.sample_rate = self.txtSampleRate.value()
         self.timeline.info.channels = self.txtChannels.value()
-        self.timeline.info.channel_layout = self.cboChannelLayout.currentData()
+        channel_layout = self.cboChannelLayout.currentData()
+        # Clearing/repopulating the combo emits changes without a selection.
+        if channel_layout is not None:
+            self.timeline.info.channel_layout = channel_layout
 
         # Disable audio (if not needed)
         if self.timeline.info.sample_rate == 0 or self.timeline.info.channels == 0:

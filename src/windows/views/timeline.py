@@ -872,7 +872,12 @@ class TimelineView(updates.UpdateInterface, ViewClass):
 
         # Search for matching clip in project data (if any)
         existing_clip = Clip.get(id=clip_data.get("id"))
-        if not existing_clip:
+        is_new_clip = existing_clip is None
+        if is_new_clip:
+            # Delayed edits can arrive after a clip has been deleted. A partial
+            # update cannot recreate its reader or other media properties.
+            if not clip_data.get("reader"):
+                return
             # Create a new clip (if not exists)
             log.debug("Create new clip object from clip_data: %s" % clip_data)
             existing_clip = Clip()
@@ -884,7 +889,7 @@ class TimelineView(updates.UpdateInterface, ViewClass):
         existing_clip.data = clip_data
 
         # Remove unneeded properties (since they don't change here... this is a performance boost)
-        if only_basic_props:
+        if only_basic_props and not is_new_clip:
             existing_clip.data = {}
             existing_clip.data["id"] = clip_data["id"]
             existing_clip.data["layer"] = clip_data["layer"]
@@ -899,7 +904,7 @@ class TimelineView(updates.UpdateInterface, ViewClass):
 
         # Always remove the Reader attribute (since nothing updates it,
         # and we are wrapping clips in FrameMappers anyway)
-        if ignore_reader and "reader" in existing_clip.data:
+        if ignore_reader and not is_new_clip and "reader" in existing_clip.data:
             existing_clip.data.pop("reader")
 
         # Set transaction id (if any)

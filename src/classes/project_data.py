@@ -294,6 +294,9 @@ class ProjectDataStore(JsonDataStore, UpdateInterface):
 
         else:
 
+            # Keep live project edits from changing values retained in history.
+            values = copy.deepcopy(values)
+
             # Add or Full Update
             # For adds to list perform an insert to index or the end if not specified
             if add and isinstance(parent, list):
@@ -306,7 +309,6 @@ class ProjectDataStore(JsonDataStore, UpdateInterface):
                     and isinstance(obj.get("objects"), dict)
                     and isinstance(values.get("objects"), dict)
                 ):
-                    values = copy.deepcopy(values)
                     object_updates = values.pop("objects", {})
                     tracked_objects = obj.setdefault("objects", {})
                     for object_id, object_values in object_updates.items():
@@ -1298,11 +1300,64 @@ class ProjectDataStore(JsonDataStore, UpdateInterface):
             if os.path.exists(temporary_path):
                 os.remove(temporary_path)
 
+    def _relocate_history_assets(self, asset_roots):
+        """Keep detached undo/redo snapshots usable after assets move on save."""
+        path_keys = {"image", "path", "resource", "protobuf_data_path", "lut_path"}
+
+        def relocate(value, key=None):
+            if isinstance(value, dict):
+                for child_key, child in value.items():
+                    value[child_key] = relocate(child, child_key)
+            elif isinstance(value, list):
+                for index, child in enumerate(value):
+                    value[index] = relocate(child)
+            elif key in path_keys and isinstance(value, str) and os.path.isabs(value):
+                for source_root, target_root in asset_roots:
+                    relative = self._path_relative_to_root(value, source_root)
+                    if relative is None:
+                        continue
+                    destination = os.path.join(target_root, relative)
+                    if self._paths_match(value, destination):
+                        return value
+                    # Deleted/undone recordings may exist only in history, so
+                    # preserve those too. Never remove the history's source.
+                    try:
+                        self._copy_recording_asset(value, destination)
+                    except OSError:
+                        log.warning("Unable to copy history asset %s", value, exc_info=True)
+                    return destination if os.path.exists(destination) else value
+            return value
+
+        # History serialized before saving is independent of the active manager.
+        for actions in self._data.get("history", {}).values():
+            for action in actions:
+                key = action.get("key", [])
+                path_key = key[-1] if key and isinstance(key[-1], str) else None
+                for field in ("value", "old_values"):
+                    if field in action:
+                        action[field] = relocate(action[field], path_key)
+
+        app = get_app()
+        if app.project is self:
+            updates = app.updates
+            actions = list(updates.actionHistory) + list(updates.redoHistory)
+            if updates.pending_action is not None:
+                actions.append(updates.pending_action)
+            for action in actions:
+                path_key = action.key[-1] if action.key and isinstance(action.key[-1], str) else None
+                action.values = relocate(action.values, path_key)
+                action.old_values = relocate(action.old_values, path_key)
+
     def move_temp_paths_to_project_folder(self, file_path, previous_path=None):
         """ Move all temp files (such as Thumbnails, Titles, and Blender animations) to the project asset folder. """
+        # Fail the save before relocating media or writing the project when its
+        # asset directory cannot be created (permissions, disk full, etc.).
+        asset_path = get_assets_path(file_path)
+        if not asset_path:
+            raise OSError("Unable to create project assets for %s" % file_path)
+        history_asset_roots = []
         try:
-            # Get or generate asset folder name, max 30 chars of filename + "_assets"
-            asset_path = get_assets_path(file_path)
+            # Resolve destination folders before moving assets.
             target_thumb_path = os.path.join(asset_path, "thumbnail")
             target_title_path = os.path.join(asset_path, "title")
             target_blender_path = os.path.join(asset_path, "blender")
@@ -1352,6 +1407,16 @@ class ProjectDataStore(JsonDataStore, UpdateInterface):
                     get_assets_path(previous_path), "recordings")
                 if not self._paths_match(previous_recording_path, recording_roots[0][0]):
                     recording_roots.append((previous_recording_path, False))
+
+            history_asset_roots = [
+                (info.THUMBNAIL_PATH, target_thumb_path),
+                (info.TITLE_PATH, target_title_path),
+                (info.BLENDER_PATH, target_blender_path),
+                (info.PROTOBUF_DATA_PATH, target_protobuf_path),
+                (info.CLIPBOARD_PATH, target_clipboard_path),
+                (info.COMFYUI_OUTPUT_PATH, target_comfy_output_path),
+                (info.PROXY_PATH, target_proxy_path),
+            ] + [(root, target_recording_path) for root, _move in recording_roots]
 
             def relocate_effect_protobuf(effect):
                 if not isinstance(effect, dict) or "protobuf_data_path" not in effect:
@@ -1546,6 +1611,9 @@ class ProjectDataStore(JsonDataStore, UpdateInterface):
             log.error(
                 "Error while moving temp paths to project assets folder %s",
                 asset_path, exc_info=1)
+        finally:
+            # Some assets may already have moved even if a later copy failed.
+            self._relocate_history_assets(history_asset_roots)
 
     def add_to_recent_files(self, file_path):
         """ Add this project to the recent files list """

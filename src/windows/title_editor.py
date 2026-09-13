@@ -260,44 +260,48 @@ class TitleEditor(QDialog):
         self.update_timer.start()
 
     def display_svg(self):
-        # Create a temp file for the thumbnail image
-        new_file, tmp_filename = tempfile.mkstemp(suffix=".png")
-        os.close(new_file)
+        # Select the SVG reader explicitly so an unreadable title reports the
+        # original image error instead of leaving a Clip without a reader.
+        reader = openshot.QtImageReader(self.filename, False)
+        tmp_filename = None
+        try:
+            reader.Open()
 
-        # Create a clip object and get the reader
-        clip = openshot.Clip(self.filename)
-        reader = clip.Reader()
+            # Get the device pixel ratio (for high DPI)
+            scale = get_app().devicePixelRatio()
 
-        # Get the device pixel ratio (for high DPI)
-        scale = get_app().devicePixelRatio()
+            # Get the available size (logical) and the original title size
+            avail_size = self.lblPreviewLabel.rect().size()
+            orig_size = QSize(reader.info.width, reader.info.height)
 
-        # Get the available size (logical) and the original title size
-        avail_size = self.lblPreviewLabel.rect().size()
-        orig_size = QSize(reader.info.width, reader.info.height)
+            # Compute the target rectangle that preserves the title's aspect ratio
+            target_size = orig_size.scaled(avail_size, Qt.KeepAspectRatio)
+            target_rect = QRect(QPoint(0, 0), target_size)
+            target_rect.moveCenter(self.lblPreviewLabel.rect().center())
 
-        # Compute the target rectangle that preserves the title's aspect ratio
-        target_size = orig_size.scaled(avail_size, Qt.KeepAspectRatio)
-        target_rect = QRect(QPoint(0, 0), target_size)
-        target_rect.moveCenter(self.lblPreviewLabel.rect().center())
+            # Determine thumbnail dimensions in physical pixels
+            thumb_width = round(target_rect.width() * scale)
+            thumb_height = round(target_rect.height() * scale)
 
-        # Determine thumbnail dimensions in physical pixels
-        thumb_width = round(target_rect.width() * scale)
-        thumb_height = round(target_rect.height() * scale)
+            # Generate the thumbnail.
+            new_file, tmp_filename = tempfile.mkstemp(suffix=".png")
+            os.close(new_file)
+            reader.GetFrame(1).Thumbnail(
+                tmp_filename,
+                thumb_width,
+                thumb_height,
+                "", "", "#00000000", False, "png", 85, 0.0)
 
-        # Generate the thumbnail.
-        reader.Open()
-        reader.GetFrame(1).Thumbnail(
-            tmp_filename,
-            thumb_width,
-            thumb_height,
-            "", "", "#00000000", False, "png", 85, 0.0)
-        reader.Close()
-        clip.Close()
-
-        # Load the thumbnail pixmap and set its device pixel ratio
-        preview_pixmap = QIcon(tmp_filename).pixmap(thumb_width, thumb_height)
-        preview_pixmap.setDevicePixelRatio(scale)
-        os.unlink(tmp_filename)
+            preview_pixmap = QIcon(tmp_filename).pixmap(thumb_width, thumb_height)
+            preview_pixmap.setDevicePixelRatio(scale)
+        except RuntimeError as ex:
+            log.warning("Unable to preview SVG title %s: %s", self.filename, ex)
+            self.thumbnailReady.emit(QPixmap())
+            return
+        finally:
+            reader.Close()
+            if tmp_filename is not None:
+                os.unlink(tmp_filename)
 
         # Create the final pixmap filled with the label's background color
         final_pixmap = QPixmap(avail_size * scale)
@@ -590,9 +594,11 @@ class TitleEditor(QDialog):
             return
 
         self.is_thread_busy = True
-        self.writeToFile(self.xmldoc)
-        self.display_svg()
-        self.is_thread_busy = False
+        try:
+            self.writeToFile(self.xmldoc)
+            self.display_svg()
+        finally:
+            self.is_thread_busy = False
 
     @pyqtSlot(QColor)
     def color_callback(self, save_fn, refresh_fn, color):
