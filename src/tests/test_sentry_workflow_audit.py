@@ -24,7 +24,7 @@ class SentryWorkflowAuditTests(unittest.TestCase):
     def setUpClass(cls):
         test_sentry_sep12.SentrySeptemberTests.setUpClass.__func__(cls)
 
-    def test_clip_effect_edit_and_deletion_round_trip(self):
+    def test_insert_edit_effect_delete_and_history_keep_all_layers_consistent(self):
         store = make_store()
         store._data = {'clips': [], 'effects': [], 'layers': [], 'fps': {'num': 30, 'den': 1}}
         manager = UpdateManager()
@@ -76,6 +76,11 @@ class SentryWorkflowAuditTests(unittest.TestCase):
             self.assertEqual(native.GetClip(cid).End(), 25)
             self.assertAlmostEqual(json.loads(native.GetClipEffect('crop').PropertiesJSON(1))['left']['value'], 0.2)
             self.assertEqual(int(preview.transforming_effect_object.this), int(native.GetClipEffect('crop').this))
+            crop = Effect.get(id='crop')
+            crop.data['left']['Points'][0]['co']['Y'] = 0.4
+            crop.save()
+            after_effect = copy.deepcopy(store._data['clips'])
+            self.assertAlmostEqual(json.loads(native.GetClipEffect('crop').PropertiesJSON(1))['left']['value'], 0.4)
             Clip.get(id=cid).delete()
             self.assertIsNone(preview.transforming_clip_object)
             self.assertIsNone(preview.transforming_effect_object)
@@ -83,12 +88,14 @@ class SentryWorkflowAuditTests(unittest.TestCase):
             # A queued partial edit must not resurrect the deleted clip.
             helper.update_clip_data(dict(id=cid, position=12, start=7, end=25, duration=18, layer=2))
             self.assertEqual(store._data['clips'], [])
-            self.assertEqual(len(manager.actionHistory), 3)
-            for expected in (after_edit, baseline):
+            self.assertEqual(len(manager.actionHistory), 4)
+            self.assertEqual(manager.actionHistory[0].values, baseline[0])
+            self.assertEqual(manager.actionHistory[1].values['effects'], after_edit[0]['effects'])
+            for expected in (after_effect, after_edit, baseline, []):
                 manager.undo()
                 self.assertEqual(store._data['clips'], expected)
                 self.assertEqual(bool(native.GetClip(cid)), bool(expected))
-            for expected in (after_edit, []):
+            for expected in (baseline, after_edit, after_effect, []):
                 manager.redo()
                 self.assertEqual(store._data['clips'], expected)
                 self.assertEqual(bool(native.GetClip(cid)), bool(expected))
@@ -108,6 +115,7 @@ class SentryWorkflowAuditTests(unittest.TestCase):
                 path = os.path.join(user_path, name.lower())
                 os.makedirs(path)
                 stack.enter_context(patch.object(info, name, path))
+                stack.enter_context(patch.dict(info._path_defaults, {name: path}))
             title_path = os.path.join(info.TITLE_PATH, 'title.svg')
             svg = '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="18"><rect width="32" height="18" fill="red"/></svg>'
             with open(title_path, 'w') as stream:
@@ -126,12 +134,31 @@ class SentryWorkflowAuditTests(unittest.TestCase):
                                      {'id': 'generated', 'reader': {}, 'effects': [{'protobuf_data_path': tracking_path}]}]}
             stack.enter_context(patch.object(store, 'add_to_recent_files'))
             stack.enter_context(patch.object(self.app, 'project', store))
+            manager = UpdateManager()
+            manager.add_listener(store)
+            stack.enter_context(patch.object(self.app, 'updates', manager))
+            stack.enter_context(patch.object(self.app, 'window', Mock()))
+            initial = store._data
+            store._data = {'files': [], 'clips': [], 'history': {'undo': [], 'redo': []}}
+            for collection in ('files', 'clips'):
+                for value in initial[collection]:
+                    manager.insert([collection], value)
+            # This recording has no live file/clip record when the project saves.
+            history_only_path = os.path.join(user_path, 'recordings', 'undone.mov')
+            with open(history_only_path, 'wb') as stream:
+                stream.write(b'undone recording')
+            manager.insert(['files'], {'id': 'undone', 'path': history_only_path})
+            manager.undo()
             reopened = []
             for name in ('first', 'second'):
                 destination = os.path.join(root, name + '.osp')
+                manager.save_history(store, 100)
                 store.save(destination)
                 data = store.read_from_file(destination, path_mode='absolute')
                 reopened.append(data)
+                if name == 'first':
+                    self.assertFalse(os.path.exists(title_path))
+                    self.assertFalse(os.path.exists(recording_path))
                 for record in data['files']:
                     self.assertTrue(os.path.isfile(record['path']))
                     self.assertTrue(record['path'].startswith(os.path.join(root, name + '_assets')))
@@ -149,8 +176,79 @@ class SentryWorkflowAuditTests(unittest.TestCase):
                     self.assertEqual(restored_title.GetFrame(1).GetWidth(), 32)
                 finally:
                     restored_title.Close()
+                # Active history and reopened history must both restore usable
+                # media, without changing the original clip's trim or position.
+                for active in (True, False):
+                    replay_store = store if active else make_store()
+                    replay_manager = manager if active else UpdateManager()
+                    if not active:
+                        replay_store._data = copy.deepcopy(data)
+                        replay_manager.add_listener(replay_store)
+                        replay_manager.load_history(replay_store)
+                    with patch.object(self.app, 'project', replay_store), \
+                            patch.object(self.app, 'updates', replay_manager):
+                        replay_manager.redo()
+                        undone = replay_store._data['files'][-1]
+                        self.assertEqual(undone['id'], 'undone')
+                        self.assertTrue(undone['path'].startswith(os.path.join(root, name + '_assets')))
+                        with open(undone['path'], 'rb') as stream:
+                            self.assertEqual(stream.read(), b'undone recording')
+                        replay_manager.undo()
+                        for _ in range(3):
+                            replay_manager.undo()
+                        self.assertEqual(replay_store._data['clips'], [])
+                        for _ in range(3):
+                            replay_manager.redo()
+                        restored = replay_store._data['clips'][0]
+                        self.assertEqual((restored['start'], restored['end'], restored['position']), (0, 10, 10))
+                        self.assertEqual(restored['reader']['path'], data['clips'][0]['reader']['path'])
+                        self.assertTrue(os.path.exists(restored['reader']['path']))
+                        self.assertTrue(os.path.exists(replay_store._data['clips'][1]['reader']['path']))
             # Save As must leave the first project's media intact and independent.
             self.assertNotEqual(reopened[0]['files'][1]['path'], reopened[1]['files'][1]['path'])
             for data in reopened:
                 with open(data['files'][1]['path'], 'rb') as stream:
                     self.assertEqual(stream.read(), recording_bytes)
+
+    def test_history_asset_relocation_preserves_external_paths_and_failed_copies(self):
+        from classes.updates import UpdateAction
+        store = make_store()
+        store._data = {'history': {'undo': [], 'redo': []}}
+        manager = UpdateManager()
+        manager.add_listener(store)
+        with tempfile.TemporaryDirectory() as root, \
+                patch.object(self.app, 'project', store), patch.object(self.app, 'updates', manager):
+            source = os.path.join(root, 'assets')
+            target = os.path.join(root, 'saved_assets')
+            os.makedirs(source)
+            paths = [os.path.join(source, name) for name in ('new.svg', 'old.svg')]
+            for path in paths:
+                with open(path, 'w') as stream:
+                    stream.write(path)
+            external = os.path.join(root, 'assets-other', 'external.svg')
+            payload = {'reader': {'path': paths[0]}, 'title': paths[0], 'position': 12,
+                       'effects': [{'resource': external}]}
+            manager.actionHistory = [UpdateAction('update', ['clips', {'id': 'clip'}], copy.deepcopy(payload))]
+            manager.redoHistory = [UpdateAction('update', ['files', {'id': 'file'}, 'path'], paths[0], paths[1])]
+            manager.save_history(store, 100)
+            original_copy = store._copy_recording_asset
+
+            def copy_asset(source_path, destination):
+                if source_path == paths[1]:
+                    raise PermissionError('inaccessible source')
+                return original_copy(source_path, destination)
+
+            with patch.object(store, '_copy_recording_asset', side_effect=copy_asset), \
+                    patch('classes.project_data.log.warning') as warning:
+                store._relocate_history_assets([(source, target)])
+            self.assertTrue(warning.called)
+            updated = manager.actionHistory[0].values
+            self.assertEqual(updated['reader']['path'], os.path.join(target, 'new.svg'))
+            self.assertEqual(updated['title'], paths[0])
+            self.assertEqual(updated['position'], 12)
+            self.assertEqual(updated['effects'][0]['resource'], external)
+            self.assertEqual(manager.redoHistory[0].values, os.path.join(target, 'new.svg'))
+            self.assertEqual(manager.redoHistory[0].old_values, paths[1])
+            self.assertEqual(store._data['history']['redo'][0]['old_values'], paths[1])
+            self.assertTrue(all(os.path.isfile(path) for path in paths))
+            self.assertFalse(os.path.exists(os.path.join(target, 'old.svg')))
