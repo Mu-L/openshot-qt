@@ -1300,9 +1300,13 @@ class ProjectDataStore(JsonDataStore, UpdateInterface):
 
     def move_temp_paths_to_project_folder(self, file_path, previous_path=None):
         """ Move all temp files (such as Thumbnails, Titles, and Blender animations) to the project asset folder. """
+        # Fail the save before relocating media or writing the project when its
+        # asset directory cannot be created (permissions, disk full, etc.).
+        asset_path = get_assets_path(file_path)
+        if not asset_path:
+            raise OSError("Unable to create project assets for %s" % file_path)
         try:
-            # Get or generate asset folder name, max 30 chars of filename + "_assets"
-            asset_path = get_assets_path(file_path)
+            # Resolve destination folders before moving assets.
             target_thumb_path = os.path.join(asset_path, "thumbnail")
             target_title_path = os.path.join(asset_path, "title")
             target_blender_path = os.path.join(asset_path, "blender")

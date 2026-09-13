@@ -488,9 +488,9 @@ class VideoWidget(QWidget, updates.UpdateInterface):
 
         # Display the playback speed in widget title
         speed = 0.0
-        mode = self.win.preview_thread.player.Mode()
-        if mode != openshot.PLAYBACK_PAUSED:
-            speed = self.win.preview_thread.player.Speed()
+        preview_thread = getattr(self.win, "preview_thread", None)
+        if preview_thread and preview_thread.player.Mode() != openshot.PLAYBACK_PAUSED:
+            speed = preview_thread.player.Speed()
 
         # Find parent dockWidget (if any)
         dock = None
