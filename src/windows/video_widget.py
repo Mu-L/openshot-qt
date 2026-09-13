@@ -2610,16 +2610,36 @@ class VideoWidget(QWidget, updates.UpdateInterface):
     def refreshTriggered(self):
         """Signal to refresh viewport (i.e. a property might have changed that effects the preview)"""
 
-        # Update reference to clip(s)
-        if self.transforming_clips:
-            self.transforming_clips = [Clip.get(id=c.id) for c in self.transforming_clips if Clip.get(id=c.id)]
-            if self.transforming_clips:
-                self.transforming_clip = self.transforming_clips[0]
-            else:
-                self.transforming_clip = None
+        # SWIG references do not keep timeline-owned objects alive. Undo/redo
+        # can delete or replace them, so resolve both sides by their Python IDs.
+        timeline = self.win.timeline_sync.timeline
+        clips, objects = [], []
+        for selected in self.transforming_clips:
+            clip = Clip.get(id=selected.id)
+            obj = timeline.GetClip(selected.id)
+            if clip and obj:
+                clips.append(clip)
+                objects.append(obj)
+        self.transforming_clips = clips
+        self.transforming_clip_objects = objects
 
         if self.transforming_effect:
-            self.transforming_effect = Effect.get(id=self.transforming_effect.id)
+            clip_id = self.transforming_clip.id if self.transforming_clip else None
+            effect_id = self.transforming_effect.id
+            clip = Clip.get(id=clip_id) if clip_id else None
+            obj = timeline.GetClip(clip_id) if clip_id else None
+            effect = Effect.get(id=effect_id)
+            effect_obj = timeline.GetClipEffect(effect_id)
+            if clip and obj and effect and effect_obj:
+                self.transforming_clip = clip
+                self.transforming_clip_object = obj
+                self.transforming_effect = effect
+                self.transforming_effect_object = effect_obj
+                return
+        self.transforming_effect = None
+        self.transforming_effect_object = None
+        self.transforming_clip = clips[0] if clips else None
+        self.transforming_clip_object = objects[0] if objects else None
 
     def transformTriggered(self, clip_ids):
         """Handle the transform signal when it's emitted. Supports multiple clip IDs."""

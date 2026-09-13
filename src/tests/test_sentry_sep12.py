@@ -201,3 +201,117 @@ class SentrySeptemberTests(unittest.TestCase):
             reader.Close.assert_called_once_with()
             self.assertFalse(os.path.exists(path))
             self.assertTrue(helper.thumbnailReady.emit.call_args[0][0].isNull())
+
+    def test_redo_title_delete_refreshes_native_selection_before_next_listener(self):
+        from classes.timeline import TimelineSync
+        from classes.updates import UpdateAction, UpdateManager
+
+        timeline = openshot.Timeline(320, 180, openshot.Fraction(30, 1),
+                                     44100, 2, openshot.LAYOUT_STEREO)
+        window = types.SimpleNamespace(proxy_service=None, IgnoreUpdates=Mock(), verifySelections=Mock())
+        sync = types.SimpleNamespace(timeline=timeline, window=window)
+        window.timeline_sync = sync
+        preview = types.SimpleNamespace(
+            win=window, transforming_clips=[], transforming_clip_objects=[],
+            transforming_clip=None, transforming_clip_object=None,
+            transforming_effect=None, transforming_effect_object=None)
+        preview.refreshTriggered = lambda: self.video.VideoWidget.refreshTriggered(preview)
+        window.videoPreview = preview
+        manager = UpdateManager()
+        manager.add_listener(types.SimpleNamespace(changed=lambda action: TimelineSync.changed(sync, action)))
+        observed = []
+        manager.add_listener(types.SimpleNamespace(changed=lambda action: observed.append(
+            [clip.id for clip in preview.transforming_clips])))
+        rows = {}
+        with tempfile.TemporaryDirectory() as root:
+            path = os.path.join(root, 'title.svg')
+            with open(path, 'w') as stream:
+                stream.write('<svg xmlns="http://www.w3.org/2000/svg" width="32" height="18">'
+                             '<rect width="32" height="18" fill="red"/></svg>')
+            source = openshot.Clip(path)
+            source.Id('title')
+            source.End(10)
+            value = json.loads(source.Json())
+            survivor = copy.deepcopy(value)
+            survivor['id'] = 'survivor'
+            for data in (value, survivor):
+                timeline.ApplyJsonDiff(json.dumps([{
+                    'type': 'insert', 'key': ['clips'], 'value': data}]))
+                rows[data['id']] = types.SimpleNamespace(id=data['id'], data=data)
+            preview.transforming_clips = list(rows.values())
+            preview.transforming_clip_objects = [timeline.GetClip(cid) for cid in rows]
+            preview.transforming_clip = rows['title']
+            preview.transforming_clip_object = timeline.GetClip('title')
+            with patch.object(self.video.Clip, 'get', side_effect=lambda id: rows.get(id)), \
+                    patch('classes.updates.get_app', return_value=types.SimpleNamespace(window=window)):
+                # Move five times, undo those moves, then redo through deletion.
+                # Keep the project rows stale until after dispatch, matching the
+                # native listener running ahead of the project-data listener.
+                for position in range(1, 6):
+                    action = UpdateAction('update', ['clips', {'id': 'title'}],
+                                          {'position': position}, {'position': position - 1})
+                    manager.actionHistory.append(action)
+                    manager.dispatch_action(action)
+                    self.assertEqual(preview.transforming_clip_object.Position(), position)
+                deleted_value = dict(value, position=5)
+                action = UpdateAction('delete', ['clips', {'id': 'title'}], None, deleted_value)
+                manager.actionHistory.append(action)
+                manager.dispatch_action(action)
+                self.assertEqual(observed[-1], ['survivor'])
+                manager.undo()
+                # Select the restored title, then undo/redo its five moves.
+                preview.transforming_clips = list(rows.values())
+                preview.refreshTriggered()
+                for position in range(4, -1, -1):
+                    manager.undo()
+                    self.assertEqual(preview.transforming_clip_object.Position(), position)
+                for position in range(1, 6):
+                    manager.redo()
+                    self.assertEqual(preview.transforming_clip_object.Position(), position)
+                manager.redo()
+                self.assertIsNone(timeline.GetClip('title'))
+                self.assertEqual(observed[-1], ['survivor'])
+                self.assertEqual([c.id for c in preview.transforming_clips], ['survivor'])
+                self.assertEqual(len(preview.transforming_clip_objects), 1)
+                self.assertEqual(preview.transforming_clip_object.Id(), 'survivor')
+                self.assertEqual(preview.transforming_clip_objects[0].Id(), 'survivor')
+                # Deleting the remaining selected clip clears every borrowed pointer.
+                manager.dispatch_action(UpdateAction('delete', ['clips', {'id': 'survivor'}]))
+                self.assertEqual(preview.transforming_clip_objects, [])
+                self.assertIsNone(preview.transforming_clip_object)
+                self.assertIsNone(preview.transforming_clip)
+        timeline.Clear()
+
+    def test_refresh_rebinds_replaced_effect_and_clears_deleted_effect(self):
+        timeline = openshot.Timeline(320, 180, openshot.Fraction(30, 1),
+                                     44100, 2, openshot.LAYOUT_STEREO)
+        reader = openshot.DummyReader(openshot.Fraction(30, 1), 320, 180, 44100, 2, 10.0)
+        source = openshot.Clip(reader)
+        source.Id('clip')
+        effect = openshot.Crop()
+        effect.Id('crop')
+        source.AddEffect(effect)
+        value = json.loads(source.Json())
+        timeline.ApplyJsonDiff(json.dumps([{'type': 'insert', 'key': ['clips'], 'value': value}]))
+        clip_row = types.SimpleNamespace(id='clip')
+        effect_row = types.SimpleNamespace(id='crop')
+        preview = types.SimpleNamespace(
+            win=types.SimpleNamespace(timeline_sync=types.SimpleNamespace(timeline=timeline)),
+            transforming_clips=[], transforming_clip_objects=[],
+            transforming_clip=clip_row, transforming_clip_object=timeline.GetClip('clip'),
+            transforming_effect=effect_row, transforming_effect_object=timeline.GetClipEffect('crop'))
+        with patch.object(self.video.Clip, 'get', return_value=clip_row), \
+                patch.object(self.video.Effect, 'get', return_value=effect_row):
+            # Full clip updates replace the effect even when its ID is unchanged.
+            timeline.ApplyJsonDiff(json.dumps([{
+                'type': 'update', 'key': ['clips', {'id': 'clip'}], 'value': value}]))
+            self.video.VideoWidget.refreshTriggered(preview)
+            self.assertEqual(int(preview.transforming_effect_object.this),
+                             int(timeline.GetClipEffect('crop').this))
+            timeline.ApplyJsonDiff(json.dumps([{
+                'type': 'delete', 'key': ['clips', {'id': 'clip'}], 'value': None}]))
+            self.video.VideoWidget.refreshTriggered(preview)
+            self.assertIsNone(preview.transforming_effect_object)
+            self.assertIsNone(preview.transforming_clip_object)
+            self.assertIsNone(preview.transforming_effect)
+        timeline.Clear()
