@@ -112,7 +112,7 @@ def feedback_command(category):
         def tracked(*args, **kwargs):
             # QAction adds checked(bool). A *args wrapper must discard this extra
             # argument itself, as Qt did for the original fixed-arity handler.
-            if len(args) == positional_count + 1 and type(args[-1]) is bool:
+            if len(args) == positional_count + 1 and isinstance(args[-1], bool):
                 args = args[:-1]
             # Some presets delegate to other commands (e.g. volume fade in + out).
             if _feedback_command_active.get():
@@ -164,7 +164,7 @@ class FeedbackPolicy:
     @property
     def action_count(self):
         value = self.settings.get("feedback-action-count")
-        return min(3, max(0, value)) if type(value) is int else 0
+        return min(3, max(0, value)) if isinstance(value, int) and not isinstance(value, bool) else 0
 
     @property
     def experienced(self):

@@ -3,7 +3,7 @@
 import os
 from pathlib import Path
 import shutil
-import subprocess
+import subprocess  # nosec B404 - Isolate the real Qt app in a test process.
 import sys
 import tempfile
 import unittest
@@ -114,7 +114,8 @@ assert passed
 '''
         with tempfile.TemporaryDirectory(prefix="openshot-feedback-menu-") as folder:
             media = str(Path(folder) / "clip.mp4")
-            subprocess.run([
+            # Fixed fixture arguments, a temporary output path, and no shell.
+            subprocess.run([  # nosec B603
                 "ffmpeg", "-hide_banner", "-loglevel", "error",
                 "-f", "lavfi", "-i", "color=c=blue:s=160x90:r=24",
                 "-f", "lavfi", "-i", "anullsrc=r=48000:cl=stereo",
@@ -123,7 +124,8 @@ assert passed
             env = dict(os.environ, PYTHONPATH=str(Path(__file__).resolve().parents[1]),
                        QT_QPA_PLATFORM="offscreen", QT_QUICK_BACKEND="software",
                        FEEDBACK_TEST_MEDIA=media)
-            result = subprocess.run([sys.executable, "-c", script], env=env,
+            # Execute only the literal test script above, using this Python interpreter.
+            result = subprocess.run([sys.executable, "-c", script], env=env,  # nosec B603
                                     stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
                                     text=True, timeout=90)
         self.assertEqual(result.returncode, 0, result.stdout[-16000:])

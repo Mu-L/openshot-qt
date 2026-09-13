@@ -453,7 +453,7 @@ class FeedbackTests(unittest.TestCase):
         self.assertEqual(controller.last_input, 0)
 
     def test_event_filter_does_not_access_deleted_main_window(self):
-        from qt_api import QEvent, QCoreApplication, QWidget, isdeleted
+        from qt_api import QEvent, QCoreApplication, QWidget
         controller = self.make_controller(Settings())
         controller.timer.stop()
         window = controller.window
@@ -578,9 +578,12 @@ class FeedbackActionHookTests(unittest.TestCase):
                                           record_action=self.policy.record_action)
         self.clips = {key: SimpleNamespace(data={"id": key, "start": 0, "end": 10})
                       for key in ("one", "two")}
+        def get_clip(id):
+            return self.clips.get(id)
+
         for mock in (patch("classes.app.get_app", return_value=SimpleNamespace(
                 window=SimpleNamespace(feedback_controller=self.controller))),
-                patch.object(Clip, "get", side_effect=lambda id: self.clips.get(id))):
+                patch.object(Clip, "get", side_effect=get_clip)):
             mock.start()
             self.addCleanup(mock.stop)
 
@@ -607,10 +610,12 @@ class FeedbackActionHookTests(unittest.TestCase):
         from qt_api import QAction
         from classes.feedback import feedback_command
 
+        clips = self.clips
+
         class Commands:
             @feedback_command("structure")
-            def trim(command_self, clip_ids, end):
-                self.clips["one"].data["end"] = end
+            def trim(self, clip_ids, end):
+                clips["one"].data["end"] = end
                 return end
 
         commands = Commands()
@@ -627,8 +632,7 @@ class FeedbackActionHookTests(unittest.TestCase):
         # A legitimate boolean parameter must not be removed.
         self.assertIs(commands.trim(["one"], False), False)
         # Do not hide ordinary programming errors with other extra arguments.
-        with self.assertRaises(TypeError):
-            commands.trim(["one"], 7, "unexpected")
+        self.assertRaises(TypeError, commands.trim, ["one"], 7, "unexpected")
 
     def test_cancelled_or_failed_command_does_not_count(self):
         from classes.feedback import feedback_command

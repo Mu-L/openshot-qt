@@ -131,7 +131,7 @@ class FeedbackCommandTests(unittest.TestCase):
                 dialog.export_fps_factor = 1.0
                 dialog.old_cache_object = None
                 dialog.s = Mock(get=lambda key: False)
-                app = SimpleNamespace(_tr=lambda text: text, get_settings=lambda: Mock(),
+                app = SimpleNamespace(_tr=lambda text: text, get_settings=Mock,
                     project=SimpleNamespace(), window=SimpleNamespace(timeline_sync=Mock()))
                 writer = Mock()
                 if outcome == "cancel":
