@@ -91,6 +91,27 @@
     "title": "",
     "type": "hidden",
     "category": "General",
+    "setting": "feedback-release"
+  },
+  {
+    "value": 0,
+    "title": "",
+    "type": "hidden",
+    "category": "General",
+    "setting": "feedback-action-count"
+  },
+  {
+    "value": [],
+    "title": "",
+    "type": "hidden",
+    "category": "General",
+    "setting": "feedback-action-categories"
+  },
+  {
+    "value": "",
+    "title": "",
+    "type": "hidden",
+    "category": "General",
     "setting": "dismissed-update-version"
   },
   {

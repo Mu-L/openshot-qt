@@ -68,6 +68,9 @@ def verify():
             QTest.keyClick(window, Qt.Key_F8)
             app.processEvents()
             assert opened.call_count == 1
+            assert set(area.banners) == {"feedback", "update"}
+            area.banners["feedback"].primary.click()
+            assert opened.call_count == 2
         assert set(area.banners) == {"update"}
         with patch("windows.main_window.webbrowser.open", return_value=True) as opened:
             QTest.keyClick(window, Qt.Key_F9)

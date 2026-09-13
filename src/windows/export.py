@@ -54,6 +54,7 @@ from classes import ui_util
 from classes import openshot_rc  # noqa
 from classes.logger import log
 from classes.app import get_app
+from classes.feedback import record_feedback_action
 from classes.metrics import track_metric_screen, track_metric_error
 from classes.query import File
 
@@ -1315,6 +1316,8 @@ class Export(QDialog):
 
             # Close writer
             w.Close()
+            if self.exporting and max_frame == end_frame_export:
+                record_feedback_action("export")
 
             # Emit final exported frame (with elapsed time)
             seconds_run = round((end_time_export - start_time_export))
